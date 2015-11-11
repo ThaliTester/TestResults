@@ -9,8 +9,6 @@
 ```
 Already up-to-date.
 
-From https://github.com/thaliproject/Thali_CordovaPlugin
-   58b6ce5..f099041  issue_293  -> origin/issue_293
 
 ```
 
