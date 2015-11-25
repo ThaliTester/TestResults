@@ -1,8 +1,8 @@
-#### Test 51335028c93db41_iOS_Iphone6-1 Logs
+#### Test 51790364c93db41_iOS_Iphone6-1 Logs
 
 
 ```
-[100%] Installed package /Users/thali/Github/CI/builder/builds/51335028c93db41/build_ios/ThaliTest.app
+[100%] Installed package /Users/thali/Github/CI/builder/builds/51790364c93db41/build_ios/ThaliTest.app
 ,------ Debug phase ------
 ,Starting debug of iPhone 6 (GSM) 'Iphone6-1' (2a65f58f9902a701b5c9a55b2befb18672927474) connected through USB...
 ,[  0%] Looking up developer disk image
@@ -10,41 +10,41 @@
 ,[100%] Connecting to remote debug server
 -------------------------
 ,Skipping J81AP 'IpadAir2-1' (605a17dff1a0ba7f312ea7b076f5923e29d8b1fe).
-,(lldb) command source -s 0 '/tmp/D41114F6-F139-405D-90B6-D79C5D0333E9/fruitstrap-lldb-prep-cmds-2a65f58f9902a701b5c9a55b2befb18672927474'
-,Executing commands in '/tmp/D41114F6-F139-405D-90B6-D79C5D0333E9/fruitstrap-lldb-prep-cmds-2a65f58f9902a701b5c9a55b2befb18672927474'.
+,(lldb) command source -s 0 '/tmp/BBB52C3A-A6EE-46F6-AB9B-8B82C56EAC43/fruitstrap-lldb-prep-cmds-2a65f58f9902a701b5c9a55b2befb18672927474'
+,Executing commands in '/tmp/BBB52C3A-A6EE-46F6-AB9B-8B82C56EAC43/fruitstrap-lldb-prep-cmds-2a65f58f9902a701b5c9a55b2befb18672927474'.
 (lldb)     platform select remote-ios --sysroot '/Users/thali/Library/Developer/Xcode/iOS DeviceSupport/8.4 (12H143)/Symbols'
 ,  Platform: remote-ios
  Connected: no
   SDK Path: "/Users/thali/Library/Developer/Xcode/iOS DeviceSupport/8.4 (12H143)/Symbols"
-(lldb)     target create "/Users/thali/Github/CI/builder/builds/51335028c93db41/build_ios/ThaliTest.app"
-,Current executable set to '/Users/thali/Github/CI/builder/builds/51335028c93db41/build_ios/ThaliTest.app' (armv7).
-(lldb)     script fruitstrap_device_app="/private/var/mobile/Containers/Bundle/Application/08FCACF1-5F11-4FC7-B72B-CDEB8BFF2090/ThaliTest.app"
-,(lldb)     script fruitstrap_connect_url="connect://127.0.0.1:55488"
-,(lldb)     command script import "/tmp/D41114F6-F139-405D-90B6-D79C5D0333E9/fruitstrap_2a65f58f9902a701b5c9a55b2befb18672927474.py"
+,(lldb)     target create "/Users/thali/Github/CI/builder/builds/51790364c93db41/build_ios/ThaliTest.app"
+,Current executable set to '/Users/thali/Github/CI/builder/builds/51790364c93db41/build_ios/ThaliTest.app' (armv7).
+(lldb)     script fruitstrap_device_app="/private/var/mobile/Containers/Bundle/Application/8B3D6AD3-2F4B-41FF-A9B7-E6449A65D5D8/ThaliTest.app"
+,(lldb)     script fruitstrap_connect_url="connect://127.0.0.1:55623"
+,(lldb)     command script import "/tmp/BBB52C3A-A6EE-46F6-AB9B-8B82C56EAC43/fruitstrap_2a65f58f9902a701b5c9a55b2befb18672927474.py"
 ,(lldb)     command script add -f fruitstrap_2a65f58f9902a701b5c9a55b2befb18672927474.connect_command connect
-(lldb)     command script add -s asynchronous -f fruitstrap_2a65f58f9902a701b5c9a55b2befb18672927474.run_command run
+,(lldb)     command script add -s asynchronous -f fruitstrap_2a65f58f9902a701b5c9a55b2befb18672927474.run_command run
 ,(lldb)     command script add -s asynchronous -f fruitstrap_2a65f58f9902a701b5c9a55b2befb18672927474.autoexit_command autoexit
 ,(lldb)     command script add -s asynchronous -f fruitstrap_2a65f58f9902a701b5c9a55b2befb18672927474.safequit_command safequit
 ,(lldb)     connect
 ,(lldb)     run
 ,success
-,(lldb)     autoexit
-,2015-11-25 13:45:04.967 ThaliTest[1668:1301589] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///private/var/mobile/Containers/Data/Application/77E82A9E-B2A8-46EA-9EFF-2D1C7B87A8FF/Library/Cookies/Cookies.binarycookies
-,2015-11-25 13:45:05.360 ThaliTest[1668:1301589] Apache Cordova native platform version 3.9.2 is starting.
-,2015-11-25 13:45:05.361 ThaliTest[1668:1301589] Multi-tasking -> Device: YES, App: YES
-,2015-11-25 13:45:05.370 ThaliTest[1668:1301589] Unlimited access to network resources
-,2015-11-25 13:45:05.376 ThaliTest[1668:1301589] 
+(lldb)     autoexit
+,2015-11-25 14:26:18.385 ThaliTest[1679:1305817] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///private/var/mobile/Containers/Data/Application/67FECD32-224F-4868-941C-5E88AA2D5BB5/Library/Cookies/Cookies.binarycookies
+,2015-11-25 14:26:18.765 ThaliTest[1679:1305817] Apache Cordova native platform version 3.9.2 is starting.
+,2015-11-25 14:26:18.766 ThaliTest[1679:1305817] Multi-tasking -> Device: YES, App: YES
+,2015-11-25 14:26:18.774 ThaliTest[1679:1305817] Unlimited access to network resources
+,2015-11-25 14:26:18.780 ThaliTest[1679:1305817] 
 
 Started backup to iCloud! Please be careful.
 Your application might be rejected by Apple if you store too much data.
 For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
+https://developer,.apple.com/icloud/documentation/data-storage/
 To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
 
-,2015-11-25 13:45:09.071 ThaliTest[1668:1301589] Resetting plugins due to page load.
-,2015-11-25 13:45:09.438 ThaliTest[1668:1301589] Finished load of: file:///private/var/mobile/Containers/Bundle/Application/08FCACF1-5F11-4FC7-B72B-CDEB8BFF2090/ThaliTest.app/www/index.html
-,2015-11-25 13:45:09.559 ThaliTest[1668:1301589] JXcore Cordova plugin initializing
-2015-11-25 13:45:09.561 ThaliTest[1668:1301737] JXcore instance initializing
+,2015-11-25 14:26:22.325 ThaliTest[1679:1305817] Resetting plugins due to page load.
+,2015-11-25 14:26:22.665 ThaliTest[1679:1305817] Finished load of: file:///private/var/mobile/Containers/Bundle/Application/8B3D6AD3-2F4B-41FF-A9B7-E6449A65D5D8/ThaliTest.app/www/index.html
+,2015-11-25 14:26:22.788 ThaliTest[1679:1305817] JXcore Cordova plugin initializing
+,2015-11-25 14:26:22.789 ThaliTest[1679:1305955] JXcore instance initializing
 ,Initializing JXcore engine
 JXcore engine is ready
 ,Starting JXcore engine
@@ -57,35 +57,14 @@ JXcore engine is ready
 ,Could not toggle Bluetooth - Warning: iOS does not support ToggleBluetooth
 ,Warning: iOS does not support ToggleWiFi
 ,Could not toggle Wifi - Warning: iOS does not support ToggleWiFi
-Radios toggled
-,my name is : Apple-Iphone6-1_PT8750
+,Radios toggled
+,my name is : Apple-Iphone6-1_PT8475
 ,attempting to connect to test coordinator
-check test folder
+,check test folder
 ,found test : ./testFindPeers.js
 ,found test : ./testReConnect.js
 ,found test : ./testSendData.js
 ,Test app app.js loaded
-,DBG, CoordinatorConnector connect_error called
-,DBG, CoordinatorConnector connect_error called
-,DBG, CoordinatorConnector connect_error called
-,DBG, CoordinatorConnector connect_error called
-,DBG, CoordinatorConnector connect_error called
-,DBG, CoordinatorConnector connect_error called
-,DBG, CoordinatorConnector connect_error called
-,DBG, CoordinatorConnector connect_error called
-,DBG, CoordinatorConnector connect_error called
-,DBG, CoordinatorConnector connect_error called
-,DBG, CoordinatorConnector connect_error called
-,DBG, CoordinatorConnector connect_error called
-,DBG, CoordinatorConnector connect_error called
-,DBG, CoordinatorConnector connect_error called
-,DBG, CoordinatorConnector connect_error called
-,DBG, CoordinatorConnector connect_error called
-,DBG, CoordinatorConnector connect_error called
-,DBG, CoordinatorConnector connect_error called
-,DBG, CoordinatorConnector connect_error called
-,DBG, CoordinatorConnector connect_error called
-,DBG, CoordinatorConnector connect_error called
 ,DBG, CoordinatorConnector connect_error called
 ,DBG, CoordinatorConnector connect_error called
 ,DBG, CoordinatorConnector connect_error called
@@ -146,191 +125,228 @@ check test folder
 ,Start now : testSendData.js
 ,testSendData created {"timeout":1000000,"rounds":1,"dataTimeout":10000,"dataAmount":100000,"conReTryTimeout":5000,"conReTryCount":5}, bt-address lenght : 0
 ,check server
-,serverPort is 61790
-,2015-11-25 13:53:10.465 ThaliTest[1668:1301737] jxcore: startBroadcasting
-,2015-11-25 13:53:10.476 ThaliTest[1668:1301737] server: starting Apple-Iphone6-1_PT8750.Du3EhQ==
-,2015-11-25 13:53:10.478 ThaliTest[1668:1301737] multipeer session: start timer: 0x1a65df30
-2015-11-25 13:53:10.478 ThaliTest[1668:1301737] THEMultipeerSession initialized peer Apple-Iphone6-1_PT8750
-2015-11-25 13:53:10.479 ThaliTest[1668:1301737] jxcore:, startBroadcasting: success
+,serverPort is 61902
+,2015-11-25 14:32:34.976 ThaliTest[1679:1305955] jxcore: startBroadcasting
+,2015-11-25 14:32:34.987 ThaliTest[1679:1305955] server: starting Apple-Iphone6-1_PT8475.0elZ3A==
+,2015-11-25 14:32:34.988 ThaliTest[1679:1305955] multipeer session: start timer: 0x1c584180
+2015-11-25 14:32:34.989 ThaliTest[1679:1305955] THEMultipeerSession initialized peer Apple-Iphone6-1_PT8475
+2015-11-25 14:32:34.989 ThaliTest[1679:1305955] jxcore:, startBroadcasting: success
 StartBroadcasting started ok
-2015-11-25T12:53:10.483Z SendDataTCPServer.js: TCP/IP server is bound to port: 61790
-,2015-11-25 13:53:10.965 ThaliTest[1668:1301589] multipeer session: reset timer
-2015-11-25 13:53:10.965 ThaliTest[1668:1301589] multipeer session: stop timer
-2015-11-25 13:53:10.966 ThaliTest[1668:1301589] multipeer session: start timer: 0x1a65df30
-2015-,11-25 13:53:10.966 ThaliTest[1668:1301589] server session: connect
-2015-11-25 13:53:10.967 ThaliTest[1668:1301589] server session: stateChange:0->1 Apple-Iphone5-1_PT9701
-,2015-11-25 13:53:10.972 ThaliTest[1668:1301589] server: accepting invitation Apple-Iphone5-1_PT9701
-,2015-11-25 13:53:11.109 ThaliTest[1668:1301589] client: found peer: Apple-Iphone5s-1_PT5807.1C0pWw==
-peerAvailabilityChanged [{"peerIdentifier":"Apple-Iphone5s-1_PT5807.1C0pWw==","peerName":"(null)","peerAvailable":true}]
-Found peer : (null), Available: ,true
-,device[1]: Apple-Iphone5s-1_PT5807.1C0pWw==
-2015-11-25T12:53:11.116Z SendDataConnector.js: Start called with peer Apple-Iphone5s-1_PT5807.1C0pWw==
-2015-11-25T12:53:11.117Z SendDataConnector.js: doConnect called with peer Apple-Iphone5s-1_PT5807.1C0pWw==,
-2015-11-25T12:53:11.117Z SendDataConnector.js: do connect now
-,2015-11-25 13:53:11.118 ThaliTest[1668:1301737] jxcore: connect Apple-Iphone5s-1_PT5807.1C0pWw==
-,2015-11-25 13:53:11.119 ThaliTest[1668:1301737] client session: connect
-2015-11-25 13:53:11.120 ThaliTest[1668:1301737] client session: stateChange:0->1 Apple-Iphone5s-1_PT5807.1C0pWw==
-,2015-11-25 13:53:11.223 ThaliTest[1668:1301589] multipeer session: reset timer
-2015-11-25 13:53:11.223 ThaliTest[1668:1301589] multipeer session: stop timer
-2015-11-25 13:53:11.223 ThaliTest[1668:1301589] multipeer session: start timer: 0x1a65df30
-2015-11-25 13:53:11.223 ThaliTest[1668:1301589] server session: connect
-2015-11-25 13:53:11.224 ThaliTest[1668:1301589] server session: stateChange:0->1 Apple-Iphone5s-1_PT5807
-,2015-11-25 13:53:11.227 ThaliTest[1668:1301589] server: accepting invitation Apple-Iphone5s-1_PT5807
-,2015-11-25 13:53:11.456 ThaliTest[1668:1301589] client: found peer: Apple-IpadAir2-1_PT7357.1lZx3Q==
-peerAvailabilityChanged [{"peerIdentifier":"Apple-IpadAir2-1_PT7357.1lZx3Q==","peerName":"(null)","peerAvailable":true}]
-,Found peer : (null), Available: true
-,2015-11-25 13:53:11.656 ThaliTest[1668:1301589] multipeer session: reset timer
-2015-11-25 13:53:11.657 ThaliTest[1668:1301589] multipeer session: stop timer
-2015-11-25 13:53:11.658 ThaliTest[1668:1301589] multipeer session: start timer: 0x1a65df30
-2015-,11-25 13:53:11.658 ThaliTest[1668:1301589] server session: connect
-2015-11-25 13:53:11.659 ThaliTest[1668:1301589] server session: stateChange:0->1 Apple-IpadAir2-1_PT7357
-,2015-11-25 13:53:11.669 ThaliTest[1668:1301589] server: accepting invitation Apple-IpadAir2-1_PT7357
-2015-11-25 13:53:11.682 ThaliTest[1668:1301589] client: found peer: Apple-Iphone5-1_PT9701.GagVHA==
-peerAvailabilityChanged [{"peerIdentifier":"Apple-Iph,one5-1_PT9701.GagVHA==","peerName":"(null)","peerAvailable":true}]
+2015-11-25T13:32:34.992Z SendDataTCPServer.js: TCP/IP server is bound to port: 61902
+,2015-11-25 14:32:35.409 ThaliTest[1679:1305817] client: found peer: Apple-Iphone5s-1_PT8640.H39DFw==
+peerAvailabilityChanged [{"peerIdentifier":"Apple-Iphone5s-1_PT8640.H39DFw==","peerName":"(null)","peerAvailable":true}]
 Found peer : (null), Available: true
-,2015-11-25 13:53:13.107 ThaliTest[1668:1302393] server session: connected
-2015-11-25 13:53:13.108 ThaliTest[1668:1302393] server session: stateChange:1->2 Apple-Iphone5-1_PT9701
-,2015-11-25 13:53:13.116 ThaliTest[1668:1301589] server relay: connected (to port: 61790)
-,2015-11-25T12:53:13.124Z SendDataTCPServer.js: TCP/IP server connected
-,2015-11-25T12:53:13.260Z SendDataTCPServer.js: TCP/IP server has received 4960 bytes of data
-,2015-11-25T12:53:13.275Z SendDataTCPServer.js: TCP/IP server has received 19840 bytes of data
-,2015-11-25T12:53:13.293Z SendDataTCPServer.js: TCP/IP server has received 34720 bytes of data
-,2015-11-25T12:53:13.309Z SendDataTCPServer.js: TCP/IP server has received 53568 bytes of data
-,2015-11-25T12:53:13.321Z SendDataTCPServer.js: TCP/IP server has received 64480 bytes of data
-,2015-11-25T12:53:13.337Z SendDataTCPServer.js: TCP/IP server has received 78368 bytes of data
-,2015-11-25T12:53:13.352Z SendDataTCPServer.js: TCP/IP server has received 95232 bytes of data
-,2015-11-25T12:53:13.366Z SendDataTCPServer.js: TCP/IP server has received 100002 bytes of data
-,2015-11-25 13:53:13.381 ThaliTest[1668:1302395] server session: not connected Apple-Iphone5-1_PT9701
-,2015-11-25 13:53:13.425 ThaliTest[1668:1302393] server session: connected
-2015-11-25 13:53:13.426 ThaliTest[1668:1302393] server session: stateChange:1->2 Apple-Iphone5s-1_PT5807
-2015-11-25 13:53:13.431 ThaliTest[1668:1301589] server relay: connected (to port: 61790)
-,2015-11-25T12:53:13.441Z SendDataTCPServer.js: TCP/IP server connected
-,2015-11-25T12:53:13.723Z SendDataTCPServer.js: TCP/IP server has received 10950 bytes of data
-,2015-11-25T12:53:13.742Z SendDataTCPServer.js: TCP/IP server has received 34898 bytes of data
-,2015-11-25T12:53:13.759Z SendDataTCPServer.js: TCP/IP server has received 72270 bytes of data
-,2015-11-25T12:53:13.775Z SendDataTCPServer.js: TCP/IP server has received 96360 bytes of data
-,2015-11-25T12:53:13.790Z SendDataTCPServer.js: TCP/IP server has received 100002 bytes of data
-,2015-11-25 13:53:13.793 ThaliTest[1668:1302368] server session: not connected Apple-Iphone5s-1_PT5807
-,2015-11-25 13:53:13.873 ThaliTest[1668:1302368] client session: connected
-2015-11-25 13:53:13.874 ThaliTest[1668:1302368] client session: stateChange:1->2 Apple-Iphone5s-1_PT5807.1C0pWw==
-,2015-11-25 13:53:13.878 ThaliTest[1668:1302368] client session: fireConnectCallback: Apple-Iphone5s-1_PT5807.1C0pWw==
-2015-11-25 13:53:13.879 ThaliTest[1668:1302368] jxcore: connect: success
-,2015-11-25T12:53:13.881Z SendDataConnector.js: CLIENT connected to 61795, error: null
-2015-11-25T12:53:13.882Z SendDataConnector.js: CLIENT starting client 
-,2015-11-25 13:53:13.885 ThaliTest[1668:1301589] client: relay established
-2015-11-25 13:53:13.886 ThaliTest[1668:1301589] client: new accepted socket: 0x1a5db5e0
-,2015-11-25T12:53:13.898Z SendDataConnector.js: CLIENT now sending 100000 bytes of data
-,2015-11-25T12:53:14.038Z SendDataConnector.js: CLIENT is data received : 100000
-2015-11-25T12:53:14.039Z SendDataConnector.js: got all data for this round
-,2015-11-25T12:53:14.040Z SendDataConnector.js: CLIENT Stop now
-2015-11-25T12:53:14.040Z SendDataConnector.js: CLIENT closeClientSocket
-2015-11-25 13:53:14.040 ThaliTest[1668:1301737] jxcore: disconnect
-2015-11-25 13:53:14.041 ThaliTest[1668:1301737] cli,ent session: disconnectFromPeer: Apple-Iphone5s-1_PT5807.1C0pWw==
-2015-11-25 13:53:14.041 ThaliTest[1668:1301737] client session: disconnect
-2015-11-25 13:53:14.041 ThaliTest[1668:1301737] client session: stateChange:2->0 Apple-Iphone5s-1_PT5807.1C0pWw==
-,2015-11-25 13:53:14.042 ThaliTest[1668:1301737] jxcore: disconnect: success
-2015-11-25T12:53:14.042Z SendDataConnector.js: Mobile.Disconnect() callback with peer Apple-Iphone5s-1_PT5807.1C0pWw==
+,device[1]: Apple-Iphone5s-1_PT8640.H39DFw==
+2015-11-25T13:32:35.412Z SendDataConnector.js: Start called with peer Apple-Iphone5s-1_PT8640.H39DFw==
+2015-11-25T13:32:35.413Z SendDataConnector.js: doConnect called with peer Apple-Iphone5s-1_PT8640.H39DFw==
+2015-11-25T13:32:35.413Z SendDataConnector.js: do connect now
+,2015-11-25 14:32:35.413 ThaliTest[1679:1305955] jxcore: connect Apple-Iphone5s-1_PT8640.H39DFw==
+2015-11-25 14:32:35.414 ThaliTest[1679:1305955] client session: connect
+2015-11-25 14:32:35.414 ThaliTest[1679:1305955] client session: stateChange:0->1 Apple-Iphone5s-1_PT8640.H39DFw==
+,2015-11-25 14:32:35.652 ThaliTest[1679:1305817] multipeer session: reset timer
+2015-11-25 14:32:35.653 ThaliTest[1679:1305817] multipeer session: stop timer
+2015-11-25 14:32:35.653 ThaliTest[1679:1305817] multipeer session: start timer: 0x1c584180
+2015-,11-25 14:32:35.656 ThaliTest[1679:1305817] server session: connect
+2015-11-25 14:32:35.656 ThaliTest[1679:1305817] server session: stateChange:0->1 Apple-Iphone5-1_PT6254
+,2015-11-25 14:32:35.674 ThaliTest[1679:1305817] server: accepting invitation Apple-Iphone5-1_PT6254
+,2015-11-25 14:32:36.264 ThaliTest[1679:1305817] client: found peer: Apple-IpadAir2-1_PT1710.FkeXvQ==
+peerAvailabilityChanged [{"peerIdentifier":"Apple-IpadAir2-1_PT1710.FkeXvQ==","peerName":"(null)","peerAvailable":true}]
+Found peer : (null), Available: ,true
+,2015-11-25 14:32:36.397 ThaliTest[1679:1305817] client: found peer: Apple-Iphone5-1_PT6254.8TiZaA==
+peerAvailabilityChanged [{"peerIdentifier":"Apple-Iphone5-1_PT6254.8TiZaA==","peerName":"(null)","peerAvailable":true}]
+Found peer : (null), Available: true
+,2015-11-25 14:32:37.952 ThaliTest[1679:1306521] client session: connected
+2015-11-25 14:32:37.953 ThaliTest[1679:1306521] client session: stateChange:1->2 Apple-Iphone5s-1_PT8640.H39DFw==
+,2015-11-25 14:32:37.967 ThaliTest[1679:1306515] client session: fireConnectCallback: Apple-Iphone5s-1_PT8640.H39DFw==
+2015-11-25 14:32:37.968 ThaliTest[1679:1306515] jxcore: connect: success
+2015-11-25T13:32:37.970Z SendDataConnector.js: CLIENT connected to 61905, error: null
+,2015-11-25T13:32:37.971Z SendDataConnector.js: CLIENT starting client 
+,2015-11-25 14:32:37.975 ThaliTest[1679:1305817] client: relay established
+,2015-11-25 14:32:37.976 ThaliTest[1679:1305817] client: new accepted socket: 0x17e65790
+,2015-11-25T13:32:37.987Z SendDataConnector.js: CLIENT now sending 100000 bytes of data
+,2015-11-25T13:32:38.100Z SendDataConnector.js: CLIENT is data received : 20000
+,2015-11-25T13:32:38.113Z SendDataConnector.js: CLIENT is data received : 40000
+,2015-11-25T13:32:38.151Z SendDataConnector.js: CLIENT is data received : 100000
+2015-11-25T13:32:38.152Z SendDataConnector.js: got all data for this round
+,2015-11-25T13:32:38.153Z SendDataConnector.js: CLIENT Stop now
+2015-11-25T13:32:38.153Z SendDataConnector.js: CLIENT closeClientSocket
+2015-11-25 14:32:38.153 ThaliTest[1679:1305955] jxcore: disconnect
+2015-11-25 14:32:38.154 ThaliTest[1679:1305955] cli,ent session: disconnectFromPeer: Apple-Iphone5s-1_PT8640.H39DFw==
+2015-11-25 14:32:38.154 ThaliTest[1679:1305955] client session: disconnect
+2015-11-25 14:32:38.154 ThaliTest[1679:1305955] client session: stateChange:2->0 Apple-Iphone5s-1_PT8640.H39DFw==,
+2015-11-25 14:32:38.155 ThaliTest[1679:1305955] jxcore: disconnect: success
+2015-11-25T13:32:38.155Z SendDataConnector.js: Mobile.Disconnect() callback with peer Apple-Iphone5s-1_PT8640.H39DFw==
 ---- round done--------
-,device[2]: Apple-IpadAir2-1_PT7357.1lZx3Q==
-2015-11-25T12:53:14.044Z SendDataConnector.js: Start called with peer Apple-IpadAir2-1_PT7357.1lZx3Q==
-2015-11-25T12:53:14.044Z SendDataConnector.js: doConnect called with peer Apple-IpadAir2-1_PT7357.1lZx3Q==
-2015-11-25T12:53:14.044Z SendDataConnector.js: do connect now
-2015-11-25 13:53:14.044 ThaliTest[1668:1301737] jxcore: connect Apple-IpadAir2-1_PT7357.1lZx3Q==
-,2015-11-25 13:53:14.044 ThaliTest[1668:1301737] client session: connect
-2015-11-25 13:53:14.045 ThaliTest[1668:1301737] client session: stateChange:0->1 Apple-IpadAir2-1_PT7357.1lZx3Q==
-,2015-11-25 13:53:14.800 ThaliTest[1668:1302393] server session: connected
-2015-11-25 13:53:14.800 ThaliTest[1668:1302393] server session: stateChange:1->2 Apple-IpadAir2-1_PT7357
-,2015-11-25 13:53:14.806 ThaliTest[1668:1301589] server relay: connected (to port: 61790)
-,2015-11-25T12:53:14.812Z SendDataTCPServer.js: TCP/IP server connected
-,2015-11-25T12:53:14.865Z SendDataTCPServer.js: TCP/IP server has received 4380 bytes of data
-,2015-11-25T12:53:14.880Z SendDataTCPServer.js: TCP/IP server has received 32850 bytes of data
-,2015-11-25T12:53:14.896Z SendDataTCPServer.js: TCP/IP server has received 54750 bytes of data
-,2015-11-25T12:53:14.911Z SendDataTCPServer.js: TCP/IP server has received 78556 bytes of data
-,2015-11-25T12:53:14.928Z SendDataTCPServer.js: TCP/IP server has received 100002 bytes of data
-,2015-11-25 13:53:14.954 ThaliTest[1668:1302368] server session: not connected Apple-IpadAir2-1_PT7357
-,2015-11-25 13:53:16.505 ThaliTest[1668:1302368] client session: connected
-2015-11-25 13:53:16.506 ThaliTest[1668:1302368] client session: stateChange:1->2 Apple-IpadAir2-1_PT7357.1lZx3Q==
-,2015-11-25 13:53:16.510 ThaliTest[1668:1302368] client session: fireConnectCallback: Apple-IpadAir2-1_PT7357.1lZx3Q==
-2015-11-25 13:53:16.511 ThaliTest[1668:1302368] jxcore: connect: success
-2015-11-25T12:53:16.512Z SendDataConnector.js: CLIENT connected, to 61799, error: null
-2015-11-25T12:53:16.512Z SendDataConnector.js: CLIENT starting client 
-,2015-11-25 13:53:16.516 ThaliTest[1668:1301589] client: relay established
-2015-11-25 13:53:16.517 ThaliTest[1668:1301589] client: new accepted socket: 0x1a5cae90
-,2015-11-25T12:53:16.529Z SendDataConnector.js: CLIENT now sending 100000 bytes of data
-,2015-11-25T12:53:16.966Z SendDataConnector.js: CLIENT is data received : 100000
-,2015-11-25T12:53:16.967Z SendDataConnector.js: got all data for this round
-,2015-11-25T12:53:16.969Z SendDataConnector.js: CLIENT Stop now
-2015-11-25T12:53:16.969Z SendDataConnector.js: CLIENT closeClientSocket
-,2015-11-25 13:53:16.970 ThaliTest[1668:1301737] jxcore: disconnect
-2015-11-25 13:53:16.971 ThaliTest[1668:1301737] client session: disconnectFromPeer: Apple-IpadAir2-1_PT7357.1lZx3Q==
-2015-11-25 13:53:16.971 ThaliTest[1668:1301737] client session: discon,nect
-2015-11-25 13:53:16.972 ThaliTest[1668:1301737] client session: stateChange:2->0 Apple-IpadAir2-1_PT7357.1lZx3Q==
-2015-11-25 13:53:16.974 ThaliTest[1668:1301737] jxcore: disconnect: success
-2015-11-25T12:53:16.975Z SendDataConnector.js: Mobile.Disc,onnect() callback with peer Apple-IpadAir2-1_PT7357.1lZx3Q==
+,device[2]: Apple-IpadAir2-1_PT1710.FkeXvQ==
+2015-11-25T13:32:38.156Z SendDataConnector.js: Start called with peer Apple-IpadAir2-1_PT1710.FkeXvQ==
+2015-11-25T13:32:38.157Z SendDataConnector.js: doConnect called with peer Apple-IpadAir2-1_PT1710.FkeXvQ==
+2015-11-25T13:32:38.157Z SendDataConnector.js: do connect now
+2015-11-25 14:32:38.157 ThaliTest[1679:1305955] jxcore: connect Apple-IpadAir2-1_PT1710.FkeXvQ==
+,2015-11-25 14:32:38.158 ThaliTest[1679:1305955] client session: connect
+,2015-11-25 14:32:38.159 ThaliTest[1679:1305955] client session: stateChange:0->1 Apple-IpadAir2-1_PT1710.FkeXvQ==
+,2015-11-25 14:32:38.343 ThaliTest[1679:1306509] server session: connected
+2015-11-25 14:32:38.343 ThaliTest[1679:1306509] server session: stateChange:1->2 Apple-Iphone5-1_PT6254
+,2015-11-25 14:32:38.347 ThaliTest[1679:1305817] server relay: connected (to port: 61902)
+,2015-11-25T13:32:38.354Z SendDataTCPServer.js: TCP/IP server connected
+,2015-11-25T13:32:38.501Z SendDataTCPServer.js: TCP/IP server has received 6944 bytes of data
+,2015-11-25T13:32:38.513Z SendDataTCPServer.js: TCP/IP server has received 28768 bytes of data
+,2015-11-25T13:32:38.527Z SendDataTCPServer.js: TCP/IP server has received 49600 bytes of data
+,2015-11-25T13:32:38.540Z SendDataTCPServer.js: TCP/IP server has received 65472 bytes of data
+,2015-11-25T13:32:38.554Z SendDataTCPServer.js: TCP/IP server has received 83328 bytes of data
+,2015-11-25T13:32:38.577Z SendDataTCPServer.js: TCP/IP server has received 100002 bytes of data
+,2015-11-25 14:32:38.593 ThaliTest[1679:1306519] server session: not connected Apple-Iphone5-1_PT6254
+,2015-11-25 14:32:40.003 ThaliTest[1679:1305817] multipeer session: reset timer
+2015-11-25 14:32:40.004 ThaliTest[1679:1305817] multipeer session: stop timer
+2015-11-25 14:32:40.004 ThaliTest[1679:1305817] multipeer session: start timer: 0x1c584180
+2015-,11-25 14:32:40.005 ThaliTest[1679:1305817] server session: connect
+2015-11-25 14:32:40.005 ThaliTest[1679:1305817] server session: stateChange:0->1 Apple-IpadAir2-1_PT1710
+,2015-11-25 14:32:40.016 ThaliTest[1679:1305817] server: accepting invitation Apple-IpadAir2-1_PT1710
+,2015-11-25 14:32:42.238 ThaliTest[1679:1306521] server session: connected
+2015-11-25 14:32:42.238 ThaliTest[1679:1306521] server session: stateChange:1->2 Apple-IpadAir2-1_PT1710
+,2015-11-25 14:32:42.247 ThaliTest[1679:1305817] server relay: connected (to port: 61902)
+2015-11-25T13:32:42.253Z SendDataTCPServer.js: TCP/IP server connected
+,2015-11-25T13:32:42.648Z SendDataTCPServer.js: TCP/IP server has received 13140 bytes of data
+,2015-11-25T13:32:42.666Z SendDataTCPServer.js: TCP/IP server has received 100002 bytes of data
+,2015-11-25 14:32:42.694 ThaliTest[1679:1306519] server session: not connected Apple-IpadAir2-1_PT1710
+,2015-11-25 14:32:44.236 ThaliTest[1679:1306509] client session: connected
+,2015-11-25 14:32:44.237 ThaliTest[1679:1306509] client session: stateChange:1->2 Apple-IpadAir2-1_PT1710.FkeXvQ==
+,2015-11-25 14:32:44.245 ThaliTest[1679:1306534] client session: fireConnectCallback: Apple-IpadAir2-1_PT1710.FkeXvQ==
+2015-11-25 14:32:44.246 ThaliTest[1679:1306534] jxcore: connect: success
+2015-11-25T13:32:44.247Z SendDataConnector.js: CLIENT connected, to 61910, error: null
+,2015-11-25T13:32:44.247Z SendDataConnector.js: CLIENT starting client 
+,2015-11-25 14:32:44.251 ThaliTest[1679:1305817] client: relay established
+2015-11-25 14:32:44.251 ThaliTest[1679:1305817] client: new accepted socket: 0x1c58eec0
+,2015-11-25T13:32:44.264Z SendDataConnector.js: CLIENT now sending 100000 bytes of data
+,2015-11-25T13:32:44.369Z SendDataConnector.js: CLIENT is data received : 70000
+,2015-11-25T13:32:44.382Z SendDataConnector.js: CLIENT is data received : 100000
+,2015-11-25T13:32:44.382Z SendDataConnector.js: got all data for this round
+,2015-11-25T13:32:44.383Z SendDataConnector.js: CLIENT Stop now
+2015-11-25T13:32:44.383Z SendDataConnector.js: CLIENT closeClientSocket
+2015-11-25 14:32:44.383 ThaliTest[1679:1305955] jxcore: disconnect
+2015-11-25 14:32:44.383 ThaliTest[1679:1305955] client session: disconnectFromPeer: Apple-IpadAir2-1_PT1710.FkeXvQ==
+,2015-11-25 14:32:44.383 ThaliTest[1679:1305955] client session: disconnect
+2015-11-25 14:32:44.384 ThaliTest[1679:1305955] client session: stateChange:2->0 Apple-IpadAir2-1_PT1710.FkeXvQ==
+,2015-11-25 14:32:44.385 ThaliTest[1679:1305955] jxcore: disconnect: success
+2015-11-25T13:32:44.385Z SendDataConnector.js: Mobile.Disconnect() callback with peer Apple-IpadAir2-1_PT1710.FkeXvQ==
 ---- round done--------
-,device[3]: Apple-Iphone5-1_PT9701.GagVHA==
-2015-11-25T12:53:16.977Z SendDataConnector.js: Start called with peer Apple-Iphone5-1_PT9701.GagVHA==
-2015-11-25T12:53:16.979Z SendDataConnector.js: doConnect called with peer Apple-Iphone5-1_PT9701.GagVHA==
-,2015-11-25T12:53:16.980Z SendDataConnector.js: do connect now
-,2015-11-25 13:53:16.985 ThaliTest[1668:1301737] jxcore: connect Apple-Iphone5-1_PT9701.GagVHA==
-,2015-11-25 13:53:16.988 ThaliTest[1668:1301737] client session: connect
-,2015-11-25 13:53:16.990 ThaliTest[1668:1301737] client session: stateChange:0->1 Apple-Iphone5-1_PT9701.GagVHA==
-,2015-11-25 13:53:20.079 ThaliTest[1668:1302395] client session: connected
-2015-11-25 13:53:20.081 ThaliTest[1668:1302395] client session: stateChange:1->2 Apple-Iphone5-1_PT9701.GagVHA==
-,2015-11-25 13:53:20.085 ThaliTest[1668:1302395] client session: fireConnectCallback: Apple-Iphone5-1_PT9701.GagVHA==
-2015-11-25 13:53:20.087 ThaliTest[1668:1302395] jxcore: connect: success
-2015-11-25T12:53:20.088Z SendDataConnector.js: CLIENT connected to 61802, error: null
-2015-11-25T12:53:20.089Z SendDataConnector.js: CLIENT starting client 
-,2015-11-25 13:53:20.092 ThaliTest[1668:1301589] client: relay established
-2015-11-25 13:53:20.093 ThaliTest[1668:1301589] client: new accepted socket: 0x1a5dad60
-,2015-11-25T12:53:20.105Z SendDataConnector.js: CLIENT now sending 100000 bytes of data
-,2015-11-25T12:53:20.240Z SendDataConnector.js: CLIENT is data received : 50000
-,2015-11-25T12:53:20.253Z SendDataConnector.js: CLIENT is data received : 100000
-,2015-11-25T12:53:20.253Z SendDataConnector.js: got all data for this round
-,2015-11-25T12:53:20.254Z SendDataConnector.js: CLIENT Stop now
-2015-11-25T12:53:20.254Z SendDataConnector.js: CLIENT closeClientSocket
-,2015-11-25 13:53:20.255 ThaliTest[1668:1301737] jxcore: disconnect
-2015-11-25 13:53:20.255 ThaliTest[1668:1301737] client session: disconnectFromPeer: Apple-Iphone5-1_PT9701.GagVHA==
-2015-11-25 13:53:20.256 ThaliTest[1668:1301737] client session: disconn,ect
-2015-11-25 13:53:20.256 ThaliTest[1668:1301737] client session: stateChange:2->0 Apple-Iphone5-1_PT9701.GagVHA==
-,2015-11-25 13:53:20.257 ThaliTest[1668:1301737] jxcore: disconnect: success
-2015-11-25T12:53:20.257Z SendDataConnector.js: Mobile.Disconnect() callback with peer Apple-Iphone5-1_PT9701.GagVHA==
+device[3]: Apple-Iphone5-1_PT6254.,8TiZaA==
+2015-11-25T13:32:44.386Z SendDataConnector.js: Start called with peer Apple-Iphone5-1_PT6254.8TiZaA==
+2015-11-25T13:32:44.386Z SendDataConnector.js: doConnect called with peer Apple-Iphone5-1_PT6254.8TiZaA==
+2015-11-25T13:32:44.386Z SendDataCon,nector.js: do connect now
+2015-11-25 14:32:44.387 ThaliTest[1679:1305955] jxcore: connect Apple-Iphone5-1_PT6254.8TiZaA==
+2015-11-25 14:32:44.387 ThaliTest[1679:1305955] client session: connect
+2015-11-25 14:32:44.387 ThaliTest[1679:1305955] client sess,ion: stateChange:0->1 Apple-Iphone5-1_PT6254.8TiZaA==
+,2015-11-25 14:32:48.315 ThaliTest[1679:1306521] client session: connected
+2015-11-25 14:32:48.316 ThaliTest[1679:1306521] client session: stateChange:1->2 Apple-Iphone5-1_PT6254.8TiZaA==
+,2015-11-25 14:32:48.321 ThaliTest[1679:1306521] client session: fireConnectCallback: Apple-Iphone5-1_PT6254.8TiZaA==
+2015-11-25 14:32:48.321 ThaliTest[1679:1306521] jxcore: connect: success
+,2015-11-25T13:32:48.323Z SendDataConnector.js: CLIENT connected to 61913, error: null
+2015-11-25T13:32:48.323Z SendDataConnector.js: CLIENT starting client 
+,2015-11-25 14:32:48.327 ThaliTest[1679:1305817] client: relay established
+2015-11-25 14:32:48.328 ThaliTest[1679:1305817] client: new accepted socket: 0x1c66c030
+,2015-11-25T13:32:48.339Z SendDataConnector.js: CLIENT now sending 100000 bytes of data
+,2015-11-25T13:32:48.458Z SendDataConnector.js: CLIENT is data received : 60000
+,2015-11-25T13:32:48.471Z SendDataConnector.js: CLIENT is data received : 90000
+,2015-11-25T13:32:48.484Z SendDataConnector.js: CLIENT is data received : 100000
+2015-11-25T13:32:48.484Z SendDataConnector.js: got all data for this round
+,2015-11-25T13:32:48.484Z SendDataConnector.js: CLIENT Stop now
+2015-11-25T13:32:48.485Z SendDataConnector.js: CLIENT closeClientSocket
+2015-11-25 14:32:48.485 ThaliTest[1679:1305955] jxcore: disconnect
+,2015-11-25 14:32:48.485 ThaliTest[1679:1305955] client session: disconnectFromPeer: Apple-Iphone5-1_PT6254.8TiZaA==
+2015-11-25 14:32:48.485 ThaliTest[1679:1305955] client session: disconnect
+,2015-11-25 14:32:48.486 ThaliTest[1679:1305955] client session: stateChange:2->0 Apple-Iphone5-1_PT6254.8TiZaA==
+2015-11-25 14:32:48.487 ThaliTest[1679:1305955] jxcore: disconnect: success
+2015-11-25T13:32:48.487Z SendDataConnector.js: Mobile.Disconnect(,) callback with peer Apple-Iphone5-1_PT6254.8TiZaA==
 ---- round done--------
-,weAreDoneNow , resultArray.length: 3
+weAreDoneNow , resultArray.length: 3
 ,done, now sending data to server
 DBG, CoordinatorConnector sendData called
-,-- RESULT DATA {"name:":"Apple-Iphone6-1_PT8750","time":9811,"result":"OK","sendList":[{"name":"Apple-Iphone5s-1_PT5807.1C0pWw==","time":2922,"result":"OK","connections":1,"doneRounds":1,"dataAmount":100000,"dataReceived":100000},{"name":"Apple-IpadAir2-1_,PT7357.1lZx3Q==","time":2924,"result":"OK","connections":1,"doneRounds":1,"dataAmount":100000,"dataReceived":100000},{"name":"Apple-Iphone5-1_PT9701.GagVHA==","time":3276,"result":"OK","connections":1,"doneRounds":1,"dataAmount":100000,"dataReceived":10000,0}]}
-sendList : 100% : 3276 ms, 99% : 3276 ms, 95 : 3276 ms, 90% : 3276 ms.
-Result count 3, range 2922 ms to  3276 ms.
-,sendList failed peers count : 0 [0 %]
-sendList never tried peers count : 0 [0 %]
-2015-11-25T12:53:20.262Z SendDataConnector.js: CLIENT Stop now
-2015-11-25T12:53:20.263Z SendDataConnector.js: CLIENT closeClientSocket
-,DBG, CoordinatorConnector command called
-,command received : {"command":"stop","testName":"","testData":"","devices":"","addressList":[]}
-,stop tests now !
-stop current!
-testSendData stopped
-,2015-11-25 13:53:24.289 ThaliTest[1668:1301737] jxcore: stopBroadcasting
-2015-11-25 13:53:24.289 ThaliTest[1668:1301737] THEMultipeerSession stopping peer
-2015-11-25 13:53:24.290 ThaliTest[1668:1301737] multipeer session: stop timer
-2015-11-25 13:53:24.,290 ThaliTest[1668:1301737] server session: disconnect
-2015-11-25 13:53:24.291 ThaliTest[1668:1301737] server session: stateChange:2->0 Apple-Iphone5-1_PT9701
-2015-11-25 13:53:24.297 ThaliTest[1668:1301737] server session: disconnect
-2015-11-25 13:53:24,.298 ThaliTest[1668:1301737] server session: stateChange:2->0 Apple-Iphone5s-1_PT5807
-,2015-11-25 13:53:24.303 ThaliTest[1668:1301737] server session: disconnect
-,2015-11-25 13:53:24.303 ThaliTest[1668:1301737] server session: stateChange:2->0 Apple-IpadAir2-1_PT7357
-,2015-11-25 13:53:24.310 ThaliTest[1668:1301737] jxcore: stopBroadcasting: success
-,StopBroadcasting went ok
-,2015-11-25T12:53:24.330Z SendDataTCPServer.js: TCP/IP server is ended
-,2015-11-25T12:53:24.332Z SendDataTCPServer.js: TCP/IP server is ended
-,2015-11-25T12:53:24.333Z SendDataTCPServer.js: TCP/IP server is ended
-,2015-11-25T12:53:24.334Z SendDataTCPServer.js: TCP/IP server  socket is disconnected
-,DBG, CoordinatorConnector command called
-,command received : {"command":"end","testName":"results","testData":"{\"result\":{\"sendList\":[{\"name\":\"Apple-Iphone5s-1_PT5807.1C0pWw==\",\"time\":2922,\"result\":\"OK\",\"connections\":1,\"doneRounds\":1,\"dataAmount\":100000,\"dataReceived\":100000},,{\"name\":\"Apple-IpadAir2-1_PT7357.1lZx3Q==\",\"time\":2924,\"result\":\"OK\",\"connections\":1,\"doneRounds\":1,\"dataAmount\":100000,\"dataReceived\":100000},{\"name\":\"Apple-Iphone5-1_PT9701.GagVHA==\",\"time\":3276,\"result\":\"OK\",\"connections\":,1,\"doneRounds\":1,\"dataAmount\":100000,\"dataReceived\":100000}],\"sendError\":{\"failedPeer\":[],\"notTriedList\":[]}}}","devices":4,"addressList":[]}
-,****TEST TOOK:  ms ****
-****TEST_LOGGER:[PROCESS_ON_EXIT_SUCCESS]****
-stop tests now !
-end, event received
+,-- RESULT DATA {"name:":"Apple-Iphone6-1_PT8475","time":13530,"result":"OK","sendList":[{"name":"Apple-Iphone5s-1_PT8640.H39DFw==","time":2739,"result":"OK","connections":1,"doneRounds":1,"dataAmount":100000,"dataReceived":100000},{"name":"Apple-IpadAir2-1_PT1710.FkeXvQ==","time":6225,"result":"OK","connections":1,"doneRounds":1,"dataAmount":100000,"dataReceived":100000},{"name":"Apple-Iphone5-1_PT6254.8TiZaA==","time":4098,"result":"OK","connections":1,"doneRounds":1,"dataAmount":100000,"dataReceived":100000}]}
+,sendList : 100% : 6225 ms, 99% : 6225 ms, 95 : 6225 ms, 90% : 6225 ms.
+,Result count 3, range 2739 ms to  6225 ms.
+sendList failed peers count : 0 [0 %]
+,sendList never tried peers count : 0 [0 %]
+,2015-11-25T13:32:48.493Z SendDataConnector.js: CLIENT Stop now
+2015-11-25T13:32:48.493Z SendDataConnector.js: CLIENT closeClientSocket
+,2015-11-25 14:33:10.004 ThaliTest[1679:1305817] multipeer session: restart
+,2015-11-25 14:33:10.024 ThaliTest[1679:1305817] client: found peer: Apple-Iphone5-1_PT6254.8TiZaA==
+2015-11-25 14:33:10.026 ThaliTest[1679:1305817] client: found peer: Apple-IpadAir2-1_PT1710.FkeXvQ==
+2015-11-25 14:33:10.028 ThaliTest[1679:1305817] clien,t: found peer: Apple-Iphone5s-1_PT8640.H39DFw==
+,2015-11-25 14:33:13.968 ThaliTest[1679:1305817] client: lost peer: Apple-Iphone5s-1_PT8640.H39DFw==
+2015-11-25 14:33:13.968 ThaliTest[1679:1305817] client session: onPeerLost: Apple-Iphone5s-1_PT8640.H39DFw==
+peerAvailabilityChanged [{"peerIdentifier":"Apple-Iphone5s-1_PT8640.H39DFw==","peerName":"(null)","peerAvailable":false}]
+,2015-11-25 14:33:14.985 ThaliTest[1679:1305817] client: found peer: Apple-Iphone5s-1_PT8640.H39DFw==
+peerAvailabilityChanged [{"peerIdentifier":"Apple-Iphone5s-1_PT8640.H39DFw==","peerName":"(null)","peerAvailable":true}]
+,2015-11-25 14:33:40.004 ThaliTest[1679:1305817] multipeer session: restart
+,2015-11-25 14:33:40.019 ThaliTest[1679:1305817] client: found peer: Apple-Iphone5s-1_PT8640.H39DFw==
+2015-11-25 14:33:40.020 ThaliTest[1679:1305817] client: found peer: Apple-Iphone5-1_PT6254.8TiZaA==
+2015-11-25 14:33:40.022 ThaliTest[1679:1305817] client: found peer: Apple-IpadAir2-1_PT1710.FkeXvQ==
+,2015-11-25 14:33:43.811 ThaliTest[1679:1305817] client: found peer: Apple-Iphone5s-1_PT8640.H39DFw==
+,2015-11-25 14:34:10.004 ThaliTest[1679:1305817] multipeer session: restart
+,2015-11-25 14:34:10.049 ThaliTest[1679:1305817] client: found peer: Apple-Iphone5s-1_PT8640.H39DFw==
+,2015-11-25 14:34:10.052 ThaliTest[1679:1305817] client: found peer: Apple-Iphone5-1_PT6254.8TiZaA==
+2015-11-25 14:34:10.053 ThaliTest[1679:1305817] client: found peer: Apple-IpadAir2-1_PT1710.FkeXvQ==
+,2015-11-25 14:34:40.004 ThaliTest[1679:1305817] multipeer session: restart
+,2015-11-25 14:34:40.023 ThaliTest[1679:1305817] client: found peer: Apple-Iphone5-1_PT6254.8TiZaA==
+2015-11-25 14:34:40.025 ThaliTest[1679:1305817] client: found peer: Apple-IpadAir2-1_PT1710.FkeXvQ==
+,2015-11-25 14:34:40.073 ThaliTest[1679:1305817] client: found peer: Apple-Iphone5s-1_PT8640.H39DFw==
+,2015-11-25 14:34:41.075 ThaliTest[1679:1305817] client: lost peer: Apple-Iphone5s-1_PT8640.H39DFw==
+2015-11-25 14:34:41.075 ThaliTest[1679:1305817] client session: onPeerLost: Apple-Iphone5s-1_PT8640.H39DFw==
+peerAvailabilityChanged [{"peerIdentifier":"A,pple-Iphone5s-1_PT8640.H39DFw==","peerName":"(null)","peerAvailable":false}]
+,2015-11-25 14:35:10.004 ThaliTest[1679:1305817] multipeer session: restart
+,2015-11-25 14:35:10.021 ThaliTest[1679:1305817] client: found peer: Apple-Iphone5-1_PT6254.8TiZaA==
+2015-11-25 14:35:10.023 ThaliTest[1679:1305817] client: found peer: Apple-IpadAir2-1_PT1710.FkeXvQ==
+,2015-11-25 14:35:40.004 ThaliTest[1679:1305817] multipeer session: restart
+,2015-11-25 14:35:40.021 ThaliTest[1679:1305817] client: found peer: Apple-Iphone5-1_PT6254.8TiZaA==
+2015-11-25 14:35:40.022 ThaliTest[1679:1305817] client: found peer: Apple-IpadAir2-1_PT1710.FkeXvQ==
+,2015-11-25 14:36:10.002 ThaliTest[1679:1305817] multipeer session: restart
+,2015-11-25 14:36:10.017 ThaliTest[1679:1305817] client: found peer: Apple-Iphone5-1_PT6254.8TiZaA==
+2015-11-25 14:36:10.019 ThaliTest[1679:1305817] client: found peer: Apple-IpadAir2-1_PT1710.FkeXvQ==
+,2015-11-25 14:36:40.002 ThaliTest[1679:1305817] multipeer session: restart
+,2015-11-25 14:36:40.016 ThaliTest[1679:1305817] client: found peer: Apple-Iphone5-1_PT6254.8TiZaA==
+,2015-11-25 14:36:40.018 ThaliTest[1679:1305817] client: found peer: Apple-IpadAir2-1_PT1710.FkeXvQ==
+,2015-11-25 14:37:10.002 ThaliTest[1679:1305817] multipeer session: restart
+,2015-11-25 14:37:10.019 ThaliTest[1679:1305817] client: found peer: Apple-Iphone5-1_PT6254.8TiZaA==
+2015-11-25 14:37:10.020 ThaliTest[1679:1305817] client: found peer: Apple-IpadAir2-1_PT1710.FkeXvQ==
+,2015-11-25 14:37:40.002 ThaliTest[1679:1305817] multipeer session: restart
+,2015-11-25 14:37:40.016 ThaliTest[1679:1305817] client: found peer: Apple-Iphone5-1_PT6254.8TiZaA==
+2015-11-25 14:37:40.017 ThaliTest[1679:1305817] client: found peer: Apple-IpadAir2-1_PT1710.FkeXvQ==
+,2015-11-25 14:38:10.001 ThaliTest[1679:1305817] multipeer session: restart
+,2015-11-25 14:38:10.015 ThaliTest[1679:1305817] client: found peer: Apple-Iphone5-1_PT6254.8TiZaA==
+2015-11-25 14:38:10.017 ThaliTest[1679:1305817] client: found peer: Apple-IpadAir2-1_PT1710.FkeXvQ==
+,2015-11-25 14:38:39.996 ThaliTest[1679:1305817] multipeer session: restart
+,2015-11-25 14:38:40.011 ThaliTest[1679:1305817] client: found peer: Apple-Iphone5-1_PT6254.8TiZaA==
+,2015-11-25 14:38:40.013 ThaliTest[1679:1305817] client: found peer: Apple-IpadAir2-1_PT1710.FkeXvQ==
+,2015-11-25 14:39:09.996 ThaliTest[1679:1305817] multipeer session: restart
+,2015-11-25 14:39:10.012 ThaliTest[1679:1305817] client: found peer: Apple-Iphone5-1_PT6254.8TiZaA==
+2015-11-25 14:39:10.014 ThaliTest[1679:1305817] client: found peer: Apple-IpadAir2-1_PT1710.FkeXvQ==
+,2015-11-25 14:39:39.996 ThaliTest[1679:1305817] multipeer session: restart
+2015-11-25 14:39:40.002 ThaliTest[1679:1305817] *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '*** setObjectForKey: key cannot be nil'
+*** Fi,rst throw call stack:
+(0x26e2efef 0x35798c8b 0x26d4aaa3 0x28e09d85 0x26932607 0x26931e81 0x268ab3d3 0x26df4faf 0x26df43bf 0x26df2a25 0x26d3f201 0x26d3f013 0x2e7ca201 0x2a50ba09 0xe45e3 0x35d4aaaf)
+libc++abi.dylib: terminating with uncaught exception of type NSException
+,Process 1679 stopped
+* thread #1: tid = 0x13ecd9, 0x35e14df0 libsystem_kernel.dylib`__pthread_kill + 8, queue = 'com.apple.main-thread', stop reason = signal SIGABRT
+    frame #0: 0x35e14df0 libsystem_kernel.dylib`__pthread_kill + 8
+libsystem_kernel.dylib`__pthread_kill:
+->  0x35e14df0 <+8>:  blo    0x35e14e08                ; <+32>
+    0x35e14df4 <+12>: ldr    r12, [pc, #0x4]           ; <+24>
+    0x35e14df8 <+16>: ldr    r12, [pc, r12]
+    0x35e14dfc <+20>: b      0x35e14e04                ; <+28>
+,* thread #1: tid = 0x13ecd9, 0x35e14df0 libsystem_kernel.dylib`__pthread_kill + 8, queue = 'com.apple.main-thread', stop reason = signal SIGABRT
+  * frame #0: 0x35e14df0 libsystem_kernel.dylib`__pthread_kill + 8
+    frame #1: 0x35e93cc6 libsystem_pthread.dylib`pthread_kill + 62
+    frame #2: 0x35db0908 libsystem_c.dylib`abort + 76
+    frame #3: 0x350a79c8 libc++abi.dylib`<redacted> + 88
+    frame #4: 0x350c1670 libc++abi.dylib`<redacted> + 268
+    frame #5: 0x35798f24 libobjc.A.dylib`<redacted> + 192
+    frame #6: 0x350bede2 libc++abi.dylib`<redacted> + 78
+    frame #7: 0x350be8ae libc++abi.dylib`__cxa_rethrow + 102
+    frame #8: 0x35798dd2 libobjc.A.dylib`objc_exception_rethrow + 42
+    frame #9: 0x26d3f29c CoreFoundation`CFRunLoopRunSpecific + 632
+    frame #10: 0x26d3f012 CoreFoundation`CFRunLoopRunInMode + 106
+    frame #11: 0x2e7ca200 GraphicsServices`GSEventRunModal + 136
+    frame #12: 0x2a50ba08 UIKit`UIApplicationMain + 1440
+    frame #13: 0x000e45e2 ThaliTest`main + 50
 
 ```
