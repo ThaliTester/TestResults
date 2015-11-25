@@ -1,0 +1,72 @@
+#### Test 503880196dc97cd_iOS_Iphone5-1 Logs
+
+
+```
+[100%] Installed package /Users/thali/Github/CI/builder/builds/503880196dc97cd/build_ios/platforms/ios/build/device/HelloWorld.app
+,------ Debug phase ------
+,Starting debug of iPhone 5 (GSM) 'Iphone5-1' (17df3859480c382d3b761fa2643dde395ced1bd8) connected through USB...
+,[  0%] Looking up developer disk image
+,[ 90%] Mounting developer disk image
+,[ 95%] Developer disk image already mounted
+,[100%] Connecting to remote debug server
+,-------------------------
+,Skipping iPhone 5s (Global/CDMA) 'Iphone5s-1' (00b2e2c1b30013159b62125fe7f097bdcc055c10).
+,Skipping iPhone 6 (GSM) 'Iphone6-1' (2a65f58f9902a701b5c9a55b2befb18672927474).
+,Skipping J81AP 'IpadAir2-1' (605a17dff1a0ba7f312ea7b076f5923e29d8b1fe).
+,(lldb) command source -s 0 '/tmp/2C43EBAB-96B0-49EF-8294-D5C40A4346DB/fruitstrap-lldb-prep-cmds-17df3859480c382d3b761fa2643dde395ced1bd8'
+,Executing commands in '/tmp/2C43EBAB-96B0-49EF-8294-D5C40A4346DB/fruitstrap-lldb-prep-cmds-17df3859480c382d3b761fa2643dde395ced1bd8'.
+,(lldb)     platform select remote-ios --sysroot '/Users/thali/Library/Developer/Xcode/iOS DeviceSupport/7.1.2 (11D257)/Symbols'
+,  Platform: remote-ios
+ Connected: no
+  SDK Path: "/Users/thali/Library/Developer/Xcode/iOS DeviceSupport/7.1.2 (11D257)/Symbols"
+(lldb)     target create "/Users/thali/Github/CI/builder/builds/503880196dc97cd/build_ios/platforms/ios/build/device/HelloWorld.app"
+,Current executable set to '/Users/thali/Github/CI/builder/builds/503880196dc97cd/build_ios/platforms/ios/build/device/HelloWorld.app' (armv7).
+(lldb)     script fruitstrap_device_app="/private/var/mobile/Applications/EF07EA0D-4DF9-42DE-BB72-BEEFA7419F24/HelloWorld.app"
+,(lldb)     script fruitstrap_connect_url="connect://127.0.0.1:55729"
+,(lldb)     command script import "/tmp/2C43EBAB-96B0-49EF-8294-D5C40A4346DB/fruitstrap_17df3859480c382d3b761fa2643dde395ced1bd8.py"
+,(lldb)     command script add -f fruitstrap_17df3859480c382d3b761fa2643dde395ced1bd8.connect_command connect
+,(lldb)     command script add -s asynchronous -f fruitstrap_17df3859480c382d3b761fa2643dde395ced1bd8.run_command run
+(lldb)     command script add -s asynchronous -f fruitstrap_17df3859480c382d3b761fa2643dde395ced1bd8.autoexit_command autoexit
+,(lldb)     command script add -s asynchronous -f fruitstrap_17df3859480c382d3b761fa2643dde395ced1bd8.safequit_command safequit
+(lldb)     connect
+,(lldb)     run
+,success
+,(lldb)     autoexit
+,2015-11-25 15:10:20.626 HelloWorld[798:60b] Apache Cordova native platform version 3.9.2 is starting.
+,2015-11-25 15:10:20.630 HelloWorld[798:60b] Multi-tasking -> Device: YES, App: YES
+,2015-11-25 15:10:20.639 HelloWorld[798:60b] Unlimited access to network resources
+,2015-11-25 15:10:20.645 HelloWorld[798:60b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.app,le.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+,2015-11-25 15:10:30.687 HelloWorld[798:60b] Resetting plugins due to page load.
+,2015-11-25 15:10:31.455 HelloWorld[798:60b] Finished load of: file:///var/mobile/Applications/EF07EA0D-4DF9-42DE-BB72-BEEFA7419F24/HelloWorld.app/www/index.html
+,2015-11-25 15:10:31.520 HelloWorld[798:60b] JXcore Cordova plugin initializing
+,2015-11-25 15:10:31.522 HelloWorld[798:6807] JXcore instance initializing
+,Initializing JXcore engine
+JXcore engine is ready
+Starting JXcore engine
+,Platform ios
+,Process ARCH arm
+,JXcore Cordova bridge is ready!
+,JXcore engine is started
+,>> Apple-Iphone5-1
+Total memory 1065000960
+Free memory 578019328
+execPath /private/var/mobile/Applications/EF07EA0D-4DF9-42DE-BB72-BEEFA7419F24/HelloWorld.app/HelloWorld
+process.cwd /var/mobile/Applications/EF07EA0D-4DF9-42DE-BB72-BEEFA7419F24/HelloWor,ld.app/www/jxcore/
+userPath []
+,2015-11-25 15:10:31.961 HelloWorld[798:6807] Native method ScreenInfo not found.
+,2015-11-25 15:10:31.964 HelloWorld[798:6807] Native method ScreenBrightness not found.
+Dummy Error Log.
+,getBuffer is called!!!!
+,Warning: iOS does not support ToggleBluetooth
+,Warning: iOS does not support ToggleWiFi
+,****TEST TOOK:  5222  ms ****
+,****TEST_LOGGER:[PROCESS_ON_EXIT_SUCCESS]****
+
+```
