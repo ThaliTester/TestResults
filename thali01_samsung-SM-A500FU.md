@@ -1,0 +1,3982 @@
+#### Test 55613145b105d0b_thali01_samsung-SM-A500FU Logs
+
+
+```
+--------- beginning of main
+D/Mms/MethodReflector( 5906): getDefaultSmsSubId is called
+E/Mms/TelephonyUtils( 5906): subID is null or 0 length, so get DefaultSubId!!
+D/Mms/TelephonyUtils( 5906): getLongSubId from simSlot 1, return Value = -1000
+D/Mms/MethodReflector( 5906): getTelephonyProperty is called
+D/Mms/DownloadManager( 5906): roaming -> false (slotId = 1)
+D/Mms/DownloadManager( 5906): [NotificationTransaction] getAutoDownloadState simSlot : 1
+D/Mms/DraftCache( 5906): [end]    rebuildCache consume time = 22.787813
+D/Mms/DownloadManager( 5906): auto download without roaming -> true
+D/Mms/DownloadManager( 5906): [NotificationTransaction] getAutoDownloadState alwaysAutoSecondary : false, roaming : false
+D/Mms/DownloadManager( 5906): auto download during roaming secondary -> false
+D/Mms/DownloadManager( 5906): mAutoDownload ------> true
+I/DBG_POLICYDM( 5990): [com.policydm.db.XDBProfileListAdp(257/xdbGetNotiSavedInfo)] nSessionSaveState [0], nNotiUiEvent [0]
+I/DBG_POLICYDM( 5990): [com.policydm.noti.XNOTIAdapter(398/xnotiPushAdpExcuteResumeNoti)] nSessionSaveState:0
+I/DBG_POLICYDM( 5990): [com.policydm.polling.XPollingAgent(284/xpollingCheckTimer)] savedpollingtime : 2016/01/18/12:08:32
+I/DBG_POLICYDM( 5990): [com.policydm.noti.XNOTIAdapter(399/xnotiPushAdpExcuteResumeNoti)] nNotiUiEvent:0
+I/DBG_POLICYDM( 5990): [com.policydm.polling.XPollingAgent(285/xpollingCheckTimer)] currentTime : 2016/01/14/10:31:57
+I/DBG_POLICYDM( 5990): [com.policydm.polling.XPollingAgent(289/xpollingCheckTimer)] Restart Timer..
+I/DBG_POLICYDM( 5990): [com.policydm.XDMApplication(684/xdmStartAlarm)] Alarm ID: 0
+I/DBG_POLICYDM( 5990): [com.policydm.noti.XNOTIAdapter(400/xnotiPushAdpExcuteResumeNoti)] nNotiRetryCount:0
+I/DBG_POLICYDM( 5990): [com.policydm.noti.XNOTIAdapter(440/xnotiPushAdpExcuteResumeNoti)] Current NOTI NOT SAVED State. EXIT.
+I/DBG_POLICYDM( 5990): [com.policydm.noti.XNOTIAdapter(266/xnotiPushAdpClearSessionStatus)] 
+I/DBG_POLICYDM( 5990): [com.policydm.ui.XUIAdapter(40/xuiAdpSetUiMode)] nDmUiMode : 0
+I/DBG_POLICYDM( 5990): [com.policydm.db.XDBFumoAdp(438/xdbSetFUMOStatus)] xdbSetFUMOStatus : 0
+D/ComposerPerformance( 5906): 1452763917863 ms / [DONE] Composer constructor
+E/CII     ( 5906): CommonIMSInterface: VoLTE CSC feature disabled.
+I/Mms/ReservationManager( 5906): ReservationManager()
+I/Mms/ReservationManager( 5906): resetAfterConnected()
+D/TP/MmsSmsProvider( 1462): query,matched:7, calling pid = 5906
+I/DBG_POLICYDM( 5990): [com.policydm.polling.XPollingAgent(311/xPollingReportReStartAlarm)] 
+D/TP/MmsSmsProvider( 1462): match 7:Elapsed time : 1.873 ms
+I/Mms/ReservationManager( 5906): getReservedSendMessageCount(): retMessageCount=0
+D/Mms/Conversation( 5906): [start]    init() consume time = 63.825156
+D/Mms/MmsApp( 5906): [end]    onCreate() consume time = 0.499427
+D/TP/MmsSmsProvider( 1462): deleteConversation threadId: 9223372036854775807
+D/TP/MmsSmsProvider( 1462): delete URI_CONVERSATIONS_MESSAGES affectedRows=0 isIntegrated=false
+V/TP/MmsSmsDatabaseHelper( 1462): updateThread(), thread_id = 9223372036854775807
+V/TP/MmsSmsDatabaseHelper( 1462): sUpgradeVersion = 0, db.getVersion() = 81
+I/DBG_POLICYDM( 5990): [com.policydm.db.XDBFumoAdp(564/xdbSetFUMOInitiatedType)] Initiated Type: 0
+D/TP/MmsSmsProvider( 1462): delete threadId: 9223372036854775807
+D/TP/MmsSmsProvider( 1462): need read changed broadcast:false
+D/Mms/ArtClassLoader( 5906): init [DONE] art
+D/Mms/Conversation( 5906): [end]    init consume time = 9.949323
+D/Mms/MessagingNotification( 5906): [start]    init() consume time = 2.80625
+D/Mms/MessagingNotification( 5906): [end]    init consume time = 2.355104
+D/Mms/DownloadManager( 5906): Service state changed: Bundle[mParcelledData.dataSize=744]
+D/Mms/DownloadManager( 5906): roaming ------> false, mSimSlot = 0
+D/Mms/MethodReflector( 5906): getSubId is called
+D/Mms/TelephonyUtils( 5906): getLongSubId from simSlot 0, return Value = -1
+D/Mms/MethodReflector( 5906): getTelephonyProperty is called
+D/Mms/DownloadManager( 5906): roaming -> false (slotId = 0)
+D/TP/MmsSmsProvider( 1462): query,matched:0, calling pid = 5906
+V/TP/MmsSmsProvider( 1462): getSimpleConversations entered.
+D/Mms/DownloadManager( 5906): [NotificationTransaction] getAutoDownloadState simSlot : 0
+D/Mms/DownloadManager( 5906): auto download without roaming -> true
+D/Mms/DownloadManager( 5906): [NotificationTransaction] getAutoDownloadState alwaysAuto : false, roaming : false
+D/Mms/DownloadManager( 5906): mAutoDownload ------> true
+D/TP/MmsSmsProvider( 1462): match 0:Elapsed time : 0.940 ms
+D/Mms/FreeMessageStatusReceiver( 5906): onReceive, action : android.intent.action.PACKAGE_ADDED
+D/Mms/SpamFilter( 5906): [start]    SpamFilter fill() begin consume time = 6.727708
+--------- beginning of system
+D/ActivityManager( 1015): startService callerProcessName:com.android.mms, calleePkgName: com.android.mms
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.android.mms/com.android.mms.freemessage.FreeMessageReceiverService; callingUser = 0; userId(target) = 0
+D/Mms/Synchronizer( 5906): [start]    doSync consume time = 3.161042
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.android.mms, destAppInfo.processName = com.android.mms
+D/TP/MmsSmsProvider( 1462): query,matched:400, calling pid = 5906
+D/ActivityManager( 1015): startProcessLocked calleePkgName: com.sec.android.app.myfiles, hostingType: broadcast
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/Zygote  ( 6088): MountEmulatedStorage()
+I/libpersona( 6088): KNOX_SDCARD checking this for 10047
+E/Zygote  ( 6088): v2
+I/libpersona( 6088): KNOX_SDCARD not a persona
+I/SELinux ( 6088): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+I/ActivityManager( 1015): Start proc com.sec.android.app.myfiles for broadcast com.sec.android.app.myfiles/.receiver.MyFilesReceiver: pid=6088 uid=10047 gids={50047, 9997, 1028, 1015, 3003, 3002, 3001, 1023} abi=armeabi-v7a
+D/ActivityManager( 1015): getContentProviderImpl callerProcessName:com.android.mms, calleePkgName: com.sec.android.provider.badge
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+I/SELinux ( 6088): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+D/Mms/FreeMessageReceiverService( 5906): onHandleIntent, action : android.intent.action.PACKAGE_ADDED
+E/SELinux ( 6088): [DEBUG] get_category: variable seinfo: media sensitivity: NULL, cateogry: NULL
+D/Mms/FreeMessageReceiverService( 5906): onHandleIntent: ACTION_PACKAGE_ADDED
+D/TP/MmsSmsProvider( 1462): update, matched:300, calling pid = 5906
+V/TP/MmsSmsProvider( 1462): syncDBData start
+V/TP/MmsSmsProvider( 1462): syncDBData sms end
+V/TP/MmsSmsProvider( 1462): syncDBData mms end
+V/TP/MmsSmsProvider( 1462): syncDBData end
+E/Zygote  ( 6100): MountEmulatedStorage()
+E/Zygote  ( 6100): v2
+I/libpersona( 6100): KNOX_SDCARD checking this for 10072
+I/libpersona( 6100): KNOX_SDCARD not a persona
+I/SELinux ( 6100): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+I/ActivityManager( 1015): Start proc com.sec.android.provider.badge for content provider com.sec.android.provider.badge/.BadgeProvider: pid=6100 uid=10072 gids={50072, 9997} abi=armeabi-v7a
+D/Mms/SpamFilter( 5906): [end]    SpamFilter fill() finished consume time = 43.590208
+I/SELinux ( 6100): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+E/SELinux ( 6100): [DEBUG] get_category: variable seinfo: release sensitivity: NULL, cateogry: NULL
+D/Mms/Synchronizer( 5906): [end]    doSync consume time = 9.280938
+D/TimaKeyStoreProvider( 6088): TimaSignature is unavailable
+D/ActivityThread( 6088): Added TimaKeyStore provider
+I/DBG_POLICYDM( 5990): [com.policydm.db.XDB(1824/xdbSetBackUpServerUrl)] 
+D/TimaKeyStoreProvider( 6100): TimaSignature is unavailable
+D/ActivityThread( 6100): Added TimaKeyStore provider
+I/ActivityManager( 1015): Killing 5569:com.sec.knox.foldercontainer/1000 (adj 15): empty #31
+W/ResourcesManager( 6088): Asset path '/system/framework/twframework.jar' does not exist or contains no resources.
+W/ResourcesManager( 6088): Asset path '/system/framework/allshare.jar' does not exist or contains no resources.
+W/ResourcesManager( 6088): Asset path '/system/framework/secvision.jar' does not exist or contains no resources.
+D/BadgeProvider( 6100): onCreate
+D/BadgeProvider( 6100): DatabaseHelper
+D/Mms/MessagingNotification( 5906): checkBadgeCount unreadCount=0 badgeCount=0
+D/TP/SmsProvider( 1462): query,matched:26, calling pid = 5906
+D/TP/SmsProvider( 1462): match 26:Elapsed time : 1.363 ms
+W/libprocessgroup( 1015): failed to open /acct/uid_1000/pid_5569/cgroup.procs: No such file or directory
+D/TP/MmsSmsProvider( 1462): query,matched:6, calling pid = 5906
+D/TP/MmsSmsProvider( 1462): match 6:Elapsed time : 1.898 ms
+D/ActivityManager( 1015): getContentProviderImpl callerProcessName:com.android.mms, calleePkgName: com.wsomacp
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+I/DBG_POLICYDM( 5990): [com.policydm.XDMApplication(684/xdmStartAlarm)] Alarm ID: 1
+I/ActivityManager( 1015): Start proc com.wsomacp for content provider com.wsomacp/.db.XCPDBSqlProvider: pid=6120 uid=10025 gids={50025, 9997} abi=armeabi-v7a
+W/ContextImpl( 1015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1698 com.absolute.android.persistservice.a.run:1065 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+E/Zygote  ( 6120): MountEmulatedStorage()
+E/Zygote  ( 6120): v2
+I/libpersona( 6120): KNOX_SDCARD checking this for 10025
+I/libpersona( 6120): KNOX_SDCARD not a persona
+I/SELinux ( 6120): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+I/SELinux ( 6120): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+I/DBG_POLICYDM( 5990): [com.policydm.agent.XDMTask(195/xdmAgentTaskHandler)] XEVENT_DM_INIT : Initialized
+E/SELinux ( 6120): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+D/TimaKeyStoreProvider( 6120): TimaSignature is unavailable
+D/ActivityThread( 6120): Added TimaKeyStore provider
+I/ActivityManager( 1015): Killing 5586:com.google.android.apps.plus/u0a120 (adj 15): empty #31
+W/ResourcesManager( 6120): Asset path '/system/framework/multiwindow.jar' does not exist or contains no resources.
+I/ServiceManager(  335): Waiting for service AtCmdFwd...
+D/MyFiles ( 6088): MyFilesReceiver::Received the android.intent.action.PACKAGE_ADDED
+D/ActivityManager( 1015): bindService callerProcessName:android, calleePkgName: com.android.defcontainer, action: null
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.android.defcontainer/com.android.defcontainer.DefaultContainerService; callingUser = 0; userId(target) = 0
+I/TactileAssist( 1015): enable value -1
+I/TactileAssist( 1015): internal enable value -1
+I/TactileAssist( 1015): intensity value -1
+I/TactileAssist( 1015): saveAppList value true
+I/TactileAssist( 1015): List of disabled apps :
+E/installd(  288): system dir 0 : /system/app/
+E/installd(  288): system dir 1 : /system/priv-app/
+E/installd(  288): system dir 2 : /vendor/app/
+E/installd(  288): system dir 3 : /oem/app/
+D/ActivityManager( 1015): startProcessLocked calleePkgName: com.sec.android.app.soundalive, hostingType: broadcast
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+I/OMACP   ( 6120): [com.wsomacp.XCPApplication(50/onCreate)] CPApplication Start !
+E/Zygote  ( 6140): MountEmulatedStorage()
+E/Zygote  ( 6140): v2
+I/libpersona( 6140): KNOX_SDCARD checking this for 10053
+I/libpersona( 6140): KNOX_SDCARD not a persona
+I/SELinux ( 6140): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+I/ActivityManager( 1015): Start proc com.sec.android.app.soundalive for broadcast com.sec.android.app.soundalive/.compatibility.Compatibility$Receiver: pid=6140 uid=10053 gids={50053, 9997, 3003, 3002} abi=armeabi-v7a
+I/SELinux ( 6140): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+E/SELinux ( 6140): [DEBUG] get_category: variable seinfo: release sensitivity: NULL, cateogry: NULL
+W/libprocessgroup( 1015): failed to open /acct/uid_10120/pid_5586/cgroup.procs: No such file or directory
+I/art     (  322): Explicit concurrent mark sweep GC freed 8699(370KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 6MB/11MB, paused 642us total 23.598ms
+D/Mms/Omacp( 5906): checkOmacp()  old OmacpCount 0 current OmacpCount = 0
+D/TimaKeyStoreProvider( 6140): TimaSignature is unavailable
+D/ActivityThread( 6140): Added TimaKeyStore provider
+I/art     (  322): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 39% free, 6MB/11MB, paused 637us total 17.449ms
+W/ResourcesManager( 6140): Asset path '/system/framework/multiwindow.jar' does not exist or contains no resources.
+I/art     (  322): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 39% free, 6MB/11MB, paused 628us total 17.094ms
+I/OMACP   ( 6120): [com.wsomacp.agent.XCPSystem(120/xcpSystemSetCPFeature)] XCP_FEATURE_MAC_CHECK: false
+I/OMACP   ( 6120): [com.wsomacp.agent.XCPSystem(121/xcpSystemSetCPFeature)] XCP_FEATURE_SECURITY: 4369
+I/OMACP   ( 6120): [com.wsomacp.agent.XCPSystem(122/xcpSystemSetCPFeature)] XCP_FEATURE_NETWPIN_CHECK: false
+I/OMACP   ( 6120): [com.wsomacp.agent.XCPSystem(123/xcpSystemSetCPFeature)] XCP_FEATURE_MULTI_APN: true
+I/OMACP   ( 6120): [com.wsomacp.agent.XCPSystem(124/xcpSystemSetCPFeature)] XCP_FEATURE_OVERWRITE_BY_APN: false
+I/OMACP   ( 6120): [com.wsomacp.agent.XCPSystem(125/xcpSystemSetCPFeature)] XCP_FEATURE_DELETE_CP_MESSAGE: false
+I/OMACP   ( 6120): [com.wsomacp.agent.XCPSystem(126/xcpSystemSetCPFeature)] XCP_FEATURE_SUPPORT_MYPHONEBOOK: false
+I/OMACP   ( 6120): [com.wsomacp.agent.XCPSystem(127/xcpSystemSetCPFeature)] XCP_FEATURE_SUPPORT_OMADM_BOOTSTRAP: false
+I/OMACP   ( 6120): [com.wsomacp.agent.XCPSystem(128/xcpSystemSetCPFeature)] XCP_FEATURE_BG_INTSATLL_DM_BOOTSTRAP: false
+I/OMACP   ( 6120): [com.wsomacp.agent.XCPSystem(129/xcpSystemSetCPFeature)] XCP_DEVICETYPE_FEATURE_TABLET : false
+I/OMACP   ( 6120): [com.wsomacp.agent.XCPSystem(130/xcpSystemSetCPFeature)] XCP_SUPPORT_DUAL_SIM : false
+I/OMACP   ( 6120): [com.wsomacp.agent.XCPSystem(131/xcpSystemSetCPFeature)] XCP_SUPPORT_USA_ATT : false
+I/OMACP   ( 6120): [com.wsomacp.agent.XCPSystem(132/xcpSystemSetCPFeature)] XCP_SUPPORT_SAME_APN : false
+D/PackageManager( 1015): remove MCS_UNBIND message and Posting MCS_UNBIND 10 secs later
+D/Compatibility( 6140): onReceive() it will make start service
+D/ActivityManager( 1015): startService callerProcessName:com.sec.android.app.soundalive, calleePkgName: com.sec.android.app.soundalive
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.sec.android.app.soundalive/com.sec.android.app.soundalive.compatibility.Compatibility$Service; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.sec.android.app.soundalive, destAppInfo.processName = com.sec.android.app.soundalive
+I/wpa_supplicant( 2076): nl80211: Received scan results (6 BSSes)
+D/WifiP2pService( 1015): InactiveState{ what=147461 }
+D/ActivityManager( 1015): startProcessLocked calleePkgName: com.google.android.googlequicksearchbox, hostingType: broadcast
+D/WifiP2pService( 1015): P2pEnabledState{ what=147461 }
+D/WifiP2pService( 1015): DefaultState{ what=147461 }
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+D/Compatibility( 6140): onHandleIntent()
+D/Compatibility( 6140): intentservice saw: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.test.thalitest flg=0x4000010 cmp=com.sec.android.app.soundalive/.compatibility.Compatibility$Receiver (has extras) } Bundle[{android.intent.extra.UID=10155, android.intent.extra.user_handle=0}]
+I/DBG_POLICYDM( 5990): [com.policydm.db.XDBProfileListAdp(257/xdbGetNotiSavedInfo)] nSessionSaveState [0], nNotiUiEvent [0]
+D/Compatibility( 6140): found: 2
+E/Zygote  ( 6159): MountEmulatedStorage()
+I/libpersona( 6159): KNOX_SDCARD checking this for 10057
+E/Zygote  ( 6159): v2
+I/libpersona( 6159): KNOX_SDCARD not a persona
+I/SELinux ( 6159): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+I/SELinux ( 6159): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+E/SELinux ( 6159): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+I/ActivityManager( 1015): Start proc com.google.android.googlequicksearchbox:search for broadcast com.google.android.googlequicksearchbox/com.google.android.search.core.icingsync.IcingCorporaChangedReceiver: pid=6159 uid=10057 gids={50057, 9997, 3003, 3001, 1028, 3002, 1015} abi=armeabi-v7a
+I/DBG_POLICYDM( 5990): [com.policydm.db.XDBNotiAdp(37/xdbNotiExistInfo)] Noti Exist : false
+D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+D/Compatibility( 6140): saved default: com.sec.android.app.soundalive.SAControlPanelActivity
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+D/Compatibility( 6140): skipping ResolveInfo{382238e5 com.sec.android.app.soundalive/.compatibility.Compatibility$Redirector p=2147483647 m=0x108000}
+D/Compatibility( 6140): considering ResolveInfo{3a062fba com.sec.android.app.soundalive/.SAControlPanelActivity m=0x108000}
+D/Compatibility( 6140): default: com.sec.android.app.soundalive.SAControlPanelActivity
+D/Compatibility( 6140): enabling receiver ResolveInfo{3b092e6b com.sec.android.app.soundalive/.SAControlPanelReceiver m=0x108000}
+I/SL_DEBUG( 6054): isLoggable:: isProductShip = 1
+I/SL_DEBUG( 6054): isLoggable:: SL_DEBUG_EXIST = false
+D/Compatibility( 6140): enabling receiver ResolveInfo{cf8dc8 com.sec.android.app.soundalive/.compatibility.HelperGooglePlayMusic m=0x108000}
+D/ActivityManager( 1015): startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.icing.service.IndexWorkerService; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+D/Compatibility( 6140): enabling receiver ResolveInfo{6427e61 com.sec.android.app.soundalive/.SAControlPanelReceiver m=0x108000}
+D/TimaKeyStoreProvider( 6159): TimaSignature is unavailable
+D/Compatibility( 6140): enabling receiver ResolveInfo{cd78d86 com.sec.android.app.soundalive/.compatibility.HelperGooglePlayMusic m=0x108000}
+D/ActivityThread( 6159): Added TimaKeyStore provider
+D/Compatibility( 6140): wrote com.sec.android.app.soundalive/com.sec.android.app.soundalive.SAControlPanelActivity as default
+D/ChimeraCfgMgr( 3612): Loading module com.google.android.gms.games from APK com.google.android.play.games
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.icing.service.IndexWorkerService; callingUser = 0; userId(target) = 0
+D/ChimeraModuleLdr( 3612): Module APK com.google.android.play.games already loaded
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+D/ChimeraCfgMgr( 3612): Loading module com.google.android.gms.gass from APK com.google.android.gms
+D/AsyncTaskServiceImpl( 3612): Submit a task: k
+D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+I/ActivityManager( 1015): Killing 5132:com.sec.providers.settingsearch/u0a150 (adj 15): empty #31
+D/ChimeraCfgMgr( 3612): Loading module com.google.android.gms.gass from APK com.google.android.gms
+D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+D/ActivityManager( 1015): startService callerProcessName:com.google.android.googlequicksearchbox, calleePkgName: com.google.android.googlequicksearchbox
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.googlequicksearchbox/com.google.android.search.core.icingsync.UpdateIcingCorporaService; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.googlequicksearchbox, destAppInfo.processName = com.google.android.googlequicksearchbox
+D/ChimeraCfgMgr( 3612): Loading module com.google.android.gms.vision from APK com.google.android.gms
+D/ActivityManager( 1015): startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.icing.service.IndexWorkerService; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+D/k       ( 3612): Processing package: com.test.thalitest
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.icing.service.IndexWorkerService; callingUser = 0; userId(target) = 0
+E/Vold    (  255): Failed to find mounted volume for /storage/extSdCard/Android/data/com.samsung.android.sdk.samsunglink/files/
+W/Vold    (  255): Returning OperationFailed - no handler for errno 0
+W/ContextImpl( 6054): Failed to ensure directory: /storage/extSdCard/Android/data/com.samsung.android.sdk.samsunglink/files
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+D/ActivityManager( 1015): startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.icing.service.IndexWorkerService; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+I/UpdateIcingCorporaServi( 6159): Updating corpora: APPS=com.test.thalitest, CONTACTS=MAYBE
+D/ActivityManager( 1015): bindService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms, action: null
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.common.internal.SharedPreferencesService; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+D/ActivityManager( 1015): startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.people.service.bg.PeopleBackgroundTasks; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+D/ActivityManager( 1015): startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.people.service.bg.PeopleBackgroundTasks; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+D/GassUtils( 3612): Found app info for package com.test.thalitest:18. Hash: 82ccbc74df315987b7be206c22ec4eaa3ab0d49235c4895536307c8f71b675fe
+D/k       ( 3612): Found info for package com.test.thalitest in db.
+D/ActivityManager( 1015): startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.people.service.bg.PeopleBackgroundTasks; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+D/ActivityManager( 1015): startService callerProcessName:com.samsung.android.sdk.samsunglink, calleePkgName: com.samsung.android.sdk.samsunglink
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.samsung.android.sdk.samsunglink/com.sec.pcw.analytics.AnalyticsUploaderService; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 1023, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.samsung.android.sdk.samsunglink, destAppInfo.processName = com.samsung.android.sdk.samsunglink
+D/ActivityManager( 1015): startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.people.service.bg.PeopleBackgroundTasks; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+D/ActivityManager( 1015): startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.people.service.bg.PeopleBackgroundTasks; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+W/libprocessgroup( 1015): failed to open /acct/uid_10150/pid_5132/cgroup.procs: No such file or directory
+D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+E/Vold    (  255): Failed to find mounted volume for /storage/extSdCard/Android/data/com.samsung.android.sdk.samsunglink/cache/
+W/Vold    (  255): Returning OperationFailed - no handler for errno 0
+W/ContextImpl( 6054): Failed to ensure directory: /storage/extSdCard/Android/data/com.samsung.android.sdk.samsunglink/cache
+D/ActivityManager( 1015): startService callerProcessName:com.samsung.android.sdk.samsunglink, calleePkgName: com.samsung.android.sdk.samsunglink
+W/BaseAppContext( 3612): Using Auth Proxy for data requests.
+W/BaseAppContext( 3612): Using Auth Proxy for data requests.
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.samsung.android.sdk.samsunglink/com.mfluent.asp.ContentAggregatorService; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 1023, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.samsung.android.sdk.samsunglink, destAppInfo.processName = com.samsung.android.sdk.samsunglink
+I/PeopleDatabaseHelper( 3612): cleanUpNonGplusAccounts done.
+D/ActivityManager( 1015): startProcessLocked calleePkgName: com.osp.app.signin, hostingType: broadcast
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+D/LocationManagerService( 1015): getProviders()=[passive]
+E/Zygote  ( 6198): MountEmulatedStorage()
+E/Zygote  ( 6198): v2
+I/libpersona( 6198): KNOX_SDCARD checking this for 10041
+I/SELinux ( 6198): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+I/libpersona( 6198): KNOX_SDCARD not a persona
+I/SELinux ( 6198): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+I/ActivityManager( 1015): Start proc com.osp.app.signin for broadcast com.osp.app.signin/com.osp.app.pushmarketing.PushMarketingReceiver: pid=6198 uid=10041 gids={50041, 9997, 3003, 1028, 1015} abi=armeabi-v7a
+E/SELinux ( 6198): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+D/TimaKeyStoreProvider( 6198): TimaSignature is unavailable
+D/ActivityThread( 6198): Added TimaKeyStore provider
+W/BaseAppContext( 3612): Using Auth Proxy for data requests.
+W/BaseAppContext( 3612): Using Auth Proxy for data requests.
+I/SA      ( 6198): [SSP] onCreated
+I/SA      ( 6198): [TPM] There is no property file
+I/SA      ( 6198): [SCU] isHaveSA() - false
+I/SA      ( 6198): [TPM] getModelProperty : null
+I/SA      ( 6198): [TPM] getCSCProperty : null
+I/SA      ( 6198): [DM] FLOATING AMOLED FEATURE: true
+I/SA      ( 6198): [DM] PRODUCT AMOLED FEATURE: false
+I/SA      ( 6198): [DM] TFT FEATURE: false
+I/SA      ( 6198): [PMR] Received action : android.intent.action.PACKAGE_ADDED
+I/SA      ( 6198): [DM] init START
+I/SA      ( 6198): [DM] This device is not a Vodafone
+W/ResourceType( 6198): Failure getting entry for 0x7f060010 (t=5 e=16) (error -75)
+W/ResourceType( 6198): Failure getting entry for 0x7f060008 (t=5 e=8) (error -75)
+W/ResourceType( 6198): Failure getting entry for 0x7f060009 (t=5 e=9) (error -75)
+W/ResourceType( 6198): Failure getting entry for 0x7f06000c (t=5 e=12) (error -75)
+W/ResourceType( 6198): Failure getting entry for 0x7f06000d (t=5 e=13) (error -75)
+W/ResourceType( 6198): Failure getting entry for 0x7f060002 (t=5 e=2) (error -75)
+W/ResourceType( 6198): Failure getting entry for 0x7f060014 (t=5 e=20) (error -75)
+W/ResourceType( 6198): No package identifier when getting value for resource number 0x00000000
+W/ResourceType( 6198): Failure getting entry for 0x7f060027 (t=5 e=39) (error -75)
+W/ResourceType( 6198): Failure getting entry for 0x7f060028 (t=5 e=40) (error -75)
+W/ResourceType( 6198): Failure getting entry for 0x7f060029 (t=5 e=41) (error -75)
+W/ResourceType( 6198): Failure getting entry for 0x7f06002a (t=5 e=42) (error -75)
+W/ResourceType( 6198): Failure getting entry for 0x7f06002b (t=5 e=43) (error -75)
+W/ResourceType( 6198): Failure getting entry for 0x7f06002c (t=5 e=44) (error -75)
+W/ResourceType( 6198): Failure getting entry for 0x7f06002d (t=5 e=45) (error -75)
+W/ResourceType( 6198): Failure getting entry for 0x7f06002e (t=5 e=46) (error -75)
+W/ResourceType( 6198): Failure getting entry for 0x7f06002f (t=5 e=47) (error -75)
+W/ResourceType( 6198): Failure getting entry for 0x7f06001e (t=5 e=30) (error -75)
+W/ResourceType( 6198): Failure getting entry for 0x7f06001f (t=5 e=31) (error -75)
+W/ResourceType( 6198): Failure getting entry for 0x7f060011 (t=5 e=17) (error -75)
+W/ResourceType( 6198): Failure getting entry for 0x7f06000a (t=5 e=10) (error -75)
+W/ResourceType( 6198): Failure getting entry for 0x7f06000b (t=5 e=11) (error -75)
+W/ResourceType( 6198): Failure getting entry for 0x7f060003 (t=5 e=3) (error -75)
+W/ResourceType( 6198): Failure getting entry for 0x7f060015 (t=5 e=21) (error -75)
+W/ResourceType( 6198): Failure getting entry for 0x7f060016 (t=5 e=22) (error -75)
+I/SA      ( 6198): [SCU] isHaveSA() - false
+I/SA      ( 6198): support phone number id : false
+I/SA      ( 6198): [DM] Supports Ref Jpn : true
+I/SA      ( 6198): [DM] init END
+I/SA      ( 6198): [SUR] onReceive log=[SA = 2.1.0179 V = 21 HWD = 1280X720 2.0 dpi = 320  SIZE = 2 LOCALE = en_US CSC = XEO MCC = 0 MNC 0 T = user DEVICE = a5ulte P = a5ultexx I = LRX22G M = SM-A500FU OKLEFT false DIS LRX22G.A500FUXXU1BOH2 PSS = 4.978878039476607  ]
+I/SA      ( 6198): [SUR] onReceive Intent=[ action.PACKAGE_ADDED. package extra.UID.:10155 extra.user_handle.:0 ]
+I/ActivityManager( 1015): Killing 5741:com.sec.android.app.music:service/u0a40 (adj 15): empty #31
+,W/GAV2    ( 5975): Thread[main,5,main]: Need to call initialize() and be in fallback mode to start dispatch.
+I/UpdateIcingCorporaServi( 6159): UpdateCorporaTask done [took 128 ms] updated apps [took 128 ms] 
+I/ActivityManager( 1015): Killing 4853:com.sec.android.widgetapp.SPlannerAppWidget/u0a134 (adj 15): empty #31
+I/art     ( 1015): Explicit concurrent mark sweep GC freed 235648(15MB) AllocSpace objects, 9(4MB) LOS objects, 33% free, 27MB/41MB, paused 3.176ms total 197.149ms
+W/BaseAppContext( 3612): Using Auth Proxy for data requests.
+W/BaseAppContext( 3612): Using Auth Proxy for data requests.
+I/ActivityManager( 1015): Killing 5380:com.android.calendar/u0a135 (adj 15): empty #31
+W/libprocessgroup( 1015): failed to open /acct/uid_10040/pid_5741/cgroup.procs: No such file or directory
+W/BaseAppContext( 3612): Using Auth Proxy for data requests.
+I/ServiceManager(  335): Waiting for service AtCmdFwd...
+D/ActivityManager( 1015): startService callerProcessName:com.google.android.apps.docs, calleePkgName: com.google.android.apps.docs
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.apps.docs/com.google.android.apps.docs.sync.syncadapter.ContentSyncService; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.apps.docs, destAppInfo.processName = com.google.android.apps.docs
+D/ActivityManager( 1015): startProcessLocked calleePkgName: com.samsung.android.app.watchmanagerstub, hostingType: broadcast
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+W/libprocessgroup( 1015): failed to open /acct/uid_10134/pid_4853/cgroup.procs: No such file or directory
+W/libprocessgroup( 1015): failed to open /acct/uid_10135/pid_5380/cgroup.procs: No such file or directory
+E/Zygote  ( 6232): MountEmulatedStorage()
+E/Zygote  ( 6232): v2
+W/GAV2    ( 5975): Thread[main,5,main]: Need to call initialize() and be in fallback mode to start dispatch.
+I/libpersona( 6232): KNOX_SDCARD checking this for 10100
+I/libpersona( 6232): KNOX_SDCARD not a persona
+I/SELinux ( 6232): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+I/SELinux ( 6232): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+I/ActivityManager( 1015): Start proc com.samsung.android.app.watchmanagerstub for broadcast com.samsung.android.app.watchmanagerstub/com.sec.android.applicationmgr.PackageIntentReceiver: pid=6232 uid=10100 gids={50100, 9997, 3003, 1028, 1015, 3002, 3001} abi=armeabi-v7a
+E/SELinux ( 6232): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+D/TimaKeyStoreProvider( 6232): TimaSignature is unavailable
+D/ActivityThread( 6232): Added TimaKeyStore provider
+D/PackageIntentReceiver( 6232): ACTION_PACKAGE_ADDED
+D/PackageIntentReceiver( 6232): Not GearManger package! 
+D/ActivityManager( 1015): startProcessLocked calleePkgName: com.samsung.helphub, hostingType: broadcast
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/Zygote  ( 6254): MountEmulatedStorage()
+E/Zygote  ( 6254): v2
+I/libpersona( 6254): KNOX_SDCARD checking this for 1000
+I/libpersona( 6254): KNOX_SDCARD not a persona
+I/SELinux ( 6254): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+I/ActivityManager( 1015): Start proc com.samsung.helphub for broadcast com.samsung.helphub/.broadcast.HelpHubBroadcastReceiver: pid=6254 uid=1000 gids={41000, 9997, 3002, 3001, 3003, 1028, 1015, 1007, 1023, 2001, 1024, 1001, 1021, 3004, 3005, 1000, 3009, 1010} abi=armeabi-v7a
+I/ActivityManager( 1015): Killing 5183:com.google.android.gm/u0a101 (adj 15): empty #31
+D/ActivityManager( 1015): bindService callerProcessName:android, calleePkgName: com.google.android.gms, action: android.accounts.AccountAuthenticator
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.auth.GoogleAccountAuthenticatorService; callingUser = 0; userId(target) = 0
+I/SELinux ( 6254): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+E/SELinux ( 6254): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+V/GLSActivity( 1867): AuthDelegateWrapperCreated with selected intent: Intent { cmp=com.google.android.gms/.auth.DefaultAuthDelegateService }
+D/TimaKeyStoreProvider( 6254): TimaSignature is unavailable
+D/ActivityThread( 6254): Added TimaKeyStore provider
+W/AccountFeatureHelper( 5975): Write apps_features disabled false
+D/AndroidRuntime( 6224): 
+D/AndroidRuntime( 6224): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 6224): CheckJNI is OFF
+D/AndroidRuntime( 6224): readGMSProperty: start
+D/AndroidRuntime( 6224): readGMSProperty: already setted!!
+D/AndroidRuntime( 6224): propertySet: couldn't set property (it is from app)
+D/AndroidRuntime( 6224): readGMSProperty: could not set the property(default)!!
+D/AndroidRuntime( 6224): readGMSProperty: end
+D/AndroidRuntime( 6224): addProductProperty: start
+D/ActivityManager( 1015): startProcessLocked calleePkgName: com.samsung.android.app.mirrorlink, hostingType: broadcast
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/Zygote  ( 6270): MountEmulatedStorage()
+E/Zygote  ( 6270): v2
+I/libpersona( 6270): KNOX_SDCARD checking this for 1000
+I/libpersona( 6270): KNOX_SDCARD not a persona
+I/ActivityManager( 1015): Start proc ACMS.Process for broadcast com.samsung.android.app.mirrorlink/com.samsung.android.mirrorlink.acms.receivers.AcmsPackageEventListener: pid=6270 uid=1000 gids={41000, 9997, 3002, 3001, 3003, 1028, 1015, 1007, 1023, 2001, 1024, 1001, 1021, 3004, 3005, 1000, 3009, 1010} abi=armeabi-v7a
+I/ActivityManager( 1015): Killing 5338:com.dropbox.android/u0a92 (adj 15): empty #31
+I/SELinux ( 6270): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+W/libprocessgroup( 1015): failed to open /acct/uid_10101/pid_5183/cgroup.procs: No such file or directory
+I/SELinux ( 6270): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+E/SELinux ( 6270): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+D/TimaKeyStoreProvider( 6270): TimaSignature is unavailable
+D/ActivityThread( 6270): Added TimaKeyStore provider
+W/libprocessgroup( 1015): failed to open /acct/uid_10092/pid_5338/cgroup.procs: No such file or directory
+W/GAV2    ( 5975): Thread[main,5,main]: dispatch call queued.  Need to call GAServiceManager.getInstance().initialize().
+I/ActivityManager( 1015): Killing 5659:com.google.android.music:main/u0a111 (adj 15): empty #31
+D/ActivityManager( 1015): startProcessLocked calleePkgName: com.google.android.apps.plus, hostingType: broadcast
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+D/AcmsPackageEventListener( 6270): Received: android.intent.action.PACKAGE_ADDED
+W/ContextImpl( 6270): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:2063 android.content.ContextWrapper.startService:533 android.content.ContextWrapper.startService:533 com.samsung.android.mirrorlink.acms.receivers.AcmsPackageEventListener$asyncstart.doInBackground:54 com.samsung.android.mirrorlink.acms.receivers.AcmsPackageEventListener$asyncstart.doInBackground:1 
+E/Zygote  ( 6289): MountEmulatedStorage()
+E/Zygote  ( 6289): v2
+I/libpersona( 6289): KNOX_SDCARD checking this for 10120
+I/libpersona( 6289): KNOX_SDCARD not a persona
+I/ActivityManager( 1015): Start proc com.google.android.apps.plus for broadcast com.google.android.apps.plus/.service.PackagesMediaMonitor: pid=6289 uid=10120 gids={50120, 9997, 3003, 3002, 1028, 1015} abi=armeabi-v7a
+I/SELinux ( 6289): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+I/ActivityManager( 1015): Killing 5353:com.dropbox.android:crash_uploader/u0a92 (adj 15): empty #31
+D/ActivityManager( 1015): startService callerProcessName:com.samsung.android.app.mirrorlink, calleePkgName: com.samsung.android.app.mirrorlink
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.samsung.android.app.mirrorlink/com.samsung.android.mirrorlink.acms.api.AcmsService; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.samsung.android.app.mirrorlink, destAppInfo.processName = com.samsung.android.app.mirrorlink
+I/SELinux ( 6289): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+E/SELinux ( 6289): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+D/AcmsService( 6270): Enter Oncreate
+D/AcmsServiceMonitor( 6270): AcmsServiceMonitor.getAcmsSvcMonitor() - Enter
+D/AcmsService( 6270): creating AcmsCore
+D/AcmsCore( 6270): AcmsCore.getAcmsCore() - Enter
+D/AcmsCore( 6270): AcmsCore
+D/AcmsCore( 6270): init
+D/AcmsCore( 6270): Looper handler is not null
+D/AcmsCore( 6270): Post to AcmsCoreHandler
+D/AcmsServiceMonitor( 6270): AcmsServiceMonitor.getAcmsSvcMonitor() - Enter
+D/AcmsServiceMonitor( 6270): Incrementing - Counter value: 1
+D/AcmsCore( 6270): Incremented Counter Value: postToAcmsCoreHandler =>1
+D/AcmsService( 6270): onStartCommand
+D/AcmsService( 6270): Action: android.intent.action.PACKAGE_ADDED
+D/AcmsServiceMonitor( 6270): Enter incrementSvcCounter with startId 1
+D/AcmsServiceMonitor( 6270): Incrementing - Counter value: 2
+D/AcmsService( 6270): Incremented Counter Value : onStartCommand
+D/ActivityManager( 1015): getContentProviderImpl callerProcessName:com.samsung.android.app.mirrorlink, calleePkgName: com.samsung.android.app.mirrorlink
+D/AcmsCertificateMngr( 6270): AcmsCertificateMngr
+D/ActivityThread( 6270): Loading provider com.samsung.mirrorlink.acms.pkgnames: com.samsung.android.mirrorlink.acms.provider.AcmsPkgNameProvide
+D/TimaKeyStoreProvider( 6289): TimaSignature is unavailable
+D/ActivityThread( 6289): Added TimaKeyStore provider
+W/ResourcesManager( 6289): Asset path '/system/framework/com.google.android.maps.jar' does not exist or contains no resources.
+D/AcmsService( 6270): Inside handle Intent
+D/AcmsService( 6270): App added - package name: com.test.thalitest
+D/AcmsCore( 6270): Post to AcmsCoreHandler
+D/AcmsServiceMonitor( 6270): AcmsServiceMonitor.getAcmsSvcMonitor() - Enter
+D/AcmsServiceMonitor( 6270): Incrementing - Counter value: 3
+D/AcmsCore( 6270): Incremented Counter Value: postToAcmsCoreHandler =>2
+D/AcmsService( 6270): Decremented Counter Value : handleStartIntent
+D/AcmsServiceMonitor( 6270): Decrementing - Counter value: 2
+D/AcmsRevocationMngr( 6270): AcmsRevocationMngr
+W/libprocessgroup( 1015): failed to open /acct/uid_10111/pid_5659/cgroup.procs: No such file or directory
+W/libprocessgroup( 1015): failed to open /acct/uid_10092/pid_5353/cgroup.procs: No such file or directory
+I/Icing   ( 3612): Indexing 63D6F3A2ED4DA7D0617BF171863F04BCF2381A28 from com.google.android.gms
+E/AffinityControl( 6224): AffinityControl: registerfunction enter
+D/AndroidRuntime( 6224): Calling main entry com.android.commands.am.Am
+E/PersonaManagerService( 1015): inState():  stateMachine is null !!
+I/PersonaManagerService( 1015): PersonaId don't exist
+I/ActivityManager( 1015): do not start freezing screen for locked container getKeyguardshowstate = false
+V/ApplicationPolicy( 1015): isApplicationStateBlocked userId 0 pkgname com.test.thalitest
+W/ActivityManager( 1015): mDVFSHelper.acquire()
+D/PhoneWindow( 1015): *FMB* installDecor mIsFloating : false
+D/PhoneWindow( 1015): *FMB* installDecor flags : 25362712
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/Zygote  ( 6319): MountEmulatedStorage()
+E/Zygote  ( 6319): v2
+I/libpersona( 6319): KNOX_SDCARD checking this for 10155
+I/libpersona( 6319): KNOX_SDCARD not a persona
+I/ActivityManager( 1015): Start proc com.test.thalitest for activity com.test.thalitest/.MainActivity: pid=6319 uid=10155 gids={50155, 9997, 3003, 3001, 3002, 1028, 1015} abi=armeabi-v7a
+V/ApplicationPolicy( 1015): isApplicationStateBlocked userId 0 pkgname com.wssyncmldm
+V/ApplicationPolicy( 1015): isApplicationStateBlocked userId 0 pkgname com.test.thalitest
+D/InputDispatcher( 1015): Focused application set to: xxxx
+D/InputDispatcher( 1015): Focus left window: 3042
+I/SELinux ( 6319): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+D/AndroidRuntime( 6224): Shutting down VM
+D/PhoneWindow( 1015): *FMB* isFloatingMenuEnabled mFloatingMenuBtn : null
+D/PhoneWindow( 1015): *FMB* isFloatingMenuEnabled return false
+I/SELinux ( 6319): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+I/SurfaceFlinger(  256): id=13 createSurf (1x1),1 flag=404, uhalitest
+E/SELinux ( 6319): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+D/ActivityManager( 1015): startService callerProcessName:com.google.android.apps.plus, calleePkgName: com.google.android.apps.plus
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.apps.plus/com.google.android.apps.plus.service.PackagesMediaMonitor$AsyncService; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.apps.plus, destAppInfo.processName = com.google.android.apps.plus
+D/TimaKeyStoreProvider( 6319): TimaSignature is unavailable
+D/ActivityThread( 6319): Added TimaKeyStore provider
+D/PointerIcon( 1015): setMouseIconStyle1 pointerType: 1001iconType:101 flag:0
+D/PointerIcon( 1015): setMouseCustomIcon IconType is same.101
+V/ActivityManager( 1015): Display changed displayId=0
+D/StatusBarManagerService( 1015): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams
+D/PersonaManager( 1015): isKioskContainerExistOnDevice
+D/ActivityManager( 1015): startService callerProcessName:com.google.android.apps.plus, calleePkgName: com.google.android.apps.plus
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.apps.plus/com.google.android.apps.plus.service.PhotosAppTransitionService; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.apps.plus, destAppInfo.processName = com.google.android.apps.plus
+V/ActivityThread( 3042): updateVisibility : ActivityRecord{1194afaa token=android.os.BinderProxy@2cf237c9 {com.wssyncmldm/com.wssyncmldm.ui.XUIInstallConfirmActivity}} show : false
+I/Mms/MmsApp( 5906):  start initViewCache mms
+D/Mms/ComposeMessageFragment( 5906): [start]    fillCache consume time = 1936.313905
+D/Mms/ComposeMessageFragment( 5906): fillCache, easy = false
+D/ChimeraCfgMgr( 3612): Loading module com.google.android.gms.games from APK com.google.android.play.games
+D/ChimeraModuleLdr( 3612): Module APK com.google.android.play.games already loaded
+I/SurfaceFlinger(  256): id=10 Removed YUIInstallC (5/9)
+I/SurfaceFlinger(  256): id=10 Removed YUIInstallC (-2/9)
+I/Icing   ( 3612): Indexing done 63D6F3A2ED4DA7D0617BF171863F04BCF2381A28
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.icing.service.IndexWorkerService; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+I/splitIntent( 1015): Queue : backgroundsplit_1 intent android.intent.action.PACKAGE_ADDED is finished at BG and BG split queue. set mSplitStart and mBgSplitQueueOnlyRun false.
+V/AlarmManager( 1015): waitForAlarm result :8
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.sec.android.widgetapp.ap.hero.accuweather, destAppInfo.processName = com.sec.android.widgetapp.ap.hero.accuweather
+I/WebViewFactory( 6319): Loading com.google.android.webview version 43.0.2357.121 (code 2357121)
+D/accuweather( 1727): [KK AccuPhone]>>> WCW:32 [0:0] action : widgetactionWEATHER_SCREEN_OFF
+W/art     ( 6224): ConditionVariable::~ConditionVariable for GC request condition variable called with 1 waiters.
+I/LibraryLoader( 6319): Time to load native libraries: 3 ms (timestamps 2264-2267)
+I/LibraryLoader( 6319): Expected native library version number "",actual native library version number ""
+D/daemonapp( 1300): [MSC_Daemon]>>> WCP:1254 [0:0] cp update : count : 1, pt : 8
+,D/accuweather( 1727): [KK AccuPhone]>>> U:4088 [0:0] getPWC : surface = 0, remote = 1
+D/accuweather( 1727): [KK AccuPhone]>>> U:4207 [0:0] Store PWC = 1
+,D/accuweather( 1727): [KK AccuPhone]>>> U:4140 [0:0] addPWC = 1
+,D/accuweather( 1727): [KK AccuPhone]>>> UIM:312 [0:0]  action:widgetactionWEATHER_SCREEN_OFF
+,V/WebViewChromiumFactoryProvider( 6319): Binding Chromium to main looper Looper (main, tid 1) {3b092e6b}
+,I/LibraryLoader( 6319): Expected native library version number "",actual native library version number ""
+,I/chromium( 6319): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+D/daemonapp( 1300): [MSC_Daemon]>>> WCP:1142 [0:0] Provider query : content://apaccuweatherprovider/weatherinfo
+,D/AbsListView( 5906): Get MotionRecognitionManager
+,D/daemonapp( 1300): [MSC_Daemon]>>> WCP:1142 [0:0] Provider query : content://apaccuweatherprovider/settings
+,D/MotionRecognitionService( 1015):  ssp status : false
+,D/accuweather( 1727): [KK AccuPhone]>>> UIM:158 [0:0] make widget 4x1 view!!! 
+,D/accuweather( 1727): [KK AccuPhone]>>> UIM:160 [0:0] make widget 4x2 view!!! 
+,D/accuweather( 1727): [KK AccuPhone]>>> RU:73 [0:0] get ww = 339, wh = 141span x = 4, span y = 2
+,D/accuweather( 1727): [KK AccuPhone]>>> UIM:185 [0:0] get widget 4x2 view!!! wid = 2
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.sec.android.widgetapp.ap.hero.accuweather, destAppInfo.processName = com.sec.android.widgetapp.ap.hero.accuweather
+,D/Mms/ComposeMessageFragment( 5906): [end]    fillCache consume time = 183.626459
+,D/accuweather( 1727): [KK AccuPhone]>>> WC:30 [0:0] action : widgetactionWEATHER_SCREEN_OFF
+,D/accuweather( 1727): [KK AccuPhone]>>> UIMEM:105 [0:0] The widget does not exist in idle!!
+,I/BrowserStartupController( 6319): Initializing chromium process, singleProcess=true
+W/art     ( 6319): Attempt to remove local handle scope entry from IRT, ignoring
+E/SysUtils( 6319): ApplicationContext is null in ApplicationStatus
+W/chromium( 6319): [WARNING:resource_bundle.cc(286)] locale_file_path.empty()
+I/chromium( 6319): [INFO:aw_browser_main_parts.cc(63)] Load from apk succesful, fd=38 off=50556 len=3379
+I/chromium( 6319): [INFO:aw_browser_main_parts.cc(76)] Loading webviewchromium.pak from, fd:39 off:7638088 len:1165478
+W/art     ( 5906): Suspending all threads took: 7.788ms
+,I/Adreno-EGL( 6319): <qeglDrvAPI_eglInitialize:379>: EGL 1.4 QUALCOMM build: SKARAJGA_AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.02.031.018+PATCH[ES]_msm8916_32_refs/tags/AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.02.031.018__release_ENGG (I856e09677e)
+I/Adreno-EGL( 6319): OpenGL ES Shader Compiler Version: E031.25.03.02
+I/Adreno-EGL( 6319): Build Date: 04/06/15 Mon
+I/Adreno-EGL( 6319): Local Branch: 
+I/Adreno-EGL( 6319): Remote Branch: refs/tags/AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.02.031.018
+I/Adreno-EGL( 6319): Local Patches: 112c106f3772623daa7b4181c6cf23491044ead1 Revert "Disable ASTC on A405"
+I/Adreno-EGL( 6319):                  58a118cb818fdc906095a49a90977c15f9d3b223 Remove ASTC
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,D/Mms/BubbleViewCache( 5906): fillCache bubble = 1
+,W/chromium( 6319): [WARNING:data_reduction_proxy_config.cc(318)] SPDY proxy OFF at startup
+,W/art     ( 6319): Attempt to remove local handle scope entry from IRT, ignoring
+,W/AwContents( 6319): onDetachedFromWindow called when already detached. Ignoring
+,D/PhoneWindow( 6319): *FMB* installDecor mIsFloating : false
+,D/PhoneWindow( 6319): *FMB* installDecor flags : 8456448
+,D/SystemWebViewEngine( 6319): CordovaWebView is running on device made by: samsung,
+,W/art     ( 6319): Attempt to remove local handle scope entry from IRT, ignoring,
+W/art     ( 6319): Attempt to remove local handle scope entry from IRT, ignoring
+,D/OpenGLRenderer( 6319): Render dirty regions requested: true
+,D/ActivityManager( 1015): post active user change for 0 fullscreen true record.isFloatingActivity() false
+,D/KnoxTimeoutHandler( 1015): postActiveUserChange for user 0
+I/KnoxTimeoutHandler( 1015): postActiveUserChange, showWhenLocked: false
+D/KnoxTimeoutHandler( 1015): handleActiveUserChange for user 0
+D/PersonaManagerService( 1015): getPersonasForUser(): returning null!
+,D/PhoneWindow( 6319): *FMB* isFloatingMenuEnabled mFloatingMenuBtn : null
+,D/PhoneWindow( 6319): *FMB* isFloatingMenuEnabled return false
+,I/SurfaceFlinger(  256): id=14 createSurf (1x1),1 flag=404, NainActivit
+,D/InputDispatcher( 1015): Focus entered window: 6319
+,D/PointerIcon( 1015): setMouseIconStyle1 pointerType: 1001iconType:101 flag:0
+D/PointerIcon( 1015): setMouseCustomIcon IconType is same.101
+D/SRIB_DCS( 6319): log_dcs ThreadedRenderer::initialize entered! 
+I/OpenGLRenderer( 6319): Initialized EGL, version 1.4
+,D/OpenGLRenderer( 6319): Get maximum texture size. GL_MAX_TEXTURE_SIZE is 4096
+,D/OpenGLRenderer( 6319): Enabling debug mode 0
+,V/ActivityThread( 6319): updateVisibility : ActivityRecord{110b4f37 token=android.os.BinderProxy@316c1d1 {com.test.thalitest/com.test.thalitest.MainActivity}} show : true
+,D/InputMethodManagerService( 1015): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+,W/ContextImpl( 1015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1698 com.android.server.InputMethodManagerService$6.run:2762 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+,D/PanelView( 1177): There is/are notification(s) 
+,W/BindingManager( 6319): Cannot call determinedVisibility() - never saw a connection for the pid: 6319
+,I/ActivityManager( 1015): Displayed Component not be shown by security: +536ms (total +616ms)
+,W/IInputConnectionWrapper( 6319): showStatusIcon on inactive InputConnection
+W/ActivityManager( 1015): mDVFSHelper.release()
+I/Timeline( 1015): Timeline: Activity_windows_visible id: ActivityRecord{372d2cdd u0 com.test.thalitest/.MainActivity t8} time:82646
+,I/SurfaceFlinger(  256): id=13 Removed uhalitest (7/9)
+,I/SurfaceFlinger(  256): id=13 Removed uhalitest (-2/9)
+,I/SamsungIME( 1812): getCurrentCandidateView
+,I/Timeline( 6319): Timeline: Activity_idle id: android.os.BinderProxy@316c1d1 time:82664
+,E/SMD     (  294): DCD OFF
+,I/ActivityManager( 1015): Killing 5297:com.google.android.talk/u0a104 (adj 15): empty #31
+,D/SamsungIME( 1812): Dismiss ExpandCandiate
+,D/JsMessageQueue( 6319): Set native->JS mode to OnlineEventsBridgeMode
+,W/libprocessgroup( 1015): failed to open /acct/uid_10104/pid_5297/cgroup.procs: No such file or directory
+,D/jxcore_app_log( 6319): JniHelper::setJavaVM(0xb853f450), pthread_self() = -1196833320
+,D/JX-Cordova( 6319): jxcore cordova android initializing
+,I/SamsungIME( 1812): getDebugLevel  : 0x4f4c
+,I/SamsungIME( 1812): getDebugLevel  : 0x4f4c
+,I/SamsungIME( 1812): KeybaordView init() : load resources
+,I/SamsungIME( 1812): getCurrentKeyboard
+,I/SamsungIME( 1812): getTextKeyboard
+,D/SamsungIME( 1812): [SwiftkeyWrapper] currentLangauge : 1701729619
+,V/AlarmManager( 1015): waitForAlarm result :4
+,D/KeyguardViewMediator( 1177): received DELAYED_KEYGUARD_ACTION with seq = 1, mDelayedShowingSequence = 1
+,V/AlarmManager( 1015): ___SyncScheduler (v3) ACTIVATED___
+V/AlarmManagerEXT( 1015): <AppSync3 Whitelist>
+V/AlarmManagerEXT( 1015): (AppSync) ### 0 added ###
+,D/KeyguardViewMediator( 1177): doKeyguard: not showing because lockscreen is off
+V/KeyguardEffectViewController( 1177): *** Keyguard wallpaper service already unbounded
+,D/KeyguardUpdateMonitor( 1177): received broadcast android.intent.action.TIME_TICK
+,D/KeyguardUpdateMonitor( 1177): handleTimeUpdate
+,D/SecKeyguardClockView( 1177): onTimeChanged() : mShouldShowDualClock - false, isDualClockSet() -false
+,D/SecKeyguardClockView( 1177): HomeTimezone(): 1
+,D/SecKeyguardStatusUtils( 1177): regionalDateFormat = 11/22/3333 isRTLlanguage = false returnDateFormat = E, MMMM d
+,D/KeyguardEffectViewController( 1177): onReceive action : android.intent.action.TIME_TICK
+,I/KeyguardEffectViewController( 1177): *** don't update sliding image ***
+,D/DateView( 1177): regionalDateFormat = 11/22/3333 isRTLlanguage = false returnDateFormat = E, MMMM d
+,D/DateView( 1177): regionalDateFormat = 11/22/3333 isRTLlanguage = false returnDateFormat = E, MMMM d
+,D/DateView( 1177): regionalDateFormat = 11/22/3333 isRTLlanguage = false returnDateFormat = E, MMMM d
+,D/SecKeyguardStatusUtils( 1177): regionalDateFormat = 11/22/3333 isRTLlanguage = false returnDateFormat = E, MMMM d
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,I/DBG_POLICYDM( 5990): [com.policydm.XDMBroadcastReceiver(258/xdmExecResumeCase)] 
+,I/DBG_POLICYDM( 5990): [com.policydm.db.XDBFile(63/xdbFileExists)] doesn't exist target file: /data/security/sepolicy
+,I/DBG_POLICYDM( 5990): [com.policydm.db.XDBFile(63/xdbFileExists)] doesn't exist target file: /data/security/seapp_contexts
+,I/DBG_POLICYDM( 5990): [com.policydm.db.XDBFile(63/xdbFileExists)] doesn't exist target file: /data/security/property_contexts
+,I/DBG_POLICYDM( 5990): [com.policydm.db.XDBFile(63/xdbFileExists)] doesn't exist target file: /data/security/file_contexts
+,I/DBG_POLICYDM( 5990): [com.policydm.db.XDBFile(63/xdbFileExists)] doesn't exist target file: /data/security/service_contexts
+,I/DBG_POLICYDM( 5990): [com.policydm.db.XDBFile(63/xdbFileExists)] doesn't exist target file: /data/security/mac_permissions.xml
+,D/SamsungIME( 1812): [SwiftkeyWrapper] currentLangauge : 1701729619
+,I/PowerManagerService( 1015): [PWL] Off : 5s ago
+,W/jxcore-log( 6319): Initializing JXcore engine
+W/jxcore-log( 6319): JXcore engine is ready
+,W/jxcore-log( 6319): Starting JXcore engine
+,W/Atfwd_Sendcmd(  335): AtCmdFwd service not published, waiting... retryCnt : 5
+,E/audit   ( 1907): type=1400 msg=audit(1452763922.137:205): avc:  denied  { ioctl } for  pid=6319 comm=".test.thalitest" path="/sys/kernel/debug/tracing/trace_marker" dev="debugfs" ino=2064 scontext=u:r:untrusted_app:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=0
+E/audit   ( 1907):  SEPF_SM-A500FU_5.0.2-1_0038
+E/audit   ( 1907): type=1300 msg=audit(1452763922.137:205): arch=40000028 syscall=54 per=800000 success=no exit=-13 a0=7 a1=5451 a2=3 a3=beefbd58 items=0 ppid=322 ppcomm=main pid=6319 auid=4294967295 uid=10155 gid=10155 euid=10155 suid=10155 fsuid=10155 egid=10155 sgid=10155 fsgid=10155 ses=4294967295 tty=(none) comm=".test.thalitest" exe="/system/bin/app_process32" subj=u:r:untrusted_app:s0 key=(null)
+E/audit   ( 1907): type=1320 msg=audit(1452763922.137:205): 
+,W/jxcore-log( 6319): Platform android
+W/jxcore-log( 6319): 
+W/jxcore-log( 6319): Process ARCH arm
+W/jxcore-log( 6319): 
+,D/AcmsKeyStoreHelper( 6270):  getKeyStoreForApplication Enter
+,I/AcmsKeyStoreHelper( 6270): Key Store exist
+,I/AcmsKeyStoreHelper( 6270): Hence loading the keystore file
+,D/AcmsKeyStoreHelper( 6270):  getKeyStoreForApplication Exit
+,I/AcmsCertificateMngr( 6270): getKeyStoreForApplication success 
+D/AcmsCore( 6270): Decremented Counter Value : AcmsCoreHandler.handleMessage=>1
+,D/AcmsServiceMonitor( 6270): AcmsServiceMonitor.getAcmsSvcMonitor() - Enter
+D/AcmsServiceMonitor( 6270): Decrementing - Counter value: 1
+D/AcmsCore( 6270): AcmsCore: ACMS_APP_INSTALLED
+,D/AcmsCore( 6270): This is NOT a valid MirrorLink app
+D/AcmsCore( 6270): Decremented Counter Value : AcmsCoreHandler.handleMessage=>2
+D/AcmsServiceMonitor( 6270): AcmsServiceMonitor.getAcmsSvcMonitor() - Enter
+D/AcmsServiceMonitor( 6270): Decrementing - Counter value: 0
+D/AcmsServiceMonitor( 6270): Counter value is 0: Stopping ACMS service
+,D/AcmsServiceMonitor( 6270): getSvcCounter - Counter value: 0
+D/AcmsService( 6270): Enter onDestroy
+I/AcmsService( 6270): cleanUp(): inside service clean up
+D/AcmsCore( 6270): AcmsCore: inside DeInit
+D/AcmsCore( 6270): AcmsCore: mLooperHandler is not null and making it null
+D/AcmsCertificateMngr( 6270): AcmsCertificateMngr: inside cleanup
+D/AcmsRevocationMngr( 6270): AcmsRevocationMngr: inside cleanup
+D/AcmsKeyStoreHelper( 6270): KeyStoreHelper: inside cleanup
+,D/AcmsAppEntryInterface( 6270): AppEntryInterface: Inside CleanUp
+,D/AcmsServiceMonitor( 6270): getSvcCounter - Counter value: 0
+,D/AcmsService( 6270): killing acms process
+,I/Process ( 6270): Sending signal. PID: 6270 SIG: 9
+,I/ActivityManager( 1015): Process ACMS.Process (pid 6270)(adj 0) has died(42,1163)
+,I/jxcore-log( 6319): JXcore Cordova bridge is ready!
+I/jxcore-log( 6319): 
+,W/jxcore-log( 6319): JXcore engine is started
+,I/Choreographer( 6319): Skipped 143 frames!  The application may be doing too much work on its main thread.
+,I/chromium( 6319): [INFO:CONSOLE(41)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: file:///android_asset/www/js/index.js (41)
+,W/ContextImpl( 1015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1698 com.absolute.android.persistservice.a.run:1065 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+,I/jxcore-log( 6319): Toggling radios to true
+I/jxcore-log( 6319): 
+,D/BluetoothAdapter( 6319): enable()
+,D/BluetoothAdapter( 6319): enable(): BT is already enabled..!
+,D/SecContentProvider( 1015): uri = 18 selection = isWifiEnabled
+,D/SecContentProvider2( 1015): uri = 20 selection = isWifiStateChangeAllowed
+,D/SecContentProvider2( 1015): mCursor = null
+,D/WifiService( 1015): setWifiEnabled: true pid=6319, uid=10155
+,W/ActivityManager( 1015): Permission Denial: getCurrentUser() from pid=6319, uid=10155 requires android.permission.INTERACT_ACROSS_USERS
+,W/WifiService( 1015): Failed getting userId using ActivityManagerNative
+W/WifiService( 1015): java.lang.SecurityException: Permission Denial: getCurrentUser() from pid=6319, uid=10155 requires android.permission.INTERACT_ACROSS_USERS
+W/WifiService( 1015): 	at com.android.server.am.ActivityManagerService.getCurrentUser(ActivityManagerService.java:24778)
+W/WifiService( 1015): 	at com.android.server.wifi.WifiServiceImpl.setWifiEnabled(WifiServiceImpl.java:2213)
+W/WifiService( 1015): 	at com.android.server.wifi.WifiServiceImpl.setWifiEnabled(WifiServiceImpl.java:2201)
+W/WifiService( 1015): 	at android.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:223)
+W/WifiService( 1015): 	at android.os.Binder.execTransact(Binder.java:461)
+,D/SettingsProvider( 1015): name = wifi_on
+,I/WifiService( 1015): disconnect: pid=6319, uid=10155
+,I/jxcore-log( 6319): Radios toggled
+I/jxcore-log( 6319): 
+I/jxcore-log( 6319): My device name is: samsung-SM-A500FU
+I/jxcore-log( 6319): 
+,I/wpa_supplicant( 2076): [wpa_supplicant_ctrl_iface_process] : DISCONNECT,
+,I/wpa_supplicant( 2076): CTRL-EVENT-DISCONNECTED bssid=C0.AA.48 reason=3 locally_generated=1
+D/Tethering( 1015): interfaceLinkStateChanged wlan0, false
+,D/Tethering( 1015): interfaceStatusChanged wlan0, false
+,I/wpa_supplicant( 2076): wlan0: State: COMPLETED -> DISCONNECTED
+I/wpa_supplicant( 2076): Prev BSS - hexdump(len=6): c0 ff d4 d3 aa 48
+I/Nat464Xlat( 1015): interfaceLinkStateChanged wlan0, false
+D/Tethering( 1015): InitialState.processMessage what=4
+I/wpa_supplicant( 2076): CTRL-EVENT-STATE-CHANGE id=0 state=0 BSSID=C0.AA.48 SSID=4E47373030
+I/wpa_supplicant( 2076): wlan0: State: DISCONNECTED -> DISCONNECTED
+E/wpa_supplicant( 2076): Cmd 35605 not handled
+,E/WifiStateMachine( 1015): WifiStateMachine: Leaving Connected state
+,I/wpa_supplicant( 2076): reset timer : RESET_TIMER 0
+I/wpa_supplicant( 2076): wlan0: Setting scan request: 0 sec 0 usec
+I/wpa_supplicant( 2076): P2P: Current p2p state = IDLE
+I/wpa_supplicant( 2076): wlan0: State: DISCONNECTED -> SCANNING
+I/wpa_supplicant( 2076): CTRL-EVENT-STATE-CHANGE id=-1 state=3 BSSID=00.00.00 SSID=
+I/wpa_supplicant( 2076): First Scan Start
+,I/wpa_supplicant( 2076): Scan requested (ret=0) - scan timeout 30 seconds
+,E/Tethering( 1015): No numeric data
+D/Tethering( 1015): interfaceLinkStateChanged wlan0, false
+D/Tethering( 1015): interfaceStatusChanged wlan0, false
+,I/Nat464Xlat( 1015): interfaceLinkStateChanged wlan0, false
+,D/Tethering( 1015): sendTetherStateChangedBroadcast 0, 0, 0
+,D/Tethering( 1015): clearTetheredNotification()
+,D/Tethering( 1015): interfaceLinkStateChanged wlan0, false
+I/Nat464Xlat( 1015): interfaceLinkStateChanged wlan0, false
+,D/Tethering( 1015): interfaceStatusChanged wlan0, false
+,D/HotspotTile( 1177): onReceive : android.net.conn.TETHER_STATE_CHANGED
+,D/HotspotTile( 1177): updateTetherState():false, false
+,V/NetworkStats( 1015): performPollLocked(flags=0x1)
+,D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+,D/NetworkStatsFactory( 1015): UpdateStatsForKnox updated,
+D/NetworkStatsFactory( 1015): UpdateStatsForKnox main else ---
+,E/WifiConfigStore( 1015): saveWifiConfigBSSID Setting BSSID for "NG700"WPA_PSK to any
+,V/NetworkStats( 1015): performPollLocked() took 8ms
+,D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+,D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+,D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+,E/WifiNative-wlan0( 1015): do suspend true
+,D/WifiP2pService( 1015): InactiveState{ what=143375 }
+,D/WifiP2pService( 1015): P2pEnabledState{ what=143375 }
+,D/CommandListener(  282): Clearing all IP addresses on wlan0
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f020535/com.android.systemui:drawable/stat_sys_signal_in mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false),
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/ConnectivityService( 1015): NetworkAgentInfo [WIFI () - 502] EVENT_NETWORK_INFO_CHANGED, going from CONNECTED to DISCONNECTED, reason = null, [ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps]
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/ConnectivityService( 1015): NetworkAgentInfo [WIFI () - 502] got DISCONNECTED, was satisfying 2
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+V/NativeCrypto( 1867): Read error: ssl=0xb8ad61d8: I/O error during system call, Connection timed out
+E/ConnectivityService( 1015): updateNetworkInfo()
+E/ConnectivityService( 1015): updateNetworkInfo()
+,E/WifiStateMachine( 1015): Start Disconnecting Watchdog 1
+,V/NativeCrypto( 1867): SSL shutdown failed: ssl=0xb8ad61d8: I/O error during system call, Broken pipe,
+,I/wpa_supplicant( 2076): wlan0: Setting scan request: 0 sec 0 usec
+,W/ContextImpl( 1015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1698 com.android.server.wifi.WifiStateMachine.insertLog:14952 com.android.server.wifi.WifiStateMachine.access$2700:217 com.android.server.wifi.WifiStateMachine$DefaultState.processMessage:6951 com.android.internal.util.StateMachine$SmHandler.processMsg:966 
+,I/WifiTrafficPoller( 1015): evaluateTrafficStatsPolling,
+,D/NetworkMonitorNetworkAgentInfo [WIFI () - null]( 1015): ValidatedState{ when=0 what=532488 arg1=10012 target=com.android.internal.util.StateMachine$SmHandler }
+D/ConnectivityService( 1015): reportBadNetwork(NetworkAgentInfo [WIFI () - 502]) by 10012
+D/NetworkMonitorNetworkAgentInfo [WIFI () - null]( 1015): DefaultState{ when=0 what=532488 arg1=10012 target=com.android.internal.util.StateMachine$SmHandler }
+D/NetworkMonitorNetworkAgentInfo [WIFI () - null]( 1015): Forcing reevaluation
+D/NetworkMonitorNetworkAgentInfo [WIFI () - null]( 1015): EvaluatingState{ when=0 what=532486 arg1=2 target=com.android.internal.util.StateMachine$SmHandler }
+,D/NetworkMonitorNetworkAgentInfo [WIFI () - null]( 1015): Checking http://connectivitycheck.android.com/generate_204 on <unknown ssid>
+I/System.out( 1015): (HTTPLog)-Static: isSBSettingEnabled false
+,I/qtaguid ( 1015): Tagging socket 360 with tag ffffffff00000000{4294967295,0} for uid 10012, pid: 1015, getuid(): 1000
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f020561/com.android.systemui:drawable/stat_sys_wifi_signal_0 mQSWifiIconId=0x7f020157/com.android.systemui:drawable/ic_qs_wifi_no_network mWifiActivityIconId=0x7f020535/com.android.systemui:drawable/stat_sys_signal_in mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:null
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,I/qtaguid ( 1015): Untagging socket 360
+,I/System.out( 1015): (HTTPLog)-Static: isSBSettingEnabled false
+,D/EnterpriseController(  282): uids 1000,
+D/EnterpriseController(  282): mIsMarkChainAdded is 18 mIsBlockChainAdded is 252 netId is 0
+,D/Netd    (  282): getNetworkForDns: using netid 0 for uid 1000
+,E/WifiNative-wlan0( 1015): do suspend true,
+D/ConnectivityService( 1015): setProvNotificationVisibleIntent: E visible=false networkType=1 extraInfo=null
+D/ConnectivityManager.CallbackHandler( 1177): CM callback handler got msg 524292
+D/ConnectivityService( 1015): notifyType LOST for NetworkAgentInfo [WIFI () - 502]
+D/CommandListener(  282): Clearing all IP addresses on wlan0
+,D/ConnectivityService( 1015): Checking for replacement network to handle request NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+D/NetworkMonitorNetworkAgentInfo [WIFI () - null]( 1015): Probably not a portal: exception java.net.UnknownHostException: Unable to resolve host "connectivitycheck.android.com": No address associated with hostname
+D/NetworkMonitorNetworkAgentInfo [WIFI () - null]( 1015): Validated
+D/NetworkMonitorNetworkAgentInfo [WIFI () - null]( 1015): ValidatedState{ when=-1ms what=532487 target=com.android.internal.util.StateMachine$SmHandler }
+,D/TelephonyNetworkFactory( 1462): evalRequest evalRequest  = NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] n.requested= false,
+D/TelephonyNetworkFactory( 1462): Cellular needs Network for NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ],
+,D/WifiP2pService( 1015): InactiveState{ what=143375 }
+D/WIFI_P2P( 1015): evalRequest evalRequest  = NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] n.requested= false
+D/WifiP2pService( 1015): P2pEnabledState{ what=143375 }
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f020561/com.android.systemui:drawable/stat_sys_wifi_signal_0 mQSWifiIconId=0x7f020157/com.android.systemui:drawable/ic_qs_wifi_no_network mWifiActivityIconId=0x7f020535/com.android.systemui:drawable/stat_sys_signal_in mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:null
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/CSLegacyTypeTracker( 1015): Removing agent NetworkAgentInfo{ ni{[type: WIFI[] - WIFI, state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: <unknown ssid>, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]}  network{502}  lp{{InterfaceName: wlan0 LinkAddresses: [192.168.1.129/24,fe80::7ef9:eff:fe37:96ac/64,]  Routes: [fe80::/64 -> :: wlan0,192.168.1.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.1.1 wlan0,] DnsAddresses: [192.168.1.1,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,4525824,524288,1048576,4525824}}  nc{[ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps]}  Score{60} validated{true} created{true} explicitlySelected{false} }
+D/EntConnectivity( 1015): Not allowed due to - mEnabled false - primarySimSlot false
+D/CSLegacyTypeTracker( 1015): Sending disconnected broadcast for type 1 NetworkAgentInfo [WIFI () - 502] isDefaultNetwork=false
+,D/ConnectivityService( 1015): sendStickyBroadcast: action=android.net.conn.CONNECTIVITY_CHANGE_IMMEDIATE
+,I/WifiTrafficPoller( 1015): evaluateTrafficStatsPolling
+,D/WifiNetworkAgent( 1015): NetworkAgent: NetworkAgent channel lost
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f020561/com.android.systemui:drawable/stat_sys_wifi_signal_0 mQSWifiIconId=0x7f020157/com.android.systemui:drawable/ic_qs_wifi_no_network mWifiActivityIconId=0x7f020535/com.android.systemui:drawable/stat_sys_signal_in mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+,D/WIFI    ( 1015): evalRequest evalRequest  = NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] n.requested= false
+D/SecContentProvider2( 1015): uri = 20 selection = getPromptCredentialsEnabled
+D/SecContentProvider2( 1015): mCursor = null
+,D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:null
+,D/SecContentProvider2( 1015): uri = 20 selection = getPromptCredentialsEnabled
+D/SecContentProvider2( 1015): mCursor = null
+,D/ActivityManager( 1015): startService callerProcessName:com.samsung.hs20settings, calleePkgName: com.samsung.hs20settings
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.samsung.hs20settings/com.samsung.hs20settings.WifiHs20UtilityService; callingUser = 0; userId(target) = -2
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.samsung.hs20settings, destAppInfo.processName = com.samsung.hs20settings
+,I/Hs20UtilService( 3472): Starting #8
+I/Hs20UtilService( 3472): Message received 5007
+,D/ConnectivityService( 1015): nai.networkMonitor.doQuit()
+D/NetworkMonitorNetworkAgentInfo [WIFI () - null]( 1015): doQuit - quitNow()
+,D/EntConnectivity( 1015): Not allowed due to - mEnabled false - primarySimSlot false
+,D/Tethering( 1015): Tethering got CONNECTIVITY_ACTION_IMMEDIATE
+,D/Tethering( 1015): MasterInitialState.processMessage what=3
+,D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+V/NetworkStats( 1015): updateIfacesLocked()
+V/NetworkStats( 1015): performPollLocked(flags=0x1)
+,D/NetworkStatsFactory( 1015): UpdateStatsForKnox updated
+D/NetworkStatsFactory( 1015): UpdateStatsForKnox main else ---
+,D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+V/NetworkStats( 1015): performPollLocked() took 4ms
+,D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+,D/StatusBar.NetworkController( 1177): EthernetConnected: false
+D/StatusBar.NetworkController( 1177): getUpdateDataNetType(): 0,
+D/StatusBar.NetworkController( 1177): getUpdateDataNetType(): mDataTypeBrand = LTE
+V/NetworkStats( 1015): advisePersistThreshold() given 9223372036854775, clamped to 2097152
+D/StatusBar.NetworkController( 1177): updateDataNetType()
+D/StatusBar.NetworkController( 1177): NoService, mRoamingIconId = 0
+E/StatusBar.NetworkController( 1177): updateLTEICONDataNetType:0
+D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+,D/StatusBar.NetworkController( 1177): updateDataIcon, mDataDirectionIconId = (null) mDataConnected = false
+D/StatusBar.NetworkController( 1177): updateTelephonySignalStrength: hasService=false ss=SignalStrength: 99 99 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 -1 2147483647 0x0 gsm|lte
+,D/StatusBar.NetworkController( 1177): updateTelephonySignalStrength, No signal level. mPhoneSignalIconId = com.android.systemui:drawable/tw_stat_sys_signal_null mDataSignalIconId = com.android.systemui:drawable/tw_stat_sys_signal_null mQSPhoneSignalIconId = com.android.systemui:drawable/ic_qs_signal_no_signal mContentDescriptionPhoneSignal = No phone signal
+D/StatusBar.NetworkController( 1177): refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f020561/com.android.systemui:drawable/stat_sys_wifi_signal_0 mQSWifiIconId=0x7f020157/com.android.systemui:drawable/ic_qs_wifi_no_network mWifiActivityIconId=0x7f020535/com.android.systemui:drawable/stat_sys_signal_in mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:null
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/NearbySettings( 1319): MountReceiver.onReceive - ACTION: android.net.wifi.STATE_CHANGE
+V/NearbySettings( 1319): DMSUtil.isNetworkConnected - flag-null, state-null
+,I/NearbySettings( 1319): DMSUtil.isNetworkConnected - WIFI: DISCONNECTED
+,I/NearbySettings( 1319): DMSUtil.isNetworkConnected - P2P: IDLE
+,I/NearbySettings( 1319): DMSUtil.isNetworkConnected - WIFI-false, Hotspot-false, P2P-false, Eth-false
+I/NearbySettings( 1319): MountReceiver.onReceive - Set preference state off
+,V/NearbySettings( 1319): MountReceiver.mPrefHandler - 7002
+,D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.talk
+D/ActivityManager( 1015): startProcessLocked calleePkgName: com.google.android.talk, hostingType: broadcast
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,I/ActivityManager( 1015): Start proc com.google.android.talk for broadcast com.google.android.talk/com.google.android.apps.hangouts.service.NetworkStateReceiver: pid=6382 uid=10104 gids={50104, 9997, 3003, 1028, 1015, 3002} abi=armeabi-v7a
+,E/Zygote  ( 6382): MountEmulatedStorage()
+E/Zygote  ( 6382): v2
+I/libpersona( 6382): KNOX_SDCARD checking this for 10104
+I/libpersona( 6382): KNOX_SDCARD not a persona
+,I/SELinux ( 6382): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+,I/SELinux ( 6382): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038,
+E/SELinux ( 6382): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+,D/TimaKeyStoreProvider( 6382): TimaSignature is unavailable
+,D/ActivityThread( 6382): Added TimaKeyStore provider
+,D/PhoneApp( 1462): PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,D/FileWriteThread_Telephony( 1462): FileWriteThread : threadType = 3
+,D/PhoneApp( 1462): PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,D/FileWriteThread_Telephony( 1462): FileWriteThread : threadType = 3
+,D/PhoneApp( 1462): PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,D/FileWriteThread_Telephony( 1462): FileWriteThread : threadType = 3
+,W/ResourcesManager( 6382): Asset path '/system/framework/com.google.android.media.effects.jar' does not exist or contains no resources.
+,D/PhoneApp( 1462): PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,D/FileWriteThread_Telephony( 1462): FileWriteThread : threadType = 3
+,D/PhoneApp( 1462): PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,D/FileWriteThread_Telephony( 1462): FileWriteThread : threadType = 3
+,D/PhoneApp( 1462): PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,D/FileWriteThread_Telephony( 1462): FileWriteThread : threadType = 3
+,D/PhoneApp( 1462): PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,D/FileWriteThread_Telephony( 1462): FileWriteThread : threadType = 3
+,D/PhoneApp( 1462): PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,D/FileWriteThread_Telephony( 1462): FileWriteThread : threadType = 3
+,D/PhoneApp( 1462): PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE,
+,D/FileWriteThread_Telephony( 1462): FileWriteThread : threadType = 3
+,D/PhoneApp( 1462): PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,D/FileWriteThread_Telephony( 1462): FileWriteThread : threadType = 3
+,D/PhoneApp( 1462): PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,D/FileWriteThread_Telephony( 1462): FileWriteThread : threadType = 3
+,D/PhoneApp( 1462): PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,D/FileWriteThread_Telephony( 1462): FileWriteThread : threadType = 3
+,D/PhoneApp( 1462): PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,D/FileWriteThread_Telephony( 1462): FileWriteThread : threadType = 3
+,D/PhoneApp( 1462): PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,D/FileWriteThread_Telephony( 1462): FileWriteThread : threadType = 3
+,D/PhoneApp( 1462): PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,D/FileWriteThread_Telephony( 1462): FileWriteThread : threadType = 3
+,E/SMD     (  294): DCD OFF,
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!
+,D/BatteryService( 1015): level:100, scale:100, status:2, health:2, present:true, voltage: 4346, temperature: 252, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303736, invalid charger:0
+D/BatteryService( 1015): online:4, current avg:0, charge type:1, power sharing:false, high voltage charger:false, capacity:230000, current_now:0
+D/BatteryService( 1015): stay LED for charging
+D/BatteryService( 1015): Sending ACTION_BATTERY_CHANGED.
+,I/MotionRecognitionService( 1015): Plugged
+,I/MotionRecognitionService( 1015): mGripSensorEnabled= false
+,D/KeyguardUpdateMonitor( 1177): received broadcast android.intent.action.BATTERY_CHANGED
+,V/EmergencyMode( 1415): [EmergencyStateReceiver] onReceive : android.intent.action.BATTERY_CHANGED
+,V/EmergencyMode( 1415): [EmergencyStateReceiver] ACTION_BATTERY_CHANGED mBatteryLevelForLogging = 100
+,D/KeyguardUpdateMonitor( 1177): handleBatteryUpdate
+,V/HeadsetService( 2578): HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+,D/HeadsetStateMachine( 2578): Disconnected process message: 10
+,D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:2 health:2
+,D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:2 health:2
+,D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:2 health:2
+,I/Babel   ( 6382): MmsConfig: mnc/mcc: 0/0
+,I/Babel   ( 6382): MmsConfig.loadMmsSettings
+I/Babel   ( 6382): MmsConfig.loadDeviceMmsSettings from API: mUserAgent=SAMSUNG-ANDROID-MMS/SM-A500FU, mUaProfUrl=http://wap.samsungmobile.com/uaprof/SM-A500FU.xml
+I/Babel   ( 6382): MmsConfig.loadFromDatabase
+,E/Babel   ( 6382): canonicalizeMccMnc: invalid mccmnc 
+I/Babel   ( 6382): MmsConfig.loadFromResources
+,E/Babel   ( 6382): canonicalizeMccMnc: invalid mccmnc nullnull
+,I/Babel   ( 6382): MmsConfig.loadMmsSettings: mUserAgent=SAMSUNG-ANDROID-MMS/SM-A500FU, mUaProfUrl=http://wap.samsungmobile.com/uaprof/SM-A500FU.xml
+,D/ActivityManager( 1015): bindService callerProcessName:com.google.android.talk, calleePkgName: com.google.android.talk, action: null
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.talk/com.google.android.libraries.hangouts.video.CallService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.talk, destAppInfo.processName = com.google.android.talk
+,W/Settings( 6382): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+,I/Babel_StickerModule( 6382): App launched.
+,D/ActivityManager( 1015): startService callerProcessName:com.samsung.hs20settings, calleePkgName: com.samsung.hs20settings
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.samsung.hs20settings/com.samsung.hs20settings.WifiHs20UtilityService; callingUser = 0; userId(target) = -2
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.samsung.hs20settings, destAppInfo.processName = com.samsung.hs20settings
+,I/Hs20UtilService( 3472): Starting #9
+,I/Hs20UtilService( 3472): Message received 5007
+,W/QCamera2Factory(  287): getCameraInfo: E, camera_id = 0
+W/QCamera2Factory(  287): getCameraInfo: X
+,D/NearbySettings( 1319): MountReceiver.onReceive - ACTION: android.net.wifi.STATE_CHANGE
+V/NearbySettings( 1319): DMSUtil.isNetworkConnected - flag-null, state-null
+,I/NearbySettings( 1319): DMSUtil.isNetworkConnected - WIFI: DISCONNECTED
+,I/NearbySettings( 1319): DMSUtil.isNetworkConnected - P2P: IDLE
+,W/QCamera2Factory(  287): getCameraInfo: E, camera_id = 1
+W/QCamera2Factory(  287): getCameraInfo: X
+I/NearbySettings( 1319): DMSUtil.isNetworkConnected - WIFI-false, Hotspot-false, P2P-false, Eth-false
+I/NearbySettings( 1319): MountReceiver.onReceive - Set preference state off
+,V/NearbySettings( 1319): MountReceiver.mPrefHandler - 7002
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+W/VideoCapabilities( 6382): Unrecognized profile 2130706433 for video/avc
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,W/AudioCapabilities( 6382): Unsupported mime audio/evrc
+,W/AudioCapabilities( 6382): Unsupported mime audio/qcelp
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,W/AudioCapabilities( 6382): Unsupported mime audio/mpeg-L1
+D/ConnectivityService( 1015): sendStickyBroadcast: action=android.net.conn.CONNECTIVITY_CHANGE
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,W/AudioCapabilities( 6382): Unsupported mime audio/mpeg-L2
+,D/GpsLocationProvider( 1015): receive broadcast intent, action: android.net.conn.CONNECTIVITY_CHANGE
+,W/AudioCapabilities( 6382): Unsupported mime audio/x-ms-wma
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,I/DBG_DM  ( 3042): [com.wssyncmldm.XDMService(936/lIllIlllIIllllIlIlIl)] WiFi network Connected : false
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,I/ApplicationPolicy( 1015): updateDataUsageMap
+,W/AudioCapabilities( 6382): Unsupported mime audio/x-ima
+,W/AudioCapabilities( 6382): Unsupported mime audio/qcelp
+,W/AudioCapabilities( 6382): Unsupported mime audio/evrc
+,I/DBG_DM  ( 3042): [com.wssyncmldm.XDMService(952/llIlIllllllllllllllI)] Bluetooth Data Connected : false
+,W/VideoCapabilities( 6382): Unsupported mime video/wvc1
+,W/VideoCapabilities( 6382): Unsupported mime video/x-ms-wmv
+,W/VideoCapabilities( 6382): Unrecognized profile/level 32768/2 for video/mp4v-es
+,W/VideoCapabilities( 6382): Unsupported mime video/wvc1
+,W/VideoCapabilities( 6382): Unsupported mime video/x-ms-wmv
+,W/VideoCapabilities( 6382): Unsupported mime video/x-ms-wmv7
+,W/VideoCapabilities( 6382): Unsupported mime video/x-ms-wmv8
+,W/VideoCapabilities( 6382): Unsupported mime video/mp43
+,W/VideoCapabilities( 6382): Unsupported mime video/sorenson
+,W/VideoCapabilities( 6382): Unsupported mime video/mp4v-esdp
+,D/ActivityManager( 1015): bindService callerProcessName:com.google.android.apps.docs, calleePkgName: com.google.android.gms, action: com.google.android.gms.analytics.service.START
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.analytics.service.AnalyticsService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.apps.docs, destAppInfo.processName = com.google.android.gms
+,I/VideoCapabilities( 6382): Unsupported profile 4 for video/mp4v-es
+,D/ActivityManager( 1015): bindService callerProcessName:com.google.android.talk, calleePkgName: com.google.android.talk, action: com.google.android.talk.SOFT_BIND
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.talk/com.google.android.libraries.hangouts.video.VideoChatService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.talk, destAppInfo.processName = com.google.android.talk
+,I/ActivityManager( 1015): Killing 5835:com.google.android.gms:car/u0a12 (adj 15): empty #31
+,W/libprocessgroup( 1015): failed to open /acct/uid_10012/pid_5835/cgroup.procs: No such file or directory
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,I/PCWCLIENTTRACE_PushUtil( 5928): SPPPushClient is installed : true
+,I/PCWCLIENTTRACE_PushUtil( 5928): sales region : global
+,I/PCWCLIENTTRACE_PushUtil( 5928): getPushTypeList : [SPP, GCM]
+I/PCWCLIENTTRACE_SYSTEMReceiver( 5928): [onReceive] - android.net.conn.CONNECTIVITY_CHANGE
+,I/splitIntent( 1015): Split this intent : android.net.conn.CONNECTIVITY_CHANGE, mSplitNum[0]=8, mSplitNum[1]=17, mSplitNum[2]=25, mBgSplitQueueNum=3 divideNum= 8 r.nextReceiver= 1 receivers.size=33
+,I/splitIntent( 1015): finish to split intent : android.net.conn.CONNECTIVITY_CHANGE !! Enqueue -> schedule it!!
+,D/ActivityManager( 1015): startProcessLocked calleePkgName: com.google.android.music, hostingType: broadcast
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,I/PCWCLIENTTRACE_SYSTEMReceiver( 5928): noConnectivity : true
+,E/Zygote  ( 6427): MountEmulatedStorage(),
+E/Zygote  ( 6427): v2
+I/libpersona( 6427): KNOX_SDCARD checking this for 10111
+I/libpersona( 6427): KNOX_SDCARD not a persona
+,I/ActivityManager( 1015): Start proc com.google.android.music:main for broadcast com.google.android.music/.leanback.notifications.LeanbackRecommendationsService$LeanbackRecommendationReceiver: pid=6427 uid=10111 gids={50111, 9997, 3003, 1028, 1015} abi=armeabi-v7a
+I/SELinux ( 6427): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+,D/ActivityManager( 1015): startProcessLocked calleePkgName: com.sec.android.fotaclient, hostingType: broadcast
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+I/SELinux ( 6427): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/SELinux ( 6427): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+,E/Zygote  ( 6439): MountEmulatedStorage()
+E/Zygote  ( 6439): v2
+I/libpersona( 6439): KNOX_SDCARD checking this for 10009
+I/libpersona( 6439): KNOX_SDCARD not a persona
+,I/SELinux ( 6439): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+,I/SELinux ( 6439): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+I/ActivityManager( 1015): Start proc com.sec.android.fotaclient for broadcast com.sec.android.fotaclient/.FotaRegisterReceiver: pid=6439 uid=10009 gids={50009, 9997, 3003, 1028, 1015} abi=armeabi-v7a
+E/SELinux ( 6439): [DEBUG] get_category: variable seinfo: release sensitivity: NULL, cateogry: NULL
+,D/ActivityManager( 1015): startProcessLocked calleePkgName: com.android.email, hostingType: broadcast
+D/accuweather( 1727): [KK AccuPhone]>>> WCW:32 [0:0] action : androidnetconnCONNECTIVITY_CHANGE
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,D/TimaKeyStoreProvider( 6427): TimaSignature is unavailable
+,D/ActivityThread( 6427): Added TimaKeyStore provider
+,D/TimaKeyStoreProvider( 6439): TimaSignature is unavailable
+,D/ActivityThread( 6439): Added TimaKeyStore provider
+,E/Zygote  ( 6457): MountEmulatedStorage(),
+E/Zygote  ( 6457): v2
+I/libpersona( 6457): KNOX_SDCARD checking this for 10145
+I/libpersona( 6457): KNOX_SDCARD not a persona,
+I/SELinux ( 6457): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+,I/SELinux ( 6457): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038,
+I/ActivityManager( 1015): Start proc com.android.email for broadcast com.android.email/.EmailConnectivityManager: pid=6457 uid=10145 gids={50145, 9997, 3003, 1028, 1015, 1023, 3002, 3001, 1003} abi=armeabi-v7a
+E/SELinux ( 6457): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,I/wpa_supplicant( 2076): nl80211: Received scan results (6 BSSes)
+I/wpa_supplicant( 2076): wlan0: Setting scan request: 8 sec 0 usec
+,I/wpa_supplicant( 2076): Trying to associate with SSID '4E47373030'
+I/wpa_supplicant( 2076): Trying to associate with  'G700'
+I/wpa_supplicant( 2076): Re-associate with C0.AA.48
+I/wpa_supplicant( 2076): wlan0: State: SCANNING -> ASSOCIATING
+I/wpa_supplicant( 2076): CTRL-EVENT-STATE-CHANGE id=0 state=5 BSSID=00.00.00 SSID=4E47373030
+D/WifiMonitor( 1015): didn't find BSSID Trying to associate with SSID 'NG700'
+,D/daemonapp( 1300): [MSC_Daemon]>>> WCP:1254 [0:0] cp update : count : 1, pt : 8,
+I/art     (  322): Explicit concurrent mark sweep GC freed 8720(371KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 6MB/11MB, paused 638us total 28.309ms
+,D/SecContentProvider2( 1015): uri = 20 selection = getPromptCredentialsEnabled
+D/SecContentProvider2( 1015): mCursor = null
+,D/accuweather( 1727): [KK AccuPhone]>>> U:4088 [0:0] getPWC : surface = 0, remote = 1
+D/accuweather( 1727): [KK AccuPhone]>>> U:4207 [0:0] Store PWC = 1
+D/accuweather( 1727): [KK AccuPhone]>>> U:4140 [0:0] addPWC = 1
+,D/accuweather( 1727): [KK AccuPhone]>>> UIM:312 [0:0]  action:androidnetconnCONNECTIVITY_CHANGE
+,D/TimaKeyStoreProvider( 6457): TimaSignature is unavailable
+D/ActivityThread( 6457): Added TimaKeyStore provider
+,I/art     (  322): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 39% free, 6MB/11MB, paused 608us total 18.332ms
+,I/art     (  322): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 39% free, 6MB/11MB, paused 625us total 17.368ms
+,D/accuweather( 1727): [KK AccuPhone]>>> WC:30 [0:0] action : androidnetconnCONNECTIVITY_CHANGE
+,D/accuweather( 1727): [KK AccuPhone]>>> UIMEM:105 [0:0] The widget does not exist in idle!!
+,D/ActivityManager( 1015): startProcessLocked calleePkgName: com.android.chrome, hostingType: broadcast
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,W/ResourcesManager( 6457): Asset path '/system/framework/secsmartcard.jar' does not exist or contains no resources.
+,W/ResourcesManager( 6457): Asset path '/system/framework/com.google.android.maps.jar' does not exist or contains no resources.
+W/ResourcesManager( 6457): Asset path '/system/framework/multiwindow.jar' does not exist or contains no resources.
+W/ResourcesManager( 6457): Asset path '/system/framework/twframework.jar' does not exist or contains no resources.
+W/ResourcesManager( 6457): Asset path '/system/framework/secvision.jar' does not exist or contains no resources.
+,E/Zygote  ( 6473): MountEmulatedStorage(),
+I/ActivityManager( 1015): Start proc com.android.chrome for broadcast com.android.chrome/org.chromium.chrome.browser.precache.PrecacheServiceLauncher: pid=6473 uid=10081 gids={50081, 9997, 3003, 1028, 1015} abi=armeabi-v7a
+E/Zygote  ( 6473): v2
+I/libpersona( 6473): KNOX_SDCARD checking this for 10081
+,I/libpersona( 6473): KNOX_SDCARD not a persona
+,I/SELinux ( 6473): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38,
+,I/SELinux ( 6473): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+E/SELinux ( 6473): [DEBUG] get_category: variable seinfo: chrome sensitivity: NULL, cateogry: NULL
+,D/TimaKeyStoreProvider( 6473): TimaSignature is unavailable
+,D/ActivityThread( 6473): Added TimaKeyStore provider
+E/wpa_supplicant( 2076): Cmd 35605 not handled
+,D/Tethering( 1015): interfaceLinkStateChanged wlan0, false
+I/Nat464Xlat( 1015): interfaceLinkStateChanged wlan0, false,
+D/Tethering( 1015): interfaceStatusChanged wlan0, false,
+I/wpa_supplicant( 2076): wlan0: State: ASSOCIATING -> ASSOCIATED
+I/Nat464Xlat( 1015): interfaceLinkStateChanged wlan0, false,
+I/wpa_supplicant( 2076): CTRL-EVENT-STATE-CHANGE id=0 state=6 BSSID=00.00.00 SSID=4E47373030
+I/wpa_supplicant( 2076): Associated with C0.AA.48
+D/Tethering( 1015): interfaceLinkStateChanged wlan0, false,
+D/Tethering( 1015): interfaceStatusChanged wlan0, false
+I/Nat464Xlat( 1015): interfaceLinkStateChanged wlan0, false,
+D/Tethering( 1015): interfaceLinkStateChanged wlan0, false
+D/Tethering( 1015): interfaceStatusChanged wlan0, false,
+I/Nat464Xlat( 1015): interfaceLinkStateChanged wlan0, true
+,D/Tethering( 1015): interfaceLinkStateChanged wlan0, true
+,D/Tethering( 1015): interfaceStatusChanged wlan0, true
+E/Tethering( 1015): No numeric data
+,D/Tethering( 1015): sendTetherStateChangedBroadcast 1, 0, 0
+D/Tethering( 1015): clearTetheredNotification()
+,D/SecContentProvider2( 1015): uri = 20 selection = getPromptCredentialsEnabled
+D/SecContentProvider2( 1015): mCursor = null
+,V/NetworkStats( 1015): performPollLocked(flags=0x1)
+,D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+,D/HotspotTile( 1177): onReceive : android.net.conn.TETHER_STATE_CHANGED
+,D/HotspotTile( 1177): updateTetherState():false, false
+,D/NetworkStatsFactory( 1015): UpdateStatsForKnox updated
+,D/NetworkStatsFactory( 1015): UpdateStatsForKnox main else ---
+,V/NetworkStats( 1015): performPollLocked() took 10ms
+,D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+,D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+,D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+,D/RCPManagerService( 1015): exchangeData() failure , invalid userId
+,D/RCPManagerService( 1015): exchangeData() failure , invalid userId,
+,I/wpa_supplicant( 2076): wlan0: RX EAPOL from c0:ff:d4:d3:aa:48,
+I/wpa_supplicant( 2076): wlan0: State: ASSOCIATED -> 4WAY_HANDSHAKE
+I/wpa_supplicant( 2076): CTRL-EVENT-STATE-CHANGE id=0 state=7 BSSID=C0.AA.48 SSID=4E47373030
+,I/wpa_supplicant( 2076): wlan0: RX EAPOL from c0:ff:d4:d3:aa:48,
+I/wpa_supplicant( 2076): wlan0: State: 4WAY_HANDSHAKE -> 4WAY_HANDSHAKE
+,I/wpa_supplicant( 2076): wlan0: State: 4WAY_HANDSHAKE -> GROUP_HANDSHAKE
+I/wpa_supplicant( 2076): CTRL-EVENT-STATE-CHANGE id=0 state=8 BSSID=C0.AA.48 SSID=4E47373030
+I/wpa_supplicant( 2076): wlan0: WPA: Key negotiation completed with c0:ff:d4:d3:aa:48 [PTK=CCMP GTK=CCMP]
+I/wpa_supplicant( 2076): wlan0: State: GROUP_HANDSHAKE -> COMPLETED,
+I/wpa_supplicant( 2076): CTRL-EVENT-CONNECTED - Connection to C0.AA.48 completed (auth) [id=0 id_str=]
+I/wpa_supplicant( 2076): Blacklist: Clear (temp) 
+I/wpa_supplicant( 2076): CTRL-EVENT-STATE-CHANGE id=0 state=9 BSSID=C0.AA.48 SSID=4E47373030
+,D/WifiNative-wlan0( 1015): callSECApiVoid - ID [50]
+,E/WifiConfigStore( 1015): setLastSelectedConfiguration -1
+,D/Tethering( 1015): interfaceLinkStateChanged wlan0, true
+,D/Tethering( 1015): interfaceStatusChanged wlan0, true
+,I/Nat464Xlat( 1015): interfaceLinkStateChanged wlan0, true
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f020561/com.android.systemui:drawable/stat_sys_wifi_signal_0 mQSWifiIconId=0x7f020157/com.android.systemui:drawable/ic_qs_wifi_no_network mWifiActivityIconId=0x7f020535/com.android.systemui:drawable/stat_sys_signal_in mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:null
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/ConnectivityService( 1015): registerNetworkAgent NetworkAgentInfo{ ni{[type: WIFI[] - WIFI, state: CONNECTING/CONNECTING, reason: (unspecified), extra: "NG700", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]}  network{null}  lp{{InterfaceName: wlan0 LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,4525824,524288,1048576,4525824}}  nc{[ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps]}  Score{60} validated{false} created{false} explicitlySelected{false} }
+,D/ConnectivityService( 1015): hsengiv:checkWhatTypeOfNetwork and the value is false
+,E/ConnectivityService( 1015): updateNetworkInfo()
+D/ConnectivityService( 1015): NetworkAgentInfo [WIFI () - 503] EVENT_NETWORK_INFO_CHANGED, going from null to CONNECTING, reason = null, [ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps]
+,E/WifiConfigStore( 1015): saveWifiConfigBSSID Setting BSSID for "NG700"WPA_PSK to any
+,E/WifiConfigStore( 1015): saveWifiConfigBSSID Setting BSSID for "NG700"WPA_PSK to any
+,D/CommandListener(  282): Setting iface cfg
+,E/WifiStateMachine( 1015): Start Dhcp Watchdog 2
+,D/SecContentProvider2( 1015): uri = 20 selection = getPromptCredentialsEnabled
+,D/SecContentProvider2( 1015): mCursor = null
+,D/SecContentProvider2( 1015): uri = 20 selection = getPromptCredentialsEnabled
+,D/SecContentProvider2( 1015): mCursor = null
+,I/ActivityManager( 1015): Killing 5457:com.samsung.aasaservice/1000 (adj 15): empty #31
+,I/KLMS-2.5.183: ( 3510): KLMSAbstractReciever(): onReceive(): Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.samsung.klmsagent/.listner.MainReciver (has extras) } | timestamp: Thu Jan 14 10:32:04 GMT+01:00 2016
+D/ActivityManager( 1015): startService callerProcessName:com.samsung.klmsagent, calleePkgName: com.samsung.klmsagent
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.samsung.klmsagent/com.samsung.klmsagent.services.KLMSIntentService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.samsung.klmsagent, destAppInfo.processName = com.samsung.klmsagent
+,E/WifiNative-wlan0( 1015): do suspend false
+,I/KLMS-2.5.183: ( 3510): KLMSAbstractReciever(): onReceive().END.
+,D/WifiP2pService( 1015): InactiveState{ what=143375 }
+,D/WifiP2pService( 1015): P2pEnabledState{ what=143375 }
+,D/SecContentProvider2( 1015): uri = 20 selection = getPromptCredentialsEnabled
+D/SecContentProvider2( 1015): mCursor = null
+,I/KLMS-2.5.183: ( 3510): KLMSIntentService(): onCreate()
+,I/KLMS-2.5.183: ( 3510): KLMSSystemProperties(): getBoolean(): ro.product_ship = true
+,I/MusicStore( 6427): Database version: 108
+,D/ActivityManager( 1015): startProcessLocked calleePkgName: com.sec.android.soagent, hostingType: broadcast
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,I/KLMS-2.5.183: ( 3510): KLMSUtility(): isTestMode(): product_ship: true | testApk: false
+,I/KLMS-2.5.183: ( 3510): KLMSIntentService(): onHandleIntent().START: Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.samsung.klmsagent/.services.KLMSIntentService (has extras) }
+,I/KLMS-2.5.183: ( 3510): KLMSIntentService(): NETWORK_STATE_CHANGED_ACTION
+,I/KLMS-2.5.183: ( 3510): KLMSUtility(): isNetworkAvailable() - WIFI : false| MOBILE : false| ETHERNET : false
+,I/ActivityManager( 1015): Start proc com.sec.android.soagent for broadcast com.sec.android.soagent/.RegisterReceiver: pid=6500 uid=10034 gids={50034, 9997, 3003} abi=armeabi-v7a
+,D/ActivityManager( 1015): bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music, action: null
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.net.NetworkMonitor; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,E/Zygote  ( 6500): MountEmulatedStorage()
+I/libpersona( 6500): KNOX_SDCARD checking this for 10034
+E/Zygote  ( 6500): v2
+I/libpersona( 6500): KNOX_SDCARD not a persona
+I/SELinux ( 6500): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+,I/SELinux ( 6500): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+,E/SELinux ( 6500): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,I/KLMS-2.5.183: ( 3510): StateImplV2(): networkChangeListener().END
+,I/KLMS-2.5.183: ( 3510): KLMSIntentService(): onDestroy()
+,D/TimaKeyStoreProvider( 6500): TimaSignature is unavailable
+,D/ActivityThread( 6500): Added TimaKeyStore provider
+,D/RCPManagerService( 1015): exchangeData() failure , invalid userId
+,D/RCPManagerService( 1015): exchangeData() failure , invalid userId
+,D/ActivityManager( 1015): startProcessLocked calleePkgName: com.google.android.apps.magazines, hostingType: broadcast
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/Zygote  ( 6519): MountEmulatedStorage()
+E/Zygote  ( 6519): v2
+I/libpersona( 6519): KNOX_SDCARD checking this for 10113
+I/libpersona( 6519): KNOX_SDCARD not a persona
+,I/SELinux ( 6519): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38,
+,I/ActivityManager( 1015): Start proc com.google.android.apps.magazines for broadcast com.google.android.apps.magazines/com.google.apps.dots.android.newsstand.appwidget.NewsWidgetProvider: pid=6519 uid=10113 gids={50113, 9997, 3003, 1028, 1015} abi=armeabi-v7a
+,I/ActivityManager( 1015): Killing 5025:com.sec.android.gallery3d/u0a44 (adj 15): empty #31
+I/SELinux ( 6519): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+E/SELinux ( 6519): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+,D/TimaKeyStoreProvider( 6519): TimaSignature is unavailable,
+,D/ActivityThread( 6519): Added TimaKeyStore provider
+,I/SO_AGENT( 6500): [com.sec.android.soagent.RegisterReceiver(95/onReceive)] Network is not available
+,W/ResourcesManager( 6427): Asset path '/system/framework/com.android.media.remotedisplay.jar' does not exist or contains no resources.
+W/ResourcesManager( 6427): Asset path '/system/framework/com.android.location.provider.jar' does not exist or contains no resources.
+,I/DBG_POLICYDM( 5990): [com.policydm.XDMApplication(503/xdmProtoIsWIFIConnected)] WiFi network Connected : false
+,E/SPPClientService( 6031): [[SystemStateMoniter]] SystemStateMonitorService : noConnect? : true
+,I/DBG_POLICYDM( 5990): [com.policydm.XDMApplication(513/xdmProtoIsMobileDataConnected)] Mobile Data Connected : false
+,D/ActivityManager( 1015): startService callerProcessName:com.sec.spp.push, calleePkgName: com.sec.spp.push
+I/SA      ( 6198): [OR] onReceive log=[SA = 2.1.0179 V = 21 HWD = 1280X720 2.0 dpi = 320  SIZE = 2 LOCALE = en_US CSC = XEO MCC = 0 MNC 0 T = user DEVICE = a5ulte P = a5ultexx I = LRX22G M = SM-A500FU OKLEFT false DIS LRX22G.A500FUXXU1BOH2 PSS = 4.978878039476607  ]
+,I/SA      ( 6198): [OR] onReceive Intent=[ conn.CONNECTIVITY_CHANGE. networkInfo:[type: WIFI[] - WIFI, state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: <unknown ssid>, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false] networkType:1 inetCondition:0 extraInfo:? noConnectivity:true ]
+I/SA      ( 6198): [OR] == ACTION_CONNECTIVITY_CHANGE ==
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.sec.spp.push/com.sec.spp.push.monitor.SystemStateMonitorService; callingUser = 0; userId(target) = 0
+,I/SA      ( 6198): [SLFUCHKMGR] constructor called
+,E/dhcpcd  ( 6537): fopen `/system/etc/dhcpcd/dhcpcd.conf': No such file or directory
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 1023, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.sec.spp.push, destAppInfo.processName = com.sec.spp.push
+,E/DBG_POLICYDM( 5990): [com.policydm.XDMBroadcastReceiver$2(109/run)] network is unserviceable
+,E/DBG_POLICYDM( 5990): [com.policydm.XDMApplication(477/isNetworkChanged)] network not changed.... ,
+,I/dhcpcd  ( 6537): version 5.5.6 starting,
+,E/dhcpcd  ( 6537): fopen `/system/etc/dhcpcd/dhcpcd.conf': No such file or directory,
+,W/libprocessgroup( 1015): failed to open /acct/uid_1000/pid_5457/cgroup.procs: No such file or directory,
+W/libprocessgroup( 1015): failed to open /acct/uid_10044/pid_5025/cgroup.procs: No such file or directory
+,I/SA      ( 6198): [TPMU]  strSIMState 	:SIM_STATE_ABSENT
+,I/SA      ( 6198): [OR] == isSIMCardReady false ==
+,V/JNIHelp ( 6427): Registering com/google/android/gms/org/conscrypt/NativeCrypto's 254 native methods...
+,I/SA      ( 6198): [SCU] == networkStateCheck == false
+,I/SA      ( 6198): [OR] onReceive END
+,E/SPPClientService( 6031): [[SystemStateMonitorService]] No Active Internet,
+,I/dhcpcd  ( 6537): wlan0: sending IPv6 Router Solicitation
+,E/dhcpcd  ( 6537): wlan0: sendmsg: Cannot assign requested address
+I/dhcpcd  ( 6537): if(wlan0) info get Success. (MAC : C0.AA.48)
+I/dhcpcd  ( 6537): bssid match
+I/dhcpcd  ( 6537): wlan0: rebinding lease of 192.168.1.129
+,V/DownloadManager( 1223): onReceive intent + android.net.conn.CONNECTIVITY_CHANGE
+,D/BadgeProvider( 6100): query, [selection] : package='com.android.email' AND class='com.android.email.activity.Welcome' AND extraData='base_extra_badge'
+,D/RCPManagerService( 1015): exchangeData() failure , invalid userId
+,D/BadgeProvider( 6100): sendNotify entered. [uri] : content://com.sec.badge/apps/1
+,D/BadgeProvider( 6100): sendNotify, [notify] : null
+D/BadgeProvider( 6100): update, [uri] : content://com.sec.badge/apps/1
+,D/BadgeProvider( 6100): update, [BadgeCount] : badgecount=0
+,D/BadgeProvider( 6100): update, [UpdateCount] : 1
+D/Launcher.Model( 1479): reloadBadges entered.
+,D/RCPManagerService( 1015): exchangeData() failure , invalid userId
+,W/ActivityThread( 6427): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+,W/System  ( 6427): Could not create com.google.android.gms.org.conscrypt.OpenSSLSocketFactoryImpl with ClassLoader android.app.LoadedApk$WarningContextClassLoader@18cf267a: com.google.android.gms.org.conscrypt.OpenSSLSocketFactoryImpl
+,I/ProviderInstaller( 6427): Installed default security provider GmsCore_OpenSSL
+D/AndroidMusic( 6427): GMSCore installation verified
+,I/dhcpcd  ( 6537): wlan0: acknowledged 192.168.1.129 from 192.168.1.1
+,D/RCPManagerService( 1015): exchangeData() failure , invalid userId
+,D/RCPManagerService( 1015): exchangeData() failure , invalid userId
+,D/ActivityManager( 1015): startProcessLocked calleePkgName: com.samsung.android.securitylogagent, hostingType: broadcast
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/Zygote  ( 6549): MountEmulatedStorage(),
+E/Zygote  ( 6549): v2
+I/libpersona( 6549): KNOX_SDCARD checking this for 1000
+I/libpersona( 6549): KNOX_SDCARD not a persona
+,I/SELinux ( 6549): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+I/ActivityManager( 1015): Start proc com.samsung.android.securitylogagent for broadcast com.samsung.android.securitylogagent/.receivers.NetworkReceiver: pid=6549 uid=1000 gids={41000, 9997, 3002, 3001, 3003, 1028, 1015, 1007, 1023, 2001, 1024, 1001, 1021, 3004, 3005, 1000, 3009, 1010} abi=armeabi-v7a
+,I/SELinux ( 6549): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+,E/SELinux ( 6549): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,I/dhcpcd  ( 6537): wlan0: leased 192.168.1.129 for 86400 seconds
+,D/TimaKeyStoreProvider( 6549): TimaSignature is unavailable,
+D/ActivityThread( 6549): Added TimaKeyStore provider
+,I/art     ( 1015): Explicit concurrent mark sweep GC freed 57038(2MB) AllocSpace objects, 3(96KB) LOS objects, 33% free, 27MB/41MB, paused 3.009ms total 201.672ms
+,W/art     ( 6457): Verification of boolean com.android.email.activity.MessageListItemOuterContainer.isMultiWindows() took 174.554ms
+,D/ActivityManager( 1015): bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music, action: null,
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.preferences.MusicPreferenceService$MusicPreferenceServiceBinder; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,I/ConfigStore( 6427): Config Database version: 1
+,I/ActivityManager( 1015): Killing 5894:com.samsung.android.provider.shootingmodeprovider/u0a152 (adj 15): empty #31
+,D/SecurityLogAgent( 6549): KnoxConfiguration : Current State = 1
+D/SecurityLogAgent( 6549): KnoxConfiguration : Current State Mapping Found 
+D/SecurityLogAgent( 6549): StateMachine : Current State = 1
+,D/SecurityLogAgent( 6549): StateMachine : Changed Current State = 1,
+D/ActivityManager( 1015): startProcessLocked calleePkgName: com.samsung.android.service.travel, hostingType: broadcast
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/Zygote  ( 6589): MountEmulatedStorage()
+E/Zygote  ( 6589): v2
+I/libpersona( 6589): KNOX_SDCARD checking this for 10159
+I/libpersona( 6589): KNOX_SDCARD not a persona
+,I/SELinux ( 6589): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+,I/SELinux ( 6589): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038,
+E/SELinux ( 6589): [DEBUG] get_category: variable seinfo: shared sensitivity: NULL, cateogry: NULL
+I/ActivityManager( 1015): Start proc com.samsung.android.service.travel for broadcast com.samsung.android.service.travel/com.samsung.android.travel.bindService.TravelBroadcastReceiver: pid=6589 uid=10159 gids={50159, 9997, 3003, 1028, 1015} abi=armeabi-v7a
+,I/ActivityManager( 1015): Killing 5784:com.samsung.android.sm/1000 (adj 15): empty #31
+,D/TimaKeyStoreProvider( 6589): TimaSignature is unavailable
+,D/ActivityThread( 6589): Added TimaKeyStore provider
+,W/libprocessgroup( 1015): failed to open /acct/uid_10152/pid_5894/cgroup.procs: No such file or directory
+W/libprocessgroup( 1015): failed to open /acct/uid_1000/pid_5784/cgroup.procs: No such file or directory
+,I/iu.Environment( 3612): update connectivity state; isNetworkMetered? false, isRoaming? false, isBackgroundDataAllowed? false*
+,I/iu.UploadsManager( 3612): num queued entries: 0
+,I/iu.UploadsManager( 3612): num updated entries: 0
+,I/iu.SyncManager( 3612): NEXT; no task
+,E/Vold    (  255): Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.music/files/
+W/Vold    (  255): Returning OperationFailed - no handler for errno 0
+,W/ContextImpl( 6427): Failed to ensure directory: /storage/extSdCard/Android/data/com.google.android.music/files
+,I/ActivityManager( 1015): Killing 5497:com.google.android.partnersetup/u0a15 (adj 15): empty #31
+,E/Vold    (  255): Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.music/files/
+W/Vold    (  255): Returning OperationFailed - no handler for errno 0
+,W/ContextImpl( 6427): Failed to ensure directory: /storage/extSdCard/Android/data/com.google.android.music/files
+,D/ActivityManager( 1015): startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.gcm.GcmService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,E/Vold    (  255): Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.music/files/
+W/Vold    (  255): Returning OperationFailed - no handler for errno 0
+,W/ContextImpl( 6427): Failed to ensure directory: /storage/extSdCard/Android/data/com.google.android.music/files
+,D/ActivityManager( 1015): startService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.download.cache.StorageMigrationService; callingUser = 0; userId(target) = 0
+,E/Vold    (  255): Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.apps.magazines/cache/
+W/Vold    (  255): Returning OperationFailed - no handler for errno 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,E/WifiNative-wlan0( 1015): do suspend true
+,W/ContextImpl( 6519): Failed to ensure directory: /storage/extSdCard/Android/data/com.google.android.apps.magazines/cache,
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,E/Vold    (  255): Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.apps.magazines/files/
+W/Vold    (  255): Returning OperationFailed - no handler for errno 0
+,W/ContextImpl( 6519): Failed to ensure directory: /storage/extSdCard/Android/data/com.google.android.apps.magazines/files
+,D/ActivityManager( 1015): bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music, action: null
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.download.artwork.ArtDownloadService2; callingUser = 0; userId(target) = 0
+,D/WifiP2pService( 1015): InactiveState{ what=143375 }
+,D/WifiP2pService( 1015): P2pEnabledState{ what=143375 }
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,E/Vold    (  255): Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.apps.magazines/cache/
+W/Vold    (  255): Returning OperationFailed - no handler for errno 0
+,W/ContextImpl( 6519): Failed to ensure directory: /storage/extSdCard/Android/data/com.google.android.apps.magazines/cache
+,E/Vold    (  255): Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.apps.magazines/files/
+W/Vold    (  255): Returning OperationFailed - no handler for errno 0
+,W/ContextImpl( 6519): Failed to ensure directory: /storage/extSdCard/Android/data/com.google.android.apps.magazines/files
+,E/WifiStateMachine( 1015): WifiStateMachine: handleSuccessfulIpConfiguration and no scan results"NG700"WPA_PSK
+E/WifiStateMachine( 1015): VerifyingLinkState enter
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f020561/com.android.systemui:drawable/stat_sys_wifi_signal_0 mQSWifiIconId=0x7f020157/com.android.systemui:drawable/ic_qs_wifi_no_network mWifiActivityIconId=0x7f020535/com.android.systemui:drawable/stat_sys_signal_in mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+,D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:null
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false),
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false),
+,D/WifiNative-wlan0( 1015): callSECApiInt - ID [210],
+W/libprocessgroup( 1015): failed to open /acct/uid_10015/pid_5497/cgroup.procs: No such file or directory
+,E/ConnectivityService( 1015): updateNetworkInfo()
+,D/ConnectivityService( 1015): updateLinkProperties: newLp = {InterfaceName: wlan0 LinkAddresses: [192.168.1.129/24,]  Routes: [fe80::/64 -> :: wlan0,192.168.1.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.1.1 wlan0,] DnsAddresses: [192.168.1.1,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,4525824,524288,1048576,4525824}, oldLp = null,
+,D/ConnectivityService( 1015): Adding iface wlan0 to network 503
+,D/ConnectivityService( 1015): Adding Route [fe80::/64 -> :: wlan0] to network 503
+,D/ConnectivityService( 1015): Adding Route [192.168.1.0/24 -> 0.0.0.0 wlan0] to network 503
+,D/WifiWatchdogStateMachine( 1015): updateDnsLinkProperty: enter
+,D/ConnectivityService( 1015): Adding Route [0.0.0.0/0 -> 192.168.1.1 wlan0] to network. 503
+,D/WifiWatchdogStateMachine.DnsPinger( 1015): setCurrentLinkProperties: lp={InterfaceName: wlan0 LinkAddresses: [192.168.1.129/24,]  Routes: [fe80::/64 -> :: wlan0,192.168.1.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.1.1 wlan0,] DnsAddresses: [192.168.1.1,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,4525824,524288,1048576,4525824}
+,E/ConnectivityService( 1015): Unexpected mtu value: 0, wlan0
+,D/ConnectivityService( 1015): Setting Dns servers for network 503 to [/192.168.1.1]
+,D/ConnectivityService( 1015): LTETest block dns file not exists
+,D/WifiWatchdogStateMachine.DnsResolver( 1015): setCurrentLinkProperties: lp={InterfaceName: wlan0 LinkAddresses: [192.168.1.129/24,]  Routes: [fe80::/64 -> :: wlan0,192.168.1.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.1.1 wlan0,] DnsAddresses: [192.168.1.1,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,4525824,524288,1048576,4525824}
+,D/WifiWatchdogStateMachine.SingDnsChecker( 1015): setCurrentLinkProperties: lp={InterfaceName: wlan0 LinkAddresses: [192.168.1.129/24,]  Routes: [fe80::/64 -> :: wlan0,192.168.1.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.1.1 wlan0,] DnsAddresses: [192.168.1.1,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,4525824,524288,1048576,4525824}
+D/WifiWatchdogStateMachine.CaptivePortalDnsResolver( 1015): setCurrentLinkProperties: lp={InterfaceName: wlan0 LinkAddresses: [192.168.1.129/24,]  Routes: [fe80::/64 -> :: wlan0,192.168.1.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.1.1 wlan0,] DnsAddresses: [192.168.1.1,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,4525824,524288,1048576,4525824}
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f020561/com.android.systemui:drawable/stat_sys_wifi_signal_0 mQSWifiIconId=0x7f020157/com.android.systemui:drawable/ic_qs_wifi_no_network mWifiActivityIconId=0x7f020535/com.android.systemui:drawable/stat_sys_signal_in mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+,D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:null
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+E/WifiStateMachine( 1015): VerifyingLinkState GOOD_LINK_DETECTED: transition to (new) connected (old)captive portal check
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/ConnectivityService( 1015): notifyType IP_CHANGED for NetworkAgentInfo [WIFI () - 503]
+,E/ConnectivityService( 1015): updateNetworkInfo()
+,E/ConnectivityService( 1015): updateNetworkInfo()
+D/ConnectivityService( 1015): NetworkAgentInfo [WIFI () - 503] EVENT_NETWORK_INFO_CHANGED, going from CONNECTING to CONNECTED, reason = null, [ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps]
+D/ConnectivityService( 1015): notifyType PRECHECK for NetworkAgentInfo [WIFI () - 503]
+D/ConnectivityService( 1015): rematching NetworkAgentInfo [WIFI () - 503]
+,D/NetworkMonitorNetworkAgentInfo [WIFI () - null]( 1015): DefaultState{ when=-1ms what=532481 target=com.android.internal.util.StateMachine$SmHandler }
+D/NetworkMonitorNetworkAgentInfo [WIFI () - null]( 1015): Connected
+D/NetworkMonitorNetworkAgentInfo [WIFI () - null]( 1015): EvaluatingState{ when=0 what=532486 arg1=1 target=com.android.internal.util.StateMachine$SmHandler }
+D/NetworkMonitorNetworkAgentInfo [WIFI () - null]( 1015): Checking http://connectivitycheck.android.com/generate_204 on "NG700"
+,I/System.out( 1015): (HTTPLog)-Static: isSBSettingEnabled false
+,D/EnterpriseController(  282): uids 1000
+D/EnterpriseController(  282): mIsMarkChainAdded is 18 mIsBlockChainAdded is 252 netId is 0
+D/Netd    (  282): getNetworkForDns: using netid 503 for uid 1000
+,D/ConnectivityService( 1015):    accepting network in place of null
+,D/WIFI_P2P( 1015): evalRequest evalRequest  = NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] n.requested= false
+,I/WifiTrafficPoller( 1015): evaluateTrafficStatsPolling
+,D/TelephonyNetworkFactory( 1462): evalRequest evalRequest  = NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] n.requested= true
+D/TelephonyNetworkFactory( 1462): Cellular releasing Network for NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+,E/CSLegacyTypeTracker( 1015): add() : Adding agent NetworkAgentInfo{ ni{[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "NG700", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]}  network{503}  lp{{InterfaceName: wlan0 LinkAddresses: [192.168.1.129/24,]  Routes: [fe80::/64 -> :: wlan0,192.168.1.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.1.1 wlan0,] DnsAddresses: [192.168.1.1,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,4525824,524288,1048576,4525824}}  nc{[ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps]}  Score{60} validated{false} created{true} explicitlySelected{false} } for legacy network type 1
+D/CSLegacyTypeTracker( 1015): Sending connected broadcast for type 1 NetworkAgentInfo [WIFI () - 503] isDefaultNetwork=true
+D/ConnectivityService( 1015): sendStickyBroadcast: action=android.net.conn.CONNECTIVITY_CHANGE_IMMEDIATE
+,D/WifiDisplayAdapter( 1015): getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=2, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo: Client/Owner: Client GroupId:  Passphrase:  SessionId: 0 IP Address: , connectedState=-1, networkQoS=0}
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f020561/com.android.systemui:drawable/stat_sys_wifi_signal_0 mQSWifiIconId=0x7f020157/com.android.systemui:drawable/ic_qs_wifi_no_network mWifiActivityIconId=0x7f020535/com.android.systemui:drawable/stat_sys_signal_in mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+,D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:null
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/WIFI    ( 1015): evalRequest evalRequest  = NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] n.requested= true
+,D/ConnectivityService( 1015): Switching to new default network: NetworkAgentInfo{ ni{[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "NG700", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]}  network{503}  lp{{InterfaceName: wlan0 LinkAddresses: [192.168.1.129/24,]  Routes: [fe80::/64 -> :: wlan0,192.168.1.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.1.1 wlan0,] DnsAddresses: [192.168.1.1,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,4525824,524288,1048576,4525824}}  nc{[ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps]}  Score{60} validated{false} created{true} explicitlySelected{false} }
+I/WifiTrafficPoller( 1015): evaluateTrafficStatsPolling
+I/WifiTrafficPoller( 1015): mBoosterFLAG : 0
+I/WifiTrafficPoller( 1015): current booster mode : FullMode
+,D/ConnectivityService( 1015): notifyType AVAILABLE for NetworkAgentInfo [WIFI () - 503]
+,D/ConnectivityManager.CallbackHandler( 1177): CM callback handler got msg 524290
+,D/WifiNative-wlan0( 1015): callSECApiVoid - ID [212]
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f020535/com.android.systemui:drawable/stat_sys_signal_in mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/Tethering( 1015): Tethering got CONNECTIVITY_ACTION_IMMEDIATE
+,D/Tethering( 1015): MasterInitialState.processMessage what=3
+D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+V/NetworkStats( 1015): updateIfacesLocked()
+V/NetworkStats( 1015): performPollLocked(flags=0x1)
+,D/NetworkStatsFactory( 1015): UpdateStatsForKnox updated
+D/NetworkStatsFactory( 1015): UpdateStatsForKnox main else ---
+,V/NetworkStats( 1015): performPollLocked() took 3ms
+D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.android.email/com.android.email.service.AttachmentDownloadService; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): Unable to start service Intent { cmp=com.android.email/.service.AttachmentDownloadService } U=0: not found
+,D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+,D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+V/NetworkStats( 1015): advisePersistThreshold() given 9223372036854775, clamped to 2097152
+D/NtpTrustedTime( 1015): currentTimeMillis() cache hit
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.android.email/com.android.email.service.EmailDebugService; callingUser = 0; userId(target) = 0
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.android.email/com.android.email.legacypush.ImapPushService; callingUser = 0; userId(target) = 0
+,D/WifiDisplayAdapter( 1015): getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=2, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo: Client/Owner: Client GroupId:  Passphrase:  SessionId: 0 IP Address: , connectedState=-1, networkQoS=0}
+,D/StatusBar.NetworkController( 1177): EthernetConnected: false
+,D/StatusBar.NetworkController( 1177): getUpdateDataNetType(): 0
+D/StatusBar.NetworkController( 1177): getUpdateDataNetType(): mDataTypeBrand = LTE
+D/StatusBar.NetworkController( 1177): updateDataNetType()
+D/StatusBar.NetworkController( 1177): NoService, mRoamingIconId = 0
+,E/StatusBar.NetworkController( 1177): updateLTEICONDataNetType:0
+,I/AudioService( 1015): getStreamVolume 3 index 0
+,D/StatusBar.NetworkController( 1177): updateDataIcon, mDataDirectionIconId = (null) mDataConnected = false
+D/StatusBar.NetworkController( 1177): updateTelephonySignalStrength: hasService=false ss=SignalStrength: 99 99 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 -1 2147483647 0x0 gsm|lte
+,D/StatusBar.NetworkController( 1177): updateTelephonySignalStrength, No signal level. mPhoneSignalIconId = com.android.systemui:drawable/tw_stat_sys_signal_null mDataSignalIconId = com.android.systemui:drawable/tw_stat_sys_signal_null mQSPhoneSignalIconId = com.android.systemui:drawable/ic_qs_signal_no_signal mContentDescriptionPhoneSignal = No phone signal
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f020535/com.android.systemui:drawable/stat_sys_signal_in mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,I/MediaRouter( 6427): Found default route: MediaRouter.RouteInfo{ uniqueId=android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE, name=Phone, description=null, enabled=true, connecting=false, canDisconnect=false, playbackType=0, playbackStream=3, volumeHandling=1, volume=0, volumeMax=15, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+,V/MusicLeanback( 6427): onReceive: Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.google.android.music/.leanback.notifications.LeanbackRecommendationsService$LeanbackRecommendationReceiver (has extras) }
+,I/NetworkMonitor( 6427): type=WIFI subType= reason=null isConnected=true
+,I/System.out( 1015): KnoxVpnUidStorageknoxVpnSupported API value returned is false
+,D/ActivityManager( 1015): bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music, action: null
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.net.NetworkMonitor; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,D/ActivityManager( 1015): bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music, action: null
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.download.ArtDownloadQueueService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,D/ActivityManager( 1015): bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music, action: null
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.download.cache.ArtCacheService; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,D/WifiDisplayAdapter( 1015): getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=2, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo: Client/Owner: Client GroupId:  Passphrase:  SessionId: 0 IP Address: , connectedState=-1, networkQoS=0}
+,D/ActivityManager( 1015): startProcessLocked calleePkgName: com.sec.android.cloudagent, hostingType: broadcast
+,I/NetworkMonitor( 6427): type=WIFI subType= reason=null isConnected=true
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,D/NetworkMonitorNetworkAgentInfo [WIFI () - null]( 1015): isCaptivePortal: ret=204 headers={null=[HTTP/1.1 204 No Content], Content-Length=[0], Date=[Thu, 14 Jan 2016 09:32:05 GMT], Server=[GFE/2.0], X-Android-Received-Millis=[1452763925612], X-Android-Response-Source=[NETWORK 204], X-Android-Sent-Millis=[1452763925583]}
+,D/NetworkMonitorNetworkAgentInfo [WIFI () - null]( 1015): Don't send network conditions - lacking user consent.
+D/NetworkMonitorNetworkAgentInfo [WIFI () - null]( 1015): Validated
+D/ConnectivityService( 1015): Validated NetworkAgentInfo [WIFI () - 503]
+D/ConnectivityService( 1015): rematching NetworkAgentInfo [WIFI () - 503]
+D/ConnectivityService( 1015): Network NetworkAgentInfo [WIFI () - 503] was already satisfying request 1. No change.,
+D/ConnectivityService( 1015): notifyType AVAILABLE for NetworkAgentInfo [WIFI () - 503]
+D/ConnectivityService( 1015): sendStickyBroadcast: action=android.net.conn.INET_CONDITION_ACTION
+,D/ConnectivityManager.CallbackHandler( 1177): CM callback handler got msg 524290
+,E/Zygote  ( 6632): MountEmulatedStorage(),
+I/libpersona( 6632): KNOX_SDCARD checking this for 10002
+E/Zygote  ( 6632): v2
+I/libpersona( 6632): KNOX_SDCARD not a persona
+,I/SELinux ( 6632): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38,
+,I/ActivityManager( 1015): Start proc com.sec.android.cloudagent for broadcast com.sec.android.cloudagent/.detector.DetectorReceiver: pid=6632 uid=10002 gids={50002, 9997, 3003, 1028, 1015} abi=armeabi-v7a
+I/SELinux ( 6632): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+,E/SELinux ( 6632): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,D/StatusBar.NetworkController( 1177): EthernetConnected: false
+D/StatusBar.NetworkController( 1177): getUpdateDataNetType(): 0
+D/StatusBar.NetworkController( 1177): getUpdateDataNetType(): mDataTypeBrand = LTE
+D/StatusBar.NetworkController( 1177): updateDataNetType()
+D/StatusBar.NetworkController( 1177): NoService, mRoamingIconId = 0
+E/StatusBar.NetworkController( 1177): updateLTEICONDataNetType:0
+,D/StatusBar.NetworkController( 1177): updateDataIcon, mDataDirectionIconId = (null) mDataConnected = false
+D/StatusBar.NetworkController( 1177): updateTelephonySignalStrength: hasService=false ss=SignalStrength: 99 99 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 -1 2147483647 0x0 gsm|lte
+,D/StatusBar.NetworkController( 1177): updateTelephonySignalStrength, No signal level. mPhoneSignalIconId = com.android.systemui:drawable/tw_stat_sys_signal_null mDataSignalIconId = com.android.systemui:drawable/tw_stat_sys_signal_null mQSPhoneSignalIconId = com.android.systemui:drawable/ic_qs_signal_no_signal mContentDescriptionPhoneSignal = No phone signal
+D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f020535/com.android.systemui:drawable/stat_sys_signal_in mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/ActivityManager( 1015): bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.gms, action: null
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.gcm.http.GoogleHttpService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.gms
+,D/TimaKeyStoreProvider( 6632): TimaSignature is unavailable
+,D/ActivityThread( 6632): Added TimaKeyStore provider
+,W/ResourcesManager( 6427): Asset path '/system/framework/com.android.media.remotedisplay.jar' does not exist or contains no resources.
+,W/ResourcesManager( 6427): Asset path '/system/framework/com.android.location.provider.jar' does not exist or contains no resources.
+,I/GHttpClientFactory( 6427): Using the GMSCore's GoogleHttpClient
+,D/ActivityManager( 1015): bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music, action: null
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.net.NetworkMonitor; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,I/WebViewFactory( 6519): Loading com.google.android.webview version 43.0.2357.121 (code 2357121)
+,I/LibraryLoader( 6519): Time to load native libraries: 2 ms (timestamps 7935-7937)
+I/LibraryLoader( 6519): Expected native library version number "",actual native library version number ""
+,I/ActivityManager( 1015): Killing 5117:com.samsung.android.app.assistantmenu/1000 (adj 15): empty #31
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.apps.magazines, destAppInfo.processName = com.google.android.gms
+,V/WebViewChromiumFactoryProvider( 6519): Binding Chromium to main looper Looper (main, tid 1) {e44c7a3}
+,I/LibraryLoader( 6519): Expected native library version number "",actual native library version number ""
+,I/chromium( 6519): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+,D/ActivityManager( 1015): startProcessLocked calleePkgName: com.sec.android.diagmonagent, hostingType: broadcast
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,I/BrowserStartupController( 6519): Initializing chromium process, singleProcess=true
+,W/art     ( 6519): Attempt to remove local handle scope entry from IRT, ignoring
+I/libpersona( 6653): KNOX_SDCARD checking this for 1000
+E/SysUtils( 6519): ApplicationContext is null in ApplicationStatus
+I/libpersona( 6653): KNOX_SDCARD not a persona
+E/Zygote  ( 6653): MountEmulatedStorage()
+E/Zygote  ( 6653): v2
+I/SELinux ( 6653): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+,I/ActivityManager( 1015): Start proc com.sec.android.diagmonagent for broadcast com.sec.android.diagmonagent/.DiagMonRegistrationReceiver: pid=6653 uid=1000 gids={41000, 9997, 3002, 3001, 3003, 1028, 1015, 1007, 1023, 2001, 1024, 1001, 1021, 3004, 3005, 1000, 3009, 1010} abi=armeabi-v7a,
+I/SELinux ( 6653): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+,E/SELinux ( 6653): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,D/TimaKeyStoreProvider( 6653): TimaSignature is unavailable
+,D/ActivityThread( 6653): Added TimaKeyStore provider
+,W/chromium( 6519): [WARNING:resource_bundle.cc(286)] locale_file_path.empty()
+,I/chromium( 6519): [INFO:aw_browser_main_parts.cc(63)] Load from apk succesful, fd=44 off=50556 len=3379
+I/chromium( 6519): [INFO:aw_browser_main_parts.cc(76)] Loading webviewchromium.pak from, fd:45 off:7638088 len:1165478
+,I/Adreno-EGL( 6519): <qeglDrvAPI_eglInitialize:379>: EGL 1.4 QUALCOMM build: SKARAJGA_AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.02.031.018+PATCH[ES]_msm8916_32_refs/tags/AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.02.031.018__release_ENGG (I856e09677e)
+I/Adreno-EGL( 6519): OpenGL ES Shader Compiler Version: E031.25.03.02
+I/Adreno-EGL( 6519): Build Date: 04/06/15 Mon
+I/Adreno-EGL( 6519): Local Branch: 
+I/Adreno-EGL( 6519): Remote Branch: refs/tags/AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.02.031.018
+I/Adreno-EGL( 6519): Local Patches: 112c106f3772623daa7b4181c6cf23491044ead1 Revert "Disable ASTC on A405"
+I/Adreno-EGL( 6519):                  58a118cb818fdc906095a49a90977c15f9d3b223 Remove ASTC
+,I/DIAGMON_AGENT( 6653): [com.diagmondm.db.file.XDB(372/llIlIIIIlIIIIIlIlIII)] 
+,W/libprocessgroup( 1015): failed to open /acct/uid_1000/pid_5117/cgroup.procs: No such file or directory
+,W/AudioManagerAndroid( 6519): Requires BLUETOOTH permission
+,I/NSApplication( 6519): Starting up...
+,I/ActivityManager( 1015): Killing 5957:com.sec.android.widgetapp.tapandpay/u0a156 (adj 15): empty #31
+,I/ActivityManager( 1015): Killing 5945:com.samsung.android.bbc.bbcagent/1000 (adj 15): empty #32
+,I/DIAGMON_AGENT( 6653): [com.sec.android.diagmonagent.DiagMonAgentApplication(59/onCreate)] nStatus : 0
+,D/ActivityManager( 1015): startProcessLocked calleePkgName: com.samsung.android.sconnect, hostingType: broadcast
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,I/DIAGMON_AGENT( 6653): [com.sec.android.diagmonagent.DiagMonAgentApplication(76/onCreate)] DiagMon DM Application Start !
+,I/DIAGMON_AGENT( 6653): [lllIIIIlIIlIlllIlIIl(39/llIIIIlllllIIllIIllI)] Receive broadcast: android.net.conn.CONNECTIVITY_CHANGE
+,I/DIAGMON_AGENT( 6653): [lllIIIIlIIlIlllIlIIl(40/llIIIIlllllIIllIIllI)] Receive broadcast:
+I/DIAGMON_AGENT( 6653): ./extraInfo: <unknown ssid>
+W/DIAGMON_AGENT( 6653): [lllIIIIlIIlIlllIlIIl(27/llIIIIlllllIIllIIllI)] Network is changed and not available now, so don't do anything,
+,E/Zygote  ( 6686): MountEmulatedStorage()
+,E/Zygote  ( 6686): v2
+I/libpersona( 6686): KNOX_SDCARD checking this for 10125
+I/libpersona( 6686): KNOX_SDCARD not a persona
+,I/SELinux ( 6686): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+,I/ActivityManager( 1015): Start proc com.samsung.android.sconnect for broadcast com.samsung.android.sconnect/.periph.PeriphStartReceiver: pid=6686 uid=10125 gids={50125, 9997, 3002, 3001, 1028, 1015, 3003} abi=armeabi-v7a
+,D/ConnectivityService( 1015): sendStickyBroadcast: action=android.net.conn.CONNECTIVITY_CHANGE
+,I/SELinux ( 6686): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+,E/SELinux ( 6686): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,W/libprocessgroup( 1015): failed to open /acct/uid_1000/pid_5945/cgroup.procs: No such file or directory
+I/ActivityManager( 1015): Killing 5553:com.sec.knox.bridge/1000 (adj 15): empty #31
+,W/libprocessgroup( 1015): failed to open /acct/uid_10156/pid_5957/cgroup.procs: No such file or directory
+,I/ActivityManager( 1015): Killing 5520:com.samsung.android.app.galaxyfinder/u0a32 (adj 15): empty #31
+,D/TimaKeyStoreProvider( 6686): TimaSignature is unavailable
+,D/ActivityThread( 6686): Added TimaKeyStore provider
+,I/DBG_DM  ( 3042): [llllIlIIIllllIIlIlll(88/llIIIIlllllIIllIIllI)] WiFi Network is connected
+,I/NetworkMonitor( 6427): type=WIFI subType= reason=null isConnected=true
+,W/ResourcesManager( 6686): Asset path '/system/framework/com.google.android.maps.jar' does not exist or contains no resources.
+W/ResourcesManager( 6686): Asset path '/system/framework/allshare.jar' does not exist or contains no resources.
+W/ResourcesManager( 6686): Asset path '/system/framework/com.broadcom.bt.jar' does not exist or contains no resources.
+,D/QuickConnect( 6686): PeriphStartReceiver.onReceive - android.net.conn.CONNECTIVITY_CHANGE
+,I/QuickConnect( 6686): PeriphStartReceiver.onReceive - USER_OWNER care CONNECTIVITY_ACTION. run P service
+,I/QuickConnect( 6686): PeriphStartReceiver.onReceive - no need to start
+,I/splitIntent( 1015): Queue : backgroundsplit_1 intent android.net.conn.CONNECTIVITY_CHANGE is finished at BG and BG split queue. set mSplitStart and mBgSplitQueueOnlyRun false.
+,I/ActivityManager( 1015): Killing 5607:com.android.vending/u0a28 (adj 15): empty #31
+,D/SecContentProvider2( 1015): uri = 11 selection = getMyKnoxAdmin
+,D/SecContentProvider2( 1015): mCursor = null
+,D/ActivityManager( 1015): startService callerProcessName:com.samsung.hs20settings, calleePkgName: com.samsung.hs20settings
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.samsung.hs20settings/com.samsung.hs20settings.WifiHs20UtilityService; callingUser = 0; userId(target) = -2
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.samsung.hs20settings, destAppInfo.processName = com.samsung.hs20settings
+,D/NearbySettings( 1319): MountReceiver.onReceive - ACTION: android.net.wifi.STATE_CHANGE
+,V/NearbySettings( 1319): DMSUtil.isNetworkConnected - flag-null, state-null
+,I/NearbySettings( 1319): DMSUtil.isNetworkConnected - WIFI: CONNECTED
+,I/Hs20UtilService( 3472): Starting #10
+,I/Hs20UtilService( 3472): Message received 5007
+,I/NearbySettings( 1319): DMSUtil.isNetworkConnected - P2P: IDLE
+,I/NearbySettings( 1319): DMSUtil.isNetworkConnected - WIFI-true, Hotspot-false, P2P-false, Eth-false
+,I/NearbySettings( 1319): MountReceiver.onReceive - Keep current state
+,D/GpsLocationProvider( 1015): receive broadcast intent, action: android.net.conn.CONNECTIVITY_CHANGE
+,D/ActivityManager( 1015): startService callerProcessName:com.samsung.hs20settings, calleePkgName: com.samsung.hs20settings
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.samsung.hs20settings/com.samsung.hs20settings.WifiHs20UtilityService; callingUser = 0; userId(target) = -2
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.samsung.hs20settings, destAppInfo.processName = com.samsung.hs20settings
+,I/Hs20UtilService( 3472): Starting #11
+,I/Hs20UtilService( 3472): Message received 5007
+,D/NearbySettings( 1319): MountReceiver.onReceive - ACTION: android.net.wifi.STATE_CHANGE
+,I/NearbySettings( 1319): MountReceiver.onReceive - Keep current state
+,D/ActivityManager( 1015): startService callerProcessName:com.samsung.hs20settings, calleePkgName: com.samsung.hs20settings
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.samsung.hs20settings/com.samsung.hs20settings.WifiHs20UtilityService; callingUser = 0; userId(target) = -2
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.samsung.hs20settings, destAppInfo.processName = com.samsung.hs20settings
+,I/Hs20UtilService( 3472): Starting #12
+,I/Hs20UtilService( 3472): Message received 5007
+,D/NearbySettings( 1319): MountReceiver.onReceive - ACTION: android.net.wifi.STATE_CHANGE
+,V/NearbySettings( 1319): DMSUtil.isNetworkConnected - flag-null, state-null
+,I/NearbySettings( 1319): DMSUtil.isNetworkConnected - WIFI: CONNECTED
+,I/NearbySettings( 1319): DMSUtil.isNetworkConnected - P2P: IDLE
+,I/NearbySettings( 1319): DMSUtil.isNetworkConnected - WIFI-true, Hotspot-false, P2P-false, Eth-false
+I/NearbySettings( 1319): MountReceiver.onReceive - Keep current state
+,D/ActivityManager( 1015): startService callerProcessName:com.samsung.hs20settings, calleePkgName: com.samsung.hs20settings
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.samsung.hs20settings/com.samsung.hs20settings.WifiHs20UtilityService; callingUser = 0; userId(target) = -2
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.samsung.hs20settings, destAppInfo.processName = com.samsung.hs20settings
+,I/Hs20UtilService( 3472): Starting #13
+,I/Hs20UtilService( 3472): Message received 5007
+,D/NearbySettings( 1319): MountReceiver.onReceive - ACTION: android.net.wifi.STATE_CHANGE
+,I/NearbySettings( 1319): MountReceiver.onReceive - Keep current state
+,D/WifiStateMachine( 1015): SEC_COMMAND_ID_GET_FWS_OPEN_AP_CHECK : 0
+,W/libprocessgroup( 1015): failed to open /acct/uid_10032/pid_5520/cgroup.procs: No such file or directory
+,W/libprocessgroup( 1015): failed to open /acct/uid_1000/pid_5553/cgroup.procs: No such file or directory
+,D/SecContentProvider2( 1015): uri = 15 selection = getToastGravityEnabledState
+,D/SecContentProvider2( 1015): mCursor = null
+,D/SecContentProvider2( 1015): uri = 15 selection = getToastGravity
+,D/SecContentProvider2( 1015): mCursor = null
+,D/SecContentProvider2( 1015): uri = 15 selection = getToastGravityXOffset
+,D/SecContentProvider2( 1015): mCursor = null
+,D/SecContentProvider2( 1015): uri = 15 selection = getToastGravityYOffset
+,D/SecContentProvider2( 1015): mCursor = null
+,D/SecContentProvider2( 1015): uri = 15 selection = getToastEnabledState
+,D/SecContentProvider2( 1015): mCursor = null
+,D/SecContentProvider2( 1015): uri = 15 selection = getToastShowPackageNameState
+,D/SecContentProvider2( 1015): mCursor = null
+W/libprocessgroup( 1015): failed to open /acct/uid_10028/pid_5607/cgroup.procs: No such file or directory
+,I/PCWCLIENTTRACE_PushUtil( 5928): SPPPushClient is installed : true
+,I/PCWCLIENTTRACE_PushUtil( 5928): sales region : global
+I/PCWCLIENTTRACE_PushUtil( 5928): getPushTypeList : [SPP, GCM]
+I/PCWCLIENTTRACE_SYSTEMReceiver( 5928): [onReceive] - android.net.conn.CONNECTIVITY_CHANGE
+,I/splitIntent( 1015): Split this intent : android.net.conn.CONNECTIVITY_CHANGE, mSplitNum[0]=8, mSplitNum[1]=17, mSplitNum[2]=25, mBgSplitQueueNum=3 divideNum= 8 r.nextReceiver= 1 receivers.size=33
+I/splitIntent( 1015): finish to split intent : android.net.conn.CONNECTIVITY_CHANGE !! Enqueue -> schedule it!!
+,V/MusicLeanback( 6427): onReceive: Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.google.android.music/.leanback.notifications.LeanbackRecommendationsService$LeanbackRecommendationReceiver (has extras) }
+,I/SurfaceFlinger(  256): id=15 createSurf (1x1),1 flag=4, Uoast
+,D/accuweather( 1727): [KK AccuPhone]>>> WCW:32 [0:0] action : androidnetconnCONNECTIVITY_CHANGE
+,D/RCPManagerService( 1015): exchangeData() failure , invalid userId
+,D/RCPManagerService( 1015): exchangeData() failure , invalid userId
+,D/PowerManagerService( 1015): [api] acquire WakeLock flags=0x2000000a tag=WindowManager uid=1000 pid=1015
+,D/daemonapp( 1300): [MSC_Daemon]>>> WCP:1254 [0:0] cp update : count : 1, pt : 2
+,D/accuweather( 1727): [KK AccuPhone]>>> U:4088 [0:0] getPWC : surface = 0, remote = 1
+,D/accuweather( 1727): [KK AccuPhone]>>> U:4207 [0:0] Store PWC = 1
+D/accuweather( 1727): [KK AccuPhone]>>> U:4140 [0:0] addPWC = 1
+D/accuweather( 1727): [KK AccuPhone]>>> UIM:312 [0:0]  action:androidnetconnCONNECTIVITY_CHANGE,
+D/SRIB_DCS( 1177): log_dcs ThreadedRenderer::initialize entered! 
+,D/SecurityLogAgent( 6549): KnoxConfiguration : Current State = 1
+D/SecurityLogAgent( 6549): KnoxConfiguration : Current State Mapping Found 
+,D/SecurityLogAgent( 6549): StateMachine : Current State = 1
+,D/SecurityLogAgent( 6549): StateMachine : Changed Current State = 1
+,I/FOTA_Client( 6439): [com.sec.android.fotaclient.FotaRegisterReceiver(102/onReceive)] Already device registered...
+,D/accuweather( 1727): [KK AccuPhone]>>> WC:30 [0:0] action : androidnetconnCONNECTIVITY_CHANGE
+,D/accuweather( 1727): [KK AccuPhone]>>> UIMEM:105 [0:0] The widget does not exist in idle!!
+,I/FOTA_Client( 6439): [com.sec.android.fotaclient.FotaUpdaterReceiver(93/onReceive)] Auto update settings is activated
+,I/DIAGMON_AGENT( 6653): [lllIIIIlIIlIlllIlIIl(39/llIIIIlllllIIllIIllI)] Receive broadcast: android.net.conn.CONNECTIVITY_CHANGE
+,I/DIAGMON_AGENT( 6653): [lllIIIIlIIlIlllIlIIl(40/llIIIIlllllIIllIIllI)] Receive broadcast:
+I/DIAGMON_AGENT( 6653): ./extraInfo: "NG700"
+I/DIAGMON_AGENT( 6653): [lllIIIIlIIlIlllIlIIl(54/llIIIIlllllIIllIIllI)] Running with RegistrationReceiver
+,I/FOTA_Client( 6439): [IlIlIIllllIllIIIIIll(81/llllIIIllIlIIIIllllI)] Polling time is vaild
+,D/WaitQueueForNetworkActivate( 6008): notifyNetworkActivated
+,W/FOTA_Client( 6439): [lIllIlIIlIIlllllIIll(98/llllIIIllIlIIIIllllI)] No file exists in Directory
+,I/KLMS-2.5.183: ( 3510): KLMSAbstractReciever(): onReceive(): Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.samsung.klmsagent/.listner.MainReciver (has extras) } | timestamp: Thu Jan 14 10:32:06 GMT+01:00 2016
+,D/ActivityManager( 1015): startService callerProcessName:com.samsung.klmsagent, calleePkgName: com.samsung.klmsagent
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.samsung.klmsagent/com.samsung.klmsagent.services.KLMSIntentService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000,
+W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.samsung.klmsagent, destAppInfo.processName = com.samsung.klmsagent
+,I/KLMS-2.5.183: ( 3510): KLMSAbstractReciever(): onReceive().END.
+,D/ActivityManager( 1015): startService callerProcessName:com.samsung.android.app.galaxyfinder, calleePkgName: com.samsung.android.app.galaxyfinder
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.samsung.android.app.galaxyfinder/com.samsung.android.app.galaxyfinder.tag.LocationTagReadyService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.samsung.android.app.galaxyfinder, destAppInfo.processName = com.samsung.android.app.galaxyfinder
+,I/KLMS-2.5.183: ( 3510): KLMSIntentService(): onCreate()
+,D/QuickConnect( 6686): PeriphStartReceiver.onReceive - android.net.conn.CONNECTIVITY_CHANGE
+,I/KLMS-2.5.183: ( 3510): KLMSSystemProperties(): getBoolean(): ro.product_ship = true
+,I/QuickConnect( 6686): PeriphStartReceiver.onReceive - USER_OWNER care CONNECTIVITY_ACTION. run P service
+I/QuickConnect( 6686): PeriphStartReceiver.onReceive - no need to start
+,I/KLMS-2.5.183: ( 3510): KLMSUtility(): isTestMode(): product_ship: true | testApk: false
+,I/KLMS-2.5.183: ( 3510): KLMSIntentService(): onHandleIntent().START: Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.samsung.klmsagent/.services.KLMSIntentService (has extras) }
+,I/KLMS-2.5.183: ( 3510): KLMSIntentService(): NETWORK_STATE_CHANGED_ACTION
+,I/KLMS-2.5.183: ( 3510): KLMSUtility(): isNetworkAvailable() - WIFI : true| MOBILE : false| ETHERNET : false
+W/ContextImpl( 6008): Implicit intents with startService are not safe: Intent { act=com.sec.knox.containeragent.service.containermanager.ContainerManagerService } android.content.ContextWrapper.bindService:559 com.sec.knox.containeragent.ContainerManager.<init>:49 com.sec.android.app.samsungapps.vlibrary2.knoxmode.KNOXAPI.<init>:20 
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): Unable to start service Intent { act=com.sec.knox.containeragent.service.containermanager.ContainerManagerService } U=0: not found
+,I/KLMS-2.5.183: ( 3510): StateImplV2(): networkChangeListener().START
+,I/KLMS-2.5.183: ( 3510): NetworkChangeOperations(): uploadRequestLog().START 
+,I/KLMS-2.5.183: ( 3510): NetworkChangeOperations(): uploadRequestLog().END 
+,I/KLMS-2.5.183: ( 3510): StateImplV2(): networkChangeListener().END
+,I/KLMS-2.5.183: ( 3510): KLMSIntentService(): onDestroy()
+,E/SPPClientService( 6031): [[SystemStateMoniter]] SystemStateMonitorService : noConnect? : false
+,I/SA      ( 6198): [OR] onReceive log=[SA = 2.1.0179 V = 21 HWD = 1280X720 2.0 dpi = 320  SIZE = 2 LOCALE = en_US CSC = XEO MCC = 0 MNC 0 T = user DEVICE = a5ulte P = a5ultexx I = LRX22G M = SM-A500FU OKLEFT false DIS LRX22G.A500FUXXU1BOH2 PSS = 4.978878039476607  ]
+,I/SA      ( 6198): [OR] onReceive Intent=[ conn.CONNECTIVITY_CHANGE. networkInfo:[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "NG700", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false] networkType:1 inetCondition:0 extraInfo:? isDefault:true ]
+I/SA      ( 6198): [OR] == ACTION_CONNECTIVITY_CHANGE ==
+,I/DBG_POLICYDM( 5990): [com.sec.android.fota.common.Network(88/isWiFiNetworkConnected)] WiFi Network is connected
+,I/SA      ( 6198): [TPMU]  strSIMState 	:SIM_STATE_ABSENT
+I/SA      ( 6198): [OR] == isSIMCardReady false ==
+,I/SA      ( 6198): [SCU] == networkStateCheck == true
+,I/SA      ( 6198): [DM] getCountryCodeFromCSC : PL
+I/SA      ( 6198): isChinaCountryCode : false
+I/SA      ( 6198): [SCU] is ChinestModel Data Restricted   : false
+I/SA      ( 6198): [OR] == networkStateCheck true ==
+,I/DBG_POLICYDM( 5990): [com.policydm.XDMApplication(469/isNetworkChanged)] a previous network is 0, current network is 2
+,E/DBG_POLICYDM( 5990): [com.policydm.XDMApplication(471/isNetworkChanged)] network changed.... 
+,I/SA      ( 6198): [OR] GetMyCountryZoneTask
+,I/SA      ( 6198): [OR] onReceive END
+,V/DownloadManager( 1223): onReceive intent + android.net.conn.CONNECTIVITY_CHANGE
+,D/ActivityManager( 1015): startService callerProcessName:com.android.providers.media, calleePkgName: com.android.providers.downloads
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.android.providers.downloads/com.android.providers.downloads.DownloadService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = android.process.media, destAppInfo.processName = android.process.media
+,I/SA      ( 6198): [SRS] prepareGetMyCountryZone
+,I/SA      ( 6198): [TPMU]  strSIMState 	:SIM_STATE_ABSENT
+,I/SA      ( 6198): [SSP] query invoked
+,I/DBG_POLICYDM( 5990): [com.policydm.XDMBroadcastReceiver(258/xdmExecResumeCase)] 
+,I/DBG_POLICYDM( 5990): [com.policydm.db.XDBFile(63/xdbFileExists)] doesn't exist target file: /data/security/sepolicy
+,I/DBG_POLICYDM( 5990): [com.policydm.db.XDBFile(63/xdbFileExists)] doesn't exist target file: /data/security/seapp_contexts
+,I/DBG_POLICYDM( 5990): [com.policydm.db.XDBFile(63/xdbFileExists)] doesn't exist target file: /data/security/property_contexts
+,I/DBG_POLICYDM( 5990): [com.policydm.db.XDBFile(63/xdbFileExists)] doesn't exist target file: /data/security/file_contexts
+,V/AlarmManager( 1015): waitForAlarm result :8
+I/DBG_POLICYDM( 5990): [com.policydm.db.XDBFile(63/xdbFileExists)] doesn't exist target file: /data/security/service_contexts
+,I/SA      ( 6198): [TPMU] GetMccFromDB : null
+,I/DBG_POLICYDM( 5990): [com.policydm.db.XDBFile(63/xdbFileExists)] doesn't exist target file: /data/security/mac_permissions.xml
+,I/DBG_POLICYDM( 5990): [com.policydm.XDMBroadcastReceiver(275/xdmExecResumeCase)] Start resumecase for INIT
+,D/SecContentProvider2( 1015): uri = 15 selection = getAppBlockDownloadState
+,D/SecContentProvider2( 1015): mCursor = null
+,E/DBG_POLICYDM( 5990): [com.policydm.db.XDBSpdAdp(35/xdbGetSpdDeviceRegister)] Device is Registered
+,E/SMD     (  294): DCD OFF
+I/SA      ( 6198): [SCU] getMccFromPreferece mcc = 260
+I/SA      ( 6198): [TPM] isNoProxy(default) : true
+,E/File    ( 6198): fail readDirectory() errno=2
+,D/ConnectivityService( 1015): NetTransition Wakelock (NetworkAgentInfo [WIFI () - 502] cleared because we found a replacement network
+,I/DBG_POLICYDM( 5990): [com.sec.android.fota.common.Network(88/isWiFiNetworkConnected)] WiFi Network is connected
+,D/ActivityManager( 1015): startService callerProcessName:com.sec.android.app.samsungapps, calleePkgName: com.sec.android.app.samsungapps
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.sec.android.app.samsungapps/com.sec.android.app.samsungapps.autoupdateservice.AutoUpdateService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 1023, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.sec.android.app.samsungapps, destAppInfo.processName = com.sec.android.app.samsungapps
+,D/hcjo    ( 6008): AutoUpdateManager:IDLE:execute
+,D/InitializeManagerStateMachine( 6008): execute::IDLE:EXECUTE
+,D/InitializeManagerStateMachine( 6008): exit::IDLE
+D/InitializeManagerStateMachine( 6008): entry::NETWORK_CHECK
+,D/InitializeManagerStateMachine( 6008): execute::NETWORK_CHECK:NETWORK_STATE_OK
+D/InitializeManagerStateMachine( 6008): exit::NETWORK_CHECK
+D/InitializeManagerStateMachine( 6008): entry::CHECK_COUNTRY_INFO
+D/InitializeManagerStateMachine( 6008): execute::CHECK_COUNTRY_INFO:COUNTRY_INFO_OK
+D/InitializeManagerStateMachine( 6008): exit::CHECK_COUNTRY_INFO
+D/InitializeManagerStateMachine( 6008): entry::SUCCESS
+D/hcjo    ( 6008): AutoUpdateManager:INITCHECK:onInitializeSuccess
+,D/hcjo    ( 6008): AutoUpdateTriggerManager:IDLE:notifyNextTime
+D/hcjo    ( 6008): AutoUpdateManager:UPD_CHECK_TIMING:onNoUpdateTime
+,I/iu.Environment( 3612): update connectivity state; isNetworkMetered? false, isRoaming? false, isBackgroundDataAllowed? true*
+,D/InitializeManagerStateMachine( 6008): exit::SUCCESS
+D/InitializeManagerStateMachine( 6008): entry::IDLE
+,I/iu.UploadsManager( 3612): num queued entries: 0
+,I/iu.UploadsManager( 3612): num updated entries: 0
+,I/iu.SyncManager( 3612): NEXT; no task
+,D/ActivityManager( 1015): startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.gcm.GcmService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,I/splitIntent( 1015): Queue : backgroundsplit_2 intent android.net.conn.CONNECTIVITY_CHANGE is finished at BG and BG split queue. set mSplitStart and mBgSplitQueueOnlyRun false.
+,D/EnterpriseController(  282): uids 10012
+D/EnterpriseController(  282): mIsMarkChainAdded is 18 mIsBlockChainAdded is 252 netId is 0
+D/Netd    (  282): getNetworkForDns: using netid 503 for uid 10012
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.talk
+,I/SA      ( 6198): [RC New] Execute method=[GET] start
+,I/SA      ( 6198): [RC New] Security=[true]
+,I/System.out( 6198): Thread-1065(ApacheHTTPLog):Reading from variable values from setDefaultValuesToVariables
+,I/System.out( 6198): Thread-1065(ApacheHTTPLog):isSBSettingEnabled false
+,I/System.out( 6198): Thread-1065(ApacheHTTPLog):isShipBuild true
+I/System.out( 6198): Thread-1065(ApacheHTTPLog):SMARTBONDING_ENABLED is false
+I/System.out( 6198): Thread-1065(ApacheHTTPLog):SmartBonding Enabling is false, SHIP_BUILD is true, log to file is false, DBG is false
+D/EnterpriseController(  282): uids 10041
+D/EnterpriseController(  282): mIsMarkChainAdded is 18 mIsBlockChainAdded is 252 netId is 0
+D/Netd    (  282): getNetworkForDns: using netid 503 for uid 10041
+,D/ConnectivityService( 1015): updateLinkProperties: newLp = {InterfaceName: wlan0 LinkAddresses: [192.168.1.129/24,fe80::7ef9:eff:fe37:96ac/64,]  Routes: [fe80::/64 -> :: wlan0,192.168.1.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.1.1 wlan0,] DnsAddresses: [192.168.1.1,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,4525824,524288,1048576,4525824}, oldLp = {InterfaceName: wlan0 LinkAddresses: [192.168.1.129/24,]  Routes: [fe80::/64 -> :: wlan0,192.168.1.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.1.1 wlan0,] DnsAddresses: [192.168.1.1,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,4525824,524288,1048576,4525824}
+,D/ConnectivityService( 1015): notifyType IP_CHANGED for NetworkAgentInfo [WIFI () - 503]
+,D/ConnectivityService( 1015): notifyType IP_CHANGED for NetworkAgentInfo [WIFI () - 503]
+,D/ConnectivityManager.CallbackHandler( 1177): CM callback handler got msg 524295
+,D/ConnectivityManager.CallbackHandler( 1177): CM callback handler got msg 524295
+,I/SA      ( 6198): [RC New] [v2liruge] api execute + 619
+,I/SA      ( 6198): [RC New] executeRequest [v2liruge] httpResponse : HTTP/1.1 200 OK
+,I/System.out( 6198): AsyncTask #1 calls detatch()
+,I/SA      ( 6198): [ODM] saveOpenData( GEO_IP, PL )
+,I/SA      ( 6198): [OCP] update openData : PL
+,I/SA      ( 6198): [TPMU] getNetworkMcc : 
+,I/SA      ( 6198): [SCU] saveMccToPreferece Start
+,I/SA      ( 6198): [SCU] RegionMCC : 260
+,I/SA      ( 6198): [SSP] query invoked
+,I/SA      ( 6198): [TPMU] GetMccFromDB : null
+,I/SA      ( 6198): [SCU] getMccFromPreferece mcc = 260
+,I/SA      ( 6198): [SCU] saveMccToPreferece End
+,I/SA      ( 6198): [RC New] executeRequest [v2liruge] end. 685
+I/SA      ( 6198): [RC New] Execute end
+,I/SA      ( 6198): [OR] GetMyCountryZoneTask mcc = 260
+I/SA      ( 6198): [OR] GetMyCountryZoneTask Success
+,D/SSRM:n  ( 1015): SIOP:: AP = 340
+,W/ContextImpl( 1015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1698 com.absolute.android.persistservice.a.run:1065 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+,D/PackageManager( 1015): [MSG] MCS_UNBIND
+,I/ActivityManager( 1015): Killing 5906:com.android.mms/u0a46 (adj 15): empty #31
+,D/CountryDetector( 1015): No listener is left
+,W/libprocessgroup( 1015): failed to open /acct/uid_10046/pid_5906/cgroup.procs: No such file or directory
+,D/WifiWatchdogStateMachine.CaptivePortalHandler( 1015): Do not check CP during LCD off.
+,I/dhcpcd  ( 6537): wlan0: sending IPv6 Router Solicitation
+,D/ActivityManager( 1015): startService callerProcessName:com.sec.spp.push, calleePkgName: com.sec.spp.push
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.sec.spp.push/com.sec.spp.push.monitor.SystemStateMonitorService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 1023, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.sec.spp.push, destAppInfo.processName = com.sec.spp.push
+,V/AlarmManager( 1015): waitForAlarm result :8
+,E/SMD     (  294): DCD OFF
+,I/SurfaceFlinger(  256): id=15 Removed Uoast (8/9),
+I/SurfaceFlinger(  256): id=15 Removed Uoast (-2/9)
+,D/PowerManagerService( 1015): [api] [s] userActivity : event: 0 flags: 0 (uid: 1000 pid: 1015) eventTime = 91976
+,D/PowerManagerService( 1015): [api] release WakeLock flags=0x2000000a tag=WindowManager uid=1000 pid=1015 (0x0)
+,D/PowerManagerService( 1015): [api] applyWakeLockFlagsOnReleaseLocked : userActivityNoUpdateLocked is called : SCREEN_BRIGHT_WAKE_LOCK        'WindowManager' ON_AFTER_RELEASE (uid=1000, pid=1015, ws=WorkSource{10054}) (elapsedTime=3485)
+,D/ActivityManager( 1015): bindService callerProcessName:com.google.android.apps.magazines, calleePkgName: com.google.android.gms, action: com.google.android.gms.analytics.service.START
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.analytics.service.AnalyticsService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.apps.magazines, destAppInfo.processName = com.google.android.gms
+,I/GAV4    ( 6519): Thread[GAThread,5,main]: No campaign data found.
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,D/ActivityManager( 1015): startService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.leanback.AutoCacheSchedulingService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,D/ActivityManager( 1015): bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music, action: null
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.download.TrackDownloadQueueService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,D/ActivityManager( 1015): bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music, action: null
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.download.cache.TrackCacheService; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,D/ActivityManager( 1015): bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music, action: null
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.net.NetworkMonitor; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,D/ActivityManager( 1015): startService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.wear.WearMetadataSyncService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.gms
+,D/WearableService( 1867): callingUid 10012, callindPid: 1867
+,D/ActivityManager( 1015): bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music, action: null
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.net.NetworkMonitor; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,I/MusicLeanback( 6427): Conditions not met for autocaching.
+I/MusicLeanback( 6427): Stop autocaching.
+,E/GmsUtils( 6427): Failed to connect to Google API client: ConnectionResult{statusCode=unknown status code 16, resolution=null}
+,E/GmsUtils( 6427): Failed to connect to Google API client: ConnectionResult{statusCode=unknown status code 16, resolution=null}
+,I/PCWCLIENTTRACE_SYSTEMReceiver( 5928): mConnectivityHandler : connected
+,W/PCWCLIENTTRACE_AccountUtil( 5928): [hasSamungAccount] - No Samsung Account
+,I/PCWCLIENTTRACE_SecurePreferencesJNI( 5928): [GetString-S]
+,I/ReactiveServiceManager( 5928): Supported : 1
+,D/QSEECOMAPI: ( 1015): QSEECom_get_handle sb_length = 0x2040
+,D/QSEECOMAPI: ( 1015): App is not loaded in QSEE
+,D/QSEECOMAPI: ( 1015): Loaded image: APP id = 11
+,D/QSEECOMAPI: ( 1015): QSEECom_dealloc_memory 
+,D/QSEECOMAPI: ( 1015): QSEECom_shutdown_app, app_id = 11
+,E/terrier ( 1015): handleString: Failed to handle string(-4)
+E/terrier ( 1015): Java_com_android_server_ReactiveService_GetString: error code = [-4]
+,D/PCWCLIENTTRACE_SecurePreferencesJNI( 5928): getString is null
+,I/PCWCLIENTTRACE_SecurePreferencesJNI( 5928): [GetString-E]
+,I/PCWCLIENTTRACE_PushUtil( 5928): SPPPushClient is installed : true
+I/PCWCLIENTTRACE_PushUtil( 5928): sales region : global
+I/PCWCLIENTTRACE_PushUtil( 5928): getPushTypeList : [SPP, GCM]
+E/PCWCLIENTTRACE_PCWHandler( 5928): [ensureRegistration] - No Samsung account
+,I/PowerManagerService( 1015): [PWL] Off : 15s ago
+,V/AlarmManager( 1015): waitForAlarm result :4
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.android.vending/com.google.android.finsky.services.ContentSyncService; callingUser = 0; userId(target) = 0
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,I/ActivityManager( 1015): Start proc com.android.vending for service com.android.vending/com.google.android.finsky.services.ContentSyncService: pid=6739 uid=10028 gids={50028, 9997, 3003, 1028, 1015} abi=armeabi-v7a
+,E/Zygote  ( 6739): MountEmulatedStorage()
+E/Zygote  ( 6739): v2
+I/libpersona( 6739): KNOX_SDCARD checking this for 10028
+I/libpersona( 6739): KNOX_SDCARD not a persona
+,I/SELinux ( 6739): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+,I/SELinux ( 6739): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038,
+,E/SELinux ( 6739): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+,D/ActivityManager( 1015): bindService callerProcessName:android, calleePkgName: android, action: null
+D/ActivityManager( 1015): retrieveServiceLocked(): component = android/com.android.server.os.BackgroundCompactionService; callingUser = 0; userId(target) = 0
+,I/BackgroundCompactionService( 1015): onStart. jobID=801
+,I/BackgroundCompactionService( 1015): onStart done. jobID=801,
+I/BackgroundCompactionService( 1015): Execute BGCompaction (type1). (0 times)
+,I/BackgroundCompactionService( 1015): compact_memory command done
+,D/TimaKeyStoreProvider( 6739): TimaSignature is unavailable
+,D/ActivityThread( 6739): Added TimaKeyStore provider
+,D/Finsky  ( 6739): [1] FinskyApp.onCreate: Initializing network with DFE https://android.clients.google.com/fdfe/
+,E/SMD     (  294): DCD OFF
+,D/Finsky  ( 6739): [1] DailyHygiene.goMakeHygieneIfDirty: No need to run daily hygiene.
+,W/Settings( 6739): Setting download_manager_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+,W/Settings( 6739): Setting download_manager_recommended_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+,D/Finsky  ( 6739): [1] Libraries$2.run: Loaded library for account: [UVAT3FEWOLBYQGmBHvKHAcB3G_U]
+,D/Finsky  ( 6739): [1] Libraries$2.run: Finished loading 1 libraries.
+,D/Ads     ( 6739): Skipping gmscore version check
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,D/Finsky  ( 6739): [1] GmsCoreHelper.cleanupNlp: result=false type=4
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.android.vending, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): startService callerProcessName:com.android.vending, calleePkgName: com.android.vending
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.android.vending/com.google.android.finsky.services.RestoreService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.android.vending, destAppInfo.processName = com.android.vending
+,D/Finsky  ( 6739): [1] RestoreTracker.stopServiceIfDone: Restore complete with 0 success and 0 failed.
+,I/ActivityManager( 1015): Waited long enough for: ServiceRecord{3b5e7b73 u0 com.samsung.android.app.galaxyfinder/.tag.TagReadyService}
+,D/Finsky  ( 6739): [1170] AppStatesReplicator.handleContentSyncResponse: Completed 0 account content syncs with 0 successful.
+,D/Finsky  ( 6739): [1] ContentSyncService$5.onFinished: Installation state replication succeeded.
+,I/ActivityManager( 1015): Killing 6088:com.sec.android.app.myfiles/u0a47 (adj 15): empty #31
+,W/libprocessgroup( 1015): failed to open /acct/uid_10047/pid_6088/cgroup.procs: No such file or directory
+,I/dhcpcd  ( 6537): wlan0: sending IPv6 Router Solicitation
+,W/ContextImpl( 1015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1698 com.absolute.android.persistservice.a.run:1065 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!
+,I/jxcore-log( 6319): Test app app.js loaded,
+I/jxcore-log( 6319): 
+,I/Choreographer( 6319): Skipped 654 frames!  The application may be doing too much work on its main thread.
+,I/chromium( 6319): [INFO:CONSOLE(51)] "UIApp is all set and ready!", source: file:///android_asset/www/js/thali_main.js (51)
+,E/SMD     (  294): DCD OFF
+,D/ActivityManager( 1015): startService callerProcessName:com.sec.android.app.samsungapps, calleePkgName: com.sec.android.app.samsungapps
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.sec.android.app.samsungapps/com.sec.android.app.samsungapps.preloadupdate.PreloadUpdateService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 1023, src_allowCategory = 0,701-1023
+,W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.sec.android.app.samsungapps, destAppInfo.processName = com.sec.android.app.samsungapps
+,D/PreloadUpdateManagerStateMachine( 6008): execute::IDLE:EXECUTE
+,D/PreloadUpdateManagerStateMachine( 6008): exit::IDLE
+,D/PreloadUpdateManagerStateMachine( 6008): entry::CHECK_TIMEOUT_FOR_UPDATE
+,D/hcjo    ( 6008): AutoUpdateTriggerManager:IDLE:setInterval:86400000
+,D/hcjo    ( 6008): AutoUpdateTriggerManager:IDLE:notifyNextTime
+,D/PreloadUpdateManagerStateMachine( 6008): execute::CHECK_TIMEOUT_FOR_UPDATE:NO_TIMED_OUT
+,D/PreloadUpdateManagerStateMachine( 6008): exit::CHECK_TIMEOUT_FOR_UPDATE
+,D/PreloadUpdateManagerStateMachine( 6008): entry::IDLE
+,I/dhcpcd  ( 6537): wlan0: sending IPv6 Router Solicitation
+I/dhcpcd  ( 6537): wlan0: no IPv6 Routers available
+,D/SSRM:n  ( 1015): SIOP:: AP = 320
+,E/SMD     (  294): DCD OFF
+,E/SMD     (  294): DCD OFF
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!
+,D/BatteryService( 1015): level:100, scale:100, status:5, health:2, present:true, voltage: 4346, temperature: 252, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303736, invalid charger:0
+,D/BatteryService( 1015): online:4, current avg:0, charge type:1, power sharing:false, high voltage charger:false, capacity:230000, current_now:0
+D/LightsService( 1015): [api] [SvcLED] setFlashing :: id = 3, color = 0, mode = 14, onMS = 0, offMS = 0,  (uid: 1000 pid: 1015) 
+D/BatteryService( 1015): Sending ACTION_BATTERY_CHANGED.
+,D/LightsService( 1015): [SvcLED] setSvcLedStateLocked:: SvcLEDState : 0x10 -> 0x40 | SvcLED(id=3) set On
+,E/lights  ( 1015): write_int failed to open -1
+D/BatteryService( 1015): turn on LED for fully charged
+D/LightsService( 1015): [SvcLED] Lux failed to be updated in 0ms. -> handleForcedSvcLEDTasK
+D/LightsService( 1015): [SvcLED]  setSvcLedLightLocked :: Current SvcLED(id=3) maintains its priority right
+,I/MotionRecognitionService( 1015): Plugged
+I/MotionRecognitionService( 1015): mGripSensorEnabled= false
+,D/KeyguardUpdateMonitor( 1177): received broadcast android.intent.action.BATTERY_CHANGED
+,V/EmergencyMode( 1415): [EmergencyStateReceiver] onReceive : android.intent.action.BATTERY_CHANGED
+D/KeyguardUpdateMonitor( 1177): handleBatteryUpdate
+V/EmergencyMode( 1415): [EmergencyStateReceiver] ACTION_BATTERY_CHANGED mBatteryLevelForLogging = 100
+D/SecKeyguardStatusUtils( 1177): regionalDateFormat = 11/22/3333 isRTLlanguage = false returnDateFormat = E, MMMM d
+,D/SecContentProvider2( 1015): uri = 14 selection = getSealedState
+D/SecContentProvider2( 1015): mCursor = null
+,V/HeadsetService( 2578): HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+,D/HeadsetStateMachine( 2578): Disconnected process message: 10
+,D/ApplicationPolicy( 1015): isStatusBarNotificationAllowedAsUser: packageName = com.android.systemui,userId = -1
+,V/ApplicationPolicy( 1015): isApplicationStateBlocked userId -1 pkgname com.android.systemui
+,I/ValidateNoPeople( 1015): skipping global notification
+,D/WindowManager( 1015): showStatusBarByNotification() mOpenByNotification=false
+,D/PowerManagerService( 1015): [api] acquire WakeLock flags=0x10000006 tag=PowerUI.Notification uid=10054 pid=1177
+I/PowerManagerService( 1015): !@[ps] Screen__On  - 1 :  wl: PowerUI.Notification (14)
+I/PowerManagerService( 1015): Waking up from sleep (uid 10054)...
+,D/PowerManagerService( 1015): [PWL] sb acquire: PowerManagerService.Broadcasts
+,V/KeyguardServiceDelegate( 1015): onScreenTurnedOn(showListener = com.android.internal.policy.impl.PhoneWindowManager$2@1f5d6bb3)
+,D/KeyguardViewMediator( 1177): onScreenTurnedOn, seq = 2
+D/PowerManagerService( 1015): [s] UserActivityState : 0 -> 1
+,D/KeyguardViewMediator( 1177): notifyScreenOnLocked
+,D/PowerManagerService( 1015): [PWL] sb acquire: PowerManagerService.Display
+,I/DisplayPowerController( 1015): Blocking screen on until initial contents have been drawn.
+,D/WindowOrientationListener( 1015): sensor enabled
+,I/Sensors ( 1015): AccelerometerSensor(0) setDelay : 66000000(ns)
+,D/DisplayPowerController( 1015): getFinalBrightness : Summary is 5 -> 5
+D/DisplayPowerController( 1015): animation target = 5, rate=2000 (PSM:false, AB limit:(-1 ~ -1) MB Limit:(-1 ~ -1) MAdj:(0, (0, 255)))
+D/DisplayPowerController( 1015): getFinalBrightness : Summary is 5 -> 5
+D/DisplayPowerController( 1015): animation target = 5, rate=2000 (PSM:false, AB limit:(-1 ~ -1) MB Limit:(-1 ~ -1) MAdj:(0, (0, 255)))
+,I/libsuspend( 1015): !@autosuspend_wakeup_count_disable
+I/libsuspend( 1015): !@autosuspend_wakeup_count_disable done
+D/DisplayManagerService( 1015): !@display_state: OFF -> ON
+,D/SensorService( 1015): [SO] changed settle time [1]
+D/SensorService( 1015): [SO] setDelay [66000000]
+D/SensorService( 1015): [SO] activate (ident=0xb8efc5c8, enabled=1)
+D/SensorService( 1015): [SO] AR_init
+I/Sensors ( 1015): AccelerometerSensor enable: mEnabled 0, handle 0, en 1
+,D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2,
+D/SurfaceFlinger(  256): Set power mode=2, type=0 flinger=0xb861d690
+D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+D/qdhwcomposer(  256): hwc_setPowerMode: Setting mode 2 on display: 0
+,E/qdutils (  256): int qdutils::getHDMINode(): Failed to open fb node 2
+D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+E/qdutils (  256): int qdutils::getHDMINode(): Failed to find HDMI node
+,I/DisplayManagerService( 1015): Display device changed: DisplayDeviceInfo{"Built-in Screen": 720 x 1280, 60.0 fps, supportedRefreshRates [60.0], density 320, 294.967 x 295.563 dpi, appVsyncOff 0, presDeadline 17666667, touch INTERNAL, rotation 0, type BUILT_IN, state ON, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+,V/ActivityManager( 1015): Display changed displayId=0
+,D/SensorManager( 1015): registerListener :: 1600221811, Screen Orientation Sensor, 66000, 0,  
+,D/PersonaManager( 1015): isKioskContainerExistOnDevice
+,D/KeyguardViewMediator( 1177): handleNotifyScreenOn
+D/StatusBarKeyguardViewManager( 1177): onScreenTurnedOn()
+,D/SecKeyguardClockSingleView( 1177): onScreenTurnedOn
+,D/SecKeyguardStatusUtils( 1177): regionalDateFormat = 11/22/3333 isRTLlanguage = false returnDateFormat = E, MMMM d
+,I/PalmMotion( 1015): [PALM] 2014 - SURFACE_MOTION_ENGINE: 1 MOTION_MERGED_MUTE_PAUSE & SURFACE_PALM_TOUCH: 1
+I/PalmMotion( 1015): [PALM] SURFACE_PALM_SWIPE: 1
+E/MotionRecognitionService( 1015):   mReceiver.onReceive : ACTION_USER_PRESENT  :: UNLOCK SCREEN
+D/PalmMotion( 1015): [PALM] SETTINGS : [TOUCH: true] [SWEEP: true]
+D/LightsService( 1015): [api] [SvcLED] turnOff:: id = 4 (uid: 1000 pid: 1015) 
+D/PalmMotion( 1015): [PALM] ACCEPTED : [default] PALM_CNT : 3, M_TOUCH : 1000.0, M_SWEEP : 100.0, E_SWEEP : 2.0, IGNORE_M_SWEEP : false
+,D/LightsService( 1015): [SvcLED] setSvcLedStateLocked:: SvcLEDState : 0x40 -> 0x40 | SvcLED(id=4) set Off
+D/LightsService( 1015): [SvcLED] Lux failed to be updated in 0ms. -> handleForcedSvcLEDTasK
+D/LightsService( 1015): [SvcLED]  setSvcLedLightLocked :: Current SvcLED(id=3) maintains its priority right
+,D/CoverManagerWhiteLists( 1015): isAllowedToUse : SIGNATURE_MATCH
+,D/SamsungIME( 1812): showDlgMsgBox : false true true
+,D/NfcService( 1447): call the applyRouting
+D/SSRM:a  ( 1015): DeviceInfo:: 000000000000
+D/SSRM:a  ( 1015): SettingsAirViewInfo:: 000000000
+,D/SensorService( 1015): [SO] currT = 106130113395, prevT = 78210123301, diff = 27919990094, [0.077 0.096 10.075]
+D/SensorService( 1015): [SO] Reset Rotation Old [100], Init [1]
+,I/rmt_storage(  270): rmt_storage_connect_cb: clnt_h=0x5 conn_h=0xb77c87c8
+I/rmt_storage(  270): rmt_storage_rw_iovec_cb: /boot/modem_fs2: clnt_h=0x2: req_h=0xa msg_id=3: R/W request received
+I/rmt_storage(  270): wakelock acquired: 1, error no: 42
+I/rmt_storage(  270): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2 Unblock worker thread (th_id: -1216575352)
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.android.systemui, destAppInfo.processName = com.android.settings
+,D/LightsService( 1015): [api] [SvcLED] turnOff:: id = 3 (uid: 1000 pid: 1015) 
+,D/LightsService( 1015): [SvcLED] setSvcLedStateLocked:: SvcLEDState : 0x40 -> 0x0 | SvcLED(id=3) set Off
+D/BatteryService( 1015): turn off LED
+,D/LightsService( 1015): [SvcLED] Lux failed to be updated in 0ms. -> handleForcedSvcLEDTasK
+E/lights  ( 1015): write_led_info failed to open -1
+D/LightsService( 1015): [SvcLED]  setSvcLedLightLocked :: Current SvcLED(id=3) maintains its priority right
+E/lights  ( 1015): write_led_info failed to open -1
+E/lights  ( 1015): write_led_info failed to open -1
+E/lights  ( 1015): write_led_info failed to open -1
+E/lights  ( 1015): write_led_info failed to open -1
+E/lights  ( 1015): write_led_info failed to open -1
+E/lights  ( 1015): write_led_info failed to open -1
+E/lights  ( 1015): write_led_info failed to open -1
+E/lights  ( 1015): write_led_info failed to open -1
+,D/KnoxNotification( 1177): ----- inflateViews : modified publicViewLocal -----
+,E/SmartFaceService( 1015): onReceive: android.intent.action.SCREEN_ON
+,D/qdhwcomposer(  256): hwc_setPowerMode: Done setting mode 2 on display 0
+,I/qdhwcomposer(  256): handle_blank_event: dpy:0 panel power state: 1
+,W/System.err( 1015): java.io.FileNotFoundException: /sys/class/camera/rear/rear_sensor_standby: open failed: ENOENT (No such file or directory)
+W/System.err( 1015): 	,at libcore.io.IoBridge.open(IoBridge.java:456)
+W/System.err( 1015): 	at java.io.FileOutputStream.<init>(FileOutputStream.java:87)
+W/System.err( 1015): 	at java.io.FileOutputStream.<init>(FileOutputStream.java:72)
+W/System.err( 1015): 	,at com.samsung.android.smartface.SmartFaceService.sysfsWrite(SmartFaceService.java:1150)
+E/SmartFaceService( 1015): fail to set sysfs 1
+W/System.err( 1015): 	at com.samsung.android.smartface.SmartFaceService.access$1800(SmartFaceService.java:95)
+W/System.err( 1015): 	,at com.samsung.android.smartface.SmartFaceService$1.onReceive(SmartFaceService.java:468)
+,W/System.err( 1015): 	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:933)
+W/System.err( 1015): 	at android.os.Handler.handleCallback(Handler.java:739)
+W/System.err( 1015): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+W/System.err( 1015): 	at android.os.Looper.loop(Looper.java:145)
+W/System.err( 1015): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+W/System.err( 1015): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+W/System.err( 1015): 	at libcore.io.Posix.open(Native Method)
+,W/System.err( 1015): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+W/System.err( 1015): 	at libcore.io.IoBridge.open(IoBridge.java:442)
+W/System.err( 1015): 	... 10 more
+E/qdutils (  256): int qdutils::getHDMINode(): Failed to open fb node 2
+E/qdutils (  256): int qdutils::getHDMINode(): Failed to find HDMI node
+,D/SurfaceControl( 1015): Excessive delay in setPowerMode(): 139ms
+D/PowerManagerService( 1015): Excessive delay in !@display_state: ON: 140ms
+,D/MISC PowerHAL( 1015): sysfs_write +: /sys/class/input/event1/device/enabled: 1
+,D/ActivityManager( 1015): post active user change for 0 fullscreen true record.isFloatingActivity() false
+D/KnoxTimeoutHandler( 1015): postActiveUserChange for user 0
+I/KnoxTimeoutHandler( 1015): postActiveUserChange, showWhenLocked: false
+,D/MISC PowerHAL( 1015): sysfs_write +: /sys/class/input/event3/device/enabled: 1
+,D/KnoxTimeoutHandler( 1015): handleActiveUserChange for user 0
+,D/PersonaManagerService( 1015): getPersonasForUser(): returning null!
+,D/SensorService( 1015): [SO] currT = 106200178915, prevT = 78210123301, diff = 27990055614, [0.077 0.077 10.036]
+,D/SensorService( 1015): [SO] 0.077 0.077 10.036
+,D/SensorService( 1015): [SO] [100 -> 255]
+,D/KnoxNotification( 1177): ----- inflateViews : modified KnoxViewLocal -----
+,D/InputMethodManagerService( 1015): [HARDWARE_KEYBOARD] (refreshImeWindowVisibilityLocked) mImeWindowVis= 0 inputVisible = falsehaveHardKeyboard = false hardKeyShown = false
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.android.systemui, destAppInfo.processName = com.google.android.gms
+,D/PersonaManager( 1177): PersonaID is invalid or persona doesn't exists. : -1
+,D/PersonaManager( 1177): isKioskContainerExistOnDevice
+D/PersonaManager( 1177): isKioskContainerExistOnDevice
+I/PhoneStatusBar( 1177): Icon Only
+I/StatusBar( 1177): Icon Only
+D/PanelView( 1177): There is/are notification(s) 
+,D/PanelView( 1177): kidsfalse mQsExpansionEnabled:true
+I/rmt_storage(  270): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2: req_h=0xa msg_id=3: Bytes written = 917504
+D/MotionRecognitionService( 1015):   mReceiver.onReceive : ACTION_SCREEN_ON
+I/rmt_storage(  270): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2: req_h=0xa msg_id=3: Send response: res=0 err=0
+,I/rmt_storage(  270): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2 About to block rmt_storage client thread (th_id: -1216575352) wakelock released: 1, error no: 0
+I/rmt_storage(  270): 
+D/PersonaManager( 1177): isKioskContainerExistOnDevice
+,I/PhoneStatusBar( 1177): Icon Only
+,I/StatusBar( 1177): Icon Only
+D/PanelView( 1177): There is/are notification(s) 
+,I/rmt_storage(  270): rmt_storage_disconnect_cb: clnt_h=0x5 conn_h=0xb77c87c8
+D/PanelView( 1177): kidsfalse mQsExpansionEnabled:true,
+D/StatusBarKeyguardViewManager( 1177): callback.onShown()
+D/StatusBar.NetworkController( 1177): onSignalStrengthsChanged signalStrength=SignalStrength: 99 99 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 -1 2147483647 0x0 gsm|lte level=0,
+D/StatusBar.NetworkController( 1177): updateTelephonySignalStrength: hasService=false ss=SignalStrength: 99 99 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 -1 2147483647 0x0 gsm|lte
+D/DisplayPowerController( 1015): [api] WindowManagerPolicy.ScreenOnListener : Received onScreenOn().
+D/StatusBar.NetworkController( 1177): updateTelephonySignalStrength, No signal level. mPhoneSignalIconId = com.android.systemui:drawable/tw_stat_sys_signal_null mDataSignalIconId = com.android.systemui:drawable/tw_stat_sys_signal_null mQSPhoneSignalIconId = com.android.systemui:drawable/ic_qs_signal_no_signal mContentDescriptionPhoneSignal = No phone signal
+,E/MotionRecognitionService( 1015):  handler : SCREEN_ON end
+D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f020535/com.android.systemui:drawable/stat_sys_signal_in mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+I/DisplayPowerController( 1015): Unblocked screen on after 186 ms
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700",
+D/DisplayPowerState( 1015): !@ ColorFade exit
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/BatteryMeterView( 1177): onDraw batteryColor : -1,
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false),
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): onSignalStrengthsChanged signalStrength=SignalStrength: 99 99 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 -1 2147483647 0x0 gsm|lte level=0
+D/StatusBar.NetworkController( 1177): updateTelephonySignalStrength: hasService=false ss=SignalStrength: 99 99 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 -1 2147483647 0x0 gsm|lte
+D/StatusBar.NetworkController( 1177): updateTelephonySignalStrength, No signal level. mPhoneSignalIconId = com.android.systemui:drawable/tw_stat_sys_signal_null mDataSignalIconId = com.android.systemui:drawable/tw_stat_sys_signal_null mQSPhoneSignalIconId = com.android.systemui:drawable/ic_qs_signal_no_signal mContentDescriptionPhoneSignal = No phone signal
+V/KeyguardServiceDelegate( 1015): **** SHOWN CALLED ****
+D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f020535/com.android.systemui:drawable/stat_sys_signal_in mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/DisplayPowerController( 1015): getFinalBrightness : Summary is 5 -> 5
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+,D/DisplayPowerController( 1015): animation target = 5, rate=2000 (PSM:false, AB limit:(-1 ~ -1) MB Limit:(-1 ~ -1) MAdj:(0, (0, 255)))
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/PanelView( 1177): mClearAll.setVisibility - mIsFullyOpened : false isShade : true mHasNotification : true mIsUpwardFling : false mQsFullyExpanded : true isShadeLocked : false mClearAllVisible : false
+D/NotificationService( 1015): ACTION_SCREEN_ON
+I/SurfaceFlinger(  256): id=12 Removed DolorFade (8/8)
+D/LightsService( 1015): [api] [SvcLED] turnOff:: id = 4 (uid: 1000 pid: 1015) 
+I/StatusBar( 1177): Icon Only
+D/LightsService( 1015): [SvcLED] setSvcLedStateLocked:: SvcLEDState : 0x0 -> 0x0 | SvcLED(id=4) set Off
+D/PanelView( 1177): There is/are notification(s) 
+D/LightsService( 1015): [SvcLED] Lux failed to be updated in 0ms. -> handleForcedSvcLEDTasK
+I/SurfaceFlinger(  256): id=12 Removed DolorFade (-2/8)
+,D/LightsService( 1015): [SvcLED]  setSvcLedLightLocked :: Current SvcLED(id=3) maintains its priority right
+E/libEGL  ( 1015): call to OpenGL ES API with no current context (logged once per thread)
+D/lights  ( 1015): lcd : 5 +
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.android.systemui, destAppInfo.processName = com.google.android.gms
+V/UserPresentBroadcastReceiver( 1867): Received Intent { act=android.intent.action.USER_PRESENT flg=0x24000010 cmp=com.google.android.gms/.auth.trustagent.UserPresentBroadcastReceiver }.
+,D/audio_hw_primary(  287): adev_set_parameters: enter: screen_state=on
+V/voice   (  287): voice_set_parameters: enter: screen_state=on
+V/voice   (  287): voice_set_parameters: exit with code(-2)
+V/msm8974_platform(  287): platform_set_parameters: enter: screen_state=on
+V/msm8974_platform(  287): platform_set_parameters: exit with code(-2)
+D/audio_hw_hfp(  287): audio_extn_hfp_set_parameters: enter
+D/DisplayPowerController( 1015): getFinalBrightness : Summary is 5 -> 5
+V/audio_hw_primary(  287): adev_set_parameters: exit
+D/DisplayPowerController( 1015): animation target = 5, rate=2000 (PSM:false, AB limit:(-1 ~ -1) MB Limit:(-1 ~ -1) MAdj:(0, (0, 255)))
+D/lights  ( 1015): lcd : 5 -
+D/PowerManagerService( 1015): [s] DisplayPowerCallbacks : onStateChanged()
+D/PowerManagerService( 1015): SecHardwareInterface.setBatteryADC : true
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.android.systemui, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/MISC PowerHAL( 1015): sysfs_write -: /sys/class/input/event3/device/enabled: 1
+,E/WifiNative-wlan0( 1015): do suspend false
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f020535/com.android.systemui:drawable/stat_sys_signal_in mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/PanelView( 1177): mClearAll.setVisibility - mIsFullyOpened : false isShade : true mHasNotification : true mIsUpwardFling : false mQsFullyExpanded : true isShadeLocked : false mClearAllVisible : false
+,D/IpRemoteDisplayController( 1015): intent received android.intent.action.SCREEN_ON
+D/IpRemoteDisplayController( 1015): Bridge Server is not available
+,I/wpa_supplicant( 2076): reset timer : RESET_TIMER 1
+I/wpa_supplicant( 2076): wlan0: Setting scan request: 0 sec 0 usec
+I/wpa_supplicant( 2076): P2P: Current p2p state = IDLE
+,I/wpa_supplicant( 2076): Scan requested (ret=0) - scan timeout 30 seconds
+,D/GpsLocationProvider( 1015): receive broadcast intent, action: android.intent.action.SCREEN_ON
+,D/PersonaManagerService( 1015): ACTION_SCREEN_ON onReceive
+,D/PersonaManagerServiceHandler( 1015): MSG_ACTION_SCREEN_ON called
+,D/CoverManagerWhiteLists( 1015): isAllowedToUse : SIGNATURE_MATCH
+,I/NfcService( 1447): When receiving ACTION_SCREEN_ON, S view cover is already opened. So screenState is ON_UNLOCKED by isKeyguardLocked()
+,D/NfcService( 1447): call the applyRouting
+,D/MISC PowerHAL( 1015): sysfs_write -: /sys/class/input/event1/device/enabled: 1
+,D/accuweather( 1727): [KK AccuPhone]>>> WCSS:80 [0:0] action : androidintentactionSCREEN_ON
+D/MISC PowerHAL( 1015): sysfs_write +: /sys/class/power_supply/battery/lcd: 1
+,D/MISC PowerHAL( 1015): sysfs_write -: /sys/class/power_supply/battery/lcd: 1
+D/PowerManagerService-JNI( 1015): Excessive delay in MISC setInteractive(true) while turning screen on: 164ms
+I/QCOM PowerHAL( 1015): Got set_interactive hint
+,D/PowerManagerService( 1015): Excessive delay in nativeSetInteractive(true): 166ms
+D/PowerManagerService( 1015): Excessive delay in DisplayManagerInternal.requestDisplayStateInternal(mRequestingState): 306ms
+D/accuweather( 1727): [KK AccuPhone]>>> UIM:119 [0:0] getInstance
+D/lights  ( 1015): button : 1 +
+D/accuweather( 1727): [KK AccuPhone]>>> UIM:119 [0:0] getInstance
+I/Timeline( 6319): Timeline: Activity_idle id: android.os.BinderProxy@316c1d1 time:106354
+D/accuweather( 1727): [KK AccuPhone]>>> UIM:289 [0:0] direct update clock
+,D/accuweather( 1727): [KK AccuPhone]>>> UIM:158 [0:0] make widget 4x1 view!!! 
+,D/accuweather( 1727): [KK AccuPhone]>>> UIM:160 [0:0] make widget 4x2 view!!! 
+D/accuweather( 1727): [KK AccuPhone]>>> RU:73 [0:0] get ww = 339, wh = 141span x = 4, span y = 2
+D/accuweather( 1727): [KK AccuPhone]>>> UIM:1448 [0:0] mc sy = 2
+,D/accuweather( 1727): [KK AccuPhone]>>> RU:73 [0:0] get ww = 339, wh = 141span x = 4, span y = 2
+,D/accuweather( 1727): [KK AccuPhone]>>> UIM:185 [0:0] get widget 4x2 view!!! wid = 2
+,E/accuweather( 1727): [KK AccuPhone]>>> UIM:1488 [0:0] bTM 10 32
+,D/lights  ( 1015): button : 1 -
+D/ActivityManager( 1015): startService callerProcessName:com.sec.android.widgetapp.ap.hero.accuweather, calleePkgName: com.sec.android.widgetapp.ap.hero.accuweather
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.sec.android.widgetapp.ap.hero.accuweather/com.sec.android.widgetapp.ap.hero.accuweather.WeatherClockService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000,
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.sec.android.widgetapp.ap.hero.accuweather, destAppInfo.processName = com.sec.android.widgetapp.ap.hero.accuweather
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,I/SamsungIME( 1812): getNextShiftState() cursorCapsMode : 0
+,D/PowerManagerService( 1015): [PWL] sb release: PowerManagerService.Broadcasts
+,D/SSRM:n  ( 1015): SIOP:: AP = 310
+,D/daemonapp( 1300): [MSC_Daemon]>>> WU:264 [0:0] regintype : EUR
+,D/daemonapp( 1300): [MSC_Daemon]>>> WU:320 [0:0] cp type is : cp_eng
+,D/daemonapp( 1300): [MSC_Daemon]>>> WCP:1142 [0:0] Provider query : content://apaccuweatherprovider/settings
+,D/daemonapp( 1300): [MSC_Daemon]>>> WCP:1142 [0:0] Provider query : content://apaccuweatherprovider/settings
+,D/daemonapp( 1300): [MSC_Daemon]>>> WCP:1142 [0:0] Provider query : content://apaccuweatherprovider/weatherinfo
+,D/daemonapp( 1300): [MSC_Daemon]>>> WDSM:54 [0:0] Act : comsamsungssrmSCREEN_ON, run:true
+,D/comsamsunglog( 1300): [MSC_Daemon]>>> ====================================================================================================================
+D/comsamsunglog( 1300): [MSC_Daemon]>>> daemonapp [Version : 1504231781758 ] [ 3 ] 
+,D/comsamsunglog( 1300): [MSC_Daemon]>>> Header set to : ===> "daemonapp" <===
+D/comsamsunglog( 1300): [MSC_Daemon]>>> ====================================================================================================================
+D/daemonapp( 1300): [MSC_Daemon]>>> WDSM:95 [0:0] c:null, r:3, slted:null
+,D/daemonapp( 1300): [MSC_Daemon]>>> WDSM:441 [0:0]  ==> Act: SCREEN_ON or COVER_OPEN <==
+,D/daemonapp( 1300): [MSC_Daemon]>>> WCP:1142 [0:0] Provider query : content://apaccuweatherprovider/settings
+,D/daemonapp( 1300): [MSC_Daemon]>>> WDSM:444 [0:0] [ASO][AUTOREFRESHKEY] --> 3
+,D/daemonapp( 1300): [MSC_Daemon]>>> WDSM:445 [0:0] [ASO][NUT] = 1452785460000
+,D/daemonapp( 1300): [MSC_Daemon]>>> WDSM:446 [0:0] [ASO][CT] = 1452763944312
+D/daemonapp( 1300): [MSC_Daemon]>>> WCP:1142 [0:0] Provider query : content://apaccuweatherprovider/packagename
+,I/BatteryStatsDumper( 1015): In refreshStats isReason Screen ON/OFF: true,
+,D/daemonapp( 1300): [MSC_Daemon]>>> WU:1730 [0:0] PakNme size = 5
+,D/daemonapp( 1300): [MSC_Daemon]>>> WU:264 [0:0] regintype : EUR
+,D/daemonapp( 1300): [MSC_Daemon]>>> WU:320 [0:0] cp type is : cp_eng
+D/daemonapp( 1300): [MSC_Daemon]>>> WU:1734 [0:0] CP Name cp_eng
+,D/daemonapp( 1300): [MSC_Daemon]>>> WCP:1142 [0:0] Provider query : content://apaccuweatherprovider/packagename
+,D/NetworkStatsFactory( 1015): UpdateStatsForKnox updated
+,E/daemonapp( 1300): [MSC_Daemon]>>> WU:1714 [0:0] [NameNotFoundException] !!
+,D/NetworkStatsFactory( 1015): UpdateStatsForKnox updated
+,I/BatteryStatsDumper( 1015): Screen bin #0: time=30305 power=0.17677916666666665
+I/BatteryStatsDumper( 1015): Screen bin #1: time=0 power=0.0
+I/BatteryStatsDumper( 1015): Screen bin #2: time=0 power=0.0
+I/BatteryStatsDumper( 1015): Screen bin #3: time=0 power=0.0
+I/BatteryStatsDumper( 1015): Screen bin #4: time=0 power=0.0
+I/BatteryStatsDumper( 1015): Previous Battery Level: 100 Current Level: 100 Delta: 0
+,E/SMD     (  294): DCD OFF
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,I/BatteryStatsDumper( 1015): Writing to database completed
+,D/SSRM:a  ( 1015): DeviceInfo:: 000000000000
+,D/SSRM:a  ( 1015): SettingsAirViewInfo:: 000000000
+,D/lights  ( 1015): button : 0 +
+,D/lights  ( 1015): button : 0 -
+,E/Watchdog( 1015): !@Sync 3
+,I/wpa_supplicant( 2076): nl80211: Received scan results (6 BSSes)
+,D/WifiP2pService( 1015): InactiveState{ what=147461 }
+,D/WifiP2pService( 1015): P2pEnabledState{ what=147461 }
+,D/WifiP2pService( 1015): DefaultState{ what=147461 }
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f020537/com.android.systemui:drawable/stat_sys_signal_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,I/Atfwd_Sendcmd(  335): AtCmdFwd service not ready - Exhausted retry attempts - :6
+I/Atfwd_Daemon(  335): result : -1 	 ,Init step :2 	 ,qmiErrorCode: 0
+,E/SMD     (  294): DCD OFF
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/SensorService( 1015): [SO] 0.077 0.096 10.036
+,D/WifiWatchdogStateMachine.CaptivePortalHandler( 1015): [checkCaptivePortal] - callbackHandler=Handler (com.android.server.wifi.WifiWatchdogStateMachine$CaptivePortalHandler) {2d4dc172}
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f020535/com.android.systemui:drawable/stat_sys_signal_in mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/WifiWatchdogStateMachine.CaptivePortalHandler( 1015): start check captive portal 
+,D/WifiWatchdogStateMachine.CaptivePortalHandler( 1015): result = 0, mCaptivePortalCheckMode = 11, mCouldNotIdentifyCaptivePortalState = true
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f020537/com.android.systemui:drawable/stat_sys_signal_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,V/AlarmManager( 1015): waitForAlarm result :4
+,I/art     ( 1015): Explicit concurrent mark sweep GC freed 74654(4MB) AllocSpace objects, 18(762KB) LOS objects, 33% free, 28MB/42MB, paused 2.555ms total 161.628ms
+,D/ActivityManager( 1015): startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.libraries.social.autobackup.AutoBackupGcmTaskService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,E/SMD     (  294): DCD OFF
+,D/ActivityManager( 1015): startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.ads.jams.NegotiationService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): bindService callerProcessName:android, calleePkgName: com.google.android.gms, action: android.accounts.AccountAuthenticator
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.auth.GoogleAccountAuthenticatorService; callingUser = 0; userId(target) = 0
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f020535/com.android.systemui:drawable/stat_sys_signal_in mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+,D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/ActivityManager( 1015): startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.playlog.store.VacuumService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,V/GLSActivity( 1867): AuthDelegateWrapperCreated with selected intent: Intent { cmp=com.google.android.gms/.auth.DefaultAuthDelegateService }
+,I/VacuumService( 1867): Vacuum at: now=1452763950607 tag=VacuumService
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.udc.service.UdcContextInitService; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.playlog.uploader.UploaderService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,I/PhenotypeConfigurator( 1867): Scheduling Phenotype for one-off execution 13294 seconds from now (1452763951002)
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023,
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/GetConfigurationSnapshotOperation( 1867): no corresponding serverToken: com.google.android.gms.playlog.uploader, 1, 
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,I/PhenotypeFlagCommitter( 1867): Experiment Configs successfully retrieved for com.google.android.gms.playlog.uploader
+,I/GoogleURLConnFactory( 1867): Using platform SSLCertificateSocketFactory
+,D/LocationManagerService( 1015): getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+,D/ActivityManager( 1015): bindService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms, action: null
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.gcm.http.GoogleHttpService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,I/System.out( 1867): (HTTPLog)-Static: isSBSettingEnabled false
+,D/EnterpriseController(  282): uids 10012
+D/EnterpriseController(  282): mIsMarkChainAdded is 18 mIsBlockChainAdded is 252 netId is 0
+D/Netd    (  282): getNetworkForDns: using netid 503 for uid 10012
+,I/System.out( 1867): KnoxVpnUidStorageknoxVpnSupported API value returned is false
+,I/qtaguid ( 1867): Tagging socket 92 with tag 3000120100000000{805310977,0} for uid -1, pid: 1867, getuid(): 10012
+,I/qtaguid ( 1867): Tagging socket 95 with tag 3000120100000000{805310977,0} for uid -1, pid: 1867, getuid(): 10012
+,D/LocationManagerService( 1015): getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+,I/System.out( 1867): (HTTPLog)-Static: isSBSettingEnabled false,
+,I/qtaguid ( 1867): Tagging socket 92 with tag 3000120100000000{805310977,0} for uid -1, pid: 1867, getuid(): 10012
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f020537/com.android.systemui:drawable/stat_sys_signal_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+,D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/LocationManagerService( 1015): getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+,I/System.out( 1867): (HTTPLog)-Static: isSBSettingEnabled false
+,I/qtaguid ( 1867): Tagging socket 92 with tag 3000120100000000{805310977,0} for uid -1, pid: 1867, getuid(): 10012
+,D/LocationManagerService( 1015): getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+,I/System.out( 1867): (HTTPLog)-Static: isSBSettingEnabled false
+,I/qtaguid ( 1867): Tagging socket 92 with tag 3000120100000000{805310977,0} for uid -1, pid: 1867, getuid(): 10012
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000,
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/FactoryTest( 5437): Not factory mode
+,D/FactoryTest( 5437): Not factory mode. isFactoryMode() returend false
+,D/MTPRx   ( 5437): DRIVER_TIME_OUT 60s lapsed,
+D/MTPRx   ( 5437): still no open session command from host, so toast
+W/ContextImpl( 5437): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1595 android.content.ContextWrapper.startActivity:337 android.content.ContextWrapper.startActivity:337 com.samsung.android.MtpApplication.MtpReceiver$3.handleMessage:708 android.os.Handler.dispatchMessage:102 
+,I/Timeline( 5437): Timeline: Activity_launch_request id:com.android.settings time:114188
+W/ContextImpl( 5437): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1607 android.app.ContextImpl.startActivity:1596 android.content.ContextWrapper.startActivity:337 android.content.ContextWrapper.startActivity:337 com.samsung.android.MtpApplication.MtpReceiver$3.handleMessage:708 
+E/PersonaManagerService( 1015): inState():  stateMachine is null !!
+,I/PersonaManagerService( 1015): PersonaId don't exist
+I/ActivityManager( 1015): do not start freezing screen for locked container getKeyguardshowstate = false
+,V/ApplicationPolicy( 1015): isApplicationStateBlocked userId 0 pkgname com.android.settings
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.samsung.android.MtpApplication, destAppInfo.processName = com.android.settings
+,D/CustomFrequencyManagerService( 1015): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1190400  uid : 1000  pid : 1015  pkgName : ACTIVITY_RESUME_BOOSTER@7
+,W/ActivityManager( 1015): mDVFSHelper.acquire()
+,V/ApplicationPolicy( 1015): isApplicationStateBlocked userId 0 pkgname com.test.thalitest
+V/ApplicationPolicy( 1015): isApplicationStateBlocked userId 0 pkgname com.android.settings
+,D/InputDispatcher( 1015): Focused application set to: xxxx
+,D/InputDispatcher( 1015): Focus left window: 6319
+,E/MTPRx   ( 5437): started activity for popup
+,D/PointerIcon( 1015): setMouseIconStyle1 pointerType: 1001iconType:101 flag:0
+,D/PointerIcon( 1015): setMouseCustomIcon IconType is same.101
+,V/ActivityManager( 1015): Display changed displayId=0,
+,W/ResourcesManager( 5437): Asset path '/system/framework/sec_platform_library.jar' does not exist or contains no resources.
+W/ResourcesManager( 5437): Asset path '/system/framework/smatlib.jar' does not exist or contains no resources.
+W/ResourcesManager( 5437): Asset path '/system/framework/sechardware.jar' does not exist or contains no resources.
+,W/ResourcesManager( 5437): Asset path '/system/framework/com.google.android.maps.jar' does not exist or contains no resources.
+W/ResourcesManager( 5437): Asset path '/system/framework/twframework.jar' does not exist or contains no resources.
+W/ResourcesManager( 5437): Asset path '/system/framework/com.broadcom.bt.jar' does not exist or contains no resources.
+,E/SettingsReceiverActivity( 5437): PREF_DONT_ASK_AGAIN : true
+,V/ApplicationPolicy( 1015): isApplicationStateBlocked userId 0 pkgname com.android.settings
+,V/ApplicationPolicy( 1015): isApplicationStateBlocked userId 0 pkgname com.test.thalitest
+D/InputDispatcher( 1015): Focused application set to: xxxx
+,D/InputDispatcher( 1015): Focus entered window: 6319
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,D/PointerIcon( 1015): setMouseIconStyle1 pointerType: 1001iconType:101 flag:0
+,D/PointerIcon( 1015): setMouseCustomIcon IconType is same.101,
+D/InputMethodManagerService( 1015): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+E/ActivityManager( 1015): Invalid thumbnail dimensions: 650x650
+W/InputMethodManagerService( 1015): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@2d0568ec attribute=null, token = android.os.BinderProxy@8265dbd
+,D/SettingsReceiverActivity( 5437): dev.kiessupport is : TRUE
+,D/PhoneWindow( 5437): *FMB* installDecor mIsFloating : true
+D/PhoneWindow( 5437): *FMB* installDecor flags : 8388610
+,D/PersonaManager( 1015): isKioskContainerExistOnDevice
+,D/ActivityManager( 1015): post active user change for 0 fullscreen true record.isFloatingActivity() false
+,D/KnoxTimeoutHandler( 1015): postActiveUserChange for user 0
+I/KnoxTimeoutHandler( 1015): postActiveUserChange, showWhenLocked: false
+D/KnoxTimeoutHandler( 1015): handleActiveUserChange for user 0
+D/PersonaManagerService( 1015): getPersonasForUser(): returning null!
+,I/Timeline( 6319): Timeline: Activity_idle id: android.os.BinderProxy@316c1d1 time:114457
+,W/ContextImpl( 1015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1698 com.absolute.android.persistservice.a.run:1065 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...,
+,E/SMD     (  294): DCD OFF
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/PersonaManager( 1177): isKioskContainerExistOnDevice
+,D/PersonaManager( 1177): isKioskContainerExistOnDevice
+,I/PhoneStatusBar( 1177): Icon Only
+,I/StatusBar( 1177): Icon Only
+,D/PanelView( 1177): There is/are notification(s) 
+D/PanelView( 1177): kidsfalse mQsExpansionEnabled:true
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!
+,D/BatteryService( 1015): level:100, scale:100, status:5, health:2, present:true, voltage: 4346, temperature: 255, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303736, invalid charger:0
+,D/BatteryService( 1015): online:4, current avg:0, charge type:1, power sharing:false, high voltage charger:false, capacity:230000, current_now:0
+,D/BatteryService( 1015): Sending ACTION_BATTERY_CHANGED.
+,I/MotionRecognitionService( 1015): Plugged
+,I/MotionRecognitionService( 1015): mGripSensorEnabled= false
+,V/EmergencyMode( 1415): [EmergencyStateReceiver] onReceive : android.intent.action.BATTERY_CHANGED
+,V/EmergencyMode( 1415): [EmergencyStateReceiver] ACTION_BATTERY_CHANGED mBatteryLevelForLogging = 100
+,D/KeyguardUpdateMonitor( 1177): received broadcast android.intent.action.BATTERY_CHANGED
+,D/KeyguardUpdateMonitor( 1177): handleBatteryUpdate
+,V/HeadsetService( 2578): HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+,D/HeadsetStateMachine( 2578): Disconnected process message: 10
+,D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+,D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+,D/PanelView( 1177): mClearAll.setVisibility - mIsFullyOpened : false isShade : true mHasNotification : true mIsUpwardFling : false mQsFullyExpanded : true isShadeLocked : false mClearAllVisible : false
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,D/SSRM:n  ( 1015): SIOP:: AP = 300,
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f020535/com.android.systemui:drawable/stat_sys_signal_in mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/CustomFrequencyManagerService( 1015): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1190400  uid : 1000  pid : 1015  tag : ACTIVITY_RESUME_BOOSTER@7
+,W/ActivityManager( 1015): mDVFSHelper.release()
+,D/CustomFrequencyManagerService( 1015): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1190400  uid : 1000  pid : 1015  pkgName : ACTIVITY_RESUME_BOOSTER@11
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,D/CustomFrequencyManagerService( 1015): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1190400  uid : 1000  pid : 1015  tag : ACTIVITY_RESUME_BOOSTER@11
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,E/SMD     (  294): DCD OFF
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f020537/com.android.systemui:drawable/stat_sys_signal_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,W/Atfwd_Sendcmd(  335): AtCmdFwd service not published, waiting... retryCnt : 1
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f020535/com.android.systemui:drawable/stat_sys_signal_in mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+,D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/SensorService( 1015): [SO] 0.077 0.077 10.036
+,E/SMD     (  294): DCD OFF
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms,
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.icing.service.IndexWorkerService; callingUser = 0; userId(target) = 0
+W/ActivityManager( 1015): userId = 0, bbcId = -10000,
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.icing.service.IndexWorkerService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.icing.service.IndexWorkerService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.icing.service.IndexWorkerService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.icing.service.IndexWorkerService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.icing.service.IndexWorkerService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.icing.service.IndexWorkerService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.icing.service.IndexWorkerService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.icing.service.IndexWorkerService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.icing.service.IndexWorkerService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f020537/com.android.systemui:drawable/stat_sys_signal_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+,D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,E/SMD     (  294): DCD OFF
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f020535/com.android.systemui:drawable/stat_sys_signal_in mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/PowerManagerService( 1015): [api] release WakeLock flags=0x10000006 tag=PowerUI.Notification uid=10054 pid=1177 (0x0)
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!
+,D/BatteryService( 1015): level:100, scale:100, status:5, health:2, present:true, voltage: 4345, temperature: 256, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303736, invalid charger:0
+D/BatteryService( 1015): online:4, current avg:0, charge type:1, power sharing:false, high voltage charger:false, capacity:230000, current_now:0
+,D/BatteryService( 1015): Sending ACTION_BATTERY_CHANGED.
+,I/MotionRecognitionService( 1015): Plugged
+,I/MotionRecognitionService( 1015): mGripSensorEnabled= false
+,D/KeyguardUpdateMonitor( 1177): received broadcast android.intent.action.BATTERY_CHANGED
+,V/EmergencyMode( 1415): [EmergencyStateReceiver] onReceive : android.intent.action.BATTERY_CHANGED
+D/KeyguardUpdateMonitor( 1177): handleBatteryUpdate
+,V/EmergencyMode( 1415): [EmergencyStateReceiver] ACTION_BATTERY_CHANGED mBatteryLevelForLogging = 100
+,V/HeadsetService( 2578): HeadsetService - Received Intent.ACTION_BATTERY_CHANGED,
+D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+,D/HeadsetStateMachine( 2578): Disconnected process message: 10
+D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,D/SSRM:n  ( 1015): SIOP:: AP = 300
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f020535/com.android.systemui:drawable/stat_sys_signal_in mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,E/SMD     (  294): DCD OFF
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+,D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f020537/com.android.systemui:drawable/stat_sys_signal_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,W/Atfwd_Sendcmd(  335): AtCmdFwd service not published, waiting... retryCnt : 2
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f020535/com.android.systemui:drawable/stat_sys_signal_in mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/PowerManagerService( 1015): [s] UserActivityState : 1 -> 2
+,D/DisplayPowerController( 1015): getFinalBrightness : Summary is 1 -> 1
+,D/DisplayPowerController( 1015): animation target = 1, rate=2000 (PSM:false, AB limit:(-1 ~ -1) MB Limit:(-1 ~ -1) MAdj:(0, (0, 255)))
+,D/PowerManagerService( 1015): [s] DisplayPowerCallbacks : onStateChanged()
+,D/DisplayPowerController( 1015): getFinalBrightness : Summary is 1 -> 1
+D/lights  ( 1015): lcd : 1 +
+,D/DisplayPowerController( 1015): animation target = 1, rate=2000 (PSM:false, AB limit:(-1 ~ -1) MB Limit:(-1 ~ -1) MAdj:(0, (0, 255)))
+,D/lights  ( 1015): lcd : 1 -
+,D/DisplayPowerController( 1015): getFinalBrightness : Summary is 1 -> 1
+,D/DisplayPowerController( 1015): animation target = 1, rate=2000 (PSM:false, AB limit:(-1 ~ -1) MB Limit:(-1 ~ -1) MAdj:(0, (0, 255)))
+,E/SMD     (  294): DCD OFF
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/SensorService( 1015): [SO] 0.057 0.077 10.017
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f020535/com.android.systemui:drawable/stat_sys_signal_in mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth,
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,E/SMD     (  294): DCD OFF
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f020537/com.android.systemui:drawable/stat_sys_signal_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,W/ContextImpl( 1015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1698 com.absolute.android.persistservice.a.run:1065 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+,D/PowerManagerService( 1015): [s] UserActivityState : 2 -> 4
+,I/PowerManagerService( 1015): Nap time (uid 1000)...
+D/PowerManagerService( 1015): handleSandman : startDreaming: false  (canDreamLocked: false  canDozeLocked: false)
+I/PowerManagerService( 1015): !@[ps] Screen__Off - 1 :  dream(timeout) (2)
+I/PowerManagerService( 1015): Going to sleep due to screen timeout (uid 1000)...
+D/PowerManagerService( 1015): [PWL] sb acquire: PowerManagerService.Broadcasts
+D/PowerManagerService( 1015): SecHardwareInterface.setBatteryADC : false
+D/PowerManagerService( 1015): handleSandman : startDreaming: true  (canDreamLocked: false  canDozeLocked: true)
+V/WindowOrientationListener( 1015): WindowOrientationListener disabled
+,D/PowerManagerService( 1015): handleSandman : startDream(true)
+D/SensorService( 1015): [SO] activate (ident=0xb8efc5c8, enabled=0)
+I/Sensors ( 1015): AccelerometerSensor enable: mEnabled 1, handle 0, en 0
+E/PowerManagerService( 1015): handleSandman : startDreaming, but isDreaming false
+I/PowerManagerService( 1015): Sleeping (uid 1000)...
+D/PowerManagerService( 1015): [s] UserActivityState : 4 -> 0
+,I/SurfaceFlinger(  256): id=16 createSurf (720x1280),-1 flag=20004, DolorFade
+,D/SensorManager( 1015): unregisterListener ::   
+,D/KeyguardViewMediator( 1177): onScreenTurnedOff(3)
+,I/KeyguardEffectViewController( 1177): *** KeyguardEffectView getInstanceIfExists ***
+D/KeyguardEffectViewController( 1177): changeWallpaperByScreenOff(),
+D/KeyguardViewMediator( 1177): notifyScreenOffLocked
+,D/KeyguardViewMediator( 1177): timeout : 5000
+,D/PowerManagerService( 1015): Excessive delay in ColorFade : createSurface: 21ms
+,D/PowerManagerService( 1015): Excessive delay in ColorFade : captureScreenshotTextureAndSetViewport: 32ms
+,D/DisplayPowerController( 1015): ColorFade: onAnimationStart
+D/DisplayPowerController( 1015): getFinalBrightness : Summary is 5 -> 5
+D/DisplayPowerController( 1015): performScreenOffTransition : no brightness animation
+,V/ActivityThread( 6319): updateVisibility : ActivityRecord{110b4f37 token=android.os.BinderProxy@316c1d1 {com.test.thalitest/com.test.thalitest.MainActivity}} show : true
+,D/KeyguardViewMediator( 1177): setting alarm to turn off keyguard, seq = 2
+,D/KeyguardViewMediator( 1177): handleNotifyScreenOff
+D/VolumePanel( 1177): onScreenTurnedOff()
+D/VolumePanel( 1177): mCoverBroadcastReceiver : call onDismissSafeVolumeWarning() #1
+,D/VolumePanel( 1177): mCoverBroadcastReceiver: Screen OFF end
+,D/SecKeyguardClockSingleView( 1177): onScreenTurnedOff
+,D/LightsService( 1015): [api] [SvcLED] setFlashing :: id = 3, color = 0, mode = 14, onMS = 0, offMS = 0,  (uid: 1000 pid: 1015) 
+,D/LightsService( 1015): [SvcLED] setSvcLedStateLocked:: SvcLEDState : 0x0 -> 0x40 | SvcLED(id=3) set On
+,D/BatteryService( 1015): turn on LED for fully charged
+D/LightsService( 1015): [SvcLED] Lux failed to be updated in 0ms. -> handleForcedSvcLEDTasK
+,E/lights  ( 1015): write_int failed to open -1
+,D/LightsService( 1015): [SvcLED]  setSvcLedLightLocked :: Current SvcLED(id=3) maintains its priority right
+,E/SmartFaceService( 1015): onReceive: android.intent.action.SCREEN_OFF
+,W/System.err( 1015): java.io.FileNotFoundException: /sys/class/camera/rear/rear_sensor_standby: open failed: ENOENT (No such file or directory)
+W/System.err( 1015): 	at libcore.io.IoBridge.open(IoBridge.java:456)
+W/System.err( 1015): 	at java.io.FileOutputStream.<init>(FileOutputStream.java:87)
+W/System.err( 1015): 	at java.io.FileOutputStream.<init>(FileOutputStream.java:72)
+W/System.err( 1015): 	at com.samsung.android.smartface.SmartFaceService.sysfsWrite(SmartFaceService.java:1150)
+W/System.err( 1015): 	at com.samsung.android.smartface.SmartFaceService.access$1800(SmartFaceService.java:95)
+W/System.err( 1015): 	at com.samsung.android.smartface.SmartFaceService$1.onReceive(SmartFaceService.java:474)
+W/System.err( 1015): 	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:933)
+W/System.err( 1015): 	at android.os.Handler.handleCallback(Handler.java:739)
+E/SmartFaceService( 1015): fail to set sysfs 0
+W/System.err( 1015): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+W/System.err( 1015): 	at android.os.Looper.loop(Looper.java:145)
+W/System.err( 1015): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+W/System.err( 1015): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+W/System.err( 1015): 	at libcore.io.Posix.open(Native Method)
+W/System.err( 1015): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+W/System.err( 1015): 	at libcore.io.IoBridge.open(IoBridge.java:442)
+W/System.err( 1015): 	... 10 more
+,I/StatusBar( 1177): Icon Only
+,D/PanelView( 1177): There is/are notification(s) 
+,D/MotionRecognitionService( 1015):   mReceiver.onReceive : ACTION_SCREEN_OFF
+,D/NotificationService( 1015): ACTION_SCREEN_OFF
+,D/LightsService( 1015): [api] [SvcLED] turnOff:: id = 4 (uid: 1000 pid: 1015) 
+D/LightsService( 1015): [SvcLED] setSvcLedStateLocked:: SvcLEDState : 0x40 -> 0x40 | SvcLED(id=4) set Off
+E/MotionRecognitionService( 1015):  handler : SCREEN_OFF end 
+D/LightsService( 1015): [SvcLED] Lux failed to be updated in 0ms. -> handleForcedSvcLEDTasK,
+D/LightsService( 1015): [SvcLED]  setSvcLedLightLocked :: Current SvcLED(id=3) maintains its priority right
+,E/WifiNative-wlan0( 1015): do suspend true
+,D/audio_hw_primary(  287): adev_set_parameters: enter: screen_state=off
+,V/voice   (  287): voice_set_parameters: enter: screen_state=off
+V/voice   (  287): voice_set_parameters: exit with code(-2)
+,V/msm8974_platform(  287): platform_set_parameters: enter: screen_state=off
+V/msm8974_platform(  287): platform_set_parameters: exit with code(-2)
+,D/audio_hw_hfp(  287): audio_extn_hfp_set_parameters: enter
+V/audio_hw_primary(  287): adev_set_parameters: exit
+,I/BackgroundCompactionService( 1015): Schedule Type1 BGCompaction
+,D/PanelView( 1177): mClearAll.setVisibility - mIsFullyOpened : false isShade : true mHasNotification : true mIsUpwardFling : false mQsFullyExpanded : true isShadeLocked : false mClearAllVisible : false
+,D/IpRemoteDisplayController( 1015): intent received android.intent.action.SCREEN_OFF
+,D/IpRemoteDisplayController( 1015): Bridge Server is not available
+,D/GpsLocationProvider( 1015): receive broadcast intent, action: android.intent.action.SCREEN_OFF
+,V/EmergencyMode( 1415): [EmergencyStateReceiver] onReceive : android.intent.action.SCREEN_OFF
+,V/EmergencyMode( 1415): [EmergencyStateReceiver] binteractive [false] why[3]
+D/PersonaManagerService( 1015): ACTION_SCREEN_OFF onReceive
+,D/PersonaManagerServiceHandler( 1015): MSG_ACTION_SCREEN_OFF called
+,D/NfcService( 1447): call the applyRouting
+,D/accuweather( 1727): [KK AccuPhone]>>> WCSS:80 [0:0] action : androidintentactionSCREEN_OFF
+,D/accuweather( 1727): [KK AccuPhone]>>> UIM:119 [0:0] getInstance
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.sec.android.widgetapp.ap.hero.accuweather, destAppInfo.processName = com.sec.android.widgetapp.ap.hero.accuweather
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.sec.android.widgetapp.ap.hero.accuweather/com.sec.android.widgetapp.ap.hero.accuweather.WeatherClockService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.sec.android.widgetapp.ap.hero.accuweather, destAppInfo.processName = com.sec.android.widgetapp.ap.hero.accuweather
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!
+,D/accuweather( 1727): [KK AccuPhone]>>> WCW:32 [0:0] action : widgetactionWEATHER_SCREEN_OFF
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,D/daemonapp( 1300): [MSC_Daemon]>>> WCP:1254 [0:0] cp update : count : 1, pt : 3
+,D/DisplayPowerState( 1015): !@ ColorFade entry
+,D/DisplayPowerController( 1015): ColorFade: onAnimationEnd
+,D/accuweather( 1727): [KK AccuPhone]>>> U:4088 [0:0] getPWC : surface = 0, remote = 1
+D/accuweather( 1727): [KK AccuPhone]>>> U:4207 [0:0] Store PWC = 1
+D/accuweather( 1727): [KK AccuPhone]>>> U:4140 [0:0] addPWC = 1
+D/accuweather( 1727): [KK AccuPhone]>>> UIM:312 [0:0]  action:widgetactionWEATHER_SCREEN_OFF
+D/lights  ( 1015): lcd : 0 +
+D/DisplayPowerController( 1015): getFinalBrightness : Summary is 0 -> 0
+D/DisplayPowerController( 1015): performScreenOffTransition : no brightness animation
+,D/daemonapp( 1300): [MSC_Daemon]>>> WCP:1142 [0:0] Provider query : content://apaccuweatherprovider/weatherinfo
+,E/LibSecureUISvc( 1931): svc_sock_send_message(suisvc): Error sending data, -1 vs 4: Connection refused
+,D/lights  ( 1015): lcd : 0 -
+,D/DisplayPowerController( 1015): getFinalBrightness : Summary is 0 -> 0
+D/DisplayPowerController( 1015): performScreenOffTransition : no brightness animation
+D/PowerManagerService( 1015): [s] DisplayPowerCallbacks : onStateChanged()
+D/PowerManagerService( 1015): [PWL] sb release: PowerManagerService.Display
+D/MISC PowerHAL( 1015): sysfs_write +: /sys/class/input/event1/device/enabled: 0
+,D/MISC PowerHAL( 1015): sysfs_write -: /sys/class/input/event1/device/enabled: 0
+D/MISC PowerHAL( 1015): sysfs_write +: /sys/class/input/event3/device/enabled: 0
+,D/MISC PowerHAL( 1015): sysfs_write -: /sys/class/input/event3/device/enabled: 0
+D/SSRM:n  ( 1015): SIOP:: AP = 290
+,D/MISC PowerHAL( 1015): sysfs_write +: /sys/class/power_supply/battery/lcd: 0
+D/MISC PowerHAL( 1015): sysfs_write -: /sys/class/power_supply/battery/lcd: 0
+I/QCOM PowerHAL( 1015): Got set_interactive hint
+,D/DisplayManagerService( 1015): !@display_state: ON -> OFF
+,I/DisplayManagerService( 1015): Display device changed: DisplayDeviceInfo{"Built-in Screen": 720 x 1280, 60.0 fps, supportedRefreshRates [60.0], density 320, 294.967 x 295.563 dpi, appVsyncOff 0, presDeadline 17666667, touch INTERNAL, rotation 0, type BUILT_IN, state OFF, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+D/SurfaceFlinger(  256): Set power mode=0, type=0 flinger=0xb861d690
+D/qdhwcomposer(  256): hwc_setPowerMode: Setting mode 0 on display: 0
+V/ActivityManager( 1015): Display changed displayId=0
+,D/PowerManagerService( 1015): [PWL] sb release: PowerManagerService.Broadcasts
+,E/qdutils (  256): int qdutils::getHDMINode(): Failed to open fb node 2
+,E/qdutils (  256): int qdutils::getHDMINode(): Failed to find HDMI node
+,D/daemonapp( 1300): [MSC_Daemon]>>> WCP:1142 [0:0] Provider query : content://apaccuweatherprovider/settings
+,D/StatusBar.NetworkController( 1177): onSignalStrengthsChanged signalStrength=SignalStrength: 99 99 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 -1 2147483647 0x0 gsm|lte level=0
+D/StatusBar.NetworkController( 1177): updateTelephonySignalStrength: hasService=false ss=SignalStrength: 99 99 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 -1 2147483647 0x0 gsm|lte
+,D/StatusBar.NetworkController( 1177): updateTelephonySignalStrength, No signal level. mPhoneSignalIconId = com.android.systemui:drawable/tw_stat_sys_signal_null mDataSignalIconId = com.android.systemui:drawable/tw_stat_sys_signal_null mQSPhoneSignalIconId = com.android.systemui:drawable/ic_qs_signal_no_signal mContentDescriptionPhoneSignal = No phone signal
+D/accuweather( 1727): [KK AccuPhone]>>> UIM:158 [0:0] make widget 4x1 view!!! 
+D/accuweather( 1727): [KK AccuPhone]>>> UIM:160 [0:0] make widget 4x2 view!!! 
+D/StatusBar.NetworkController( 1177): refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+D/STATUSBAR-WifiQuickSettingButton( 1177): onWifiSignalChanged enabled=true enabledDesc:"NG700"
+,D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/StatusBar.NetworkController( 1177): refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+D/accuweather( 1727): [KK AccuPhone]>>> RU:73 [0:0] get ww = 339, wh = 141span x = 4, span y = 2
+,D/accuweather( 1727): [KK AccuPhone]>>> UIM:185 [0:0] get widget 4x2 view!!! wid = 2
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.sec.android.widgetapp.ap.hero.accuweather, destAppInfo.processName = com.sec.android.widgetapp.ap.hero.accuweather
+,D/accuweather( 1727): [KK AccuPhone]>>> WCS:113 [0:0] onDestroy : End
+,D/accuweather( 1727): [KK AccuPhone]>>> WC:30 [0:0] action : widgetactionWEATHER_SCREEN_OFF
+,D/accuweather( 1727): [KK AccuPhone]>>> UIMEM:105 [0:0] The widget does not exist in idle!!
+,I/BatteryStatsDumper( 1015): In refreshStats isReason Screen ON/OFF: true
+,D/NetworkStatsFactory( 1015): UpdateStatsForKnox updated
+,D/NetworkStatsFactory( 1015): UpdateStatsForKnox updated
+,I/BatteryStatsDumper( 1015): Screen bin #0: time=30305 power=0.17677916666666665
+,I/BatteryStatsDumper( 1015): Screen bin #1: time=0 power=0.0
+I/BatteryStatsDumper( 1015): Screen bin #2: time=0 power=0.0
+I/BatteryStatsDumper( 1015): Screen bin #3: time=0 power=0.0
+,I/BatteryStatsDumper( 1015): Screen bin #4: time=0 power=0.0
+I/BatteryStatsDumper( 1015): Previous Battery Level: 100 Current Level: 100 Delta: 0
+,I/qdhwcomposer(  256): handle_blank_event: dpy:0 panel power state: 0
+,E/qdutils (  256): int qdutils::getHDMINode(): Failed to open fb node 2
+E/qdutils (  256): int qdutils::getHDMINode(): Failed to find HDMI node
+,D/qdhwcomposer(  256): hwc_setPowerMode: Done setting mode 0 on display 0
+,D/SurfaceControl( 1015): Excessive delay in setPowerMode(): 265ms
+D/PowerManagerService( 1015): Excessive delay in !@display_state: OFF: 266ms
+I/libsuspend( 1015): !@autosuspend_wakeup_count_enable
+D/PowerManagerService( 1015): Excessive delay in DisplayManagerInternal.requestDisplayStateInternal(mRequestingState): 272ms
+I/libsuspend( 1015): !@autosuspend_wakeup_count_enable done
+I/PowerManagerService( 1015): [PWL] Off : 0s ago
+,I/PowerManagerService( 1015): [PWL]   PowerManagerService.WakeLocks: ref count=1
+I/PowerManagerService( 1015): [PWL]     mWakeLockSummary : 0x1
+I/PowerManagerService( 1015): [PWL]       PARTIAL_WAKE_LOCK              'SmartManager Framework Thread' (uid=1000, pid=1015, ws=null) (elapsedTime=181)
+,I/BatteryStatsDumper( 1015): Writing to database completed
+,E/SMD     (  294): DCD OFF
+,E/Watchdog( 1015): !@Sync 4
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...,
+,E/SMD     (  294): DCD OFF
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...,
+,V/AlarmManager( 1015): waitForAlarm result :4
+,D/KeyguardViewMediator( 1177): received DELAYED_KEYGUARD_ACTION with seq = 2, mDelayedShowingSequence = 2
+,D/KeyguardViewMediator( 1177): doKeyguard: not showing because lockscreen is off
+,V/KeyguardEffectViewController( 1177): *** Keyguard wallpaper service already unbounded
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...,
+,I/PowerManagerService( 1015): [PWL] Off : 5s ago
+,V/AlarmManager( 1015): waitForAlarm result :8
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...,
+,E/SMD     (  294): DCD OFF
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,W/Atfwd_Sendcmd(  335): AtCmdFwd service not published, waiting... retryCnt : 3
+,E/SMD     (  294): DCD OFF
+,V/AlarmManager( 1015): waitForAlarm result :8
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!
+D/BatteryService( 1015): level:100, scale:100, status:5, health:2, present:true, voltage: 4345, temperature: 253, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303736, invalid charger:0
+D/BatteryService( 1015): online:4, current avg:0, charge type:1, power sharing:false, high voltage charger:false, capacity:230000, current_now:0
+D/BatteryService( 1015): stay LED for fully charged
+,D/BatteryService( 1015): Sending ACTION_BATTERY_CHANGED.
+,I/MotionRecognitionService( 1015): Plugged
+,I/MotionRecognitionService( 1015): mGripSensorEnabled= false
+,D/KeyguardUpdateMonitor( 1177): received broadcast android.intent.action.BATTERY_CHANGED,
+D/SSRM:n  ( 1015): SIOP:: AP = 270,
+D/KeyguardUpdateMonitor( 1177): handleBatteryUpdate
+V/EmergencyMode( 1415): [EmergencyStateReceiver] onReceive : android.intent.action.BATTERY_CHANGED
+V/EmergencyMode( 1415): [EmergencyStateReceiver] ACTION_BATTERY_CHANGED mBatteryLevelForLogging = 100
+,V/HeadsetService( 2578): HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+,D/HeadsetStateMachine( 2578): Disconnected process message: 10
+,D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+,D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+,E/SMD     (  294): DCD OFF
+,V/AlarmManager( 1015): waitForAlarm result :8
+,I/PowerManagerService( 1015): [PWL] Off : 15s ago
+,E/SMD     (  294): DCD OFF
+,E/SMD     (  294): DCD OFF
+,W/ContextImpl( 1015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1698 com.absolute.android.persistservice.a.run:1065 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+,D/SSRM:n  ( 1015): SIOP:: AP = 260
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!
+,D/BatteryService( 1015): level:100, scale:100, status:5, health:2, present:true, voltage: 4345, temperature: 252, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303736, invalid charger:0
+,D/BatteryService( 1015): online:4, current avg:0, charge type:1, power sharing:false, high voltage charger:false, capacity:230000, current_now:0
+,D/BatteryService( 1015): Sending ACTION_BATTERY_CHANGED.
+,D/BatteryService( 1015): stay LED for fully charged
+,I/MotionRecognitionService( 1015): Plugged
+I/MotionRecognitionService( 1015): mGripSensorEnabled= false
+,D/KeyguardUpdateMonitor( 1177): received broadcast android.intent.action.BATTERY_CHANGED
+,D/KeyguardUpdateMonitor( 1177): handleBatteryUpdate
+,V/EmergencyMode( 1415): [EmergencyStateReceiver] onReceive : android.intent.action.BATTERY_CHANGED
+V/EmergencyMode( 1415): [EmergencyStateReceiver] ACTION_BATTERY_CHANGED mBatteryLevelForLogging = 100
+,V/HeadsetService( 2578): HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+,D/HeadsetStateMachine( 2578): Disconnected process message: 10
+,D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+,D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+,E/SMD     (  294): DCD OFF
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,E/SMD     (  294): DCD OFF
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,E/SMD     (  294): DCD OFF
+,W/Atfwd_Sendcmd(  335): AtCmdFwd service not published, waiting... retryCnt : 4
+,V/AlarmManager( 1015): waitForAlarm result :4
+,D/KeyguardUpdateMonitor( 1177): received broadcast android.intent.action.TIME_TICK
+,D/KeyguardUpdateMonitor( 1177): handleTimeUpdate
+,D/SecKeyguardClockView( 1177): onTimeChanged() : mShouldShowDualClock - false, isDualClockSet() -false
+,D/SecKeyguardClockView( 1177): HomeTimezone(): 1
+,D/SecKeyguardStatusUtils( 1177): regionalDateFormat = 11/22/3333 isRTLlanguage = false returnDateFormat = E, MMMM d
+,D/KeyguardEffectViewController( 1177): onReceive action : android.intent.action.TIME_TICK
+I/KeyguardEffectViewController( 1177): *** don't update sliding image ***
+,D/ActivityManager( 1015): bindService callerProcessName:android, calleePkgName: android, action: null
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = android/com.android.server.os.BackgroundCompactionService; callingUser = 0; userId(target) = 0
+,I/BackgroundCompactionService( 1015): onStart. jobID=801
+,I/BackgroundCompactionService( 1015): onStart done. jobID=801
+,I/BackgroundCompactionService( 1015): Execute BGCompaction (type1). (1 times)
+,I/BackgroundCompactionService( 1015): compact_memory command done
+,D/DateView( 1177): regionalDateFormat = 11/22/3333 isRTLlanguage = false returnDateFormat = E, MMMM d
+,D/DateView( 1177): regionalDateFormat = 11/22/3333 isRTLlanguage = false returnDateFormat = E, MMMM d
+,D/DateView( 1177): regionalDateFormat = 11/22/3333 isRTLlanguage = false returnDateFormat = E, MMMM d
+,D/SecKeyguardStatusUtils( 1177): regionalDateFormat = 11/22/3333 isRTLlanguage = false returnDateFormat = E, MMMM d
+,D/SSRM:n  ( 1015): SIOP:: AP = 260,
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!
+,I/PowerManagerService( 1015): [PWL] Off : 30s ago
+,E/SMD     (  294): DCD OFF
+,E/Watchdog( 1015): !@Sync 5
+,E/SMD     (  294): DCD OFF
+,E/SMD     (  294): DCD OFF
+,W/ContextImpl( 1015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1698 com.absolute.android.persistservice.a.run:1065 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+,E/SMD     (  294): DCD OFF
+,D/SSRM:n  ( 1015): SIOP:: AP = 260
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!
+,E/SMD     (  294): DCD OFF
+,E/SMD     (  294): DCD OFF
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,E/SMD     (  294): DCD OFF
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,D/SSRM:n  ( 1015): SIOP:: AP = 260,
+,I/PowerManagerService( 1015): [PWL] Off : 50s ago,
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!
+D/BatteryService( 1015): level:100, scale:100, status:5, health:2, present:true, voltage: 4345, temperature: 251, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303736, invalid charger:0
+D/BatteryService( 1015): online:4, current avg:0, charge type:1, power sharing:false, high voltage charger:false, capacity:230000, current_now:0
+D/BatteryService( 1015): stay LED for fully charged
+D/BatteryService( 1015): Sending ACTION_BATTERY_CHANGED.
+,I/MotionRecognitionService( 1015): Plugged
+,I/MotionRecognitionService( 1015): mGripSensorEnabled= false
+,D/KeyguardUpdateMonitor( 1177): received broadcast android.intent.action.BATTERY_CHANGED
+,D/KeyguardUpdateMonitor( 1177): handleBatteryUpdate
+,V/EmergencyMode( 1415): [EmergencyStateReceiver] onReceive : android.intent.action.BATTERY_CHANGED
+,V/EmergencyMode( 1415): [EmergencyStateReceiver] ACTION_BATTERY_CHANGED mBatteryLevelForLogging = 100
+,V/HeadsetService( 2578): HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+,D/HeadsetStateMachine( 2578): Disconnected process message: 10
+,D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+,D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+,D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,E/SMD     (  294): DCD OFF
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,W/Atfwd_Sendcmd(  335): AtCmdFwd service not published, waiting... retryCnt : 5
+,E/SMD     (  294): DCD OFF
+,E/SMD     (  294): DCD OFF
+,W/ContextImpl( 1015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1698 com.absolute.android.persistservice.a.run:1065 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+,D/SSRM:n  ( 1015): SIOP:: AP = 260,
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!
+,E/SMD     (  294): DCD OFF
+,E/Watchdog( 1015): !@Sync 6
+,E/SMD     (  294): DCD OFF
+,V/AlarmManager( 1015): waitForAlarm result :8
+,E/SMD     (  294): DCD OFF
+,E/SMD     (  294): DCD OFF
+,D/SSRM:n  ( 1015): SIOP:: AP = 260,
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!
+,E/SMD     (  294): DCD OFF
+,I/PowerManagerService( 1015): [PWL] Off : 75s ago,
+,E/SMD     (  294): DCD OFF,
+,I/Atfwd_Sendcmd(  335): AtCmdFwd service not ready - Exhausted retry attempts - :6
+I/Atfwd_Daemon(  335): result : -1 	 ,Init step :2 	 ,qmiErrorCode: 0
+,E/SMD     (  294): DCD OFF
+,W/ContextImpl( 1015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1698 com.absolute.android.persistservice.a.run:1065 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> ,
+,D/SSRM:n  ( 1015): SIOP:: AP = 260,
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!
+,D/BatteryService( 1015): level:100, scale:100, status:5, health:2, present:true, voltage: 4345, temperature: 250, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303736, invalid charger:0
+D/BatteryService( 1015): online:4, current avg:0, charge type:1, power sharing:false, high voltage charger:false, capacity:230000, current_now:0
+,D/BatteryService( 1015): stay LED for fully charged
+D/BatteryService( 1015): Sending ACTION_BATTERY_CHANGED.
+,I/MotionRecognitionService( 1015): Plugged
+,I/MotionRecognitionService( 1015): mGripSensorEnabled= false
+,D/KeyguardUpdateMonitor( 1177): received broadcast android.intent.action.BATTERY_CHANGED
+,D/KeyguardUpdateMonitor( 1177): handleBatteryUpdate
+,V/EmergencyMode( 1415): [EmergencyStateReceiver] onReceive : android.intent.action.BATTERY_CHANGED
+V/EmergencyMode( 1415): [EmergencyStateReceiver] ACTION_BATTERY_CHANGED mBatteryLevelForLogging = 100
+,V/HeadsetService( 2578): HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+,D/HeadsetStateMachine( 2578): Disconnected process message: 10
+,D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+,D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+,E/SMD     (  294): DCD OFF
+,E/SMD     (  294): DCD OFF
+,E/SMD     (  294): DCD OFF
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,I/ClearcutLoggerApiImpl( 1867): disconnect managed GoogleApiClient
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,D/SSRM:n  ( 1015): SIOP:: AP = 260,
+,E/SMD     (  294): DCD OFF
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!
+,D/BatteryService( 1015): level:100, scale:100, status:5, health:2, present:true, voltage: 4345, temperature: 251, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303736, invalid charger:0
+D/BatteryService( 1015): online:4, current avg:0, charge type:1, power sharing:false, high voltage charger:false, capacity:230000, current_now:0
+D/BatteryService( 1015): stay LED for fully charged
+D/BatteryService( 1015): Sending ACTION_BATTERY_CHANGED.
+,D/KeyguardUpdateMonitor( 1177): received broadcast android.intent.action.BATTERY_CHANGED
+D/KeyguardUpdateMonitor( 1177): handleBatteryUpdate
+,V/EmergencyMode( 1415): [EmergencyStateReceiver] onReceive : android.intent.action.BATTERY_CHANGED
+V/EmergencyMode( 1415): [EmergencyStateReceiver] ACTION_BATTERY_CHANGED mBatteryLevelForLogging = 100
+I/MotionRecognitionService( 1015): Plugged
+I/MotionRecognitionService( 1015): mGripSensorEnabled= false
+,V/HeadsetService( 2578): HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+,D/HeadsetStateMachine( 2578): Disconnected process message: 10
+,D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+,D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,E/Watchdog( 1015): !@Sync 7
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,W/Atfwd_Sendcmd(  335): AtCmdFwd service not published, waiting... retryCnt : 1
+,E/SMD     (  294): DCD OFF
+,E/SMD     (  294): DCD OFF
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,W/ContextImpl( 1015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1698 com.absolute.android.persistservice.a.run:1065 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,E/SMD     (  294): DCD OFF
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,D/SSRM:n  ( 1015): SIOP:: AP = 260,
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!
+,D/BatteryService( 1015): level:100, scale:100, status:5, health:2, present:true, voltage: 4345, temperature: 250, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303736, invalid charger:0
+D/BatteryService( 1015): online:4, current avg:0, charge type:1, power sharing:false, high voltage charger:false, capacity:230000, current_now:0
+D/BatteryService( 1015): stay LED for fully charged
+,D/BatteryService( 1015): Sending ACTION_BATTERY_CHANGED.
+,I/MotionRecognitionService( 1015): Plugged
+,D/KeyguardUpdateMonitor( 1177): received broadcast android.intent.action.BATTERY_CHANGED,
+I/MotionRecognitionService( 1015): mGripSensorEnabled= false
+D/KeyguardUpdateMonitor( 1177): handleBatteryUpdate
+V/EmergencyMode( 1415): [EmergencyStateReceiver] onReceive : android.intent.action.BATTERY_CHANGED
+V/EmergencyMode( 1415): [EmergencyStateReceiver] ACTION_BATTERY_CHANGED mBatteryLevelForLogging = 100
+,V/HeadsetService( 2578): HeadsetService - Received Intent.ACTION_BATTERY_CHANGED,
+D/HeadsetStateMachine( 2578): Disconnected process message: 10
+,D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+,D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+D/BatteryMeterView( 1177): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,E/SMD     (  294): DCD OFF
+,W/Atfwd_Sendcmd(  335): AtCmdFwd service not published, waiting... retryCnt : 2
+,I/PowerManagerService( 1015): [PWL] Off : 105s ago
+,E/SMD     (  294): DCD OFF,
+,E/SMD     (  294): DCD OFF
+,D/SSRM:n  ( 1015): SIOP:: AP = 260,
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!,
+,E/SMD     (  294): DCD OFF
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,E/SMD     (  294): DCD OFF
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,E/SMD     (  294): DCD OFF
+,W/Atfwd_Sendcmd(  335): AtCmdFwd service not published, waiting... retryCnt : 3
+,W/ContextImpl( 1015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1698 com.absolute.android.persistservice.a.run:1065 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+,D/SSRM:n  ( 1015): SIOP:: AP = 260
+,E/SMD     (  294): DCD OFF,
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!
+,E/Watchdog( 1015): !@Sync 8
+,E/SMD     (  294): DCD OFF
+,E/SMD     (  294): DCD OFF
+,E/SMD     (  294): DCD OFF
+,D/SSRM:n  ( 1015): SIOP:: AP = 260
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!
+,E/SMD     (  294): DCD OFF
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...,
+,E/SMD     (  294): DCD OFF,
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,W/Atfwd_Sendcmd(  335): AtCmdFwd service not published, waiting... retryCnt : 4
+,E/SMD     (  294): DCD OFF
+,W/ContextImpl( 1015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1698 com.absolute.android.persistservice.a.run:1065 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+,I/PowerManagerService( 1015): [PWL] Off : 140s ago
+,D/SSRM:n  ( 1015): SIOP:: AP = 260
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!
+,E/SMD     (  294): DCD OFF
+,E/SMD     (  294): DCD OFF,
+,E/SMD     (  294): DCD OFF
+,E/SMD     (  294): DCD OFF
+,D/SSRM:n  ( 1015): SIOP:: AP = 260
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!
+,E/Watchdog( 1015): !@Sync 9
+,E/SMD     (  294): DCD OFF
+,E/SMD     (  294): DCD OFF
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,W/ContextImpl( 1015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1698 com.absolute.android.persistservice.a.run:1065 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> ,
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,E/SMD     (  294): DCD OFF
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,D/SSRM:n  ( 1015): SIOP:: AP = 260,
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...,
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!
+,I/ServiceManager(  335): Waiting for service AtCmdFwd...
+,E/SMD     (  294): DCD OFF,
+,W/Atfwd_Sendcmd(  335): AtCmdFwd service not published, waiting... retryCnt : 5
+,E/SMD     (  294): DCD OFF
+,E/SMD     (  294): DCD OFF
+,D/SSRM:n  ( 1015): SIOP:: AP = 260
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!
+,E/SMD     (  294): DCD OFF
+,E/SMD     (  294): DCD OFF
+,E/SMD     (  294): DCD OFF
+,D/TimaService( 1015): TIMA: TimaService scheduler is intialized. 
+,D/TimaService( 1015): TIMA: checkEvent, operation: 50000 subject: 10000
+D/TimaService( 1015): TimaServiceHandler.handleMessage what =1
+,I/TLC_TIMA_PKM_initialize( 1015): initializing...
+,I/TLC_TIMA_PKM_initialize( 1015): root = /firmware/image, root_strlen = 15
+I/TLC_TIMA_PKM_initialize( 1015): process = tima_pkm, process_strlen = 8
+I/TZ: qc_tlc_communication( 1015): root = /firmware/image, root_len = 15
+I/TZ: qc_tlc_communication( 1015): process = tima_pkm, process_strlen = 8
+I/TZ: qc_tlc_communication( 1015): aligned max_sendmsg_size = 262208 = 0x40040
+,I/TZ: qc_tlc_communication( 1015): aligned max_recvmsg_size = 262208 = 0x40040
+I/TZ: qc_tlc_communication( 1015): max_message_size = 524416 = 0x80080
+D/QSEECOMAPI: ( 1015): QSEECom_get_handle sb_length = 0x80080
+D/QSEECOMAPI: ( 1015): App is not loaded in QSEE
+,D/QSEECOMAPI: ( 1015): Loaded image: APP id = 12
+,I/TZ: qc_tlc_communication( 1015): TIMA: path = /firmware/image, fname = tima_pkm, tzapp is loaded
+,I/TLC_TIMA_PKM_initialize( 1015): Trustlet response is completed
+,W/ContextImpl( 1015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1698 com.absolute.android.persistservice.a.run:1065 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+,I/PowerManagerService( 1015): [PWL] Off : 180s ago
+,I/PowerManagerService( 1015): [PWL]   PowerManagerService.WakeLocks: ref count=1
+I/PowerManagerService( 1015): [PWL]     mWakeLockSummary : 0x1
+I/PowerManagerService( 1015): [PWL]       PARTIAL_WAKE_LOCK              'TimaService' (uid=1000, pid=1015, ws=null) (elapsedTime=1668)
+,E/SMD     (  294): DCD OFF
+,I/TLC_TIMA_PKM_measure_kernel( 1015): TIMA: response_id = 3
+,I/TLC_TIMA_PKM_measure_kernel( 1015): TIMA: response ret = 0, result_ondemand = MSG=Kernel Verification Success;
+,D/TimaService( 1015): TIMA MEASUREMENT Result: TIMA_STATUS=0;MSG=Kernel Verification Success;
+,D/TimaService( 1015): TIMA MEASUREMENT success status: TIMA_STATUS=0;MSG=Kernel Verification Success;
+,D/SSRM:n  ( 1015): SIOP:: AP = 260
+,D/BatteryService( 1015): !@BatteryListener : batteryPropertiesChanged!
+,E/Watchdog( 1015): !@Sync 10
+,I/jxcore-log( 6319): --= Surplus to requirements =--
+I/jxcore-log( 6319): 
+,I/jxcore-log( 6319): ****TEST TOOK:  ms ****
+I/jxcore-log( 6319): 
+I/jxcore-log( 6319): ****TEST_LOGGER:[PROCESS_ON_EXIT_SUCCESS]****
+I/jxcore-log( 6319): 
+,E/SMD     (  294): DCD OFF
+,D/AndroidRuntime( 6919): 
+D/AndroidRuntime( 6919): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+,D/AndroidRuntime( 6919): CheckJNI is OFF
+,D/AndroidRuntime( 6919): readGMSProperty: start
+D/AndroidRuntime( 6919): readGMSProperty: already setted!!
+D/AndroidRuntime( 6919): propertySet: couldn't set property (it is from app)
+D/AndroidRuntime( 6919): readGMSProperty: could not set the property(default)!!
+D/AndroidRuntime( 6919): readGMSProperty: end
+D/AndroidRuntime( 6919): addProductProperty: start
+,E/AffinityControl( 6919): AffinityControl: registerfunction enter,
+,D/AndroidRuntime( 6919): Calling main entry com.android.commands.pm.Pm,
+,D/PersonaManagerService( 1015): isFromApprovedUnInstaller: uid, userId, appid : 2000 0 2000
+D/PackageManager( 1015): START PACKAGE DELETE: observer{566215061}
+D/PackageManager( 1015): pkg{<packageName>}
+D/PackageManager( 1015): user{0}
+D/PackageManager( 1015): caller{2000}
+D/PackageManager( 1015): flags{3}
+D/PersonaManagerService( 1015): isFromApprovedUnInstaller: isApproved : true
+D/PackageManager( 1015): [MSG] DELETE_PACKAGE_AS_USER
+D/PersonaManagerService( 1015): isFromApprovedUnInstaller: isApproved before exit: true
+D/PackageManager( 1015): !@killApplicatoin: 10155, uninstall pkg
+D/PackageManager( 1015): deletePackageAsUser- pkg:com.test.thalitest, userId:0, flag3
+I/ActivityManager( 1015): Force stopping com.test.thalitest appid=10155 user=-1: uninstall pkg
+D/PackageManager( 1015): deletePackageAsUser- pkg:com.test.thalitest, userId:0, flag3
+I/ActivityManager( 1015): Killing 6319:com.test.thalitest/u0a155 (adj 0): stop com.test.thalitest cause uninstall pkg
+D/PackageManagerService( 1015): deletePackage- pkg:com.test.thalitest, edmuserId:0
+D/PackageManagerService( 1015): deletePackage- pkg:com.test.thalitest, edmuserId:-1
+D/ApplicationPolicy( 1015): getApplicationUninstallationEnabled
+D/ApplicationPolicy( 1015): getApplicationUninstallationEnabled :  enabled true
+,I/ActivityManager( 1015):   Force finishing activity ActivityRecord{372d2cdd u0 com.test.thalitest/.MainActivity t8}
+,W/ActivityManager( 1015): mDVFSHelper.acquire()
+,I/WindowState( 1015): WIN DEATH: Window{2613afb2 u0 com.test.thalitest/com.test.thalitest.MainActivity}
+,I/SurfaceFlinger(  256): id=14 Removed NainActivit (6/8)
+,V/ActivityManager( 1015): Display changed displayId=0
+,I/SurfaceFlinger(  256): id=14 Removed NainActivit (-2/8)
+,I/ActivityManager( 1015): Force stopping com.test.thalitest appid=10155 user=0: pkg removed
+,D/InputDispatcher( 1015): Focus left window: 6319
+,I/ActivityManager( 1015):   Force finishing activity ActivityRecord{372d2cdd u0 com.test.thalitest/.MainActivity t8 f}
+W/ActivityManager( 1015): Duplicate finish request for ActivityRecord{372d2cdd u0 com.test.thalitest/.MainActivity t8 f}
+,W/ActivityManager( 1015): CustomStartingWindow se packge removed so remove capture also
+,D/PointerIcon( 1015): setMouseIconStyle1 pointerType: 1001iconType:101 flag:0
+D/PointerIcon( 1015): setMouseCustomIcon IconType is same.101
+,I/art     ( 6159): Explicit concurrent mark sweep GC freed 273(21KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 8MB/11MB, paused 704us total 33.604ms
+,I/art     ( 5721): Explicit concurrent mark sweep GC freed 2390(140KB) AllocSpace objects, 0(0B) LOS objects, 40% free, 6MB/11MB, paused 755us total 28.008ms
+,I/DBG_DM  ( 3042): [com.wssyncmldm.ui.XUIInstallConfirmActivity(428/onResume)] 
+,D/InputDispatcher( 1015): Focused application released
+,I/DBG_DM  ( 3042): [com.wssyncmldm.db.file.XDB(5416/IlIlllIlllllIlIllllI)] Get Postpone Count : 14
+,I/art     ( 3612): Explicit concurrent mark sweep GC freed 6458(366KB) AllocSpace objects, 1(16KB) LOS objects, 25% free, 13MB/17MB, paused 1.138ms total 67.731ms
+,W/GeofencerStateMachine( 1867): Ignoring removeGeofence because network location is disabled.
+,I/DBG_DM  ( 3042): [com.wssyncmldm.db.file.XDB(5138/lIIIIIIIlllllllIIlll)] Get Priority : 0
+,I/InputReader( 1015): Reconfiguring input devices.  changes=0x00000010
+,E/SamsungIME( 1812): mOCRHelper is null
+,I/DBG_DM  ( 3042): [com.wssyncmldm.db.file.XDB(5438/llIIlIIlIllIllIlllII)] Get Postpone Max Count : 0
+,I/DBG_DM  ( 3042): [com.wssyncmldm.ui.XUIInstallConfirmActivity(438/onResume)] Postpone Count : 14
+,I/KLMS-2.5.183: ( 3510): KLMSAbstractReciever(): onReceive(): Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.test.thalitest flg=0x4000010 cmp=com.samsung.klmsagent/.listner.MainReciver (has extras) } | timestamp: Thu Jan 14 10:35:58 GMT+01:00 2016
+,I/DBG_DM  ( 3042): [com.wssyncmldm.db.file.XDB(5479/llIlIIIIlllIlllllIll)] Download Postpone status : 0
+,I/DBG_DM  ( 3042): [com.wssyncmldm.XDMService(649/lllIlIlIIIllIIlIllIl)] Idle Screen : true
+,D/ActivityManager( 1015): startService callerProcessName:com.samsung.klmsagent, calleePkgName: com.samsung.klmsagent
+,D/RegisteredComponentCache( 1447): Collect Tech packages for Knox
+,D/ActivityManager( 1015): retrieveServiceLocked(): component = com.samsung.klmsagent/com.samsung.klmsagent.services.KLMSIntentService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+,W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.samsung.klmsagent, destAppInfo.processName = com.samsung.klmsagent
+,I/DBG_DM  ( 3042): [com.wssyncmldm.ui.lIlIIlIlIlIllllllIII(330/llIIIIlllllIIllIIllI)] NotificationID : 4 / Notification IndicatorState : 7
+,D/PersonaManager( 1447): isKioskContainerExistOnDevice
+,I/DBG_DM  ( 3042): [com.wssyncmldm.db.file.XDB(5138/lIIIIIIIlllllllIIlll)] Get Priority : 0
+,I/KLMS-2.5.183: ( 3510): KLMSAbstractReciever(): onReceive().END.
+,I/splitIntent( 1015): Split this intent : android.intent.action.PACKAGE_REMOVED, mSplitNum[0]=12, mSplitNum[1]=21, mSplitNum[2]=34, mBgSplitQueueNum=3 divideNum= 10 r.nextReceiver= 1 receivers.size=44
+,I/splitIntent( 1015): finish to split intent : android.intent.action.PACKAGE_REMOVED !! Enqueue -> schedule it!!
+,D/ActivityManager( 1015): startProcessLocked calleePkgName: com.sec.android.gallery3d, hostingType: broadcast
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,D/ApplicationPolicy( 1015): isStatusBarNotificationAllowedAsUser: packageName = com.wssyncmldm,userId = 0
+V/ApplicationPolicy( 1015): isApplicationStateBlocked userId 0 pkgname com.wssyncmldm
+,E/Zygote  ( 6932): MountEmulatedStorage(),
+E/Zygote  ( 6932): v2
+I/libpersona( 6932): KNOX_SDCARD checking this for 10044
+I/libpersona( 6932): KNOX_SDCARD not a persona,
+,I/DBG_DM  ( 3042): [com.wssyncmldm.db.file.XDB(5416/IlIlllIlllllIlIllllI)] Get Postpone Count : 14
+,I/SELinux ( 6932): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38,
+I/ActivityManager( 1015): Start proc com.sec.android.gallery3d for broadcast com.sec.android.gallery3d/.app.PackagesMonitor: pid=6932 uid=10044 gids={50044, 9997, 3003, 1028, 1015, 1023, 3002} abi=armeabi-v7a,
+,I/SELinux ( 6932): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+E/SELinux ( 6932): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+I/DBG_DM  ( 3042): [com.wssyncmldm.db.file.XDB(5058/IIlllIlIIlIllIlllIll)] Get Force status : 0
+,D/EnterpriseDeviceManagerService( 1015): Package has changed for user 0
+,D/EnterpriseDeviceManagerService( 1015): Admin package name: com.google.android.gms
+,I/DBG_DM  ( 3042): [com.wssyncmldm.db.file.XDB(5438/llIIlIIlIllIllIlllII)] Get Postpone Max Count : 0
+,I/DBG_DM  ( 3042): [com.wssyncmldm.ui.XUIInstallConfirmActivity(532/llIIIIlllllIIllIIllI)] Check Force Install : false
+I/DBG_DM  ( 3042): [llIIlIIlIllIllIlllII(329/IllIlIIIIlIIlIIIllIl)] 
+,I/DBG_DM  ( 3042): [llIIlIIlIllIllIlllII(335/IllIlIIIIlIIlIIIllIl)] InternalEncrypted : [false]
+,W/TextServicesManagerService( 1015): no available spell checker services found
+,D/TimaKeyStoreProvider( 6932): TimaSignature is unavailable
+,D/ActivityManager( 1015): startProcessLocked calleePkgName: com.samsung.android.sm, hostingType: broadcast
+,D/ActivityThread( 6932): Added TimaKeyStore provider
+,I/KLMS-2.5.183: ( 3510): KLMSIntentService(): onCreate()
+,I/KLMS-2.5.183: ( 3510): KLMSSystemProperties(): getBoolean(): ro.product_ship = true
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,I/KLMS-2.5.183: ( 3510): KLMSUtility(): isTestMode(): product_ship: true | testApk: false
+,I/KLMS-2.5.183: ( 3510): KLMSIntentService(): onHandleIntent().START: Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.test.thalitest flg=0x4000010 cmp=com.samsung.klmsagent/.services.KLMSIntentService (has extras) }
+D/SecContentProvider2( 1015): uri = 11 selection = getMyKnoxAdmin
+D/SecContentProvider2( 1015): mCursor = null
+,W/Resources( 1015): Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+,E/Zygote  ( 6947): MountEmulatedStorage()
+,E/Zygote  ( 6947): v2
+I/KLMS-2.5.183: ( 3510): KLMSIntentService(): PACKAGE_REMOVED
+I/libpersona( 6947): KNOX_SDCARD checking this for 1000
+I/libpersona( 6947): KNOX_SDCARD not a persona
+I/SELinux ( 6947): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+W/Resources( 1015): Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+I/SELinux ( 6947): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+,E/SELinux ( 6947): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,I/ActivityManager( 1015): Start proc com.samsung.android.sm for broadcast com.samsung.android.sm/.common.SmartManagerReceiver: pid=6947 uid=1000 gids={41000, 9997, 3002, 3001, 3003, 1028, 1015, 1007, 1023, 2001, 1024, 1001, 1021, 3004, 3005, 1000, 3009, 1010} abi=armeabi-v7a
+,D/ActivityManager( 1015): startProcessLocked calleePkgName: com.sec.android.app.themechooser, hostingType: broadcast
+,I/KLMS-2.5.183: ( 3510): KLMSIntentService(): listeningToPackageRemoved().START
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,I/art     (  322): Explicit concurrent mark sweep GC freed 8710(371KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 6MB/11MB, paused 620us total 19.768ms
+,D/TimaKeyStoreProvider( 6947): TimaSignature is unavailable
+,D/ActivityThread( 6947): Added TimaKeyStore provider
+,I/KLMS-2.5.183: ( 3510): KLMSIntentService(): REPLACING: false | pkgName: com.test.thalitest
+,I/art     ( 1015): Explicit concurrent mark sweep GC freed 80594(5MB) AllocSpace objects, 91(3MB) LOS objects, 33% free, 29MB/44MB, paused 4.860ms total 256.856ms
+,I/art     ( 1015): WaitForGcToComplete blocked for 183.353ms for cause Explicit
+,I/art     (  322): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 39% free, 6MB/11MB, paused 591us total 16.762ms
+,I/art     (  322): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 39% free, 6MB/11MB, paused 607us total 16.465ms
+,W/Resources( 1015): Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+,E/Zygote  ( 6962): MountEmulatedStorage()
+E/Zygote  ( 6962): v2
+I/libpersona( 6962): KNOX_SDCARD checking this for 10149
+I/libpersona( 6962): KNOX_SDCARD not a persona
+,I/SELinux ( 6962): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+I/ActivityManager( 1015): Start proc com.sec.android.app.themechooser for broadcast com.sec.android.app.themechooser/.CustomBroadCastReceiver: pid=6962 uid=10149 gids={50149, 9997, 3003, 1028, 1015} abi=armeabi-v7a
+,D/ActivityManager( 1015): post active user change for 0 fullscreen true record.isFloatingActivity() false
+D/KnoxTimeoutHandler( 1015): postActiveUserChange for user 0
+I/KnoxTimeoutHandler( 1015): postActiveUserChange, showWhenLocked: false
+,I/DBG_DM  ( 3042): [com.wssyncmldm.ui.XUIInstallConfirmActivity(420/onPause)] 
+I/SELinux ( 6962): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+,W/Resources( 1015): Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+E/SELinux ( 6962): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,D/ActivityManager( 1015): startProcessLocked calleePkgName: com.sec.esdk.elm, hostingType: broadcast
+,D/PersonaManager( 1447): isKioskContainerExistOnDevice
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,D/TimaKeyStoreProvider( 6962): TimaSignature is unavailable
+,D/ActivityThread( 6962): Added TimaKeyStore provider
+,I/KLMS-2.5.183: ( 3510): KLMSIntentService(): listeningToPackageRemoved().END
+,E/Zygote  ( 6977): MountEmulatedStorage()
+E/Zygote  ( 6977): v2
+I/libpersona( 6977): KNOX_SDCARD checking this for 10094
+I/libpersona( 6977): KNOX_SDCARD not a persona
+,I/SELinux ( 6977): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38,
+,W/ResourcesManager( 6932): Asset path '/system/framework/sechardware.jar' does not exist or contains no resources.
+,W/ResourcesManager( 6932): Asset path '/system/framework/com.google.android.maps.jar' does not exist or contains no resources.
+W/ResourcesManager( 6932): Asset path '/system/framework/multiwindow.jar' does not exist or contains no resources.
+W/ResourcesManager( 6932): Asset path '/system/framework/twframework.jar' does not exist or contains no resources.
+W/ResourcesManager( 6932): Asset path '/system/framework/secimaging.jar' does not exist or contains no resources.
+W/ResourcesManager( 6932): Asset path '/system/framework/com.google.android.media.effects.jar' does not exist or contains no resources.
+W/ResourcesManager( 6932): Asset path '/system/framework/allshare.jar' does not exist or contains no resources.
+,W/ResourcesManager( 6932): Asset path '/system/framework/secvision.jar' does not exist or contains no resources.
+,I/SELinux ( 6977): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+,E/SELinux ( 6977): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL,
+I/ActivityManager( 1015): Start proc com.sec.esdk.elm for broadcast com.sec.esdk.elm/.receiver.MainReceiver: pid=6977 uid=10094 gids={50094, 9997, 3003} abi=armeabi-v7a
+,D/RegisteredServicesCache( 1447): empty dynamic service
+,I/KLMS-2.5.183: ( 3510): KLMSIntentService(): onDestroy()
+,I/SurfaceFlinger(  256): id=17 createSurf (720x1280),1 flag=404, YUIInstallC
+,D/StatusBarManagerService( 1015): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams
+,D/StatusBarManagerService( 1015): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams
+,W/ResourcesManager( 6947): Asset path '/system/framework/twframework.jar' does not exist or contains no resources.
+,D/InputDispatcher( 1015): Focus entered window: 3042
+,D/PointerIcon( 1015): setMouseIconStyle1 pointerType: 1001iconType:101 flag:0
+D/PointerIcon( 1015): setMouseCustomIcon IconType is same.101
+,D/SRIB_DCS( 3042): log_dcs ThreadedRenderer::initialize entered! 
+,D/TimaKeyStoreProvider( 6977): TimaSignature is unavailable
+,D/ActivityThread( 6977): Added TimaKeyStore provider
+,V/ActivityThread( 3042): updateVisibility : ActivityRecord{1194afaa token=android.os.BinderProxy@2cf237c9 {com.wssyncmldm/com.wssyncmldm.ui.XUIInstallConfirmActivity}} show : true
+,D/ThemeInfoUtil( 6962): getCurrentFestivalName is [null]
+D/ThemeInfoUtil( 6962): isCurrentFestival = false
+,D/ActivityManager( 1015): startProcessLocked calleePkgName: com.samsung.android.provider.shootingmodeprovider, hostingType: broadcast
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,D/InputMethodManagerService( 1015): windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+,E/Zygote  ( 6993): MountEmulatedStorage(),
+E/Zygote  ( 6993): v2
+I/libpersona( 6993): KNOX_SDCARD checking this for 10152,
+I/libpersona( 6993): KNOX_SDCARD not a persona
+I/ActivityManager( 1015): Start proc com.samsung.android.provider.shootingmodeprovider for broadcast com.samsung.android.provider.shootingmodeprovider/com.samsung.android.app.shootingmodeinstaller.PackageIntentReceiver: pid=6993 uid=10152 gids={50152, 9997, 1023} abi=armeabi-v7a
+,I/SELinux ( 6993): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+,W/ContextImpl( 1015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1698 com.android.server.InputMethodManagerService$6.run:2762 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+,I/SELinux ( 6993): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038,
+,E/SELinux ( 6993): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,I/ActivityManager( 1015): Killing 6120:com.wsomacp/u0a25 (adj 15): empty #31
+,W/InputMethodManagerService( 1015): Got RemoteException sending setActive(false) notification to pid 6319 uid 10155
+,I/Timeline( 1015): Timeline: Activity_windows_visible id: ActivityRecord{f91de77 u0 com.wssyncmldm/.ui.XUIInstallConfirmActivity t7} time:320793
+W/ActivityManager( 1015): mDVFSHelper.release()
+I/Timeline( 3042): Timeline: Activity_idle id: android.os.BinderProxy@2cf237c9 time:320793
+,D/SamsungIME( 1812): onStartInput: No inputType, No imeOption, isInputViewShown = false, isExtractViewShown = false, isShowInputRequested = false, isConfigChanged = false
+,D/TimaKeyStoreProvider( 6993): TimaSignature is unavailable
+,D/ActivityThread( 6993): Added TimaKeyStore provider
+,D/elm:15183( 6977): ELMAbstractReceiver.onReceive() : Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.test.thalitest flg=0x4000010 cmp=com.sec.esdk.elm/.receiver.MainReceiver (has extras) }
+,D/elm:15183( 6977): ELMEngine.ELMEngine( context ).
+,D/elm:15183( 6977): MDMBridge.setEnterpriseBridge()
+,D/ActivityManager( 1015): startService callerProcessName:com.sec.esdk.elm, calleePkgName: com.sec.esdk.elm
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.sec.esdk.elm/com.sec.esdk.elm.service.ElmAgentService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.sec.esdk.elm, destAppInfo.processName = com.sec.esdk.elm
+,D/elm:15183( 6977): ELMAbstractReceiver : Receive Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.test.thalitest flg=0x4000010 cmp=com.sec.esdk.elm/.service.ElmAgentService (has extras) } END.
+,D/ActivityManager( 1015): startProcessLocked calleePkgName: com.samsung.aasaservice, hostingType: broadcast
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/SQLiteLog( 6993): (284) automatic index on shooting_modes(title_id),
+D/elm:15183( 6977): ElmAgentService : onCreate()
+,D/elm:15183( 6977): ElmAgentService : onHandleIntent() Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.test.thalitest flg=0x4000010 cmp=com.sec.esdk.elm/.service.ElmAgentService (has extras) }
+,D/elm:15183( 6977): MainReceiver.listeningToPackageRemoved()
+D/elm:15183( 6977): MDMBridge.getInstance()
+,D/elm:15183( 6977): MDMBridge.getAllLicenseInfoFromSDK()
+,E/Zygote  ( 7014): MountEmulatedStorage(),
+E/Zygote  ( 7014): v2
+I/libpersona( 7014): KNOX_SDCARD checking this for 1000
+I/libpersona( 7014): KNOX_SDCARD not a persona
+,I/art     ( 6947): Explicit concurrent mark sweep GC freed 10190(472KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 6MB/9MB, paused 799us total 59.001ms
+I/SELinux ( 7014): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+,I/ActivityManager( 1015): Start proc com.samsung.aasaservice for broadcast com.samsung.aasaservice/.AASAUpdateReceiver: pid=7014 uid=1000 gids={41000, 9997, 3002, 3001, 3003, 1028, 1015, 1007, 1023, 2001, 1024, 1001, 1021, 3004, 3005, 1000, 3009, 1010} abi=armeabi-v7a
+,I/SELinux ( 7014): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038,
+,E/SELinux ( 7014): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,D/elm:15183( 6977): MDMBridge.getAllLicenseInfoFromSDK()
+,W/ResourceType( 1015): Failure getting entry for 0x7f07007b (t=6 e=123) (error -75)
+,W/Resources( 1015): Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+,D/TimaKeyStoreProvider( 7014): TimaSignature is unavailable
+D/PersonaManager( 1015): isKioskContainerExistOnDevice
+D/ActivityThread( 7014): Added TimaKeyStore provider
+,W/Resources( 1015): Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+,E/SQLiteLog( 6947): (284) automatic index on crash_info_summary(package_name_touched)
+,I/art     ( 1015): Explicit concurrent mark sweep GC freed 13268(596KB) AllocSpace objects, 0(0B) LOS objects, 33% free, 29MB/44MB, paused 5.211ms total 348.756ms
+,D/ActivityManager( 1015): startProcessLocked calleePkgName: com.samsung.android.app.assistantmenu, hostingType: broadcast
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/Zygote  ( 7032): MountEmulatedStorage(),
+E/Zygote  ( 7032): v2
+I/libpersona( 7032): KNOX_SDCARD checking this for 1000
+I/libpersona( 7032): KNOX_SDCARD not a persona
+,I/SELinux ( 7032): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+,I/SELinux ( 7032): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+I/ActivityManager( 1015): Start proc com.samsung.android.app.assistantmenu for broadcast com.samsung.android.app.assistantmenu/.AssistantMenuReceiver: pid=7032 uid=1000 gids={41000, 9997, 3002, 3001, 3003, 1028, 1015, 1007, 1023, 2001, 1024, 1001, 1021, 3004, 3005, 1000, 3009, 1010} abi=armeabi-v7a
+I/ActivityManager( 1015): Killing 6140:com.sec.android.app.soundalive/u0a53 (adj 15): empty #31
+,E/SELinux ( 7032): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+D/elm:15183( 6977): ElmAgentService : onDestroy().
+,D/ActivityManager( 1015): startService callerProcessName:com.samsung.android.provider.shootingmodeprovider, calleePkgName: com.samsung.android.provider.shootingmodeprovider
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.samsung.android.provider.shootingmodeprovider/com.samsung.android.app.shootingmodeinstaller.ShootingModesService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.samsung.android.provider.shootingmodeprovider, destAppInfo.processName = com.samsung.android.provider.shootingmodeprovider
+,D/NearbySource( 6932): Nearby Source Create!
+,D/NearbyContext( 6932): Nearby Context Create!
+,D/TimaKeyStoreProvider( 7032): TimaSignature is unavailable
+,D/ActivityThread( 7032): Added TimaKeyStore provider
+,I/ActivityManager( 1015): Killing 6159:com.google.android.googlequicksearchbox:search/u0a57 (adj 15): empty #31
+,D/BadgeProvider( 6100): sendNotify entered. [uri] : content://com.sec.badge/apps
+,D/BadgeProvider( 6100): sendNotify, [notify] : null
+,D/BadgeProvider( 6100): update, [uri] : content://com.sec.badge/apps
+,D/AASAservice-UpdateReceiver( 7014): AASAUpdateReceiver: android.intent.action.PACKAGE_REMOVED, package = com.test.thalitest, uid = -1
+,W/System.err( 7014): android.content.pm.PackageManager$NameNotFoundException: com.test.thalitest
+D/BadgeProvider( 6100): update, [BadgeCount] : badgecount=0
+,D/BadgeProvider( 6100): update, [UpdateCount] : 1
+W/System.err( 7014): 	at android.app.ApplicationPackageManager.getApplicationInfo(ApplicationPackageManager.java:332)
+W/System.err( 7014): 	at com.samsung.aasaservice.AASAUpdateReceiver.onReceive(AASAUpdateReceiver.java:33)
+W/System.err( 7014): 	at android.app.ActivityThread.handleReceiver(ActivityThread.java:3125)
+W/System.err( 7014): 	at android.app.ActivityThread.access$1800(ActivityThread.java:181)
+W/System.err( 7014): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1559)
+W/System.err( 7014): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err( 7014): 	at android.os.Looper.loop(Looper.java:145)
+W/System.err( 7014): 	at android.app.ActivityThread.main(ActivityThread.java:6145)
+W/System.err( 7014): 	at java.lang.reflect.Method.invoke(Native Method)
+W/System.err( 7014): 	at java.lang.reflect.Method.invoke(Method.java:372)
+W/System.err( 7014): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1399)
+W/System.err( 7014): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1194)
+,D/ActivityManager( 1015): startProcessLocked calleePkgName: com.sec.android.widgetapp.tapandpay, hostingType: broadcast
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,D/PackageManager( 1015): delete codoeFile: 
+,E/Zygote  ( 7048): MountEmulatedStorage()
+,E/Zygote  ( 7048): v2
+I/libpersona( 7048): KNOX_SDCARD checking this for 10156
+I/libpersona( 7048): KNOX_SDCARD not a persona
+,I/SELinux ( 7048): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38,
+,I/ActivityManager( 1015): Start proc com.sec.android.widgetapp.tapandpay for broadcast com.sec.android.widgetapp.tapandpay/.TapandpayAppWidgetProvider: pid=7048 uid=10156 gids={50156, 9997} abi=armeabi-v7a
+I/SELinux ( 7048): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+,E/SELinux ( 7048): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,D/AASAuninstall( 1015): userId = 0, info.removedAppID = -1, info.uid = 10155, packageName = com.test.thalitest
+,E/Vold    (  255): Failed to find mounted volume for /storage/extSdCard/Android/data/com.sec.android.gallery3d/cache/
+I/AASA_removePackage( 1015): UID=10155 Target=com.test.thalitest
+W/Vold    (  255): Returning OperationFailed - no handler for errno 0
+,D/PackageManager( 1015): result of delete: 1{566215061}
+,W/ContextImpl( 6932): Failed to ensure directory: /storage/extSdCard/Android/data/com.sec.android.gallery3d/cache
+,D/SLinkSource( 6932): Samsung link source created
+,D/AndroidRuntime( 6919): Shutting down VM,
+,D/TimaKeyStoreProvider( 7048): TimaSignature is unavailable
+D/ActivityThread( 7048): Added TimaKeyStore provider
+,I/ActivityManager( 1015): Killing 6054:com.samsung.android.sdk.samsunglink/u0a38 (adj 15): empty #31
+,W/Resources( 1015): Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+,D/RCPManagerService( 1015): PackageReceiver onReceive()
+,I/HarmonyEASService( 1015): onReceive : android.intent.action.PACKAGE_REMOVED for 0
+,W/ResourcesManager( 1015): Asset path '/system/framework/sechardware.jar' does not exist or contains no resources.
+W/ResourcesManager( 1015): Asset path '/system/framework/com.google.android.maps.jar' does not exist or contains no resources.
+D/KnoxMUMContainerPolicy( 1015): mPackageReceiver : action - android.intent.action.PACKAGE_REMOVED
+W/ResourcesManager( 1015): Asset path '/system/framework/twframework.jar' does not exist or contains no resources.
+I/OTPFW   ( 1015): PackageRemovalReceiver::onReceive Enter
+,W/Resources( 1015): Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+D/OTPFW   ( 1015): OtpDbHelper::getInstance New instance created
+,D/OTPFW   ( 1015): DBIntegrity::getInstance - New instance created
+,I/ActivityManager( 1015): Killing 5975:com.google.android.apps.docs/u0a91 (adj 15): empty #31
+,D/OTPFW   ( 1015): PackageRemovalReceiver::onReceive deleting token for Pkg = com.test.thalitest uid = 10155 container id = 0
+,I/OTPFW   ( 1015): ProvisionData::getAllEntries Enter
+,E/OTPFW   ( 1015): ProvisionData::getAllEntries Table is empty
+,D/BackupManagerService( 1015): Received broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.test.thalitest flg=0x4000010 (has extras) }
+,D/JobSchedulerService( 1015): Receieved: android.intent.action.PACKAGE_REMOVED
+V/EnterpriseBillingPolicy( 1015): packageModificationReceiver - onreceive - start - android.intent.action.PACKAGE_REMOVED
+V/EnterpriseBillingPolicy( 1015): uID is 10155
+V/EnterpriseBillingPolicy( 1015): Removed Packageuid is0
+V/EnterpriseBillingPolicyStorage( 1015): getProfileForApplication - enter
+,V/EnterpriseBillingPolicyStorage( 1015): getProfileForApplication - exit null : containerId = 0
+V/EnterpriseBillingPolicy( 1015): packageModificationReceiver - onreceive - personal application - profile null
+V/EnterpriseBillingPolicy( 1015): packageModificationReceiver - onreceive - might be a vpn vendor package 
+V/EnterpriseBillingPolicyStorage( 1015): getBillingProfileForVpnEngine - start - com.test.thalitest
+,V/EnterpriseBillingPolicyStorage( 1015): getBillingProfileForVpnEngine - end - null
+,V/ApplicationPolicy( 1015): isApplicationStateBlocked userId 0 pkgname com.test.thalitest
+,V/EnterpriseBillingPolicy( 1015): packageModificationReceiver - onreceive - start - android.intent.action.PACKAGE_FULLY_REMOVED
+V/EnterpriseBillingPolicy( 1015): uID is 10155
+V/EnterpriseBillingPolicy( 1015): Removed Packageuid is0
+V/EnterpriseBillingPolicyStorage( 1015): getProfileForApplication - enter
+,V/EnterpriseBillingPolicyStorage( 1015): getProfileForApplication - exit null : containerId = 0
+V/EnterpriseBillingPolicy( 1015): packageModificationReceiver - onreceive - personal application - profile null
+V/EnterpriseBillingPolicy( 1015): packageModificationReceiver - onreceive - might be a vpn vendor package 
+V/EnterpriseBillingPolicyStorage( 1015): getBillingProfileForVpnEngine - start - com.test.thalitest
+D/SSRM:aZ ( 1015): MSG_TYPE_APP_REMOVED::
+,W/ContextImpl( 7032): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:2063 android.content.ContextWrapper.startService:533 android.content.ContextWrapper.startService:533 com.samsung.android.app.assistantmenu.AssistantMenuReceiver.onReceive:159 android.app.ActivityThread.handleReceiver:3125 
+,I/TapandpayWidget:TapandpayAppWidgetProvider( 7048): onReceive()
+D/TapandpayWidget:TapandpayAppWidgetProvider( 7048): onReceive() - action : android.intent.action.PACKAGE_REMOVED / mCurIndex :-10
+,V/EnterpriseBillingPolicyStorage( 1015): getBillingProfileForVpnEngine - end - null
+,W/NotificationService( 1015): Pray mode not found android.content.pm.PackageManager$NameNotFoundException: Application package com.sec.android.settings.praymodewidget not found
+D/KnoxTimeoutHandler( 1015): handleActiveUserChange for user 0
+,D/PersonaManagerService( 1015): getPersonasForUser(): returning null!
+,V/AlarmManagerEXT( 1015): com.test.thalitest(10155) is removed.
+,D/ActivityManager( 1015): startService callerProcessName:com.samsung.android.app.assistantmenu, calleePkgName: com.samsung.android.app.assistantmenu
+D/ActivityManager( 1015): retrieveServiceLocked(): component = com.samsung.android.app.assistantmenu/com.samsung.android.app.assistantmenu.serviceframework.AMMetaDataParserService; callingUser = 0; userId(target) = 0
+,W/ActivityManager( 1015): userId = 0, bbcId = -10000
+W/ActivityManager( 1015): NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+W/ActivityManager( 1015): NORMAL SET : srcAppInfo.processName = com.samsung.android.app.assistantmenu, destAppInfo.processName = com.samsung.android.app.assistantmenu
+,I/StatusBar( 1177): Icon Only
+,D/PanelView( 1177): There is/are notification(s) 
+,W/Resources( 1015): Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+,D/ActivityManager( 1015): startProcessLocked calleePkgName: com.sec.knox.bridge, hostingType: broadcast
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,W/Resources( 1015): Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+,W/Resources( 1015): Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+W/Resources( 1015): Converting to string: TypedValue{t=0x12/d=0x0 a=-1}
+I/TapandpayWidget:Utils( 7048): Clear T&P info.
+,W/Resources( 1015): Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+W/Resources( 1015): Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+W/Resources( 1015): Converting to string: TypedValue{t=0x12/d=0x0 a=-1}
+,E/Zygote  ( 7066): MountEmulatedStorage()
+E/Zygote  ( 7066): v2
+I/libpersona( 7066): KNOX_SDCARD checking this for 1000
+I/libpersona( 7066): KNOX_SDCARD not a persona
+,W/Resources( 1015): Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1},
+W/Resources( 1015): Converting to string: TypedValue{t=0x12/d=0x0 a=-1}
+I/PCWCLIENTTRACE_PushUtil( 5928): SPPPushClient is installed : true
+I/PCWCLIENTTRACE_PushUtil( 5928): sales region : global
+I/PCWCLIENTTRACE_PushUtil( 5928): getPushTypeList : [SPP, GCM]
+I/PCWCLIENTTRACE_SYSTEMReceiver( 5928): [onReceive] - android.intent.action.PACKAGE_REMOVED
+I/SELinux ( 7066): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+,I/SELinux ( 7066): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+E/SELinux ( 7066): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,I/ActivityManager( 1015): Start proc com.sec.knox.bridge for broadcast com.sec.knox.bridge/.PersonaShortcutReceiver: pid=7066 uid=1000 gids={41000, 9997, 3002, 3001, 3003, 1028, 1015, 1007, 1023, 2001, 1024, 1001, 1021, 3004, 3005, 1000, 3009, 1010} abi=armeabi-v7a
+,D/ActivityManager( 1015): startProcessLocked calleePkgName: com.samsung.android.app.galaxyfinder, hostingType: broadcast
+,D/TapandpayWidget:TapandpayAppWidgetProvider( 7048): Widget is not attached.
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/Zygote  ( 7076): MountEmulatedStorage()
+E/Zygote  ( 7076): v2
+I/libpersona( 7076): KNOX_SDCARD checking this for 10032
+I/libpersona( 7076): KNOX_SDCARD not a persona
+,I/SELinux ( 7076): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+,W/Resources( 1015): Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+D/StatusBar( 1177): ----- contentsUnchanged : true, bigContentsUnchanged - true, headsUpContentsUnchanged - true , publicUnchanged true
+D/TimaKeyStoreProvider( 7066): TimaSignature is unavailable
+D/ActivityThread( 7066): Added TimaKeyStore provider
+,D/PersonaManager( 1177): isKioskContainerExistOnDevice
+D/PersonaManager( 1177): isKioskContainerExistOnDevice
+I/PhoneStatusBar( 1177): Icon Only
+I/StatusBar( 1177): Icon Only
+D/PanelView( 1177): There is/are notification(s) 
+D/PanelView( 1177): kidsfalse mQsExpansionEnabled:true
+I/SELinux ( 7076): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+,E/SELinux ( 7076): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,D/PersonaManager( 1177): isKioskContainerExistOnDevice
+,I/PhoneStatusBar( 1177): Icon Only
+D/WifiDisplayAdapter( 1015): getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=2, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo: Client/Owner: Client GroupId:  Passphrase:  SessionId: 0 IP Address: , connectedState=-1, networkQoS=0}
+I/StatusBar( 1177): Icon Only
+,D/PanelView( 1177): There is/are notification(s) 
+D/PanelView( 1177): kidsfalse mQsExpansionEnabled:true
+I/ActivityManager( 1015): Start proc com.samsung.android.app.galaxyfinder for broadcast com.samsung.android.app.galaxyfinder/.ApplicationStatusReceiver: pid=7076 uid=10032 gids={50032, 9997, 1028, 1015, 3003, 3002} abi=armeabi-v7a
+,D/UsbSettingsManager( 1015): clearDefaults: com.test.thalitest
+,I/CrashAnrDetector( 1015): onPackageRemoved : com.test.thalitest
+,D/TaskPersister( 1015): removeObsoleteFile: deleting file=8_task.xml
+D/TaskPersister( 1015): removeObsoleteFile: deleting file=7_task.xml
+D/TaskPersister( 1015): removeObsoleteFile: deleting file=8_task_thumbnail.png
+,W/libprocessgroup( 1015): failed to open /acct/uid_10025/pid_6120/cgroup.procs: No such file or directory
+W/libprocessgroup( 1015): failed to open /acct/uid_10053/pid_6140/cgroup.procs: No such file or directory
+W/libprocessgroup( 1015): failed to open /acct/uid_10057/pid_6159/cgroup.procs: No such file or directory
+W/libprocessgroup( 1015): failed to open /acct/uid_10038/pid_6054/cgroup.procs: No such file or directory
+,D/ActivityManager( 1015): startProcessLocked calleePkgName: com.sec.enterprise.knox.cloudmdm.smdms, hostingType: broadcast
+,D/WifiDisplayAdapter( 1015): getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=2, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo: Client/Owner: Client GroupId:  Passphrase:  SessionId: 0 IP Address: , connectedState=-1, networkQoS=0}
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,D/TimaKeyStoreProvider( 7076): TimaSignature is unavailable
+D/ActivityThread( 7076): Added TimaKeyStore provider
+,W/ResourcesManager( 7066): Asset path '/system/framework/twframework.jar' does not exist or contains no resources.
+,I/PackagesMonitor( 6932): PackagesMonitor onReceive :com.test.thalitest
+,E/Zygote  ( 7096): MountEmulatedStorage()
+I/libpersona( 7096): KNOX_SDCARD checking this for 10160
+E/Zygote  ( 7096): v2
+I/libpersona( 7096): KNOX_SDCARD not a persona
+,I/SELinux ( 7096): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+,I/SELinux ( 7096): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+,E/SELinux ( 7096): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,I/ActivityManager( 1015): Start proc com.sec.enterprise.knox.cloudmdm.smdms for broadcast com.sec.enterprise.knox.cloudmdm.smdms/.core.CoreReceiver: pid=7096 uid=10160 gids={50160, 9997, 3003, 3002, 1028, 1015, 3001} abi=armeabi-v7a
+I/ActivityManager( 1015): Killing 6232:com.samsung.android.app.watchmanagerstub/u0a100 (adj 15): empty #31
+,D/RCPManager( 7066):  in createShortcut() for packageName: com.test.thalitest userId0
+,D/RCPManagerService( 1015):  in createShortcut() for packageName: com.test.thalitest userId0
+D/RCPManagerService( 1015): queryAllProviders():  providerCallBack is not register for 0
+,D/Launcher.Model( 1479): reloadBadges entered.
+,I/ActivityManager( 1015): Killing 6254:com.samsung.helphub/1000 (adj 15): empty #31
+,D/ActivityManager( 1015): startProcessLocked calleePkgName: com.android.mms, hostingType: broadcast
+,D/PanelView( 1177): mClearAll.setVisibility - mIsFullyOpened : false isShade : true mHasNotification : true mIsUpwardFling : false mQsFullyExpanded : true isShadeLocked : false mClearAllVisible : false
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,D/TimaKeyStoreProvider( 7096): TimaSignature is unavailable
+,D/ActivityThread( 7096): Added TimaKeyStore provider,
+,W/art     ( 6919): ConditionVariable::~ConditionVariable for GC request condition variable called with 1 waiters.
+,E/Zygote  ( 7113): MountEmulatedStorage()
+E/Zygote  ( 7113): v2
+I/libpersona( 7113): KNOX_SDCARD checking this for 10046
+I/libpersona( 7113): KNOX_SDCARD not a persona
+I/SELinux ( 7113): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38,
+I/SELinux ( 7113): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+I/ActivityManager( 1015): Start proc com.android.mms for broadcast com.android.mms/.freemessage.FreeMessageStatusReceiver: pid=7113 uid=10046 gids={50046, 9997, 3003, 1028, 1015, 1023, 1003} abi=armeabi-v7a
+E/SELinux ( 7113): [DEBUG] get_category: variable seinfo: release sensitivity: NULL, cateogry: NULL
+I/ActivityManager( 1015): Killing 6100:com.sec.android.provider.badge/u0a72 (adj 15): empty #31,
+D/ActivityManager( 1015): startProcessLocked calleePkgName: com.google.android.apps.docs, hostingType: broadcast,
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/Zygote  ( 7126): MountEmulatedStorage(),
+E/Zygote  ( 7126): v2
+I/libpersona( 7126): KNOX_SDCARD checking this for 10091,
+I/SELinux ( 7126): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+I/libpersona( 7126): KNOX_SDCARD not a persona
+,I/SELinux ( 7126): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+,E/SELinux ( 7126): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+D/TimaKeyStoreProvider( 7113): TimaSignature is unavailable
+D/ActivityThread( 7113): Added TimaKeyStore provider
+,I/ActivityManager( 1015): Start proc com.google.android.apps.docs for broadcast com.google.android.apps.docs/.receivers.AppPackageAddRemoveReceiver: pid=7126 uid=10091 gids={50091, 9997, 3003, 1028, 1015} abi=armeabi-v7a
+,I/ActivityManager( 1015): Killing 6457:com.android.email/u0a145 (adj 15): empty #31
+,W/ActivityManager( 1015): ProcessRecord{3c80ed91 6100:com.sec.android.provider.badge/u0a72} is already killed
+E/lowmemorykiller(  253): Error writing /proc/6100/oom_score_adj; errno=22
+E/JavaBinder( 1015): !!! FAILED BINDER TRANSACTION !!!
+,I/ActivityManager( 1015): Existing provider com.sec.android.provider.badge/.BadgeProvider is crashing; detaching ProcessRecord{1a6d84f6 1479:com.sec.android.app.launcher/u0a7}
+D/ActivityManager( 1015): getContentProviderImpl callerProcessName:com.sec.android.app.launcher, calleePkgName: com.sec.android.provider.badge
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,D/TimaKeyStoreProvider( 7126): TimaSignature is unavailable,
+D/ActivityThread( 7126): Added TimaKeyStore provider,
+,I/art     (  322): Explicit concurrent mark sweep GC freed 8736(372KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 6MB/11MB, paused 623us total 28.463ms
+,I/art     (  322): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 39% free, 6MB/11MB, paused 593us total 16.258ms,
+,W/libprocessgroup( 1015): failed to open /acct/uid_10091/pid_5975/cgroup.procs: No such file or directory
+,I/art     (  322): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 39% free, 6MB/11MB, paused 599us total 16.474ms
+,E/Zygote  ( 7144): MountEmulatedStorage(),
+E/Zygote  ( 7144): v2
+I/libpersona( 7144): KNOX_SDCARD checking this for 10072,
+I/libpersona( 7144): KNOX_SDCARD not a persona
+,I/SELinux ( 7144): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38,
+I/ActivityManager( 1015): Start proc com.sec.android.provider.badge for content provider com.sec.android.provider.badge/.BadgeProvider: pid=7144 uid=10072 gids={50072, 9997} abi=armeabi-v7a
+,D/ContactProvider( 6932): getAllContactInfoList Start
+,I/SELinux ( 7144): Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0038
+E/SELinux ( 7144): [DEBUG] get_category: variable seinfo: release sensitivity: NULL, cateogry: NULL
+,W/ResourcesManager( 7096): Asset path '/system/framework/secsmartcard.jar' does not exist or contains no resources.
+,E/SQLiteLog( 6947): (284) automatic index on crash_info_summary(package_name_touched)
+,W/ResourcesManager( 7113): Asset path '/system/framework/minimode.jar' does not exist or contains no resources.
+,W/ResourcesManager( 7113): Asset path '/system/framework/com.google.android.maps.jar' does not exist or contains no resources.
+W/ResourcesManager( 7113): Asset path '/system/framework/multiwindow.jar' does not exist or contains no resources.
+W/ResourcesManager( 7113): Asset path '/system/framework/twframework.jar' does not exist or contains no resources.
+W/ResourcesManager( 7113): Asset path '/system/framework/secvision.jar' does not exist or contains no resources.
+W/ResourcesManager( 7113): Asset path '/system/framework/imsmanager.jar' does not exist or contains no resources.
+,D/TimaKeyStoreProvider( 7144): TimaSignature is unavailable
+D/ActivityThread( 7144): Added TimaKeyStore provider
+,I/FeatureConfig( 7076): init() refresh[false], Select[false], DisplayOrder[false], HelpMenu[false]
+,W/libprocessgroup( 1015): failed to open /acct/uid_10072/pid_6100/cgroup.procs: No such file or directory
+W/libprocessgroup( 1015): failed to open /acct/uid_1000/pid_6254/cgroup.procs: No such file or directory
+W/libprocessgroup( 1015): failed to open /acct/uid_10100/pid_6232/cgroup.procs: No such file or directory
+W/libprocessgroup( 1015): failed to open /acct/uid_10145/pid_6457/cgroup.procs: No such file or directory
+,D/ActivityManager( 1015): startProcessLocked calleePkgName: com.sec.spp.push, hostingType: broadcast
+,E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 1015): checkUser: useridlist=null, currentuser=0
+,E/SQLiteLog( 6031): (28) failed to open "/data/data/com.sec.spp.push/databases/registration_db" with flag (131138) and mode_t (0) due to error (30)
+,E/SQLiteDatabase( 6031): Failed to open database '/data/data/com.sec.spp.push/databases/registration_db'.
+E/SQLiteDatabase( 6031): android.database.sqlite.SQLiteException: not an error (code 0): Could not open the database in read/write mode.
+E/SQLiteDatabase( 6031): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+E/SQLiteDatabase( 6031): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:318)
+E/SQLiteDatabase( 6031): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:228)
+E/SQLiteDatabase( 6031): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:512)
+E/SQLiteDatabase( 6031): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:206)
+E/SQLiteDatabase( 6031): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:178)
+E/SQLiteDatabase( 6031): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:908)
+E/SQLiteDatabase( 6031): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:878)
+E/SQLiteDatabase( 6031): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:699)
+E/SQLiteDatabase( 6031): 	at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java:1519)
+E/SQLiteDatabase( 6031): 	at android.content.ContextWrapper.openOrCreateDatabase(ContextWrapper.java:282)
+E/SQLiteDatabase( 6031): 	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:223)
+E/SQLiteDatabase( 6031): 	at android.database.sqlite.SQLiteOpenHelper.getWritableDatabase(SQLiteOpenHelper.java:163)
+E/SQLiteDatabase( 6031): 	at com.sec.spp.push.i.a.a(Unknown Source)
+E/SQLiteDatabase( 6031): 	at com.sec.spp.push.i.c.d(Unknown Source)
+E/SQLiteDatabase( 6031): 	at com.sec.spp.push.receiver.PackageInfoChangeReceiver.a(Unknown Source)
+E/SQLiteDatabase( 6031): 	at com.sec.spp.push.receiver.PackageInfoChangeReceiver.a(Unknown Source)
+E/SQLiteDatabase( 6031): 	at com.sec.spp.push.receiver.a.handleMessage(Unknown Source)
+E/SQLiteDatabase( 6031): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/SQLiteDatabase( 6031): 	at android.os.Looper.loop(Looper.java:145)
+E/SQLiteDatabase( 6031): 	at android.app.ActivityThread.main(ActivityThread.java:6145)
+E/SQLiteDatabase( 6031): 	at java.lang.reflect.Method.invoke(Native Method)
+E/SQLiteDatabase( 6031): 	at java.lang.reflect.Method.invoke(Method.java:372)
+E/SQLiteDatabase( 6031): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1399)
+E/SQLiteDatabase( 6031): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1194)
+E/SPPClientService( 6031): [c] [getAppId()] SQLiteException with message =not an error (code 0): Could not open the database in read/write mode.
+,E/Zygote  ( 7161): MountEmulatedStorage()
+I/libpersona( 7161): KNOX_SDCARD checking this for 10035
+E/Zygote  ( 7161): v2
+I/libpersona( 7161): KNOX_SDCARD not a persona
+I/SELinux ( 7161): Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=38
+
+```
