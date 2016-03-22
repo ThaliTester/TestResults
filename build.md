@@ -2,62 +2,6 @@
 
 
 ```
-Already up-to-date.
-
-
-```
-
-```
-Your branch is up-to-date with 'origin/master'.
-Branch vNext_vjrantal_500 set up to track remote branch vNext_vjrantal_500 from origin.
-Auto-merging src/ios/MultipeerConnectivity/THEMultipeerManager.m
-Auto-merging src/ios/MultipeerConnectivity/THEMultipeerClient.m
-Removing src/android/java/io/jxcore/node/HandshakeHelper.java
-Merge made by the 'recursive' strategy.
- appveyor.yml                                       |   2 +-
- build.sh                                           |   5 +-
- plugin.xml                                         |   2 +-
- src/android/JXcore.gradle                          |   2 +-
- .../java/io/jxcore/node/ConnectionHelper.java      |  99 ++---
- .../java/io/jxcore/node/ConnectionModel.java       |  24 +-
- .../java/io/jxcore/node/HandshakeHelper.java       | 362 -------------------
- .../java/io/jxcore/node/JXcoreExtension.java       |  23 ++
- .../java/io/jxcore/node/LifeCycleMonitor.java      | 137 +++++++
- .../java/io/jxcore/node/SocketThreadBase.java      |   3 +-
- src/ios/JXcoreExtension.m                          |  12 +-
- src/ios/MultipeerConnectivity/THEMultipeerClient.h |   2 +-
- src/ios/MultipeerConnectivity/THEMultipeerClient.m |   2 +-
- .../MultipeerConnectivity/THEMultipeerManager.h    |   2 +-
- .../MultipeerConnectivity/THEMultipeerManager.m    |   4 +-
- src/ios/THEAppContext.h                            |   2 +-
- src/ios/THEAppContext.m                            |   2 +-
- test/www/jxcore/UnitTest_app.js                    |  19 +-
- .../bv_tests/testThaliMobileNativeWrapper.js       | 400 +++++++++++++++------
- test/www/jxcore/lib/wifiBasedNativeMock.js         |  21 +-
- thali/NextGeneration/mux/createPeerListener.js     |   6 +-
- thali/NextGeneration/thaliMobileNativeWrapper.js   |  42 ++-
- 22 files changed, 598 insertions(+), 575 deletions(-)
- delete mode 100644 src/android/java/io/jxcore/node/HandshakeHelper.java
- create mode 100644 src/android/java/io/jxcore/node/LifeCycleMonitor.java
-
-Already on 'master'
-Switched to a new branch 'vNext_vjrantal_500'
-Note: checking out '508fffe'.
-
-You are in 'detached HEAD' state. You can look around, make experimental
-changes and commit them, and you can discard any commits you make in this
-state without impacting any branches by performing another checkout.
-
-If you want to create a new branch to retain commits you create, you may
-do so (now or later) by using -b with the checkout command again. Example:
-
-  git checkout -b <new-branch-name>
-
-HEAD is now at 508fffe... Change data sending test to be x-platform
-
-```
-
-```
 Cordova version:
 6.0.0
 thali-test-server@0.0.1 /Users/thali/Github/Thali_CordovaPlugin/test/TestServer
@@ -904,7 +848,7 @@ thali-cordova-plugin-jxcore@1.0.0 /Users/thali/Github/Thali_CordovaPlugin/test/w
 │       ├─┬ request@2.69.0 
 │       │ ├── aws-sign2@0.6.0 
 │       │ ├─┬ aws4@1.3.2 
-│       │ │ └─┬ lru-cache@4.0.0 
+│       │ │ └─┬ lru-cache@4.0.0
 │       │ │   ├── pseudomap@1.0.2 
 │       │ │   └── yallist@2.0.0 
 │       │ ├─┬ bl@1.0.3 
@@ -1015,7 +959,7 @@ thali-cordova-plugin-jxcore@1.0.0 /Users/thali/Github/Thali_CordovaPlugin/test/w
 ├─┬ request@2.69.0 
 │ ├── aws-sign2@0.6.0 
 │ ├─┬ aws4@1.3.2 
-│ │ └─┬ lru-cache@4.0.0 
+│ │ └─┬ lru-cache@4.0.1 
 │ │   ├── pseudomap@1.0.2 
 │ │   └── yallist@2.0.0 
 │ ├─┬ bl@1.0.3 
@@ -1246,7 +1190,7 @@ thali-cordova-plugin-jxcore@1.0.0 /Users/thali/Github/Thali_CordovaPlugin/test/w
 │ ├─┬ request@2.69.0 
 │ │ ├── aws-sign2@0.6.0 
 │ │ ├─┬ aws4@1.3.2 
-│ │ │ └─┬ lru-cache@4.0.0 
+│ │ │ └─┬ lru-cache@4.0.0
 │ │ │   ├── pseudomap@1.0.2 
 │ │ │   └── yallist@2.0.0 
 │ │ ├─┬ bl@1.0.3 
@@ -1341,13 +1285,13 @@ DEBUG thaliMobileNativeWrapper: Method networkChanged registered to native
 DEBUG thaliMobileNativeWrapper: Method incomingConnectionToPortNumberFailed registered to native
 # calling createNativeListener directly rejects
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49780
+DEBUG createNativeListener: listening 49778
 ok 1 Should throw
 # teardown
 # setup
 # emits incomingConnectionState
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49782
+DEBUG createNativeListener: listening 49780
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
@@ -1358,7 +1302,7 @@ ok 3 final connection state should be DISCONNECTED
 # setup
 # emits routerPortConnectionFailed
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49785
+DEBUG createNativeListener: listening 49783
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
@@ -1375,7 +1319,7 @@ DEBUG createNativeListener: incoming socket close
 # setup
 # native server connections all up
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49789
+DEBUG createNativeListener: listening 49787
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
@@ -1396,7 +1340,7 @@ DEBUG createNativeListener: incoming socket close
 # setup
 # native server - closing incoming stream cleans outgoing socket
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49794
+DEBUG createNativeListener: listening 49792
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
@@ -1411,11 +1355,11 @@ DEBUG createNativeListener: incoming socket close
 # setup
 # native server - closing incoming connection cleans outgoing socket
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49798
+DEBUG createNativeListener: listening 49796
+ok 14 we should not have gotten an error
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
-ok 14 we should not have gotten an error
 DEBUG createNativeListener: new stream: 
 DEBUG createNativeListener: new outgoing socket
 DEBUG createNativeListener: stream close:
@@ -1426,7 +1370,7 @@ ok 16 incoming is cleaned up
 # setup
 # native server - closing outgoing socket cleans associated mux stream
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49802
+DEBUG createNativeListener: listening 49800
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
@@ -1442,7 +1386,7 @@ DEBUG createNativeListener: incoming socket close
 # setup
 # native server - closing the whole server cleans everything up
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49806
+DEBUG createNativeListener: listening 49804
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
@@ -1463,7 +1407,7 @@ DEBUG createNativeListener: incoming socket close
 # setup
 # native server - we can get a ton of connections and data through and still clean up the server completely
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49810
+DEBUG createNativeListener: listening 49808
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
@@ -1641,11 +1585,11 @@ DEBUG createNativeListener: incoming socket close
 # setup
 # native server - simulate mux failure, make sure everything is cleaned up
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49862
-ok 31 we should not have gotten an error
+DEBUG createNativeListener: listening 49860
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
+ok 31 we should not have gotten an error
 DEBUG createNativeListener: new stream: 
 DEBUG createNativeListener: new outgoing socket
 ok 32 Buffers are identical
@@ -1661,7 +1605,7 @@ ok 37 The mux stream should be closed
 # setup
 # native server - timing out the incoming connection cleans everything up
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49866
+DEBUG createNativeListener: listening 49864
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
@@ -1682,17 +1626,17 @@ ok 44 The mux stream should be closed
 # setup
 # calling createPeerListener without calling start produces error
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49869
+DEBUG createNativeListener: listening 49867
 # teardown
 # setup
 # calling createPeerListener after calling stop produces error
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49870
+DEBUG createNativeListener: listening 49868
 # teardown
 # setup
 # can call createPeerListener (pleaseConnect === false)
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49871
+DEBUG createNativeListener: listening 49869
 DEBUG createPeerListener: createPeerListener
 DEBUG createPeerListener: pleaseConnect= false
 ok 45 port must be in range
@@ -1700,7 +1644,7 @@ ok 45 port must be in range
 # setup
 # calling createPeerListener (pleaseConnect === true) with unknown peer is error
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49873
+DEBUG createNativeListener: listening 49871
 DEBUG createPeerListener: createPeerListener
 DEBUG createPeerListener: pleaseConnect= true
 WARN createPeerListener: 
@@ -1713,7 +1657,7 @@ DEBUG createNativeListener: creating native server
 ok 47 Can call startUpdateAdvertisingAndListening without error
 ok 48 Can call startListeningForAdvertisements without error
 DEBUG createPeerListener: createPeerListener
-DEBUG createNativeListener: listening 49875
+DEBUG createNativeListener: listening 49873
 DEBUG createPeerListener: pleaseConnect= true
 WARN createPeerListener: outgoing socket - Error: connect ECONNREFUSED
 ok 49 reason should be as expected
@@ -1748,7 +1692,7 @@ DEBUG createNativeListener: creating native server
 ok 51 Can call startUpdateAdvertisingAndListening without error
 ok 52 Can call startListeningForAdvertisements without error
 DEBUG createPeerListener: createPeerListener
-DEBUG createNativeListener: listening 49878
+DEBUG createNativeListener: listening 49876
 DEBUG createPeerListener: pleaseConnect= false
 ok 53 peerPort should not be nativePort
 DEBUG createPeerListener: first connection
@@ -1764,7 +1708,7 @@ DEBUG createNativeListener: creating native server
 ok 56 Can call startUpdateAdvertisingAndListening without error
 ok 57 Can call startListeningForAdvertisements without error
 DEBUG createPeerListener: createPeerListener
-DEBUG createNativeListener: listening 49882
+DEBUG createNativeListener: listening 49880
 DEBUG createPeerListener: pleaseConnect= true
 ok 58 Should get spontaneous connection
 ok 59 peerPort != nativePort
@@ -1775,7 +1719,7 @@ DEBUG createNativeListener: creating native server
 ok 60 Can call startUpdateAdvertisingAndListening without error
 ok 61 Can call startListeningForAdvertisements without error
 DEBUG createPeerListener: createPeerListener
-DEBUG createNativeListener: listening 49885
+DEBUG createNativeListener: listening 49883
 DEBUG createPeerListener: pleaseConnect= false
 ok 62 peerPort != nativePort
 DEBUG createPeerListener: first connection
@@ -1788,7 +1732,7 @@ DEBUG createNativeListener: creating native server
 ok 64 Can call startUpdateAdvertisingAndListening without error
 ok 65 Can call startListeningForAdvertisements without error
 DEBUG createPeerListener: createPeerListener
-DEBUG createNativeListener: listening 49889
+DEBUG createNativeListener: listening 49887
 DEBUG createPeerListener: pleaseConnect= false
 ok 66 peerPort != nativePort
 DEBUG createPeerListener: first connection
@@ -1802,7 +1746,7 @@ DEBUG createNativeListener: creating native server
 ok 69 Can call startUpdateAdvertisingAndListening without error
 ok 70 Can call startListeningForAdvertisements without error
 DEBUG createPeerListener: createPeerListener
-DEBUG createNativeListener: listening 49893
+DEBUG createNativeListener: listening 49891
 DEBUG createPeerListener: pleaseConnect= false
 DEBUG createPeerListener: createPeerListener
 ok 71 Second call to existing peerListener returns existing port
@@ -1813,7 +1757,7 @@ DEBUG createNativeListener: creating native server
 ok 72 Can call startUpdateAdvertisingAndListening without error
 ok 73 Can call startListeningForAdvertisements without error
 DEBUG createPeerListener: createPeerListener
-DEBUG createNativeListener: listening 49895
+DEBUG createNativeListener: listening 49893
 DEBUG createPeerListener: pleaseConnect= true
 WARN createPeerListener: 
 DEBUG createPeerListener: failedConnection
@@ -1825,7 +1769,7 @@ DEBUG createNativeListener: creating native server
 ok 75 Can call startUpdateAdvertisingAndListening without error
 ok 76 Can call startListeningForAdvertisements without error
 DEBUG createPeerListener: createPeerListener
-DEBUG createNativeListener: listening 49897
+DEBUG createNativeListener: listening 49895
 DEBUG createPeerListener: pleaseConnect= true
 ok 77 Should get spontaneous connection
 ok 78 promise should resolve
@@ -1836,7 +1780,7 @@ DEBUG createNativeListener: creating native server
 ok 79 Can call startUpdateAdvertisingAndListening without error
 ok 80 Can call startListeningForAdvertisements without error
 DEBUG createPeerListener: createPeerListener
-DEBUG createNativeListener: listening 49900
+DEBUG createNativeListener: listening 49898
 DEBUG createPeerListener: pleaseConnect= true
 WARN createPeerListener: was expecting a forward connection to be made
 ok 81 reason should be as expected
@@ -1847,7 +1791,7 @@ DEBUG createNativeListener: creating native server
 ok 82 Can call startUpdateAdvertisingAndListening without error
 ok 83 Can call startListeningForAdvertisements without error
 DEBUG createPeerListener: createPeerListener
-DEBUG createNativeListener: listening 49902
+DEBUG createNativeListener: listening 49900
 DEBUG createPeerListener: pleaseConnect= false
 ok 84 peerPort should not be nativePort
 DEBUG createPeerListener: first connection
@@ -1866,15 +1810,15 @@ DEBUG createNativeListener: creating native server
 ok 87 Can call startUpdateAdvertisingAndListening without error
 ok 88 Can call startListeningForAdvertisements without error
 DEBUG createPeerListener: createPeerListener
-DEBUG createNativeListener: listening 49905
+DEBUG createNativeListener: listening 49903
 DEBUG createPeerListener: pleaseConnect= false
 DEBUG createPeerListener: first connection
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
-DEBUG createPeerListener: looking up mux for client port:  49908
+DEBUG createPeerListener: looking up mux for client port:  49906
 DEBUG createPeerListener: reverse connection
-DEBUG createPeerListener: looking up mux for client port:  49908
+DEBUG createPeerListener: looking up mux for client port:  49906
 ok 89 sent and received should be the same
 # teardown
 DEBUG createNativeListener: mux close
@@ -1885,15 +1829,15 @@ DEBUG createNativeListener: creating native server
 ok 90 Can call startUpdateAdvertisingAndListening without error
 ok 91 Can call startListeningForAdvertisements without error
 DEBUG createPeerListener: createPeerListener
-DEBUG createNativeListener: listening 49909
+DEBUG createNativeListener: listening 49907
 DEBUG createPeerListener: pleaseConnect= false
 DEBUG createPeerListener: first connection
+DEBUG createPeerListener: looking up mux for client port:  49910
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
-DEBUG createPeerListener: looking up mux for client port:  49912
 DEBUG createPeerListener: reverse connection
-DEBUG createPeerListener: looking up mux for client port:  49912
+DEBUG createPeerListener: looking up mux for client port:  49910
 DEBUG createNativeListener: new stream: 
 DEBUG createNativeListener: new outgoing socket
 DEBUG createNativeListener: 
@@ -1905,47 +1849,47 @@ DEBUG createNativeListener: incoming socket close
 # setup
 # createPeerListener - ask for new peer when we are at maximum and make sure we remove the right existing listener
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49914
+DEBUG createNativeListener: listening 49912
 # teardown
 # setup
 # createPeerListener - ask for a new peer when we are not at maximum peers and make sure we do not remove any existing listeners
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49915
+DEBUG createNativeListener: listening 49913
 # teardown
 # setup
 # createPeerListener - pleaseConnect = false - test timeout
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49916
+DEBUG createNativeListener: listening 49914
 # teardown
 # setup
 # createPeerListener - pleaseConnect = true - test timeout
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49917
+DEBUG createNativeListener: listening 49915
 # teardown
 # setup
 # createPeerListener - forward connection - wrong serverPort
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49918
+DEBUG createNativeListener: listening 49916
 # teardown
 # setup
 # createPeerListener - forward connection - wrong clientPort
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49919
+DEBUG createNativeListener: listening 49917
 # teardown
 # setup
 # createPeerListener - please connect = false, multiple connections out
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49920
+DEBUG createNativeListener: listening 49918
 # teardown
 # setup
 # createPeerListener - please connect = false, multiple bi-directional connections
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49921
+DEBUG createNativeListener: listening 49919
 # teardown
 # setup
 # createPeerListener - multiple parallel calls
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49922
+DEBUG createNativeListener: listening 49920
 # teardown
 # setup
 # closeAll can close even when connections open
@@ -2022,7 +1966,7 @@ ok 131 error should be null
 # setup
 # should be able to call #stopListeningForAdvertisements many times
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49932
+DEBUG createNativeListener: listening 49930
 ok 132 error should be null
 ok 133 error should be null
 ok 134 error should be null
@@ -2033,7 +1977,7 @@ ok 137 error should be null
 # setup
 # should be able to call #startListeningForAdvertisements many times
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49934
+DEBUG createNativeListener: listening 49932
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
 ok 138 error should be null
 ok 139 error should be null
@@ -2047,7 +1991,7 @@ ok 143 error should be null
 # setup
 # should be able to call #startUpdateAdvertisingAndListening many times
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49936
+DEBUG createNativeListener: listening 49934
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
 ok 144 error should be null
 ok 145 error should be null
@@ -2061,7 +2005,7 @@ ok 149 error should be null
 # setup
 # should be able to call #stopAdvertisingAndListening many times
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49941
+DEBUG createNativeListener: listening 49939
 ok 150 error should be null
 ok 151 error should be null
 ok 152 error should be null
@@ -2072,7 +2016,7 @@ ok 155 error should be null
 # setup
 # #start should fail if called twice in a row
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49943
+DEBUG createNativeListener: listening 49941
 ok 156 first call should succeed
 ok 157 first call should succeed
 ok 158 specific error should be returned
@@ -2082,7 +2026,7 @@ ok 160 error should be null
 # setup
 # does not emit duplicate discoveryAdvertisingStateUpdate
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49945
+DEBUG createNativeListener: listening 49943
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":true}
 ok 161 called only once
@@ -2123,7 +2067,7 @@ ok 178 error should be null
 # setup
 # network changes emitted correctly
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49950
+DEBUG createNativeListener: listening 49948
 DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"off","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
 ok 179 wifi is off
 DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"on","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
@@ -2142,7 +2086,7 @@ ok 185 error should be null
 # setup
 # calls correct starts when network changes
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49952
+DEBUG createNativeListener: listening 49950
 DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"off","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
 ok 186 specific error expected
@@ -2163,7 +2107,7 @@ ok 191 error should be null
 # setup
 # when network connection is lost a peer should be marked unavailable
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49957
+DEBUG createNativeListener: listening 49955
 INFO testUtils: Toggling radios to: false
 DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"on","bluetooth":"off","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
 DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"off","bluetooth":"off","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
@@ -2232,7 +2176,7 @@ DEBUG thaliMobileNativeWrapper: Method incomingConnectionToPortNumberFailed regi
 # setup
 # should be able to call #stopListeningForAdvertisements many times
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49963
+DEBUG createNativeListener: listening 49961
 ok 214 no errors
 ok 215 still no errors
 DEBUG thaliMobileNativeWrapper: Method peerAvailabilityChanged registered to native
@@ -2244,7 +2188,7 @@ DEBUG thaliMobileNativeWrapper: Method incomingConnectionToPortNumberFailed regi
 # setup
 # should be able to call #startListeningForAdvertisements many times
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49965
+DEBUG createNativeListener: listening 49963
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
 ok 216 no errors
 ok 217 still no errors
@@ -2258,7 +2202,7 @@ DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discove
 # setup
 # should be able to call #startUpdateAdvertisingAndListening many times
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49967
+DEBUG createNativeListener: listening 49965
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
 ok 218 no errors
 DEBUG thaliMobileNativeWrapper: Method peerAvailabilityChanged registered to native
@@ -2272,7 +2216,7 @@ DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discove
 # setup
 # should be able to call #stopAdvertisingAndListening many times
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49971
+DEBUG createNativeListener: listening 49969
 ok 220 no errors
 ok 221 still no errors
 DEBUG thaliMobileNativeWrapper: Method peerAvailabilityChanged registered to native
@@ -2303,7 +2247,7 @@ DEBUG thaliMobileNativeWrapper: Method incomingConnectionToPortNumberFailed regi
 # setup
 # all services are stopped when we call stop
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49973
+DEBUG createNativeListener: listening 49971
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":true}
 DEBUG thaliMobileNativeWrapper: Method peerAvailabilityChanged registered to native
@@ -2353,8 +2297,8 @@ DEBUG thaliMobileNativeWrapper: Method incomingConnectionToPortNumberFailed regi
 # setup
 # thaliMobileNativeWrapper is stopped when routerPortConnectionFailed is received
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49981
-INFO thaliMobileNativeWrapper: routerPortConnectionFailed - {"routerPort":49980,"error":{}}
+DEBUG createNativeListener: listening 49979
+INFO thaliMobileNativeWrapper: routerPortConnectionFailed - {"routerPort":49978,"error":{}}
 ok 232 failure reason is as expected
 ok 233 error description is as expected
 ok 234 must be stopped
@@ -2367,7 +2311,7 @@ DEBUG thaliMobileNativeWrapper: Method incomingConnectionToPortNumberFailed regi
 # setup
 # We repeat failedConnection event when we get it from thaliTcpServersManager
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49983
+DEBUG createNativeListener: listening 49981
 ok 235 peerIdentifier matches
 ok 236 error description matches
 DEBUG thaliMobileNativeWrapper: Method peerAvailabilityChanged registered to native
@@ -2379,12 +2323,12 @@ DEBUG thaliMobileNativeWrapper: Method incomingConnectionToPortNumberFailed regi
 # setup
 # can do HTTP requests between peers without coordinator
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49985
+DEBUG createNativeListener: listening 49983
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":true}
 DEBUG createPeerListener: createPeerListener
 DEBUG createPeerListener: pleaseConnect= false
-ok 237 found a peer! {"peerIdentifier":"foo","portNumber":49988,"hostAddress":"127.0.0.1"}
+ok 237 found a peer! {"peerIdentifier":"foo","portNumber":49986,"hostAddress":"127.0.0.1"}
 DEBUG createPeerListener: first connection
 DEBUG thaliMobileNativeWrapper: Method peerAvailabilityChanged registered to native
 DEBUG thaliMobileNativeWrapper: Method discoveryAdvertisingStateUpdateNonTCP registered to native
@@ -2409,7 +2353,7 @@ DEBUG createNativeListener: mux close
 # setup
 # peer changes handled from a queue
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49996
+DEBUG createNativeListener: listening 49994
 DEBUG createPeerListener: createPeerListener
 DEBUG createPeerListener: pleaseConnect= false
 DEBUG createPeerListener: createPeerListener
@@ -2441,7 +2385,7 @@ DEBUG thaliMobileNativeWrapper: Method incomingConnectionToPortNumberFailed regi
 # setup
 # relaying discoveryAdvertisingStateUpdateNonTCP
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50008
+DEBUG createNativeListener: listening 50006
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":true}
 ok 241 discovery is active
 ok 242 advertising is active
@@ -2454,9 +2398,9 @@ DEBUG thaliMobileNativeWrapper: Method incomingConnectionToPortNumberFailed regi
 # setup
 # thaliMobileNativeWrapper is stopped when incomingConnectionToPortNumberFailed is received
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50010
+DEBUG createNativeListener: listening 50008
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
-INFO thaliMobileNativeWrapper: incomingConnectionToPortNumberFailed: 50010
+INFO thaliMobileNativeWrapper: incomingConnectionToPortNumberFailed: 50008
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
 ok 243 right error reason
 ok 244 Stop should be fine
@@ -2471,7 +2415,7 @@ DEBUG thaliMobileNativeWrapper: Method incomingConnectionToPortNumberFailed regi
 # setup
 # we successfully receive and replay discoveryAdvertisingStateUpdate
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50014
+DEBUG createNativeListener: listening 50012
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
 ok 247 discoveryActive matches
 ok 248 advertisingActive matches
@@ -2479,7 +2423,7 @@ DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discove
 ok 249 discoveryActive matches
 ok 250 advertisingActive matches
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50016
+DEBUG createNativeListener: listening 50014
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
 ok 251 discoveryActive matches
 ok 252 advertisingActive matches
@@ -2487,7 +2431,7 @@ DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discove
 ok 253 discoveryActive matches
 ok 254 advertisingActive matches
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50020
+DEBUG createNativeListener: listening 50018
 DEBUG thaliMobileNativeWrapper: Method peerAvailabilityChanged registered to native
 DEBUG thaliMobileNativeWrapper: Method discoveryAdvertisingStateUpdateNonTCP registered to native
 DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"on","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
@@ -2970,19 +2914,19 @@ ok 494 We need to call start first
 # setup
 # can start/stop servers manager
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50054
+DEBUG createNativeListener: listening 50050
 ok 495 port must be in range
 # teardown
 # setup
 # starting twice resolves with listening port
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50055
+DEBUG createNativeListener: listening 50051
 ok 496 second start should return same port
 # teardown
 # setup
 # terminateIncomingConnection will terminate a connection
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50057
+DEBUG createNativeListener: listening 50053
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
@@ -2993,12 +2937,12 @@ ok 498 now we are disconnected
 # setup
 # terminate an Outgoing connection will terminate the server
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50059
+DEBUG createNativeListener: listening 50055
 # teardown
 # setup
 # terminate an Outgoing connection with wrong arguments is not harmful
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50060
+DEBUG createNativeListener: listening 50056
 # teardown
 # setup
 ok 499 should be in started state
@@ -3201,72 +3145,13281 @@ Attempt 1 / 3
 
 [1A[K
 
+
+[1A[K
+[36mProgress:[39m [32mDone[39m
+
+[32mExtracting plugin package...[39m
+
+[32mDone.[39m
+
+[32mRemoving plugin from project...[39m
+
+[1A[K
+[31mRemoving plugin from project...[39m
+
+[32mAdding plugin to project...[39m
+
+[32mCleaning up...[39m
+
+[32mDone.[39m
+
+Starting to download Thali Cordova plugin from: https://codeload.github.com/thaliproject/Thali_CordovaPlugin/zip/npmv2.1.0
+Adding Thali Cordova plugin from: /var/folders/l4/5qwy3_rs54b7gxzyfpwqt8hc0000gn/T/tmp-2406bVIqqR7q4wN6/TestApp/thaliDontCheckIn/Thali_CordovaPlugin-npmv2.1.0
+Running jx npm install in: /var/folders/l4/5qwy3_rs54b7gxzyfpwqt8hc0000gn/T/tmp-2406bVIqqR7q4wN6/TestApp/plugins/org.thaliproject.p2p/scripts
+scripts@0.0.1 /private/var/folders/l4/5qwy3_rs54b7gxzyfpwqt8hc0000gn/T/tmp-2406bVIqqR7q4wN6/TestApp/plugins/org.thaliproject.p2p/scripts
+└─┬ fs-extra-promise@0.2.1 
+  ├── bluebird@2.10.2 
+  └─┬ fs-extra@0.24.0 
+    ├── graceful-fs@4.1.3 
+    ├── jsonfile@2.2.3 
+    ├── path-is-absolute@1.0.0 
+    └─┬ rimraf@2.5.2 
+      └─┬ glob@7.0.3 
+        ├─┬ inflight@1.0.4 
+        │ └── wrappy@1.0.1 
+        ├── inherits@2.0.1 
+        ├─┬ minimatch@3.0.0 
+        │ └─┬ brace-expansion@1.1.3 
+        │   ├── balanced-match@0.3.0 
+        │   └── concat-map@0.0.1 
+        └── once@1.3.3 
+
+
+npm http request GET https://registry.npmjs.org/fs-extra-promise
+npm http 304 https://registry.npmjs.org/fs-extra-promise
+npm http request GET https://registry.npmjs.org/fs-extra
+npm http request GET https://registry.npmjs.org/bluebird
+npm http 304 https://registry.npmjs.org/fs-extra
+npm http 304 https://registry.npmjs.org/bluebird
+npm http request GET https://registry.npmjs.org/graceful-fs
+npm http request GET https://registry.npmjs.org/jsonfile
+npm http request GET https://registry.npmjs.org/path-is-absolute
+npm http request GET https://registry.npmjs.org/rimraf
+npm http 304 https://registry.npmjs.org/path-is-absolute
+npm http 304 https://registry.npmjs.org/graceful-fs
+npm http 304 https://registry.npmjs.org/rimraf
+npm http 304 https://registry.npmjs.org/jsonfile
+npm http request GET https://registry.npmjs.org/glob
+npm http 304 https://registry.npmjs.org/glob
+npm http request GET https://registry.npmjs.org/inflight
+npm http request GET https://registry.npmjs.org/inherits
+npm http request GET https://registry.npmjs.org/minimatch
+npm http request GET https://registry.npmjs.org/once
+npm http 304 https://registry.npmjs.org/inherits
+npm http 304 https://registry.npmjs.org/minimatch
+npm http 304 https://registry.npmjs.org/inflight
+npm http 304 https://registry.npmjs.org/once
+npm http request GET https://registry.npmjs.org/wrappy
+npm http 304 https://registry.npmjs.org/wrappy
+npm http request GET https://registry.npmjs.org/brace-expansion
+npm http 304 https://registry.npmjs.org/brace-expansion
+npm http request GET https://registry.npmjs.org/balanced-match
+npm http request GET https://registry.npmjs.org/concat-map
+npm http 304 https://registry.npmjs.org/balanced-match
+npm http 304 https://registry.npmjs.org/concat-map
+npm WARN EPACKAGEJSON scripts@0.0.1 No repository field.
+
+ok 1 jxcore cordova plugin is installed
+ok 2 thali cordova plugin is installed
+# teardown
+# setup
+# should be able to add devices to the framework
+ok 3 should be equal
+# teardown
+# setup
+# passing wrong test name should throw
+check test folder
+found test : ./testFindPeers.js
+found test : ./testSendData.js
+--- start :testThatDoesNotExist---
+--- start :testThatDoesNotExist---
+ok 4 Unknown test
+# teardown
+# setup
+# own address should be filtered out and try count reseted
+check test folder
+found test : ./testFindPeers.js
+found test : ./testSendData.js
+--- start :mockTest---
+--- start :mockTest---
+ok 5 own address filtered out
+ok 6 other addresses in the address property
+ok 7 try count is 0 in the beginning
+# teardown
+# setup
+# should be able to process valid results without exceptions
+{ 'name:': 'LGE-Nexus 5_PT7062',
+  result: 'OK',
+  sendList: 
+   [ { connections: 3,
+       dataAmount: 100000,
+       dataReceived: 100000,
+       doneRounds: 1,
+       name: '90:E7:C4:FC:13:3C',
+       result: 'OK',
+       time: 57792,
+       tryCount: 1 } ],
+  time: 119819 }
+{ 'name:': 'HTC-HTC6535LVW_PT3841',
+  result: 'OK',
+  sendList: 
+   [ { connections: 2,
+       dataAmount: 100000,
+       dataReceived: 100000,
+       doneRounds: 5,
+       name: 'F8:95:C7:13:51:1E',
+       result: 'OK',
+       time: 30550,
+       tryCount: 1 } ],
+  time: 115137 }
+{ 'name:': 'A5-1', time: 10005, result: 'TIMEOUT', sendList: [] }
+--------------- test report ---------------------
+--------------- LGE-Nexus 5_PT7062 --------------------- : 1
+Send data : 100% : 57792 ms, 99% : 57792 ms, 95 : 57792 ms, 90% : 57792 ms.
+Average data rate: 0.002 MB/s
+Result count 1, range 57792 ms to  57792 ms.
+Send data failed peers count : 0 [0 %]
+Send data never tried peers count : 0 [0 %]
+--------------- HTC-HTC6535LVW_PT3841 --------------------- : 2
+Send data : 100% : 30550 ms, 99% : 30550 ms, 95 : 30550 ms, 90% : 30550 ms.
+Average data rate: 0.003 MB/s
+Result count 1, range 30550 ms to  30550 ms.
+Send data failed peers count : 0 [0 %]
+Send data never tried peers count : 0 [0 %]
+--------------- A5-1 --------------------- : 3
+No send data results!
+--------------- Combined ---------------------
+Send data : 100% : 57792 ms, 99% : 57792 ms, 95 : 57792 ms, 90% : 57792 ms.
+Average data rate: 0.003 MB/s
+--------------- end of test report ---------------------
+ok 8 received processed results
+# teardown
+# setup
+# connector should fail if server not running
+daya0
+oneRoundDownNow
+ok 9 received a result to the done event
+# teardown
+# setup
+# connector should be able to send data to a running server
+daya1000000
+oneRoundDownNow
+ok 10 received a result to the done event
+# teardown
+# setup
+# should run test with 5 peers
+testSendData created {"timeout":1500000,"rounds":1,"dataTimeout":10000,"dataAmount":1000000,"conReTryTimeout":50,"conReTryCount":5,"peerCount":5}bt-address length : 5
+daya1000000
+check server
+serverPort is 8889
+StartBroadcasting started ok
+[ { address: 'device-address-0' },
+  { address: 'device-address-1' },
+  { address: 'device-address-2' },
+  { address: 'device-address-3' },
+  { address: 'device-address-4' } ]
+startWithNextDevice
+do fake peer & start
+Connect to fake peer: device-address-0
+oneRoundDownNow
+---- round done--------
+startWithNextDevice
+do fake peer & start
+Connect to fake peer: device-address-1
+oneRoundDownNow
+---- round done--------
+startWithNextDevice
+do fake peer & start
+Connect to fake peer: device-address-2
+oneRoundDownNow
+---- round done--------
+startWithNextDevice
+do fake peer & start
+Connect to fake peer: device-address-3
+oneRoundDownNow
+---- round done--------
+startWithNextDevice
+do fake peer & start
+Connect to fake peer: device-address-4
+oneRoundDownNow
+---- round done--------
+startWithNextDevice
+weAreDoneNow, resultArray.length: 5
+sendReportNow
+ok 11 received a result to the done event
+ok 12 should be equal
+testSendData stopped
+# teardown
+# setup
+# should return same temporary folder when called multiple times
+ok 13 should be equal
+# teardown
+# setup
+# should be able to write to the temporary folder
+/var/folders/l4/5qwy3_rs54b7gxzyfpwqt8hc0000gn/T/tmp-2406bVIqqR7q4wN6
+ok 14 no error returned when creating a subfolder
+# teardown
+# setup
+# can call hasRequiredHardware
+ok 15 resolves with a boolean
+# teardown
+# setup
+# should get right number of setup emits
+Required number of ios devices presented (2)
+Starting unit test run for platform: ios
+Running on ios test: test-1
+Required number of android devices presented (2)
+Starting unit test run for platform: android
+Running on android test: test-1
+ok 16 received right amount of setup commands from the server
+# teardown
+# setup
+# should discard surplus devices
+Required number of ios devices presented (2)
+Starting unit test run for platform: ios
+Discarding surplus device: ios device 2
+ok 17 should have discarded the extra device
+# teardown
+StopBroadcasting went ok
+
+1..17
+# tests 17
+# pass  17
+
+# ok
+
+
+> thali-cordova-plugin-jxcore@1.0.0 test-coordinated /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore
+> jx runCoordinatedTests.js
+
+2016-03-22T17:32:16.129Z - info: listening on *:3000
+
+
+Instance 1:
+Unit Test app is loaded
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: Method peerAvailabilityChanged registered to native
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: Method discoveryAdvertisingStateUpdateNonTCP registered to native
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"on","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: Method networkChanged registered to native
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: Method incomingConnectionToPortNumberFailed registered to native
+
+
+Instance 1:
+My device name is: 76ed2afb-90a9-4c6a-bfa8-ba12ac8911f4
+
+
+Instance 2:
+Unit Test app is loaded
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: Method peerAvailabilityChanged registered to native
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: Method discoveryAdvertisingStateUpdateNonTCP registered to native
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"on","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
+DEBUG thaliMobileNativeWrapper: Method networkChanged registered to native
+DEBUG thaliMobileNativeWrapper: Method incomingConnectionToPortNumberFailed registered to native
+My device name is: 2c49109c-f0c8-4e13-8daf-211c6ecb9f2c
+
+
+Instance 1:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testCreateNativeListener.js
+
+
+Instance 2:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testCreateNativeListener.js
+
+
+Instance 1:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testCreatePeerListener.js
+
+
+Instance 1:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testMakeIntoCloseAllServer.js
+
+
+Instance 1:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testMultiplex.js
+
+
+Instance 1:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testPromiseQueue.js
+
+
+Instance 1:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testTests.js
+
+
+Instance 1:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliMobile.js
+
+
+Instance 2:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testCreatePeerListener.js
+
+
+Instance 2:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testMakeIntoCloseAllServer.js
+
+
+Instance 2:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testMultiplex.js
+
+
+Instance 2:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testPromiseQueue.js
+
+
+Instance 2:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testTests.js
+
+
+Instance 2:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliMobile.js
+
+
+Instance 1:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliMobileNative.js
+
+
+Instance 1:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliMobileNativeWrapper.js
+
+
+Instance 1:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliNotificationAction.js
+
+
+Instance 1:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliNotificationBeacons.js
+
+
+Instance 1:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliNotificationServer.js
+
+
+Instance 1:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliPeerAction.js
+
+
+Instance 1:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliPeerDictionary.js
+
+
+Instance 1:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliPeerPoolInterface.js
+
+
+Instance 2:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliMobileNative.js
+
+
+Instance 1:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliReplicationUtilities.js
+
+
+Instance 2:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliMobileNativeWrapper.js
+
+
+Instance 2:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliNotificationAction.js
+
+
+Instance 1:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliSendNotificationBasedOnReplication.js
+
+
+Instance 2:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliNotificationBeacons.js
+
+
+Instance 1:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliTcpServersManager.js
+
+
+Instance 1:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliWifiInfrastructure.js
+
+
+Instance 1:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testthaliPeerPoolDefault.js
+
+
+Instance 2:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliNotificationServer.js
+
+
+Instance 2:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliPeerAction.js
+
+
+Instance 2:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliPeerDictionary.js
+
+
+Instance 2:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliPeerPoolInterface.js
+
+
+Instance 2:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliReplicationUtilities.js
+
+
+Instance 2:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliSendNotificationBasedOnReplication.js
+
+
+Instance 2:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliTcpServersManager.js
+
+
+Instance 2:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliWifiInfrastructure.js
+
+
+Instance 2:
+Test runner loading file: /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testthaliPeerPoolDefault.js
+
+
+2016-03-22T17:32:17.333Z - debug: Device presented: 76ed2afb-90a9-4c6a-bfa8-ba12ac8911f4 (ios) unittest socket:0
+
+
+2016-03-22T17:32:17.340Z - debug: Device presented: 2c49109c-f0c8-4e13-8daf-211c6ecb9f2c (ios) unittest socket:1
+
+
+2016-03-22T17:32:17.340Z - info: Required number of ios devices presented (2)
+
+
+2016-03-22T17:32:17.341Z - info: Starting unit test run for platform: ios
+
+
+Instance 2:
+TAP version 13
+
+
+Instance 2:
+# setup
+
+
+Instance 2:
+# 1. calling createNativeListener directly rejects
+
+
+Instance 1:
+TAP version 13
+
+
+2016-03-22T17:32:17.408Z - info: Running on ios test: 1. calling createNativeListener directly rejects
+
+
+Instance 1:
+# setup
+
+
+Instance 1:
+# 1. calling createNativeListener directly rejects
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+DEBUG createNativeListener: creating native server
+
+
+Instance 2:
+DEBUG createNativeListener: creating native server
+
+
+Instance 2:
+DEBUG createNativeListener: listening 50094
+
+
+Instance 1:
+DEBUG createNativeListener: listening 50095
+
+
+Instance 1:
+ok 1 Should throw
+# setup
+
+
+Instance 2:
+ok 1 Should throw
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+# 2. emits incomingConnectionState
+
+
+Instance 2:
+# 2. emits incomingConnectionState
+
+
+2016-03-22T17:32:17.435Z - info: Running on ios test: 2. emits incomingConnectionState
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+DEBUG createNativeListener: creating native server
+
+
+Instance 1:
+DEBUG createNativeListener: creating native server
+
+
+Instance 1:
+DEBUG createNativeListener: listening 50099
+
+
+Instance 2:
+DEBUG createNativeListener: listening 50098
+
+
+Instance 2:
+DEBUG createNativeListener: new incoming socket
+
+
+Instance 1:
+DEBUG createNativeListener: new incoming socket
+
+
+Instance 2:
+DEBUG createNativeListener: creating incoming mux
+
+
+Instance 1:
+DEBUG createNativeListener: creating incoming mux
+
+
+Instance 2:
+DEBUG createNativeListener: new mux
+
+
+Instance 1:
+DEBUG createNativeListener: new mux
+
+
+Instance 2:
+ok 2 initial connection state should be CONNECTED
+
+
+Instance 1:
+ok 2 initial connection state should be CONNECTED
+
+
+Instance 2:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+ok 3 final connection state should be DISCONNECTED
+
+
+Instance 1:
+# setup
+
+
+Instance 2:
+ok 3 final connection state should be DISCONNECTED
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+# 3. emits routerPortConnectionFailed
+
+
+Instance 2:
+# 3. emits routerPortConnectionFailed
+
+
+2016-03-22T17:32:17.464Z - info: Running on ios test: 3. emits routerPortConnectionFailed
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+DEBUG createNativeListener: creating native server
+
+
+Instance 1:
+DEBUG createNativeListener: listening 50104
+
+
+Instance 1:
+DEBUG createNativeListener: new incoming socket
+
+
+Instance 1:
+DEBUG createNativeListener: creating incoming mux
+
+
+Instance 2:
+DEBUG createNativeListener: creating native server
+
+
+Instance 1:
+DEBUG createNativeListener: new mux
+
+
+Instance 2:
+DEBUG createNativeListener: listening 50106
+
+
+Instance 2:
+DEBUG createNativeListener: new incoming socket
+
+
+Instance 2:
+DEBUG createNativeListener: creating incoming mux
+
+
+Instance 2:
+DEBUG createNativeListener: new mux
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: 
+
+
+Instance 1:
+ok 4 tried to connect to right port
+ok 5 failed due to refused connection
+
+
+Instance 1:
+ok 6 routerPortConnectionFailed is emitted
+
+
+Instance 1:
+# setup
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: 
+
+
+Instance 2:
+ok 4 tried to connect to right port
+
+
+Instance 2:
+ok 5 failed due to refused connection
+
+
+Instance 2:
+ok 6 routerPortConnectionFailed is emitted
+
+
+Instance 2:
+# setup
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: mux close
+
+
+Instance 2:
+DEBUG createNativeListener: mux close
+
+
+Instance 1:
+# 4. native server connections all up
+
+
+Instance 1:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 2:
+# 4. native server connections all up
+
+
+Instance 2:
+DEBUG createNativeListener: incoming socket close
+
+
+2016-03-22T17:32:17.497Z - info: Running on ios test: 4. native server connections all up
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+DEBUG createNativeListener: creating native server
+
+
+Instance 2:
+DEBUG createNativeListener: listening 50112
+
+
+Instance 1:
+DEBUG createNativeListener: creating native server
+
+
+Instance 1:
+DEBUG createNativeListener: listening 50113
+
+
+Instance 2:
+DEBUG createNativeListener: new incoming socket
+
+
+Instance 2:
+DEBUG createNativeListener: creating incoming mux
+
+
+Instance 2:
+DEBUG createNativeListener: new mux
+
+
+Instance 1:
+DEBUG createNativeListener: new incoming socket
+
+
+Instance 1:
+DEBUG createNativeListener: creating incoming mux
+
+
+Instance 1:
+DEBUG createNativeListener: new mux
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+ok 7 Send/recvd #1 should be equal length
+
+
+Instance 1:
+ok 7 Send/recvd #1 should be equal length
+
+
+Instance 1:
+ok 8 Send/recvd #1 should be same
+
+
+Instance 2:
+ok 8 Send/recvd #1 should be same
+
+
+Instance 1:
+ok 9 Send/recvd #2 should be equal length
+
+
+Instance 1:
+ok 10 Send/recvd #2 should be same
+
+
+Instance 2:
+ok 9 Send/recvd #2 should be equal length
+
+
+Instance 1:
+ok 11 Should be exactly 2 client sockets
+
+
+Instance 2:
+ok 10 Send/recvd #2 should be same
+
+
+Instance 2:
+ok 11 Should be exactly 2 client sockets
+
+
+Instance 1:
+# setup
+
+
+Instance 2:
+# setup
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: mux close
+
+
+Instance 1:
+# 5. native server - closing incoming stream cleans outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: mux close
+
+
+Instance 2:
+# 5. native server - closing incoming stream cleans outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 2:
+DEBUG createNativeListener: incoming socket close
+
+
+2016-03-22T17:32:17.535Z - info: Running on ios test: 5. native server - closing incoming stream cleans outgoing socket
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+DEBUG createNativeListener: creating native server
+
+
+Instance 1:
+DEBUG createNativeListener: creating native server
+
+
+Instance 2:
+DEBUG createNativeListener: listening 50122
+
+
+Instance 2:
+DEBUG createNativeListener: new incoming socket
+
+
+Instance 2:
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+
+
+Instance 1:
+DEBUG createNativeListener: listening 50123
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+ok 12 socket shouldn't close until after stream
+ok 13 incoming remains open
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+ok 12 socket shouldn't close until after stream
+
+
+Instance 1:
+ok 13 incoming remains open
+
+
+Instance 1:
+# setup
+
+
+Instance 2:
+DEBUG createNativeListener: mux close
+
+
+Instance 2:
+# 6. native server - closing incoming connection cleans outgoing socket
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+DEBUG createNativeListener: mux close
+
+
+Instance 1:
+# 6. native server - closing incoming connection cleans outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: incoming socket close
+
+
+2016-03-22T17:32:17.562Z - info: Running on ios test: 6. native server - closing incoming connection cleans outgoing socket
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+DEBUG createNativeListener: creating native server
+
+
+Instance 1:
+DEBUG createNativeListener: creating native server
+
+
+Instance 2:
+DEBUG createNativeListener: listening 50130
+
+
+Instance 1:
+DEBUG createNativeListener: listening 50131
+
+
+Instance 2:
+ok 14 we should not have gotten an error
+
+
+Instance 2:
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+ok 14 we should not have gotten an error
+
+
+Instance 2:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+ok 15 socket shouldn't close until after incoming
+ok 16 incoming is cleaned up
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+ok 15 socket shouldn't close until after incoming
+
+
+Instance 1:
+ok 16 incoming is cleaned up
+
+
+Instance 1:
+# setup
+
+
+Instance 2:
+# 7. native server - closing outgoing socket cleans associated mux stream
+
+
+Instance 1:
+# 7. native server - closing outgoing socket cleans associated mux stream
+
+
+2016-03-22T17:32:17.585Z - info: Running on ios test: 7. native server - closing outgoing socket cleans associated mux stream
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+DEBUG createNativeListener: creating native server
+
+
+Instance 1:
+DEBUG createNativeListener: creating native server
+
+
+Instance 1:
+DEBUG createNativeListener: listening 50139
+
+
+Instance 2:
+DEBUG createNativeListener: listening 50138
+
+
+Instance 2:
+DEBUG createNativeListener: new incoming socket
+
+
+Instance 2:
+DEBUG createNativeListener: creating incoming mux
+
+
+Instance 2:
+DEBUG createNativeListener: new mux
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new incoming socket
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+
+
+Instance 2:
+ok 17 stream was closed
+
+
+Instance 2:
+ok 18 incoming should survive
+
+
+Instance 2:
+ok 19 mux should have no streams
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+ok 17 stream was closed
+
+
+Instance 1:
+ok 18 incoming should survive
+
+
+Instance 1:
+ok 19 mux should have no streams
+
+
+Instance 1:
+# setup
+
+
+Instance 2:
+DEBUG createNativeListener: mux close
+
+
+Instance 2:
+# 8. native server - closing the whole server cleans everything up
+
+
+Instance 1:
+DEBUG createNativeListener: mux close
+
+
+Instance 1:
+# 8. native server - closing the whole server cleans everything up
+
+
+Instance 2:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+DEBUG createNativeListener: incoming socket close
+
+
+2016-03-22T17:32:17.618Z - info: Running on ios test: 8. native server - closing the whole server cleans everything up
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+DEBUG createNativeListener: creating native server
+
+
+Instance 2:
+DEBUG createNativeListener: listening 50146
+
+
+Instance 2:
+DEBUG createNativeListener: new incoming socket
+
+
+Instance 2:
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+
+
+Instance 1:
+DEBUG createNativeListener: creating native server
+
+
+Instance 2:
+ok 20 we should not have gotten an error
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: listening 50148
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+
+
+Instance 2:
+ok 21 Buffers are identical
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+DEBUG createNativeListener: mux close
+
+
+Instance 2:
+ok 22 native server is nulled out
+ok 23 native server should be closed
+ok 24 incoming has been removed
+ok 25 Incoming should be done
+ok 26 The mux object should be closed
+ok 27 The mux stream should be closed
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+DEBUG createNativeListener: new mux
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+ok 20 we should not have gotten an error
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+ok 21 Buffers are identical
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: mux close
+
+
+Instance 1:
+ok 22 native server is nulled out
+
+
+Instance 1:
+ok 23 native server should be closed
+
+
+Instance 1:
+ok 24 incoming has been removed
+
+
+Instance 1:
+ok 25 Incoming should be done
+
+
+Instance 1:
+ok 26 The mux object should be closed
+ok 27 The mux stream should be closed
+
+
+Instance 1:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+# setup
+
+
+Instance 2:
+# 9. native server - we can get a ton of connections and data through and still clean up the server completely
+
+
+Instance 1:
+# 9. native server - we can get a ton of connections and data through and still clean up the server completely
+
+
+2016-03-22T17:32:17.645Z - info: Running on ios test: 9. native server - we can get a ton of connections and data through and still clean up the server completely
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+DEBUG createNativeListener: creating native server
+
+
+Instance 1:
+DEBUG createNativeListener: creating native server
+
+
+Instance 2:
+DEBUG createNativeListener: listening 50154
+
+
+Instance 1:
+DEBUG createNativeListener: listening 50155
+
+
+Instance 2:
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+
+
+Instance 1:
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+DEBUG createNativeListener: new incoming socket
+DEBUG createNativeListener: creating incoming mux
+DEBUG createNativeListener: new mux
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+DEBUG createNativeListener: new stream: 
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+DEBUG createNativeListener: new outgoing socket
+DEBUG createNativeListener: new stream: 
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+DEBUG createNativeListener: new stream: 
+DEBUG createNativeListener: new outgoing socket
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+DEBUG createNativeListener: new stream: 
+DEBUG createNativeListener: new outgoing socket
+DEBUG createNativeListener: new stream: 
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+DEBUG createNativeListener: new stream: 
+DEBUG createNativeListener: new outgoing socket
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+DEBUG createNativeListener: new stream: 
+DEBUG createNativeListener: new outgoing socket
+DEBUG createNativeListener: new stream: 
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+DEBUG createNativeListener: new outgoing socket
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+DEBUG createNativeListener: new stream: 
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+DEBUG createNativeListener: mux close
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+DEBUG createNativeListener: mux close
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+DEBUG createNativeListener: mux close
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+DEBUG createNativeListener: mux close
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+DEBUG createNativeListener: stream close:
+DEBUG createNativeListener: stream close:
+DEBUG createNativeListener: stream close:
+DEBUG createNativeListener: mux close
+DEBUG createNativeListener: stream close:
+DEBUG createNativeListener: stream close:
+DEBUG createNativeListener: stream close:
+DEBUG createNativeListener: stream close:
+DEBUG createNativeListener: mux close
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+DEBUG createNativeListener: mux close
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: mux close
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: mux close
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: mux close
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+ok 28 native server is nulled out
+
+
+Instance 2:
+ok 29 native server should be closed
+
+
+Instance 2:
+ok 30 incoming has been removed
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 2:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 2:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 2:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 2:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: mux close
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: mux close
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: mux close
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: mux close
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: mux close
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: mux close
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: mux close
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: mux close
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: mux close
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: mux close
+
+
+Instance 1:
+ok 28 native server is nulled out
+
+
+Instance 1:
+ok 29 native server should be closed
+
+
+Instance 1:
+ok 30 incoming has been removed
+
+
+Instance 1:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+DEBUG createNativeListener: incoming socket close
+DEBUG createNativeListener: incoming socket close
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+# setup
+
+
+Instance 1:
+# 10. native server - simulate mux failure, make sure everything is cleaned up
+
+
+Instance 2:
+# 10. native server - simulate mux failure, make sure everything is cleaned up
+
+
+2016-03-22T17:32:17.809Z - info: Running on ios test: 10. native server - simulate mux failure, make sure everything is cleaned up
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+DEBUG createNativeListener: creating native server
+
+
+Instance 1:
+DEBUG createNativeListener: listening 50258
+
+
+Instance 1:
+ok 31 we should not have gotten an error
+
+
+Instance 1:
+DEBUG createNativeListener: new incoming socket
+
+
+Instance 1:
+DEBUG createNativeListener: creating incoming mux
+
+
+Instance 1:
+DEBUG createNativeListener: new mux
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+ok 32 Buffers are identical
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: mux close
+
+
+Instance 2:
+DEBUG createNativeListener: creating native server
+
+
+Instance 1:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+ok 33 server should be fine
+
+
+Instance 1:
+ok 34 server should be open
+ok 35 incoming has been removed
+
+
+Instance 2:
+DEBUG createNativeListener: listening 50261
+
+
+Instance 1:
+ok 36 The mux object should be closed
+
+
+Instance 1:
+ok 37 The mux stream should be closed
+
+
+Instance 2:
+DEBUG createNativeListener: new incoming socket
+
+
+Instance 2:
+DEBUG createNativeListener: creating incoming mux
+
+
+Instance 2:
+DEBUG createNativeListener: new mux
+
+
+Instance 1:
+# setup
+
+
+Instance 2:
+ok 31 we should not have gotten an error
+DEBUG createNativeListener: new stream: 
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 2:
+ok 32 Buffers are identical
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+DEBUG createNativeListener: mux close
+
+
+Instance 2:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 2:
+ok 33 server should be fine
+
+
+Instance 2:
+ok 34 server should be open
+
+
+Instance 2:
+ok 35 incoming has been removed
+
+
+Instance 2:
+ok 36 The mux object should be closed
+
+
+Instance 2:
+ok 37 The mux stream should be closed
+
+
+Instance 2:
+# setup
+
+
+Instance 2:
+# 11. native server - timing out the incoming connection cleans everything up
+
+
+Instance 1:
+# 11. native server - timing out the incoming connection cleans everything up
+
+
+2016-03-22T17:32:17.838Z - info: Running on ios test: 11. native server - timing out the incoming connection cleans everything up
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+# teardown
+
+
+Instance 1:
+DEBUG createNativeListener: creating native server
+
+
+Instance 1:
+DEBUG createNativeListener: listening 50266
+
+
+Instance 2:
+DEBUG createNativeListener: creating native server
+
+
+Instance 2:
+DEBUG createNativeListener: listening 50268
+
+
+Instance 1:
+DEBUG createNativeListener: new incoming socket
+
+
+Instance 1:
+DEBUG createNativeListener: creating incoming mux
+
+
+Instance 2:
+DEBUG createNativeListener: new incoming socket
+
+
+Instance 1:
+DEBUG createNativeListener: new mux
+
+
+Instance 2:
+DEBUG createNativeListener: creating incoming mux
+
+
+Instance 2:
+DEBUG createNativeListener: new mux
+
+
+Instance 2:
+ok 38 we should not have gotten an error
+
+
+Instance 2:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 2:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+ok 38 we should not have gotten an error
+
+
+Instance 2:
+ok 39 Buffers are identical
+
+
+Instance 1:
+DEBUG createNativeListener: new stream: 
+
+
+Instance 1:
+DEBUG createNativeListener: new outgoing socket
+
+
+Instance 1:
+ok 39 Buffers are identical
+
+
+Instance 2:
+DEBUG createNativeListener: incoming socket timeout
+
+
+Instance 2:
+DEBUG createNativeListener: stream close:
+
+
+Instance 2:
+DEBUG createNativeListener: mux close
+
+
+Instance 1:
+DEBUG createNativeListener: incoming socket timeout
+
+
+Instance 2:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 2:
+ok 40 server should be fine
+
+
+Instance 2:
+ok 41 server should be open
+
+
+Instance 2:
+ok 42 incoming has been removed
+
+
+Instance 2:
+ok 43 The mux object should be closed
+
+
+Instance 2:
+ok 44 The mux stream should be closed
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+DEBUG createNativeListener: stream close:
+
+
+Instance 1:
+DEBUG createNativeListener: mux close
+
+
+Instance 1:
+DEBUG createNativeListener: incoming socket close
+
+
+Instance 1:
+ok 40 server should be fine
+
+
+Instance 1:
+ok 41 server should be open
+
+
+Instance 1:
+ok 42 incoming has been removed
+
+
+Instance 1:
+ok 43 The mux object should be closed
+
+
+Instance 1:
+ok 44 The mux stream should be closed
+
+
+Instance 1:
+# setup
+
+
+Instance 2:
+# 12. closeAll can close even when connections open
+
+
+Instance 1:
+# 12. closeAll can close even when connections open
+
+
+2016-03-22T17:32:17.872Z - info: Running on ios test: 12. closeAll can close even when connections open
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+ok 45 not possible to connect to the server anymore
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+ok 45 not possible to connect to the server anymore
+
+
+Instance 1:
+# setup
+
+
+Instance 2:
+# 13. closeAll with promise
+
+
+Instance 1:
+# 13. closeAll with promise
+
+
+2016-03-22T17:32:17.889Z - info: Running on ios test: 13. closeAll with promise
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 2:
+ok 46 not possible to connect to the server anymore
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+ok 46 not possible to connect to the server anymore
+
+
+Instance 1:
+# setup
+
+
+Instance 2:
+# 14. multiplex can send data
+
+
+Instance 1:
+# 14. multiplex can send data
+
+
+2016-03-22T17:32:17.909Z - info: Running on ios test: 14. multiplex can send data
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+ok 47 String should be length:200
+
+
+Instance 1:
+# setup
+
+
+Instance 2:
+ok 47 String should be length:200
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+# 15. enqueue and run in order
+
+
+Instance 2:
+# 15. enqueue and run in order
+
+
+2016-03-22T17:32:17.924Z - info: Running on ios test: 15. enqueue and run in order
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 2:
+ok 48 firstPromise setTimeout
+ok 49 firstPromise result
+ok 50 firstPromise testValue
+
+
+Instance 1:
+ok 48 firstPromise setTimeout
+ok 49 firstPromise result
+ok 50 firstPromise testValue
+
+
+Instance 1:
+ok 51 secondPromise setTimeout
+ok 52 secondPromise result
+ok 53 secondPromise testValue
+ok 54 thirdPromise in promise
+ok 55 thirdPromise result
+ok 56 thirdPromise testValue
+
+
+Instance 2:
+ok 51 secondPromise setTimeout
+ok 52 secondPromise result
+ok 53 secondPromise testValue
+ok 54 thirdPromise in promise
+ok 55 thirdPromise result
+ok 56 thirdPromise testValue
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+# setup
+
+
+Instance 2:
+# 16. enqueueAtTop and run backwards
+
+
+Instance 1:
+# 16. enqueueAtTop and run backwards
+
+
+2016-03-22T17:32:18.171Z - info: Running on ios test: 16. enqueueAtTop and run backwards
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 2:
+ok 57 thirdPromise - first to run
+
+
+Instance 2:
+ok 58 thirdPromise - in resolve
+
+
+Instance 2:
+ok 59 secondPromise - second to run
+
+
+Instance 2:
+ok 60 secondPromise - in catch
+
+
+Instance 2:
+ok 61 firstPromise - third to run
+
+
+Instance 2:
+ok 62 firstPromise - in then
+
+
+Instance 2:
+ok 63 testing promises
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+ok 57 thirdPromise - first to run
+
+
+Instance 1:
+ok 58 thirdPromise - in resolve
+
+
+Instance 1:
+ok 59 secondPromise - second to run
+
+
+Instance 1:
+ok 60 secondPromise - in catch
+
+
+Instance 1:
+ok 61 firstPromise - third to run
+
+
+Instance 1:
+ok 62 firstPromise - in then
+
+
+Instance 1:
+ok 63 testing promises
+
+
+Instance 1:
+# setup
+
+
+Instance 2:
+# 17. mix enqueue and enqueueAtTop
+
+
+Instance 1:
+# 17. mix enqueue and enqueueAtTop
+
+
+2016-03-22T17:32:18.193Z - info: Running on ios test: 17. mix enqueue and enqueueAtTop
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+ok 64 fourth
+
+
+Instance 2:
+ok 65 fourth
+
+
+Instance 2:
+ok 66 second
+
+
+Instance 2:
+ok 67 secondPromise - in then
+
+
+Instance 1:
+ok 64 fourth
+
+
+Instance 1:
+ok 65 fourth
+
+
+Instance 1:
+ok 66 second
+
+
+Instance 1:
+ok 67 secondPromise - in then
+
+
+Instance 2:
+ok 68 first
+
+
+Instance 2:
+ok 69 firstPromise - in catch
+
+
+Instance 1:
+ok 68 first
+
+
+Instance 2:
+ok 70 third
+
+
+Instance 2:
+ok 71 thirdPromise - in then
+ok 72 testingPromises
+
+
+Instance 1:
+ok 69 firstPromise - in catch
+ok 70 third
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+ok 71 thirdPromise - in then
+
+
+Instance 1:
+ok 72 testingPromises
+
+
+Instance 1:
+# setup
+
+
+Instance 1:
+# 18. queues handled independently
+
+
+Instance 2:
+# 18. queues handled independently
+
+
+2016-03-22T17:32:18.322Z - info: Running on ios test: 18. queues handled independently
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+# teardown
+
+
+Instance 1:
+ok 73 all short operations completed before the long resolves
+
+
+Instance 2:
+ok 73 all short operations completed before the long resolves
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+# setup
+
+
+Instance 1:
+# 19. basic
+
+
+Instance 2:
+# 19. basic
+
+
+2016-03-22T17:32:18.391Z - info: Running on ios test: 19. basic
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+# teardown
+
+
+Instance 1:
+ok 74 sane
+
+
+Instance 1:
+# setup
+
+
+Instance 2:
+ok 74 sane
+
+
+Instance 2:
+# setup
+
+
+Instance 2:
+# 20. another
+
+
+Instance 1:
+# 20. another
+
+
+2016-03-22T17:32:18.407Z - info: Running on ios test: 20. another
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+ok 75 sane
+
+
+Instance 1:
+ok 75 sane
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+# setup
+
+
+Instance 2:
+# 21. #startListeningForAdvertisements should fail if start not called
+
+
+Instance 1:
+# 21. #startListeningForAdvertisements should fail if start not called
+
+
+2016-03-22T17:32:18.423Z - info: Running on ios test: 21. #startListeningForAdvertisements should fail if start not called
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+# teardown
+
+
+Instance 1:
+ok 76 specific error should be returned
+
+
+Instance 2:
+ok 76 specific error should be returned
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+# setup
+
+
+Instance 1:
+ok 77 error should be null
+
+
+Instance 2:
+ok 77 error should be null
+ok 78 error should be null
+# 22. #startUpdateAdvertisingAndListening should fail if start not called
+
+
+Instance 1:
+ok 78 error should be null
+# 22. #startUpdateAdvertisingAndListening should fail if start not called
+
+
+2016-03-22T17:32:18.437Z - info: Running on ios test: 22. #startUpdateAdvertisingAndListening should fail if start not called
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 2:
+ok 79 specific error should be returned
+
+
+Instance 1:
+ok 79 specific error should be returned
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+# setup
+
+
+Instance 2:
+ok 80 error should be null
+
+
+Instance 2:
+ok 81 error should be null
+
+
+Instance 2:
+# 23. should be able to call #stopListeningForAdvertisements many times
+
+
+Instance 1:
+ok 80 error should be null
+
+
+Instance 1:
+ok 81 error should be null
+
+
+Instance 1:
+# 23. should be able to call #stopListeningForAdvertisements many times
+
+
+2016-03-22T17:32:18.457Z - info: Running on ios test: 23. should be able to call #stopListeningForAdvertisements many times
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+DEBUG createNativeListener: creating native server
+
+
+Instance 1:
+DEBUG createNativeListener: creating native server
+
+
+Instance 2:
+DEBUG createNativeListener: listening 50290
+
+
+Instance 1:
+DEBUG createNativeListener: listening 50291
+
+
+Instance 2:
+ok 82 error should be null
+
+
+Instance 2:
+ok 83 error should be null
+
+
+Instance 2:
+ok 84 error should be null
+
+
+Instance 2:
+ok 85 error should be null
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+ok 82 error should be null
+
+
+Instance 1:
+ok 83 error should be null
+
+
+Instance 1:
+ok 84 error should be null
+
+
+Instance 1:
+ok 85 error should be null
+# setup
+
+
+Instance 2:
+ok 86 error should be null
+
+
+Instance 2:
+ok 87 error should be null
+
+
+Instance 2:
+# 24. should be able to call #startListeningForAdvertisements many times
+
+
+Instance 1:
+ok 86 error should be null
+
+
+Instance 1:
+ok 87 error should be null
+
+
+Instance 1:
+# 24. should be able to call #startListeningForAdvertisements many times
+
+
+2016-03-22T17:32:18.483Z - info: Running on ios test: 24. should be able to call #startListeningForAdvertisements many times
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+DEBUG createNativeListener: creating native server
+DEBUG createNativeListener: listening 50294
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
+ok 88 error should be null
+ok 89 error should be null
+ok 90 error should be null
+ok 91 error should be null
+# setup
+
+
+Instance 2:
+DEBUG createNativeListener: creating native server
+DEBUG createNativeListener: listening 50295
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
+ok 88 error should be null
+ok 89 error should be null
+ok 90 error should be null
+ok 91 error should be null
+# setup
+
+
+Instance 1:
+INFO thaliMobile: Filtered out discoveryAdvertisingStateUpdate (was in stopped state).
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+ok 92 error should be null
+ok 93 error should be null
+# 25. should be able to call #startUpdateAdvertisingAndListening many times
+
+
+Instance 2:
+INFO thaliMobile: Filtered out discoveryAdvertisingStateUpdate (was in stopped state).
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+ok 92 error should be null
+ok 93 error should be null
+# 25. should be able to call #startUpdateAdvertisingAndListening many times
+
+
+2016-03-22T17:32:18.500Z - info: Running on ios test: 25. should be able to call #startUpdateAdvertisingAndListening many times
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+DEBUG createNativeListener: creating native server
+DEBUG createNativeListener: listening 50298
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
+ok 94 error should be null
+ok 95 error should be null
+
+
+Instance 2:
+DEBUG createNativeListener: creating native server
+DEBUG createNativeListener: listening 50299
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
+ok 94 error should be null
+ok 95 error should be null
+
+
+Instance 2:
+ok 96 error should be null
+ok 97 error should be null
+
+
+Instance 1:
+ok 96 error should be null
+ok 97 error should be null
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+# setup
+
+
+Instance 2:
+INFO thaliMobile: Filtered out discoveryAdvertisingStateUpdate (was in stopped state).
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+
+
+Instance 2:
+ok 98 error should be null
+
+
+Instance 2:
+ok 99 error should be null
+
+
+Instance 2:
+# 26. should be able to call #stopAdvertisingAndListening many times
+
+
+Instance 1:
+INFO thaliMobile: Filtered out discoveryAdvertisingStateUpdate (was in stopped state).
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+
+
+Instance 1:
+ok 98 error should be null
+
+
+Instance 1:
+ok 99 error should be null
+
+
+Instance 1:
+# 26. should be able to call #stopAdvertisingAndListening many times
+
+
+2016-03-22T17:32:18.526Z - info: Running on ios test: 26. should be able to call #stopAdvertisingAndListening many times
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+DEBUG createNativeListener: creating native server
+
+
+Instance 2:
+DEBUG createNativeListener: listening 50307
+
+
+Instance 2:
+ok 100 error should be null
+
+
+Instance 2:
+ok 101 error should be null
+
+
+Instance 1:
+DEBUG createNativeListener: creating native server
+
+
+Instance 2:
+ok 102 error should be null
+ok 103 error should be null
+# setup
+
+
+Instance 1:
+DEBUG createNativeListener: listening 50309
+
+
+Instance 1:
+ok 100 error should be null
+ok 101 error should be null
+
+
+Instance 1:
+ok 102 error should be null
+
+
+Instance 1:
+ok 103 error should be null
+
+
+Instance 1:
+# setup
+
+
+Instance 2:
+ok 104 error should be null
+
+
+Instance 1:
+ok 104 error should be null
+
+
+Instance 2:
+ok 105 error should be null
+# 27. #start should fail if called twice in a row
+
+
+Instance 1:
+ok 105 error should be null
+
+
+Instance 1:
+# 27. #start should fail if called twice in a row
+
+
+2016-03-22T17:32:18.546Z - info: Running on ios test: 27. #start should fail if called twice in a row
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+DEBUG createNativeListener: creating native server
+DEBUG createNativeListener: listening 50312
+ok 106 first call should succeed
+ok 107 first call should succeed
+ok 108 specific error should be returned
+# setup
+
+
+Instance 2:
+DEBUG createNativeListener: creating native server
+DEBUG createNativeListener: listening 50313
+ok 106 first call should succeed
+ok 107 first call should succeed
+ok 108 specific error should be returned
+# setup
+
+
+Instance 1:
+ok 109 error should be null
+ok 110 error should be null
+# 28. does not emit duplicate discoveryAdvertisingStateUpdate
+
+
+Instance 2:
+ok 109 error should be null
+ok 110 error should be null
+# 28. does not emit duplicate discoveryAdvertisingStateUpdate
+
+
+2016-03-22T17:32:18.562Z - info: Running on ios test: 28. does not emit duplicate discoveryAdvertisingStateUpdate
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 2:
+DEBUG createNativeListener: creating native server
+DEBUG createNativeListener: listening 50316
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":true}
+ok 111 called only once
+ok 112 discovery state matches
+ok 113 advertising state matches
+# setup
+
+
+Instance 1:
+DEBUG createNativeListener: creating native server
+DEBUG createNativeListener: listening 50317
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":true}
+ok 111 called only once
+ok 112 discovery state matches
+ok 113 advertising state matches
+
+
+Instance 1:
+# setup
+
+
+Instance 1:
+DEBUG createPeerListener: createPeerListener
+DEBUG createPeerListener: pleaseConnect= false
+
+
+Instance 2:
+INFO thaliMobile: Received state did not match with target: {"nonTCPDiscoveryActive":true,"nonTCPAdvertisingActive":true,"wifiDiscoveryActive":true,"wifiAdvertisingActive":false,"discoveryActive":false,"advertisingActive":false}
+INFO thaliMobile: Filtered out discoveryAdvertisingStateUpdate (was in stopped state).
+INFO thaliMobile: Filtered out discoveryAdvertisingStateUpdate (was in stopped state).
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+ok 114 error should be null
+ok 115 error should be null
+
+
+Instance 2:
+# 29. does not send duplicate availability changes
+
+
+Instance 1:
+INFO thaliMobile: Received state did not match with target: {"nonTCPDiscoveryActive":true,"nonTCPAdvertisingActive":true,"wifiDiscoveryActive":true,"wifiAdvertisingActive":false,"discoveryActive":false,"advertisingActive":false}
+
+
+Instance 1:
+INFO thaliMobile: Filtered out discoveryAdvertisingStateUpdate (was in stopped state).
+
+
+Instance 1:
+INFO thaliMobile: Filtered out discoveryAdvertisingStateUpdate (was in stopped state).
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+
+
+Instance 1:
+ok 114 error should be null
+
+
+Instance 1:
+ok 115 error should be null
+
+
+Instance 1:
+# 29. does not send duplicate availability changes
+
+
+2016-03-22T17:32:18.593Z - info: Running on ios test: 29. does not send duplicate availability changes
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+ok 116 should be called once
+ok 117 should not have been called more than once
+# setup
+
+
+Instance 2:
+ok 116 should be called once
+ok 117 should not have been called more than once
+# setup
+
+
+Instance 2:
+ok 118 error should be null
+ok 119 error should be null
+# 30. can get the network status
+
+
+Instance 1:
+ok 118 error should be null
+ok 119 error should be null
+# 30. can get the network status
+
+
+2016-03-22T17:32:18.607Z - info: Running on ios test: 30. can get the network status
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+ok 120 network status should have certain non-empty properties
+# setup
+
+
+Instance 2:
+ok 120 network status should have certain non-empty properties
+# setup
+
+
+Instance 1:
+ok 121 error should be null
+ok 122 error should be null
+# 31. wifi peer is marked unavailable if announcements stop
+
+
+Instance 2:
+ok 121 error should be null
+ok 122 error should be null
+# 31. wifi peer is marked unavailable if announcements stop
+
+
+2016-03-22T17:32:18.620Z - info: Running on ios test: 31. wifi peer is marked unavailable if announcements stop
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+# teardown
+
+
+Instance 1:
+ERROR thaliMobileNativeWrapper: Unable to use the given router: TypeError: Router.use() requires middleware function but got a undefined
+ok 123 host address should match
+ok 124 port should match
+
+
+Instance 2:
+ERROR thaliMobileNativeWrapper: Unable to use the given router: TypeError: Router.use() requires middleware function but got a undefined
+
+
+Instance 2:
+ok 123 host address should match
+
+
+Instance 2:
+ok 124 port should match
+
+
+Instance 1:
+ok 125 host address should be null
+ok 126 port should should be null
+
+
+Instance 2:
+ok 125 host address should be null
+ok 126 port should should be null
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+# setup
+
+
+Instance 1:
+INFO thaliMobile: Filtered out discoveryAdvertisingStateUpdate (was in stopped state).
+ok 127 error should be null
+ok 128 error should be null
+# 32. network changes emitted correctly
+
+
+Instance 2:
+INFO thaliMobile: Filtered out discoveryAdvertisingStateUpdate (was in stopped state).
+ok 127 error should be null
+ok 128 error should be null
+# 32. network changes emitted correctly
+
+
+2016-03-22T17:32:19.651Z - info: Running on ios test: 32. network changes emitted correctly
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+DEBUG createNativeListener: creating native server
+DEBUG createNativeListener: listening 50327
+DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"off","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
+ok 129 wifi is off
+DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"on","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
+ok 130 wifi is on
+
+
+Instance 2:
+DEBUG createNativeListener: creating native server
+DEBUG createNativeListener: listening 50328
+DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"off","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
+ok 129 wifi is off
+DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"on","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
+ok 130 wifi is on
+# setup
+
+
+Instance 1:
+# setup
+
+
+Instance 1:
+ok 131 error should be null
+ok 132 error should be null
+# 33. network changes not emitted in stopped state
+
+
+Instance 2:
+ok 131 error should be null
+
+
+Instance 2:
+ok 132 error should be null
+
+
+Instance 2:
+# 33. network changes not emitted in stopped state
+
+
+2016-03-22T17:32:19.669Z - info: Running on ios test: 33. network changes not emitted in stopped state
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+ok 133 event was not emitted
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"off","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"on","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
+
+
+Instance 1:
+ok 133 event was not emitted
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"off","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"on","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
+
+
+Instance 1:
+# setup
+
+
+Instance 1:
+ok 134 error should be null
+
+
+Instance 1:
+ok 135 error should be null
+
+
+Instance 2:
+ok 134 error should be null
+
+
+Instance 2:
+ok 135 error should be null
+
+
+Instance 2:
+# 34. calls correct starts when network changes
+
+
+Instance 1:
+# 34. calls correct starts when network changes
+
+
+2016-03-22T17:32:19.687Z - info: Running on ios test: 34. calls correct starts when network changes
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+# teardown
+
+
+Instance 1:
+DEBUG createNativeListener: creating native server
+
+
+Instance 2:
+DEBUG createNativeListener: creating native server
+
+
+Instance 2:
+DEBUG createNativeListener: listening 50331
+
+
+Instance 1:
+DEBUG createNativeListener: listening 50332
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"off","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"off","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
+
+
+Instance 2:
+ok 136 specific error expected
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
+
+
+Instance 1:
+ok 136 specific error expected
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":true}
+
+
+Instance 2:
+ok 137 specific error expected
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"on","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":true}
+
+
+Instance 1:
+ok 137 specific error expected
+
+
+Instance 2:
+INFO thaliMobile: Received state did not match with target: {"nonTCPDiscoveryActive":true,"nonTCPAdvertisingActive":true,"wifiDiscoveryActive":true,"wifiAdvertisingActive":false,"discoveryActive":true,"advertisingActive":true}
+
+
+Instance 1:
+DEBUG createPeerListener: createPeerListener
+
+
+Instance 1:
+DEBUG createPeerListener: pleaseConnect= false
+
+
+Instance 2:
+ok 138 startListeningForAdvertisements should have been called
+
+
+Instance 2:
+ok 139 startUpdateAdvertisingAndListening should have been called
+
+
+Instance 2:
+DEBUG createPeerListener: createPeerListener
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"on","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
+
+
+Instance 2:
+DEBUG createPeerListener: pleaseConnect= false
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+INFO thaliMobile: Received state did not match with target: {"nonTCPDiscoveryActive":true,"nonTCPAdvertisingActive":true,"wifiDiscoveryActive":true,"wifiAdvertisingActive":false,"discoveryActive":true,"advertisingActive":true}
+
+
+Instance 1:
+DEBUG createPeerListener: createPeerListener
+
+
+Instance 1:
+DEBUG createPeerListener: pleaseConnect= false
+
+
+Instance 1:
+ok 138 startListeningForAdvertisements should have been called
+
+
+Instance 1:
+ok 139 startUpdateAdvertisingAndListening should have been called
+
+
+Instance 1:
+# setup
+
+
+Instance 2:
+DEBUG createPeerListener: createPeerListener
+
+
+Instance 2:
+DEBUG createPeerListener: pleaseConnect= false
+
+
+Instance 2:
+INFO thaliMobile: Received state did not match with target: {"nonTCPDiscoveryActive":true,"nonTCPAdvertisingActive":true,"wifiDiscoveryActive":true,"wifiAdvertisingActive":false,"discoveryActive":false,"advertisingActive":false}
+
+
+Instance 2:
+INFO thaliMobile: Filtered out discoveryAdvertisingStateUpdate (was in stopped state).
+
+
+Instance 2:
+INFO thaliMobile: Filtered out discoveryAdvertisingStateUpdate (was in stopped state).
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+
+
+Instance 1:
+INFO thaliMobile: Received state did not match with target: {"nonTCPDiscoveryActive":true,"nonTCPAdvertisingActive":true,"wifiDiscoveryActive":true,"wifiAdvertisingActive":false,"discoveryActive":false,"advertisingActive":false}
+
+
+Instance 1:
+INFO thaliMobile: Filtered out discoveryAdvertisingStateUpdate (was in stopped state).
+
+
+Instance 2:
+ok 140 error should be null
+
+
+Instance 2:
+ok 141 error should be null
+
+
+Instance 2:
+# 35. when network connection is lost a peer should be marked unavailable
+
+
+Instance 1:
+INFO thaliMobile: Filtered out discoveryAdvertisingStateUpdate (was in stopped state).
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+
+
+Instance 1:
+ok 140 error should be null
+
+
+Instance 1:
+ok 141 error should be null
+
+
+Instance 1:
+# 35. when network connection is lost a peer should be marked unavailable
+
+
+2016-03-22T17:32:19.732Z - info: Running on ios test: 35. when network connection is lost a peer should be marked unavailable
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+DEBUG createNativeListener: creating native server
+
+
+Instance 2:
+DEBUG createNativeListener: creating native server
+
+
+Instance 2:
+DEBUG createNativeListener: listening 50346
+
+
+Instance 1:
+DEBUG createNativeListener: listening 50345
+
+
+Instance 2:
+INFO testUtils: Toggling radios to: false
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"on","bluetooth":"off","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
+
+
+Instance 1:
+INFO testUtils: Toggling radios to: false
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"off","bluetooth":"off","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"on","bluetooth":"off","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
+
+
+Instance 2:
+ok 142 host address should be null
+
+
+Instance 2:
+ok 143 port number should be null
+
+
+Instance 2:
+INFO testUtils: Toggling radios to: true
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"off","bluetooth":"off","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"off","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
+
+
+Instance 1:
+ok 142 host address should be null
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+ok 143 port number should be null
+
+
+Instance 1:
+INFO testUtils: Toggling radios to: true
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"on","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"off","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
+
+
+Instance 2:
+ok 144 error should be null
+
+
+Instance 2:
+ok 145 error should be null
+
+
+Instance 2:
+# 36. a peer should be found after #startListeningForAdvertisements is called
+
+
+Instance 1:
+ok 144 error should be null
+
+
+Instance 1:
+ok 145 error should be null
+
+
+Instance 1:
+# setup
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"on","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
+
+
+2016-03-22T17:32:19.757Z - info: Running on ios test: 36. a peer should be found after #startListeningForAdvertisements is called
+
+
+Instance 1:
+# 36. a peer should be found after #startListeningForAdvertisements is called
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 2:
+DEBUG createNativeListener: creating native server
+
+
+Instance 2:
+DEBUG createNativeListener: listening 50349
+
+
+Instance 2:
+ok 146 error should be null
+
+
+Instance 2:
+ok 147 error should be null
+
+
+Instance 1:
+DEBUG createNativeListener: creating native server
+
+
+Instance 1:
+DEBUG createNativeListener: listening 50350
+
+
+Instance 1:
+ok 146 error should be null
+
+
+Instance 1:
+ok 147 error should be null
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
+
+
+Instance 2:
+ok 148 error should be null
+
+
+Instance 2:
+ok 149 error should be null
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":true}
+
+
+Instance 2:
+ok 150 error should be null
+
+
+Instance 2:
+ok 151 error should be null
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
+
+
+Instance 1:
+ok 148 error should be null
+
+
+Instance 1:
+ok 149 error should be null
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":true}
+
+
+Instance 1:
+ok 150 error should be null
+
+
+Instance 1:
+ok 151 error should be null
+
+
+Instance 2:
+DEBUG createPeerListener: createPeerListener
+
+
+Instance 2:
+DEBUG createPeerListener: pleaseConnect= false
+
+
+Instance 2:
+ok 152 peer should have a non-empty identifier
+
+
+Instance 2:
+ok 153 peer should have a non-empty host address
+
+
+Instance 2:
+ok 154 peer should have suggested timeout
+
+
+Instance 2:
+ok 155 peer should have port number
+
+
+Instance 2:
+ok 156 peer should have a connection type
+
+
+Instance 2:
+ok 157 connection type should match one of the pre-defined types
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+DEBUG createPeerListener: createPeerListener
+DEBUG createPeerListener: pleaseConnect= false
+ok 152 peer should have a non-empty identifier
+ok 153 peer should have a non-empty host address
+ok 154 peer should have suggested timeout
+
+
+Instance 2:
+DEBUG createPeerListener: createPeerListener
+
+
+Instance 1:
+ok 155 peer should have port number
+ok 156 peer should have a connection type
+
+
+Instance 1:
+ok 157 connection type should match one of the pre-defined types
+
+
+Instance 1:
+# setup
+
+
+Instance 1:
+INFO thaliMobile: Received state did not match with target: {"nonTCPDiscoveryActive":true,"nonTCPAdvertisingActive":true,"wifiDiscoveryActive":true,"wifiAdvertisingActive":false,"discoveryActive":false,"advertisingActive":false}
+INFO thaliMobile: Filtered out discoveryAdvertisingStateUpdate (was in stopped state).
+
+
+Instance 1:
+INFO thaliMobile: Filtered out discoveryAdvertisingStateUpdate (was in stopped state).
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+ok 158 error should be null
+ok 159 error should be null
+# 37. Can call start/stopListeningForAdvertisements
+
+
+Instance 2:
+INFO thaliMobile: Received state did not match with target: {"nonTCPDiscoveryActive":true,"nonTCPAdvertisingActive":true,"wifiDiscoveryActive":true,"wifiAdvertisingActive":false,"discoveryActive":false,"advertisingActive":false}
+INFO thaliMobile: Filtered out discoveryAdvertisingStateUpdate (was in stopped state).
+INFO thaliMobile: Filtered out discoveryAdvertisingStateUpdate (was in stopped state).
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+ok 158 error should be null
+ok 159 error should be null
+
+
+Instance 2:
+# 37. Can call start/stopListeningForAdvertisements
+
+
+2016-03-22T17:32:20.293Z - info: Running on ios test: 37. Can call start/stopListeningForAdvertisements
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
+ok 160 Can call startListeningForAdvertisements without error
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+ok 161 Can call stopListeningForAdvertisements without error
+# setup
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
+ok 160 Can call startListeningForAdvertisements without error
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+ok 161 Can call stopListeningForAdvertisements without error
+# setup
+
+
+Instance 2:
+ok 162 Should be able to call stopListeningForAdvertisments in teardown
+ok 163 Should be able to call stopAdvertisingAndListening in teardown
+# 38. Calling startListeningForAdvertisements twice is NOT an error
+
+
+Instance 1:
+ok 162 Should be able to call stopListeningForAdvertisments in teardown
+ok 163 Should be able to call stopAdvertisingAndListening in teardown
+# 38. Calling startListeningForAdvertisements twice is NOT an error
+
+
+2016-03-22T17:32:20.306Z - info: Running on ios test: 38. Calling startListeningForAdvertisements twice is NOT an error
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
+ok 164 Can call startListeningForAdvertisements without error
+ok 165 Can call startListeningForAdvertisements twice without error
+# setup
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
+ok 164 Can call startListeningForAdvertisements without error
+ok 165 Can call startListeningForAdvertisements twice without error
+# setup
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+ok 166 Should be able to call stopListeningForAdvertisments in teardown
+ok 167 Should be able to call stopAdvertisingAndListening in teardown
+# 39. Can call start/stopUpdateAdvertisingAndListening
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+ok 166 Should be able to call stopListeningForAdvertisments in teardown
+ok 167 Should be able to call stopAdvertisingAndListening in teardown
+# 39. Can call start/stopUpdateAdvertisingAndListening
+
+
+2016-03-22T17:32:20.321Z - info: Running on ios test: 39. Can call start/stopUpdateAdvertisingAndListening
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
+ok 168 Can call startUpdateAdvertisingAndListening without error
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
+ok 168 Can call startUpdateAdvertisingAndListening without error
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+ok 169 Can call stopAdvertisingAndListening without error
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+ok 169 Can call stopAdvertisingAndListening without error
+# setup
+
+
+Instance 1:
+# setup
+
+
+Instance 1:
+ok 170 Should be able to call stopListeningForAdvertisments in teardown
+ok 171 Should be able to call stopAdvertisingAndListening in teardown
+# 40. Calling startUpdateAdvertisingAndListening twice is NOT an error
+
+
+Instance 2:
+ok 170 Should be able to call stopListeningForAdvertisments in teardown
+ok 171 Should be able to call stopAdvertisingAndListening in teardown
+# 40. Calling startUpdateAdvertisingAndListening twice is NOT an error
+
+
+2016-03-22T17:32:20.336Z - info: Running on ios test: 40. Calling startUpdateAdvertisingAndListening twice is NOT an error
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
+ok 172 Can call startUpdateAdvertisingAndListening without error
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
+ok 172 Can call startUpdateAdvertisingAndListening without error
+
+
+Instance 2:
+ok 173 Can call startUpdateAdvertisingAndListening twice without error
+
+
+Instance 2:
+# setup
+
+
+Instance 1:
+ok 173 Can call startUpdateAdvertisingAndListening twice without error
+# setup
+
+
+Instance 1:
+ok 174 Should be able to call stopListeningForAdvertisments in teardown
+
+
+Instance 2:
+ok 174 Should be able to call stopListeningForAdvertisments in teardown
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+ok 175 Should be able to call stopAdvertisingAndListening in teardown
+# 41. peerAvailabilityChange is called
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+
+
+Instance 2:
+ok 175 Should be able to call stopAdvertisingAndListening in teardown
+
+
+Instance 2:
+# 41. peerAvailabilityChange is called
+
+
+2016-03-22T17:32:20.352Z - info: Running on ios test: 41. peerAvailabilityChange is called
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
+ok 176 Can call startUpdateAdvertisingAndListeningwithout error
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":true}
+ok 177 Can call startListeningForAdvertisements without error
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
+ok 176 Can call startUpdateAdvertisingAndListeningwithout error
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":true}
+ok 177 Can call startListeningForAdvertisements without error
+ok 178 peers must be an array
+ok 179 peers must not be zero-length
+ok 180 peer must have peerIdentifier
+ok 181 peerIdentifier must be a string
+ok 182 peer must have peerAvailable
+ok 183 peer must have pleaseConnect
+
+
+Instance 2:
+ok 178 peers must be an array
+ok 179 peers must not be zero-length
+ok 180 peer must have peerIdentifier
+ok 181 peerIdentifier must be a string
+ok 182 peer must have peerAvailable
+ok 183 peer must have pleaseConnect
+# setup
+
+
+Instance 1:
+# setup
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
+ok 184 Should be able to call stopListeningForAdvertisments in teardown
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+ok 185 Should be able to call stopAdvertisingAndListening in teardown
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
+ok 184 Should be able to call stopListeningForAdvertisments in teardown
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+ok 185 Should be able to call stopAdvertisingAndListening in teardown
+# 42. Can connect to a remote peer
+
+
+2016-03-22T17:32:20.371Z - info: Running on ios test: 42. Can connect to a remote peer
+
+
+Instance 1:
+# 42. Can connect to a remote peer
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
+ok 186 Can call startUpdateAdvertisingAndListening without error
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":true}
+ok 187 Can call startListeningForAdvertisements without error
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
+ok 186 Can call startUpdateAdvertisingAndListening without error
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":true}
+ok 187 Can call startListeningForAdvertisements without error
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:8833ba63-aa42-4d54-8b94-c54fdab765f7","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:b64c7fce-0294-4b2d-b666-68f2973c40ff","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+DEBUG wifiBasedNativeMock: proxy socket connected
+
+
+Instance 1:
+DEBUG wifiBasedNativeMock: proxy socket connected
+
+
+Instance 1:
+INFO testThaliMobileNative: 
+ok 188 Must have listeningPort
+ok 189 listeningPort must be a number
+ok 190 Connection must have clientPort
+ok 191 clientPort must be a number
+ok 192 Connection must have serverPort
+ok 193 serverPort must be a number
+ok 194 forward connection must have clientPort == 0
+ok 195 forward connection must have serverPort == 0
+# setup
+
+
+Instance 2:
+INFO testThaliMobileNative: 
+ok 188 Must have listeningPort
+ok 189 listeningPort must be a number
+ok 190 Connection must have clientPort
+ok 191 clientPort must be a number
+ok 192 Connection must have serverPort
+ok 193 serverPort must be a number
+ok 194 forward connection must have clientPort == 0
+ok 195 forward connection must have serverPort == 0
+# setup
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
+ok 196 Should be able to call stopListeningForAdvertisments in teardown
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
+
+
+Instance 2:
+ok 196 Should be able to call stopListeningForAdvertisments in teardown
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+ok 197 Should be able to call stopAdvertisingAndListening in teardown
+# 43. Can shift large amounts of data
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+ok 197 Should be able to call stopAdvertisingAndListening in teardown
+
+
+Instance 1:
+# 43. Can shift large amounts of data
+
+
+2016-03-22T17:32:20.498Z - info: Running on ios test: 43. Can shift large amounts of data
+
+
+Instance 1:
+# teardown
+
+
+Instance 2:
+# teardown
+
+
+Instance 1:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
+ok 198 Can call startUpdateAdvertisingAndListening without error
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":true}
+ok 199 Can call startListeningForAdvertisements without error
+
+
+Instance 2:
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
+ok 198 Can call startUpdateAdvertisingAndListening without error
+DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":true}
+ok 199 Can call startListeningForAdvertisements without error
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+DEBUG wifiBasedNativeMock: proxy socket connected
+
+
+Instance 1:
+DEBUG wifiBasedNativeMock: proxy socket connected
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 2:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:bfe83d83-5cd2-4932-916e-69b67cff5cd5","peerAvailable":true,"pleaseConnect":false}]
+
+
+Instance 1:
+INFO testThaliMobileNative: Received peerAvailabilityChanged with peers: [{"peerIdentifier":"urn:uuid:a9b2b617-f99b-4bb2-bd14-4e3780919fa3","peerAvailable":true,"pleaseConnect":false}]
+
+
+
 npm http request GET https://registry.npmjs.org/cordova
 npm http 200 https://registry.npmjs.org/cordova
 npm http request GET https://registry.npmjs.org/fs-extra-promise
 npm http request GET https://registry.npmjs.org/express
 npm http request GET https://registry.npmjs.org/lie
-npm http request GET https://registry.npmjs.org/winston
 npm http request GET https://registry.npmjs.org/socket.io
-npm http 304 https://registry.npmjs.org/fs-extra-promise
+npm http request GET https://registry.npmjs.org/winston
 npm http 304 https://registry.npmjs.org/lie
+npm http 304 https://registry.npmjs.org/fs-extra-promise
 npm http 200 https://registry.npmjs.org/socket.io
 npm http 200 https://registry.npmjs.org/winston
 npm http 200 https://registry.npmjs.org/express
 npm http request GET https://registry.npmjs.org/debug
+npm http request GET https://registry.npmjs.org/content-disposition
 npm http request GET https://registry.npmjs.org/cookie
 npm http request GET https://registry.npmjs.org/cookie-signature
-npm http request GET https://registry.npmjs.org/content-disposition
 npm http request GET https://registry.npmjs.org/content-type
-npm http request GET https://registry.npmjs.org/accepts
 npm http request GET https://registry.npmjs.org/array-flatten
+npm http request GET https://registry.npmjs.org/accepts
 npm http request GET https://registry.npmjs.org/depd
-npm http request GET https://registry.npmjs.org/on-finished
-npm http request GET https://registry.npmjs.org/parseurl
+npm http request GET https://registry.npmjs.org/escape-html
+npm http request GET https://registry.npmjs.org/etag
 npm http request GET https://registry.npmjs.org/methods
 npm http request GET https://registry.npmjs.org/merge-descriptors
+npm http request GET https://registry.npmjs.org/on-finished
+npm http request GET https://registry.npmjs.org/parseurl
+npm http request GET https://registry.npmjs.org/range-parser
 npm http request GET https://registry.npmjs.org/finalhandler
-npm http request GET https://registry.npmjs.org/fresh
-npm http request GET https://registry.npmjs.org/etag
-npm http request GET https://registry.npmjs.org/escape-html
 npm http request GET https://registry.npmjs.org/utils-merge
 npm http request GET https://registry.npmjs.org/proxy-addr
-npm http request GET https://registry.npmjs.org/vary
-npm http request GET https://registry.npmjs.org/range-parser
 npm http request GET https://registry.npmjs.org/path-to-regexp
+npm http request GET https://registry.npmjs.org/vary
+npm http request GET https://registry.npmjs.org/fresh
 npm http request GET https://registry.npmjs.org/type-is
-npm http request GET https://registry.npmjs.org/serve-static
 npm http request GET https://registry.npmjs.org/send
+npm http request GET https://registry.npmjs.org/serve-static
 npm http request GET https://registry.npmjs.org/qs
-npm http 304 https://registry.npmjs.org/cookie
-npm http 304 https://registry.npmjs.org/content-disposition
 npm http 304 https://registry.npmjs.org/cookie-signature
+npm http 304 https://registry.npmjs.org/content-disposition
+npm http 304 https://registry.npmjs.org/cookie
 npm http 304 https://registry.npmjs.org/content-type
 npm http 304 https://registry.npmjs.org/debug
+npm http 304 https://registry.npmjs.org/depd
 npm http 304 https://registry.npmjs.org/accepts
 npm http 304 https://registry.npmjs.org/array-flatten
-npm http 304 https://registry.npmjs.org/depd
-npm http 304 https://registry.npmjs.org/methods
-npm http 304 https://registry.npmjs.org/on-finished
-npm http 304 https://registry.npmjs.org/parseurl
-npm http 304 https://registry.npmjs.org/fresh
-npm http 304 https://registry.npmjs.org/merge-descriptors
-npm http 304 https://registry.npmjs.org/finalhandler
 npm http 304 https://registry.npmjs.org/escape-html
 npm http 304 https://registry.npmjs.org/etag
-npm http 304 https://registry.npmjs.org/utils-merge
-npm http 304 https://registry.npmjs.org/proxy-addr
-npm http 304 https://registry.npmjs.org/vary
+npm http 304 https://registry.npmjs.org/methods
+npm http 304 https://registry.npmjs.org/parseurl
+npm http 304 https://registry.npmjs.org/merge-descriptors
 npm http 304 https://registry.npmjs.org/range-parser
+npm http 304 https://registry.npmjs.org/on-finished
+npm http 304 https://registry.npmjs.org/finalhandler
 npm http 304 https://registry.npmjs.org/path-to-regexp
-npm http 304 https://registry.npmjs.org/type-is
+npm http 304 https://registry.npmjs.org/proxy-addr
+npm http 304 https://registry.npmjs.org/utils-merge
+npm http 304 https://registry.npmjs.org/vary
 npm http 304 https://registry.npmjs.org/send
+npm http 304 https://registry.npmjs.org/fresh
+npm http 304 https://registry.npmjs.org/type-is
 npm http 200 https://registry.npmjs.org/serve-static
 npm http 200 https://registry.npmjs.org/qs
-npm http request GET https://registry.npmjs.org/negotiator
 npm http request GET https://registry.npmjs.org/mime-types
-npm http 304 https://registry.npmjs.org/mime-types
+npm http request GET https://registry.npmjs.org/negotiator
 npm http 304 https://registry.npmjs.org/negotiator
+npm http 304 https://registry.npmjs.org/mime-types
 npm http request GET https://registry.npmjs.org/mime-db
 npm http 304 https://registry.npmjs.org/mime-db
 npm http request GET https://registry.npmjs.org/ms
@@ -3280,13 +16433,13 @@ npm http request GET https://registry.npmjs.org/ipaddr.js
 npm http 304 https://registry.npmjs.org/forwarded
 npm http 304 https://registry.npmjs.org/ipaddr.js
 npm http request GET https://registry.npmjs.org/destroy
+npm http request GET https://registry.npmjs.org/statuses
 npm http request GET https://registry.npmjs.org/http-errors
 npm http request GET https://registry.npmjs.org/mime
-npm http request GET https://registry.npmjs.org/statuses
-npm http 304 https://registry.npmjs.org/destroy
 npm http 304 https://registry.npmjs.org/http-errors
-npm http 304 https://registry.npmjs.org/mime
 npm http 304 https://registry.npmjs.org/statuses
+npm http 304 https://registry.npmjs.org/mime
+npm http 304 https://registry.npmjs.org/destroy
 npm http request GET https://registry.npmjs.org/inherits
 npm http 304 https://registry.npmjs.org/inherits
 npm http request GET https://registry.npmjs.org/media-typer
@@ -3295,41 +16448,41 @@ npm http request GET https://registry.npmjs.org/fs-extra
 npm http request GET https://registry.npmjs.org/bluebird
 npm http 200 https://registry.npmjs.org/fs-extra
 npm http 200 https://registry.npmjs.org/bluebird
-npm http request GET https://registry.npmjs.org/path-is-absolute
 npm http request GET https://registry.npmjs.org/graceful-fs
 npm http request GET https://registry.npmjs.org/jsonfile
+npm http request GET https://registry.npmjs.org/path-is-absolute
 npm http request GET https://registry.npmjs.org/rimraf
-npm http 304 https://registry.npmjs.org/path-is-absolute
 npm http 304 https://registry.npmjs.org/graceful-fs
 npm http 304 https://registry.npmjs.org/jsonfile
+npm http 304 https://registry.npmjs.org/path-is-absolute
 npm http 304 https://registry.npmjs.org/rimraf
 npm http request GET https://registry.npmjs.org/glob
 npm http 304 https://registry.npmjs.org/glob
-npm http request GET https://registry.npmjs.org/once
 npm http request GET https://registry.npmjs.org/inflight
+npm http request GET https://registry.npmjs.org/once
 npm http request GET https://registry.npmjs.org/minimatch
-npm http 304 https://registry.npmjs.org/minimatch
 npm http 304 https://registry.npmjs.org/once
 npm http 304 https://registry.npmjs.org/inflight
+npm http 304 https://registry.npmjs.org/minimatch
 npm http request GET https://registry.npmjs.org/wrappy
 npm http 304 https://registry.npmjs.org/wrappy
 npm http request GET https://registry.npmjs.org/brace-expansion
 npm http 304 https://registry.npmjs.org/brace-expansion
-npm http request GET https://registry.npmjs.org/balanced-match
 npm http request GET https://registry.npmjs.org/concat-map
-npm http 304 https://registry.npmjs.org/balanced-match
+npm http request GET https://registry.npmjs.org/balanced-match
 npm http 304 https://registry.npmjs.org/concat-map
+npm http 304 https://registry.npmjs.org/balanced-match
 npm http request GET https://registry.npmjs.org/es3ify
 npm http request GET https://registry.npmjs.org/inline-process-browser
 npm http request GET https://registry.npmjs.org/immediate
 npm http request GET https://registry.npmjs.org/unreachable-branch-transform
-npm http 304 https://registry.npmjs.org/immediate
-npm http 304 https://registry.npmjs.org/unreachable-branch-transform
-npm http 304 https://registry.npmjs.org/inline-process-browser
 npm http 304 https://registry.npmjs.org/es3ify
+npm http 304 https://registry.npmjs.org/inline-process-browser
+npm http 304 https://registry.npmjs.org/unreachable-branch-transform
+npm http 304 https://registry.npmjs.org/immediate
+npm http request GET https://registry.npmjs.org/esprima-fb
 npm http request GET https://registry.npmjs.org/through
 npm http request GET https://registry.npmjs.org/jstransform
-npm http request GET https://registry.npmjs.org/esprima-fb
 npm http 304 https://registry.npmjs.org/jstransform
 npm http 304 https://registry.npmjs.org/esprima-fb
 npm http 200 https://registry.npmjs.org/through
@@ -3339,123 +16492,123 @@ npm http 304 https://registry.npmjs.org/base62
 npm http 200 https://registry.npmjs.org/source-map
 npm http request GET https://registry.npmjs.org/amdefine
 npm http 304 https://registry.npmjs.org/amdefine
-npm http request GET https://registry.npmjs.org/through2
 npm http request GET https://registry.npmjs.org/falafel
+npm http request GET https://registry.npmjs.org/through2
 npm http 304 https://registry.npmjs.org/falafel
 npm http 200 https://registry.npmjs.org/through2
 npm http request GET https://registry.npmjs.org/acorn
 npm http request GET https://registry.npmjs.org/isarray
 npm http request GET https://registry.npmjs.org/foreach
 npm http request GET https://registry.npmjs.org/object-keys
-npm http 304 https://registry.npmjs.org/object-keys
-npm http 304 https://registry.npmjs.org/isarray
 npm http 304 https://registry.npmjs.org/acorn
 npm http 304 https://registry.npmjs.org/foreach
+npm http 304 https://registry.npmjs.org/isarray
+npm http 304 https://registry.npmjs.org/object-keys
 npm http request GET https://registry.npmjs.org/xtend
 npm http request GET https://registry.npmjs.org/readable-stream
 npm http 304 https://registry.npmjs.org/xtend
 npm http 200 https://registry.npmjs.org/readable-stream
-npm http request GET https://registry.npmjs.org/string_decoder
 npm http request GET https://registry.npmjs.org/core-util-is
-npm http 304 https://registry.npmjs.org/core-util-is
+npm http request GET https://registry.npmjs.org/string_decoder
 npm http 304 https://registry.npmjs.org/string_decoder
+npm http 304 https://registry.npmjs.org/core-util-is
 npm http request GET https://registry.npmjs.org/esmangle-evaluator
 npm http request GET https://registry.npmjs.org/recast
-npm http 304 https://registry.npmjs.org/esmangle-evaluator
 npm http 304 https://registry.npmjs.org/recast
+npm http 304 https://registry.npmjs.org/esmangle-evaluator
 npm http request GET https://registry.npmjs.org/private
 npm http request GET https://registry.npmjs.org/ast-types
 npm http 304 https://registry.npmjs.org/private
 npm http 304 https://registry.npmjs.org/ast-types
-npm http request GET https://registry.npmjs.org/has-binary
-npm http request GET https://registry.npmjs.org/socket.io-parser
-npm http request GET https://registry.npmjs.org/socket.io-adapter
 npm http request GET https://registry.npmjs.org/engine.io
+npm http request GET https://registry.npmjs.org/socket.io-parser
 npm http request GET https://registry.npmjs.org/socket.io-client
-npm http 304 https://registry.npmjs.org/socket.io-adapter
+npm http request GET https://registry.npmjs.org/socket.io-adapter
+npm http request GET https://registry.npmjs.org/has-binary
 npm http 304 https://registry.npmjs.org/engine.io
 npm http 304 https://registry.npmjs.org/socket.io-client
-npm http 304 https://registry.npmjs.org/has-binary
+npm http 304 https://registry.npmjs.org/socket.io-adapter
 npm http 304 https://registry.npmjs.org/socket.io-parser
-npm http request GET https://registry.npmjs.org/accepts
+npm http 304 https://registry.npmjs.org/has-binary
 npm http request GET https://registry.npmjs.org/base64id
-npm http request GET https://registry.npmjs.org/engine.io-parser
+npm http request GET https://registry.npmjs.org/accepts
 npm http request GET https://registry.npmjs.org/ws
-npm http 304 https://registry.npmjs.org/engine.io-parser
-npm http 304 https://registry.npmjs.org/accepts
+npm http request GET https://registry.npmjs.org/engine.io-parser
 npm http 304 https://registry.npmjs.org/base64id
+npm http 304 https://registry.npmjs.org/accepts
+npm http 304 https://registry.npmjs.org/engine.io-parser
 npm http 200 https://registry.npmjs.org/ws
-npm http request GET https://registry.npmjs.org/negotiator
 npm http request GET https://registry.npmjs.org/mime-types
+npm http request GET https://registry.npmjs.org/negotiator
 npm http 304 https://registry.npmjs.org/negotiator
 npm http 304 https://registry.npmjs.org/mime-types
 npm http request GET https://registry.npmjs.org/mime-db
 npm http 304 https://registry.npmjs.org/mime-db
-npm http request GET https://registry.npmjs.org/utf8
-npm http request GET https://registry.npmjs.org/arraybuffer.slice
 npm http request GET https://registry.npmjs.org/blob
-npm http request GET https://registry.npmjs.org/after
 npm http request GET https://registry.npmjs.org/base64-arraybuffer
-npm http 304 https://registry.npmjs.org/base64-arraybuffer
-npm http 304 https://registry.npmjs.org/utf8
-npm http 304 https://registry.npmjs.org/after
-npm http 304 https://registry.npmjs.org/arraybuffer.slice
+npm http request GET https://registry.npmjs.org/after
+npm http request GET https://registry.npmjs.org/arraybuffer.slice
+npm http request GET https://registry.npmjs.org/utf8
 npm http 304 https://registry.npmjs.org/blob
+npm http 304 https://registry.npmjs.org/utf8
+npm http 304 https://registry.npmjs.org/arraybuffer.slice
+npm http 304 https://registry.npmjs.org/after
+npm http 304 https://registry.npmjs.org/base64-arraybuffer
 npm http request GET https://registry.npmjs.org/options
 npm http request GET https://registry.npmjs.org/ultron
-npm http 304 https://registry.npmjs.org/options
 npm http 304 https://registry.npmjs.org/ultron
+npm http 304 https://registry.npmjs.org/options
 npm http request GET https://registry.npmjs.org/debug
-npm http request GET https://registry.npmjs.org/json3
 npm http request GET https://registry.npmjs.org/component-emitter
+npm http request GET https://registry.npmjs.org/json3
 npm http request GET https://registry.npmjs.org/benchmark
 npm http 304 https://registry.npmjs.org/component-emitter
-npm http 304 https://registry.npmjs.org/benchmark
-npm http 304 https://registry.npmjs.org/debug
 npm http 304 https://registry.npmjs.org/json3
-npm http request GET https://registry.npmjs.org/component-bind
-npm http request GET https://registry.npmjs.org/to-array
-npm http request GET https://registry.npmjs.org/backo2
+npm http 304 https://registry.npmjs.org/debug
+npm http 304 https://registry.npmjs.org/benchmark
 npm http request GET https://registry.npmjs.org/parseuri
 npm http request GET https://registry.npmjs.org/indexof
 npm http request GET https://registry.npmjs.org/object-component
+npm http request GET https://registry.npmjs.org/component-bind
+npm http request GET https://registry.npmjs.org/backo2
+npm http request GET https://registry.npmjs.org/to-array
 npm http request GET https://registry.npmjs.org/engine.io-client
-npm http 304 https://registry.npmjs.org/component-bind
-npm http 304 https://registry.npmjs.org/to-array
 npm http 304 https://registry.npmjs.org/backo2
-npm http 304 https://registry.npmjs.org/object-component
+npm http 304 https://registry.npmjs.org/component-bind
 npm http 304 https://registry.npmjs.org/indexof
-npm http 304 https://registry.npmjs.org/engine.io-client
 npm http 304 https://registry.npmjs.org/parseuri
-npm http request GET https://registry.npmjs.org/has-cors
+npm http 304 https://registry.npmjs.org/object-component
+npm http 304 https://registry.npmjs.org/to-array
+npm http 304 https://registry.npmjs.org/engine.io-client
 npm http request GET https://registry.npmjs.org/parsejson
 npm http request GET https://registry.npmjs.org/parseqs
 npm http request GET https://registry.npmjs.org/xmlhttprequest-ssl
+npm http request GET https://registry.npmjs.org/has-cors
 npm http request GET https://registry.npmjs.org/component-inherit
 npm http request GET https://registry.npmjs.org/yeast
-npm http 304 https://registry.npmjs.org/has-cors
 npm http 304 https://registry.npmjs.org/parsejson
 npm http 304 https://registry.npmjs.org/xmlhttprequest-ssl
-npm http 304 https://registry.npmjs.org/yeast
 npm http 304 https://registry.npmjs.org/parseqs
+npm http 304 https://registry.npmjs.org/yeast
 npm http 304 https://registry.npmjs.org/component-inherit
+npm http 304 https://registry.npmjs.org/has-cors
 npm http request GET https://registry.npmjs.org/better-assert
 npm http 304 https://registry.npmjs.org/better-assert
 npm http request GET https://registry.npmjs.org/callsite
 npm http 304 https://registry.npmjs.org/callsite
-npm http request GET https://registry.npmjs.org/stack-trace
-npm http request GET https://registry.npmjs.org/pkginfo
 npm http request GET https://registry.npmjs.org/isstream
-npm http request GET https://registry.npmjs.org/eyes
 npm http request GET https://registry.npmjs.org/cycle
 npm http request GET https://registry.npmjs.org/colors
+npm http request GET https://registry.npmjs.org/eyes
+npm http request GET https://registry.npmjs.org/stack-trace
+npm http request GET https://registry.npmjs.org/pkginfo
 npm http request GET https://registry.npmjs.org/async
-npm http 304 https://registry.npmjs.org/pkginfo
 npm http 304 https://registry.npmjs.org/cycle
 npm http 304 https://registry.npmjs.org/isstream
-npm http 304 https://registry.npmjs.org/eyes
 npm http 304 https://registry.npmjs.org/stack-trace
 npm http 304 https://registry.npmjs.org/colors
+npm http 304 https://registry.npmjs.org/eyes
+npm http 304 https://registry.npmjs.org/pkginfo
 npm http 304 https://registry.npmjs.org/async
 npm http request GET https://registry.npmjs.org/node-uuid
 npm http request GET https://registry.npmjs.org/tape
@@ -3464,65 +16617,65 @@ npm http 200 https://registry.npmjs.org/tape
 npm http request GET https://registry.npmjs.org/jsonify
 npm http request GET https://registry.npmjs.org/defined
 npm http request GET https://registry.npmjs.org/deep-equal
-npm http 304 https://registry.npmjs.org/deep-equal
-npm http 304 https://registry.npmjs.org/defined
 npm http 304 https://registry.npmjs.org/jsonify
+npm http 304 https://registry.npmjs.org/defined
+npm http 304 https://registry.npmjs.org/deep-equal
 npm WARN EPACKAGEJSON thali-test-server@0.0.1 No repository field.
 npm WARN EPACKAGEJSON thali-test-server@0.0.1 No license field.
 npm http request GET https://registry.npmjs.org/express
 npm http request GET https://registry.npmjs.org/lie
-npm http request GET https://registry.npmjs.org/long
-npm http request GET https://registry.npmjs.org/body-parser
-npm http request GET https://registry.npmjs.org/multiplex
-npm http request GET https://registry.npmjs.org/ip
 npm http request GET https://registry.npmjs.org/winston
 npm http request GET https://registry.npmjs.org/javascript-state-machine
+npm http request GET https://registry.npmjs.org/body-parser
+npm http request GET https://registry.npmjs.org/ip
+npm http request GET https://registry.npmjs.org/long
+npm http request GET https://registry.npmjs.org/multiplex
 npm http request GET https://registry.npmjs.org/urlsafe-base64
 npm http request GET https://registry.npmjs.org/request
 npm http 304 https://registry.npmjs.org/express
 npm http 304 https://registry.npmjs.org/body-parser
-npm http 304 https://registry.npmjs.org/long
 npm http 304 https://registry.npmjs.org/winston
 npm http 304 https://registry.npmjs.org/ip
-npm http 304 https://registry.npmjs.org/multiplex
 npm http 304 https://registry.npmjs.org/javascript-state-machine
+npm http 304 https://registry.npmjs.org/long
+npm http 304 https://registry.npmjs.org/multiplex
 npm http 304 https://registry.npmjs.org/urlsafe-base64
-npm http 200 https://registry.npmjs.org/request
 npm http 304 https://registry.npmjs.org/lie
+npm http 200 https://registry.npmjs.org/request
 npm http request GET https://registry.npmjs.org/content-type
 npm http request GET https://registry.npmjs.org/debug
 npm http request GET https://registry.npmjs.org/depd
 npm http request GET https://registry.npmjs.org/http-errors
-npm http request GET https://registry.npmjs.org/bytes
 npm http request GET https://registry.npmjs.org/on-finished
 npm http request GET https://registry.npmjs.org/qs
-npm http request GET https://registry.npmjs.org/iconv-lite
 npm http request GET https://registry.npmjs.org/type-is
+npm http request GET https://registry.npmjs.org/bytes
+npm http request GET https://registry.npmjs.org/iconv-lite
 npm http request GET https://registry.npmjs.org/raw-body
 npm http 304 https://registry.npmjs.org/content-type
-npm http 304 https://registry.npmjs.org/http-errors
-npm http 304 https://registry.npmjs.org/bytes
 npm http 304 https://registry.npmjs.org/depd
-npm http 304 https://registry.npmjs.org/qs
-npm http 304 https://registry.npmjs.org/on-finished
-npm http 304 https://registry.npmjs.org/type-is
+npm http 304 https://registry.npmjs.org/http-errors
 npm http 304 https://registry.npmjs.org/debug
+npm http 304 https://registry.npmjs.org/on-finished
+npm http 304 https://registry.npmjs.org/qs
 npm http 304 https://registry.npmjs.org/raw-body
+npm http 304 https://registry.npmjs.org/type-is
+npm http 304 https://registry.npmjs.org/bytes
 npm http 200 https://registry.npmjs.org/iconv-lite
 npm http request GET https://registry.npmjs.org/ms
 npm http 304 https://registry.npmjs.org/ms
 npm http request GET https://registry.npmjs.org/inherits
 npm http request GET https://registry.npmjs.org/statuses
-npm http 304 https://registry.npmjs.org/inherits
 npm http 304 https://registry.npmjs.org/statuses
+npm http 304 https://registry.npmjs.org/inherits
 npm http request GET https://registry.npmjs.org/ee-first
 npm http 304 https://registry.npmjs.org/ee-first
 npm http request GET https://registry.npmjs.org/unpipe
 npm http 304 https://registry.npmjs.org/unpipe
 npm http request GET https://registry.npmjs.org/media-typer
 npm http request GET https://registry.npmjs.org/mime-types
-npm http 304 https://registry.npmjs.org/mime-types
 npm http 304 https://registry.npmjs.org/media-typer
+npm http 304 https://registry.npmjs.org/mime-types
 npm http request GET https://registry.npmjs.org/mime-db
 npm http 304 https://registry.npmjs.org/mime-db
 npm http request GET https://registry.npmjs.org/accepts
@@ -3544,31 +16697,31 @@ npm http request GET https://registry.npmjs.org/send
 npm http request GET https://registry.npmjs.org/serve-static
 npm http request GET https://registry.npmjs.org/utils-merge
 npm http request GET https://registry.npmjs.org/vary
+npm http 304 https://registry.npmjs.org/cookie-signature
+npm http 304 https://registry.npmjs.org/array-flatten
+npm http 304 https://registry.npmjs.org/content-disposition
 npm http 304 https://registry.npmjs.org/cookie
 npm http 304 https://registry.npmjs.org/accepts
-npm http 304 https://registry.npmjs.org/array-flatten
-npm http 304 https://registry.npmjs.org/cookie-signature
-npm http 304 https://registry.npmjs.org/content-disposition
 npm http 304 https://registry.npmjs.org/escape-html
 npm http 304 https://registry.npmjs.org/etag
 npm http 304 https://registry.npmjs.org/finalhandler
 npm http 304 https://registry.npmjs.org/merge-descriptors
 npm http 304 https://registry.npmjs.org/fresh
-npm http 304 https://registry.npmjs.org/methods
 npm http 304 https://registry.npmjs.org/parseurl
-npm http 304 https://registry.npmjs.org/proxy-addr
+npm http 304 https://registry.npmjs.org/methods
 npm http 304 https://registry.npmjs.org/path-to-regexp
+npm http 304 https://registry.npmjs.org/proxy-addr
 npm http 304 https://registry.npmjs.org/range-parser
-npm http 304 https://registry.npmjs.org/serve-static
 npm http 304 https://registry.npmjs.org/send
-npm http 304 https://registry.npmjs.org/utils-merge
+npm http 304 https://registry.npmjs.org/serve-static
 npm http 304 https://registry.npmjs.org/vary
+npm http 304 https://registry.npmjs.org/utils-merge
 npm http request GET https://registry.npmjs.org/negotiator
 npm http 304 https://registry.npmjs.org/negotiator
 npm http request GET https://registry.npmjs.org/forwarded
 npm http request GET https://registry.npmjs.org/ipaddr.js
-npm http 304 https://registry.npmjs.org/forwarded
 npm http 304 https://registry.npmjs.org/ipaddr.js
+npm http 304 https://registry.npmjs.org/forwarded
 npm http request GET https://registry.npmjs.org/destroy
 npm http request GET https://registry.npmjs.org/mime
 npm http 304 https://registry.npmjs.org/mime
@@ -3578,37 +16731,37 @@ npm http request GET https://registry.npmjs.org/immediate
 npm http request GET https://registry.npmjs.org/inline-process-browser
 npm http request GET https://registry.npmjs.org/unreachable-branch-transform
 npm http 304 https://registry.npmjs.org/unreachable-branch-transform
+npm http 304 https://registry.npmjs.org/inline-process-browser
 npm http 304 https://registry.npmjs.org/es3ify
 npm http 304 https://registry.npmjs.org/immediate
-npm http 304 https://registry.npmjs.org/inline-process-browser
 npm http request GET https://registry.npmjs.org/esprima-fb
 npm http request GET https://registry.npmjs.org/jstransform
 npm http request GET https://registry.npmjs.org/through
-npm http 304 https://registry.npmjs.org/jstransform
 npm http 304 https://registry.npmjs.org/through
 npm http 304 https://registry.npmjs.org/esprima-fb
+npm http 304 https://registry.npmjs.org/jstransform
 npm http request GET https://registry.npmjs.org/base62
 npm http request GET https://registry.npmjs.org/source-map
-npm http 304 https://registry.npmjs.org/base62
 npm http 304 https://registry.npmjs.org/source-map
+npm http 304 https://registry.npmjs.org/base62
 npm http request GET https://registry.npmjs.org/amdefine
 npm http 304 https://registry.npmjs.org/amdefine
 npm http request GET https://registry.npmjs.org/falafel
 npm http request GET https://registry.npmjs.org/through2
-npm http 304 https://registry.npmjs.org/through2
 npm http 304 https://registry.npmjs.org/falafel
+npm http 304 https://registry.npmjs.org/through2
+npm http request GET https://registry.npmjs.org/acorn
 npm http request GET https://registry.npmjs.org/foreach
 npm http request GET https://registry.npmjs.org/isarray
 npm http request GET https://registry.npmjs.org/object-keys
-npm http request GET https://registry.npmjs.org/acorn
 npm http 304 https://registry.npmjs.org/object-keys
 npm http 304 https://registry.npmjs.org/acorn
 npm http 304 https://registry.npmjs.org/foreach
 npm http 304 https://registry.npmjs.org/isarray
 npm http request GET https://registry.npmjs.org/readable-stream
 npm http request GET https://registry.npmjs.org/xtend
-npm http 304 https://registry.npmjs.org/readable-stream
 npm http 304 https://registry.npmjs.org/xtend
+npm http 304 https://registry.npmjs.org/readable-stream
 npm http request GET https://registry.npmjs.org/core-util-is
 npm http request GET https://registry.npmjs.org/string_decoder
 npm http 304 https://registry.npmjs.org/string_decoder
@@ -3619,8 +16772,8 @@ npm http 304 https://registry.npmjs.org/recast
 npm http 304 https://registry.npmjs.org/esmangle-evaluator
 npm http request GET https://registry.npmjs.org/private
 npm http request GET https://registry.npmjs.org/ast-types
-npm http 304 https://registry.npmjs.org/ast-types
 npm http 304 https://registry.npmjs.org/private
+npm http 304 https://registry.npmjs.org/ast-types
 npm http request GET https://registry.npmjs.org/duplexify
 npm http request GET https://registry.npmjs.org/varint
 npm http 304 https://registry.npmjs.org/duplexify
@@ -3631,54 +16784,54 @@ npm http request GET https://registry.npmjs.org/once
 npm http 304 https://registry.npmjs.org/once
 npm http request GET https://registry.npmjs.org/wrappy
 npm http 304 https://registry.npmjs.org/wrappy
-npm http request GET https://registry.npmjs.org/util-deprecate
 npm http request GET https://registry.npmjs.org/process-nextick-args
+npm http request GET https://registry.npmjs.org/util-deprecate
 npm http 304 https://registry.npmjs.org/util-deprecate
 npm http 304 https://registry.npmjs.org/process-nextick-args
+npm http request GET https://registry.npmjs.org/aws-sign2
+npm http request GET https://registry.npmjs.org/aws4
+npm http request GET https://registry.npmjs.org/bl
+npm http request GET https://registry.npmjs.org/caseless
 npm http request GET https://registry.npmjs.org/combined-stream
 npm http request GET https://registry.npmjs.org/extend
-npm http request GET https://registry.npmjs.org/aws4
-npm http request GET https://registry.npmjs.org/caseless
-npm http request GET https://registry.npmjs.org/bl
-npm http request GET https://registry.npmjs.org/aws-sign2
-npm http request GET https://registry.npmjs.org/form-data
 npm http request GET https://registry.npmjs.org/forever-agent
+npm http request GET https://registry.npmjs.org/form-data
 npm http request GET https://registry.npmjs.org/har-validator
 npm http request GET https://registry.npmjs.org/isstream
-npm http request GET https://registry.npmjs.org/is-typedarray
-npm http request GET https://registry.npmjs.org/http-signature
 npm http request GET https://registry.npmjs.org/hawk
+npm http request GET https://registry.npmjs.org/http-signature
 npm http request GET https://registry.npmjs.org/oauth-sign
 npm http request GET https://registry.npmjs.org/json-stringify-safe
-npm http request GET https://registry.npmjs.org/qs
+npm http request GET https://registry.npmjs.org/is-typedarray
+npm http request GET https://registry.npmjs.org/stringstream
 npm http request GET https://registry.npmjs.org/tough-cookie
 npm http request GET https://registry.npmjs.org/tunnel-agent
-npm http request GET https://registry.npmjs.org/stringstream
+npm http request GET https://registry.npmjs.org/qs
 npm http 304 https://registry.npmjs.org/aws4
-npm http 304 https://registry.npmjs.org/combined-stream
-npm http 304 https://registry.npmjs.org/extend
 npm http 304 https://registry.npmjs.org/caseless
-npm http 304 https://registry.npmjs.org/forever-agent
-npm http 304 https://registry.npmjs.org/har-validator
-npm http 304 https://registry.npmjs.org/form-data
+npm http 304 https://registry.npmjs.org/combined-stream
 npm http 304 https://registry.npmjs.org/aws-sign2
+npm http 304 https://registry.npmjs.org/forever-agent
+npm http 304 https://registry.npmjs.org/extend
+npm http 304 https://registry.npmjs.org/form-data
 npm http 200 https://registry.npmjs.org/bl
-npm http 304 https://registry.npmjs.org/isstream
-npm http 304 https://registry.npmjs.org/oauth-sign
-npm http 304 https://registry.npmjs.org/is-typedarray
-npm http 304 https://registry.npmjs.org/http-signature
+npm http 304 https://registry.npmjs.org/har-validator
 npm http 304 https://registry.npmjs.org/hawk
+npm http 304 https://registry.npmjs.org/http-signature
+npm http 304 https://registry.npmjs.org/isstream
 npm http 304 https://registry.npmjs.org/json-stringify-safe
-npm http 304 https://registry.npmjs.org/tough-cookie
-npm http 304 https://registry.npmjs.org/qs
+npm http 304 https://registry.npmjs.org/oauth-sign
 npm http 304 https://registry.npmjs.org/stringstream
+npm http 304 https://registry.npmjs.org/is-typedarray
+npm http 304 https://registry.npmjs.org/qs
+npm http 304 https://registry.npmjs.org/tough-cookie
 npm http 304 https://registry.npmjs.org/tunnel-agent
 npm http request GET https://registry.npmjs.org/lru-cache
 npm http 304 https://registry.npmjs.org/lru-cache
 npm http request GET https://registry.npmjs.org/pseudomap
 npm http request GET https://registry.npmjs.org/yallist
-npm http 304 https://registry.npmjs.org/yallist
 npm http 304 https://registry.npmjs.org/pseudomap
+npm http 304 https://registry.npmjs.org/yallist
 npm http request GET https://registry.npmjs.org/delayed-stream
 npm http 304 https://registry.npmjs.org/delayed-stream
 npm http request GET https://registry.npmjs.org/async
@@ -3691,25 +16844,25 @@ npm http 304 https://registry.npmjs.org/pinkie-promise
 npm http 304 https://registry.npmjs.org/is-my-json-valid
 npm http 200 https://registry.npmjs.org/chalk
 npm http 200 https://registry.npmjs.org/commander
-npm http request GET https://registry.npmjs.org/escape-string-regexp
-npm http request GET https://registry.npmjs.org/ansi-styles
 npm http request GET https://registry.npmjs.org/strip-ansi
+npm http request GET https://registry.npmjs.org/ansi-styles
 npm http request GET https://registry.npmjs.org/has-ansi
+npm http request GET https://registry.npmjs.org/escape-string-regexp
 npm http request GET https://registry.npmjs.org/supports-color
-npm http 304 https://registry.npmjs.org/ansi-styles
-npm http 304 https://registry.npmjs.org/has-ansi
 npm http 304 https://registry.npmjs.org/escape-string-regexp
-npm http 304 https://registry.npmjs.org/strip-ansi
+npm http 304 https://registry.npmjs.org/has-ansi
 npm http 304 https://registry.npmjs.org/supports-color
+npm http 304 https://registry.npmjs.org/strip-ansi
+npm http 304 https://registry.npmjs.org/ansi-styles
 npm http request GET https://registry.npmjs.org/color-convert
 npm http 304 https://registry.npmjs.org/color-convert
 npm http request GET https://registry.npmjs.org/ansi-regex
 npm http 304 https://registry.npmjs.org/ansi-regex
 npm http request GET https://registry.npmjs.org/graceful-readlink
 npm http 304 https://registry.npmjs.org/graceful-readlink
-npm http request GET https://registry.npmjs.org/jsonpointer
 npm http request GET https://registry.npmjs.org/generate-object-property
 npm http request GET https://registry.npmjs.org/generate-function
+npm http request GET https://registry.npmjs.org/jsonpointer
 npm http 304 https://registry.npmjs.org/generate-object-property
 npm http 304 https://registry.npmjs.org/generate-function
 npm http 304 https://registry.npmjs.org/jsonpointer
@@ -3717,26 +16870,26 @@ npm http request GET https://registry.npmjs.org/is-property
 npm http 304 https://registry.npmjs.org/is-property
 npm http request GET https://registry.npmjs.org/pinkie
 npm http 304 https://registry.npmjs.org/pinkie
+npm http request GET https://registry.npmjs.org/hoek
 npm http request GET https://registry.npmjs.org/cryptiles
 npm http request GET https://registry.npmjs.org/sntp
 npm http request GET https://registry.npmjs.org/boom
-npm http request GET https://registry.npmjs.org/hoek
-npm http 304 https://registry.npmjs.org/cryptiles
-npm http 304 https://registry.npmjs.org/hoek
 npm http 304 https://registry.npmjs.org/sntp
+npm http 304 https://registry.npmjs.org/hoek
+npm http 304 https://registry.npmjs.org/cryptiles
 npm http 200 https://registry.npmjs.org/boom
 npm http request GET https://registry.npmjs.org/assert-plus
 npm http request GET https://registry.npmjs.org/jsprim
 npm http request GET https://registry.npmjs.org/sshpk
-npm http 304 https://registry.npmjs.org/jsprim
-npm http 304 https://registry.npmjs.org/assert-plus
 npm http 304 https://registry.npmjs.org/sshpk
-npm http request GET https://registry.npmjs.org/json-schema
+npm http 304 https://registry.npmjs.org/assert-plus
+npm http 304 https://registry.npmjs.org/jsprim
 npm http request GET https://registry.npmjs.org/extsprintf
+npm http request GET https://registry.npmjs.org/json-schema
 npm http request GET https://registry.npmjs.org/verror
+npm http 304 https://registry.npmjs.org/json-schema
 npm http 304 https://registry.npmjs.org/extsprintf
 npm http 304 https://registry.npmjs.org/verror
-npm http 304 https://registry.npmjs.org/json-schema
 npm http request GET https://registry.npmjs.org/asn1
 npm http request GET https://registry.npmjs.org/dashdash
 npm http 304 https://registry.npmjs.org/dashdash
@@ -3754,57 +16907,59 @@ npm http 304 https://registry.npmjs.org/colors
 npm http request GET https://registry.npmjs.org/jsdoc
 npm http 200 https://registry.npmjs.org/jsdoc
 npm http request GET https://registry.npmjs.org/bluebird
-npm http request GET https://registry.npmjs.org/js2xmlparser
-npm http request GET https://registry.npmjs.org/catharsis
-npm http request GET https://registry.npmjs.org/requizzle
-npm http request GET https://registry.npmjs.org/marked
-npm http request GET https://registry.npmjs.org/espree
-npm http request GET https://registry.npmjs.org/strip-json-comments
 npm http request GET https://registry.npmjs.org/underscore
+npm http request GET https://registry.npmjs.org/async
+npm http request GET https://registry.npmjs.org/strip-json-comments
+npm http request GET https://registry.npmjs.org/marked
+npm http request GET https://registry.npmjs.org/requizzle
 npm http request GET https://registry.npmjs.org/wrench
+npm http request GET https://registry.npmjs.org/catharsis
+npm http request GET https://registry.npmjs.org/js2xmlparser
+npm http request GET https://registry.npmjs.org/espree
 npm http fetch GET https://github.com/hegemonic/taffydb/tarball/7d100bcee0e997ee4977e273cdce60bd8933050e
+npm http 304 https://registry.npmjs.org/underscore
+npm http 304 https://registry.npmjs.org/bluebird
 npm http 304 https://registry.npmjs.org/marked
-npm http 304 https://registry.npmjs.org/js2xmlparser
+npm http 304 https://registry.npmjs.org/strip-json-comments
+npm http 304 https://registry.npmjs.org/async
 npm http 304 https://registry.npmjs.org/catharsis
 npm http 304 https://registry.npmjs.org/requizzle
-npm http 304 https://registry.npmjs.org/bluebird
-npm http 304 https://registry.npmjs.org/strip-json-comments
-npm http 304 https://registry.npmjs.org/underscore
 npm http 304 https://registry.npmjs.org/espree
+npm http 304 https://registry.npmjs.org/js2xmlparser
 npm http 200 https://registry.npmjs.org/wrench
 npm http fetch 200 https://github.com/hegemonic/taffydb/tarball/7d100bcee0e997ee4977e273cdce60bd8933050e
 npm http request GET https://registry.npmjs.org/underscore-contrib
 npm http 304 https://registry.npmjs.org/underscore-contrib
 npm WARN prefer global marked@0.3.5 should be installed with -g
-npm http request GET https://registry.npmjs.org/ecc-jsbn
 npm http request GET https://registry.npmjs.org/jodid25519
 npm http request GET https://registry.npmjs.org/jsbn
+npm http request GET https://registry.npmjs.org/ecc-jsbn
 npm http request GET https://registry.npmjs.org/tweetnacl
-npm http 304 https://registry.npmjs.org/tweetnacl
 npm http 304 https://registry.npmjs.org/jsbn
-npm http 304 https://registry.npmjs.org/jodid25519
 npm http 304 https://registry.npmjs.org/ecc-jsbn
+npm http 304 https://registry.npmjs.org/tweetnacl
+npm http 304 https://registry.npmjs.org/jodid25519
 npm http request GET https://registry.npmjs.org/fs-extra-promise
 npm http request GET https://registry.npmjs.org/lie
 npm http request GET https://registry.npmjs.org/request
 npm http request GET https://registry.npmjs.org/jxc
 npm http request GET https://registry.npmjs.org/unzip
 npm http 304 https://registry.npmjs.org/request
-npm http 304 https://registry.npmjs.org/unzip
-npm http 304 https://registry.npmjs.org/jxc
-npm http 304 https://registry.npmjs.org/fs-extra-promise
 npm http 304 https://registry.npmjs.org/lie
+npm http 304 https://registry.npmjs.org/fs-extra-promise
+npm http 304 https://registry.npmjs.org/jxc
+npm http 304 https://registry.npmjs.org/unzip
 npm http request GET https://registry.npmjs.org/fs-extra
 npm http request GET https://registry.npmjs.org/bluebird
-npm http 304 https://registry.npmjs.org/bluebird
 npm http 304 https://registry.npmjs.org/fs-extra
+npm http 304 https://registry.npmjs.org/bluebird
 npm http request GET https://registry.npmjs.org/graceful-fs
 npm http request GET https://registry.npmjs.org/jsonfile
 npm http request GET https://registry.npmjs.org/path-is-absolute
 npm http request GET https://registry.npmjs.org/rimraf
-npm http 304 https://registry.npmjs.org/rimraf
 npm http 304 https://registry.npmjs.org/path-is-absolute
 npm http 304 https://registry.npmjs.org/jsonfile
+npm http 304 https://registry.npmjs.org/rimraf
 npm http 304 https://registry.npmjs.org/graceful-fs
 npm http request GET https://registry.npmjs.org/glob
 npm http 304 https://registry.npmjs.org/glob
@@ -3813,9 +16968,9 @@ npm http request GET https://registry.npmjs.org/inherits
 npm http request GET https://registry.npmjs.org/minimatch
 npm http request GET https://registry.npmjs.org/once
 npm http 304 https://registry.npmjs.org/inherits
-npm http 304 https://registry.npmjs.org/once
 npm http 304 https://registry.npmjs.org/inflight
 npm http 304 https://registry.npmjs.org/minimatch
+npm http 304 https://registry.npmjs.org/once
 npm http request GET https://registry.npmjs.org/wrappy
 npm http 304 https://registry.npmjs.org/wrappy
 npm http request GET https://registry.npmjs.org/brace-expansion
@@ -3824,24 +16979,24 @@ npm http request GET https://registry.npmjs.org/balanced-match
 npm http request GET https://registry.npmjs.org/concat-map
 npm http 304 https://registry.npmjs.org/balanced-match
 npm http 304 https://registry.npmjs.org/concat-map
-npm http request GET https://registry.npmjs.org/adm-zip
 npm http request GET https://registry.npmjs.org/progress
+npm http request GET https://registry.npmjs.org/adm-zip
 npm http 304 https://registry.npmjs.org/progress
 npm http 304 https://registry.npmjs.org/adm-zip
 npm http request GET https://registry.npmjs.org/es3ify
 npm http request GET https://registry.npmjs.org/immediate
 npm http request GET https://registry.npmjs.org/inline-process-browser
 npm http request GET https://registry.npmjs.org/unreachable-branch-transform
+npm http 304 https://registry.npmjs.org/unreachable-branch-transform
 npm http 304 https://registry.npmjs.org/immediate
 npm http 304 https://registry.npmjs.org/es3ify
-npm http 304 https://registry.npmjs.org/unreachable-branch-transform
 npm http 304 https://registry.npmjs.org/inline-process-browser
 npm http request GET https://registry.npmjs.org/esprima-fb
 npm http request GET https://registry.npmjs.org/jstransform
 npm http request GET https://registry.npmjs.org/through
-npm http 304 https://registry.npmjs.org/through
 npm http 304 https://registry.npmjs.org/esprima-fb
 npm http 304 https://registry.npmjs.org/jstransform
+npm http 304 https://registry.npmjs.org/through
 npm http request GET https://registry.npmjs.org/base62
 npm http request GET https://registry.npmjs.org/source-map
 npm http 304 https://registry.npmjs.org/source-map
@@ -3850,30 +17005,30 @@ npm http request GET https://registry.npmjs.org/amdefine
 npm http 304 https://registry.npmjs.org/amdefine
 npm http request GET https://registry.npmjs.org/falafel
 npm http request GET https://registry.npmjs.org/through2
-npm http 304 https://registry.npmjs.org/through2
 npm http 304 https://registry.npmjs.org/falafel
-npm http request GET https://registry.npmjs.org/acorn
+npm http 304 https://registry.npmjs.org/through2
 npm http request GET https://registry.npmjs.org/foreach
+npm http request GET https://registry.npmjs.org/acorn
 npm http request GET https://registry.npmjs.org/isarray
 npm http request GET https://registry.npmjs.org/object-keys
+npm http 304 https://registry.npmjs.org/acorn
+npm http 304 https://registry.npmjs.org/object-keys
 npm http 304 https://registry.npmjs.org/isarray
 npm http 304 https://registry.npmjs.org/foreach
-npm http 304 https://registry.npmjs.org/object-keys
-npm http 304 https://registry.npmjs.org/acorn
 npm http request GET https://registry.npmjs.org/readable-stream
 npm http request GET https://registry.npmjs.org/xtend
 npm http 304 https://registry.npmjs.org/readable-stream
 npm http 304 https://registry.npmjs.org/xtend
 npm http request GET https://registry.npmjs.org/core-util-is
 npm http request GET https://registry.npmjs.org/string_decoder
-npm http 304 https://registry.npmjs.org/string_decoder
 npm http 304 https://registry.npmjs.org/core-util-is
+npm http 304 https://registry.npmjs.org/string_decoder
 npm http request GET https://registry.npmjs.org/esmangle-evaluator
 npm http request GET https://registry.npmjs.org/recast
 npm http 304 https://registry.npmjs.org/recast
 npm http 304 https://registry.npmjs.org/esmangle-evaluator
-npm http request GET https://registry.npmjs.org/private
 npm http request GET https://registry.npmjs.org/ast-types
+npm http request GET https://registry.npmjs.org/private
 npm http 304 https://registry.npmjs.org/private
 npm http 304 https://registry.npmjs.org/ast-types
 npm http request GET https://registry.npmjs.org/aws-sign2
@@ -3897,27 +17052,27 @@ npm http request GET https://registry.npmjs.org/qs
 npm http request GET https://registry.npmjs.org/stringstream
 npm http request GET https://registry.npmjs.org/tough-cookie
 npm http request GET https://registry.npmjs.org/tunnel-agent
-npm http 304 https://registry.npmjs.org/bl
-npm http 304 https://registry.npmjs.org/caseless
-npm http 304 https://registry.npmjs.org/combined-stream
-npm http 304 https://registry.npmjs.org/aws-sign2
 npm http 304 https://registry.npmjs.org/aws4
-npm http 304 https://registry.npmjs.org/form-data
+npm http 304 https://registry.npmjs.org/combined-stream
+npm http 304 https://registry.npmjs.org/caseless
+npm http 304 https://registry.npmjs.org/bl
+npm http 304 https://registry.npmjs.org/aws-sign2
 npm http 304 https://registry.npmjs.org/extend
-npm http 304 https://registry.npmjs.org/hawk
-npm http 304 https://registry.npmjs.org/har-validator
 npm http 304 https://registry.npmjs.org/forever-agent
-npm http 304 https://registry.npmjs.org/is-typedarray
+npm http 304 https://registry.npmjs.org/form-data
+npm http 304 https://registry.npmjs.org/har-validator
 npm http 304 https://registry.npmjs.org/http-signature
+npm http 304 https://registry.npmjs.org/is-typedarray
+npm http 304 https://registry.npmjs.org/hawk
 npm http 304 https://registry.npmjs.org/json-stringify-safe
 npm http 304 https://registry.npmjs.org/mime-types
 npm http 304 https://registry.npmjs.org/isstream
-npm http 304 https://registry.npmjs.org/oauth-sign
 npm http 304 https://registry.npmjs.org/node-uuid
+npm http 304 https://registry.npmjs.org/oauth-sign
 npm http 304 https://registry.npmjs.org/qs
+npm http 304 https://registry.npmjs.org/tunnel-agent
 npm http 304 https://registry.npmjs.org/stringstream
 npm http 304 https://registry.npmjs.org/tough-cookie
-npm http 304 https://registry.npmjs.org/tunnel-agent
 npm http request GET https://registry.npmjs.org/lru-cache
 npm http 304 https://registry.npmjs.org/lru-cache
 npm http request GET https://registry.npmjs.org/pseudomap
@@ -3926,8 +17081,8 @@ npm http 304 https://registry.npmjs.org/pseudomap
 npm http 304 https://registry.npmjs.org/yallist
 npm http request GET https://registry.npmjs.org/process-nextick-args
 npm http request GET https://registry.npmjs.org/util-deprecate
-npm http 304 https://registry.npmjs.org/process-nextick-args
 npm http 304 https://registry.npmjs.org/util-deprecate
+npm http 304 https://registry.npmjs.org/process-nextick-args
 npm http request GET https://registry.npmjs.org/delayed-stream
 npm http 304 https://registry.npmjs.org/delayed-stream
 npm http request GET https://registry.npmjs.org/async
@@ -3938,18 +17093,18 @@ npm http request GET https://registry.npmjs.org/chalk
 npm http request GET https://registry.npmjs.org/commander
 npm http request GET https://registry.npmjs.org/is-my-json-valid
 npm http request GET https://registry.npmjs.org/pinkie-promise
-npm http 304 https://registry.npmjs.org/pinkie-promise
-npm http 304 https://registry.npmjs.org/chalk
 npm http 304 https://registry.npmjs.org/commander
 npm http 304 https://registry.npmjs.org/is-my-json-valid
+npm http 304 https://registry.npmjs.org/chalk
+npm http 304 https://registry.npmjs.org/pinkie-promise
 npm http request GET https://registry.npmjs.org/ansi-styles
 npm http request GET https://registry.npmjs.org/escape-string-regexp
 npm http request GET https://registry.npmjs.org/has-ansi
 npm http request GET https://registry.npmjs.org/strip-ansi
 npm http request GET https://registry.npmjs.org/supports-color
-npm http 304 https://registry.npmjs.org/supports-color
-npm http 304 https://registry.npmjs.org/escape-string-regexp
 npm http 304 https://registry.npmjs.org/ansi-styles
+npm http 304 https://registry.npmjs.org/escape-string-regexp
+npm http 304 https://registry.npmjs.org/supports-color
 npm http 304 https://registry.npmjs.org/strip-ansi
 npm http 304 https://registry.npmjs.org/has-ansi
 npm http request GET https://registry.npmjs.org/color-convert
@@ -3961,15 +17116,15 @@ npm http 304 https://registry.npmjs.org/graceful-readlink
 npm http request GET https://registry.npmjs.org/generate-function
 npm http request GET https://registry.npmjs.org/generate-object-property
 npm http request GET https://registry.npmjs.org/jsonpointer
-npm http 304 https://registry.npmjs.org/generate-function
 npm http 304 https://registry.npmjs.org/jsonpointer
 npm http 304 https://registry.npmjs.org/generate-object-property
+npm http 304 https://registry.npmjs.org/generate-function
 npm http request GET https://registry.npmjs.org/is-property
 npm http 304 https://registry.npmjs.org/is-property
 npm http request GET https://registry.npmjs.org/pinkie
 npm http 304 https://registry.npmjs.org/pinkie
-npm http request GET https://registry.npmjs.org/hoek
 npm http request GET https://registry.npmjs.org/boom
+npm http request GET https://registry.npmjs.org/hoek
 npm http request GET https://registry.npmjs.org/cryptiles
 npm http request GET https://registry.npmjs.org/sntp
 npm http 304 https://registry.npmjs.org/boom
@@ -3985,8 +17140,8 @@ npm http 304 https://registry.npmjs.org/jsprim
 npm http request GET https://registry.npmjs.org/extsprintf
 npm http request GET https://registry.npmjs.org/json-schema
 npm http request GET https://registry.npmjs.org/verror
-npm http 304 https://registry.npmjs.org/extsprintf
 npm http 304 https://registry.npmjs.org/json-schema
+npm http 304 https://registry.npmjs.org/extsprintf
 npm http 304 https://registry.npmjs.org/verror
 npm http request GET https://registry.npmjs.org/asn1
 npm http request GET https://registry.npmjs.org/dashdash
@@ -3994,22 +17149,22 @@ npm http request GET https://registry.npmjs.org/jsbn
 npm http request GET https://registry.npmjs.org/tweetnacl
 npm http request GET https://registry.npmjs.org/jodid25519
 npm http request GET https://registry.npmjs.org/ecc-jsbn
+npm http 304 https://registry.npmjs.org/jodid25519
+npm http 304 https://registry.npmjs.org/asn1
 npm http 304 https://registry.npmjs.org/jsbn
 npm http 304 https://registry.npmjs.org/tweetnacl
-npm http 304 https://registry.npmjs.org/jodid25519
 npm http 304 https://registry.npmjs.org/ecc-jsbn
 npm http 304 https://registry.npmjs.org/dashdash
-npm http 304 https://registry.npmjs.org/asn1
 npm http request GET https://registry.npmjs.org/fstream
 npm http request GET https://registry.npmjs.org/pullstream
 npm http request GET https://registry.npmjs.org/binary
-npm http request GET https://registry.npmjs.org/setimmediate
 npm http request GET https://registry.npmjs.org/match-stream
-npm http 304 https://registry.npmjs.org/setimmediate
-npm http 304 https://registry.npmjs.org/binary
+npm http request GET https://registry.npmjs.org/setimmediate
 npm http 304 https://registry.npmjs.org/match-stream
 npm http 304 https://registry.npmjs.org/pullstream
+npm http 304 https://registry.npmjs.org/binary
 npm http 304 https://registry.npmjs.org/fstream
+npm http 304 https://registry.npmjs.org/setimmediate
 npm http request GET https://registry.npmjs.org/chainsaw
 npm http request GET https://registry.npmjs.org/buffers
 npm http 304 https://registry.npmjs.org/chainsaw
@@ -4023,71 +17178,69 @@ npm WARN deprecated graceful-fs@3.0.8: graceful-fs version 3 and before will fai
 npm http 200 https://registry.npmjs.org/mkdirp
 npm http request GET https://registry.npmjs.org/minimist
 npm http 200 https://registry.npmjs.org/minimist
-npm http request GET https://registry.npmjs.org/slice-stream
 npm http request GET https://registry.npmjs.org/over
+npm http request GET https://registry.npmjs.org/slice-stream
 npm http 304 https://registry.npmjs.org/slice-stream
 npm http 304 https://registry.npmjs.org/over
 npm WARN EPACKAGEJSON install@0.0.1 No repository field.
 npm http request GET https://registry.npmjs.org/balanced-match
-npm http request GET https://registry.npmjs.org/concat-map
 npm http request GET https://registry.npmjs.org/body-parser
+npm http request GET https://registry.npmjs.org/concat-map
 npm http request GET https://registry.npmjs.org/express
-npm http request GET https://registry.npmjs.org/fs-extra-promise
 npm http request GET https://registry.npmjs.org/is-property
+npm http request GET https://registry.npmjs.org/fs-extra-promise
 npm http request GET https://registry.npmjs.org/bn.js
 npm http request GET https://registry.npmjs.org/lie
-npm http request GET https://registry.npmjs.org/long
-npm http request GET https://registry.npmjs.org/minimist
-npm http request GET https://registry.npmjs.org/leveldown-mobile
 npm http request GET https://registry.npmjs.org/express-pouchdb
+npm http request GET https://registry.npmjs.org/long
+npm http request GET https://registry.npmjs.org/leveldown-mobile
 npm http request GET https://registry.npmjs.org/multiplex
 npm http request GET https://registry.npmjs.org/node-uuid
 npm http request GET https://registry.npmjs.org/request
 npm http request GET https://registry.npmjs.org/socket.io-client
-npm http request GET https://registry.npmjs.org/randomstring
-npm http request GET https://registry.npmjs.org/tape
-npm http request GET https://registry.npmjs.org/request-promise
 npm http request GET https://registry.npmjs.org/nock
-npm http request GET https://registry.npmjs.org/urlsafe-base64
+npm http request GET https://registry.npmjs.org/randomstring
+npm http request GET https://registry.npmjs.org/request-promise
 npm http request GET https://registry.npmjs.org/proxyquire
 npm http request GET https://registry.npmjs.org/pouchdb
-npm http request GET https://registry.npmjs.org/tape-catch
+npm http request GET https://registry.npmjs.org/sinon
+npm http request GET https://registry.npmjs.org/tape
+npm http request GET https://registry.npmjs.org/urlsafe-base64
 npm http request GET https://registry.npmjs.org/supertest
 npm http request GET https://registry.npmjs.org/supertest-as-promised
-npm http request GET https://registry.npmjs.org/sinon
-npm http request GET https://registry.npmjs.org/wrapping-tape
-npm http request GET https://registry.npmjs.org/uuid
 npm http request GET https://registry.npmjs.org/tmp
-npm http 304 https://registry.npmjs.org/balanced-match
+npm http request GET https://registry.npmjs.org/tape-catch
+npm http request GET https://registry.npmjs.org/uuid
+npm http request GET https://registry.npmjs.org/wrapping-tape
 npm http 304 https://registry.npmjs.org/body-parser
-npm http 304 https://registry.npmjs.org/concat-map
-npm http 304 https://registry.npmjs.org/express
-npm http 304 https://registry.npmjs.org/fs-extra-promise
 npm http 304 https://registry.npmjs.org/is-property
+npm http 304 https://registry.npmjs.org/balanced-match
+npm http 304 https://registry.npmjs.org/concat-map
 npm http 304 https://registry.npmjs.org/bn.js
 npm http 304 https://registry.npmjs.org/lie
-npm http 304 https://registry.npmjs.org/minimist
+npm http 304 https://registry.npmjs.org/express
+npm http 304 https://registry.npmjs.org/fs-extra-promise
 npm http 304 https://registry.npmjs.org/long
-npm http 304 https://registry.npmjs.org/node-uuid
 npm http 304 https://registry.npmjs.org/multiplex
 npm http 304 https://registry.npmjs.org/request
-npm http 304 https://registry.npmjs.org/socket.io-client
-npm http 304 https://registry.npmjs.org/tape
-npm http 304 https://registry.npmjs.org/express-pouchdb
-npm http 304 https://registry.npmjs.org/request-promise
-npm http 304 https://registry.npmjs.org/urlsafe-base64
-npm http 304 https://registry.npmjs.org/randomstring
-npm http 304 https://registry.npmjs.org/proxyquire
-npm http 304 https://registry.npmjs.org/supertest
-npm http 304 https://registry.npmjs.org/tape-catch
-npm http 304 https://registry.npmjs.org/sinon
-npm http 304 https://registry.npmjs.org/pouchdb
-npm http 304 https://registry.npmjs.org/uuid
-npm http 304 https://registry.npmjs.org/wrapping-tape
-npm http 304 https://registry.npmjs.org/tmp
-npm http 304 https://registry.npmjs.org/supertest-as-promised
+npm http 304 https://registry.npmjs.org/node-uuid
 npm http 304 https://registry.npmjs.org/leveldown-mobile
+npm http 304 https://registry.npmjs.org/request-promise
+npm http 304 https://registry.npmjs.org/randomstring
+npm http 304 https://registry.npmjs.org/socket.io-client
+npm http 304 https://registry.npmjs.org/express-pouchdb
+npm http 304 https://registry.npmjs.org/proxyquire
+npm http 304 https://registry.npmjs.org/sinon
+npm http 304 https://registry.npmjs.org/tape
+npm http 304 https://registry.npmjs.org/supertest
+npm http 304 https://registry.npmjs.org/supertest-as-promised
+npm http 304 https://registry.npmjs.org/tmp
+npm http 304 https://registry.npmjs.org/tape-catch
+npm http 304 https://registry.npmjs.org/urlsafe-base64
+npm http 304 https://registry.npmjs.org/uuid
+npm http 304 https://registry.npmjs.org/pouchdb
 npm http 200 https://registry.npmjs.org/nock
+npm http 304 https://registry.npmjs.org/wrapping-tape
 npm http request GET https://registry.npmjs.org/bytes
 npm http request GET https://registry.npmjs.org/content-type
 npm http request GET https://registry.npmjs.org/debug
@@ -4098,22 +17251,22 @@ npm http request GET https://registry.npmjs.org/on-finished
 npm http request GET https://registry.npmjs.org/qs
 npm http request GET https://registry.npmjs.org/raw-body
 npm http request GET https://registry.npmjs.org/type-is
-npm http 304 https://registry.npmjs.org/content-type
+npm http 304 https://registry.npmjs.org/debug
 npm http 304 https://registry.npmjs.org/http-errors
+npm http 304 https://registry.npmjs.org/content-type
 npm http 304 https://registry.npmjs.org/bytes
 npm http 304 https://registry.npmjs.org/depd
-npm http 304 https://registry.npmjs.org/debug
-npm http 304 https://registry.npmjs.org/type-is
+npm http 304 https://registry.npmjs.org/iconv-lite
 npm http 304 https://registry.npmjs.org/on-finished
 npm http 304 https://registry.npmjs.org/qs
+npm http 304 https://registry.npmjs.org/type-is
 npm http 304 https://registry.npmjs.org/raw-body
-npm http 304 https://registry.npmjs.org/iconv-lite
 npm http request GET https://registry.npmjs.org/ms
 npm http 304 https://registry.npmjs.org/ms
 npm http request GET https://registry.npmjs.org/inherits
 npm http request GET https://registry.npmjs.org/statuses
-npm http 304 https://registry.npmjs.org/inherits
 npm http 304 https://registry.npmjs.org/statuses
+npm http 304 https://registry.npmjs.org/inherits
 npm http request GET https://registry.npmjs.org/ee-first
 npm http 304 https://registry.npmjs.org/ee-first
 npm http request GET https://registry.npmjs.org/unpipe
@@ -4125,8 +17278,8 @@ npm http 304 https://registry.npmjs.org/mime-types
 npm http request GET https://registry.npmjs.org/mime-db
 npm http 304 https://registry.npmjs.org/mime-db
 npm http request GET https://registry.npmjs.org/accepts
-npm http request GET https://registry.npmjs.org/content-disposition
 npm http request GET https://registry.npmjs.org/array-flatten
+npm http request GET https://registry.npmjs.org/content-disposition
 npm http request GET https://registry.npmjs.org/cookie
 npm http request GET https://registry.npmjs.org/cookie-signature
 npm http request GET https://registry.npmjs.org/escape-html
@@ -4140,28 +17293,28 @@ npm http request GET https://registry.npmjs.org/path-to-regexp
 npm http request GET https://registry.npmjs.org/proxy-addr
 npm http request GET https://registry.npmjs.org/range-parser
 npm http request GET https://registry.npmjs.org/send
-npm http request GET https://registry.npmjs.org/serve-static
 npm http request GET https://registry.npmjs.org/utils-merge
+npm http request GET https://registry.npmjs.org/serve-static
 npm http request GET https://registry.npmjs.org/vary
 npm http 304 https://registry.npmjs.org/content-disposition
-npm http 304 https://registry.npmjs.org/cookie
-npm http 304 https://registry.npmjs.org/cookie-signature
 npm http 304 https://registry.npmjs.org/array-flatten
 npm http 304 https://registry.npmjs.org/accepts
+npm http 304 https://registry.npmjs.org/cookie-signature
+npm http 304 https://registry.npmjs.org/cookie
 npm http 304 https://registry.npmjs.org/escape-html
-npm http 304 https://registry.npmjs.org/finalhandler
-npm http 304 https://registry.npmjs.org/merge-descriptors
 npm http 304 https://registry.npmjs.org/etag
 npm http 304 https://registry.npmjs.org/fresh
-npm http 304 https://registry.npmjs.org/methods
-npm http 304 https://registry.npmjs.org/path-to-regexp
+npm http 304 https://registry.npmjs.org/merge-descriptors
 npm http 304 https://registry.npmjs.org/parseurl
+npm http 304 https://registry.npmjs.org/finalhandler
+npm http 304 https://registry.npmjs.org/methods
 npm http 304 https://registry.npmjs.org/proxy-addr
-npm http 304 https://registry.npmjs.org/range-parser
-npm http 304 https://registry.npmjs.org/vary
-npm http 304 https://registry.npmjs.org/send
-npm http 304 https://registry.npmjs.org/serve-static
 npm http 304 https://registry.npmjs.org/utils-merge
+npm http 304 https://registry.npmjs.org/send
+npm http 304 https://registry.npmjs.org/range-parser
+npm http 304 https://registry.npmjs.org/path-to-regexp
+npm http 304 https://registry.npmjs.org/vary
+npm http 304 https://registry.npmjs.org/serve-static
 npm http request GET https://registry.npmjs.org/negotiator
 npm http 304 https://registry.npmjs.org/negotiator
 npm http request GET https://registry.npmjs.org/forwarded
@@ -4175,75 +17328,73 @@ npm http 304 https://registry.npmjs.org/destroy
 npm http request GET https://registry.npmjs.org/bluebird
 npm http request GET https://registry.npmjs.org/basic-auth
 npm http request GET https://registry.npmjs.org/extend
-npm http request GET https://registry.npmjs.org/compression
-npm http request GET https://registry.npmjs.org/header-case-normalizer
-npm http request GET https://registry.npmjs.org/cookie-parser
 npm http request GET https://registry.npmjs.org/pouchdb-all-dbs
-npm http request GET https://registry.npmjs.org/multiparty
-npm http request GET https://registry.npmjs.org/pouchdb-auth
-npm http request GET https://registry.npmjs.org/pouchdb-list
-npm http request GET https://registry.npmjs.org/pouchdb-replicator
+npm http request GET https://registry.npmjs.org/header-case-normalizer
+npm http request GET https://registry.npmjs.org/compression
+npm http request GET https://registry.npmjs.org/cookie-parser
+npm http request GET https://registry.npmjs.org/pouchdb-rewrite
 npm http request GET https://registry.npmjs.org/pouchdb-find
 npm http request GET https://registry.npmjs.org/pouchdb-security
-npm http request GET https://registry.npmjs.org/pouchdb-rewrite
-npm http request GET https://registry.npmjs.org/pouchdb-show
-npm http request GET https://registry.npmjs.org/pouchdb-size
+npm http request GET https://registry.npmjs.org/pouchdb-replicator
+npm http request GET https://registry.npmjs.org/pouchdb-list
+npm http request GET https://registry.npmjs.org/pouchdb-auth
+npm http request GET https://registry.npmjs.org/multiparty
 npm http request GET https://registry.npmjs.org/pouchdb-update
-npm http request GET https://registry.npmjs.org/pouchdb-validation
-npm http request GET https://registry.npmjs.org/pouchdb-vhost
-npm http request GET https://registry.npmjs.org/node-uuid
 npm http request GET https://registry.npmjs.org/pouchdb-wrappers
-npm http 304 https://registry.npmjs.org/basic-auth
-npm http 304 https://registry.npmjs.org/extend
+npm http request GET https://registry.npmjs.org/pouchdb-vhost
+npm http request GET https://registry.npmjs.org/pouchdb-validation
+npm http request GET https://registry.npmjs.org/pouchdb-size
+npm http request GET https://registry.npmjs.org/pouchdb-show
 npm http 304 https://registry.npmjs.org/bluebird
+npm http 304 https://registry.npmjs.org/extend
+npm http 304 https://registry.npmjs.org/basic-auth
+npm http 304 https://registry.npmjs.org/cookie-parser
 npm http 304 https://registry.npmjs.org/compression
 npm http 304 https://registry.npmjs.org/header-case-normalizer
-npm http 304 https://registry.npmjs.org/cookie-parser
-npm http 304 https://registry.npmjs.org/multiparty
-npm http 304 https://registry.npmjs.org/pouchdb-all-dbs
+npm http 304 https://registry.npmjs.org/pouchdb-find
 npm http 304 https://registry.npmjs.org/pouchdb-list
 npm http 304 https://registry.npmjs.org/pouchdb-replicator
+npm http 304 https://registry.npmjs.org/multiparty
+npm http 304 https://registry.npmjs.org/pouchdb-all-dbs
+npm http 304 https://registry.npmjs.org/pouchdb-rewrite
+npm http 304 https://registry.npmjs.org/pouchdb-security
 npm http 200 https://registry.npmjs.org/pouchdb-auth
 npm http fetch GET https://registry.npmjs.org/pouchdb-auth/-/pouchdb-auth-2.0.1.tgz
-npm http 304 https://registry.npmjs.org/pouchdb-security
-npm http 304 https://registry.npmjs.org/pouchdb-find
-npm http 304 https://registry.npmjs.org/pouchdb-show
 npm http 304 https://registry.npmjs.org/pouchdb-size
-npm http 304 https://registry.npmjs.org/pouchdb-rewrite
 npm http 304 https://registry.npmjs.org/pouchdb-update
-npm http 304 https://registry.npmjs.org/node-uuid
-npm http fetch 200 https://registry.npmjs.org/pouchdb-auth/-/pouchdb-auth-2.0.1.tgz
-npm http 304 https://registry.npmjs.org/pouchdb-validation
-npm http 304 https://registry.npmjs.org/pouchdb-vhost
 npm http 304 https://registry.npmjs.org/pouchdb-wrappers
+npm http 304 https://registry.npmjs.org/pouchdb-show
+npm http fetch 200 https://registry.npmjs.org/pouchdb-auth/-/pouchdb-auth-2.0.1.tgz
+npm http 304 https://registry.npmjs.org/pouchdb-vhost
+npm http 304 https://registry.npmjs.org/pouchdb-validation
 npm http request GET https://registry.npmjs.org/on-headers
 npm http request GET https://registry.npmjs.org/compressible
-npm http 304 https://registry.npmjs.org/compressible
 npm http 304 https://registry.npmjs.org/on-headers
+npm http 304 https://registry.npmjs.org/compressible
 npm http request GET https://registry.npmjs.org/readable-stream
 npm http request GET https://registry.npmjs.org/stream-counter
-npm http 304 https://registry.npmjs.org/stream-counter
 npm http 304 https://registry.npmjs.org/readable-stream
+npm http 304 https://registry.npmjs.org/stream-counter
 npm http request GET https://registry.npmjs.org/core-util-is
 npm http request GET https://registry.npmjs.org/isarray
 npm http request GET https://registry.npmjs.org/string_decoder
-npm http 304 https://registry.npmjs.org/core-util-is
 npm http 304 https://registry.npmjs.org/string_decoder
+npm http 304 https://registry.npmjs.org/core-util-is
 npm http 304 https://registry.npmjs.org/isarray
 npm http request GET https://registry.npmjs.org/es3ify
 npm http request GET https://registry.npmjs.org/lie
-npm http request GET https://registry.npmjs.org/tiny-queue
 npm http request GET https://registry.npmjs.org/argsarray
-npm http 304 https://registry.npmjs.org/lie
-npm http 304 https://registry.npmjs.org/tiny-queue
-npm http 304 https://registry.npmjs.org/argsarray
+npm http request GET https://registry.npmjs.org/tiny-queue
 npm http 304 https://registry.npmjs.org/es3ify
+npm http 304 https://registry.npmjs.org/lie
+npm http 304 https://registry.npmjs.org/argsarray
+npm http 304 https://registry.npmjs.org/tiny-queue
 npm http request GET https://registry.npmjs.org/esprima-fb
 npm http request GET https://registry.npmjs.org/jstransform
 npm http request GET https://registry.npmjs.org/through
-npm http 304 https://registry.npmjs.org/through
 npm http 304 https://registry.npmjs.org/jstransform
 npm http 304 https://registry.npmjs.org/esprima-fb
+npm http 304 https://registry.npmjs.org/through
 npm http request GET https://registry.npmjs.org/base62
 npm http request GET https://registry.npmjs.org/source-map
 npm http 304 https://registry.npmjs.org/source-map
@@ -4253,15 +17404,15 @@ npm http 304 https://registry.npmjs.org/amdefine
 npm http request GET https://registry.npmjs.org/immediate
 npm http request GET https://registry.npmjs.org/inline-process-browser
 npm http request GET https://registry.npmjs.org/unreachable-branch-transform
-npm http 304 https://registry.npmjs.org/immediate
-npm http 304 https://registry.npmjs.org/unreachable-branch-transform
 npm http 304 https://registry.npmjs.org/inline-process-browser
+npm http 304 https://registry.npmjs.org/unreachable-branch-transform
+npm http 304 https://registry.npmjs.org/immediate
 npm http request GET https://registry.npmjs.org/falafel
 npm http request GET https://registry.npmjs.org/through2
-npm http 304 https://registry.npmjs.org/falafel
 npm http 304 https://registry.npmjs.org/through2
-npm http request GET https://registry.npmjs.org/foreach
+npm http 304 https://registry.npmjs.org/falafel
 npm http request GET https://registry.npmjs.org/acorn
+npm http request GET https://registry.npmjs.org/foreach
 npm http request GET https://registry.npmjs.org/object-keys
 npm http 304 https://registry.npmjs.org/acorn
 npm http 304 https://registry.npmjs.org/foreach
@@ -4277,43 +17428,43 @@ npm http request GET https://registry.npmjs.org/ast-types
 npm http 304 https://registry.npmjs.org/ast-types
 npm http 304 https://registry.npmjs.org/private
 npm http request GET https://registry.npmjs.org/base64url
-npm http request GET https://registry.npmjs.org/crypto-lite
-npm http request GET https://registry.npmjs.org/couchdb-calculate-session-id
-npm http request GET https://registry.npmjs.org/pouchdb-promise
-npm http request GET https://registry.npmjs.org/pouchdb-bulkdocs-wrapper
 npm http request GET https://registry.npmjs.org/pouchdb-plugin-error
 npm http request GET https://registry.npmjs.org/pouchdb-system-db
 npm http request GET https://registry.npmjs.org/pouchdb-req-http-query
+npm http request GET https://registry.npmjs.org/pouchdb-promise
 npm http request GET https://registry.npmjs.org/promise-nodify
+npm http request GET https://registry.npmjs.org/pouchdb-bulkdocs-wrapper
+npm http request GET https://registry.npmjs.org/crypto-lite
+npm http request GET https://registry.npmjs.org/couchdb-calculate-session-id
 npm http request GET https://registry.npmjs.org/secure-random
 npm http 304 https://registry.npmjs.org/base64url
-npm http 304 https://registry.npmjs.org/pouchdb-promise
-npm http 304 https://registry.npmjs.org/crypto-lite
+npm http 304 https://registry.npmjs.org/pouchdb-system-db
+npm http 304 https://registry.npmjs.org/pouchdb-plugin-error
+npm http 304 https://registry.npmjs.org/promise-nodify
 npm http 304 https://registry.npmjs.org/pouchdb-req-http-query
-npm http 304 https://registry.npmjs.org/couchdb-calculate-session-id
 npm http 304 https://registry.npmjs.org/pouchdb-bulkdocs-wrapper
 npm http 304 https://registry.npmjs.org/secure-random
-npm http 304 https://registry.npmjs.org/pouchdb-plugin-error
-npm http 304 https://registry.npmjs.org/pouchdb-system-db
-npm http 304 https://registry.npmjs.org/promise-nodify
-npm http request GET https://registry.npmjs.org/concat-stream
+npm http 304 https://registry.npmjs.org/couchdb-calculate-session-id
+npm http 304 https://registry.npmjs.org/pouchdb-promise
+npm http 304 https://registry.npmjs.org/crypto-lite
 npm http request GET https://registry.npmjs.org/meow
+npm http request GET https://registry.npmjs.org/concat-stream
 npm http 304 https://registry.npmjs.org/meow
 npm http 200 https://registry.npmjs.org/concat-stream
 npm http request GET https://registry.npmjs.org/typedarray
 npm http 304 https://registry.npmjs.org/typedarray
+npm http request GET https://registry.npmjs.org/indent-string
 npm http request GET https://registry.npmjs.org/camelcase-keys
 npm http request GET https://registry.npmjs.org/object-assign
-npm http request GET https://registry.npmjs.org/indent-string
 npm http 304 https://registry.npmjs.org/camelcase-keys
 npm http 304 https://registry.npmjs.org/object-assign
 npm http 304 https://registry.npmjs.org/indent-string
 npm http request GET https://registry.npmjs.org/map-obj
 npm http request GET https://registry.npmjs.org/camelcase
-npm http 304 https://registry.npmjs.org/map-obj
 npm http 304 https://registry.npmjs.org/camelcase
-npm http request GET https://registry.npmjs.org/get-stdin
+npm http 304 https://registry.npmjs.org/map-obj
 npm http request GET https://registry.npmjs.org/repeating
+npm http request GET https://registry.npmjs.org/get-stdin
 npm http 304 https://registry.npmjs.org/repeating
 npm http 304 https://registry.npmjs.org/get-stdin
 npm http request GET https://registry.npmjs.org/is-finite
@@ -4322,78 +17473,76 @@ npm http request GET https://registry.npmjs.org/number-is-nan
 npm http 304 https://registry.npmjs.org/number-is-nan
 npm http request GET https://registry.npmjs.org/aproba
 npm http 304 https://registry.npmjs.org/aproba
-npm http request GET https://registry.npmjs.org/js-extend
-npm http request GET https://registry.npmjs.org/level-write-stream
-npm http request GET https://registry.npmjs.org/fruitdown
 npm http request GET https://registry.npmjs.org/double-ended-queue
+npm http request GET https://registry.npmjs.org/fruitdown
 npm http request GET https://registry.npmjs.org/scope-eval
-npm http request GET https://registry.npmjs.org/pouchdb-collate
-npm http request GET https://registry.npmjs.org/pouchdb-collections
 npm http request GET https://registry.npmjs.org/levelup
+npm http request GET https://registry.npmjs.org/pouchdb-collections
+npm http request GET https://registry.npmjs.org/pouchdb-collate
 npm http request GET https://registry.npmjs.org/memdown
 npm http request GET https://registry.npmjs.org/es3ify
 npm http request GET https://registry.npmjs.org/localstorage-down
+npm http request GET https://registry.npmjs.org/level-write-stream
+npm http request GET https://registry.npmjs.org/js-extend
 npm http request GET https://registry.npmjs.org/sublevel-pouchdb
-npm http request GET https://registry.npmjs.org/spark-md5
 npm http request GET https://registry.npmjs.org/vuvuzela
+npm http request GET https://registry.npmjs.org/spark-md5
 npm http request GET https://registry.npmjs.org/websql
 npm http 304 https://registry.npmjs.org/double-ended-queue
-npm http 304 https://registry.npmjs.org/js-extend
-npm http 304 https://registry.npmjs.org/fruitdown
 npm http 304 https://registry.npmjs.org/levelup
-npm http 304 https://registry.npmjs.org/memdown
-npm http 304 https://registry.npmjs.org/es3ify
-npm http 304 https://registry.npmjs.org/localstorage-down
-npm http 304 https://registry.npmjs.org/level-write-stream
-npm http 304 https://registry.npmjs.org/scope-eval
-npm http 304 https://registry.npmjs.org/pouchdb-collate
 npm http 304 https://registry.npmjs.org/pouchdb-collections
-npm http 304 https://registry.npmjs.org/vuvuzela
+npm http 304 https://registry.npmjs.org/scope-eval
+npm http 304 https://registry.npmjs.org/es3ify
+npm http 304 https://registry.npmjs.org/pouchdb-collate
+npm http 304 https://registry.npmjs.org/memdown
+npm http 304 https://registry.npmjs.org/localstorage-down
 npm http 304 https://registry.npmjs.org/sublevel-pouchdb
+npm http 304 https://registry.npmjs.org/level-write-stream
+npm http 304 https://registry.npmjs.org/fruitdown
+npm http 304 https://registry.npmjs.org/vuvuzela
 npm http 304 https://registry.npmjs.org/spark-md5
 npm http 304 https://registry.npmjs.org/websql
+npm http 304 https://registry.npmjs.org/js-extend
 npm http request GET https://registry.npmjs.org/esprima
 npm http 304 https://registry.npmjs.org/esprima
 npm http request GET https://registry.npmjs.org/tiny-queue
 npm http request GET https://registry.npmjs.org/d64
 npm http request GET https://registry.npmjs.org/abstract-leveldown
-npm http 304 https://registry.npmjs.org/abstract-leveldown
-npm http 304 https://registry.npmjs.org/tiny-queue
 npm http 304 https://registry.npmjs.org/d64
-npm http request GET https://registry.npmjs.org/xtend
-npm http 304 https://registry.npmjs.org/xtend
+npm http 304 https://registry.npmjs.org/tiny-queue
+npm http 304 https://registry.npmjs.org/abstract-leveldown
 npm http request GET https://registry.npmjs.org/end-stream
 npm http 304 https://registry.npmjs.org/end-stream
 npm http request GET https://registry.npmjs.org/write-stream
 npm http 304 https://registry.npmjs.org/write-stream
 npm http request GET https://registry.npmjs.org/readable-stream
 npm http 304 https://registry.npmjs.org/readable-stream
-npm http request GET https://registry.npmjs.org/prr
-npm http request GET https://registry.npmjs.org/level-iterator-stream
-npm http request GET https://registry.npmjs.org/level-errors
 npm http request GET https://registry.npmjs.org/deferred-leveldown
 npm http request GET https://registry.npmjs.org/level-codec
+npm http request GET https://registry.npmjs.org/level-errors
+npm http request GET https://registry.npmjs.org/level-iterator-stream
+npm http request GET https://registry.npmjs.org/prr
 npm http request GET https://registry.npmjs.org/semver
 npm http 304 https://registry.npmjs.org/prr
-npm http 304 https://registry.npmjs.org/level-errors
 npm http 304 https://registry.npmjs.org/deferred-leveldown
-npm http 304 https://registry.npmjs.org/level-iterator-stream
 npm http 304 https://registry.npmjs.org/level-codec
 npm http 200 https://registry.npmjs.org/semver
+npm http 304 https://registry.npmjs.org/level-errors
+npm http 304 https://registry.npmjs.org/level-iterator-stream
 npm http request GET https://registry.npmjs.org/errno
 npm http 304 https://registry.npmjs.org/errno
 npm http request GET https://registry.npmjs.org/unreachable-branch-transform
 npm http 304 https://registry.npmjs.org/unreachable-branch-transform
 npm http request GET https://registry.npmjs.org/humble-localstorage
 npm http 304 https://registry.npmjs.org/humble-localstorage
-npm http request GET https://registry.npmjs.org/has-localstorage
 npm http request GET https://registry.npmjs.org/localstorage-memory
+npm http request GET https://registry.npmjs.org/has-localstorage
 npm http 304 https://registry.npmjs.org/localstorage-memory
 npm http 304 https://registry.npmjs.org/has-localstorage
-npm http request GET https://registry.npmjs.org/functional-red-black-tree
 npm http request GET https://registry.npmjs.org/ltgt
-npm http 304 https://registry.npmjs.org/ltgt
+npm http request GET https://registry.npmjs.org/functional-red-black-tree
 npm http 304 https://registry.npmjs.org/functional-red-black-tree
+npm http 304 https://registry.npmjs.org/ltgt
 npm http request GET https://registry.npmjs.org/aws-sign2
 npm http request GET https://registry.npmjs.org/aws4
 npm http request GET https://registry.npmjs.org/bl
@@ -4413,31 +17562,33 @@ npm http request GET https://registry.npmjs.org/tough-cookie
 npm http request GET https://registry.npmjs.org/tunnel-agent
 npm http request GET https://registry.npmjs.org/extend
 npm http request GET https://registry.npmjs.org/qs
+npm http 304 https://registry.npmjs.org/caseless
 npm http 304 https://registry.npmjs.org/aws-sign2
 npm http 304 https://registry.npmjs.org/combined-stream
-npm http 304 https://registry.npmjs.org/bl
 npm http 304 https://registry.npmjs.org/aws4
-npm http 304 https://registry.npmjs.org/caseless
+npm http 304 https://registry.npmjs.org/bl
 npm http 304 https://registry.npmjs.org/forever-agent
 npm http 304 https://registry.npmjs.org/form-data
 npm http 304 https://registry.npmjs.org/har-validator
 npm http 304 https://registry.npmjs.org/http-signature
 npm http 304 https://registry.npmjs.org/hawk
 npm http 304 https://registry.npmjs.org/is-typedarray
-npm http 304 https://registry.npmjs.org/oauth-sign
-npm http 304 https://registry.npmjs.org/json-stringify-safe
 npm http 304 https://registry.npmjs.org/isstream
+npm http 304 https://registry.npmjs.org/json-stringify-safe
+npm http 304 https://registry.npmjs.org/oauth-sign
 npm http 304 https://registry.npmjs.org/stringstream
 npm http 304 https://registry.npmjs.org/tough-cookie
 npm http 304 https://registry.npmjs.org/tunnel-agent
-npm http 304 https://registry.npmjs.org/extend
 npm http 304 https://registry.npmjs.org/qs
+npm http 304 https://registry.npmjs.org/extend
 npm http request GET https://registry.npmjs.org/lru-cache
-npm http 304 https://registry.npmjs.org/lru-cache
+npm http 200 https://registry.npmjs.org/lru-cache
+npm http fetch GET https://registry.npmjs.org/lru-cache/-/lru-cache-4.0.1.tgz
+npm http fetch 200 https://registry.npmjs.org/lru-cache/-/lru-cache-4.0.1.tgz
 npm http request GET https://registry.npmjs.org/pseudomap
 npm http request GET https://registry.npmjs.org/yallist
-npm http 304 https://registry.npmjs.org/pseudomap
 npm http 304 https://registry.npmjs.org/yallist
+npm http 304 https://registry.npmjs.org/pseudomap
 npm http request GET https://registry.npmjs.org/process-nextick-args
 npm http request GET https://registry.npmjs.org/util-deprecate
 npm http request GET https://registry.npmjs.org/isarray
@@ -4452,10 +17603,10 @@ npm http request GET https://registry.npmjs.org/chalk
 npm http request GET https://registry.npmjs.org/commander
 npm http request GET https://registry.npmjs.org/is-my-json-valid
 npm http request GET https://registry.npmjs.org/pinkie-promise
-npm http 304 https://registry.npmjs.org/chalk
 npm http 304 https://registry.npmjs.org/commander
 npm http 304 https://registry.npmjs.org/is-my-json-valid
 npm http 304 https://registry.npmjs.org/pinkie-promise
+npm http 304 https://registry.npmjs.org/chalk
 npm http request GET https://registry.npmjs.org/ansi-styles
 npm http request GET https://registry.npmjs.org/escape-string-regexp
 npm http request GET https://registry.npmjs.org/has-ansi
@@ -4476,30 +17627,30 @@ npm http request GET https://registry.npmjs.org/generate-function
 npm http request GET https://registry.npmjs.org/generate-object-property
 npm http request GET https://registry.npmjs.org/jsonpointer
 npm http 304 https://registry.npmjs.org/jsonpointer
-npm http 304 https://registry.npmjs.org/generate-object-property
 npm http 304 https://registry.npmjs.org/generate-function
+npm http 304 https://registry.npmjs.org/generate-object-property
 npm http request GET https://registry.npmjs.org/pinkie
 npm http 304 https://registry.npmjs.org/pinkie
 npm http request GET https://registry.npmjs.org/hoek
-npm http request GET https://registry.npmjs.org/cryptiles
 npm http request GET https://registry.npmjs.org/boom
+npm http request GET https://registry.npmjs.org/cryptiles
 npm http request GET https://registry.npmjs.org/sntp
-npm http 304 https://registry.npmjs.org/cryptiles
-npm http 304 https://registry.npmjs.org/sntp
 npm http 304 https://registry.npmjs.org/boom
+npm http 304 https://registry.npmjs.org/cryptiles
 npm http 304 https://registry.npmjs.org/hoek
+npm http 304 https://registry.npmjs.org/sntp
 npm http request GET https://registry.npmjs.org/assert-plus
 npm http request GET https://registry.npmjs.org/jsprim
 npm http request GET https://registry.npmjs.org/sshpk
+npm http 304 https://registry.npmjs.org/jsprim
 npm http 304 https://registry.npmjs.org/assert-plus
 npm http 304 https://registry.npmjs.org/sshpk
-npm http 304 https://registry.npmjs.org/jsprim
 npm http request GET https://registry.npmjs.org/extsprintf
 npm http request GET https://registry.npmjs.org/json-schema
 npm http request GET https://registry.npmjs.org/verror
 npm http 304 https://registry.npmjs.org/json-schema
-npm http 304 https://registry.npmjs.org/verror
 npm http 304 https://registry.npmjs.org/extsprintf
+npm http 304 https://registry.npmjs.org/verror
 npm http request GET https://registry.npmjs.org/asn1
 npm http request GET https://registry.npmjs.org/dashdash
 npm http 304 https://registry.npmjs.org/dashdash
@@ -4514,9 +17665,9 @@ npm http request GET https://registry.npmjs.org/immediate
 npm http request GET https://registry.npmjs.org/noop-fn
 npm http request GET https://registry.npmjs.org/sqlite3
 npm http 304 https://registry.npmjs.org/immediate
-npm http 304 https://registry.npmjs.org/noop-fn
 npm http 200 https://registry.npmjs.org/sqlite3
 npm http fetch GET https://registry.npmjs.org/sqlite3/-/sqlite3-3.1.2.tgz
+npm http 304 https://registry.npmjs.org/noop-fn
 npm http fetch 200 https://registry.npmjs.org/sqlite3/-/sqlite3-3.1.2.tgz
 npm http request GET https://registry.npmjs.org/nan
 npm http 304 https://registry.npmjs.org/nan
@@ -4524,48 +17675,48 @@ npm http fetch GET https://registry.npmjs.org/nan/-/nan-2.2.0.tgz
 npm http fetch 200 https://registry.npmjs.org/nan/-/nan-2.2.0.tgz
 npm http request GET https://registry.npmjs.org/lie
 npm http request GET https://registry.npmjs.org/bluebird
-npm http 304 https://registry.npmjs.org/bluebird
 npm http 304 https://registry.npmjs.org/lie
+npm http 304 https://registry.npmjs.org/bluebird
 npm http request GET https://registry.npmjs.org/xmlhttprequest-cookie
 npm http 304 https://registry.npmjs.org/xmlhttprequest-cookie
 npm http request GET https://registry.npmjs.org/xmlhttprequest
 npm http 304 https://registry.npmjs.org/xmlhttprequest
 npm http request GET https://registry.npmjs.org/pouchdb-changeslike-wrapper
 npm http 304 https://registry.npmjs.org/pouchdb-changeslike-wrapper
-npm http request GET https://registry.npmjs.org/couchdb-eval
-npm http request GET https://registry.npmjs.org/random-uuid-v4
 npm http request GET https://registry.npmjs.org/couchdb-objects
+npm http request GET https://registry.npmjs.org/random-uuid-v4
+npm http request GET https://registry.npmjs.org/couchdb-eval
+npm http 304 https://registry.npmjs.org/couchdb-objects
 npm http 304 https://registry.npmjs.org/random-uuid-v4
 npm http 304 https://registry.npmjs.org/couchdb-eval
-npm http 304 https://registry.npmjs.org/couchdb-objects
 npm http request GET https://registry.npmjs.org/is-empty
 npm http 304 https://registry.npmjs.org/is-empty
 npm http request GET https://registry.npmjs.org/spark-md5
-npm http request GET https://registry.npmjs.org/pouchdb-extend
 npm http request GET https://registry.npmjs.org/pouchdb-abstract-mapreduce
 npm http request GET https://registry.npmjs.org/pouchdb-upsert
+npm http request GET https://registry.npmjs.org/pouchdb-extend
 npm http request GET https://registry.npmjs.org/jshint
 npm http 304 https://registry.npmjs.org/spark-md5
 npm http 304 https://registry.npmjs.org/jshint
-npm http 304 https://registry.npmjs.org/pouchdb-extend
-npm http 304 https://registry.npmjs.org/pouchdb-upsert
 npm http 304 https://registry.npmjs.org/pouchdb-abstract-mapreduce
+npm http 304 https://registry.npmjs.org/pouchdb-upsert
+npm http 304 https://registry.npmjs.org/pouchdb-extend
 npm http request GET https://registry.npmjs.org/minimatch
-npm http request GET https://registry.npmjs.org/strip-json-comments
-npm http request GET https://registry.npmjs.org/cli
 npm http request GET https://registry.npmjs.org/console-browserify
-npm http request GET https://registry.npmjs.org/exit
 npm http request GET https://registry.npmjs.org/htmlparser2
+npm http request GET https://registry.npmjs.org/cli
+npm http request GET https://registry.npmjs.org/exit
+npm http request GET https://registry.npmjs.org/strip-json-comments
 npm http request GET https://registry.npmjs.org/shelljs
 npm http request GET https://registry.npmjs.org/lodash
+npm http 304 https://registry.npmjs.org/console-browserify
 npm http 304 https://registry.npmjs.org/minimatch
+npm http 304 https://registry.npmjs.org/htmlparser2
 npm http 304 https://registry.npmjs.org/strip-json-comments
 npm http 304 https://registry.npmjs.org/exit
 npm http 304 https://registry.npmjs.org/cli
-npm http 304 https://registry.npmjs.org/console-browserify
-npm http 200 https://registry.npmjs.org/shelljs
-npm http 304 https://registry.npmjs.org/htmlparser2
 npm http 200 https://registry.npmjs.org/lodash
+npm http 200 https://registry.npmjs.org/shelljs
 npm http request GET https://registry.npmjs.org/glob
 npm http 304 https://registry.npmjs.org/glob
 npm http request GET https://registry.npmjs.org/lru-cache
@@ -4575,12 +17726,12 @@ npm http 304 https://registry.npmjs.org/sigmund
 npm http request GET https://registry.npmjs.org/date-now
 npm http 304 https://registry.npmjs.org/date-now
 npm http request GET https://registry.npmjs.org/domhandler
-npm http request GET https://registry.npmjs.org/domutils
 npm http request GET https://registry.npmjs.org/domelementtype
+npm http request GET https://registry.npmjs.org/domutils
 npm http request GET https://registry.npmjs.org/entities
 npm http 304 https://registry.npmjs.org/domelementtype
-npm http 304 https://registry.npmjs.org/entities
 npm http 304 https://registry.npmjs.org/domhandler
+npm http 304 https://registry.npmjs.org/entities
 npm http 304 https://registry.npmjs.org/domutils
 npm http request GET https://registry.npmjs.org/dom-serializer
 npm http 304 https://registry.npmjs.org/dom-serializer
@@ -4588,8 +17739,6 @@ npm http request GET https://registry.npmjs.org/brace-expansion
 npm http 304 https://registry.npmjs.org/brace-expansion
 npm http request GET https://registry.npmjs.org/balanced-match
 npm http 304 https://registry.npmjs.org/balanced-match
-npm http request GET https://registry.npmjs.org/lie
-npm http 304 https://registry.npmjs.org/lie
 npm http request GET https://registry.npmjs.org/extend
 npm http request GET https://registry.npmjs.org/couchdb-render
 npm http 304 https://registry.npmjs.org/extend
@@ -4606,24 +17755,22 @@ npm http request GET https://registry.npmjs.org/get-folder-size
 npm http 304 https://registry.npmjs.org/get-folder-size
 npm http request GET https://registry.npmjs.org/async
 npm http request GET https://registry.npmjs.org/minimist
-npm http 304 https://registry.npmjs.org/minimist
 npm http 304 https://registry.npmjs.org/async
+npm http 304 https://registry.npmjs.org/minimist
 npm http request GET https://registry.npmjs.org/bytes
 npm http request GET https://registry.npmjs.org/iconv-lite
-npm http 304 https://registry.npmjs.org/bytes
 npm http 304 https://registry.npmjs.org/iconv-lite
+npm http 304 https://registry.npmjs.org/bytes
 npm http request GET https://registry.npmjs.org/fs-extra
 npm http 304 https://registry.npmjs.org/fs-extra
 npm http request GET https://registry.npmjs.org/graceful-fs
 npm http request GET https://registry.npmjs.org/jsonfile
 npm http request GET https://registry.npmjs.org/path-is-absolute
 npm http request GET https://registry.npmjs.org/rimraf
-npm http 304 https://registry.npmjs.org/path-is-absolute
-npm http 304 https://registry.npmjs.org/rimraf
 npm http 304 https://registry.npmjs.org/jsonfile
 npm http 304 https://registry.npmjs.org/graceful-fs
-npm http request GET https://registry.npmjs.org/glob
-npm http 304 https://registry.npmjs.org/glob
+npm http 304 https://registry.npmjs.org/rimraf
+npm http 304 https://registry.npmjs.org/path-is-absolute
 npm http request GET https://registry.npmjs.org/inflight
 npm http request GET https://registry.npmjs.org/once
 npm http 304 https://registry.npmjs.org/once
@@ -4631,166 +17778,166 @@ npm http 304 https://registry.npmjs.org/inflight
 npm http request GET https://registry.npmjs.org/wrappy
 npm http 304 https://registry.npmjs.org/wrappy
 npm http request GET https://registry.npmjs.org/abstract-leveldown
-npm http request GET https://registry.npmjs.org/bindings
 npm http request GET https://registry.npmjs.org/fast-future
+npm http request GET https://registry.npmjs.org/bindings
 npm http 304 https://registry.npmjs.org/bindings
 npm http 304 https://registry.npmjs.org/fast-future
 npm http 304 https://registry.npmjs.org/abstract-leveldown
-npm http request GET https://registry.npmjs.org/varint
 npm http request GET https://registry.npmjs.org/duplexify
+npm http request GET https://registry.npmjs.org/varint
 npm http request GET https://registry.npmjs.org/readable-stream
-npm http 304 https://registry.npmjs.org/readable-stream
 npm http 304 https://registry.npmjs.org/duplexify
+npm http 304 https://registry.npmjs.org/readable-stream
 npm http 304 https://registry.npmjs.org/varint
 npm http request GET https://registry.npmjs.org/end-of-stream
 npm http 304 https://registry.npmjs.org/end-of-stream
 npm http request GET https://registry.npmjs.org/isarray
 npm http 304 https://registry.npmjs.org/isarray
 npm http request GET https://registry.npmjs.org/deep-equal
-npm http request GET https://registry.npmjs.org/debug
-npm http request GET https://registry.npmjs.org/lodash
 npm http request GET https://registry.npmjs.org/mkdirp
+npm http request GET https://registry.npmjs.org/debug
 npm http request GET https://registry.npmjs.org/chai
+npm http request GET https://registry.npmjs.org/lodash
 npm http request GET https://registry.npmjs.org/propagate
 npm http 304 https://registry.npmjs.org/deep-equal
-npm http 304 https://registry.npmjs.org/debug
 npm http 304 https://registry.npmjs.org/mkdirp
+npm http 304 https://registry.npmjs.org/debug
 npm http 304 https://registry.npmjs.org/lodash
 npm WARN deprecated lodash@2.4.1: lodash@<3.0.0 is no longer maintained. Upgrade to lodash@^4.0.0.
 npm http 304 https://registry.npmjs.org/propagate
 npm http 200 https://registry.npmjs.org/chai
-npm http request GET https://registry.npmjs.org/deep-eql
 npm http request GET https://registry.npmjs.org/assertion-error
+npm http request GET https://registry.npmjs.org/deep-eql
 npm http request GET https://registry.npmjs.org/type-detect
-npm http 304 https://registry.npmjs.org/assertion-error
 npm http 304 https://registry.npmjs.org/type-detect
+npm http 304 https://registry.npmjs.org/assertion-error
 npm http 304 https://registry.npmjs.org/deep-eql
 npm http request GET https://registry.npmjs.org/ms
 npm http 304 https://registry.npmjs.org/ms
 npm http request GET https://registry.npmjs.org/ip
 npm http 304 https://registry.npmjs.org/ip
-npm http request GET https://registry.npmjs.org/fill-keys
 npm http request GET https://registry.npmjs.org/module-not-found-error
+npm http request GET https://registry.npmjs.org/fill-keys
 npm http 304 https://registry.npmjs.org/module-not-found-error
 npm http 304 https://registry.npmjs.org/fill-keys
 npm http request GET https://registry.npmjs.org/is-object
 npm http 304 https://registry.npmjs.org/is-object
 npm http request GET https://registry.npmjs.org/array-uniq
 npm http 304 https://registry.npmjs.org/array-uniq
-npm http request GET https://registry.npmjs.org/samsam
-npm http request GET https://registry.npmjs.org/lolex
 npm http request GET https://registry.npmjs.org/util
+npm http request GET https://registry.npmjs.org/lolex
 npm http request GET https://registry.npmjs.org/formatio
+npm http request GET https://registry.npmjs.org/samsam
 npm http 304 https://registry.npmjs.org/util
 npm http 304 https://registry.npmjs.org/samsam
 npm http 304 https://registry.npmjs.org/lolex
 npm http 304 https://registry.npmjs.org/formatio
 npm http request GET https://registry.npmjs.org/engine.io-client
 npm http request GET https://registry.npmjs.org/component-bind
-npm http request GET https://registry.npmjs.org/object-component
 npm http request GET https://registry.npmjs.org/component-emitter
+npm http request GET https://registry.npmjs.org/object-component
 npm http request GET https://registry.npmjs.org/socket.io-parser
 npm http request GET https://registry.npmjs.org/has-binary
 npm http request GET https://registry.npmjs.org/indexof
 npm http request GET https://registry.npmjs.org/parseuri
 npm http request GET https://registry.npmjs.org/to-array
 npm http request GET https://registry.npmjs.org/backo2
-npm http 304 https://registry.npmjs.org/socket.io-parser
 npm http 304 https://registry.npmjs.org/component-bind
-npm http 304 https://registry.npmjs.org/component-emitter
 npm http 304 https://registry.npmjs.org/object-component
-npm http 304 https://registry.npmjs.org/to-array
-npm http 304 https://registry.npmjs.org/parseuri
-npm http 304 https://registry.npmjs.org/indexof
-npm http 304 https://registry.npmjs.org/backo2
+npm http 304 https://registry.npmjs.org/component-emitter
+npm http 304 https://registry.npmjs.org/socket.io-parser
 npm http 304 https://registry.npmjs.org/engine.io-client
 npm http 304 https://registry.npmjs.org/has-binary
+npm http 304 https://registry.npmjs.org/to-array
+npm http 304 https://registry.npmjs.org/indexof
+npm http 304 https://registry.npmjs.org/backo2
+npm http 304 https://registry.npmjs.org/parseuri
 npm http request GET https://registry.npmjs.org/has-cors
 npm http request GET https://registry.npmjs.org/ws
 npm http request GET https://registry.npmjs.org/xmlhttprequest-ssl
-npm http request GET https://registry.npmjs.org/engine.io-parser
 npm http request GET https://registry.npmjs.org/parsejson
+npm http request GET https://registry.npmjs.org/engine.io-parser
 npm http request GET https://registry.npmjs.org/parseqs
 npm http request GET https://registry.npmjs.org/component-inherit
 npm http request GET https://registry.npmjs.org/yeast
-npm http 304 https://registry.npmjs.org/xmlhttprequest-ssl
-npm http 304 https://registry.npmjs.org/engine.io-parser
-npm http 304 https://registry.npmjs.org/parsejson
-npm http 304 https://registry.npmjs.org/has-cors
-npm http 304 https://registry.npmjs.org/parseqs
-npm http 304 https://registry.npmjs.org/yeast
-npm http 304 https://registry.npmjs.org/component-inherit
 npm http 304 https://registry.npmjs.org/ws
+npm http 304 https://registry.npmjs.org/has-cors
+npm http 304 https://registry.npmjs.org/xmlhttprequest-ssl
+npm http 304 https://registry.npmjs.org/parseqs
+npm http 304 https://registry.npmjs.org/parsejson
+npm http 304 https://registry.npmjs.org/component-inherit
+npm http 304 https://registry.npmjs.org/engine.io-parser
+npm http 304 https://registry.npmjs.org/yeast
 npm http request GET https://registry.npmjs.org/after
-npm http request GET https://registry.npmjs.org/arraybuffer.slice
 npm http request GET https://registry.npmjs.org/base64-arraybuffer
+npm http request GET https://registry.npmjs.org/arraybuffer.slice
 npm http request GET https://registry.npmjs.org/blob
 npm http request GET https://registry.npmjs.org/utf8
-npm http 304 https://registry.npmjs.org/blob
 npm http 304 https://registry.npmjs.org/arraybuffer.slice
-npm http 304 https://registry.npmjs.org/base64-arraybuffer
 npm http 304 https://registry.npmjs.org/utf8
 npm http 304 https://registry.npmjs.org/after
+npm http 304 https://registry.npmjs.org/base64-arraybuffer
+npm http 304 https://registry.npmjs.org/blob
 npm http request GET https://registry.npmjs.org/better-assert
 npm http 304 https://registry.npmjs.org/better-assert
 npm http request GET https://registry.npmjs.org/callsite
 npm http 304 https://registry.npmjs.org/callsite
-npm http request GET https://registry.npmjs.org/ultron
 npm http request GET https://registry.npmjs.org/options
-npm http 304 https://registry.npmjs.org/options
+npm http request GET https://registry.npmjs.org/ultron
 npm http 304 https://registry.npmjs.org/ultron
+npm http 304 https://registry.npmjs.org/options
 npm http request GET https://registry.npmjs.org/json3
 npm http request GET https://registry.npmjs.org/benchmark
-npm http 304 https://registry.npmjs.org/benchmark
 npm http 304 https://registry.npmjs.org/json3
+npm http 304 https://registry.npmjs.org/benchmark
 npm http request GET https://registry.npmjs.org/superagent
 npm http 200 https://registry.npmjs.org/superagent
 npm http fetch GET https://registry.npmjs.org/superagent/-/superagent-1.8.2.tgz
 npm http fetch 200 https://registry.npmjs.org/superagent/-/superagent-1.8.2.tgz
 npm http request GET https://registry.npmjs.org/qs
-npm http request GET https://registry.npmjs.org/extend
 npm http request GET https://registry.npmjs.org/form-data
 npm http request GET https://registry.npmjs.org/readable-stream
+npm http request GET https://registry.npmjs.org/extend
 npm http request GET https://registry.npmjs.org/reduce-component
 npm http request GET https://registry.npmjs.org/cookiejar
 npm http request GET https://registry.npmjs.org/formidable
-npm http 304 https://registry.npmjs.org/qs
-npm http 304 https://registry.npmjs.org/cookiejar
-npm http 304 https://registry.npmjs.org/extend
 npm http 304 https://registry.npmjs.org/reduce-component
+npm http 304 https://registry.npmjs.org/extend
+npm http 304 https://registry.npmjs.org/qs
 npm http 304 https://registry.npmjs.org/readable-stream
+npm http 304 https://registry.npmjs.org/cookiejar
 npm http 304 https://registry.npmjs.org/form-data
 npm http 304 https://registry.npmjs.org/formidable
 npm http request GET https://registry.npmjs.org/defined
 npm http request GET https://registry.npmjs.org/function-bind
-npm http request GET https://registry.npmjs.org/string.prototype.trim
-npm http request GET https://registry.npmjs.org/resolve
 npm http request GET https://registry.npmjs.org/object-inspect
-npm http request GET https://registry.npmjs.org/has
-npm http request GET https://registry.npmjs.org/resumer
 npm http request GET https://registry.npmjs.org/glob
-npm http 304 https://registry.npmjs.org/resolve
-npm http 304 https://registry.npmjs.org/object-inspect
-npm http 304 https://registry.npmjs.org/string.prototype.trim
+npm http request GET https://registry.npmjs.org/has
+npm http request GET https://registry.npmjs.org/string.prototype.trim
+npm http request GET https://registry.npmjs.org/resumer
+npm http request GET https://registry.npmjs.org/resolve
 npm http 304 https://registry.npmjs.org/function-bind
-npm http 304 https://registry.npmjs.org/defined
 npm http 304 https://registry.npmjs.org/has
-npm http 304 https://registry.npmjs.org/resumer
 npm http 304 https://registry.npmjs.org/glob
-npm http request GET https://registry.npmjs.org/define-properties
+npm http 304 https://registry.npmjs.org/object-inspect
+npm http 304 https://registry.npmjs.org/defined
+npm http 304 https://registry.npmjs.org/resumer
+npm http 304 https://registry.npmjs.org/resolve
+npm http 304 https://registry.npmjs.org/string.prototype.trim
 npm http request GET https://registry.npmjs.org/es-abstract
+npm http request GET https://registry.npmjs.org/define-properties
 npm http 304 https://registry.npmjs.org/define-properties
 npm http 304 https://registry.npmjs.org/es-abstract
+npm http request GET https://registry.npmjs.org/is-regex
 npm http request GET https://registry.npmjs.org/es-to-primitive
 npm http request GET https://registry.npmjs.org/is-callable
-npm http request GET https://registry.npmjs.org/is-regex
-npm http 304 https://registry.npmjs.org/is-regex
 npm http 304 https://registry.npmjs.org/is-callable
 npm http 304 https://registry.npmjs.org/es-to-primitive
+npm http 304 https://registry.npmjs.org/is-regex
 npm http request GET https://registry.npmjs.org/is-date-object
 npm http request GET https://registry.npmjs.org/is-symbol
-npm http 304 https://registry.npmjs.org/is-date-object
 npm http 304 https://registry.npmjs.org/is-symbol
+npm http 304 https://registry.npmjs.org/is-date-object
 npm http request GET https://registry.npmjs.org/os-tmpdir
 npm http 304 https://registry.npmjs.org/os-tmpdir
 npm WARN prefer global jshint@2.9.1 should be installed with -g
@@ -5919,67 +19066,67 @@ npm http 200 https://registry.npmjs.org/cordova
 npm http request GET https://registry.npmjs.org/fs-extra-promise
 npm http request GET https://registry.npmjs.org/express
 npm http request GET https://registry.npmjs.org/lie
-npm http request GET https://registry.npmjs.org/winston
 npm http request GET https://registry.npmjs.org/socket.io
-npm http 304 https://registry.npmjs.org/fs-extra-promise
+npm http request GET https://registry.npmjs.org/winston
 npm http 304 https://registry.npmjs.org/lie
+npm http 304 https://registry.npmjs.org/fs-extra-promise
 npm http 200 https://registry.npmjs.org/socket.io
 npm http 200 https://registry.npmjs.org/winston
 npm http 200 https://registry.npmjs.org/express
 npm http request GET https://registry.npmjs.org/debug
+npm http request GET https://registry.npmjs.org/content-disposition
 npm http request GET https://registry.npmjs.org/cookie
 npm http request GET https://registry.npmjs.org/cookie-signature
-npm http request GET https://registry.npmjs.org/content-disposition
 npm http request GET https://registry.npmjs.org/content-type
-npm http request GET https://registry.npmjs.org/accepts
 npm http request GET https://registry.npmjs.org/array-flatten
+npm http request GET https://registry.npmjs.org/accepts
 npm http request GET https://registry.npmjs.org/depd
-npm http request GET https://registry.npmjs.org/on-finished
-npm http request GET https://registry.npmjs.org/parseurl
+npm http request GET https://registry.npmjs.org/escape-html
+npm http request GET https://registry.npmjs.org/etag
 npm http request GET https://registry.npmjs.org/methods
 npm http request GET https://registry.npmjs.org/merge-descriptors
+npm http request GET https://registry.npmjs.org/on-finished
+npm http request GET https://registry.npmjs.org/parseurl
+npm http request GET https://registry.npmjs.org/range-parser
 npm http request GET https://registry.npmjs.org/finalhandler
-npm http request GET https://registry.npmjs.org/fresh
-npm http request GET https://registry.npmjs.org/etag
-npm http request GET https://registry.npmjs.org/escape-html
 npm http request GET https://registry.npmjs.org/utils-merge
 npm http request GET https://registry.npmjs.org/proxy-addr
-npm http request GET https://registry.npmjs.org/vary
-npm http request GET https://registry.npmjs.org/range-parser
 npm http request GET https://registry.npmjs.org/path-to-regexp
+npm http request GET https://registry.npmjs.org/vary
+npm http request GET https://registry.npmjs.org/fresh
 npm http request GET https://registry.npmjs.org/type-is
-npm http request GET https://registry.npmjs.org/serve-static
 npm http request GET https://registry.npmjs.org/send
+npm http request GET https://registry.npmjs.org/serve-static
 npm http request GET https://registry.npmjs.org/qs
-npm http 304 https://registry.npmjs.org/cookie
-npm http 304 https://registry.npmjs.org/content-disposition
 npm http 304 https://registry.npmjs.org/cookie-signature
+npm http 304 https://registry.npmjs.org/content-disposition
+npm http 304 https://registry.npmjs.org/cookie
 npm http 304 https://registry.npmjs.org/content-type
 npm http 304 https://registry.npmjs.org/debug
+npm http 304 https://registry.npmjs.org/depd
 npm http 304 https://registry.npmjs.org/accepts
 npm http 304 https://registry.npmjs.org/array-flatten
-npm http 304 https://registry.npmjs.org/depd
-npm http 304 https://registry.npmjs.org/methods
-npm http 304 https://registry.npmjs.org/on-finished
-npm http 304 https://registry.npmjs.org/parseurl
-npm http 304 https://registry.npmjs.org/fresh
-npm http 304 https://registry.npmjs.org/merge-descriptors
-npm http 304 https://registry.npmjs.org/finalhandler
 npm http 304 https://registry.npmjs.org/escape-html
 npm http 304 https://registry.npmjs.org/etag
-npm http 304 https://registry.npmjs.org/utils-merge
-npm http 304 https://registry.npmjs.org/proxy-addr
-npm http 304 https://registry.npmjs.org/vary
+npm http 304 https://registry.npmjs.org/methods
+npm http 304 https://registry.npmjs.org/parseurl
+npm http 304 https://registry.npmjs.org/merge-descriptors
 npm http 304 https://registry.npmjs.org/range-parser
+npm http 304 https://registry.npmjs.org/on-finished
+npm http 304 https://registry.npmjs.org/finalhandler
 npm http 304 https://registry.npmjs.org/path-to-regexp
-npm http 304 https://registry.npmjs.org/type-is
+npm http 304 https://registry.npmjs.org/proxy-addr
+npm http 304 https://registry.npmjs.org/utils-merge
+npm http 304 https://registry.npmjs.org/vary
 npm http 304 https://registry.npmjs.org/send
+npm http 304 https://registry.npmjs.org/fresh
+npm http 304 https://registry.npmjs.org/type-is
 npm http 200 https://registry.npmjs.org/serve-static
 npm http 200 https://registry.npmjs.org/qs
-npm http request GET https://registry.npmjs.org/negotiator
 npm http request GET https://registry.npmjs.org/mime-types
-npm http 304 https://registry.npmjs.org/mime-types
+npm http request GET https://registry.npmjs.org/negotiator
 npm http 304 https://registry.npmjs.org/negotiator
+npm http 304 https://registry.npmjs.org/mime-types
 npm http request GET https://registry.npmjs.org/mime-db
 npm http 304 https://registry.npmjs.org/mime-db
 npm http request GET https://registry.npmjs.org/ms
@@ -5993,13 +19140,13 @@ npm http request GET https://registry.npmjs.org/ipaddr.js
 npm http 304 https://registry.npmjs.org/forwarded
 npm http 304 https://registry.npmjs.org/ipaddr.js
 npm http request GET https://registry.npmjs.org/destroy
+npm http request GET https://registry.npmjs.org/statuses
 npm http request GET https://registry.npmjs.org/http-errors
 npm http request GET https://registry.npmjs.org/mime
-npm http request GET https://registry.npmjs.org/statuses
-npm http 304 https://registry.npmjs.org/destroy
 npm http 304 https://registry.npmjs.org/http-errors
-npm http 304 https://registry.npmjs.org/mime
 npm http 304 https://registry.npmjs.org/statuses
+npm http 304 https://registry.npmjs.org/mime
+npm http 304 https://registry.npmjs.org/destroy
 npm http request GET https://registry.npmjs.org/inherits
 npm http 304 https://registry.npmjs.org/inherits
 npm http request GET https://registry.npmjs.org/media-typer
@@ -6008,41 +19155,41 @@ npm http request GET https://registry.npmjs.org/fs-extra
 npm http request GET https://registry.npmjs.org/bluebird
 npm http 200 https://registry.npmjs.org/fs-extra
 npm http 200 https://registry.npmjs.org/bluebird
-npm http request GET https://registry.npmjs.org/path-is-absolute
 npm http request GET https://registry.npmjs.org/graceful-fs
 npm http request GET https://registry.npmjs.org/jsonfile
+npm http request GET https://registry.npmjs.org/path-is-absolute
 npm http request GET https://registry.npmjs.org/rimraf
-npm http 304 https://registry.npmjs.org/path-is-absolute
 npm http 304 https://registry.npmjs.org/graceful-fs
 npm http 304 https://registry.npmjs.org/jsonfile
+npm http 304 https://registry.npmjs.org/path-is-absolute
 npm http 304 https://registry.npmjs.org/rimraf
 npm http request GET https://registry.npmjs.org/glob
 npm http 304 https://registry.npmjs.org/glob
-npm http request GET https://registry.npmjs.org/once
 npm http request GET https://registry.npmjs.org/inflight
+npm http request GET https://registry.npmjs.org/once
 npm http request GET https://registry.npmjs.org/minimatch
-npm http 304 https://registry.npmjs.org/minimatch
 npm http 304 https://registry.npmjs.org/once
 npm http 304 https://registry.npmjs.org/inflight
+npm http 304 https://registry.npmjs.org/minimatch
 npm http request GET https://registry.npmjs.org/wrappy
 npm http 304 https://registry.npmjs.org/wrappy
 npm http request GET https://registry.npmjs.org/brace-expansion
 npm http 304 https://registry.npmjs.org/brace-expansion
-npm http request GET https://registry.npmjs.org/balanced-match
 npm http request GET https://registry.npmjs.org/concat-map
-npm http 304 https://registry.npmjs.org/balanced-match
+npm http request GET https://registry.npmjs.org/balanced-match
 npm http 304 https://registry.npmjs.org/concat-map
+npm http 304 https://registry.npmjs.org/balanced-match
 npm http request GET https://registry.npmjs.org/es3ify
 npm http request GET https://registry.npmjs.org/inline-process-browser
 npm http request GET https://registry.npmjs.org/immediate
 npm http request GET https://registry.npmjs.org/unreachable-branch-transform
-npm http 304 https://registry.npmjs.org/immediate
-npm http 304 https://registry.npmjs.org/unreachable-branch-transform
-npm http 304 https://registry.npmjs.org/inline-process-browser
 npm http 304 https://registry.npmjs.org/es3ify
+npm http 304 https://registry.npmjs.org/inline-process-browser
+npm http 304 https://registry.npmjs.org/unreachable-branch-transform
+npm http 304 https://registry.npmjs.org/immediate
+npm http request GET https://registry.npmjs.org/esprima-fb
 npm http request GET https://registry.npmjs.org/through
 npm http request GET https://registry.npmjs.org/jstransform
-npm http request GET https://registry.npmjs.org/esprima-fb
 npm http 304 https://registry.npmjs.org/jstransform
 npm http 304 https://registry.npmjs.org/esprima-fb
 npm http 200 https://registry.npmjs.org/through
@@ -6052,123 +19199,123 @@ npm http 304 https://registry.npmjs.org/base62
 npm http 200 https://registry.npmjs.org/source-map
 npm http request GET https://registry.npmjs.org/amdefine
 npm http 304 https://registry.npmjs.org/amdefine
-npm http request GET https://registry.npmjs.org/through2
 npm http request GET https://registry.npmjs.org/falafel
+npm http request GET https://registry.npmjs.org/through2
 npm http 304 https://registry.npmjs.org/falafel
 npm http 200 https://registry.npmjs.org/through2
 npm http request GET https://registry.npmjs.org/acorn
 npm http request GET https://registry.npmjs.org/isarray
 npm http request GET https://registry.npmjs.org/foreach
 npm http request GET https://registry.npmjs.org/object-keys
-npm http 304 https://registry.npmjs.org/object-keys
-npm http 304 https://registry.npmjs.org/isarray
 npm http 304 https://registry.npmjs.org/acorn
 npm http 304 https://registry.npmjs.org/foreach
+npm http 304 https://registry.npmjs.org/isarray
+npm http 304 https://registry.npmjs.org/object-keys
 npm http request GET https://registry.npmjs.org/xtend
 npm http request GET https://registry.npmjs.org/readable-stream
 npm http 304 https://registry.npmjs.org/xtend
 npm http 200 https://registry.npmjs.org/readable-stream
-npm http request GET https://registry.npmjs.org/string_decoder
 npm http request GET https://registry.npmjs.org/core-util-is
-npm http 304 https://registry.npmjs.org/core-util-is
+npm http request GET https://registry.npmjs.org/string_decoder
 npm http 304 https://registry.npmjs.org/string_decoder
+npm http 304 https://registry.npmjs.org/core-util-is
 npm http request GET https://registry.npmjs.org/esmangle-evaluator
 npm http request GET https://registry.npmjs.org/recast
-npm http 304 https://registry.npmjs.org/esmangle-evaluator
 npm http 304 https://registry.npmjs.org/recast
+npm http 304 https://registry.npmjs.org/esmangle-evaluator
 npm http request GET https://registry.npmjs.org/private
 npm http request GET https://registry.npmjs.org/ast-types
 npm http 304 https://registry.npmjs.org/private
 npm http 304 https://registry.npmjs.org/ast-types
-npm http request GET https://registry.npmjs.org/has-binary
-npm http request GET https://registry.npmjs.org/socket.io-parser
-npm http request GET https://registry.npmjs.org/socket.io-adapter
 npm http request GET https://registry.npmjs.org/engine.io
+npm http request GET https://registry.npmjs.org/socket.io-parser
 npm http request GET https://registry.npmjs.org/socket.io-client
-npm http 304 https://registry.npmjs.org/socket.io-adapter
+npm http request GET https://registry.npmjs.org/socket.io-adapter
+npm http request GET https://registry.npmjs.org/has-binary
 npm http 304 https://registry.npmjs.org/engine.io
 npm http 304 https://registry.npmjs.org/socket.io-client
-npm http 304 https://registry.npmjs.org/has-binary
+npm http 304 https://registry.npmjs.org/socket.io-adapter
 npm http 304 https://registry.npmjs.org/socket.io-parser
-npm http request GET https://registry.npmjs.org/accepts
+npm http 304 https://registry.npmjs.org/has-binary
 npm http request GET https://registry.npmjs.org/base64id
-npm http request GET https://registry.npmjs.org/engine.io-parser
+npm http request GET https://registry.npmjs.org/accepts
 npm http request GET https://registry.npmjs.org/ws
-npm http 304 https://registry.npmjs.org/engine.io-parser
-npm http 304 https://registry.npmjs.org/accepts
+npm http request GET https://registry.npmjs.org/engine.io-parser
 npm http 304 https://registry.npmjs.org/base64id
+npm http 304 https://registry.npmjs.org/accepts
+npm http 304 https://registry.npmjs.org/engine.io-parser
 npm http 200 https://registry.npmjs.org/ws
-npm http request GET https://registry.npmjs.org/negotiator
 npm http request GET https://registry.npmjs.org/mime-types
+npm http request GET https://registry.npmjs.org/negotiator
 npm http 304 https://registry.npmjs.org/negotiator
 npm http 304 https://registry.npmjs.org/mime-types
 npm http request GET https://registry.npmjs.org/mime-db
 npm http 304 https://registry.npmjs.org/mime-db
-npm http request GET https://registry.npmjs.org/utf8
-npm http request GET https://registry.npmjs.org/arraybuffer.slice
 npm http request GET https://registry.npmjs.org/blob
-npm http request GET https://registry.npmjs.org/after
 npm http request GET https://registry.npmjs.org/base64-arraybuffer
-npm http 304 https://registry.npmjs.org/base64-arraybuffer
-npm http 304 https://registry.npmjs.org/utf8
-npm http 304 https://registry.npmjs.org/after
-npm http 304 https://registry.npmjs.org/arraybuffer.slice
+npm http request GET https://registry.npmjs.org/after
+npm http request GET https://registry.npmjs.org/arraybuffer.slice
+npm http request GET https://registry.npmjs.org/utf8
 npm http 304 https://registry.npmjs.org/blob
+npm http 304 https://registry.npmjs.org/utf8
+npm http 304 https://registry.npmjs.org/arraybuffer.slice
+npm http 304 https://registry.npmjs.org/after
+npm http 304 https://registry.npmjs.org/base64-arraybuffer
 npm http request GET https://registry.npmjs.org/options
 npm http request GET https://registry.npmjs.org/ultron
-npm http 304 https://registry.npmjs.org/options
 npm http 304 https://registry.npmjs.org/ultron
+npm http 304 https://registry.npmjs.org/options
 npm http request GET https://registry.npmjs.org/debug
-npm http request GET https://registry.npmjs.org/json3
 npm http request GET https://registry.npmjs.org/component-emitter
+npm http request GET https://registry.npmjs.org/json3
 npm http request GET https://registry.npmjs.org/benchmark
 npm http 304 https://registry.npmjs.org/component-emitter
-npm http 304 https://registry.npmjs.org/benchmark
-npm http 304 https://registry.npmjs.org/debug
 npm http 304 https://registry.npmjs.org/json3
-npm http request GET https://registry.npmjs.org/component-bind
-npm http request GET https://registry.npmjs.org/to-array
-npm http request GET https://registry.npmjs.org/backo2
+npm http 304 https://registry.npmjs.org/debug
+npm http 304 https://registry.npmjs.org/benchmark
 npm http request GET https://registry.npmjs.org/parseuri
 npm http request GET https://registry.npmjs.org/indexof
 npm http request GET https://registry.npmjs.org/object-component
+npm http request GET https://registry.npmjs.org/component-bind
+npm http request GET https://registry.npmjs.org/backo2
+npm http request GET https://registry.npmjs.org/to-array
 npm http request GET https://registry.npmjs.org/engine.io-client
-npm http 304 https://registry.npmjs.org/component-bind
-npm http 304 https://registry.npmjs.org/to-array
 npm http 304 https://registry.npmjs.org/backo2
-npm http 304 https://registry.npmjs.org/object-component
+npm http 304 https://registry.npmjs.org/component-bind
 npm http 304 https://registry.npmjs.org/indexof
-npm http 304 https://registry.npmjs.org/engine.io-client
 npm http 304 https://registry.npmjs.org/parseuri
-npm http request GET https://registry.npmjs.org/has-cors
+npm http 304 https://registry.npmjs.org/object-component
+npm http 304 https://registry.npmjs.org/to-array
+npm http 304 https://registry.npmjs.org/engine.io-client
 npm http request GET https://registry.npmjs.org/parsejson
 npm http request GET https://registry.npmjs.org/parseqs
 npm http request GET https://registry.npmjs.org/xmlhttprequest-ssl
+npm http request GET https://registry.npmjs.org/has-cors
 npm http request GET https://registry.npmjs.org/component-inherit
 npm http request GET https://registry.npmjs.org/yeast
-npm http 304 https://registry.npmjs.org/has-cors
 npm http 304 https://registry.npmjs.org/parsejson
 npm http 304 https://registry.npmjs.org/xmlhttprequest-ssl
-npm http 304 https://registry.npmjs.org/yeast
 npm http 304 https://registry.npmjs.org/parseqs
+npm http 304 https://registry.npmjs.org/yeast
 npm http 304 https://registry.npmjs.org/component-inherit
+npm http 304 https://registry.npmjs.org/has-cors
 npm http request GET https://registry.npmjs.org/better-assert
 npm http 304 https://registry.npmjs.org/better-assert
 npm http request GET https://registry.npmjs.org/callsite
 npm http 304 https://registry.npmjs.org/callsite
-npm http request GET https://registry.npmjs.org/stack-trace
-npm http request GET https://registry.npmjs.org/pkginfo
 npm http request GET https://registry.npmjs.org/isstream
-npm http request GET https://registry.npmjs.org/eyes
 npm http request GET https://registry.npmjs.org/cycle
 npm http request GET https://registry.npmjs.org/colors
+npm http request GET https://registry.npmjs.org/eyes
+npm http request GET https://registry.npmjs.org/stack-trace
+npm http request GET https://registry.npmjs.org/pkginfo
 npm http request GET https://registry.npmjs.org/async
-npm http 304 https://registry.npmjs.org/pkginfo
 npm http 304 https://registry.npmjs.org/cycle
 npm http 304 https://registry.npmjs.org/isstream
-npm http 304 https://registry.npmjs.org/eyes
 npm http 304 https://registry.npmjs.org/stack-trace
 npm http 304 https://registry.npmjs.org/colors
+npm http 304 https://registry.npmjs.org/eyes
+npm http 304 https://registry.npmjs.org/pkginfo
 npm http 304 https://registry.npmjs.org/async
 npm http request GET https://registry.npmjs.org/node-uuid
 npm http request GET https://registry.npmjs.org/tape
@@ -6177,65 +19324,65 @@ npm http 200 https://registry.npmjs.org/tape
 npm http request GET https://registry.npmjs.org/jsonify
 npm http request GET https://registry.npmjs.org/defined
 npm http request GET https://registry.npmjs.org/deep-equal
-npm http 304 https://registry.npmjs.org/deep-equal
-npm http 304 https://registry.npmjs.org/defined
 npm http 304 https://registry.npmjs.org/jsonify
+npm http 304 https://registry.npmjs.org/defined
+npm http 304 https://registry.npmjs.org/deep-equal
 npm WARN EPACKAGEJSON thali-test-server@0.0.1 No repository field.
 npm WARN EPACKAGEJSON thali-test-server@0.0.1 No license field.
 npm http request GET https://registry.npmjs.org/express
 npm http request GET https://registry.npmjs.org/lie
-npm http request GET https://registry.npmjs.org/long
-npm http request GET https://registry.npmjs.org/body-parser
-npm http request GET https://registry.npmjs.org/multiplex
-npm http request GET https://registry.npmjs.org/ip
 npm http request GET https://registry.npmjs.org/winston
 npm http request GET https://registry.npmjs.org/javascript-state-machine
+npm http request GET https://registry.npmjs.org/body-parser
+npm http request GET https://registry.npmjs.org/ip
+npm http request GET https://registry.npmjs.org/long
+npm http request GET https://registry.npmjs.org/multiplex
 npm http request GET https://registry.npmjs.org/urlsafe-base64
 npm http request GET https://registry.npmjs.org/request
 npm http 304 https://registry.npmjs.org/express
 npm http 304 https://registry.npmjs.org/body-parser
-npm http 304 https://registry.npmjs.org/long
 npm http 304 https://registry.npmjs.org/winston
 npm http 304 https://registry.npmjs.org/ip
-npm http 304 https://registry.npmjs.org/multiplex
 npm http 304 https://registry.npmjs.org/javascript-state-machine
+npm http 304 https://registry.npmjs.org/long
+npm http 304 https://registry.npmjs.org/multiplex
 npm http 304 https://registry.npmjs.org/urlsafe-base64
-npm http 200 https://registry.npmjs.org/request
 npm http 304 https://registry.npmjs.org/lie
+npm http 200 https://registry.npmjs.org/request
 npm http request GET https://registry.npmjs.org/content-type
 npm http request GET https://registry.npmjs.org/debug
 npm http request GET https://registry.npmjs.org/depd
 npm http request GET https://registry.npmjs.org/http-errors
-npm http request GET https://registry.npmjs.org/bytes
 npm http request GET https://registry.npmjs.org/on-finished
 npm http request GET https://registry.npmjs.org/qs
-npm http request GET https://registry.npmjs.org/iconv-lite
 npm http request GET https://registry.npmjs.org/type-is
+npm http request GET https://registry.npmjs.org/bytes
+npm http request GET https://registry.npmjs.org/iconv-lite
 npm http request GET https://registry.npmjs.org/raw-body
 npm http 304 https://registry.npmjs.org/content-type
-npm http 304 https://registry.npmjs.org/http-errors
-npm http 304 https://registry.npmjs.org/bytes
 npm http 304 https://registry.npmjs.org/depd
-npm http 304 https://registry.npmjs.org/qs
-npm http 304 https://registry.npmjs.org/on-finished
-npm http 304 https://registry.npmjs.org/type-is
+npm http 304 https://registry.npmjs.org/http-errors
 npm http 304 https://registry.npmjs.org/debug
+npm http 304 https://registry.npmjs.org/on-finished
+npm http 304 https://registry.npmjs.org/qs
 npm http 304 https://registry.npmjs.org/raw-body
+npm http 304 https://registry.npmjs.org/type-is
+npm http 304 https://registry.npmjs.org/bytes
 npm http 200 https://registry.npmjs.org/iconv-lite
 npm http request GET https://registry.npmjs.org/ms
 npm http 304 https://registry.npmjs.org/ms
 npm http request GET https://registry.npmjs.org/inherits
 npm http request GET https://registry.npmjs.org/statuses
-npm http 304 https://registry.npmjs.org/inherits
 npm http 304 https://registry.npmjs.org/statuses
+npm http 304 https://registry.npmjs.org/inherits
 npm http request GET https://registry.npmjs.org/ee-first
 npm http 304 https://registry.npmjs.org/ee-first
 npm http request GET https://registry.npmjs.org/unpipe
 npm http 304 https://registry.npmjs.org/unpipe
 npm http request GET https://registry.npmjs.org/media-typer
 npm http request GET https://registry.npmjs.org/mime-types
-npm http 304 https://registry.npmjs.org/mime-types
 npm http 304 https://registry.npmjs.org/media-typer
+npm http 304 https://registry.npmjs.org/mime-types
 npm http request GET https://registry.npmjs.org/mime-db
 npm http 304 https://registry.npmjs.org/mime-db
 npm http request GET https://registry.npmjs.org/accepts
@@ -6257,31 +19404,31 @@ npm http request GET https://registry.npmjs.org/send
 npm http request GET https://registry.npmjs.org/serve-static
 npm http request GET https://registry.npmjs.org/utils-merge
 npm http request GET https://registry.npmjs.org/vary
+npm http 304 https://registry.npmjs.org/cookie-signature
+npm http 304 https://registry.npmjs.org/array-flatten
+npm http 304 https://registry.npmjs.org/content-disposition
 npm http 304 https://registry.npmjs.org/cookie
 npm http 304 https://registry.npmjs.org/accepts
-npm http 304 https://registry.npmjs.org/array-flatten
-npm http 304 https://registry.npmjs.org/cookie-signature
-npm http 304 https://registry.npmjs.org/content-disposition
 npm http 304 https://registry.npmjs.org/escape-html
 npm http 304 https://registry.npmjs.org/etag
 npm http 304 https://registry.npmjs.org/finalhandler
 npm http 304 https://registry.npmjs.org/merge-descriptors
 npm http 304 https://registry.npmjs.org/fresh
-npm http 304 https://registry.npmjs.org/methods
 npm http 304 https://registry.npmjs.org/parseurl
-npm http 304 https://registry.npmjs.org/proxy-addr
+npm http 304 https://registry.npmjs.org/methods
 npm http 304 https://registry.npmjs.org/path-to-regexp
+npm http 304 https://registry.npmjs.org/proxy-addr
 npm http 304 https://registry.npmjs.org/range-parser
-npm http 304 https://registry.npmjs.org/serve-static
 npm http 304 https://registry.npmjs.org/send
-npm http 304 https://registry.npmjs.org/utils-merge
+npm http 304 https://registry.npmjs.org/serve-static
 npm http 304 https://registry.npmjs.org/vary
+npm http 304 https://registry.npmjs.org/utils-merge
 npm http request GET https://registry.npmjs.org/negotiator
 npm http 304 https://registry.npmjs.org/negotiator
 npm http request GET https://registry.npmjs.org/forwarded
 npm http request GET https://registry.npmjs.org/ipaddr.js
-npm http 304 https://registry.npmjs.org/forwarded
 npm http 304 https://registry.npmjs.org/ipaddr.js
+npm http 304 https://registry.npmjs.org/forwarded
 npm http request GET https://registry.npmjs.org/destroy
 npm http request GET https://registry.npmjs.org/mime
 npm http 304 https://registry.npmjs.org/mime
@@ -6291,37 +19438,37 @@ npm http request GET https://registry.npmjs.org/immediate
 npm http request GET https://registry.npmjs.org/inline-process-browser
 npm http request GET https://registry.npmjs.org/unreachable-branch-transform
 npm http 304 https://registry.npmjs.org/unreachable-branch-transform
+npm http 304 https://registry.npmjs.org/inline-process-browser
 npm http 304 https://registry.npmjs.org/es3ify
 npm http 304 https://registry.npmjs.org/immediate
-npm http 304 https://registry.npmjs.org/inline-process-browser
 npm http request GET https://registry.npmjs.org/esprima-fb
 npm http request GET https://registry.npmjs.org/jstransform
 npm http request GET https://registry.npmjs.org/through
-npm http 304 https://registry.npmjs.org/jstransform
 npm http 304 https://registry.npmjs.org/through
 npm http 304 https://registry.npmjs.org/esprima-fb
+npm http 304 https://registry.npmjs.org/jstransform
 npm http request GET https://registry.npmjs.org/base62
 npm http request GET https://registry.npmjs.org/source-map
-npm http 304 https://registry.npmjs.org/base62
 npm http 304 https://registry.npmjs.org/source-map
+npm http 304 https://registry.npmjs.org/base62
 npm http request GET https://registry.npmjs.org/amdefine
 npm http 304 https://registry.npmjs.org/amdefine
 npm http request GET https://registry.npmjs.org/falafel
 npm http request GET https://registry.npmjs.org/through2
-npm http 304 https://registry.npmjs.org/through2
 npm http 304 https://registry.npmjs.org/falafel
+npm http 304 https://registry.npmjs.org/through2
+npm http request GET https://registry.npmjs.org/acorn
 npm http request GET https://registry.npmjs.org/foreach
 npm http request GET https://registry.npmjs.org/isarray
 npm http request GET https://registry.npmjs.org/object-keys
-npm http request GET https://registry.npmjs.org/acorn
 npm http 304 https://registry.npmjs.org/object-keys
 npm http 304 https://registry.npmjs.org/acorn
 npm http 304 https://registry.npmjs.org/foreach
 npm http 304 https://registry.npmjs.org/isarray
 npm http request GET https://registry.npmjs.org/readable-stream
 npm http request GET https://registry.npmjs.org/xtend
-npm http 304 https://registry.npmjs.org/readable-stream
 npm http 304 https://registry.npmjs.org/xtend
+npm http 304 https://registry.npmjs.org/readable-stream
 npm http request GET https://registry.npmjs.org/core-util-is
 npm http request GET https://registry.npmjs.org/string_decoder
 npm http 304 https://registry.npmjs.org/string_decoder
@@ -6332,8 +19479,8 @@ npm http 304 https://registry.npmjs.org/recast
 npm http 304 https://registry.npmjs.org/esmangle-evaluator
 npm http request GET https://registry.npmjs.org/private
 npm http request GET https://registry.npmjs.org/ast-types
-npm http 304 https://registry.npmjs.org/ast-types
 npm http 304 https://registry.npmjs.org/private
+npm http 304 https://registry.npmjs.org/ast-types
 npm http request GET https://registry.npmjs.org/duplexify
 npm http request GET https://registry.npmjs.org/varint
 npm http 304 https://registry.npmjs.org/duplexify
@@ -6344,54 +19491,54 @@ npm http request GET https://registry.npmjs.org/once
 npm http 304 https://registry.npmjs.org/once
 npm http request GET https://registry.npmjs.org/wrappy
 npm http 304 https://registry.npmjs.org/wrappy
-npm http request GET https://registry.npmjs.org/util-deprecate
 npm http request GET https://registry.npmjs.org/process-nextick-args
+npm http request GET https://registry.npmjs.org/util-deprecate
 npm http 304 https://registry.npmjs.org/util-deprecate
 npm http 304 https://registry.npmjs.org/process-nextick-args
+npm http request GET https://registry.npmjs.org/aws-sign2
+npm http request GET https://registry.npmjs.org/aws4
+npm http request GET https://registry.npmjs.org/bl
+npm http request GET https://registry.npmjs.org/caseless
 npm http request GET https://registry.npmjs.org/combined-stream
 npm http request GET https://registry.npmjs.org/extend
-npm http request GET https://registry.npmjs.org/aws4
-npm http request GET https://registry.npmjs.org/caseless
-npm http request GET https://registry.npmjs.org/bl
-npm http request GET https://registry.npmjs.org/aws-sign2
-npm http request GET https://registry.npmjs.org/form-data
 npm http request GET https://registry.npmjs.org/forever-agent
+npm http request GET https://registry.npmjs.org/form-data
 npm http request GET https://registry.npmjs.org/har-validator
 npm http request GET https://registry.npmjs.org/isstream
-npm http request GET https://registry.npmjs.org/is-typedarray
-npm http request GET https://registry.npmjs.org/http-signature
 npm http request GET https://registry.npmjs.org/hawk
+npm http request GET https://registry.npmjs.org/http-signature
 npm http request GET https://registry.npmjs.org/oauth-sign
 npm http request GET https://registry.npmjs.org/json-stringify-safe
-npm http request GET https://registry.npmjs.org/qs
+npm http request GET https://registry.npmjs.org/is-typedarray
+npm http request GET https://registry.npmjs.org/stringstream
 npm http request GET https://registry.npmjs.org/tough-cookie
 npm http request GET https://registry.npmjs.org/tunnel-agent
-npm http request GET https://registry.npmjs.org/stringstream
+npm http request GET https://registry.npmjs.org/qs
 npm http 304 https://registry.npmjs.org/aws4
-npm http 304 https://registry.npmjs.org/combined-stream
-npm http 304 https://registry.npmjs.org/extend
 npm http 304 https://registry.npmjs.org/caseless
-npm http 304 https://registry.npmjs.org/forever-agent
-npm http 304 https://registry.npmjs.org/har-validator
-npm http 304 https://registry.npmjs.org/form-data
+npm http 304 https://registry.npmjs.org/combined-stream
 npm http 304 https://registry.npmjs.org/aws-sign2
+npm http 304 https://registry.npmjs.org/forever-agent
+npm http 304 https://registry.npmjs.org/extend
+npm http 304 https://registry.npmjs.org/form-data
 npm http 200 https://registry.npmjs.org/bl
-npm http 304 https://registry.npmjs.org/isstream
-npm http 304 https://registry.npmjs.org/oauth-sign
-npm http 304 https://registry.npmjs.org/is-typedarray
-npm http 304 https://registry.npmjs.org/http-signature
+npm http 304 https://registry.npmjs.org/har-validator
 npm http 304 https://registry.npmjs.org/hawk
+npm http 304 https://registry.npmjs.org/http-signature
+npm http 304 https://registry.npmjs.org/isstream
 npm http 304 https://registry.npmjs.org/json-stringify-safe
-npm http 304 https://registry.npmjs.org/tough-cookie
-npm http 304 https://registry.npmjs.org/qs
+npm http 304 https://registry.npmjs.org/oauth-sign
 npm http 304 https://registry.npmjs.org/stringstream
+npm http 304 https://registry.npmjs.org/is-typedarray
+npm http 304 https://registry.npmjs.org/qs
+npm http 304 https://registry.npmjs.org/tough-cookie
 npm http 304 https://registry.npmjs.org/tunnel-agent
 npm http request GET https://registry.npmjs.org/lru-cache
 npm http 304 https://registry.npmjs.org/lru-cache
 npm http request GET https://registry.npmjs.org/pseudomap
 npm http request GET https://registry.npmjs.org/yallist
-npm http 304 https://registry.npmjs.org/yallist
 npm http 304 https://registry.npmjs.org/pseudomap
+npm http 304 https://registry.npmjs.org/yallist
 npm http request GET https://registry.npmjs.org/delayed-stream
 npm http 304 https://registry.npmjs.org/delayed-stream
 npm http request GET https://registry.npmjs.org/async
@@ -6404,25 +19551,25 @@ npm http 304 https://registry.npmjs.org/pinkie-promise
 npm http 304 https://registry.npmjs.org/is-my-json-valid
 npm http 200 https://registry.npmjs.org/chalk
 npm http 200 https://registry.npmjs.org/commander
-npm http request GET https://registry.npmjs.org/escape-string-regexp
-npm http request GET https://registry.npmjs.org/ansi-styles
 npm http request GET https://registry.npmjs.org/strip-ansi
+npm http request GET https://registry.npmjs.org/ansi-styles
 npm http request GET https://registry.npmjs.org/has-ansi
+npm http request GET https://registry.npmjs.org/escape-string-regexp
 npm http request GET https://registry.npmjs.org/supports-color
-npm http 304 https://registry.npmjs.org/ansi-styles
-npm http 304 https://registry.npmjs.org/has-ansi
 npm http 304 https://registry.npmjs.org/escape-string-regexp
-npm http 304 https://registry.npmjs.org/strip-ansi
+npm http 304 https://registry.npmjs.org/has-ansi
 npm http 304 https://registry.npmjs.org/supports-color
+npm http 304 https://registry.npmjs.org/strip-ansi
+npm http 304 https://registry.npmjs.org/ansi-styles
 npm http request GET https://registry.npmjs.org/color-convert
 npm http 304 https://registry.npmjs.org/color-convert
 npm http request GET https://registry.npmjs.org/ansi-regex
 npm http 304 https://registry.npmjs.org/ansi-regex
 npm http request GET https://registry.npmjs.org/graceful-readlink
 npm http 304 https://registry.npmjs.org/graceful-readlink
-npm http request GET https://registry.npmjs.org/jsonpointer
 npm http request GET https://registry.npmjs.org/generate-object-property
 npm http request GET https://registry.npmjs.org/generate-function
+npm http request GET https://registry.npmjs.org/jsonpointer
 npm http 304 https://registry.npmjs.org/generate-object-property
 npm http 304 https://registry.npmjs.org/generate-function
 npm http 304 https://registry.npmjs.org/jsonpointer
@@ -6430,26 +19577,26 @@ npm http request GET https://registry.npmjs.org/is-property
 npm http 304 https://registry.npmjs.org/is-property
 npm http request GET https://registry.npmjs.org/pinkie
 npm http 304 https://registry.npmjs.org/pinkie
+npm http request GET https://registry.npmjs.org/hoek
 npm http request GET https://registry.npmjs.org/cryptiles
 npm http request GET https://registry.npmjs.org/sntp
 npm http request GET https://registry.npmjs.org/boom
-npm http request GET https://registry.npmjs.org/hoek
-npm http 304 https://registry.npmjs.org/cryptiles
-npm http 304 https://registry.npmjs.org/hoek
 npm http 304 https://registry.npmjs.org/sntp
+npm http 304 https://registry.npmjs.org/hoek
+npm http 304 https://registry.npmjs.org/cryptiles
 npm http 200 https://registry.npmjs.org/boom
 npm http request GET https://registry.npmjs.org/assert-plus
 npm http request GET https://registry.npmjs.org/jsprim
 npm http request GET https://registry.npmjs.org/sshpk
-npm http 304 https://registry.npmjs.org/jsprim
-npm http 304 https://registry.npmjs.org/assert-plus
 npm http 304 https://registry.npmjs.org/sshpk
-npm http request GET https://registry.npmjs.org/json-schema
+npm http 304 https://registry.npmjs.org/assert-plus
+npm http 304 https://registry.npmjs.org/jsprim
 npm http request GET https://registry.npmjs.org/extsprintf
+npm http request GET https://registry.npmjs.org/json-schema
 npm http request GET https://registry.npmjs.org/verror
+npm http 304 https://registry.npmjs.org/json-schema
 npm http 304 https://registry.npmjs.org/extsprintf
 npm http 304 https://registry.npmjs.org/verror
-npm http 304 https://registry.npmjs.org/json-schema
 npm http request GET https://registry.npmjs.org/asn1
 npm http request GET https://registry.npmjs.org/dashdash
 npm http 304 https://registry.npmjs.org/dashdash
@@ -6467,57 +19614,59 @@ npm http 304 https://registry.npmjs.org/colors
 npm http request GET https://registry.npmjs.org/jsdoc
 npm http 200 https://registry.npmjs.org/jsdoc
 npm http request GET https://registry.npmjs.org/bluebird
-npm http request GET https://registry.npmjs.org/js2xmlparser
-npm http request GET https://registry.npmjs.org/catharsis
-npm http request GET https://registry.npmjs.org/requizzle
-npm http request GET https://registry.npmjs.org/marked
-npm http request GET https://registry.npmjs.org/espree
-npm http request GET https://registry.npmjs.org/strip-json-comments
 npm http request GET https://registry.npmjs.org/underscore
+npm http request GET https://registry.npmjs.org/async
+npm http request GET https://registry.npmjs.org/strip-json-comments
+npm http request GET https://registry.npmjs.org/marked
+npm http request GET https://registry.npmjs.org/requizzle
 npm http request GET https://registry.npmjs.org/wrench
+npm http request GET https://registry.npmjs.org/catharsis
+npm http request GET https://registry.npmjs.org/js2xmlparser
+npm http request GET https://registry.npmjs.org/espree
 npm http fetch GET https://github.com/hegemonic/taffydb/tarball/7d100bcee0e997ee4977e273cdce60bd8933050e
+npm http 304 https://registry.npmjs.org/underscore
+npm http 304 https://registry.npmjs.org/bluebird
 npm http 304 https://registry.npmjs.org/marked
-npm http 304 https://registry.npmjs.org/js2xmlparser
+npm http 304 https://registry.npmjs.org/strip-json-comments
+npm http 304 https://registry.npmjs.org/async
 npm http 304 https://registry.npmjs.org/catharsis
 npm http 304 https://registry.npmjs.org/requizzle
-npm http 304 https://registry.npmjs.org/bluebird
-npm http 304 https://registry.npmjs.org/strip-json-comments
-npm http 304 https://registry.npmjs.org/underscore
 npm http 304 https://registry.npmjs.org/espree
+npm http 304 https://registry.npmjs.org/js2xmlparser
 npm http 200 https://registry.npmjs.org/wrench
 npm http fetch 200 https://github.com/hegemonic/taffydb/tarball/7d100bcee0e997ee4977e273cdce60bd8933050e
 npm http request GET https://registry.npmjs.org/underscore-contrib
 npm http 304 https://registry.npmjs.org/underscore-contrib
 npm WARN prefer global marked@0.3.5 should be installed with -g
-npm http request GET https://registry.npmjs.org/ecc-jsbn
 npm http request GET https://registry.npmjs.org/jodid25519
 npm http request GET https://registry.npmjs.org/jsbn
+npm http request GET https://registry.npmjs.org/ecc-jsbn
 npm http request GET https://registry.npmjs.org/tweetnacl
-npm http 304 https://registry.npmjs.org/tweetnacl
 npm http 304 https://registry.npmjs.org/jsbn
-npm http 304 https://registry.npmjs.org/jodid25519
 npm http 304 https://registry.npmjs.org/ecc-jsbn
+npm http 304 https://registry.npmjs.org/tweetnacl
+npm http 304 https://registry.npmjs.org/jodid25519
 npm http request GET https://registry.npmjs.org/fs-extra-promise
 npm http request GET https://registry.npmjs.org/lie
 npm http request GET https://registry.npmjs.org/request
 npm http request GET https://registry.npmjs.org/jxc
 npm http request GET https://registry.npmjs.org/unzip
 npm http 304 https://registry.npmjs.org/request
-npm http 304 https://registry.npmjs.org/unzip
-npm http 304 https://registry.npmjs.org/jxc
-npm http 304 https://registry.npmjs.org/fs-extra-promise
 npm http 304 https://registry.npmjs.org/lie
+npm http 304 https://registry.npmjs.org/fs-extra-promise
+npm http 304 https://registry.npmjs.org/jxc
+npm http 304 https://registry.npmjs.org/unzip
 npm http request GET https://registry.npmjs.org/fs-extra
 npm http request GET https://registry.npmjs.org/bluebird
-npm http 304 https://registry.npmjs.org/bluebird
 npm http 304 https://registry.npmjs.org/fs-extra
+npm http 304 https://registry.npmjs.org/bluebird
 npm http request GET https://registry.npmjs.org/graceful-fs
 npm http request GET https://registry.npmjs.org/jsonfile
 npm http request GET https://registry.npmjs.org/path-is-absolute
 npm http request GET https://registry.npmjs.org/rimraf
-npm http 304 https://registry.npmjs.org/rimraf
 npm http 304 https://registry.npmjs.org/path-is-absolute
 npm http 304 https://registry.npmjs.org/jsonfile
+npm http 304 https://registry.npmjs.org/rimraf
 npm http 304 https://registry.npmjs.org/graceful-fs
 npm http request GET https://registry.npmjs.org/glob
 npm http 304 https://registry.npmjs.org/glob
@@ -6526,9 +19675,9 @@ npm http request GET https://registry.npmjs.org/inherits
 npm http request GET https://registry.npmjs.org/minimatch
 npm http request GET https://registry.npmjs.org/once
 npm http 304 https://registry.npmjs.org/inherits
-npm http 304 https://registry.npmjs.org/once
 npm http 304 https://registry.npmjs.org/inflight
 npm http 304 https://registry.npmjs.org/minimatch
+npm http 304 https://registry.npmjs.org/once
 npm http request GET https://registry.npmjs.org/wrappy
 npm http 304 https://registry.npmjs.org/wrappy
 npm http request GET https://registry.npmjs.org/brace-expansion
@@ -6537,24 +19686,24 @@ npm http request GET https://registry.npmjs.org/balanced-match
 npm http request GET https://registry.npmjs.org/concat-map
 npm http 304 https://registry.npmjs.org/balanced-match
 npm http 304 https://registry.npmjs.org/concat-map
-npm http request GET https://registry.npmjs.org/adm-zip
 npm http request GET https://registry.npmjs.org/progress
+npm http request GET https://registry.npmjs.org/adm-zip
 npm http 304 https://registry.npmjs.org/progress
 npm http 304 https://registry.npmjs.org/adm-zip
 npm http request GET https://registry.npmjs.org/es3ify
 npm http request GET https://registry.npmjs.org/immediate
 npm http request GET https://registry.npmjs.org/inline-process-browser
 npm http request GET https://registry.npmjs.org/unreachable-branch-transform
+npm http 304 https://registry.npmjs.org/unreachable-branch-transform
 npm http 304 https://registry.npmjs.org/immediate
 npm http 304 https://registry.npmjs.org/es3ify
-npm http 304 https://registry.npmjs.org/unreachable-branch-transform
 npm http 304 https://registry.npmjs.org/inline-process-browser
 npm http request GET https://registry.npmjs.org/esprima-fb
 npm http request GET https://registry.npmjs.org/jstransform
 npm http request GET https://registry.npmjs.org/through
-npm http 304 https://registry.npmjs.org/through
 npm http 304 https://registry.npmjs.org/esprima-fb
 npm http 304 https://registry.npmjs.org/jstransform
+npm http 304 https://registry.npmjs.org/through
 npm http request GET https://registry.npmjs.org/base62
 npm http request GET https://registry.npmjs.org/source-map
 npm http 304 https://registry.npmjs.org/source-map
@@ -6563,30 +19712,30 @@ npm http request GET https://registry.npmjs.org/amdefine
 npm http 304 https://registry.npmjs.org/amdefine
 npm http request GET https://registry.npmjs.org/falafel
 npm http request GET https://registry.npmjs.org/through2
-npm http 304 https://registry.npmjs.org/through2
 npm http 304 https://registry.npmjs.org/falafel
-npm http request GET https://registry.npmjs.org/acorn
+npm http 304 https://registry.npmjs.org/through2
 npm http request GET https://registry.npmjs.org/foreach
+npm http request GET https://registry.npmjs.org/acorn
 npm http request GET https://registry.npmjs.org/isarray
 npm http request GET https://registry.npmjs.org/object-keys
+npm http 304 https://registry.npmjs.org/acorn
+npm http 304 https://registry.npmjs.org/object-keys
 npm http 304 https://registry.npmjs.org/isarray
 npm http 304 https://registry.npmjs.org/foreach
-npm http 304 https://registry.npmjs.org/object-keys
-npm http 304 https://registry.npmjs.org/acorn
 npm http request GET https://registry.npmjs.org/readable-stream
 npm http request GET https://registry.npmjs.org/xtend
 npm http 304 https://registry.npmjs.org/readable-stream
 npm http 304 https://registry.npmjs.org/xtend
 npm http request GET https://registry.npmjs.org/core-util-is
 npm http request GET https://registry.npmjs.org/string_decoder
-npm http 304 https://registry.npmjs.org/string_decoder
 npm http 304 https://registry.npmjs.org/core-util-is
+npm http 304 https://registry.npmjs.org/string_decoder
 npm http request GET https://registry.npmjs.org/esmangle-evaluator
 npm http request GET https://registry.npmjs.org/recast
 npm http 304 https://registry.npmjs.org/recast
 npm http 304 https://registry.npmjs.org/esmangle-evaluator
-npm http request GET https://registry.npmjs.org/private
 npm http request GET https://registry.npmjs.org/ast-types
+npm http request GET https://registry.npmjs.org/private
 npm http 304 https://registry.npmjs.org/private
 npm http 304 https://registry.npmjs.org/ast-types
 npm http request GET https://registry.npmjs.org/aws-sign2
@@ -6610,27 +19759,27 @@ npm http request GET https://registry.npmjs.org/qs
 npm http request GET https://registry.npmjs.org/stringstream
 npm http request GET https://registry.npmjs.org/tough-cookie
 npm http request GET https://registry.npmjs.org/tunnel-agent
-npm http 304 https://registry.npmjs.org/bl
-npm http 304 https://registry.npmjs.org/caseless
-npm http 304 https://registry.npmjs.org/combined-stream
-npm http 304 https://registry.npmjs.org/aws-sign2
 npm http 304 https://registry.npmjs.org/aws4
-npm http 304 https://registry.npmjs.org/form-data
+npm http 304 https://registry.npmjs.org/combined-stream
+npm http 304 https://registry.npmjs.org/caseless
+npm http 304 https://registry.npmjs.org/bl
+npm http 304 https://registry.npmjs.org/aws-sign2
 npm http 304 https://registry.npmjs.org/extend
-npm http 304 https://registry.npmjs.org/hawk
-npm http 304 https://registry.npmjs.org/har-validator
 npm http 304 https://registry.npmjs.org/forever-agent
-npm http 304 https://registry.npmjs.org/is-typedarray
+npm http 304 https://registry.npmjs.org/form-data
+npm http 304 https://registry.npmjs.org/har-validator
 npm http 304 https://registry.npmjs.org/http-signature
+npm http 304 https://registry.npmjs.org/is-typedarray
+npm http 304 https://registry.npmjs.org/hawk
 npm http 304 https://registry.npmjs.org/json-stringify-safe
 npm http 304 https://registry.npmjs.org/mime-types
 npm http 304 https://registry.npmjs.org/isstream
-npm http 304 https://registry.npmjs.org/oauth-sign
 npm http 304 https://registry.npmjs.org/node-uuid
+npm http 304 https://registry.npmjs.org/oauth-sign
 npm http 304 https://registry.npmjs.org/qs
+npm http 304 https://registry.npmjs.org/tunnel-agent
 npm http 304 https://registry.npmjs.org/stringstream
 npm http 304 https://registry.npmjs.org/tough-cookie
-npm http 304 https://registry.npmjs.org/tunnel-agent
 npm http request GET https://registry.npmjs.org/lru-cache
 npm http 304 https://registry.npmjs.org/lru-cache
 npm http request GET https://registry.npmjs.org/pseudomap
@@ -6639,8 +19788,8 @@ npm http 304 https://registry.npmjs.org/pseudomap
 npm http 304 https://registry.npmjs.org/yallist
 npm http request GET https://registry.npmjs.org/process-nextick-args
 npm http request GET https://registry.npmjs.org/util-deprecate
-npm http 304 https://registry.npmjs.org/process-nextick-args
 npm http 304 https://registry.npmjs.org/util-deprecate
+npm http 304 https://registry.npmjs.org/process-nextick-args
 npm http request GET https://registry.npmjs.org/delayed-stream
 npm http 304 https://registry.npmjs.org/delayed-stream
 npm http request GET https://registry.npmjs.org/async
@@ -6651,18 +19800,18 @@ npm http request GET https://registry.npmjs.org/chalk
 npm http request GET https://registry.npmjs.org/commander
 npm http request GET https://registry.npmjs.org/is-my-json-valid
 npm http request GET https://registry.npmjs.org/pinkie-promise
-npm http 304 https://registry.npmjs.org/pinkie-promise
-npm http 304 https://registry.npmjs.org/chalk
 npm http 304 https://registry.npmjs.org/commander
 npm http 304 https://registry.npmjs.org/is-my-json-valid
+npm http 304 https://registry.npmjs.org/chalk
+npm http 304 https://registry.npmjs.org/pinkie-promise
 npm http request GET https://registry.npmjs.org/ansi-styles
 npm http request GET https://registry.npmjs.org/escape-string-regexp
 npm http request GET https://registry.npmjs.org/has-ansi
 npm http request GET https://registry.npmjs.org/strip-ansi
 npm http request GET https://registry.npmjs.org/supports-color
-npm http 304 https://registry.npmjs.org/supports-color
-npm http 304 https://registry.npmjs.org/escape-string-regexp
 npm http 304 https://registry.npmjs.org/ansi-styles
+npm http 304 https://registry.npmjs.org/escape-string-regexp
+npm http 304 https://registry.npmjs.org/supports-color
 npm http 304 https://registry.npmjs.org/strip-ansi
 npm http 304 https://registry.npmjs.org/has-ansi
 npm http request GET https://registry.npmjs.org/color-convert
@@ -6674,15 +19823,15 @@ npm http 304 https://registry.npmjs.org/graceful-readlink
 npm http request GET https://registry.npmjs.org/generate-function
 npm http request GET https://registry.npmjs.org/generate-object-property
 npm http request GET https://registry.npmjs.org/jsonpointer
-npm http 304 https://registry.npmjs.org/generate-function
 npm http 304 https://registry.npmjs.org/jsonpointer
 npm http 304 https://registry.npmjs.org/generate-object-property
+npm http 304 https://registry.npmjs.org/generate-function
 npm http request GET https://registry.npmjs.org/is-property
 npm http 304 https://registry.npmjs.org/is-property
 npm http request GET https://registry.npmjs.org/pinkie
 npm http 304 https://registry.npmjs.org/pinkie
-npm http request GET https://registry.npmjs.org/hoek
 npm http request GET https://registry.npmjs.org/boom
+npm http request GET https://registry.npmjs.org/hoek
 npm http request GET https://registry.npmjs.org/cryptiles
 npm http request GET https://registry.npmjs.org/sntp
 npm http 304 https://registry.npmjs.org/boom
@@ -6698,8 +19847,8 @@ npm http 304 https://registry.npmjs.org/jsprim
 npm http request GET https://registry.npmjs.org/extsprintf
 npm http request GET https://registry.npmjs.org/json-schema
 npm http request GET https://registry.npmjs.org/verror
-npm http 304 https://registry.npmjs.org/extsprintf
 npm http 304 https://registry.npmjs.org/json-schema
+npm http 304 https://registry.npmjs.org/extsprintf
 npm http 304 https://registry.npmjs.org/verror
 npm http request GET https://registry.npmjs.org/asn1
 npm http request GET https://registry.npmjs.org/dashdash
@@ -6707,22 +19856,22 @@ npm http request GET https://registry.npmjs.org/jsbn
 npm http request GET https://registry.npmjs.org/tweetnacl
 npm http request GET https://registry.npmjs.org/jodid25519
 npm http request GET https://registry.npmjs.org/ecc-jsbn
+npm http 304 https://registry.npmjs.org/jodid25519
+npm http 304 https://registry.npmjs.org/asn1
 npm http 304 https://registry.npmjs.org/jsbn
 npm http 304 https://registry.npmjs.org/tweetnacl
-npm http 304 https://registry.npmjs.org/jodid25519
 npm http 304 https://registry.npmjs.org/ecc-jsbn
 npm http 304 https://registry.npmjs.org/dashdash
-npm http 304 https://registry.npmjs.org/asn1
 npm http request GET https://registry.npmjs.org/fstream
 npm http request GET https://registry.npmjs.org/pullstream
 npm http request GET https://registry.npmjs.org/binary
-npm http request GET https://registry.npmjs.org/setimmediate
 npm http request GET https://registry.npmjs.org/match-stream
-npm http 304 https://registry.npmjs.org/setimmediate
-npm http 304 https://registry.npmjs.org/binary
+npm http request GET https://registry.npmjs.org/setimmediate
 npm http 304 https://registry.npmjs.org/match-stream
 npm http 304 https://registry.npmjs.org/pullstream
+npm http 304 https://registry.npmjs.org/binary
 npm http 304 https://registry.npmjs.org/fstream
+npm http 304 https://registry.npmjs.org/setimmediate
 npm http request GET https://registry.npmjs.org/chainsaw
 npm http request GET https://registry.npmjs.org/buffers
 npm http 304 https://registry.npmjs.org/chainsaw
@@ -6736,71 +19885,69 @@ npm WARN deprecated graceful-fs@3.0.8: graceful-fs version 3 and before will fai
 npm http 200 https://registry.npmjs.org/mkdirp
 npm http request GET https://registry.npmjs.org/minimist
 npm http 200 https://registry.npmjs.org/minimist
-npm http request GET https://registry.npmjs.org/slice-stream
 npm http request GET https://registry.npmjs.org/over
+npm http request GET https://registry.npmjs.org/slice-stream
 npm http 304 https://registry.npmjs.org/slice-stream
 npm http 304 https://registry.npmjs.org/over
 npm WARN EPACKAGEJSON install@0.0.1 No repository field.
 npm http request GET https://registry.npmjs.org/balanced-match
-npm http request GET https://registry.npmjs.org/concat-map
 npm http request GET https://registry.npmjs.org/body-parser
+npm http request GET https://registry.npmjs.org/concat-map
 npm http request GET https://registry.npmjs.org/express
-npm http request GET https://registry.npmjs.org/fs-extra-promise
 npm http request GET https://registry.npmjs.org/is-property
+npm http request GET https://registry.npmjs.org/fs-extra-promise
 npm http request GET https://registry.npmjs.org/bn.js
 npm http request GET https://registry.npmjs.org/lie
-npm http request GET https://registry.npmjs.org/long
-npm http request GET https://registry.npmjs.org/minimist
-npm http request GET https://registry.npmjs.org/leveldown-mobile
 npm http request GET https://registry.npmjs.org/express-pouchdb
+npm http request GET https://registry.npmjs.org/long
+npm http request GET https://registry.npmjs.org/leveldown-mobile
 npm http request GET https://registry.npmjs.org/multiplex
 npm http request GET https://registry.npmjs.org/node-uuid
 npm http request GET https://registry.npmjs.org/request
 npm http request GET https://registry.npmjs.org/socket.io-client
-npm http request GET https://registry.npmjs.org/randomstring
-npm http request GET https://registry.npmjs.org/tape
-npm http request GET https://registry.npmjs.org/request-promise
 npm http request GET https://registry.npmjs.org/nock
-npm http request GET https://registry.npmjs.org/urlsafe-base64
+npm http request GET https://registry.npmjs.org/randomstring
+npm http request GET https://registry.npmjs.org/request-promise
 npm http request GET https://registry.npmjs.org/proxyquire
 npm http request GET https://registry.npmjs.org/pouchdb
-npm http request GET https://registry.npmjs.org/tape-catch
+npm http request GET https://registry.npmjs.org/sinon
+npm http request GET https://registry.npmjs.org/tape
+npm http request GET https://registry.npmjs.org/urlsafe-base64
 npm http request GET https://registry.npmjs.org/supertest
 npm http request GET https://registry.npmjs.org/supertest-as-promised
-npm http request GET https://registry.npmjs.org/sinon
-npm http request GET https://registry.npmjs.org/wrapping-tape
-npm http request GET https://registry.npmjs.org/uuid
 npm http request GET https://registry.npmjs.org/tmp
-npm http 304 https://registry.npmjs.org/balanced-match
+npm http request GET https://registry.npmjs.org/tape-catch
+npm http request GET https://registry.npmjs.org/uuid
+npm http request GET https://registry.npmjs.org/wrapping-tape
 npm http 304 https://registry.npmjs.org/body-parser
-npm http 304 https://registry.npmjs.org/concat-map
-npm http 304 https://registry.npmjs.org/express
-npm http 304 https://registry.npmjs.org/fs-extra-promise
 npm http 304 https://registry.npmjs.org/is-property
+npm http 304 https://registry.npmjs.org/balanced-match
+npm http 304 https://registry.npmjs.org/concat-map
 npm http 304 https://registry.npmjs.org/bn.js
 npm http 304 https://registry.npmjs.org/lie
-npm http 304 https://registry.npmjs.org/minimist
+npm http 304 https://registry.npmjs.org/express
+npm http 304 https://registry.npmjs.org/fs-extra-promise
 npm http 304 https://registry.npmjs.org/long
-npm http 304 https://registry.npmjs.org/node-uuid
 npm http 304 https://registry.npmjs.org/multiplex
 npm http 304 https://registry.npmjs.org/request
-npm http 304 https://registry.npmjs.org/socket.io-client
-npm http 304 https://registry.npmjs.org/tape
-npm http 304 https://registry.npmjs.org/express-pouchdb
-npm http 304 https://registry.npmjs.org/request-promise
-npm http 304 https://registry.npmjs.org/urlsafe-base64
-npm http 304 https://registry.npmjs.org/randomstring
-npm http 304 https://registry.npmjs.org/proxyquire
-npm http 304 https://registry.npmjs.org/supertest
-npm http 304 https://registry.npmjs.org/tape-catch
-npm http 304 https://registry.npmjs.org/sinon
-npm http 304 https://registry.npmjs.org/pouchdb
-npm http 304 https://registry.npmjs.org/uuid
-npm http 304 https://registry.npmjs.org/wrapping-tape
-npm http 304 https://registry.npmjs.org/tmp
-npm http 304 https://registry.npmjs.org/supertest-as-promised
+npm http 304 https://registry.npmjs.org/node-uuid
 npm http 304 https://registry.npmjs.org/leveldown-mobile
+npm http 304 https://registry.npmjs.org/request-promise
+npm http 304 https://registry.npmjs.org/randomstring
+npm http 304 https://registry.npmjs.org/socket.io-client
+npm http 304 https://registry.npmjs.org/express-pouchdb
+npm http 304 https://registry.npmjs.org/proxyquire
+npm http 304 https://registry.npmjs.org/sinon
+npm http 304 https://registry.npmjs.org/tape
+npm http 304 https://registry.npmjs.org/supertest
+npm http 304 https://registry.npmjs.org/supertest-as-promised
+npm http 304 https://registry.npmjs.org/tmp
+npm http 304 https://registry.npmjs.org/tape-catch
+npm http 304 https://registry.npmjs.org/urlsafe-base64
+npm http 304 https://registry.npmjs.org/uuid
+npm http 304 https://registry.npmjs.org/pouchdb
 npm http 200 https://registry.npmjs.org/nock
+npm http 304 https://registry.npmjs.org/wrapping-tape
 npm http request GET https://registry.npmjs.org/bytes
 npm http request GET https://registry.npmjs.org/content-type
 npm http request GET https://registry.npmjs.org/debug
@@ -6811,22 +19958,22 @@ npm http request GET https://registry.npmjs.org/on-finished
 npm http request GET https://registry.npmjs.org/qs
 npm http request GET https://registry.npmjs.org/raw-body
 npm http request GET https://registry.npmjs.org/type-is
-npm http 304 https://registry.npmjs.org/content-type
+npm http 304 https://registry.npmjs.org/debug
 npm http 304 https://registry.npmjs.org/http-errors
+npm http 304 https://registry.npmjs.org/content-type
 npm http 304 https://registry.npmjs.org/bytes
 npm http 304 https://registry.npmjs.org/depd
-npm http 304 https://registry.npmjs.org/debug
-npm http 304 https://registry.npmjs.org/type-is
+npm http 304 https://registry.npmjs.org/iconv-lite
 npm http 304 https://registry.npmjs.org/on-finished
 npm http 304 https://registry.npmjs.org/qs
+npm http 304 https://registry.npmjs.org/type-is
 npm http 304 https://registry.npmjs.org/raw-body
-npm http 304 https://registry.npmjs.org/iconv-lite
 npm http request GET https://registry.npmjs.org/ms
 npm http 304 https://registry.npmjs.org/ms
 npm http request GET https://registry.npmjs.org/inherits
 npm http request GET https://registry.npmjs.org/statuses
-npm http 304 https://registry.npmjs.org/inherits
 npm http 304 https://registry.npmjs.org/statuses
+npm http 304 https://registry.npmjs.org/inherits
 npm http request GET https://registry.npmjs.org/ee-first
 npm http 304 https://registry.npmjs.org/ee-first
 npm http request GET https://registry.npmjs.org/unpipe
@@ -6838,8 +19985,8 @@ npm http 304 https://registry.npmjs.org/mime-types
 npm http request GET https://registry.npmjs.org/mime-db
 npm http 304 https://registry.npmjs.org/mime-db
 npm http request GET https://registry.npmjs.org/accepts
-npm http request GET https://registry.npmjs.org/content-disposition
 npm http request GET https://registry.npmjs.org/array-flatten
+npm http request GET https://registry.npmjs.org/content-disposition
 npm http request GET https://registry.npmjs.org/cookie
 npm http request GET https://registry.npmjs.org/cookie-signature
 npm http request GET https://registry.npmjs.org/escape-html
@@ -6853,28 +20000,28 @@ npm http request GET https://registry.npmjs.org/path-to-regexp
 npm http request GET https://registry.npmjs.org/proxy-addr
 npm http request GET https://registry.npmjs.org/range-parser
 npm http request GET https://registry.npmjs.org/send
-npm http request GET https://registry.npmjs.org/serve-static
 npm http request GET https://registry.npmjs.org/utils-merge
+npm http request GET https://registry.npmjs.org/serve-static
 npm http request GET https://registry.npmjs.org/vary
 npm http 304 https://registry.npmjs.org/content-disposition
-npm http 304 https://registry.npmjs.org/cookie
-npm http 304 https://registry.npmjs.org/cookie-signature
 npm http 304 https://registry.npmjs.org/array-flatten
 npm http 304 https://registry.npmjs.org/accepts
+npm http 304 https://registry.npmjs.org/cookie-signature
+npm http 304 https://registry.npmjs.org/cookie
 npm http 304 https://registry.npmjs.org/escape-html
-npm http 304 https://registry.npmjs.org/finalhandler
-npm http 304 https://registry.npmjs.org/merge-descriptors
 npm http 304 https://registry.npmjs.org/etag
 npm http 304 https://registry.npmjs.org/fresh
-npm http 304 https://registry.npmjs.org/methods
-npm http 304 https://registry.npmjs.org/path-to-regexp
+npm http 304 https://registry.npmjs.org/merge-descriptors
 npm http 304 https://registry.npmjs.org/parseurl
+npm http 304 https://registry.npmjs.org/finalhandler
+npm http 304 https://registry.npmjs.org/methods
 npm http 304 https://registry.npmjs.org/proxy-addr
-npm http 304 https://registry.npmjs.org/range-parser
-npm http 304 https://registry.npmjs.org/vary
-npm http 304 https://registry.npmjs.org/send
-npm http 304 https://registry.npmjs.org/serve-static
 npm http 304 https://registry.npmjs.org/utils-merge
+npm http 304 https://registry.npmjs.org/send
+npm http 304 https://registry.npmjs.org/range-parser
+npm http 304 https://registry.npmjs.org/path-to-regexp
+npm http 304 https://registry.npmjs.org/vary
+npm http 304 https://registry.npmjs.org/serve-static
 npm http request GET https://registry.npmjs.org/negotiator
 npm http 304 https://registry.npmjs.org/negotiator
 npm http request GET https://registry.npmjs.org/forwarded
@@ -6888,75 +20035,73 @@ npm http 304 https://registry.npmjs.org/destroy
 npm http request GET https://registry.npmjs.org/bluebird
 npm http request GET https://registry.npmjs.org/basic-auth
 npm http request GET https://registry.npmjs.org/extend
-npm http request GET https://registry.npmjs.org/compression
-npm http request GET https://registry.npmjs.org/header-case-normalizer
-npm http request GET https://registry.npmjs.org/cookie-parser
 npm http request GET https://registry.npmjs.org/pouchdb-all-dbs
-npm http request GET https://registry.npmjs.org/multiparty
-npm http request GET https://registry.npmjs.org/pouchdb-auth
-npm http request GET https://registry.npmjs.org/pouchdb-list
-npm http request GET https://registry.npmjs.org/pouchdb-replicator
+npm http request GET https://registry.npmjs.org/header-case-normalizer
+npm http request GET https://registry.npmjs.org/compression
+npm http request GET https://registry.npmjs.org/cookie-parser
+npm http request GET https://registry.npmjs.org/pouchdb-rewrite
 npm http request GET https://registry.npmjs.org/pouchdb-find
 npm http request GET https://registry.npmjs.org/pouchdb-security
-npm http request GET https://registry.npmjs.org/pouchdb-rewrite
-npm http request GET https://registry.npmjs.org/pouchdb-show
-npm http request GET https://registry.npmjs.org/pouchdb-size
+npm http request GET https://registry.npmjs.org/pouchdb-replicator
+npm http request GET https://registry.npmjs.org/pouchdb-list
+npm http request GET https://registry.npmjs.org/pouchdb-auth
+npm http request GET https://registry.npmjs.org/multiparty
 npm http request GET https://registry.npmjs.org/pouchdb-update
-npm http request GET https://registry.npmjs.org/pouchdb-validation
-npm http request GET https://registry.npmjs.org/pouchdb-vhost
-npm http request GET https://registry.npmjs.org/node-uuid
 npm http request GET https://registry.npmjs.org/pouchdb-wrappers
-npm http 304 https://registry.npmjs.org/basic-auth
-npm http 304 https://registry.npmjs.org/extend
+npm http request GET https://registry.npmjs.org/pouchdb-vhost
+npm http request GET https://registry.npmjs.org/pouchdb-validation
+npm http request GET https://registry.npmjs.org/pouchdb-size
+npm http request GET https://registry.npmjs.org/pouchdb-show
 npm http 304 https://registry.npmjs.org/bluebird
+npm http 304 https://registry.npmjs.org/extend
+npm http 304 https://registry.npmjs.org/basic-auth
+npm http 304 https://registry.npmjs.org/cookie-parser
 npm http 304 https://registry.npmjs.org/compression
 npm http 304 https://registry.npmjs.org/header-case-normalizer
-npm http 304 https://registry.npmjs.org/cookie-parser
-npm http 304 https://registry.npmjs.org/multiparty
-npm http 304 https://registry.npmjs.org/pouchdb-all-dbs
+npm http 304 https://registry.npmjs.org/pouchdb-find
 npm http 304 https://registry.npmjs.org/pouchdb-list
 npm http 304 https://registry.npmjs.org/pouchdb-replicator
+npm http 304 https://registry.npmjs.org/multiparty
+npm http 304 https://registry.npmjs.org/pouchdb-all-dbs
+npm http 304 https://registry.npmjs.org/pouchdb-rewrite
+npm http 304 https://registry.npmjs.org/pouchdb-security
 npm http 200 https://registry.npmjs.org/pouchdb-auth
 npm http fetch GET https://registry.npmjs.org/pouchdb-auth/-/pouchdb-auth-2.0.1.tgz
-npm http 304 https://registry.npmjs.org/pouchdb-security
-npm http 304 https://registry.npmjs.org/pouchdb-find
-npm http 304 https://registry.npmjs.org/pouchdb-show
 npm http 304 https://registry.npmjs.org/pouchdb-size
-npm http 304 https://registry.npmjs.org/pouchdb-rewrite
 npm http 304 https://registry.npmjs.org/pouchdb-update
-npm http 304 https://registry.npmjs.org/node-uuid
-npm http fetch 200 https://registry.npmjs.org/pouchdb-auth/-/pouchdb-auth-2.0.1.tgz
-npm http 304 https://registry.npmjs.org/pouchdb-validation
-npm http 304 https://registry.npmjs.org/pouchdb-vhost
 npm http 304 https://registry.npmjs.org/pouchdb-wrappers
+npm http 304 https://registry.npmjs.org/pouchdb-show
+npm http fetch 200 https://registry.npmjs.org/pouchdb-auth/-/pouchdb-auth-2.0.1.tgz
+npm http 304 https://registry.npmjs.org/pouchdb-vhost
+npm http 304 https://registry.npmjs.org/pouchdb-validation
 npm http request GET https://registry.npmjs.org/on-headers
 npm http request GET https://registry.npmjs.org/compressible
-npm http 304 https://registry.npmjs.org/compressible
 npm http 304 https://registry.npmjs.org/on-headers
+npm http 304 https://registry.npmjs.org/compressible
 npm http request GET https://registry.npmjs.org/readable-stream
 npm http request GET https://registry.npmjs.org/stream-counter
-npm http 304 https://registry.npmjs.org/stream-counter
 npm http 304 https://registry.npmjs.org/readable-stream
+npm http 304 https://registry.npmjs.org/stream-counter
 npm http request GET https://registry.npmjs.org/core-util-is
 npm http request GET https://registry.npmjs.org/isarray
 npm http request GET https://registry.npmjs.org/string_decoder
-npm http 304 https://registry.npmjs.org/core-util-is
 npm http 304 https://registry.npmjs.org/string_decoder
+npm http 304 https://registry.npmjs.org/core-util-is
 npm http 304 https://registry.npmjs.org/isarray
 npm http request GET https://registry.npmjs.org/es3ify
 npm http request GET https://registry.npmjs.org/lie
-npm http request GET https://registry.npmjs.org/tiny-queue
 npm http request GET https://registry.npmjs.org/argsarray
-npm http 304 https://registry.npmjs.org/lie
-npm http 304 https://registry.npmjs.org/tiny-queue
-npm http 304 https://registry.npmjs.org/argsarray
+npm http request GET https://registry.npmjs.org/tiny-queue
 npm http 304 https://registry.npmjs.org/es3ify
+npm http 304 https://registry.npmjs.org/lie
+npm http 304 https://registry.npmjs.org/argsarray
+npm http 304 https://registry.npmjs.org/tiny-queue
 npm http request GET https://registry.npmjs.org/esprima-fb
 npm http request GET https://registry.npmjs.org/jstransform
 npm http request GET https://registry.npmjs.org/through
-npm http 304 https://registry.npmjs.org/through
 npm http 304 https://registry.npmjs.org/jstransform
 npm http 304 https://registry.npmjs.org/esprima-fb
+npm http 304 https://registry.npmjs.org/through
 npm http request GET https://registry.npmjs.org/base62
 npm http request GET https://registry.npmjs.org/source-map
 npm http 304 https://registry.npmjs.org/source-map
@@ -6966,15 +20111,15 @@ npm http 304 https://registry.npmjs.org/amdefine
 npm http request GET https://registry.npmjs.org/immediate
 npm http request GET https://registry.npmjs.org/inline-process-browser
 npm http request GET https://registry.npmjs.org/unreachable-branch-transform
-npm http 304 https://registry.npmjs.org/immediate
-npm http 304 https://registry.npmjs.org/unreachable-branch-transform
 npm http 304 https://registry.npmjs.org/inline-process-browser
+npm http 304 https://registry.npmjs.org/unreachable-branch-transform
+npm http 304 https://registry.npmjs.org/immediate
 npm http request GET https://registry.npmjs.org/falafel
 npm http request GET https://registry.npmjs.org/through2
-npm http 304 https://registry.npmjs.org/falafel
 npm http 304 https://registry.npmjs.org/through2
-npm http request GET https://registry.npmjs.org/foreach
+npm http 304 https://registry.npmjs.org/falafel
 npm http request GET https://registry.npmjs.org/acorn
+npm http request GET https://registry.npmjs.org/foreach
 npm http request GET https://registry.npmjs.org/object-keys
 npm http 304 https://registry.npmjs.org/acorn
 npm http 304 https://registry.npmjs.org/foreach
@@ -6990,43 +20135,43 @@ npm http request GET https://registry.npmjs.org/ast-types
 npm http 304 https://registry.npmjs.org/ast-types
 npm http 304 https://registry.npmjs.org/private
 npm http request GET https://registry.npmjs.org/base64url
-npm http request GET https://registry.npmjs.org/crypto-lite
-npm http request GET https://registry.npmjs.org/couchdb-calculate-session-id
-npm http request GET https://registry.npmjs.org/pouchdb-promise
-npm http request GET https://registry.npmjs.org/pouchdb-bulkdocs-wrapper
 npm http request GET https://registry.npmjs.org/pouchdb-plugin-error
 npm http request GET https://registry.npmjs.org/pouchdb-system-db
 npm http request GET https://registry.npmjs.org/pouchdb-req-http-query
+npm http request GET https://registry.npmjs.org/pouchdb-promise
 npm http request GET https://registry.npmjs.org/promise-nodify
+npm http request GET https://registry.npmjs.org/pouchdb-bulkdocs-wrapper
+npm http request GET https://registry.npmjs.org/crypto-lite
+npm http request GET https://registry.npmjs.org/couchdb-calculate-session-id
 npm http request GET https://registry.npmjs.org/secure-random
 npm http 304 https://registry.npmjs.org/base64url
-npm http 304 https://registry.npmjs.org/pouchdb-promise
-npm http 304 https://registry.npmjs.org/crypto-lite
+npm http 304 https://registry.npmjs.org/pouchdb-system-db
+npm http 304 https://registry.npmjs.org/pouchdb-plugin-error
+npm http 304 https://registry.npmjs.org/promise-nodify
 npm http 304 https://registry.npmjs.org/pouchdb-req-http-query
-npm http 304 https://registry.npmjs.org/couchdb-calculate-session-id
 npm http 304 https://registry.npmjs.org/pouchdb-bulkdocs-wrapper
 npm http 304 https://registry.npmjs.org/secure-random
-npm http 304 https://registry.npmjs.org/pouchdb-plugin-error
-npm http 304 https://registry.npmjs.org/pouchdb-system-db
-npm http 304 https://registry.npmjs.org/promise-nodify
-npm http request GET https://registry.npmjs.org/concat-stream
+npm http 304 https://registry.npmjs.org/couchdb-calculate-session-id
+npm http 304 https://registry.npmjs.org/pouchdb-promise
+npm http 304 https://registry.npmjs.org/crypto-lite
 npm http request GET https://registry.npmjs.org/meow
+npm http request GET https://registry.npmjs.org/concat-stream
 npm http 304 https://registry.npmjs.org/meow
 npm http 200 https://registry.npmjs.org/concat-stream
 npm http request GET https://registry.npmjs.org/typedarray
 npm http 304 https://registry.npmjs.org/typedarray
+npm http request GET https://registry.npmjs.org/indent-string
 npm http request GET https://registry.npmjs.org/camelcase-keys
 npm http request GET https://registry.npmjs.org/object-assign
-npm http request GET https://registry.npmjs.org/indent-string
 npm http 304 https://registry.npmjs.org/camelcase-keys
 npm http 304 https://registry.npmjs.org/object-assign
 npm http 304 https://registry.npmjs.org/indent-string
 npm http request GET https://registry.npmjs.org/map-obj
 npm http request GET https://registry.npmjs.org/camelcase
-npm http 304 https://registry.npmjs.org/map-obj
 npm http 304 https://registry.npmjs.org/camelcase
-npm http request GET https://registry.npmjs.org/get-stdin
+npm http 304 https://registry.npmjs.org/map-obj
 npm http request GET https://registry.npmjs.org/repeating
+npm http request GET https://registry.npmjs.org/get-stdin
 npm http 304 https://registry.npmjs.org/repeating
 npm http 304 https://registry.npmjs.org/get-stdin
 npm http request GET https://registry.npmjs.org/is-finite
@@ -7035,78 +20180,76 @@ npm http request GET https://registry.npmjs.org/number-is-nan
 npm http 304 https://registry.npmjs.org/number-is-nan
 npm http request GET https://registry.npmjs.org/aproba
 npm http 304 https://registry.npmjs.org/aproba
-npm http request GET https://registry.npmjs.org/js-extend
-npm http request GET https://registry.npmjs.org/level-write-stream
-npm http request GET https://registry.npmjs.org/fruitdown
 npm http request GET https://registry.npmjs.org/double-ended-queue
+npm http request GET https://registry.npmjs.org/fruitdown
 npm http request GET https://registry.npmjs.org/scope-eval
-npm http request GET https://registry.npmjs.org/pouchdb-collate
-npm http request GET https://registry.npmjs.org/pouchdb-collections
 npm http request GET https://registry.npmjs.org/levelup
+npm http request GET https://registry.npmjs.org/pouchdb-collections
+npm http request GET https://registry.npmjs.org/pouchdb-collate
 npm http request GET https://registry.npmjs.org/memdown
 npm http request GET https://registry.npmjs.org/es3ify
 npm http request GET https://registry.npmjs.org/localstorage-down
+npm http request GET https://registry.npmjs.org/level-write-stream
+npm http request GET https://registry.npmjs.org/js-extend
 npm http request GET https://registry.npmjs.org/sublevel-pouchdb
-npm http request GET https://registry.npmjs.org/spark-md5
 npm http request GET https://registry.npmjs.org/vuvuzela
+npm http request GET https://registry.npmjs.org/spark-md5
 npm http request GET https://registry.npmjs.org/websql
 npm http 304 https://registry.npmjs.org/double-ended-queue
-npm http 304 https://registry.npmjs.org/js-extend
-npm http 304 https://registry.npmjs.org/fruitdown
 npm http 304 https://registry.npmjs.org/levelup
-npm http 304 https://registry.npmjs.org/memdown
-npm http 304 https://registry.npmjs.org/es3ify
-npm http 304 https://registry.npmjs.org/localstorage-down
-npm http 304 https://registry.npmjs.org/level-write-stream
-npm http 304 https://registry.npmjs.org/scope-eval
-npm http 304 https://registry.npmjs.org/pouchdb-collate
 npm http 304 https://registry.npmjs.org/pouchdb-collections
-npm http 304 https://registry.npmjs.org/vuvuzela
+npm http 304 https://registry.npmjs.org/scope-eval
+npm http 304 https://registry.npmjs.org/es3ify
+npm http 304 https://registry.npmjs.org/pouchdb-collate
+npm http 304 https://registry.npmjs.org/memdown
+npm http 304 https://registry.npmjs.org/localstorage-down
 npm http 304 https://registry.npmjs.org/sublevel-pouchdb
+npm http 304 https://registry.npmjs.org/level-write-stream
+npm http 304 https://registry.npmjs.org/fruitdown
+npm http 304 https://registry.npmjs.org/vuvuzela
 npm http 304 https://registry.npmjs.org/spark-md5
 npm http 304 https://registry.npmjs.org/websql
+npm http 304 https://registry.npmjs.org/js-extend
 npm http request GET https://registry.npmjs.org/esprima
 npm http 304 https://registry.npmjs.org/esprima
 npm http request GET https://registry.npmjs.org/tiny-queue
 npm http request GET https://registry.npmjs.org/d64
 npm http request GET https://registry.npmjs.org/abstract-leveldown
-npm http 304 https://registry.npmjs.org/abstract-leveldown
-npm http 304 https://registry.npmjs.org/tiny-queue
 npm http 304 https://registry.npmjs.org/d64
-npm http request GET https://registry.npmjs.org/xtend
-npm http 304 https://registry.npmjs.org/xtend
+npm http 304 https://registry.npmjs.org/tiny-queue
+npm http 304 https://registry.npmjs.org/abstract-leveldown
 npm http request GET https://registry.npmjs.org/end-stream
 npm http 304 https://registry.npmjs.org/end-stream
 npm http request GET https://registry.npmjs.org/write-stream
 npm http 304 https://registry.npmjs.org/write-stream
 npm http request GET https://registry.npmjs.org/readable-stream
 npm http 304 https://registry.npmjs.org/readable-stream
-npm http request GET https://registry.npmjs.org/prr
-npm http request GET https://registry.npmjs.org/level-iterator-stream
-npm http request GET https://registry.npmjs.org/level-errors
 npm http request GET https://registry.npmjs.org/deferred-leveldown
 npm http request GET https://registry.npmjs.org/level-codec
+npm http request GET https://registry.npmjs.org/level-errors
+npm http request GET https://registry.npmjs.org/level-iterator-stream
+npm http request GET https://registry.npmjs.org/prr
 npm http request GET https://registry.npmjs.org/semver
 npm http 304 https://registry.npmjs.org/prr
-npm http 304 https://registry.npmjs.org/level-errors
 npm http 304 https://registry.npmjs.org/deferred-leveldown
-npm http 304 https://registry.npmjs.org/level-iterator-stream
 npm http 304 https://registry.npmjs.org/level-codec
 npm http 200 https://registry.npmjs.org/semver
+npm http 304 https://registry.npmjs.org/level-errors
+npm http 304 https://registry.npmjs.org/level-iterator-stream
 npm http request GET https://registry.npmjs.org/errno
 npm http 304 https://registry.npmjs.org/errno
 npm http request GET https://registry.npmjs.org/unreachable-branch-transform
 npm http 304 https://registry.npmjs.org/unreachable-branch-transform
 npm http request GET https://registry.npmjs.org/humble-localstorage
 npm http 304 https://registry.npmjs.org/humble-localstorage
-npm http request GET https://registry.npmjs.org/has-localstorage
 npm http request GET https://registry.npmjs.org/localstorage-memory
+npm http request GET https://registry.npmjs.org/has-localstorage
 npm http 304 https://registry.npmjs.org/localstorage-memory
 npm http 304 https://registry.npmjs.org/has-localstorage
-npm http request GET https://registry.npmjs.org/functional-red-black-tree
 npm http request GET https://registry.npmjs.org/ltgt
-npm http 304 https://registry.npmjs.org/ltgt
+npm http request GET https://registry.npmjs.org/functional-red-black-tree
 npm http 304 https://registry.npmjs.org/functional-red-black-tree
+npm http 304 https://registry.npmjs.org/ltgt
 npm http request GET https://registry.npmjs.org/aws-sign2
 npm http request GET https://registry.npmjs.org/aws4
 npm http request GET https://registry.npmjs.org/bl
@@ -7126,31 +20269,33 @@ npm http request GET https://registry.npmjs.org/tough-cookie
 npm http request GET https://registry.npmjs.org/tunnel-agent
 npm http request GET https://registry.npmjs.org/extend
 npm http request GET https://registry.npmjs.org/qs
+npm http 304 https://registry.npmjs.org/caseless
 npm http 304 https://registry.npmjs.org/aws-sign2
 npm http 304 https://registry.npmjs.org/combined-stream
-npm http 304 https://registry.npmjs.org/bl
 npm http 304 https://registry.npmjs.org/aws4
-npm http 304 https://registry.npmjs.org/caseless
+npm http 304 https://registry.npmjs.org/bl
 npm http 304 https://registry.npmjs.org/forever-agent
 npm http 304 https://registry.npmjs.org/form-data
 npm http 304 https://registry.npmjs.org/har-validator
 npm http 304 https://registry.npmjs.org/http-signature
 npm http 304 https://registry.npmjs.org/hawk
 npm http 304 https://registry.npmjs.org/is-typedarray
-npm http 304 https://registry.npmjs.org/oauth-sign
-npm http 304 https://registry.npmjs.org/json-stringify-safe
 npm http 304 https://registry.npmjs.org/isstream
+npm http 304 https://registry.npmjs.org/json-stringify-safe
+npm http 304 https://registry.npmjs.org/oauth-sign
 npm http 304 https://registry.npmjs.org/stringstream
 npm http 304 https://registry.npmjs.org/tough-cookie
 npm http 304 https://registry.npmjs.org/tunnel-agent
-npm http 304 https://registry.npmjs.org/extend
 npm http 304 https://registry.npmjs.org/qs
+npm http 304 https://registry.npmjs.org/extend
 npm http request GET https://registry.npmjs.org/lru-cache
-npm http 304 https://registry.npmjs.org/lru-cache
+npm http 200 https://registry.npmjs.org/lru-cache
+npm http fetch GET https://registry.npmjs.org/lru-cache/-/lru-cache-4.0.1.tgz
+npm http fetch 200 https://registry.npmjs.org/lru-cache/-/lru-cache-4.0.1.tgz
 npm http request GET https://registry.npmjs.org/pseudomap
 npm http request GET https://registry.npmjs.org/yallist
-npm http 304 https://registry.npmjs.org/pseudomap
 npm http 304 https://registry.npmjs.org/yallist
+npm http 304 https://registry.npmjs.org/pseudomap
 npm http request GET https://registry.npmjs.org/process-nextick-args
 npm http request GET https://registry.npmjs.org/util-deprecate
 npm http request GET https://registry.npmjs.org/isarray
@@ -7165,10 +20310,10 @@ npm http request GET https://registry.npmjs.org/chalk
 npm http request GET https://registry.npmjs.org/commander
 npm http request GET https://registry.npmjs.org/is-my-json-valid
 npm http request GET https://registry.npmjs.org/pinkie-promise
-npm http 304 https://registry.npmjs.org/chalk
 npm http 304 https://registry.npmjs.org/commander
 npm http 304 https://registry.npmjs.org/is-my-json-valid
 npm http 304 https://registry.npmjs.org/pinkie-promise
+npm http 304 https://registry.npmjs.org/chalk
 npm http request GET https://registry.npmjs.org/ansi-styles
 npm http request GET https://registry.npmjs.org/escape-string-regexp
 npm http request GET https://registry.npmjs.org/has-ansi
@@ -7189,30 +20334,30 @@ npm http request GET https://registry.npmjs.org/generate-function
 npm http request GET https://registry.npmjs.org/generate-object-property
 npm http request GET https://registry.npmjs.org/jsonpointer
 npm http 304 https://registry.npmjs.org/jsonpointer
-npm http 304 https://registry.npmjs.org/generate-object-property
 npm http 304 https://registry.npmjs.org/generate-function
+npm http 304 https://registry.npmjs.org/generate-object-property
 npm http request GET https://registry.npmjs.org/pinkie
 npm http 304 https://registry.npmjs.org/pinkie
 npm http request GET https://registry.npmjs.org/hoek
-npm http request GET https://registry.npmjs.org/cryptiles
 npm http request GET https://registry.npmjs.org/boom
+npm http request GET https://registry.npmjs.org/cryptiles
 npm http request GET https://registry.npmjs.org/sntp
-npm http 304 https://registry.npmjs.org/cryptiles
-npm http 304 https://registry.npmjs.org/sntp
 npm http 304 https://registry.npmjs.org/boom
+npm http 304 https://registry.npmjs.org/cryptiles
 npm http 304 https://registry.npmjs.org/hoek
+npm http 304 https://registry.npmjs.org/sntp
 npm http request GET https://registry.npmjs.org/assert-plus
 npm http request GET https://registry.npmjs.org/jsprim
 npm http request GET https://registry.npmjs.org/sshpk
+npm http 304 https://registry.npmjs.org/jsprim
 npm http 304 https://registry.npmjs.org/assert-plus
 npm http 304 https://registry.npmjs.org/sshpk
-npm http 304 https://registry.npmjs.org/jsprim
 npm http request GET https://registry.npmjs.org/extsprintf
 npm http request GET https://registry.npmjs.org/json-schema
 npm http request GET https://registry.npmjs.org/verror
 npm http 304 https://registry.npmjs.org/json-schema
-npm http 304 https://registry.npmjs.org/verror
 npm http 304 https://registry.npmjs.org/extsprintf
+npm http 304 https://registry.npmjs.org/verror
 npm http request GET https://registry.npmjs.org/asn1
 npm http request GET https://registry.npmjs.org/dashdash
 npm http 304 https://registry.npmjs.org/dashdash
@@ -7227,9 +20372,9 @@ npm http request GET https://registry.npmjs.org/immediate
 npm http request GET https://registry.npmjs.org/noop-fn
 npm http request GET https://registry.npmjs.org/sqlite3
 npm http 304 https://registry.npmjs.org/immediate
-npm http 304 https://registry.npmjs.org/noop-fn
 npm http 200 https://registry.npmjs.org/sqlite3
 npm http fetch GET https://registry.npmjs.org/sqlite3/-/sqlite3-3.1.2.tgz
+npm http 304 https://registry.npmjs.org/noop-fn
 npm http fetch 200 https://registry.npmjs.org/sqlite3/-/sqlite3-3.1.2.tgz
 npm http request GET https://registry.npmjs.org/nan
 npm http 304 https://registry.npmjs.org/nan
@@ -7237,48 +20382,48 @@ npm http fetch GET https://registry.npmjs.org/nan/-/nan-2.2.0.tgz
 npm http fetch 200 https://registry.npmjs.org/nan/-/nan-2.2.0.tgz
 npm http request GET https://registry.npmjs.org/lie
 npm http request GET https://registry.npmjs.org/bluebird
-npm http 304 https://registry.npmjs.org/bluebird
 npm http 304 https://registry.npmjs.org/lie
+npm http 304 https://registry.npmjs.org/bluebird
 npm http request GET https://registry.npmjs.org/xmlhttprequest-cookie
 npm http 304 https://registry.npmjs.org/xmlhttprequest-cookie
 npm http request GET https://registry.npmjs.org/xmlhttprequest
 npm http 304 https://registry.npmjs.org/xmlhttprequest
 npm http request GET https://registry.npmjs.org/pouchdb-changeslike-wrapper
 npm http 304 https://registry.npmjs.org/pouchdb-changeslike-wrapper
-npm http request GET https://registry.npmjs.org/couchdb-eval
-npm http request GET https://registry.npmjs.org/random-uuid-v4
 npm http request GET https://registry.npmjs.org/couchdb-objects
+npm http request GET https://registry.npmjs.org/random-uuid-v4
+npm http request GET https://registry.npmjs.org/couchdb-eval
+npm http 304 https://registry.npmjs.org/couchdb-objects
 npm http 304 https://registry.npmjs.org/random-uuid-v4
 npm http 304 https://registry.npmjs.org/couchdb-eval
-npm http 304 https://registry.npmjs.org/couchdb-objects
 npm http request GET https://registry.npmjs.org/is-empty
 npm http 304 https://registry.npmjs.org/is-empty
 npm http request GET https://registry.npmjs.org/spark-md5
-npm http request GET https://registry.npmjs.org/pouchdb-extend
 npm http request GET https://registry.npmjs.org/pouchdb-abstract-mapreduce
 npm http request GET https://registry.npmjs.org/pouchdb-upsert
+npm http request GET https://registry.npmjs.org/pouchdb-extend
 npm http request GET https://registry.npmjs.org/jshint
 npm http 304 https://registry.npmjs.org/spark-md5
 npm http 304 https://registry.npmjs.org/jshint
-npm http 304 https://registry.npmjs.org/pouchdb-extend
-npm http 304 https://registry.npmjs.org/pouchdb-upsert
 npm http 304 https://registry.npmjs.org/pouchdb-abstract-mapreduce
+npm http 304 https://registry.npmjs.org/pouchdb-upsert
+npm http 304 https://registry.npmjs.org/pouchdb-extend
 npm http request GET https://registry.npmjs.org/minimatch
-npm http request GET https://registry.npmjs.org/strip-json-comments
-npm http request GET https://registry.npmjs.org/cli
 npm http request GET https://registry.npmjs.org/console-browserify
-npm http request GET https://registry.npmjs.org/exit
 npm http request GET https://registry.npmjs.org/htmlparser2
+npm http request GET https://registry.npmjs.org/cli
+npm http request GET https://registry.npmjs.org/exit
+npm http request GET https://registry.npmjs.org/strip-json-comments
 npm http request GET https://registry.npmjs.org/shelljs
 npm http request GET https://registry.npmjs.org/lodash
+npm http 304 https://registry.npmjs.org/console-browserify
 npm http 304 https://registry.npmjs.org/minimatch
+npm http 304 https://registry.npmjs.org/htmlparser2
 npm http 304 https://registry.npmjs.org/strip-json-comments
 npm http 304 https://registry.npmjs.org/exit
 npm http 304 https://registry.npmjs.org/cli
-npm http 304 https://registry.npmjs.org/console-browserify
-npm http 200 https://registry.npmjs.org/shelljs
-npm http 304 https://registry.npmjs.org/htmlparser2
 npm http 200 https://registry.npmjs.org/lodash
+npm http 200 https://registry.npmjs.org/shelljs
 npm http request GET https://registry.npmjs.org/glob
 npm http 304 https://registry.npmjs.org/glob
 npm http request GET https://registry.npmjs.org/lru-cache
@@ -7288,12 +20433,12 @@ npm http 304 https://registry.npmjs.org/sigmund
 npm http request GET https://registry.npmjs.org/date-now
 npm http 304 https://registry.npmjs.org/date-now
 npm http request GET https://registry.npmjs.org/domhandler
-npm http request GET https://registry.npmjs.org/domutils
 npm http request GET https://registry.npmjs.org/domelementtype
+npm http request GET https://registry.npmjs.org/domutils
 npm http request GET https://registry.npmjs.org/entities
 npm http 304 https://registry.npmjs.org/domelementtype
-npm http 304 https://registry.npmjs.org/entities
 npm http 304 https://registry.npmjs.org/domhandler
+npm http 304 https://registry.npmjs.org/entities
 npm http 304 https://registry.npmjs.org/domutils
 npm http request GET https://registry.npmjs.org/dom-serializer
 npm http 304 https://registry.npmjs.org/dom-serializer
@@ -7301,8 +20446,6 @@ npm http request GET https://registry.npmjs.org/brace-expansion
 npm http 304 https://registry.npmjs.org/brace-expansion
 npm http request GET https://registry.npmjs.org/balanced-match
 npm http 304 https://registry.npmjs.org/balanced-match
-npm http request GET https://registry.npmjs.org/lie
-npm http 304 https://registry.npmjs.org/lie
 npm http request GET https://registry.npmjs.org/extend
 npm http request GET https://registry.npmjs.org/couchdb-render
 npm http 304 https://registry.npmjs.org/extend
@@ -7319,24 +20462,22 @@ npm http request GET https://registry.npmjs.org/get-folder-size
 npm http 304 https://registry.npmjs.org/get-folder-size
 npm http request GET https://registry.npmjs.org/async
 npm http request GET https://registry.npmjs.org/minimist
-npm http 304 https://registry.npmjs.org/minimist
 npm http 304 https://registry.npmjs.org/async
+npm http 304 https://registry.npmjs.org/minimist
 npm http request GET https://registry.npmjs.org/bytes
 npm http request GET https://registry.npmjs.org/iconv-lite
-npm http 304 https://registry.npmjs.org/bytes
 npm http 304 https://registry.npmjs.org/iconv-lite
+npm http 304 https://registry.npmjs.org/bytes
 npm http request GET https://registry.npmjs.org/fs-extra
 npm http 304 https://registry.npmjs.org/fs-extra
 npm http request GET https://registry.npmjs.org/graceful-fs
 npm http request GET https://registry.npmjs.org/jsonfile
 npm http request GET https://registry.npmjs.org/path-is-absolute
 npm http request GET https://registry.npmjs.org/rimraf
-npm http 304 https://registry.npmjs.org/path-is-absolute
-npm http 304 https://registry.npmjs.org/rimraf
 npm http 304 https://registry.npmjs.org/jsonfile
 npm http 304 https://registry.npmjs.org/graceful-fs
-npm http request GET https://registry.npmjs.org/glob
-npm http 304 https://registry.npmjs.org/glob
+npm http 304 https://registry.npmjs.org/rimraf
+npm http 304 https://registry.npmjs.org/path-is-absolute
 npm http request GET https://registry.npmjs.org/inflight
 npm http request GET https://registry.npmjs.org/once
 npm http 304 https://registry.npmjs.org/once
@@ -7344,166 +20485,166 @@ npm http 304 https://registry.npmjs.org/inflight
 npm http request GET https://registry.npmjs.org/wrappy
 npm http 304 https://registry.npmjs.org/wrappy
 npm http request GET https://registry.npmjs.org/abstract-leveldown
-npm http request GET https://registry.npmjs.org/bindings
 npm http request GET https://registry.npmjs.org/fast-future
+npm http request GET https://registry.npmjs.org/bindings
 npm http 304 https://registry.npmjs.org/bindings
 npm http 304 https://registry.npmjs.org/fast-future
 npm http 304 https://registry.npmjs.org/abstract-leveldown
-npm http request GET https://registry.npmjs.org/varint
 npm http request GET https://registry.npmjs.org/duplexify
+npm http request GET https://registry.npmjs.org/varint
 npm http request GET https://registry.npmjs.org/readable-stream
-npm http 304 https://registry.npmjs.org/readable-stream
 npm http 304 https://registry.npmjs.org/duplexify
+npm http 304 https://registry.npmjs.org/readable-stream
 npm http 304 https://registry.npmjs.org/varint
 npm http request GET https://registry.npmjs.org/end-of-stream
 npm http 304 https://registry.npmjs.org/end-of-stream
 npm http request GET https://registry.npmjs.org/isarray
 npm http 304 https://registry.npmjs.org/isarray
 npm http request GET https://registry.npmjs.org/deep-equal
-npm http request GET https://registry.npmjs.org/debug
-npm http request GET https://registry.npmjs.org/lodash
 npm http request GET https://registry.npmjs.org/mkdirp
+npm http request GET https://registry.npmjs.org/debug
 npm http request GET https://registry.npmjs.org/chai
+npm http request GET https://registry.npmjs.org/lodash
 npm http request GET https://registry.npmjs.org/propagate
 npm http 304 https://registry.npmjs.org/deep-equal
-npm http 304 https://registry.npmjs.org/debug
 npm http 304 https://registry.npmjs.org/mkdirp
+npm http 304 https://registry.npmjs.org/debug
 npm http 304 https://registry.npmjs.org/lodash
 npm WARN deprecated lodash@2.4.1: lodash@<3.0.0 is no longer maintained. Upgrade to lodash@^4.0.0.
 npm http 304 https://registry.npmjs.org/propagate
 npm http 200 https://registry.npmjs.org/chai
-npm http request GET https://registry.npmjs.org/deep-eql
 npm http request GET https://registry.npmjs.org/assertion-error
+npm http request GET https://registry.npmjs.org/deep-eql
 npm http request GET https://registry.npmjs.org/type-detect
-npm http 304 https://registry.npmjs.org/assertion-error
 npm http 304 https://registry.npmjs.org/type-detect
+npm http 304 https://registry.npmjs.org/assertion-error
 npm http 304 https://registry.npmjs.org/deep-eql
 npm http request GET https://registry.npmjs.org/ms
 npm http 304 https://registry.npmjs.org/ms
 npm http request GET https://registry.npmjs.org/ip
 npm http 304 https://registry.npmjs.org/ip
-npm http request GET https://registry.npmjs.org/fill-keys
 npm http request GET https://registry.npmjs.org/module-not-found-error
+npm http request GET https://registry.npmjs.org/fill-keys
 npm http 304 https://registry.npmjs.org/module-not-found-error
 npm http 304 https://registry.npmjs.org/fill-keys
 npm http request GET https://registry.npmjs.org/is-object
 npm http 304 https://registry.npmjs.org/is-object
 npm http request GET https://registry.npmjs.org/array-uniq
 npm http 304 https://registry.npmjs.org/array-uniq
-npm http request GET https://registry.npmjs.org/samsam
-npm http request GET https://registry.npmjs.org/lolex
 npm http request GET https://registry.npmjs.org/util
+npm http request GET https://registry.npmjs.org/lolex
 npm http request GET https://registry.npmjs.org/formatio
+npm http request GET https://registry.npmjs.org/samsam
 npm http 304 https://registry.npmjs.org/util
 npm http 304 https://registry.npmjs.org/samsam
 npm http 304 https://registry.npmjs.org/lolex
 npm http 304 https://registry.npmjs.org/formatio
 npm http request GET https://registry.npmjs.org/engine.io-client
 npm http request GET https://registry.npmjs.org/component-bind
-npm http request GET https://registry.npmjs.org/object-component
 npm http request GET https://registry.npmjs.org/component-emitter
+npm http request GET https://registry.npmjs.org/object-component
 npm http request GET https://registry.npmjs.org/socket.io-parser
 npm http request GET https://registry.npmjs.org/has-binary
 npm http request GET https://registry.npmjs.org/indexof
 npm http request GET https://registry.npmjs.org/parseuri
 npm http request GET https://registry.npmjs.org/to-array
 npm http request GET https://registry.npmjs.org/backo2
-npm http 304 https://registry.npmjs.org/socket.io-parser
 npm http 304 https://registry.npmjs.org/component-bind
-npm http 304 https://registry.npmjs.org/component-emitter
 npm http 304 https://registry.npmjs.org/object-component
-npm http 304 https://registry.npmjs.org/to-array
-npm http 304 https://registry.npmjs.org/parseuri
-npm http 304 https://registry.npmjs.org/indexof
-npm http 304 https://registry.npmjs.org/backo2
+npm http 304 https://registry.npmjs.org/component-emitter
+npm http 304 https://registry.npmjs.org/socket.io-parser
 npm http 304 https://registry.npmjs.org/engine.io-client
 npm http 304 https://registry.npmjs.org/has-binary
+npm http 304 https://registry.npmjs.org/to-array
+npm http 304 https://registry.npmjs.org/indexof
+npm http 304 https://registry.npmjs.org/backo2
+npm http 304 https://registry.npmjs.org/parseuri
 npm http request GET https://registry.npmjs.org/has-cors
 npm http request GET https://registry.npmjs.org/ws
 npm http request GET https://registry.npmjs.org/xmlhttprequest-ssl
-npm http request GET https://registry.npmjs.org/engine.io-parser
 npm http request GET https://registry.npmjs.org/parsejson
+npm http request GET https://registry.npmjs.org/engine.io-parser
 npm http request GET https://registry.npmjs.org/parseqs
 npm http request GET https://registry.npmjs.org/component-inherit
 npm http request GET https://registry.npmjs.org/yeast
-npm http 304 https://registry.npmjs.org/xmlhttprequest-ssl
-npm http 304 https://registry.npmjs.org/engine.io-parser
-npm http 304 https://registry.npmjs.org/parsejson
-npm http 304 https://registry.npmjs.org/has-cors
-npm http 304 https://registry.npmjs.org/parseqs
-npm http 304 https://registry.npmjs.org/yeast
-npm http 304 https://registry.npmjs.org/component-inherit
 npm http 304 https://registry.npmjs.org/ws
+npm http 304 https://registry.npmjs.org/has-cors
+npm http 304 https://registry.npmjs.org/xmlhttprequest-ssl
+npm http 304 https://registry.npmjs.org/parseqs
+npm http 304 https://registry.npmjs.org/parsejson
+npm http 304 https://registry.npmjs.org/component-inherit
+npm http 304 https://registry.npmjs.org/engine.io-parser
+npm http 304 https://registry.npmjs.org/yeast
 npm http request GET https://registry.npmjs.org/after
-npm http request GET https://registry.npmjs.org/arraybuffer.slice
 npm http request GET https://registry.npmjs.org/base64-arraybuffer
+npm http request GET https://registry.npmjs.org/arraybuffer.slice
 npm http request GET https://registry.npmjs.org/blob
 npm http request GET https://registry.npmjs.org/utf8
-npm http 304 https://registry.npmjs.org/blob
 npm http 304 https://registry.npmjs.org/arraybuffer.slice
-npm http 304 https://registry.npmjs.org/base64-arraybuffer
 npm http 304 https://registry.npmjs.org/utf8
 npm http 304 https://registry.npmjs.org/after
+npm http 304 https://registry.npmjs.org/base64-arraybuffer
+npm http 304 https://registry.npmjs.org/blob
 npm http request GET https://registry.npmjs.org/better-assert
 npm http 304 https://registry.npmjs.org/better-assert
 npm http request GET https://registry.npmjs.org/callsite
 npm http 304 https://registry.npmjs.org/callsite
-npm http request GET https://registry.npmjs.org/ultron
 npm http request GET https://registry.npmjs.org/options
-npm http 304 https://registry.npmjs.org/options
+npm http request GET https://registry.npmjs.org/ultron
 npm http 304 https://registry.npmjs.org/ultron
+npm http 304 https://registry.npmjs.org/options
 npm http request GET https://registry.npmjs.org/json3
 npm http request GET https://registry.npmjs.org/benchmark
-npm http 304 https://registry.npmjs.org/benchmark
 npm http 304 https://registry.npmjs.org/json3
+npm http 304 https://registry.npmjs.org/benchmark
 npm http request GET https://registry.npmjs.org/superagent
 npm http 200 https://registry.npmjs.org/superagent
 npm http fetch GET https://registry.npmjs.org/superagent/-/superagent-1.8.2.tgz
 npm http fetch 200 https://registry.npmjs.org/superagent/-/superagent-1.8.2.tgz
 npm http request GET https://registry.npmjs.org/qs
-npm http request GET https://registry.npmjs.org/extend
 npm http request GET https://registry.npmjs.org/form-data
 npm http request GET https://registry.npmjs.org/readable-stream
+npm http request GET https://registry.npmjs.org/extend
 npm http request GET https://registry.npmjs.org/reduce-component
 npm http request GET https://registry.npmjs.org/cookiejar
 npm http request GET https://registry.npmjs.org/formidable
-npm http 304 https://registry.npmjs.org/qs
-npm http 304 https://registry.npmjs.org/cookiejar
-npm http 304 https://registry.npmjs.org/extend
 npm http 304 https://registry.npmjs.org/reduce-component
+npm http 304 https://registry.npmjs.org/extend
+npm http 304 https://registry.npmjs.org/qs
 npm http 304 https://registry.npmjs.org/readable-stream
+npm http 304 https://registry.npmjs.org/cookiejar
 npm http 304 https://registry.npmjs.org/form-data
 npm http 304 https://registry.npmjs.org/formidable
 npm http request GET https://registry.npmjs.org/defined
 npm http request GET https://registry.npmjs.org/function-bind
-npm http request GET https://registry.npmjs.org/string.prototype.trim
-npm http request GET https://registry.npmjs.org/resolve
 npm http request GET https://registry.npmjs.org/object-inspect
-npm http request GET https://registry.npmjs.org/has
-npm http request GET https://registry.npmjs.org/resumer
 npm http request GET https://registry.npmjs.org/glob
-npm http 304 https://registry.npmjs.org/resolve
-npm http 304 https://registry.npmjs.org/object-inspect
-npm http 304 https://registry.npmjs.org/string.prototype.trim
+npm http request GET https://registry.npmjs.org/has
+npm http request GET https://registry.npmjs.org/string.prototype.trim
+npm http request GET https://registry.npmjs.org/resumer
+npm http request GET https://registry.npmjs.org/resolve
 npm http 304 https://registry.npmjs.org/function-bind
-npm http 304 https://registry.npmjs.org/defined
 npm http 304 https://registry.npmjs.org/has
-npm http 304 https://registry.npmjs.org/resumer
 npm http 304 https://registry.npmjs.org/glob
-npm http request GET https://registry.npmjs.org/define-properties
+npm http 304 https://registry.npmjs.org/object-inspect
+npm http 304 https://registry.npmjs.org/defined
+npm http 304 https://registry.npmjs.org/resumer
+npm http 304 https://registry.npmjs.org/resolve
+npm http 304 https://registry.npmjs.org/string.prototype.trim
 npm http request GET https://registry.npmjs.org/es-abstract
+npm http request GET https://registry.npmjs.org/define-properties
 npm http 304 https://registry.npmjs.org/define-properties
 npm http 304 https://registry.npmjs.org/es-abstract
+npm http request GET https://registry.npmjs.org/is-regex
 npm http request GET https://registry.npmjs.org/es-to-primitive
 npm http request GET https://registry.npmjs.org/is-callable
-npm http request GET https://registry.npmjs.org/is-regex
-npm http 304 https://registry.npmjs.org/is-regex
 npm http 304 https://registry.npmjs.org/is-callable
 npm http 304 https://registry.npmjs.org/es-to-primitive
+npm http 304 https://registry.npmjs.org/is-regex
 npm http request GET https://registry.npmjs.org/is-date-object
 npm http request GET https://registry.npmjs.org/is-symbol
-npm http 304 https://registry.npmjs.org/is-date-object
 npm http 304 https://registry.npmjs.org/is-symbol
+npm http 304 https://registry.npmjs.org/is-date-object
 npm http request GET https://registry.npmjs.org/os-tmpdir
 npm http 304 https://registry.npmjs.org/os-tmpdir
 npm WARN prefer global jshint@2.9.1 should be installed with -g
