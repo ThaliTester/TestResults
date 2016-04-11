@@ -9,8 +9,6 @@
 ```
 Already up-to-date.
 
-From https://github.com/czyzm/Thali_CordovaPlugin_BtLibrary
-   2b29459..224672f  vNext_jareksl_46 -> origin/vNext_jareksl_46
 
 ```
 
@@ -42,7 +40,7 @@ cache artifact-at-url.bin (/Users/thali/.gradle/caches/modules-2/metadata-2.14/a
 
 BUILD FAILED
 
-Total time: 20.133 secs
+Total time: 11.543 secs
 -e [0;31mcompilation aborted
  [0m
 build aborted
@@ -52,8 +50,9 @@ build aborted
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-A problem occurred configuring project ':btconnectorlib2'.
-> failed to find Build Tools revision 23.0.2
+A problem occurred configuring root project 'BtConnectorLib'.
+> Could not open no_buildscript class cache for build file '/Users/thali/Github/testBuild/BtConnectorLib/build.gradle' (/Users/thali/.gradle/caches/2.2.1/scripts/build_da6y8k8ktu18upgkox9mcrt7s/ProjectScript/no_buildscript).
+   > java.io.FileNotFoundException: /Users/thali/.gradle/caches/2.2.1/scripts/build_da6y8k8ktu18upgkox9mcrt7s/ProjectScript/no_buildscript/cache.properties (No such file or directory)
 
 * Try:
 Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
@@ -64,8 +63,9 @@ Error: Command failed:
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-A problem occurred configuring project ':btconnectorlib2'.
-> failed to find Build Tools revision 23.0.2
+A problem occurred configuring root project 'BtConnectorLib'.
+> Could not open no_buildscript class cache for build file '/Users/thali/Github/testBuild/BtConnectorLib/build.gradle' (/Users/thali/.gradle/caches/2.2.1/scripts/build_da6y8k8ktu18upgkox9mcrt7s/ProjectScript/no_buildscript).
+   > java.io.FileNotFoundException: /Users/thali/.gradle/caches/2.2.1/scripts/build_da6y8k8ktu18upgkox9mcrt7s/ProjectScript/no_buildscript/cache.properties (No such file or directory)
 
 * Try:
 Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
