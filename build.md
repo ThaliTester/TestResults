@@ -9,8 +9,6 @@
 ```
 Already up-to-date.
 
-From https://github.com/czyzm/Thali_CordovaPlugin_BtLibrary
-   a2f9c3a..6647a1c  vNext_jareksl_46 -> origin/vNext_jareksl_46
 
 ```
 
@@ -80,7 +78,7 @@ Download https://jcenter.bintray.com/com/android/tools/lint/lint-api/24.1.0/lint
 
 BUILD FAILED
 
-Total time: 53.926 secs
+Total time: 54.573 secs
 -e [0;31mcompilation aborted
  [0m
 build aborted
