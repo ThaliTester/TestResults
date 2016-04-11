@@ -78,7 +78,7 @@ Download https://jcenter.bintray.com/com/android/tools/lint/lint-api/24.1.0/lint
 
 BUILD FAILED
 
-Total time: 2 mins 13.491 secs
+Total time: 57.519 secs
 -e [0;31mcompilation aborted
  [0m
 build aborted
