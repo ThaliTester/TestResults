@@ -86,7 +86,7 @@ Expected: is <true>
 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1976)
 .
 
-Time: 3.448
+Time: 3.287
 There were 2 failures:
 1) testStartListeningBluetoothDisabled(org.thaliproject.p2p.btconnectorlib.ConnectionManagerTest)
 java.lang.AssertionError: 
