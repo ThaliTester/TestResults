@@ -71,7 +71,7 @@ HEAD is now at 1cea3d9... Fix test
 
 BUILD SUCCESSFUL
 
-Total time: 28.268 secs
+Total time: 30.225 secs
 :btconnectorlib2:preBuild UP-TO-DATE
 :btconnectorlib2:preReleaseAndroidTestBuild UP-TO-DATE
 :btconnectorlib2:preDebugBuild UP-TO-DATE
@@ -131,7 +131,7 @@ Total time: 28.268 secs
 
 BUILD SUCCESSFUL
 
-Total time: 1 mins 2.901 secs
+Total time: 1 mins 3.66 secs
 :btconnectorlib2:preCompileReleaseUnitTestJava
 :btconnectorlib2:compileReleaseUnitTestJava
 :btconnectorlib2:compileReleaseUnitTestSources
@@ -141,7 +141,7 @@ Total time: 1 mins 2.901 secs
 
 BUILD SUCCESSFUL
 
-Total time: 17.802 secs
+Total time: 17.933 secs
 
 Note: /Users/thali/Github/testBuild/BtConnectorLib/btconnectorlib2/src/test/java/org/thaliproject/p2p/btconnectorlib/DiscoveryManagerTest.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
