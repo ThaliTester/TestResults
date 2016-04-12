@@ -9,8 +9,6 @@
 ```
 Already up-to-date.
 
-From https://github.com/czyzm/Thali_CordovaPlugin_BtLibrary
-   18178c2..8eb29aa  vNext_jareksl_46 -> origin/vNext_jareksl_46
 
 ```
 
@@ -73,7 +71,7 @@ HEAD is now at 8eb29aa... Failing test
 
 BUILD SUCCESSFUL
 
-Total time: 29.152 secs
+Total time: 27.73 secs
 :btconnectorlib2:preBuild UP-TO-DATE
 :btconnectorlib2:preReleaseAndroidTestBuild UP-TO-DATE
 :btconnectorlib2:preDebugBuild UP-TO-DATE
@@ -133,7 +131,7 @@ Total time: 29.152 secs
 
 BUILD SUCCESSFUL
 
-Total time: 1 mins 4.204 secs
+Total time: 1 mins 7.964 secs
 :btconnectorlib2:preCompileReleaseUnitTestJava
 :btconnectorlib2:compileReleaseUnitTestJava
 :btconnectorlib2:compileReleaseUnitTestSources
@@ -143,7 +141,7 @@ Total time: 1 mins 4.204 secs
 
 BUILD SUCCESSFUL
 
-Total time: 18.024 secs
+Total time: 19.62 secs
 
 Note: /Users/thali/Github/testBuild/BtConnectorLib/btconnectorlib2/src/test/java/org/thaliproject/p2p/btconnectorlib/DiscoveryManagerTest.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
