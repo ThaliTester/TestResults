@@ -21,12 +21,13 @@ Android instrumentation tests task is completed. [SUCCESS]
 ####Node name: thali04
 Console output:
 ```
+Error: problem running Android instrumentation tests (org.thaliproject.p2p.btconnectorlib.test) on device HTC-HTC Desire 820 
 Error: problem running Android instrumentation tests (org.thaliproject.p2p.btconnectorlib.test) on device HTC-HTC One M8s 
 Android instrumentation tests task is completed. [FAILED]
 ```
-[HTC-HTC One M8s](https://github.com/ThaliTester/TestResults/blob/654300111cea3d9_V_next_jareksl_46_czyzm/thali04_HTC-HTC One M8s.md)
-
 [HTC-HTC Desire 820](https://github.com/ThaliTester/TestResults/blob/654300111cea3d9_V_next_jareksl_46_czyzm/thali04_HTC-HTC Desire 820.md)
+
+[HTC-HTC One M8s](https://github.com/ThaliTester/TestResults/blob/654300111cea3d9_V_next_jareksl_46_czyzm/thali04_HTC-HTC One M8s.md)
 
 
 

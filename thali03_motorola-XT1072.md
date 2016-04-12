@@ -6,7 +6,7 @@
 org.thaliproject.p2p.btconnectorlib.ApplicationTest:..
 org.thaliproject.p2p.btconnectorlib.ConnectionManagerTest:......
 
-Time: 3.607
+Time: 3.393
 
 OK (8 tests)
 
