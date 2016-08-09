@@ -1,0 +1,67 @@
+#### Test 80598852be6cebf Logs
+
+#### Test Server Logs
+```
+IS Running:
+Running 'jx install'
+Skipping the log for NPM since the exitCode was 0
+> jx index.js {"devices":{"android":4}}
+2016-08-09T12:33:28.361Z - info: Require 3 ios devices
+
+2016-08-09T12:33:28.379Z - info: Require 3 android devices
+
+2016-08-09T12:33:28.437Z - info: listening on *:3000
+
+
+ 
+Run IS script aborted
+ 
+One or more Android tests are failed.
+ [0m
+
+```
+
+
+Logs for system : 
+```
+
+android : Error: Command failed: Error: Command failed: Android testing process has failed
+ [0m
+
+
+```
+###Android Logs
+####Node name: thali05
+Console output:
+```
+STOP log received from  LGD855a6933058 Test has  SUCCEEDED
+Device test finished on LGD855a6933058 
+STOP log received from  LGD7228ee9cf5b Test has  SUCCEEDED
+Device test finished on LGD7228ee9cf5b 
+Android task is completed. [SUCCESS]
+```
+[LGE-LG-D722](https://github.com/ThaliTester/TestResults/blob/80598852be6cebf__842_Removed_the_app_js_work_around_artemjackson/thali05_LGE-LG-D722.md)
+
+[LGE-LG-D855](https://github.com/ThaliTester/TestResults/blob/80598852be6cebf__842_Removed_the_app_js_work_around_artemjackson/thali05_LGE-LG-D855.md)
+
+####Node name: thali08
+Console output:
+```
+
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+STOP log received from  0be0c6c6 Test has  SUCCEEDED
+Device test finished on 0be0c6c6 
+TIMEOUT REACHED. KILLING the APPS
+Error! Unexpected exit on device ZX1G429CRK app:com.test.thalitest code:0 
+child process exited with code 0 on device ZX1G429CRK 
+Android task is completed. [FAILED]
+```
+[samsung-SM-G900F](https://github.com/ThaliTester/TestResults/blob/80598852be6cebf__842_Removed_the_app_js_work_around_artemjackson/thali08_samsung-SM-G900F.md)
+
+[motorola-Nexus 6](https://github.com/ThaliTester/TestResults/blob/80598852be6cebf__842_Removed_the_app_js_work_around_artemjackson/thali08_motorola-Nexus 6.md)
+
+
+
+
