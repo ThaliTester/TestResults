@@ -1,0 +1,10 @@
+#### Test 80912877664003a_iOS_Iphone5-1 Logs
+
+
+```
+[100%] Installed package /Users/thali/Github/CI/builder/builds/80912877664003a/build_ios/ThaliTest.app
+,------ Debug phase ------
+,Starting debug of iPhone 5 (GSM) 'Iphone5-1' (17df3859480c382d3b761fa2643dde395ced1bd8) connected through USB...
+,2016-08-12 09:18:48.575 ios-deploy[89294:38913712] [ !! ] Unable to locate DeviceSupport directory. This probably means you don't have Xcode installed, you will need to launch the app manually and logging output will not be shown!
+
+```
