@@ -1,0 +1,7797 @@
+#### Test 81418577dce6d7c_thali03_samsung-SM-A500FU Logs
+
+
+```
+--------- beginning of system
+08-17 15:50:14.163  1015  1094 V AlarmManager: waitForAlarm result :4
+08-17 15:50:14.203  1015  1047 I PowerManagerService: [PWL] Off : 30s ago
+08-17 15:50:14.213  1015  1340 E Watchdog: !@Sync 3
+08-17 15:50:14.233  1015  2729 D SSRM:n  : SIOP:: AP = 330
+,--------- beginning of main
+08-17 15:50:14.763   314   314 I Atfwd_Sendcmd: AtCmdFwd service not ready - Exhausted retry attempts - :6
+08-17 15:50:14.763   314   314 I Atfwd_Daemon: result : -1 	 ,Init step :2 	 ,qmiErrorCode: 0
+08-17 15:50:14.953  6184  6184 D AndroidRuntime: 
+08-17 15:50:14.953  6184  6184 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+08-17 15:50:14.963  6184  6184 D AndroidRuntime: CheckJNI is OFF
+08-17 15:50:14.963  6184  6184 D AndroidRuntime: readGMSProperty: start
+08-17 15:50:14.963  6184  6184 D AndroidRuntime: readGMSProperty: already setted!!
+08-17 15:50:14.963  6184  6184 D AndroidRuntime: propertySet: couldn't set property (it is from app)
+08-17 15:50:14.963  6184  6184 D AndroidRuntime: readGMSProperty: could not set the property(default)!!
+08-17 15:50:14.963  6184  6184 D AndroidRuntime: readGMSProperty: end
+08-17 15:50:14.963  6184  6184 D AndroidRuntime: addProductProperty: start
+08-17 15:50:15.093  6184  6184 E AffinityControl: AffinityControl: registerfunction enter
+08-17 15:50:15.113  6184  6184 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+08-17 15:50:15.123  1015  1028 E PersonaManagerService: inState():  stateMachine is null !!
+08-17 15:50:15.123  1015  1028 I PersonaManagerService: PersonaId don't exist
+08-17 15:50:15.123  1015  1028 I ActivityManager: do not start freezing screen for locked container getKeyguardshowstate = false
+08-17 15:50:15.123  1015  1028 V ApplicationPolicy: isApplicationStateBlocked userId 0 pkgname com.test.thalitest
+08-17 15:50:15.133  1015  1028 W ActivityManager: mDVFSHelper.acquire()
+08-17 15:50:15.143  1015  1045 D PhoneWindow: *FMB* installDecor mIsFloating : false
+08-17 15:50:15.143  1015  1045 D PhoneWindow: *FMB* installDecor flags : -2122120936
+08-17 15:50:15.153  1015  1028 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:15.153  1015  1028 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:15.153  1015  1028 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:15.153  1015  1028 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:15.163  6195  6195 E Zygote  : MountEmulatedStorage()
+08-17 15:50:15.163  6195  6195 E Zygote  : v2
+08-17 15:50:15.163  6195  6195 I libpersona: KNOX_SDCARD checking this for 10155
+08-17 15:50:15.163  6195  6195 I libpersona: KNOX_SDCARD not a persona
+08-17 15:50:15.163  1015  1045 D PhoneWindow: *FMB* isFloatingMenuEnabled mFloatingMenuBtn : null
+08-17 15:50:15.163  1015  1045 D PhoneWindow: *FMB* isFloatingMenuEnabled return false
+08-17 15:50:15.163  1015  1028 I ActivityManager: Start proc com.test.thalitest for activity com.test.thalitest/.MainActivity: pid=6195 uid=10155 gids={50155, 9997, 3003, 3001, 3002, 1028, 1015} abi=armeabi-v7a
+08-17 15:50:15.163   258   258 I SurfaceFlinger: id=13 createSurf (1x1),1 flag=404, uhalitest
+08-17 15:50:15.163  1015  1028 V ApplicationPolicy: isApplicationStateBlocked userId 0 pkgname com.wssyncmldm
+08-17 15:50:15.173  1015  1028 V ApplicationPolicy: isApplicationStateBlocked userId 0 pkgname com.test.thalitest
+08-17 15:50:15.173  6195  6195 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+08-17 15:50:15.173  1015  1028 D InputDispatcher: Focused application set to: xxxx
+08-17 15:50:15.173  1015  1028 D InputDispatcher: Focus left window: 3177
+08-17 15:50:15.173  6184  6184 D AndroidRuntime: Shutting down VM
+08-17 15:50:15.183  6195  6195 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+08-17 15:50:15.183  6195  6195 E SELinux : [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+08-17 15:50:15.193   304   304 I art     : Explicit concurrent mark sweep GC freed 8698(370KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 6MB/11MB, paused 811us total 20.719ms
+08-17 15:50:15.203  1015  1045 D PointerIcon: setMouseIconStyle1 pointerType: 1001iconType:101 flag:0
+08-17 15:50:15.203  1015  1045 D PointerIcon: setMouseCustomIcon IconType is same.101
+08-17 15:50:15.203  6195  6195 D TimaKeyStoreProvider: TimaSignature is unavailable
+08-17 15:50:15.203  6195  6195 D ActivityThread: Added TimaKeyStore provider
+08-17 15:50:15.203   304   304 I art     : Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 39% free, 6MB/11MB, paused 781us total 18.296ms
+08-17 15:50:15.213  1015  1015 V ActivityManager: Display changed displayId=0
+08-17 15:50:15.223  1015  1043 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams
+08-17 15:50:15.223   304   304 I art     : Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 39% free, 6MB/11MB, paused 605us total 18.559ms
+08-17 15:50:15.233  1015  1218 D PersonaManager: isKioskContainerExistOnDevice
+08-17 15:50:15.273   258   721 I SurfaceFlinger: id=10 Removed YUIInstallC (5/9)
+08-17 15:50:15.273   258  1102 I SurfaceFlinger: id=10 Removed YUIInstallC (-2/9)
+08-17 15:50:15.283  3177  3177 V ActivityThread: updateVisibility : ActivityRecord{35c199b9 token=android.os.BinderProxy@1632eac4 {com.wssyncmldm/com.wssyncmldm.ui.XUIInstallConfirmActivity}} show : false
+08-17 15:50:15.363  6195  6195 I WebViewFactory: Loading com.google.android.webview version 43.0.2357.121 (code 2357121)
+08-17 15:50:15.383  6195  6195 I LibraryLoader: Time to load native libraries: 2 ms (timestamps 9818-9820)
+08-17 15:50:15.383  6195  6195 I LibraryLoader: Expected native library version number "",actual native library version number ""
+08-17 15:50:15.393  6184  6184 W art     : ConditionVariable::~ConditionVariable for GC request condition variable called with 1 waiters.
+,08-17 15:50:15.413  6195  6195 V WebViewChromiumFactoryProvider: Binding Chromium to main looper Looper (main, tid 1) {55976c5}
+,08-17 15:50:15.413  6195  6195 I LibraryLoader: Expected native library version number "",actual native library version number ""
+,08-17 15:50:15.413  6195  6195 I chromium: [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+,08-17 15:50:15.453  6195  6195 I BrowserStartupController: Initializing chromium process, singleProcess=true
+,08-17 15:50:15.453  6195  6195 W art     : Attempt to remove local handle scope entry from IRT, ignoring
+,08-17 15:50:15.453  6195  6195 E SysUtils: ApplicationContext is null in ApplicationStatus
+,08-17 15:50:15.473  6195  6195 W chromium: [WARNING:resource_bundle.cc(286)] locale_file_path.empty()
+,08-17 15:50:15.473  6195  6195 I chromium: [INFO:aw_browser_main_parts.cc(63)] Load from apk succesful, fd=38 off=50556 len=3379
+08-17 15:50:15.473  6195  6195 I chromium: [INFO:aw_browser_main_parts.cc(76)] Loading webviewchromium.pak from, fd:39 off:7638088 len:1165478
+,08-17 15:50:15.473  6195  6195 I Adreno-EGL: <qeglDrvAPI_eglInitialize:379>: EGL 1.4 QUALCOMM build: SKARAJGA_AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.02.031.018+PATCH[ES]_msm8916_32_refs/tags/AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.02.031.018__release_ENGG (I856e09677e)
+08-17 15:50:15.473  6195  6195 I Adreno-EGL: OpenGL ES Shader Compiler Version: E031.25.03.02
+08-17 15:50:15.473  6195  6195 I Adreno-EGL: Build Date: 04/06/15 Mon
+08-17 15:50:15.473  6195  6195 I Adreno-EGL: Local Branch: 
+08-17 15:50:15.473  6195  6195 I Adreno-EGL: Remote Branch: refs/tags/AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.02.031.018
+08-17 15:50:15.473  6195  6195 I Adreno-EGL: Local Patches: 112c106f3772623daa7b4181c6cf23491044ead1 Revert "Disable ASTC on A405"
+08-17 15:50:15.473  6195  6195 I Adreno-EGL:                  58a118cb818fdc906095a49a90977c15f9d3b223 Remove ASTC
+,08-17 15:50:15.593  6195  6221 W chromium: [WARNING:data_reduction_proxy_config.cc(318)] SPDY proxy OFF at startup
+,08-17 15:50:15.633  6195  6195 W art     : Attempt to remove local handle scope entry from IRT, ignoring
+,08-17 15:50:15.653  6195  6195 W AwContents: onDetachedFromWindow called when already detached. Ignoring
+,08-17 15:50:15.663  6195  6195 D PhoneWindow: *FMB* installDecor mIsFloating : false
+,08-17 15:50:15.663  6195  6195 D PhoneWindow: *FMB* installDecor flags : -2139027200
+08-17 15:50:15.663  6195  6195 D SystemWebViewEngine: CordovaWebView is running on device made by: samsung
+,08-17 15:50:15.673  6195  6195 W art     : Attempt to remove local handle scope entry from IRT, ignoring
+08-17 15:50:15.673  6195  6195 W art     : Attempt to remove local handle scope entry from IRT, ignoring
+,08-17 15:50:15.713  6195  6234 D OpenGLRenderer: Render dirty regions requested: true
+,08-17 15:50:15.723  1015  1076 D ActivityManager: post active user change for 0 fullscreen true record.isFloatingActivity() false
+,08-17 15:50:15.723  1015  1076 D KnoxTimeoutHandler: postActiveUserChange for user 0
+08-17 15:50:15.723  1015  1076 I KnoxTimeoutHandler: postActiveUserChange, showWhenLocked: false
+,08-17 15:50:15.723  1015  1015 D KnoxTimeoutHandler: handleActiveUserChange for user 0
+08-17 15:50:15.723  1015  1015 D PersonaManagerService: getPersonasForUser(): returning null!
+,08-17 15:50:15.733   288   288 E SMD     : DCD OFF
+,08-17 15:50:15.733  6195  6195 D PhoneWindow: *FMB* isFloatingMenuEnabled mFloatingMenuBtn : null
+,08-17 15:50:15.733  6195  6195 D PhoneWindow: *FMB* isFloatingMenuEnabled return false
+,08-17 15:50:15.743   258   258 I SurfaceFlinger: id=14 createSurf (1x1),1 flag=404, NainActivit
+,08-17 15:50:15.753  1015  3215 D InputDispatcher: Focus entered window: 6195
+,08-17 15:50:15.763  1015  1045 D PointerIcon: setMouseIconStyle1 pointerType: 1001iconType:101 flag:0
+08-17 15:50:15.763  1015  1045 D PointerIcon: setMouseCustomIcon IconType is same.101
+,08-17 15:50:15.763  6195  6195 D SRIB_DCS: log_dcs ThreadedRenderer::initialize entered! 
+,08-17 15:50:15.763  6195  6234 I OpenGLRenderer: Initialized EGL, version 1.4
+,08-17 15:50:15.763  6195  6234 D OpenGLRenderer: Get maximum texture size. GL_MAX_TEXTURE_SIZE is 4096
+08-17 15:50:15.763  6195  6234 D OpenGLRenderer: Enabling debug mode 0
+,08-17 15:50:15.793  6195  6195 V ActivityThread: updateVisibility : ActivityRecord{2cd19a04 token=android.os.BinderProxy@32317a96 {com.test.thalitest/com.test.thalitest.MainActivity}} show : true,
+,08-17 15:50:15.813  1015  3213 D InputMethodManagerService: windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+,08-17 15:50:15.813  1174  1174 D PanelView: There is/are notification(s) 
+,08-17 15:50:15.813  1015  6237 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1698 com.android.server.InputMethodManagerService$6.run:2762 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+,08-17 15:50:15.823  1834  1834 I SamsungIME: getCurrentCandidateView
+,08-17 15:50:15.833  1015  1045 I ActivityManager: Displayed Component not be shown by security: +590ms (total +683ms),
+08-17 15:50:15.833  1015  1045 W ActivityManager: mDVFSHelper.release()
+08-17 15:50:15.833  1015  1045 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{1af87a50 u0 com.test.thalitest/.MainActivity t128} time:110273
+,08-17 15:50:15.833  6195  6195 W IInputConnectionWrapper: showStatusIcon on inactive InputConnection
+,08-17 15:50:15.843   258  1102 I SurfaceFlinger: id=13 Removed uhalitest (7/9)
+,08-17 15:50:15.843  6195  6195 I Timeline: Timeline: Activity_idle id: android.os.BinderProxy@32317a96 time:110281
+,08-17 15:50:15.843   258   438 I SurfaceFlinger: id=13 Removed uhalitest (-2/9)
+,08-17 15:50:15.903  6195  6195 W BindingManager: Cannot call determinedVisibility() - never saw a connection for the pid: 6195
+,08-17 15:50:15.933  1834  1834 D SamsungIME: Dismiss ExpandCandiate
+,08-17 15:50:16.013  6195  6195 D JsMessageQueue: Set native->JS mode to OnlineEventsBridgeMode
+,08-17 15:50:16.063  1834  1834 I SamsungIME: getDebugLevel  : 0x4f4c
+,08-17 15:50:16.103  1834  1834 I SamsungIME: getDebugLevel  : 0x4f4c
+,08-17 15:50:16.113  1834  1834 I SamsungIME: KeybaordView init() : load resources
+,08-17 15:50:16.123  6195  6239 D jxcore_app_log: JniHelper::setJavaVM(0xb7f8c328), pthread_self() = -1202835976
+,08-17 15:50:16.133  6195  6239 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: load: 
+08-17 15:50:16.133  6195  6239 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings:     - Connection timeout in milliseconds: 15000
+08-17 15:50:16.133  6195  6239 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings:     - Insecure RFCOMM socket port number: -1
+08-17 15:50:16.133  6195  6239 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings:     - Maximum number of connection attempt retries: 0
+08-17 15:50:16.133  6195  6239 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings:     - Handshake required: true
+,08-17 15:50:16.133  6195  6239 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@3c518c34 added. We now have 1 listener(s)
+,08-17 15:50:16.143  1834  1834 I SamsungIME: getCurrentKeyboard
+08-17 15:50:16.143  1834  1834 I SamsungIME: getTextKeyboard
+,08-17 15:50:16.143  6195  6239 I org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: setBluetoothMacAddress: 7C:F9:0E:37:96:AB
+,08-17 15:50:16.143  6195  6239 D org.thaliproject.p2p.btconnectorlib.internal.AbstractBluetoothConnectivityAgent: verifyIdentityString: One or more of the following values are invalid: Peer name: "<no peer name>", Bluetooth MAC address: "7C:F9:0E:37:96:AB"
+,08-17 15:50:16.143  6195  6239 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: BluetoothConnector: Bluetooth name: Thali_Bluetooth, service record UUID: fa87c0d0-afac-11de-8a39-0800200c9a66
+,08-17 15:50:16.143  6195  6239 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: setIdentityString: 
+,08-17 15:50:16.153  6195  6239 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: load: 
+08-17 15:50:16.153  6195  6239 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings:     - Automate Bluetooth MAC address resolution: true
+08-17 15:50:16.153  6195  6239 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings:     - Provide Bluetooth MAC address timeout in milliseconds: 40000
+08-17 15:50:16.153  6195  6239 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings:     - Bluetooth MAC address: 7C:F9:0E:37:96:AB
+08-17 15:50:16.153  6195  6239 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings:     - Discovery mode: BLE
+08-17 15:50:16.153  6195  6239 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings:     - Peer expiration time in milliseconds: 60000
+08-17 15:50:16.153  6195  6239 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings:     - Manufacturer ID: 76
+08-17 15:50:16.153  6195  6239 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings:     - Beacon ad length and type: 533
+08-17 15:50:16.153  6195  6239 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings:     - Beacon ad extra information: 0
+08-17 15:50:16.153  6195  6239 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings:     - Advertisement data type: DO_NOT_CARE
+08-17 15:50:16.153  6195  6239 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings:     - Advertise mode: 1
+08-17 15:50:16.153  6195  6239 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings:     - Advertise TX power level: 2
+08-17 15:50:16.153  6195  6239 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings:     - Scan mode: 1
+08-17 15:50:16.153  6195  6239 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings:     - Scan report delay in milliseconds: 500
+08-17 15:50:16.153  6195  6239 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@250678a3 added. We now have 1 listener(s)
+,08-17 15:50:16.153  6195  6239 D org.thaliproject.p2p.btconnectorlib.utils.PeerModel: addListener: New listener added - the number of listeners is now 1
+,08-17 15:50:16.153  6195  6239 I org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: setDiscoveryMode: Discovery mode BLE is supported
+08-17 15:50:16.153  6195  6239 I org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: setManufacturerId: 76 -> 7413
+,08-17 15:50:16.153  6195  6239 I org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: setAdvertiseScanModeAndTxPowerLevel: Advertise mode: 1 -> 2
+08-17 15:50:16.153  6195  6239 I org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: setAdvertiseScanModeAndTxPowerLevel: Advertise TX power level: 2 -> 3
+08-17 15:50:16.153  6195  6239 I org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: setAdvertiseScanModeAndTxPowerLevel: Scan mode: 1 -> 2
+,08-17 15:50:16.163  1834  1834 D SamsungIME: [SwiftkeyWrapper] currentLangauge : 1701729619
+,08-17 15:50:16.163  6195  6239 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: bind: Binding a new listener
+,08-17 15:50:16.163  6195  6239 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: initialize: My bluetooth address is 7C:F9:0E:37:96:AB
+,08-17 15:50:16.173  6195  6239 V org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: Checking support for multiple advertisement: Storing the value (SUPPORTED) in persistent storage
+,08-17 15:50:16.173  6195  6239 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: FORCED notification:
+08-17 15:50:16.173  6195  6239 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:16.173  6195  6239 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:16.173  6195  6239 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: true
+08-17 15:50:16.173  6195  6239 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: true
+08-17 15:50:16.173  6195  6239 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: f4:f2:6d:22:99:3e
+08-17 15:50:16.173  6195  6239 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: true
+08-17 15:50:16.173  6195  6239 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: true
+08-17 15:50:16.173  6195  6239 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: Not registered for event "networkChanged" and will not notify, in JS call method "didRegisterToNative" with argument "networkChanged" to register
+08-17 15:50:16.173  6195  6239 D io.jxcore.node.ConnectivityMonitor: start: OK
+,08-17 15:50:16.173  6195  6239 I io.jxcore.node.LifeCycleMonitor: start: OK
+,08-17 15:50:16.173  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:16.183  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:16.213  6195  6195 I chromium: [INFO:CONSOLE(41)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: file:///android_asset/www/js/index.js (41)
+,08-17 15:50:16.683  6195  6247 W jxcore-log: Initializing JXcore engine
+08-17 15:50:16.683  6195  6247 W jxcore-log: JXcore engine is ready
+,08-17 15:50:16.693  1834  6244 D SamsungIME: [SwiftkeyWrapper] currentLangauge : 1701729619
+,08-17 15:50:16.743  1908  1908 E audit   : type=1400 msg=audit(1471441816.743:205): avc:  denied  { ioctl } for  pid=6247 comm="Thread-1073" path="/sys/kernel/debug/tracing/trace_marker" dev="debugfs" ino=2061 scontext=u:r:untrusted_app:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=0
+08-17 15:50:16.743  1908  1908 E audit   :  SEPF_SM-A500FU_5.0.2-1_0051
+08-17 15:50:16.743  1908  1908 E audit   : type=1300 msg=audit(1471441816.743:205): arch=40000028 syscall=54 per=800000 success=no exit=-13 a0=a a1=5451 a2=3 a3=9db008f8 items=0 ppid=304 ppcomm=main pid=6247 auid=4294967295 uid=10155 gid=10155 euid=10155 suid=10155 fsuid=10155 egid=10155 sgid=10155 fsgid=10155 ses=4294967295 tty=(none) comm="Thread-1073" exe="/system/bin/app_process32" subj=u:r:untrusted_app:s0 key=(null)
+08-17 15:50:16.743  1908  1908 E audit   : type=1320 msg=audit(1471441816.743:205): 
+,08-17 15:50:16.753  6195  6247 W jxcore-log: Starting JXcore engine
+,08-17 15:50:16.873  6195  6247 W jxcore-log: Platform android
+08-17 15:50:16.873  6195  6247 W jxcore-log: 
+08-17 15:50:16.873  6195  6247 W jxcore-log: Process ARCH arm
+08-17 15:50:16.873  6195  6247 W jxcore-log: 
+,08-17 15:50:17.053  6195  6247 I jxcore-log: JXcore Cordova bridge is ready!
+08-17 15:50:17.053  6195  6247 I jxcore-log: 
+,08-17 15:50:17.053  6195  6247 W jxcore-log: JXcore engine is started
+,08-17 15:50:17.053  6195  6239 I org.thaliproject.p2p.ThaliPermissions: execute: REQUEST_ACCESS_COARSE_LOCATION
+,08-17 15:50:17.053  6195  6195 I chromium: [INFO:CONSOLE(41)] "Application has the required permission.", source: file:///android_asset/www/js/thali_main.js (41)
+,08-17 15:50:18.733   288   288 E SMD     : DCD OFF,
+,08-17 15:50:19.763   314   314 I ServiceManager: Waiting for service AtCmdFwd...,
+,08-17 15:50:20.553  5420  5420 D FactoryTest: Not factory mode
+,08-17 15:50:20.553  5420  5420 D FactoryTest: Not factory mode. isFactoryMode() returend false
+,08-17 15:50:20.553  5420  5420 D MTPRx   : DRIVER_TIME_OUT 60s lapsed
+,08-17 15:50:20.553  5420  5420 D MTPRx   : still no open session command from host, so toast
+,08-17 15:50:20.563  5420  5420 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1595 android.content.ContextWrapper.startActivity:337 android.content.ContextWrapper.startActivity:337 com.samsung.android.MtpApplication.MtpReceiver$3.handleMessage:708 android.os.Handler.dispatchMessage:102 
+,08-17 15:50:20.563  5420  5420 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1607 android.app.ContextImpl.startActivity:1596 android.content.ContextWrapper.startActivity:337 android.content.ContextWrapper.startActivity:337 com.samsung.android.MtpApplication.MtpReceiver$3.handleMessage:708 
+,08-17 15:50:20.563  5420  5420 I Timeline: Timeline: Activity_launch_request id:com.android.settings time:115001
+,08-17 15:50:20.563  1015  1076 E PersonaManagerService: inState():  stateMachine is null !!
+,08-17 15:50:20.563  1015  1076 I PersonaManagerService: PersonaId don't exist
+08-17 15:50:20.563  1015  1076 I ActivityManager: do not start freezing screen for locked container getKeyguardshowstate = false
+,08-17 15:50:20.563  1015  1076 V ApplicationPolicy: isApplicationStateBlocked userId 0 pkgname com.android.settings
+,08-17 15:50:20.563  1015  1076 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:20.563  1015  1076 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:20.563  1015  1076 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.android.MtpApplication, destAppInfo.processName = com.android.settings
+,08-17 15:50:20.573  1015  1076 W ActivityManager: mDVFSHelper.acquire()
+,08-17 15:50:20.583  1015  1076 D PersonaManager: isKioskContainerExistOnDevice
+,08-17 15:50:20.583  1015  1076 V ApplicationPolicy: isApplicationStateBlocked userId 0 pkgname com.test.thalitest
+08-17 15:50:20.583  1015  1076 V ApplicationPolicy: isApplicationStateBlocked userId 0 pkgname com.android.settings
+,08-17 15:50:20.583  1015  1076 D InputDispatcher: Focused application set to: xxxx
+,08-17 15:50:20.593  1015  1076 D InputDispatcher: Focus left window: 6195
+,08-17 15:50:20.593  5420  5420 E MTPRx   : started activity for popup
+,08-17 15:50:20.603  1015  1045 D PointerIcon: setMouseIconStyle1 pointerType: 1001iconType:101 flag:0
+08-17 15:50:20.603  1015  1045 D PointerIcon: setMouseCustomIcon IconType is same.101
+,08-17 15:50:20.623  5420  5420 W ResourcesManager: Asset path '/system/framework/sec_platform_library.jar' does not exist or contains no resources.
+,08-17 15:50:20.623  5420  5420 W ResourcesManager: Asset path '/system/framework/smatlib.jar' does not exist or contains no resources.
+,08-17 15:50:20.633  5420  5420 W ResourcesManager: Asset path '/system/framework/sechardware.jar' does not exist or contains no resources.
+,08-17 15:50:20.633  5420  5420 W ResourcesManager: Asset path '/system/framework/com.google.android.maps.jar' does not exist or contains no resources.
+,08-17 15:50:20.633  5420  5420 W ResourcesManager: Asset path '/system/framework/twframework.jar' does not exist or contains no resources.
+,08-17 15:50:20.633  5420  5420 W ResourcesManager: Asset path '/system/framework/com.broadcom.bt.jar' does not exist or contains no resources.
+,08-17 15:50:20.653  5420  5420 E SettingsReceiverActivity: PREF_DONT_ASK_AGAIN : true
+,08-17 15:50:20.653  1015  3213 V ApplicationPolicy: isApplicationStateBlocked userId 0 pkgname com.android.settings
+,08-17 15:50:20.653  1015  3213 V ApplicationPolicy: isApplicationStateBlocked userId 0 pkgname com.test.thalitest
+08-17 15:50:20.653  1015  3213 D InputDispatcher: Focused application set to: xxxx
+,08-17 15:50:20.653  1015  3213 D InputDispatcher: Focus entered window: 6195
+,08-17 15:50:20.653  1015  1045 D PointerIcon: setMouseIconStyle1 pointerType: 1001iconType:101 flag:0
+,08-17 15:50:20.653  1015  1045 D PointerIcon: setMouseCustomIcon IconType is same.101
+,08-17 15:50:20.653  1015  2925 D InputMethodManagerService: windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+,08-17 15:50:20.653  1015  2925 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@313227e3 attribute=null, token = android.os.BinderProxy@23ba5bf3
+,08-17 15:50:20.703  5420  5420 D SettingsReceiverActivity: dev.kiessupport is : TRUE,
+,08-17 15:50:20.713  5420  5420 D PhoneWindow: *FMB* installDecor mIsFloating : true,
+08-17 15:50:20.713  5420  5420 D PhoneWindow: *FMB* installDecor flags : 8388610
+,08-17 15:50:20.723  6195  6195 D io.jxcore.node.LifeCycleMonitor: onActivityStarted
+,08-17 15:50:20.733  6195  6195 D io.jxcore.node.JXcoreExtension: onActivityLifeCycleEvent: STARTED
+,08-17 15:50:20.733  6195  6195 D io.jxcore.node.LifeCycleMonitor: onActivityResumed
+08-17 15:50:20.733  6195  6195 D io.jxcore.node.JXcoreExtension: onActivityLifeCycleEvent: RESUMED
+,08-17 15:50:20.733  1015  1503 D ActivityManager: post active user change for 0 fullscreen true record.isFloatingActivity() false
+,08-17 15:50:20.733  1015  1503 D KnoxTimeoutHandler: postActiveUserChange for user 0
+,08-17 15:50:20.733  1015  1503 I KnoxTimeoutHandler: postActiveUserChange, showWhenLocked: false
+,08-17 15:50:20.733  1015  1015 D KnoxTimeoutHandler: handleActiveUserChange for user 0
+,08-17 15:50:20.733  1015  1015 D PersonaManagerService: getPersonasForUser(): returning null!
+,08-17 15:50:20.743  6195  6195 D io.jxcore.node.LifeCycleMonitor: onActivityPaused
+08-17 15:50:20.743  6195  6195 D io.jxcore.node.JXcoreExtension: onActivityLifeCycleEvent: PAUSED
+,08-17 15:50:20.753  6195  6195 I Timeline: Timeline: Activity_idle id: android.os.BinderProxy@32317a96 time:115190
+,08-17 15:50:20.753  6195  6195 D io.jxcore.node.LifeCycleMonitor: onActivitySaveInstanceState: com.test.thalitest.MainActivity@1b5e9b35 Bundle[{plugin=Bundle[{}], android:viewHierarchyState=Bundle[{android:views={100=android.view.AbsSavedState$1@3d6f6828, 16908290=android.view.AbsSavedState$1@3d6f6828}, android:focusedViewId=100}]}]
+08-17 15:50:20.753  6195  6195 D io.jxcore.node.JXcoreExtension: onActivityLifeCycleEvent: SAVE_INSTANCE_STATE
+08-17 15:50:20.753  6195  6195 V ActivityThread: updateVisibility : ActivityRecord{2cd19a04 token=android.os.BinderProxy@32317a96 {com.test.thalitest/com.test.thalitest.MainActivity}} show : true
+08-17 15:50:20.753  6195  6195 D io.jxcore.node.LifeCycleMonitor: onActivityStopped
+08-17 15:50:20.753  6195  6195 D io.jxcore.node.JXcoreExtension: onActivityLifeCycleEvent: STOPPED
+,08-17 15:50:20.763   314   314 I ServiceManager: Waiting for service AtCmdFwd...
+,08-17 15:50:20.763  1015  1502 D PersonaManager: isKioskContainerExistOnDevice
+,08-17 15:50:21.633  1015  1474 D BatteryService: !@BatteryListener : batteryPropertiesChanged!
+08-17 15:50:21.633  1015  1474 D BatteryService: level:95, scale:100, status:2, health:2, present:true, voltage: 4173, temperature: 287, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303736, invalid charger:0
+08-17 15:50:21.633  1015  1474 D BatteryService: online:4, current avg:0, charge type:1, power sharing:false, high voltage charger:false, capacity:230000, current_now:0
+08-17 15:50:21.633  1015  1474 D BatteryService: stay LED for charging
+,08-17 15:50:21.633  1015  1015 D BatteryService: Sending ACTION_BATTERY_CHANGED.
+,08-17 15:50:21.643  1174  1174 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+,08-17 15:50:21.643  1174  1174 D KeyguardUpdateMonitor: handleBatteryUpdate
+,08-17 15:50:21.643  1417  1417 V EmergencyMode: [EmergencyStateReceiver] onReceive : android.intent.action.BATTERY_CHANGED
+,08-17 15:50:21.643  1417  1417 V EmergencyMode: [EmergencyStateReceiver] ACTION_BATTERY_CHANGED mBatteryLevelForLogging = 95
+,08-17 15:50:21.643  1015  1015 I MotionRecognitionService: Plugged
+,08-17 15:50:21.643  1015  1015 I MotionRecognitionService: mGripSensorEnabled= false
+,08-17 15:50:21.663  2661  2661 V HeadsetService: HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+,08-17 15:50:21.663  2661  2741 D HeadsetStateMachine: Disconnected process message: 10
+,08-17 15:50:21.673  1174  1174 D BatteryMeterView: ACTION_BATTERY_CHANGED : level:95 status:2 health:2
+,08-17 15:50:21.673  1174  1174 D BatteryMeterView: ACTION_BATTERY_CHANGED : level:95 status:2 health:2
+08-17 15:50:21.673  1174  1174 D BatteryMeterView: ACTION_BATTERY_CHANGED : level:95 status:2 health:2
+,08-17 15:50:21.733   288   288 E SMD     : DCD OFF
+,08-17 15:50:21.763   314   314 I ServiceManager: Waiting for service AtCmdFwd...
+,08-17 15:50:22.673  1015  2753 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1698 com.absolute.android.persistservice.a.run:1065 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+,08-17 15:50:22.763   314   314 I ServiceManager: Waiting for service AtCmdFwd...,
+,08-17 15:50:23.573  1015  1040 W ActivityManager: mDVFSHelper.release()
+,08-17 15:50:23.763   314   314 I ServiceManager: Waiting for service AtCmdFwd...,
+,08-17 15:50:24.263  1015  2729 D SSRM:n  : SIOP:: AP = 340
+,08-17 15:50:24.733   288   288 E SMD     : DCD OFF
+,08-17 15:50:24.763   314   314 W Atfwd_Sendcmd: AtCmdFwd service not published, waiting... retryCnt : 1,
+,08-17 15:50:25.203  1015  1054 D PackageManager: [MSG] WRITE_PACKAGE_RESTRICTIONS
+,08-17 15:50:25.563  1015  1094 V AlarmManager: waitForAlarm result :4
+,08-17 15:50:25.563  1015  1094 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.drive.api.ApiService; callingUser = 0; userId(target) = 0
+,08-17 15:50:25.593  1932  1932 E NetworkScheduler.ATC: Provided calling package not found: com.google.android.apps.photos
+,08-17 15:50:25.623  1015  1315 D ActivityManager: startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+,08-17 15:50:25.633  1015  1315 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.libraries.social.autobackup.AutoBackupGcmTaskService; callingUser = 0; userId(target) = 0
+,08-17 15:50:25.633  1015  1315 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:25.633  1015  1315 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:25.633  1015  1315 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:25.693  3823  3823 D ConnectivityManager: CallingUid : 10012, CallingPid : 3823
+,08-17 15:50:25.703  1015  2925 D ConnectivityService: listenForNetwork for NetworkRequest [ id=4, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+,08-17 15:50:25.703  1015  1128 D ConnectivityService: handleRegisterNetworkRequest checking NetworkAgentInfo [WIFI () - 502]
+,08-17 15:50:25.703  1015  1128 D ConnectivityService: apparently satisfied.  currentScore=60
+,08-17 15:50:25.703  1015  1128 D ConnectivityService: handleRegisterNetworkRequest checking NetworkAgentInfo [WIFI_P2P () - 501]
+,08-17 15:50:25.703  3823  6256 D ConnectivityManager.CallbackHandler: CM callback handler got msg 524290
+,08-17 15:50:25.753  3823  6257 W DriveInitializer: Background init thread started
+,08-17 15:50:25.773   257   524 E Vold    : Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.gms/files/
+08-17 15:50:25.773   257   524 W Vold    : Returning OperationFailed - no handler for errno 0
+,08-17 15:50:25.773  3823  6257 W ContextImpl: Failed to ensure directory: /storage/extSdCard/Android/data/com.google.android.gms/files,
+,08-17 15:50:25.833  1015  1486 D ActivityManager: startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+,08-17 15:50:25.833  1015  1486 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.ads.jams.NegotiationService; callingUser = 0; userId(target) = 0
+,08-17 15:50:25.833  1015  1486 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:25.833  1015  1486 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:25.833  1015  1486 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:25.863  1015  1503 D ActivityManager: bindService callerProcessName:android, calleePkgName: com.google.android.gms, action: android.accounts.AccountAuthenticator
+08-17 15:50:25.863  1015  1503 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.auth.account.authenticator.GoogleAccountAuthenticatorService; callingUser = 0; userId(target) = 0
+,08-17 15:50:25.873  3823  6257 W DriveInitializer: Background init thread ended
+,08-17 15:50:25.883  1015  1027 D ActivityManager: startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+08-17 15:50:25.883  1015  1027 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.gass.chimera.SchedulePeriodicTasksService; callingUser = 0; userId(target) = 0
+,08-17 15:50:25.883  1015  1027 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:25.883  1015  1027 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:25.883  1015  1027 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:25.903  3823  6265 D SchedPeriodicTask: Will NOT schedule AdAttestation signal task because it's disabled.
+08-17 15:50:25.903  3823  6265 D SchedPeriodicTask: Scheduled AdAttestation task.
+,08-17 15:50:25.923  1932  1932 I Auth    : [AuthDelegateWrapper] Service intent: Intent { cmp=com.google.android.gms/.auth.account.authenticator.DefaultAuthDelegateService }.
+,08-17 15:50:25.943  1015  1040 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:25.943  1015  1040 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:25.943  1015  1040 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:26.053  1015  1478 D ActivityManager: startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+,08-17 15:50:26.053  1015  1478 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.auth.account.be.legacy.AuthCronService; callingUser = 0; userId(target) = 0
+,08-17 15:50:26.053  1015  1478 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:26.053  1015  1478 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:26.053  1015  1478 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:26.083  1015  1027 D ActivityManager: startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+,08-17 15:50:26.083  1015  1027 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.udc.service.UdcContextInitService; callingUser = 0; userId(target) = 0
+,08-17 15:50:26.083  1015  1027 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:26.083  1015  1027 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,08-17 15:50:26.083  1015  1027 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:26.133  1015  1218 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:26.143  1015  1218 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:26.143  1015  1218 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:26.143  1015  1218 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:26.153  1015  1503 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:26.153  1015  1503 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:26.153  1015  1503 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:26.153  1015  1503 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:26.203  1015  1315 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:26.203  1015  1315 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:26.203  1015  1315 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:26.203  1015  1315 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:26.213  1015  1315 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:26.213  1015  1315 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:26.213  1015  1315 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:26.213  1015  1315 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:26.223  6270  6270 E Zygote  : MountEmulatedStorage()
+08-17 15:50:26.223  6270  6270 E Zygote  : v2
+08-17 15:50:26.223  6270  6270 I libpersona: KNOX_SDCARD checking this for 10012
+08-17 15:50:26.223  6270  6270 I libpersona: KNOX_SDCARD not a persona
+,08-17 15:50:26.233  6270  6270 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+08-17 15:50:26.233  6270  6270 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051,
+,08-17 15:50:26.233  1015  1315 I ActivityManager: Start proc com.google.android.gms.unstable for service com.google.android.gms/.droidguard.DroidGuardService: pid=6270 uid=10012 gids={50012, 9997, 2001, 3003, 1007, 3006, 1028, 1015, 3002, 3001, 3007} abi=armeabi-v7a,
+08-17 15:50:26.233  6270  6270 E SELinux : [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+,08-17 15:50:26.263  6270  6270 D TimaKeyStoreProvider: TimaSignature is unavailable,
+08-17 15:50:26.263  6270  6270 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:26.283  6270  6270 W ResourcesManager: Asset path '/system/framework/com.android.media.remotedisplay.jar' does not exist or contains no resources.
+,08-17 15:50:26.283  6270  6270 W ResourcesManager: Asset path '/system/framework/com.android.location.provider.jar' does not exist or contains no resources.
+,08-17 15:50:26.323  6270  6270 I MultiDex: VM with version 2.1.0 has multidex support
+,08-17 15:50:26.323  6270  6270 I MultiDex: install
+08-17 15:50:26.323  6270  6270 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+,08-17 15:50:26.353  6270  6270 V JNIHelp : Registering com/google/android/gms/org/conscrypt/NativeCrypto's 255 native methods...
+,08-17 15:50:26.423  6270  6270 W ActivityThread: ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+,08-17 15:50:26.423  6270  6270 W System  : Could not create com.google.android.gms.org.conscrypt.OpenSSLSocketFactoryImpl with ClassLoader android.app.LoadedApk$WarningContextClassLoader@5a1fbf6: com.google.android.gms.org.conscrypt.OpenSSLSocketFactoryImpl
+,08-17 15:50:26.423  6270  6270 I ProviderInstaller: Installed default security provider GmsCore_OpenSSL
+,08-17 15:50:26.453  6270  6270 D ChimeraCfgMgr: Reading stored module config
+,08-17 15:50:26.453  1015  1502 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:26.453  1015  1502 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:26.463  1015  1502 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:26.463  1015  1502 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:26.463  1015  3215 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService; callingUser = 0; userId(target) = 0
+,08-17 15:50:26.483  1015  1076 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:26.483  1015  1076 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:26.483  1015  1076 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:26.483  1015  1076 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:26.543  1932  1932 E ctxmgr  : [FencePendingIntentCache]Expected to find a PendingIntent for pendingIntentKey=1c75b8f1-1575-45bd-a42c-af3734c86d1c
+,08-17 15:50:26.543  6270  6287 D NativeLibraryUtils: Install completed successfully. count=12 extracted=0
+,08-17 15:50:26.553  1015  1028 D ActivityManager: bindService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms, action: null
+,08-17 15:50:26.553  1015  1028 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.auth.GetToken; callingUser = 0; userId(target) = 0
+,08-17 15:50:26.553  1015  1028 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:26.553  1015  1028 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:26.553  1015  1028 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:26.563  6270  6270 I art     : Rejecting re-init on previously-failed class java.lang.Class<irq>
+,08-17 15:50:26.563  6270  6270 I art     : Rejecting re-init on previously-failed class java.lang.Class<irq>
+,08-17 15:50:26.633  1932  2113 I art     : Explicit concurrent mark sweep GC freed 65679(3MB) AllocSpace objects, 13(448KB) LOS objects, 39% free, 14MB/23MB, paused 1.481ms total 78.292ms
+,08-17 15:50:26.643  1932  1932 I Auth    : [AuthDelegateWrapper] Service intent: Intent { cmp=com.google.android.gms/.auth.account.authenticator.DefaultAuthDelegateService }.
+,08-17 15:50:26.643  1932  1932 I Auth    : [AuthDelegateWrapper] Service intent: Intent { cmp=com.google.android.gms/.auth.account.authenticator.DefaultAuthDelegateService }.
+,08-17 15:50:26.663  1015  1478 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:26.663  1015  1478 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:26.663  1015  1478 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:26.663  1015  1478 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:26.723   283   675 D WVCdm   : Instantiating CDM.
+,08-17 15:50:26.723   283   283 I WVCdm   : CdmEngine::OpenSession
+,08-17 15:50:26.723   283   283 I WVCdm   : Level3 Library Sep 25 2014 17:10:03
+,08-17 15:50:26.743   283   283 W WVCdm   : Could not read /data/mediadrm/IDM1013/ay64.dat2: No such file or directory
+,08-17 15:50:26.763   283   283 D DrmWidevineDash: OEMCrypto_Initialize: starts! g_qsee_apps_version = 0x15
+,08-17 15:50:26.763   283   283 D DrmWidevineDash: Service_Initialize: starts!
+08-17 15:50:26.763   283   283 D QSEECOMAPI: : QSEECom_get_handle sb_length = 0x19000
+,08-17 15:50:26.773   283   283 D QSEECOMAPI: : App is not loaded in QSEE
+,08-17 15:50:26.773   283   283 E QSEECOMAPI: : Error::Cannot open the file /vendor/firmware/widevine.mdt
+08-17 15:50:26.773   283   283 E QSEECOMAPI: : Error::Loading image failed with ret = -1
+08-17 15:50:26.773   283   283 D QSEECOMAPI: : QSEECom_get_handle sb_length = 0x19000
+08-17 15:50:26.773   283   283 D QSEECOMAPI: : App is not loaded in QSEE
+08-17 15:50:26.773   283   283 E QSEECOMAPI: : Error::Cannot open the file /system/etc/firmware/widevine.mdt
+08-17 15:50:26.773   283   283 E QSEECOMAPI: : Error::Loading image failed with ret = -1
+08-17 15:50:26.773   283   283 D QSEECOMAPI: : QSEECom_get_handle sb_length = 0x19000
+08-17 15:50:26.773   283   283 D QSEECOMAPI: : App is not loaded in QSEE
+,08-17 15:50:26.793   283   283 D QSEECOMAPI: : Loaded image: APP id = 11
+,08-17 15:50:26.793   283   283 D DrmWidevineDash: Service_Initialize: ends! returns 0
+,08-17 15:50:26.803   283   283 D QSAPPSVER: qsapps_get_capabilities: Capability from secure side: 0x0
+08-17 15:50:26.803   283   283 D QSAPPSVER: qsapps_get_capabilities: returns 0
+08-17 15:50:26.803   283   283 D DrmWidevineDash: OEMCrypto_Initialize sion_buffer g_wv_fhandle->ion_sbuffer  0x0xb16c9000
+08-17 15:50:26.803   283   283 E DrmWidevineDash: sion_buffer g_wv_fhandle->ion_sbuffer  0x0xb16c9000
+08-17 15:50:26.803   283   283 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 1 success with ret = 0
+,08-17 15:50:26.803   420   429 D DrmLibTime: got the req here! ret=0
+08-17 15:50:26.803   420   429 D DrmLibTime: command id, time_cmd_id = 770
+08-17 15:50:26.803   420   429 D DrmLibTime: time_getutcsec starts!
+08-17 15:50:26.803   420   429 D DrmLibTime: QSEE Time Listener: time_getutcsec
+08-17 15:50:26.803   420   429 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+08-17 15:50:26.803   420   429 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+08-17 15:50:26.803   420   429 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+,08-17 15:50:26.803   420   429 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13,
+08-17 15:50:26.803   420   429 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+08-17 15:50:26.803   420   429 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+08-17 15:50:26.803   420   429 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!,
+08-17 15:50:26.803   316   555 D QC-time-services: Daemon: Connection accepted:time_genoff
+,08-17 15:50:26.803   316  6294 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+08-17 15:50:26.803   316  6294 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+08-17 15:50:26.803   316  6294 D QC-time-services: offset is: 0 for base: 0
+08-17 15:50:26.803   420   429 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+08-17 15:50:26.803   420   429 D DrmLibTime: QSEE Time Listener: ATS_MODEM is not set. Fallback to Android system time.
+08-17 15:50:26.803   420   429 D DrmLibTime: QSEE Time Listener: Retrieved Android system time: 1471441826
+08-17 15:50:26.803   420   429 D DrmLibTime: time_getutcsec returns 0, sec = 1471441826; nsec = 0
+08-17 15:50:26.803   420   429 D DrmLibTime: time_getutcsec finished! 
+08-17 15:50:26.803   420   429 D DrmLibTime: iotcl_continue_command finished! and return 0 
+08-17 15:50:26.803   420   429 D DrmLibTime: before calling ioctl to read the next time_cmd
+,08-17 15:50:26.813   316   555 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection,
+,08-17 15:50:26.813   283   283 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 0 success with ret = 0
+,08-17 15:50:26.823   283   283 D DrmWidevineDash: OEMCrypto_Initialize: ends! returns 0
+08-17 15:50:26.823   283   283 D DrmWidevineDash: OEMCrypto_APIVersion: starts!
+08-17 15:50:26.823   283   283 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 1 success with ret = 0
+,08-17 15:50:26.823   283   283 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 0 success with ret = 0
+08-17 15:50:26.823   283   283 D DrmWidevineDash: hlos api version =  9
+08-17 15:50:26.823   283   283 D DrmWidevineDash: tz api version =  9
+08-17 15:50:26.823   283   283 D DrmWidevineDash: OEMCrypto_APIVersion: ends! returns version 9
+08-17 15:50:26.823   283   283 D DrmWidevineDash: OEMCrypto_IsKeyboxValid: starts!
+08-17 15:50:26.823   283   283 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 1 success with ret = 0
+,08-17 15:50:26.833  3486  3566 I art     : Explicit concurrent mark sweep GC freed 1382(47KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 7MB/12MB, paused 1.866ms total 27.351ms
+,08-17 15:50:26.833   283   283 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 0 success with ret = 0
+08-17 15:50:26.833   283   283 D DrmWidevineDash: OEMCrypto_IsKeyboxValid: ends! returns 0
+08-17 15:50:26.833   283   283 D WVCdm   : OEMCrypto_Initialize Level 1 success. I will use level 1.
+08-17 15:50:26.833   283   283 D DrmWidevineDash: OEMCrypto_OpenSession: starts! SID=0xbeef21b0
+08-17 15:50:26.833   283   283 D DrmWidevineDash: OEMCrypto_OpenSession Session ID = 0
+08-17 15:50:26.833   283   283 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 1 success with ret = 0
+,08-17 15:50:26.833   283   283 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 0 success with ret = 0
+08-17 15:50:26.833   283   283 D DrmWidevineDash: OEMCrypto_OpenSession SID = 1
+08-17 15:50:26.833   283   283 D DrmWidevineDash: OEMCrypto_OpenSession: ends! returns 0
+08-17 15:50:26.833   283   283 D DrmWidevineDash: OEMCrypto_GetRandom: starts! randomData=0xb7117f58, dataLength=8
+08-17 15:50:26.833   283   283 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 1 success with ret = 0
+08-17 15:50:26.833   283   283 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 0 success with ret = 0
+08-17 15:50:26.833   283   283 D DrmWidevineDash: OEMCrypto_GetRandom: ends! returns 0
+,08-17 15:50:26.843   283   283 D DrmWidevineDash: OEMCrypto_LoadDeviceRSAKey: starts! SID=1, wrapped_rsa_key=0xb7108240, wrapped_rsa_key_length=1280
+08-17 15:50:26.843   283   283 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 1 success with ret = 0
+,08-17 15:50:26.843   283   283 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 0 success with ret = 0
+,08-17 15:50:26.843   283   283 D DrmWidevineDash: OEMCrypto_LoadDeviceRSAKey: ends! returns 0
+08-17 15:50:26.843   283   283 I WVCdm   : CdmEngine::QueryKeyControlInfo
+,08-17 15:50:26.853   283   675 W WVCdm   : BufferReader::Read<T> : Failure during parse: Not enough bytes (4)
+08-17 15:50:26.853   283   675 W WVCdm   : CdmEngine::ExtractWidevinePssh: Unable to read PSSH atom size
+08-17 15:50:26.853   283   675 I WVCdm   : CdmEngine::GenerateKeyRequest
+08-17 15:50:26.853   283   675 D DrmWidevineDash: OEMCrypto_GetDeviceID: starts! deviceID=0xb71189d0, idLength=0xb191d730
+08-17 15:50:26.853   283   675 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 1 success with ret = 0
+,08-17 15:50:26.853  6270  6278 I System.out: (HTTPLog)-Static: SBServiceAPI: getService class android.os.ServiceManager
+08-17 15:50:26.853  6270  6278 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+,08-17 15:50:26.853  6270  6278 I System.out: (HTTPLog)-Static: isShipBuild true
+08-17 15:50:26.853  6270  6278 I System.out: (HTTPLog)-Thread-1054-258326283: SmartBonding Enabling is false, SHIP_BUILD is true, log to file is false, DBG is false
+08-17 15:50:26.853  6270  6278 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+,08-17 15:50:26.853   278  1010 D EnterpriseController: uids 10012
+08-17 15:50:26.853   278  1010 D EnterpriseController: mIsMarkChainAdded is 18 mIsBlockChainAdded is 252 netId is 0
+08-17 15:50:26.853   278  1010 D Netd    : getNetworkForDns: using netid 502 for uid 10012
+,08-17 15:50:26.873   283   675 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 0 success with ret = 0
+08-17 15:50:26.873   283   675 D DrmWidevineDash: OEMCrypto_GetDeviceID: ends! returns 0
+08-17 15:50:26.873   283   675 D DrmWidevineDash: OEMCrypto_SupportsUsageTable: starts!
+08-17 15:50:26.873   283   675 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 1 success with ret = 0
+08-17 15:50:26.873   283   675 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 0 success with ret = 0
+08-17 15:50:26.873   283   675 D DrmWidevineDash: OEMCrypto_SupportsUsageTable: is_supported = 1
+08-17 15:50:26.873   283   675 D DrmWidevineDash: OEMCrypto_SupportsUsageTable: wv_app_version = 24
+08-17 15:50:26.873   283   675 D DrmWidevineDash: OEMCrypto_SupportsUsageTable: ends! returns 0
+08-17 15:50:26.873   283   675 D DrmWidevineDash: OEMCrypto_GetHDCPCapability: starts!, current = 0xb191d746, maximum = 0xb191d747
+08-17 15:50:26.873   283   675 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 1 success with ret = 0
+08-17 15:50:26.873   283   675 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 0 success with ret = 0
+08-17 15:50:26.873   283   675 D DrmWidevineDash: OEMCrypto_GetHDCPCapability: ends! returns 0
+08-17 15:50:26.873   283   675 D DrmWidevineDash: OEMCrypto_APIVersion: starts!
+08-17 15:50:26.873   283   675 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 1 success with ret = 0
+08-17 15:50:26.873   283   675 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 0 success with ret = 0
+08-17 15:50:26.873   283   675 D DrmWidevineDash: hlos api version =  9
+08-17 15:50:26.873   283   675 D DrmWidevineDash: tz api version =  9
+08-17 15:50:26.873   283   675 D DrmWidevineDash: OEMCrypto_APIVersion: ends! returns version 9
+08-17 15:50:26.873   283   675 D DrmWidevineDash: OEMCrypto_GenerateNonce: starts! SID=1, nonce=0xb191d7b4
+08-17 15:50:26.873   283   675 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 1 success with ret = 0
+08-17 15:50:26.873   283   675 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 0 success with ret = 0
+08-17 15:50:26.873   283   675 D DrmWidevineDash: OEMCrypto_GenerateNonce: ends! returns 0
+08-17 15:50:26.873   283   675 D WVCdm   : PrepareKeyRequest: nonce=1650174896
+08-17 15:50:26.873   283   675 D DrmWidevineDash: OEMCrypto_GenerateRSASignature starts! SID=1, message=0xb70dea00
+08-17 15:50:26.873   283   675 D DrmWidevineDash: message_length=1599, signature=0xb70e3fb0, signature_length=0xb191d714
+08-17 15:50:26.873   283   675 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 1 success with ret = 0
+,08-17 15:50:26.903  6270  6278 I System.out: KnoxVpnUidStorageknoxVpnSupported API value returned is false
+08-17 15:50:26.903  6270  6278 I qtaguid : Tagging socket 30 with tag 1000180300000000{268441603,0} for uid -1, pid: 6270, getuid(): 10012
+,08-17 15:50:26.933  1932  2100 W GCoreFlp: No location to return for getLastLocation()
+,08-17 15:50:26.973  1015  1503 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:26.973  1015  1503 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:26.973  1015  1503 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:26.973  1015  1503 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:26.983  1015  1486 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:26.993  1015  1486 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:26.993  1015  1486 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,08-17 15:50:26.993  1015  1486 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:26.993  1015  1028 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:27.003  1015  1028 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:27.003  1015  1028 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:27.003  1015  1028 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:27.013  1015  1094 V AlarmManager: waitForAlarm result :4
+,08-17 15:50:27.023   283   675 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 0 success with ret = 0
+08-17 15:50:27.023   283   675 D DrmWidevineDash: OEMCrypto_GenerateRSASignature returns 0
+,08-17 15:50:27.033   283   680 I WVCdm   : CdmEngine::CloseSession
+,08-17 15:50:27.033   283   680 D DrmWidevineDash: OEMCrypto_CloseSession: starts! SID=1
+,08-17 15:50:27.033   283   680 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 1 success with ret = 0
+,08-17 15:50:27.033   283   680 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 0 success with ret = 0
+,08-17 15:50:27.033   283   680 D DrmWidevineDash: OEMCrypto_CloseSession: ends! returns 0
+,08-17 15:50:27.033   283   680 I WVCdm   : L3 Terminate.
+,08-17 15:50:27.033   283   680 D DrmWidevineDash: OEMCrypto_Terminate: starts!
+,08-17 15:50:27.033   283   680 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 1 success with ret = 0
+,08-17 15:50:27.033   283   680 D QSEECOMAPI: : SUCESS::ioctl call to scale bus bandwidth to level 0 success with ret = 0
+,08-17 15:50:27.043   283   680 D DrmWidevineDash: Service_Uninitialize: starts!
+,08-17 15:50:27.043   283   680 D QSEECOMAPI: : QSEECom_dealloc_memory 
+08-17 15:50:27.043   283   680 D QSEECOMAPI: : QSEECom_shutdown_app, app_id = 11
+,08-17 15:50:27.043   283   680 D DrmWidevineDash: Service_Uninitialize: ends! returns 0x0
+,08-17 15:50:27.043   283   680 D DrmWidevineDash: OEMCrypto_Terminate: ends! returns 0
+,08-17 15:50:27.043  1932  2105 W GeofencerStateMachine: Ignoring removeGeofence because network location is disabled.
+,08-17 15:50:27.053  3823  6266 D UdcContextInitService: registered all accounts: true
+,08-17 15:50:27.203  1015  1503 I art     : Explicit concurrent mark sweep GC freed 39962(2MB) AllocSpace objects, 20(320KB) LOS objects, 33% free, 27MB/41MB, paused 2.604ms total 156.340ms
+,08-17 15:50:27.213  1932  2113 E ctxmgr  : [FenceManager]Could not remove all geofences. status=Status{statusCode=unknown status code: 1000, resolution=null}
+,08-17 15:50:27.233  6270  6278 I qtaguid : Untagging socket 30
+,08-17 15:50:27.373  1015  3215 D ActivityManager: bindService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms, action: null
+08-17 15:50:27.373  1015  3215 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.auth.GetToken; callingUser = 0; userId(target) = 0
+,08-17 15:50:27.383  1015  3215 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:27.383  1015  3215 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,08-17 15:50:27.383  1015  3215 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:27.733   288   288 E SMD     : DCD OFF
+,08-17 15:50:27.933  6301  6301 I dex2oat : ----------------------------------------------------,
+08-17 15:50:27.933  6301  6301 I dex2oat : <SS>: S T A R T I N G . . .
+08-17 15:50:27.933  6301  6301 I dex2oat : <SS>: Zip is absent. Canceled.
+08-17 15:50:27.933  6301  6301 I dex2oat : /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --instruction-set=arm --instruction-set-features=div --compiler-filter=interpret-only --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --dex-file=/data/data/com.google.android.gms/app_fb/f.apk --oat-fd=44 --art-fd=-1 --oat-location=/data/data/com.google.android.gms/app_fb/f.dex --runtime-arg -Xms64m --runtime-arg -Xmx512m
+,08-17 15:50:27.973  6301  6301 I dex2oat : dex2oat took 37.730ms (threads: 4)
+,08-17 15:50:27.983  6270  6278 I Adreno-EGL: <qeglDrvAPI_eglInitialize:379>: EGL 1.4 QUALCOMM build: SKARAJGA_AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.02.031.018+PATCH[ES]_msm8916_32_refs/tags/AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.02.031.018__release_ENGG (I856e09677e)
+08-17 15:50:27.983  6270  6278 I Adreno-EGL: OpenGL ES Shader Compiler Version: E031.25.03.02
+08-17 15:50:27.983  6270  6278 I Adreno-EGL: Build Date: 04/06/15 Mon
+08-17 15:50:27.983  6270  6278 I Adreno-EGL: Local Branch: 
+08-17 15:50:27.983  6270  6278 I Adreno-EGL: Remote Branch: refs/tags/AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.02.031.018
+08-17 15:50:27.983  6270  6278 I Adreno-EGL: Local Patches: 112c106f3772623daa7b4181c6cf23491044ead1 Revert "Disable ASTC on A405"
+08-17 15:50:27.983  6270  6278 I Adreno-EGL:                  58a118cb818fdc906095a49a90977c15f9d3b223 Remove ASTC
+,08-17 15:50:28.103  6270  6278 I Adreno-EGL: <qeglDrvAPI_eglInitialize:379>: EGL 1.4 QUALCOMM build: SKARAJGA_AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.02.031.018+PATCH[ES]_msm8916_32_refs/tags/AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.02.031.018__release_ENGG (I856e09677e)
+08-17 15:50:28.103  6270  6278 I Adreno-EGL: OpenGL ES Shader Compiler Version: E031.25.03.02
+08-17 15:50:28.103  6270  6278 I Adreno-EGL: Build Date: 04/06/15 Mon
+08-17 15:50:28.103  6270  6278 I Adreno-EGL: Local Branch: 
+08-17 15:50:28.103  6270  6278 I Adreno-EGL: Remote Branch: refs/tags/AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.02.031.018
+08-17 15:50:28.103  6270  6278 I Adreno-EGL: Local Patches: 112c106f3772623daa7b4181c6cf23491044ead1 Revert "Disable ASTC on A405"
+08-17 15:50:28.103  6270  6278 I Adreno-EGL:                  58a118cb818fdc906095a49a90977c15f9d3b223 Remove ASTC
+,08-17 15:50:28.153  6270  6278 I Adreno-EGL: <qeglDrvAPI_eglInitialize:379>: EGL 1.4 QUALCOMM build: SKARAJGA_AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.02.031.018+PATCH[ES]_msm8916_32_refs/tags/AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.02.031.018__release_ENGG (I856e09677e),
+08-17 15:50:28.153  6270  6278 I Adreno-EGL: OpenGL ES Shader Compiler Version: E031.25.03.02
+08-17 15:50:28.153  6270  6278 I Adreno-EGL: Build Date: 04/06/15 Mon
+08-17 15:50:28.153  6270  6278 I Adreno-EGL: Local Branch: 
+08-17 15:50:28.153  6270  6278 I Adreno-EGL: Remote Branch: refs/tags/AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.02.031.018
+08-17 15:50:28.153  6270  6278 I Adreno-EGL: Local Patches: 112c106f3772623daa7b4181c6cf23491044ead1 Revert "Disable ASTC on A405"
+08-17 15:50:28.153  6270  6278 I Adreno-EGL:                  58a118cb818fdc906095a49a90977c15f9d3b223 Remove ASTC
+,08-17 15:50:28.223  1015  3214 D ActivityManager: bindService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms, action: null
+,08-17 15:50:28.223  1015  3214 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.gcm.http.GoogleHttpService; callingUser = 0; userId(target) = 0
+,08-17 15:50:28.223  1015  3214 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:28.223  1015  3214 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:28.223  1015  3214 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:28.233  1932  6268 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+,08-17 15:50:28.233   278  1010 D EnterpriseController: uids 10012
+08-17 15:50:28.233   278  1010 D EnterpriseController: mIsMarkChainAdded is 18 mIsBlockChainAdded is 252 netId is 0
+08-17 15:50:28.233   278  1010 D Netd    : getNetworkForDns: using netid 502 for uid 10012
+,08-17 15:50:28.233  1932  6268 I System.out: KnoxVpnUidStorageknoxVpnSupported API value returned is false
+,08-17 15:50:28.243  1932  6268 I qtaguid : Tagging socket 62 with tag 1000040100000000{268436481,0} for uid 10012, pid: 1932, getuid(): 10012
+,08-17 15:50:28.283  1932  6268 I qtaguid : Tagging socket 68 with tag 1000040100000000{268436481,0} for uid 10012, pid: 1932, getuid(): 10012,
+,08-17 15:50:28.453  1932  2113 I GoogleURLConnFactory: Using platform SSLCertificateSocketFactory
+,08-17 15:50:28.453  1932  2113 E BaseAppContext: Tried to stop global GMSCore RequestQueue. This is likely unintended, so ignoring.
+,08-17 15:50:28.473  1932  2113 W ctxmgr  : [WorkManager]Long workInfo: label=NetworkManager#getAcl, startTime=2016-08-17 15:50:27.293+0200, stopTime=2016-08-17 15:50:28.484+0200, duration=1191ms
+,08-17 15:50:28.483  1932  6312 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+,08-17 15:50:28.483   278  1010 D EnterpriseController: uids 10012
+08-17 15:50:28.483   278  1010 D EnterpriseController: mIsMarkChainAdded is 18 mIsBlockChainAdded is 252 netId is 0
+08-17 15:50:28.483   278  1010 D Netd    : getNetworkForDns: using netid 502 for uid 10012
+,08-17 15:50:28.493  1932  6312 I System.out: KnoxVpnUidStorageknoxVpnSupported API value returned is false
+,08-17 15:50:28.493  1932  6312 I qtaguid : Tagging socket 69 with tag 1000310500000000{268448005,0} for uid 10012, pid: 1932, getuid(): 10012
+,08-17 15:50:28.513  1015  3214 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.udc.service.UdcContextListenerService; callingUser = 0; userId(target) = 0
+,08-17 15:50:28.533  1932  6312 I qtaguid : Tagging socket 72 with tag 1000310500000000{268448005,0} for uid 10012, pid: 1932, getuid(): 10012
+,08-17 15:50:28.783  1932  6312 I qtaguid : Untagging socket 69
+,08-17 15:50:28.803  1015  1076 D ActivityManager: startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+08-17 15:50:28.803  1015  1076 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.clearcut.uploader.UploaderService; callingUser = 0; userId(target) = 0
+,08-17 15:50:28.803  1015  1076 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:28.803  1015  1076 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:28.803  1015  1076 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:28.833  1932  2113 W ctxmgr  : [AccountAclCallback]Failed Acl fetch for account account#61035162# with status: UNKNOWN).  Giving up.
+,08-17 15:50:28.883  1015  1486 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:28.893  1015  1486 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:28.893  1015  1486 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:28.893  1015  1486 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:28.913  1015  1503 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:28.913  1015  1503 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:28.913  1015  1503 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:28.913  1015  1503 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:28.963  1015  1474 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:28.963  1015  1474 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:28.963  1015  1474 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:28.963  1015  1474 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:28.963  1932  6319 E CommitToConfigurationOperation: Malformed snapshot token (size): 
+,08-17 15:50:28.963  1932  6317 W PhenotypeFlagCommitter: Committing snapshot for com.google.android.gms.playlog.uploader failed, retrying
+,08-17 15:50:28.963  1015  1478 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:28.963  1015  1478 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:28.963  1015  1478 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:28.963  1015  1478 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:28.993  1015  1486 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:28.993  1015  1486 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:28.993  1015  1486 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,08-17 15:50:28.993  1015  1486 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:28.993  1932  6319 E CommitToConfigurationOperation: Malformed snapshot token (size): 
+,08-17 15:50:28.993  1932  6317 W PhenotypeFlagCommitter: Committing snapshot for com.google.android.gms.playlog.uploader failed, retrying
+,08-17 15:50:28.993  1015  1503 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:28.993  1015  1503 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:28.993  1015  1503 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:29.003  1015  1503 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:29.023  1015  1502 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:29.023  1015  1502 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:29.023  1015  1502 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:29.023  1015  1502 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:29.023  1932  6319 E CommitToConfigurationOperation: Malformed snapshot token (size): 
+,08-17 15:50:29.023  1932  6317 W PhenotypeFlagCommitter: Committing snapshot for com.google.android.gms.playlog.uploader failed, retrying
+,08-17 15:50:29.023  1932  6317 W PhenotypeFlagCommitter: No more attempts remaining, giving up for com.google.android.gms.playlog.uploader
+,08-17 15:50:29.043  1932  6317 I GoogleURLConnFactory: Using platform SSLCertificateSocketFactory
+,08-17 15:50:29.093  1015  1503 D LocationManagerService: getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+,08-17 15:50:29.133  1932  6317 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+,08-17 15:50:29.133   278  1010 D EnterpriseController: uids 10012
+08-17 15:50:29.133   278  1010 D EnterpriseController: mIsMarkChainAdded is 18 mIsBlockChainAdded is 252 netId is 0
+08-17 15:50:29.133   278  1010 D Netd    : getNetworkForDns: using netid 502 for uid 10012
+,08-17 15:50:29.133  1932  6317 I System.out: KnoxVpnUidStorageknoxVpnSupported API value returned is false
+,08-17 15:50:29.133  1932  6317 I qtaguid : Tagging socket 81 with tag 11065c0800000000{285629448,0} for uid -1, pid: 1932, getuid(): 10012
+,08-17 15:50:29.183  1932  6317 I qtaguid : Tagging socket 84 with tag 11065c0800000000{285629448,0} for uid -1, pid: 1932, getuid(): 10012
+,08-17 15:50:29.403  1015  1474 D LocationManagerService: getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+,08-17 15:50:29.413  1932  6317 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+,08-17 15:50:29.413  1932  6317 I qtaguid : Tagging socket 81 with tag 11065fff00000000{285630463,0} for uid -1, pid: 1932, getuid(): 10012
+,08-17 15:50:29.553  1015  3214 D LocationManagerService: getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+,08-17 15:50:29.553  1932  6317 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+,08-17 15:50:29.553  1932  6317 I qtaguid : Tagging socket 81 with tag fffffb1f00000000{4294966047,0} for uid -1, pid: 1932, getuid(): 10012
+,08-17 15:50:29.763   314   314 I ServiceManager: Waiting for service AtCmdFwd...
+,08-17 15:50:30.033  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: Method peerAvailabilityChanged registered to native
+08-17 15:50:30.033  6195  6247 I jxcore-log: 
+,08-17 15:50:30.033  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: Method discoveryAdvertisingStateUpdateNonTCP registered to native
+08-17 15:50:30.033  6195  6247 I jxcore-log: 
+,08-17 15:50:30.043  6195  6247 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: FORCED notification:
+08-17 15:50:30.043  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:30.043  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:30.043  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: true
+08-17 15:50:30.043  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: true
+08-17 15:50:30.043  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: f4:f2:6d:22:99:3e
+08-17 15:50:30.043  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: true
+08-17 15:50:30.043  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: true
+,08-17 15:50:30.043  6195  6247 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: ON, Bluetooth: ON, Wi-Fi: ON, cellular: DO_NOT_CARE, BSSID name: f4:f2:6d:22:99:3e
+,08-17 15:50:30.043  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: Method networkChanged registered to native
+08-17 15:50:30.043  6195  6247 I jxcore-log: 
+,08-17 15:50:30.053  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: Method incomingConnectionToPortNumberFailed registered to native
+08-17 15:50:30.053  6195  6247 I jxcore-log: 
+,08-17 15:50:30.493  6195  6247 D ExecuteNativeTests: Running unit tests,
+,08-17 15:50:30.563  1932  6311 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+,08-17 15:50:30.563  1932  6311 I qtaguid : Tagging socket 69 with tag 1000310200000000{268448002,0} for uid 10012, pid: 1932, getuid(): 10012
+,08-17 15:50:30.573  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: load: Already loaded
+08-17 15:50:30.573  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 added. We now have 2 listener(s)
+,08-17 15:50:30.583  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.AbstractBluetoothConnectivityAgent: verifyIdentityString: One or more of the following values are invalid: Peer name: "<no peer name>", Bluetooth MAC address: "7C:F9:0E:37:96:AB"
+08-17 15:50:30.583  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: BluetoothConnector: Bluetooth name: Thali_Bluetooth, service record UUID: fa87c0d0-afac-11de-8a39-0800200c9a66
+08-17 15:50:30.583  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: setIdentityString: 
+08-17 15:50:30.583  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: load: Already loaded
+08-17 15:50:30.583  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 added. We now have 2 listener(s)
+08-17 15:50:30.583  6195  6247 D org.thaliproject.p2p.btconnectorlib.utils.PeerModel: addListener: New listener added - the number of listeners is now 1
+,08-17 15:50:30.583  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: setDiscoveryMode: Discovery mode BLE is supported
+,08-17 15:50:30.583  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: bind: Binding a new listener
+,08-17 15:50:30.583  6195  6247 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: FORCED notification:
+08-17 15:50:30.583  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:30.583  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:30.583  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: true
+08-17 15:50:30.583  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: true
+08-17 15:50:30.583  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: f4:f2:6d:22:99:3e
+08-17 15:50:30.583  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: true
+08-17 15:50:30.583  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: true
+,08-17 15:50:30.593  6195  6247 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: ON, Bluetooth: ON, Wi-Fi: ON, cellular: DO_NOT_CARE, BSSID name: f4:f2:6d:22:99:3e
+,08-17 15:50:30.593  6195  6247 D io.jxcore.node.ConnectivityMonitor: start: OK
+,08-17 15:50:30.593  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: setInsecureRfcommSocketPortNumber: Will use port 1 when trying to connect
+08-17 15:50:30.593  6195  6247 V org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: setInsecureRfcommSocketPort: -1 -> 1
+08-17 15:50:30.593  6195  6247 V org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: setInsecureRfcommSocketPort: -1 -> 1
+,08-17 15:50:30.593  6195  6247 E io.jxcore.node.ConnectionHelper: onConnectionTimeout: Connection attempt with peer [<no peer name> 00:11:22:33:44:55] timed out,
+08-17 15:50:30.593  6195  6247 D io.jxcore.node.ConnectionModel: removeOutgoingConnectionCallback: Callback associated with Bluetooth MAC address "00:11:22:33:44:55" removed
+08-17 15:50:30.593  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: setInsecureRfcommSocketPortNumber: Will use port -1 when trying to connect
+08-17 15:50:30.593  6195  6247 V org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: setInsecureRfcommSocketPort: 1 -> -1
+08-17 15:50:30.593  6195  6247 V org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: setInsecureRfcommSocketPort: 1 -> -1
+08-17 15:50:30.593  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+,08-17 15:50:30.603  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Stop operation: Should start/stop everything
+,08-17 15:50:30.603  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: The current state already matches the desired outcome of this operation, skipping...
+,08-17 15:50:30.603  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose,
+08-17 15:50:30.603  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:30.603  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 2 listener(s) left
+08-17 15:50:30.603  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: shutdown: Shutting down...
+08-17 15:50:30.603  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 removed from the list
+08-17 15:50:30.603  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:30.603  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 removed from the list
+08-17 15:50:30.603  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+,08-17 15:50:30.603  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:30.603  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:30.603  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+,08-17 15:50:30.603  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:30.603  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:30.603  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:30.603  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+,08-17 15:50:30.603  6195  6247 D io.jxcore.node.ConnectionHelper: onBluetoothMacAddressResolved: 00:11:22:33:44:55 - Bro Mode is not supported
+,08-17 15:50:30.613  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+08-17 15:50:30.613  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:30.613  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: The current state already matches the desired outcome of this operation, skipping...
+08-17 15:50:30.613  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:30.613  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:30.613  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:30.613  6195  6247 E org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 not in the list
+08-17 15:50:30.613  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:30.613  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:30.613  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+08-17 15:50:30.613  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:30.613  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:30.613  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:30.613  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+,08-17 15:50:30.613  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:30.613  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:30.613  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:30.613  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 00:11:22:33:44:55]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 10:010:010:010:010:010]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 11:110:110:110:110:110]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 12:210:210:210:210:210]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 13:310:310:310:310:310]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 14:410:410:410:410:410]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 15:510:510:510:510:510]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 16:610:610:610:610:610]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 17:710:710:710:710:710]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 18:810:810:810:810:810]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 19:910:910:910:910:910]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 20:1010:1010:1010:1010:1010]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 21:1110:1110:1110:1110:1110]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 22:1210:1210:1210:1210:1210]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 23:1310:1310:1310:1310:1310]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 24:1410:1410:1410:1410:1410]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 25:1510:1510:1510:1510:1510]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 26:1610:1610:1610:1610:1610]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 27:1710:1710:1710:1710:1710]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 28:1810:1810:1810:1810:1810]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 29:1910:1910:1910:1910:1910]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 30:2010:2010:2010:2010:2010]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 31:2110:2110:2110:2110:2110]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 32:2210:2210:2210:2210:2210]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 33:2310:2310:2310:2310:2310]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 34:2410:2410:2410:2410:2410]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 35:2510:2510:2510:2510:2510]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 36:2610:2610:2610:2610:2610]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 37:2710:2710:2710:2710:2710]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 38:2810:2810:2810:2810:2810]
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 39:2910:2910:2910:2910:2910]
+08-17 15:50:30.623  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+08-17 15:50:30.623  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:30.623  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: The current state already matches the desired outcome of this operation, skipping...
+08-17 15:50:30.623  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:30.623  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:30.623  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:30.623  6195  6247 E org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 not in the list
+08-17 15:50:30.623  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:30.623  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:30.623  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+08-17 15:50:30.623  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:30.623  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:30.623  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:30.623  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:30.623  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:30.623  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:30.623  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:30.623  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:30.623  6195  6247 I io.jxcore.node.ConnectionHelper: start: Port number: 1111, start advertisements: false
+08-17 15:50:30.633  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: bind: Binding a new listener
+08-17 15:50:30.633  6195  6247 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: FORCED notification:
+08-17 15:50:30.633  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:30.633  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:30.633  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: true
+08-17 15:50:30.633  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: true
+08-17 15:50:30.633  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: f4:f2:6d:22:99:3e
+08-17 15:50:30.633  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: true
+08-17 15:50:30.633  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: true
+08-17 15:50:30.633  6195  6247 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: ON, Bluetooth: ON, Wi-Fi: ON, cellular: DO_NOT_CARE, BSSID name: f4:f2:6d:22:99:3e
+08-17 15:50:30.633  6195  6247 D io.jxcore.node.ConnectivityMonitor: start: OK
+08-17 15:50:30.633  1015  1040 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{123aace8 u-1 android.net.wifi.WIFI_STATE_CHANGED} to ReceiverList{2ef989ef 6195 com.test.thalitest/10155/u0 remote:364076ce}: filter unregistered
+08-17 15:50:30.633  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Start operation: Should affect listening to advertisements only
+08-17 15:50:30.633  1015  1040 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{71a7f01 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{2ef989ef 6195 com.test.thalitest/10155/u0 remote:364076ce}: filter unregistered
+08-17 15:50:30.633  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: Executing: Start operation: Should affect listening to advertisements only
+08-17 15:50:30.633  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: Discovery mode: BLE, start discovery: true, start advertiser: false
+08-17 15:50:30.633  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: bind: Binding a new listener
+08-17 15:50:30.633  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.wifi.WifiDirectManager: bind: Binding a new listener
+08-17 15:50:30.643  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+08-17 15:50:30.643  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManager: getBlePeerDiscovererInstanceAndCheckBluetoothMacAddress: Constructing...
+08-17 15:50:30.643  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:30.653  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleAdvertiser: setAdvertiseSettings: Mode: 2, Tx power level: 3, timeout: 0, is connectable: false
+08-17 15:50:30.653  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: setScanSettings: Mode: 2, report delay in milliseconds: 500, scan result type: 0
+08-17 15:50:30.653  6195  6247 V org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: Checking support for offloaded filtering: Storing the value (SUPPORTED) in persistent storage
+08-17 15:50:30.663  6195  6247 V org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: Checking support for offloaded scan batching: Storing the value (SUPPORTED) in persistent storage
+08-17 15:50:30.663  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: startScanner: Starting...
+08-17 15:50:30.663  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoveryUtils: createScanFilter: No service UUID, use manufacturer ID: true
+08-17 15:50:30.673  6195  6247 V org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoveryUtils: createScanFilter: BluetoothLeScanFilter [mDeviceName=null, mDeviceAddress=null, mUuid=null, mUuidMask=null, mServiceDataUuid=null, mServiceData=null, mServiceDataMask=null, mManufacturerId=7413, mManufacturerData=null, mManufacturerDataMask=null]
+08-17 15:50:30.683  2661  2669 D BtGatt.GattService: registerClient() - UUID=26773ed0-ee61-4cd8-a433-36edee205e7f
+,08-17 15:50:30.723  2661  2725 D BtGatt.GattService: onClientRegistered() - UUID=26773ed0-ee61-4cd8-a433-36edee205e7f, clientIf=6,
+,08-17 15:50:30.723  6195  6203 D BluetoothLeScanner: onClientRegistered() - status=0 clientIf=6,
+,08-17 15:50:30.723  2661  3007 D BtGatt.GattService: start scan with filters
+,08-17 15:50:30.733  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: setState: State changed from NOT_STARTED to RUNNING,
+08-17 15:50:30.733  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: onIsScannerStartedChanged: true
+08-17 15:50:30.733  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: updateState: State changed from [NOT_STARTED] to [SCANNING]
+08-17 15:50:30.733  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: onBlePeerDiscovererStateChanged: [NOT_STARTED] -> [SCANNING],
+,08-17 15:50:30.733  2661  2740 D BtGatt.ScanManager: handling starting scan
+,08-17 15:50:30.733   288   288 E SMD     : DCD OFF
+,08-17 15:50:30.733  2661  2740 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@55976c5
+,08-17 15:50:30.733  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: updateState: State: RUNNING_BLE, is discovering: true, is advertising: false
+,08-17 15:50:30.743  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: startBlePeerDiscoverer: OK
+08-17 15:50:30.743  6195  6195 I io.jxcore.node.ConnectionHelper: onDiscoveryManagerStateChanged: State: RUNNING_BLE, is discovering: true, is advertising: false
+,08-17 15:50:30.743  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: OK
+,08-17 15:50:30.743  2661  2725 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=6, status=0, action=1
+,08-17 15:50:30.743  2661  2725 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+,08-17 15:50:30.743  2661  2740 D BtGatt.ScanManager: allow scan with filters
+08-17 15:50:30.743  2661  2740 D BtGatt.ScanManager: client filter size is = 1available filters are = 13
+,08-17 15:50:30.743  2661  2740 D BtGatt.ScanManager: set filter index= 3 for clientIf= 6
+,08-17 15:50:30.743  2661  2725 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=6, status=0, action=0, availableSpace=15
+,08-17 15:50:30.743  2661  2725 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+,08-17 15:50:30.753  2661  2740 D BtGatt.ScanManager: Starting BLE batch scan
+,08-17 15:50:30.753  2661  2740 D BtGatt.ScanManager: configuring batch scan storage, appIf 6
+,08-17 15:50:30.753  2661  2725 D BtGatt.GattService: onBatchScanStorageConfigured() - clientIf=6, status=0
+,08-17 15:50:30.753  2661  2725 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+,08-17 15:50:30.753  6195  6247 I io.jxcore.node.ConnectionHelper: start: OK
+,08-17 15:50:30.753  2661  2725 D BtGatt.GattService: onBatchScanStartStopped() - clientIf=6, status=0, startStopAction=1
+,08-17 15:50:30.753  2661  2725 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+,08-17 15:50:30.763  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+08-17 15:50:30.763  6195  6247 W io.jxcore.node.StartStopOperationHandler: executeStartOperation: Cancelling a pending operation
+08-17 15:50:30.763  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: RUNNING_BLE, is discovering: true, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:30.763  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: Executing: Stop operation: Should start/stop everything
+08-17 15:50:30.763  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:30.763  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 3 listener(s) left
+08-17 15:50:30.763  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: cancelAllConnectionAttempts
+08-17 15:50:30.763  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stop: Stopping peer discovery...
+08-17 15:50:30.763  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopForRestart
+08-17 15:50:30.763  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.BluetoothMacAddressResolutionHelper: stopProvideBluetoothMacAddressMode
+,08-17 15:50:30.763  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: stopScannerAndAdvertiser
+08-17 15:50:30.763  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: stopScanner: Stopping...
+,08-17 15:50:30.763   314   314 I ServiceManager: Waiting for service AtCmdFwd...
+,08-17 15:50:30.763  2661  2675 D BtGatt.GattService: stopScan() - queue size =1
+,08-17 15:50:30.763  2661  2669 D BtGatt.GattService: unregisterClient() - clientIf=6
+,08-17 15:50:30.763  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: stop: Stopped
+08-17 15:50:30.763  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: setState: State changed from RUNNING to NOT_STARTED
+08-17 15:50:30.763  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: onIsScannerStartedChanged: false
+08-17 15:50:30.763  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: updateState: State changed from [SCANNING] to [NOT_STARTED]
+08-17 15:50:30.763  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: onBlePeerDiscovererStateChanged: [SCANNING] -> [NOT_STARTED]
+,08-17 15:50:30.773  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: updateState: State: NOT_STARTED, is discovering: false, is advertising: false
+,08-17 15:50:30.773  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleAdvertiser: stop: Stopped
+08-17 15:50:30.773  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopBlePeerDiscoverer: Stopped
+08-17 15:50:30.773  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.wifi.WifiDirectManager: release: No more listeners, de-initializing...
+,08-17 15:50:30.773  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 2 listener(s) left
+,08-17 15:50:30.773  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:30.773  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:30.773  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 2 listener(s) left
+08-17 15:50:30.773  6195  6247 E org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 not in the list
+08-17 15:50:30.773  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:30.773  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:30.773  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+08-17 15:50:30.773  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:30.773  6195  6247 I io.jxcore.node.ConnectionHelper: start: Port number: 1111, start advertisements: false
+,08-17 15:50:30.773  6195  6195 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: Discovery mode: BLE, start discovery: false, start advertiser: false
+08-17 15:50:30.773  6195  6195 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: Discovery mode: BLE, start discovery: false, start advertiser: false
+08-17 15:50:30.773  6195  6195 I io.jxcore.node.ConnectionHelper: onDiscoveryManagerStateChanged: State: NOT_STARTED, is discovering: false, is advertising: false
+,08-17 15:50:30.773  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: bind: Binding a new listener
+,08-17 15:50:30.773  6195  6247 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: FORCED notification:
+08-17 15:50:30.773  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:30.773  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:30.773  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: true
+08-17 15:50:30.773  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: true
+08-17 15:50:30.773  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: f4:f2:6d:22:99:3e
+08-17 15:50:30.773  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: true
+08-17 15:50:30.773  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: true
+,08-17 15:50:30.783  6195  6247 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: ON, Bluetooth: ON, Wi-Fi: ON, cellular: DO_NOT_CARE, BSSID name: f4:f2:6d:22:99:3e
+,08-17 15:50:30.783  6195  6247 D io.jxcore.node.ConnectivityMonitor: start: OK
+08-17 15:50:30.783  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Start operation: Should affect listening to advertisements only
+08-17 15:50:30.783  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: Executing: Start operation: Should affect listening to advertisements only
+08-17 15:50:30.783  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: Discovery mode: BLE, start discovery: true, start advertiser: false
+08-17 15:50:30.783  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: bind: Binding a new listener
+08-17 15:50:30.783  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.wifi.WifiDirectManager: bind: Binding a new listener
+,08-17 15:50:30.783  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:30.783  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:30.783  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManager: getBlePeerDiscovererInstanceAndCheckBluetoothMacAddress: Constructing...
+,08-17 15:50:30.793  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleAdvertiser: setAdvertiseSettings: Mode: 2, Tx power level: 3, timeout: 0, is connectable: false
+,08-17 15:50:30.793  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: setScanSettings: Mode: 2, report delay in milliseconds: 500, scan result type: 0
+,08-17 15:50:30.793  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: startScanner: Starting...
+,08-17 15:50:30.793  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoveryUtils: createScanFilter: No service UUID, use manufacturer ID: true
+,08-17 15:50:30.793  6195  6247 V org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoveryUtils: createScanFilter: BluetoothLeScanFilter [mDeviceName=null, mDeviceAddress=null, mUuid=null, mUuidMask=null, mServiceDataUuid=null, mServiceData=null, mServiceDataMask=null, mManufacturerId=7413, mManufacturerData=null, mManufacturerDataMask=null]
+,08-17 15:50:30.793  2661  2669 D BtGatt.GattService: registerClient() - UUID=f5689956-5adf-4ce0-a71a-dd860281ef7c
+,08-17 15:50:30.803  2661  2740 D BtGatt.ScanManager: 1. app : com.android.bluetooth 2. Action : LESC 3. Callng app : com.test.thalitest 4. Count : 39
+,08-17 15:50:30.803  2661  2740 D BtGatt.ScanManager: filter size is 1
+,08-17 15:50:30.803  2661  2740 D BtGatt.ScanManager: delete FilterIndex - 3
+,08-17 15:50:30.803  2661  2725 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=6, status=0, action=1, availableSpace=16
+,08-17 15:50:30.803  2661  2725 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+,08-17 15:50:30.803  2661  2740 D BtGatt.ScanManager: stopping BLe Batch
+,08-17 15:50:30.813  2661  2725 D BtGatt.GattService: onBatchScanStartStopped() - clientIf=6, status=0, startStopAction=0
+,08-17 15:50:30.813  2661  2725 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+08-17 15:50:30.813  2661  2740 D BtGatt.ScanManager: flushPendingBatchResults - clientIf = 6
+,08-17 15:50:30.813  2661  2725 D BtGatt.GattService: onBatchScanReports() - clientIf=6, status=0, reportType=2, numRecords=0
+,08-17 15:50:30.813  2661  2725 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+,08-17 15:50:30.813  1932  6311 I qtaguid : Untagging socket 69
+,08-17 15:50:30.823  1932  2113 E ctxmgr  : [GcmSyncStatisticsImpl]Context recd stats incorrect mode 0
+,08-17 15:50:30.843  2661  2725 D BtGatt.GattService: onClientRegistered() - UUID=f5689956-5adf-4ce0-a71a-dd860281ef7c, clientIf=6
+08-17 15:50:30.843  6195  6204 D BluetoothLeScanner: onClientRegistered() - status=0 clientIf=6
+,08-17 15:50:30.843  2661  3007 D BtGatt.GattService: start scan with filters
+,08-17 15:50:30.843  2661  2740 D BtGatt.ScanManager: handling starting scan
+,08-17 15:50:30.843  2661  2725 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=6, status=0, action=1
+08-17 15:50:30.843  2661  2725 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+08-17 15:50:30.843  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: setState: State changed from NOT_STARTED to RUNNING
+08-17 15:50:30.843  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: onIsScannerStartedChanged: true
+08-17 15:50:30.843  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: updateState: State changed from [NOT_STARTED] to [SCANNING]
+08-17 15:50:30.843  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: onBlePeerDiscovererStateChanged: [NOT_STARTED] -> [SCANNING]
+08-17 15:50:30.843  2661  2740 D BtGatt.ScanManager: allow scan with filters
+08-17 15:50:30.843  2661  2740 D BtGatt.ScanManager: client filter size is = 1available filters are = 13
+08-17 15:50:30.843  2661  2740 D BtGatt.ScanManager: set filter index= 4 for clientIf= 6
+,08-17 15:50:30.843  2661  2725 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=6, status=0, action=0, availableSpace=15
+08-17 15:50:30.843  2661  2725 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+08-17 15:50:30.843  2661  2740 D BtGatt.ScanManager: Starting BLE batch scan
+08-17 15:50:30.843  2661  2740 D BtGatt.ScanManager: configuring batch scan storage, appIf 6
+,08-17 15:50:30.843  1015  1486 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.udc.service.UdcContextListenerService; callingUser = 0; userId(target) = 0
+,08-17 15:50:30.853  2661  2725 D BtGatt.GattService: onBatchScanStorageConfigured() - clientIf=6, status=0
+08-17 15:50:30.853  2661  2725 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+,08-17 15:50:30.853  2661  2725 D BtGatt.GattService: onBatchScanStartStopped() - clientIf=6, status=0, startStopAction=1
+,08-17 15:50:30.853  2661  2725 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+,08-17 15:50:30.853  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: updateState: State: RUNNING_BLE, is discovering: true, is advertising: false
+08-17 15:50:30.853  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: startBlePeerDiscoverer: OK
+,08-17 15:50:30.853  6195  6195 I io.jxcore.node.ConnectionHelper: onDiscoveryManagerStateChanged: State: RUNNING_BLE, is discovering: true, is advertising: false
+,08-17 15:50:30.863  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: OK
+,08-17 15:50:30.873  6195  6247 I io.jxcore.node.ConnectionHelper: start: OK
+,08-17 15:50:30.873  2661  2740 D BtGatt.ScanManager: 1. app : com.android.bluetooth 2. Action : LESC 3. Callng app : com.test.thalitest 4. Count : 40
+,08-17 15:50:30.873  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+08-17 15:50:30.873  6195  6247 W io.jxcore.node.StartStopOperationHandler: executeStartOperation: Cancelling a pending operation
+08-17 15:50:30.873  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: RUNNING_BLE, is discovering: true, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:30.873  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: Executing: Stop operation: Should start/stop everything
+08-17 15:50:30.873  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:30.873  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 3 listener(s) left
+08-17 15:50:30.873  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: cancelAllConnectionAttempts
+08-17 15:50:30.873  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stop: Stopping peer discovery...
+08-17 15:50:30.873  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopForRestart
+08-17 15:50:30.873  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.BluetoothMacAddressResolutionHelper: stopProvideBluetoothMacAddressMode
+08-17 15:50:30.873  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: stopScannerAndAdvertiser
+08-17 15:50:30.873  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: stopScanner: Stopping...
+,08-17 15:50:30.873  2661  2675 D BtGatt.GattService: stopScan() - queue size =1
+,08-17 15:50:30.873  2661  2669 D BtGatt.GattService: unregisterClient() - clientIf=6
+08-17 15:50:30.873  2661  2740 D BtGatt.ScanManager: filter size is 1
+08-17 15:50:30.873  2661  2740 D BtGatt.ScanManager: delete FilterIndex - 4
+,08-17 15:50:30.873  2661  2725 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=6, status=0, action=1, availableSpace=16
+,08-17 15:50:30.873  2661  2725 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+08-17 15:50:30.873  2661  2740 D BtGatt.ScanManager: stopping BLe Batch
+,08-17 15:50:30.873  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: stop: Stopped
+08-17 15:50:30.873  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: setState: State changed from RUNNING to NOT_STARTED
+08-17 15:50:30.873  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: onIsScannerStartedChanged: false
+08-17 15:50:30.873  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: updateState: State changed from [SCANNING] to [NOT_STARTED]
+08-17 15:50:30.873  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: onBlePeerDiscovererStateChanged: [SCANNING] -> [NOT_STARTED]
+,08-17 15:50:30.883  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: updateState: State: NOT_STARTED, is discovering: false, is advertising: false
+,08-17 15:50:30.883  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleAdvertiser: stop: Stopped
+,08-17 15:50:30.883  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopBlePeerDiscoverer: Stopped
+08-17 15:50:30.883  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.wifi.WifiDirectManager: release: No more listeners, de-initializing...
+,08-17 15:50:30.883  2661  2725 D BtGatt.GattService: onBatchScanStartStopped() - clientIf=6, status=0, startStopAction=0
+08-17 15:50:30.883  2661  2725 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+08-17 15:50:30.883  2661  2740 D BtGatt.ScanManager: flushPendingBatchResults - clientIf = 6
+08-17 15:50:30.883  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 2 listener(s) left
+,08-17 15:50:30.883  2661  2725 D BtGatt.GattService: onBatchScanReports() - clientIf=6, status=0, reportType=2, numRecords=0
+,08-17 15:50:30.883  2661  2725 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+08-17 15:50:30.883  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:30.883  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:30.883  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 2 listener(s) left
+08-17 15:50:30.883  6195  6247 E org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 not in the list
+08-17 15:50:30.883  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:30.883  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:30.883  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+08-17 15:50:30.883  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+,08-17 15:50:30.883  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:30.883  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+,08-17 15:50:30.883  6195  6195 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: Discovery mode: BLE, start discovery: false, start advertiser: false,
+08-17 15:50:30.883  6195  6195 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: Discovery mode: BLE, start discovery: false, start advertiser: false
+08-17 15:50:30.883  6195  6195 I io.jxcore.node.ConnectionHelper: onDiscoveryManagerStateChanged: State: NOT_STARTED, is discovering: false, is advertising: false
+08-17 15:50:30.883  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:30.883  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:30.883  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:30.883  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:30.883  6195  6247 I io.jxcore.node.ConnectionHelper: start: Port number: 1111, start advertisements: false
+,08-17 15:50:30.883  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: bind: Binding a new listener
+,08-17 15:50:30.893  6195  6247 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: FORCED notification:
+08-17 15:50:30.893  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:30.893  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:30.893  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: true
+,08-17 15:50:30.893  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: true
+08-17 15:50:30.893  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: f4:f2:6d:22:99:3e
+08-17 15:50:30.893  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: true
+08-17 15:50:30.893  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: true
+,08-17 15:50:30.893  6195  6247 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: ON, Bluetooth: ON, Wi-Fi: ON, cellular: DO_NOT_CARE, BSSID name: f4:f2:6d:22:99:3e
+08-17 15:50:30.893  6195  6247 D io.jxcore.node.ConnectivityMonitor: start: OK
+08-17 15:50:30.893  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Start operation: Should affect listening to advertisements only
+08-17 15:50:30.893  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: Executing: Start operation: Should affect listening to advertisements only
+08-17 15:50:30.893  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: Discovery mode: BLE, start discovery: true, start advertiser: false
+08-17 15:50:30.893  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: bind: Binding a new listener
+08-17 15:50:30.893  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.wifi.WifiDirectManager: bind: Binding a new listener
+,08-17 15:50:30.893  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:30.893  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManager: getBlePeerDiscovererInstanceAndCheckBluetoothMacAddress: Constructing...
+,08-17 15:50:30.903  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:30.903  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleAdvertiser: setAdvertiseSettings: Mode: 2, Tx power level: 3, timeout: 0, is connectable: false
+,08-17 15:50:30.903  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: setScanSettings: Mode: 2, report delay in milliseconds: 500, scan result type: 0
+,08-17 15:50:30.903  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: startScanner: Starting...
+,08-17 15:50:30.903  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoveryUtils: createScanFilter: No service UUID, use manufacturer ID: true
+,08-17 15:50:30.903  6195  6247 V org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoveryUtils: createScanFilter: BluetoothLeScanFilter [mDeviceName=null, mDeviceAddress=null, mUuid=null, mUuidMask=null, mServiceDataUuid=null, mServiceData=null, mServiceDataMask=null, mManufacturerId=7413, mManufacturerData=null, mManufacturerDataMask=null],
+,08-17 15:50:30.913  2661  3007 D BtGatt.GattService: registerClient() - UUID=45097115-2e54-4adf-a431-1be4406109ff
+,08-17 15:50:30.953  2661  2725 D BtGatt.GattService: onClientRegistered() - UUID=45097115-2e54-4adf-a431-1be4406109ff, clientIf=6
+,08-17 15:50:30.953  6195  6203 D BluetoothLeScanner: onClientRegistered() - status=0 clientIf=6
+,08-17 15:50:30.953  2661  2966 D BtGatt.GattService: start scan with filters
+,08-17 15:50:30.953  2661  2740 D BtGatt.ScanManager: handling starting scan
+,08-17 15:50:30.953  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: setState: State changed from NOT_STARTED to RUNNING
+,08-17 15:50:30.953  2661  2725 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=6, status=0, action=1
+,08-17 15:50:30.953  2661  2725 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+08-17 15:50:30.953  2661  2740 D BtGatt.ScanManager: allow scan with filters
+,08-17 15:50:30.953  2661  2740 D BtGatt.ScanManager: client filter size is = 1available filters are = 13
+,08-17 15:50:30.953  2661  2740 D BtGatt.ScanManager: set filter index= 5 for clientIf= 6
+08-17 15:50:30.963  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: onIsScannerStartedChanged: true
+08-17 15:50:30.963  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: updateState: State changed from [NOT_STARTED] to [SCANNING]
+08-17 15:50:30.963  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: onBlePeerDiscovererStateChanged: [NOT_STARTED] -> [SCANNING]
+,08-17 15:50:30.963  2661  2725 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=6, status=0, action=0, availableSpace=15
+,08-17 15:50:30.963  2661  2725 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+,08-17 15:50:30.963  2661  2740 D BtGatt.ScanManager: Starting BLE batch scan
+,08-17 15:50:30.963  2661  2740 D BtGatt.ScanManager: configuring batch scan storage, appIf 6
+,08-17 15:50:30.963  2661  2725 D BtGatt.GattService: onBatchScanStorageConfigured() - clientIf=6, status=0
+,08-17 15:50:30.963  2661  2725 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+,08-17 15:50:30.973  2661  2725 D BtGatt.GattService: onBatchScanStartStopped() - clientIf=6, status=0, startStopAction=1
+,08-17 15:50:30.973  2661  2725 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+,08-17 15:50:30.983  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: updateState: State: RUNNING_BLE, is discovering: true, is advertising: false
+08-17 15:50:30.983  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: startBlePeerDiscoverer: OK
+,08-17 15:50:30.983  6195  6195 I io.jxcore.node.ConnectionHelper: onDiscoveryManagerStateChanged: State: RUNNING_BLE, is discovering: true, is advertising: false
+,08-17 15:50:30.983  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: OK
+,08-17 15:50:30.983  6195  6247 I io.jxcore.node.ConnectionHelper: start: OK
+,08-17 15:50:30.993  2661  2740 D BtGatt.ScanManager: 1. app : com.android.bluetooth 2. Action : LESC 3. Callng app : com.test.thalitest 4. Count : 41
+,08-17 15:50:30.993  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+08-17 15:50:30.993  6195  6247 W io.jxcore.node.StartStopOperationHandler: executeStartOperation: Cancelling a pending operation
+,08-17 15:50:30.993  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: RUNNING_BLE, is discovering: true, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:30.993  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: Executing: Stop operation: Should start/stop everything
+08-17 15:50:30.993  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:30.993  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 3 listener(s) left
+,08-17 15:50:30.993  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: cancelAllConnectionAttempts
+08-17 15:50:30.993  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stop: Stopping peer discovery...
+08-17 15:50:30.993  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopForRestart
+08-17 15:50:30.993  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.BluetoothMacAddressResolutionHelper: stopProvideBluetoothMacAddressMode
+,08-17 15:50:30.993  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: stopScannerAndAdvertiser
+08-17 15:50:30.993  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: stopScanner: Stopping...
+,08-17 15:50:30.993  2661  3007 D BtGatt.GattService: stopScan() - queue size =1
+08-17 15:50:30.993  2661  2740 D BtGatt.ScanManager: filter size is 1
+,08-17 15:50:30.993  2661  2740 D BtGatt.ScanManager: delete FilterIndex - 5
+,08-17 15:50:31.003  2661  2725 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=6, status=0, action=1, availableSpace=16
+08-17 15:50:31.003  2661  2725 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+08-17 15:50:31.003  2661  2966 D BtGatt.GattService: unregisterClient() - clientIf=6
+,08-17 15:50:31.003  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: stop: Stopped
+08-17 15:50:31.003  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: setState: State changed from RUNNING to NOT_STARTED
+08-17 15:50:31.003  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: onIsScannerStartedChanged: false
+08-17 15:50:31.003  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: updateState: State changed from [SCANNING] to [NOT_STARTED]
+08-17 15:50:31.003  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: onBlePeerDiscovererStateChanged: [SCANNING] -> [NOT_STARTED]
+08-17 15:50:31.003  2661  2740 D BtGatt.ScanManager: stopping BLe Batch
+,08-17 15:50:31.003  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: updateState: State: NOT_STARTED, is discovering: false, is advertising: false
+,08-17 15:50:31.003  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleAdvertiser: stop: Stopped
+,08-17 15:50:31.003  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopBlePeerDiscoverer: Stopped
+,08-17 15:50:31.003  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.wifi.WifiDirectManager: release: No more listeners, de-initializing...
+,08-17 15:50:31.003  2661  2725 D BtGatt.GattService: onBatchScanStartStopped() - clientIf=6, status=0, startStopAction=0
+08-17 15:50:31.003  2661  2725 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+08-17 15:50:31.003  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 2 listener(s) left
+08-17 15:50:31.003  2661  2740 D BtGatt.ScanManager: flushPendingBatchResults - clientIf = 6
+,08-17 15:50:31.013  6195  6195 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: Discovery mode: BLE, start discovery: false, start advertiser: false
+08-17 15:50:31.013  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+08-17 15:50:31.013  6195  6247 W io.jxcore.node.StartStopOperationHandler: executeStartOperation: Cancelling a pending operation
+08-17 15:50:31.013  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:31.013  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: The current state already matches the desired outcome of this operation, skipping...
+08-17 15:50:31.013  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:31.013  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.013  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 2 listener(s) left
+08-17 15:50:31.013  6195  6247 E org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 not in the list
+08-17 15:50:31.013  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.013  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:31.013  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+08-17 15:50:31.013  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+,08-17 15:50:31.013  6195  6195 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: Discovery mode: BLE, start discovery: false, start advertiser: false
+08-17 15:50:31.013  6195  6195 I io.jxcore.node.ConnectionHelper: onDiscoveryManagerStateChanged: State: NOT_STARTED, is discovering: false, is advertising: false
+08-17 15:50:31.013  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.013  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+,08-17 15:50:31.013  2661  2725 D BtGatt.GattService: onBatchScanReports() - clientIf=6, status=0, reportType=2, numRecords=0
+08-17 15:50:31.013  2661  2725 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+08-17 15:50:31.013  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:31.013  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:31.013  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.013  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+,08-17 15:50:31.013  6195  6247 D io.jxcore.node.ConnectionHelper: onPeerReadyToProvideBluetoothMacAddress: Bro Mode is not supported
+08-17 15:50:31.013  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+08-17 15:50:31.013  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:31.013  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: The current state already matches the desired outcome of this operation, skipping...
+08-17 15:50:31.013  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:31.013  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.013  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.013  6195  6247 E org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 not in the list
+08-17 15:50:31.013  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.013  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:31.013  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+08-17 15:50:31.013  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.013  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.013  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.013  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.013  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:31.013  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:31.013  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.013  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+,08-17 15:50:31.013  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllIncomingConnections: Peer: [<no peer name> incoming]
+,08-17 15:50:31.013  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+08-17 15:50:31.013  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Stop operation: Should start/stop everything
+,08-17 15:50:31.013  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: The current state already matches the desired outcome of this operation, skipping...
+08-17 15:50:31.013  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:31.013  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+,08-17 15:50:31.013  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.013  6195  6247 E org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 not in the list
+08-17 15:50:31.013  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.013  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+,08-17 15:50:31.023  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+08-17 15:50:31.023  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.023  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.023  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+,08-17 15:50:31.023  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+,08-17 15:50:31.023  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+,08-17 15:50:31.023  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:31.023  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.023  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+,08-17 15:50:31.023  6195  6247 I io.jxcore.node.ConnectionHelper: onConnectionManagerStateChanged: null
+08-17 15:50:31.023  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+,08-17 15:50:31.023  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:31.023  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: The current state already matches the desired outcome of this operation, skipping...
+,08-17 15:50:31.023  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:31.023  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.023  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.023  6195  6247 E org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 not in the list
+08-17 15:50:31.023  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.023  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:31.023  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+08-17 15:50:31.023  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.023  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+,08-17 15:50:31.023  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.023  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+,08-17 15:50:31.033  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+,08-17 15:50:31.033  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:31.033  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.033  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+,08-17 15:50:31.033  6195  6247 V io.jxcore.node.ConnectionHelper: Received a request for permission "randomString", but we are expecting that all the required permissions have already been granted
+08-17 15:50:31.033  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+08-17 15:50:31.033  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:31.033  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: The current state already matches the desired outcome of this operation, skipping...
+08-17 15:50:31.033  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:31.033  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.033  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.033  6195  6247 E org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 not in the list
+08-17 15:50:31.033  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.033  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:31.033  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+08-17 15:50:31.033  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.033  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.033  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.033  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+,08-17 15:50:31.033  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:31.033  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:31.033  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+,08-17 15:50:31.033  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+,08-17 15:50:31.033  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: setInsecureRfcommSocketPortNumber: Will use port 1 when trying to connect
+08-17 15:50:31.033  6195  6247 V org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: setInsecureRfcommSocketPort: -1 -> 1
+,08-17 15:50:31.033  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: setInsecureRfcommSocketPortNumber: Will use port -1 when trying to connect
+08-17 15:50:31.033  6195  6247 V org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: setInsecureRfcommSocketPort: 1 -> -1
+08-17 15:50:31.033  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: setInsecureRfcommSocketPortNumber: Will use port 1 when trying to connect
+08-17 15:50:31.033  6195  6247 V org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: setInsecureRfcommSocketPort: -1 -> 1
+08-17 15:50:31.033  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+08-17 15:50:31.033  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:31.033  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: The current state already matches the desired outcome of this operation, skipping...
+,08-17 15:50:31.033  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:31.033  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.033  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.033  6195  6247 E org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 not in the list
+08-17 15:50:31.033  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.033  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:31.033  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+08-17 15:50:31.033  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.033  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.033  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.033  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.033  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:31.033  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:31.033  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.033  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:31.033  6195  6247 I io.jxcore.node.ConnectionHelper: connect: Trying to connect to peer with ID 00:11:22:33:44:55
+,08-17 15:50:31.033  6195  6247 E io.jxcore.node.ConnectionHelper: connect: We already have an outgoing connection to peer with ID 00:11:22:33:44:55
+08-17 15:50:31.033  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 00:11:22:33:44:55]
+,08-17 15:50:31.033  6195  6247 I io.jxcore.node.ConnectionHelper: connect: Trying to connect to peer with ID 00:11:22:33:44:55
+08-17 15:50:31.033  6195  6247 E io.jxcore.node.ConnectionHelper: connect: Maximum number of peer connections (30) reached, please try again after disconnecting a peer
+08-17 15:50:31.033  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 10:010:010:010:010:010]
+08-17 15:50:31.033  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 11:110:110:110:110:110]
+08-17 15:50:31.033  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 12:210:210:210:210:210]
+08-17 15:50:31.033  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 13:310:310:310:310:310]
+08-17 15:50:31.033  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 14:410:410:410:410:410]
+08-17 15:50:31.033  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 15:510:510:510:510:510]
+,08-17 15:50:31.033  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 16:610:610:610:610:610]
+08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 17:710:710:710:710:710]
+08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 18:810:810:810:810:810]
+08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 19:910:910:910:910:910]
+08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 20:1010:1010:1010:1010:1010]
+08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 21:1110:1110:1110:1110:1110]
+08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 22:1210:1210:1210:1210:1210]
+,08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 23:1310:1310:1310:1310:1310]
+08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 24:1410:1410:1410:1410:1410]
+08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 25:1510:1510:1510:1510:1510]
+08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 26:1610:1610:1610:1610:1610]
+08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 27:1710:1710:1710:1710:1710]
+,08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 28:1810:1810:1810:1810:1810]
+08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 29:1910:1910:1910:1910:1910],
+08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 30:2010:2010:2010:2010:2010]
+08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 31:2110:2110:2110:2110:2110],
+08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 32:2210:2210:2210:2210:2210],
+08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 33:2310:2310:2310:2310:2310]
+08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 34:2410:2410:2410:2410:2410]
+,08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 35:2510:2510:2510:2510:2510]
+08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 36:2610:2610:2610:2610:2610]
+08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 37:2710:2710:2710:2710:2710]
+08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 38:2810:2810:2810:2810:2810]
+08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> 39:2910:2910:2910:2910:2910]
+08-17 15:50:31.043  6195  6247 I io.jxcore.node.ConnectionHelper: connect: Trying to connect to peer with ID abcd
+,08-17 15:50:31.043  6195  6247 W io.jxcore.node.ConnectionHelper: connect: The peer to connect to is not amongst the discovered peers, but trying anyway...
+08-17 15:50:31.043  6195  6247 E io.jxcore.node.ConnectionHelper: connect: Invalid Bluetooth MAC address: abcd
+08-17 15:50:31.043  6195  6247 I io.jxcore.node.ConnectionHelper: connect: Trying to connect to peer with ID 00:11:22:33:44:55
+08-17 15:50:31.043  6195  6247 W io.jxcore.node.ConnectionHelper: connect: The peer to connect to is not amongst the discovered peers, but trying anyway...
+08-17 15:50:31.043  6195  6247 E io.jxcore.node.ConnectionHelper: connect: Failed to add the callback for the connection
+08-17 15:50:31.043  6195  6247 I io.jxcore.node.ConnectionHelper: connect: Trying to connect to peer with ID 00:11:22:33:44:55
+,08-17 15:50:31.043  6195  6247 W io.jxcore.node.ConnectionHelper: connect: The peer to connect to is not amongst the discovered peers, but trying anyway...
+08-17 15:50:31.043  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: connect: [<no peer name> 00:11:22:33:44:55]
+08-17 15:50:31.043  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: connect: Trying to start connecting to null in address 00:11:22:33:44:55
+08-17 15:50:31.043  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothClientThread: setInsecureRfcommSocketPortNumber: Using port -1
+08-17 15:50:31.043  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothClientThread: setMaxNumberOfRetries: 0
+,08-17 15:50:31.043  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: onConnecting: null 00:11:22:33:44:55
+08-17 15:50:31.043  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: connect: Started connecting to null in address 00:11:22:33:44:55
+08-17 15:50:31.043  6195  6247 I io.jxcore.node.ConnectionHelper: connect: Connection process successfully started (peer ID: 00:11:22:33:44:55)
+08-17 15:50:31.043  6195  6247 I io.jxcore.node.ConnectionHelper: connect: Trying to connect to peer with ID 00:11:22:33:44:55
+08-17 15:50:31.043  6195  6247 E io.jxcore.node.ConnectionHelper: connect: Callback is null
+08-17 15:50:31.043  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+08-17 15:50:31.043  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:31.043  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: The current state already matches the desired outcome of this operation, skipping...
+08-17 15:50:31.043  6195  6328 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothClientThread: Trying to connect to peer with address 00:11:22:33:44:55 (thread ID: 1137)
+08-17 15:50:31.043  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:31.043  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.043  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.043  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: cancelAllConnectionAttempts: Shutting down 1 client threads
+,08-17 15:50:31.043  6195  6247 E org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 not in the list
+08-17 15:50:31.043  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.043  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:31.043  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+08-17 15:50:31.043  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.043  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.043  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.043  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.043  6195  6329 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothClientThread: shutdown: Thread ID: 1137
+08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+,08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.053  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:31.053  6195  6247 E io.jxcore.node.ConnectionHelper: onProvideBluetoothMacAddressRequest: Request ID: 1111 - Bro Mode is not supported
+08-17 15:50:31.053  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+08-17 15:50:31.053  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:31.053  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: The current state already matches the desired outcome of this operation, skipping...
+08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:31.053  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.053  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.053  6195  6247 E org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 not in the list
+08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.053  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:31.053  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+,08-17 15:50:31.053  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.053  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.053  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.053  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.053  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:31.053  6195  6247 I io.jxcore.node.ConnectionHelper: onDiscoveryManagerStateChanged: State: NOT_STARTED, is discovering: true, is advertising: true
+08-17 15:50:31.053  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+08-17 15:50:31.053  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:31.053  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: The current state already matches the desired outcome of this operation, skipping...
+08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:31.053  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+,08-17 15:50:31.053  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.053  6195  6247 E org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 not in the list
+08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.053  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:31.053  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+08-17 15:50:31.053  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.053  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.053  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.053  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+,08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.053  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:31.053  6195  6247 D io.jxcore.node.ConnectionHelper: disconnectOutgoingConnection: Trying to close connection to peer with ID randomString
+08-17 15:50:31.053  6195  6247 E io.jxcore.node.ConnectionModel: closeAndRemoveOutgoingConnectionThread: Failed to find an outgoing connection to peer with ID randomString
+08-17 15:50:31.053  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveOutgoingConnectionThread: 1 outgoing connection(s) left
+08-17 15:50:31.053  6195  6247 W io.jxcore.node.ConnectionHelper: disconnectOutgoingConnection: Failed to disconnect (peer ID: randomString), either no such connection or failed to close the connection
+08-17 15:50:31.053  6195  6247 D io.jxcore.node.ConnectionHelper: disconnectOutgoingConnection: Trying to close connection to peer with ID 00:11:22:33:44:55
+08-17 15:50:31.053  6195  6247 I io.jxcore.node.ConnectionModel: closeAndRemoveOutgoingConnectionThread: Closing connection, peer ID: 00:11:22:33:44:55
+,08-17 15:50:31.053  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveOutgoingConnectionThread: 0 outgoing connection(s) left
+08-17 15:50:31.053  6195  6247 I io.jxcore.node.ConnectionHelper: disconnectOutgoingConnection: Successfully disconnected (peer ID: 00:11:22:33:44:55
+08-17 15:50:31.053  6195  6247 D io.jxcore.node.ConnectionHelper: disconnectOutgoingConnection: Trying to close connection to peer with ID 00:11:22:33:44:55
+08-17 15:50:31.053  6195  6247 E io.jxcore.node.ConnectionModel: closeAndRemoveOutgoingConnectionThread: Failed to find an outgoing connection to peer with ID 00:11:22:33:44:55
+08-17 15:50:31.053  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveOutgoingConnectionThread: 0 outgoing connection(s) left
+08-17 15:50:31.053  6195  6247 W io.jxcore.node.ConnectionHelper: disconnectOutgoingConnection: Failed to disconnect (peer ID: 00:11:22:33:44:55), either no such connection or failed to close the connection
+08-17 15:50:31.053  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+08-17 15:50:31.053  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:31.053  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: The current state already matches the desired outcome of this operation, skipping...
+08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose,
+08-17 15:50:31.053  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.053  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.053  6195  6247 E org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 not in the list
+,08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.053  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:31.053  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+08-17 15:50:31.053  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.053  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.053  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.053  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+,08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.053  6195  6328 D BluetoothUtils: isSocketAllowedBySecurityPolicy start : device null
+08-17 15:50:31.053  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:31.053  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.053  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+,08-17 15:50:31.053  6195  6247 E org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 not in the list
+08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.053  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:31.053  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+08-17 15:50:31.053  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.053  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.053  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:31.053  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.053  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+,08-17 15:50:31.053  6195  6247 E org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 not in the list
+08-17 15:50:31.053  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+08-17 15:50:31.053  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:31.053  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: The current state already matches the desired outcome of this operation, skipping...
+08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:31.053  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.053  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.053  6195  6247 E org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 not in the list
+08-17 15:50:31.053  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.053  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+,08-17 15:50:31.053  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+08-17 15:50:31.053  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.053  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.053  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.053  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.063  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:31.063  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:31.063  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.063  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:31.063  6195  6247 D org.thaliproject.p2p.btconnectorlib.ConnectionManager: startListeningForIncomingConnections
+08-17 15:50:31.063  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: bind: Binding a new listener
+08-17 15:50:31.063  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: startListeningForIncomingConnections: Starting...
+08-17 15:50:31.063  6195  6328 D BluetoothSocket: connect(): myUserId = 0
+08-17 15:50:31.063  6195  6328 W BluetoothAdapter: getBluetoothService() called with no BluetoothManagerCallback
+08-17 15:50:31.063  6195  6247 D org.thaliproject.p2p.btconnectorlib.ConnectionManager: onIsServerStartedChanged: true
+08-17 15:50:31.063  6195  6247 D org.thaliproject.p2p.btconnectorlib.ConnectionManager: setState: NOT_STARTED -> RUNNING
+08-17 15:50:31.063  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: startListeningForIncomingConnections: OK
+08-17 15:50:31.063  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: cancelAllConnectionAttempts
+08-17 15:50:31.063  6195  6195 I io.jxcore.node.ConnectionHelper: onConnectionManagerStateChanged: RUNNING
+,08-17 15:50:31.063  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:31.063  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: stopListeningForIncomingConnections
+08-17 15:50:31.063  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: stopListeningForIncomingConnections: Stopping...
+08-17 15:50:31.063  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothServerThread: shutdown
+08-17 15:50:31.063  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.063  6195  6247 D org.thaliproject.p2p.btconnectorlib.ConnectionManager: setState: RUNNING -> NOT_STARTED
+08-17 15:50:31.063  6195  6247 E org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 not in the list
+08-17 15:50:31.063  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.063  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stop: Stopping peer discovery...
+,08-17 15:50:31.063  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopForRestart
+08-17 15:50:31.063  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.BluetoothMacAddressResolutionHelper: stopProvideBluetoothMacAddressMode
+08-17 15:50:31.063  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.063  6195  6195 I io.jxcore.node.ConnectionHelper: onConnectionManagerStateChanged: NOT_STARTED
+08-17 15:50:31.063  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.063  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: updateState: State: NOT_STARTED, is discovering: false, is advertising: false
+08-17 15:50:31.063  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:31.063  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+08-17 15:50:31.063  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:31.063  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: The current state already matches the desired outcome of this operation, skipping...
+,08-17 15:50:31.063  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:31.063  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.063  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.063  6195  6247 E org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 not in the list
+08-17 15:50:31.063  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.063  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:31.063  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+08-17 15:50:31.063  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.063  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.063  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+,08-17 15:50:31.063  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.063  2661  3007 D BTIF_SOCK: service_uuid: fa87c0d0-afac-11de-8a39-0800200c9a66
+08-17 15:50:31.063  6195  6330 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothServerThread: Exiting thread
+08-17 15:50:31.063  6195  6330 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: onServerStopped: Was explicitly stopped: true
+08-17 15:50:31.063  6195  6328 D BluetoothSocket: connect(), SocketState: INIT, mPfd: {ParcelFileDescriptor: FileDescriptor[108]}
+08-17 15:50:31.063  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:31.063  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+,08-17 15:50:31.063  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.063  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:31.063  6195  6195 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: Discovery mode: BLE, start discovery: false, start advertiser: false
+08-17 15:50:31.073  6195  6195 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: Discovery mode: BLE, start discovery: false, start advertiser: false
+08-17 15:50:31.073  6195  6195 I io.jxcore.node.ConnectionHelper: onDiscoveryManagerStateChanged: State: NOT_STARTED, is discovering: false, is advertising: false
+08-17 15:50:31.073  6195  6195 D org.thaliproject.p2p.btconnectorlib.ConnectionManager: onIsServerStartedChanged: false
+08-17 15:50:31.073  6195  6247 E io.jxcore.node.ConnectionHelper: onConnectionFailed: Peer properties: [<no peer name> 00:11:22:33:44:55], error message: ErrorMessage
+08-17 15:50:31.073  6195  6247 D io.jxcore.node.ConnectionModel: removeOutgoingConnectionCallback: Callback associated with Bluetooth MAC address "00:11:22:33:44:55" removed
+08-17 15:50:31.073  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: setInsecureRfcommSocketPortNumber: Will use port -1 when trying to connect
+,08-17 15:50:31.073  6195  6247 V org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: setInsecureRfcommSocketPort: 1 -> -1
+08-17 15:50:31.073  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+08-17 15:50:31.073  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:31.073  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: The current state already matches the desired outcome of this operation, skipping...
+08-17 15:50:31.073  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:31.073  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.073  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left,
+08-17 15:50:31.073  6195  6247 E org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 not in the list
+08-17 15:50:31.073  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.073  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:31.073  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+08-17 15:50:31.073  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.073  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.073  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.073  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+,08-17 15:50:31.073  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:31.073  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:31.073  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.073  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+,08-17 15:50:31.073  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+08-17 15:50:31.073  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:31.073  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: The current state already matches the desired outcome of this operation, skipping...
+,08-17 15:50:31.073  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:31.073  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.073  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.073  6195  6247 E org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 not in the list
+08-17 15:50:31.073  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.073  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:31.073  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+08-17 15:50:31.073  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.073  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.073  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.073  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.073  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:31.073  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:31.073  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.073  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+,08-17 15:50:31.073  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+08-17 15:50:31.073  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:31.073  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: The current state already matches the desired outcome of this operation, skipping...
+08-17 15:50:31.073  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:31.083  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.083  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+,08-17 15:50:31.083  6195  6247 E org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@21a474b1 not in the list
+,08-17 15:50:31.083  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.083  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+08-17 15:50:31.083  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+08-17 15:50:31.083  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+,08-17 15:50:31.083  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:31.083  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:31.083  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+,08-17 15:50:31.083  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+,08-17 15:50:31.083  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:31.083  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:31.083  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2079cd96 not in the list
+,08-17 15:50:31.083  6195  6247 I io.jxcore.node.ConnectionModel: closeAndRemoveOutgoingConnectionThread: Closing connection, peer ID: outgoing
+,08-17 15:50:31.083  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveOutgoingConnectionThread: 1 outgoing connection(s) left
+08-17 15:50:31.083  6195  6247 E io.jxcore.node.ConnectionModel: closeAndRemoveOutgoingConnectionThread: Failed to find an outgoing connection to peer with ID outgoing
+08-17 15:50:31.083  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveOutgoingConnectionThread: 1 outgoing connection(s) left
+08-17 15:50:31.083  6195  6247 I io.jxcore.node.ConnectionModel: closeAndRemoveOutgoingConnectionThread: Closing connection, peer ID: outgoing2
+08-17 15:50:31.083  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveOutgoingConnectionThread: 0 outgoing connection(s) left
+,08-17 15:50:31.083  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllIncomingConnections: Peer: [<no peer name> incoming]
+08-17 15:50:31.083  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveAllOutgoingConnections: Peer: [<no peer name> outgoing]
+,08-17 15:50:31.083  6195  6247 I io.jxcore.node.ConnectionModel: closeAndRemoveIncomingConnectionThread: Closing and removing incoming connection thread with ID 1
+08-17 15:50:31.083  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveIncomingConnectionThread: 1 incoming connection(s) left
+08-17 15:50:31.083  6195  6247 E io.jxcore.node.ConnectionModel: closeAndRemoveIncomingConnectionThread: Failed to find an incoming connection thread with ID 1
+08-17 15:50:31.083  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveIncomingConnectionThread: 1 incoming connection(s) left
+08-17 15:50:31.083  6195  6247 I io.jxcore.node.ConnectionModel: closeAndRemoveIncomingConnectionThread: Closing and removing incoming connection thread with ID 2
+08-17 15:50:31.083  6195  6247 D io.jxcore.node.ConnectionModel: closeAndRemoveIncomingConnectionThread: 0 incoming connection(s) left
+08-17 15:50:31.083  6195  6247 D io.jxcore.node.ConnectionModel: removeOutgoingConnectionCallback: Callback associated with Bluetooth MAC address "outgoing1" removed
+08-17 15:50:31.083  6195  6247 D io.jxcore.node.ConnectionModel: removeOutgoingConnectionCallback: Callback associated with Bluetooth MAC address "outgoing2" removed
+08-17 15:50:31.083  6195  6247 D io.jxcore.node.ConnectionModel: hasConnection: No connection with peer with ID id
+08-17 15:50:31.083  6195  6247 D io.jxcore.node.ConnectionModel: hasConnection: No connection with peer with ID outgoing
+08-17 15:50:31.083  6195  6247 D io.jxcore.node.ConnectionModel: hasConnection: We have an incoming connection with peer with ID incoming
+08-17 15:50:31.083  6195  6247 D io.jxcore.node.ConnectionModel: hasConnection: We have an outgoing connection with peer with ID outgoing
+08-17 15:50:31.083  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: load: Already loaded
+08-17 15:50:31.083  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: addListener: Listener io.jxcore.node.ConnectivityMonitorTest$DiscoveryManagerMock@3ca21a88 added. We now have 2 listener(s)
+,08-17 15:50:31.083  6195  6247 D org.thaliproject.p2p.btconnectorlib.utils.PeerModel: addListener: New listener added - the number of listeners is now 1
+,08-17 15:50:31.093  6195  6247 D BluetoothAdapter: enable()
+,08-17 15:50:31.093  6195  6247 D BluetoothAdapter: enable(): BT is already enabled..!
+,08-17 15:50:31.093  1015  1503 D SecContentProvider: uri = 18 selection = isWifiEnabled
+,08-17 15:50:31.093  1015  1503 D SecContentProvider2: uri = 20 selection = isWifiStateChangeAllowed
+08-17 15:50:31.093  1015  1503 D SecContentProvider2: mCursor = null
+,08-17 15:50:31.093  1015  1503 D WifiService: setWifiEnabled: true pid=6195, uid=10155
+,08-17 15:50:31.093  1015  1503 W ActivityManager: Permission Denial: getCurrentUser() from pid=6195, uid=10155 requires android.permission.INTERACT_ACROSS_USERS
+,08-17 15:50:31.093  1015  1503 W WifiService: Failed getting userId using ActivityManagerNative
+08-17 15:50:31.093  1015  1503 W WifiService: java.lang.SecurityException: Permission Denial: getCurrentUser() from pid=6195, uid=10155 requires android.permission.INTERACT_ACROSS_USERS
+08-17 15:50:31.093  1015  1503 W WifiService: 	at com.android.server.am.ActivityManagerService.getCurrentUser(ActivityManagerService.java:23916)
+08-17 15:50:31.093  1015  1503 W WifiService: 	at com.android.server.wifi.WifiServiceImpl.setWifiEnabled(WifiServiceImpl.java:2216)
+08-17 15:50:31.093  1015  1503 W WifiService: 	at com.android.server.wifi.WifiServiceImpl.setWifiEnabled(WifiServiceImpl.java:2204)
+08-17 15:50:31.093  1015  1503 W WifiService: 	at android.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:223)
+08-17 15:50:31.093  1015  1503 W WifiService: 	at android.os.Binder.execTransact(Binder.java:446)
+,08-17 15:50:31.093  1015  1503 D SettingsProvider: name = wifi_on
+,08-17 15:50:31.093  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: load: Already loaded
+08-17 15:50:31.093  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: addListener: Listener io.jxcore.node.ConnectivityMonitorTest$DiscoveryManagerMock@24aec21 added. We now have 3 listener(s)
+08-17 15:50:31.093  6195  6247 D org.thaliproject.p2p.btconnectorlib.utils.PeerModel: addListener: New listener added - the number of listeners is now 1
+,08-17 15:50:31.103  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: load: Already loaded
+08-17 15:50:31.103  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: addListener: Listener io.jxcore.node.ConnectivityMonitorTest$DiscoveryManagerMock@105ec846 added. We now have 4 listener(s)
+08-17 15:50:31.103  6195  6247 D org.thaliproject.p2p.btconnectorlib.utils.PeerModel: addListener: New listener added - the number of listeners is now 1
+,08-17 15:50:31.103  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: load: Already loaded
+08-17 15:50:31.103  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: addListener: Listener io.jxcore.node.ConnectivityMonitorTest$DiscoveryManagerMock@584ca07 added. We now have 5 listener(s)
+08-17 15:50:31.103  6195  6247 D org.thaliproject.p2p.btconnectorlib.utils.PeerModel: addListener: New listener added - the number of listeners is now 1
+,08-17 15:50:31.103  1015  2925 D SecContentProvider: uri = 18 selection = isWifiEnabled,
+08-17 15:50:31.103  1015  2925 D SecContentProvider2: uri = 20 selection = isWifiStateChangeAllowed
+08-17 15:50:31.103  1015  2925 D SecContentProvider2: mCursor = null
+,08-17 15:50:31.103  1015  2925 D WifiService: setWifiEnabled: false pid=6195, uid=10155
+,08-17 15:50:31.113  1015  2925 D SettingsProvider: name = wifi_on
+,08-17 15:50:31.113  1015  1126 E WifiStateMachine: WifiStateMachine: Leaving Connected state
+,08-17 15:50:31.113  2152  2152 I wpa_supplicant: reset timer : RESET_TIMER 0,
+08-17 15:50:31.113  2152  2152 I wpa_supplicant: wlan0: Setting scan request: 0 sec 0 usec
+08-17 15:50:31.123  2152  2152 I wpa_supplicant: P2P: Current p2p state = IDLE
+08-17 15:50:31.123  2152  2152 I wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+,08-17 15:50:31.123  6195  6247 D BluetoothAdapter: disable()
+,08-17 15:50:31.123  1015  1126 E WifiConfigStore: saveWifiConfigBSSID Setting BSSID for "NG700"WPA_PSK to any
+,08-17 15:50:31.123  1015  1028 D SettingsProvider: name = bluetooth_on,
+,08-17 15:50:31.133  2661  2722 D BluetoothAdapterState: CURRENT_STATE=ON, MSG = USER_TURN_OFF
+,08-17 15:50:31.133  2661  2722 D BluetoothAdapterProperties: Setting state to 13
+08-17 15:50:31.133  2661  2722 I BluetoothAdapterState: Bluetooth adapter state changed: 12-> 13
+,08-17 15:50:31.133  2661  2722 D BluetoothAdapterService: Bluetooth PBAP supproted is true
+08-17 15:50:31.133  2661  2722 D BluetoothAdapterService: updateAdapterState state is 13
+08-17 15:50:31.133  1015  1126 E WifiNative-wlan0: do suspend true
+08-17 15:50:31.133  1015  1027 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+08-17 15:50:31.133  1015  1027 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.pbap.BluetoothPbapService; callingUser = 0; userId(target) = 0
+08-17 15:50:31.133  1015  1027 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:31.133  1015  1027 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:31.133  1015  1027 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:31.133  2661  2661 I BluetoothPbapService: action: android.bluetooth.adapter.action.STATE_CHANGED, state: 13
+,08-17 15:50:31.143  2661  2722 D BluetoothAdapterService: Autoconnection is available 
+08-17 15:50:31.143  2661  2722 D BluetoothAdapterService: updateAdapterState prevState = 12newState = 13
+,08-17 15:50:31.143  2661  2722 D BluetoothAdapterService: terminating service from this receiver
+08-17 15:50:31.143  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: bind: Binding a new listener
+08-17 15:50:31.143  2661  2661 D BluetoothSocket: close() in, this: android.bluetooth.BluetoothSocket@2e93e2ef, channel: 19, state: LISTENING
+08-17 15:50:31.143  2661  2661 D BluetoothSocket: close() this: android.bluetooth.BluetoothSocket@2e93e2ef, channel: 19, mSocketIS: android.net.LocalSocketImpl$SocketInputStream@5a1fbf6, mSocketOS: android.net.LocalSocketImpl$SocketOutputStream@17f6a1fcmSocket: android.net.LocalSocket@1e45f085 impl:android.net.LocalSocketImpl@3eee1eda fd:FileDescriptor[74]
+08-17 15:50:31.143  2661  2661 D BluetoothSocket: Closing mSocket: android.net.LocalSocket@1e45f085 impl:android.net.LocalSocketImpl@3eee1eda fd:FileDescriptor[74]
+,08-17 15:50:31.143  1015  1218 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.samsung.ble.BleAutoConnectService; callingUser = 0; userId(target) = 0
+,08-17 15:50:31.143  1015  1218 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:31.143  1015  1218 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:31.143  1015  1218 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:31.143  2661  2722 D BluetoothAdapterProperties: onBluetoothDisable()
+08-17 15:50:31.143  2661  2722 D BluetoothAdapterProperties: mDiscovering is false
+08-17 15:50:31.143  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: Checking support for multiple advertisement: Cannot do the check when the Bluetooth is disabled - will return stored value
+,08-17 15:50:31.143  6195  6247 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: FORCED notification:
+08-17 15:50:31.143  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:31.143  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:31.143  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: true
+08-17 15:50:31.143  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: false
+08-17 15:50:31.143  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: f4:f2:6d:22:99:3e
+08-17 15:50:31.143  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: true
+08-17 15:50:31.143  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: true
+08-17 15:50:31.143  1015  1027 D SecContentProvider: uri = 3 selection = isDiscoverableEnabled
+,08-17 15:50:31.143  2661  2722 I BluetoothAdapterState: Entering PendingCommandState State: isTurningOn()=false, isTurningOff()=true
+08-17 15:50:31.143  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: Checking support for multiple advertisement: Cannot do the check when the Bluetooth is disabled - will return stored value
+08-17 15:50:31.143  6195  6247 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: OFF, Bluetooth: OFF, Wi-Fi: ON, cellular: DO_NOT_CARE, BSSID name: f4:f2:6d:22:99:3e
+08-17 15:50:31.143  6195  6247 D io.jxcore.node.ConnectivityMonitor: start: OK
+08-17 15:50:31.143  1015  1015 W InputMethodManagerService: InputMethodService onReceive() intentActionandroid.bluetooth.adapter.action.STATE_CHANGED
+08-17 15:50:31.143  1015  1015 I InputMethodManagerService: [BT Setting State] State =13
+,08-17 15:50:31.153  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:31.153  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:31.163  1174  1174 D BluetoothTile:  onBluetoothStateChange:
+,08-17 15:50:31.163  1174  1174 D BluetoothTile: onReceive : android.bluetooth.adapter.action.STATE_CHANGED
+08-17 15:50:31.163  1174  1174 D BluetoothTile:  onBluetoothPairedDevicesChanged:
+08-17 15:50:31.163  1174  1174 D BluetoothTile:  getBluetoothState : 13
+,08-17 15:50:31.163  1174  1721 D BluetoothTile:  handleUpdatestate:false name:null
+,08-17 15:50:31.163  1174  1721 D BluetoothTile:  handleUpdatestate:false name:null
+,08-17 15:50:31.163  1174  1721 D STATUSBAR-QSTileView: onStateChanged: Bluetooth
+,08-17 15:50:31.163  1834  1834 I SamsungIME: STATE_CHANGED = 13, KEYBOARD_BT(0), mBTKeyboardCount =0
+,08-17 15:50:31.173  1015  1315 D StatusBarManagerService: setIcon slot=bluetooth index=16 icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=true num=0 )
+,08-17 15:50:31.173  1317  1317 V BluetoothEventManager: Received android.bluetooth.adapter.action.STATE_CHANGED
+08-17 15:50:31.173  1015  1076 D StatusBarManagerService: setIconVisibility slot=bluetooth visible=false
+,08-17 15:50:31.173  1174  1174 D PhoneStatusBar: updateIcon slot=bluetooth index=16 viewIndex=2 old=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=false num=0 )
+,08-17 15:50:31.173  1015  1502 D ActivityManager: startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+08-17 15:50:31.173  1015  1502 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService; callingUser = 0; userId(target) = 0
+,08-17 15:50:31.183  1015  1502 W ActivityManager: userId = 0, bbcId = -10000,
+08-17 15:50:31.183  1015  1502 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:31.183  1015  1502 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+08-17 15:50:31.183  2661  2725 D BluetoothUtils: getBtEnabledContainers(): btContainers = []
+08-17 15:50:31.183  2661  2725 D BluetoothAdapterProperties: Scan Mode:20
+,08-17 15:50:31.183  6195  6195 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: Checking support for multiple advertisement: Cannot do the check when the Bluetooth is disabled - will return stored value
+,08-17 15:50:31.183  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: State changed:
+08-17 15:50:31.183  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:31.183  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:31.183  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: true
+08-17 15:50:31.183  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: false
+08-17 15:50:31.183  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: f4:f2:6d:22:99:3e
+08-17 15:50:31.183  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: true
+08-17 15:50:31.183  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: true
+,08-17 15:50:31.183  1317  1317 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:2063 android.content.ContextWrapper.startService:533 android.content.ContextWrapper.startService:533 com.android.settings.bluetooth.DockEventReceiver.beginStartingService:134 com.android.settings.bluetooth.DockEventReceiver.onReceive:115 
+,08-17 15:50:31.193  6195  6195 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: Checking support for multiple advertisement: Cannot do the check when the Bluetooth is disabled - will return stored value
+08-17 15:50:31.193  6195  6195 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: OFF, Bluetooth: OFF, Wi-Fi: ON, cellular: DO_NOT_CARE, BSSID name: f4:f2:6d:22:99:3e
+,08-17 15:50:31.193  2661  2722 D BluetoothAdapterState: CURRENT_STATE=PENDING, MESSAGE = BEGIN_DISABLE, isTurningOn=false, isTurningOff=true
+08-17 15:50:31.193  2661  2722 E bt-btif : btif_vhci_sock_cleanup, sock_thread_handle:6, rfc_init:1, vhci_init:1
+,08-17 15:50:31.193  2661  2722 E bt-btif : btif_sock_cleanup, sock_thread_handle:6, rfc_init:1, vhci_init:0
+08-17 15:50:31.193  2661  2722 E bt-btif : cmd socket is not created
+,08-17 15:50:31.193  2661  2722 D btif_config_util: btif_config_save_file(L188): in file name:/data/misc/bluedroid/bt_config.new
+08-17 15:50:31.193  1015  1028 D ActivityManager: startService callerProcessName:com.android.settings, calleePkgName: com.android.settings
+08-17 15:50:31.193  1015  1028 D ActivityManager: retrieveServiceLocked(): component = com.android.settings/com.android.settings.bluetooth.DockService; callingUser = 0; userId(target) = 0
+08-17 15:50:31.193  2661  2806 E bt-btm  : btm_ble_start_auto_conn start : 0, 0
+08-17 15:50:31.193  2661  2806 W bt-btif : bta_dm_disable BTA_DISABLE_DELAY set to 200 ms
+,08-17 15:50:31.193  1015  1028 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:31.193  1015  1028 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:31.193  1015  1028 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.settings, destAppInfo.processName = com.android.settings
+,08-17 15:50:31.193  6195  6328 D BluetoothSocket: close() in, this: android.bluetooth.BluetoothSocket@1f49295d, channel: -1, state: INIT
+08-17 15:50:31.193  6195  6328 D BluetoothSocket: close() this: android.bluetooth.BluetoothSocket@1f49295d, channel: -1, mSocketIS: android.net.LocalSocketImpl$SocketInputStream@37af22d2, mSocketOS: android.net.LocalSocketImpl$SocketOutputStream@1299ffa3mSocket: android.net.LocalSocket@3287b2a0 impl:android.net.LocalSocketImpl@23f3fe59 fd:FileDescriptor[108]
+08-17 15:50:31.193  6195  6328 D BluetoothSocket: Closing mSocket: android.net.LocalSocket@3287b2a0 impl:android.net.LocalSocketImpl@23f3fe59 fd:FileDescriptor[108]
+,08-17 15:50:31.193  1317  1317 D BluetoothPbap: Proxy object disconnected
+08-17 15:50:31.193  6195  6328 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothClientThread: Exiting thread (thread ID: 1137)
+08-17 15:50:31.193  1317  1317 D PbapServerProfile: Bluetooth service disconnected
+,08-17 15:50:31.193  2661  4975 E BtOppRfcommListener: Error accept connection java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+,08-17 15:50:31.193  2661  2806 W bt-l2cap: L2CAP - PSM: 0x0019 not found for deregistration
+08-17 15:50:31.193  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+08-17 15:50:31.193  2661  2806 W bt-l2cap: L2CAP - PSM: 0x0017 not found for deregistration
+08-17 15:50:31.193  2661  2806 W bt-l2cap: L2CAP - PSM: 0x001b not found for deregistration
+,08-17 15:50:31.203  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:31.203  1317  1317 D DockEventReceiver: finishStartingService: stopping service
+,08-17 15:50:31.213  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:31.213  2661  2661 D BluetoothSocket: close() in, this: android.bluetooth.BluetoothSocket@f65bf0b, channel: 5, state: LISTENING
+08-17 15:50:31.213  2661  2661 D BluetoothSocket: close() this: android.bluetooth.BluetoothSocket@f65bf0b, channel: 5, mSocketIS: android.net.LocalSocketImpl$SocketInputStream@328a6a64, mSocketOS: android.net.LocalSocketImpl$SocketOutputStream@1c09e1e8mSocket: android.net.LocalSocket@147a1001 impl:android.net.LocalSocketImpl@a9f4ea6 fd:FileDescriptor[76]
+08-17 15:50:31.213  2661  2661 D BluetoothSocket: Closing mSocket: android.net.LocalSocket@147a1001 impl:android.net.LocalSocketImpl@a9f4ea6 fd:FileDescriptor[76]
+,08-17 15:50:31.213  1317  1317 D BluetoothNotiBroadcastReceiver: onReceive
+08-17 15:50:31.213  2661  2661 I BtOppRfcommListener: stopping Accept Thread
+08-17 15:50:31.213  2661  2661 D BluetoothSocket: close() in, this: android.bluetooth.BluetoothSocket@a2f40e7, channel: 12, state: LISTENING
+08-17 15:50:31.213  2661  2661 D BluetoothSocket: close() this: android.bluetooth.BluetoothSocket@a2f40e7, channel: 12, mSocketIS: android.net.LocalSocketImpl$SocketInputStream@ed893ce, mSocketOS: android.net.LocalSocketImpl$SocketOutputStream@158f3494mSocket: android.net.LocalSocket@e76ab3d impl:android.net.LocalSocketImpl@3ee1af32 fd:FileDescriptor[79]
+08-17 15:50:31.213  2661  2661 D BluetoothSocket: Closing mSocket: android.net.LocalSocket@e76ab3d impl:android.net.LocalSocketImpl@3ee1af32 fd:FileDescriptor[79]
+,08-17 15:50:31.213  2661  4975 I BtOppRfcommListener: BluetoothSocket listen thread finished
+,08-17 15:50:31.223  1174  1174 V BluetoothStatusReceiver: Received android.bluetooth.adapter.action.STATE_CHANGED
+08-17 15:50:31.223  1174  1174 D BluetoothStatusReceiver: AdapterStateChanged :: BluetoothAdapter.ACTION_STATE_CHANGED, state = 13
+,08-17 15:50:31.223  1015  1502 D ActivityManager: startProcessLocked calleePkgName: com.samsung.android.intelligenceservice, hostingType: broadcast
+,08-17 15:50:31.223  1015  1502 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:31.223  1015  1502 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:31.223  1015  1502 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:31.223  1015  1502 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:31.243  1015  1502 I ActivityManager: Start proc com.samsung.android.intelligenceservice for broadcast com.samsung.android.intelligenceservice/.useranalysis.predictor.PlacePredictor$BtConnectionReceiver: pid=6336 uid=10003 gids={50003, 9997, 3002, 3003, 1023, 1028, 1015, 1007, 3001} abi=armeabi-v7a
+,08-17 15:50:31.243  6336  6336 E Zygote  : MountEmulatedStorage()
+,08-17 15:50:31.243  6336  6336 E Zygote  : v2
+08-17 15:50:31.243  6336  6336 I libpersona: KNOX_SDCARD checking this for 10003
+08-17 15:50:31.243  6336  6336 I libpersona: KNOX_SDCARD not a persona
+,08-17 15:50:31.243  6336  6336 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+,08-17 15:50:31.243  2661  2661 V BluetoothOppManager: cleanUp...
+08-17 15:50:31.243  6336  6336 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+,08-17 15:50:31.253  6336  6336 E SELinux : [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,08-17 15:50:31.273  6336  6336 D TimaKeyStoreProvider: TimaSignature is unavailable
+,08-17 15:50:31.273  6336  6336 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:31.313  6336  6336 D UserAnalysis.PlaceProvider: PlaceProvider onCreate()
+,08-17 15:50:31.353  6336  6336 D UserAnalysis.SecureDbManager: Key for secure DB is newly created
+,08-17 15:50:31.353  6336  6336 D UserAnalysis.SecurePlaceDbHelper: SecurePlaceDbHelper() 
+,08-17 15:50:31.353  6336  6336 D UserAnalysis: Create SecureDbHelper
+,08-17 15:50:31.363  6336  6336 D IntelligenceServiceApplication: onCreate()
+,08-17 15:50:31.363  1015  1502 I ActivityManager: Killing 5357:com.dropbox.android/u0a92 (adj 15): empty #31
+,08-17 15:50:31.373  1015  2925 D ActivityManager: startProcessLocked calleePkgName: com.google.android.apps.maps, hostingType: broadcast
+,08-17 15:50:31.373  1015  2925 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:31.373  6336  6336 D IntelligenceServiceApplication: no applications having user consent for prediction
+08-17 15:50:31.373  1015  2925 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:31.373  1015  2925 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:31.373  1015  2925 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:31.393  2661  2806 W bt-l2cap: L2CAP - PSM: 0x0019 not found for deregistration
+,08-17 15:50:31.393  2661  2806 W bt-l2cap: L2CAP - PSM: 0x0017 not found for deregistration
+08-17 15:50:31.393  2661  2806 W bt-l2cap: L2CAP - PSM: 0x001b not found for deregistration
+08-17 15:50:31.393  2661  2806 W bt-l2cap: L2CAP - PSM: 0x0019 not found for deregistration
+08-17 15:50:31.393  2661  2806 W bt-l2cap: L2CAP - PSM: 0x0017 not found for deregistration
+08-17 15:50:31.393  2661  2806 W bt-l2cap: L2CAP - PSM: 0x001b not found for deregistration
+08-17 15:50:31.393  2661  2806 W bt-l2cap: L2CAP - PSM: 0x0019 not found for deregistration
+08-17 15:50:31.393  2661  2806 W bt-l2cap: L2CAP - PSM: 0x0017 not found for deregistration
+08-17 15:50:31.393  2661  2806 W bt-l2cap: L2CAP - PSM: 0x001b not found for deregistration
+,08-17 15:50:31.393  2661  2806 W bt-btif : ag scb idx 1 not allocated
+08-17 15:50:31.393  2661  2806 W bt-btif : ag scb idx 2 not allocated
+08-17 15:50:31.393  2661  2806 E bt-btif : BTA AG is already disabled, ignoring ...
+08-17 15:50:31.393  2661  2903 I bt_userial_mct: exiting userial_read_thread
+08-17 15:50:31.393  2661  2903 D bt_userial_mct: Leaving userial_evt_read_thread()
+08-17 15:50:31.393  2661  2725 D bt_userial_mct: userial_close_reader Joined userial reader thread: 0
+,08-17 15:50:31.393  2661  2808 I bt_vendor: hw_epilog_process
+08-17 15:50:31.393  2661  2725 D bt_userial_mct: userial_close
+08-17 15:50:31.393  2661  2725 I bt_vendor: bt-vendor : BT_VND_OP_USERIAL_CLOSE btSocType: 0
+08-17 15:50:31.393  6354  6354 E Zygote  : MountEmulatedStorage()
+08-17 15:50:31.393  6354  6354 E Zygote  : v2
+08-17 15:50:31.393  6354  6354 I libpersona: KNOX_SDCARD checking this for 10107
+08-17 15:50:31.393  6354  6354 I libpersona: KNOX_SDCARD not a persona
+,08-17 15:50:31.393  6354  6354 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+,08-17 15:50:31.403  1015  2925 I ActivityManager: Start proc com.google.android.apps.maps for broadcast com.google.android.apps.maps/com.google.android.apps.gmm.iamhere.ble.StartBleServiceReceiver: pid=6354 uid=10107 gids={50107, 9997, 3003, 1028, 1015, 3002, 3001} abi=armeabi-v7a
+,08-17 15:50:31.403  6354  6354 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+08-17 15:50:31.403  6354  6354 E SELinux : [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+08-17 15:50:31.403  1015  1503 D ActivityManager: retrieveServiceLocked(): component = com.samsung.android.intelligenceservice/com.samsung.android.placedetection.main.service.ServiceManager; callingUser = 0; userId(target) = 0
+,08-17 15:50:31.403  6336  6336 V PlaceDetection v1.0.19 : [PlaceDetection::stopService] Service stopped.,
+,08-17 15:50:31.413  6336  6336 V PlaceDetection v1.0.19 : [PlaceDetectionManager::removeDetectionListener] PlaceDetectionListener removed.,
+,08-17 15:50:31.423  6354  6354 D TimaKeyStoreProvider: TimaSignature is unavailable
+,08-17 15:50:31.423  6354  6354 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:31.573  6195  6195 V io.jxcore.node.ConnectionHelper: Notifying discovery manager state change: is discovering: false, is advertising: false
+,08-17 15:50:31.593  2661  2725 I bt_vendor: bt-vendor : BT_VND_OP_POWER_CTRL: Off
+,08-17 15:50:31.593  2661  2725 I bt_vendor: bluetooth satus is on
+,08-17 15:50:31.593  2661  2725 I bt_vendor: bt-vendor : resetting BT status
+08-17 15:50:31.593  2661  2725 I bt_vendor: Starting hciattach daemon
+,08-17 15:50:31.593  2661  2725 I bt_vendor: try to set false
+,08-17 15:50:31.603  2661  2725 I bt_vendor: Starting hciattach daemon
+08-17 15:50:31.603  2661  2725 I bt_vendor: try to set false
+,08-17 15:50:31.603  2661  2725 I bt_vendor: cleanup
+08-17 15:50:31.603  2661  2806 I GKI_LINUX: gki_task task_id=0 [BTU] terminating
+08-17 15:50:31.603  2661  2725 I GKI_LINUX: GKI_exit_task 0 done
+08-17 15:50:31.603  2661  2725 I GKI_LINUX: GKI_shutdown(): task [BTU] terminated
+,08-17 15:50:31.603  2661  2722 D BluetoothAdapterState: CURRENT_STATE=PENDING, MESSAGE = DISABLED, isTurningOn=false, isTurningOff=true,
+08-17 15:50:31.603  2661  2722 D BtConfig.SecureMode: isSecureModeOn:false
+08-17 15:50:31.603  2661  2722 D BluetoothAdapterService: mProfilesStarted : true supportedProfileServices.length : 12
+08-17 15:50:31.603  2661  2722 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.android.bluetooth.gatt.GattService
+,08-17 15:50:31.603  2661  2722 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.gatt.GattService
+,08-17 15:50:31.603  2661  2722 W BluetoothAdapterService: Not skipping com.android.bluetooth.gatt.GattService
+,08-17 15:50:31.603  1015  1478 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+08-17 15:50:31.603  1015  1478 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.gatt.GattService; callingUser = 0; userId(target) = 0
+,08-17 15:50:31.613  1015  1478 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:31.613  1015  1478 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:31.613  1015  1478 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:31.613  2661  2722 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.android.bluetooth.hfp.HeadsetService
+,08-17 15:50:31.613  2661  2661 D BtGatt.DebugUtils: handleDebugAction() action=null
+08-17 15:50:31.613  2661  2661 D BtGatt.GattService: Received stop request...Stopping profile...
+08-17 15:50:31.613  2661  2661 D BtGatt.GattService: stop()
+08-17 15:50:31.613  2661  2661 D BtGatt.AdvertiseManager: advertise clients cleared
+08-17 15:50:31.613  2661  2661 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@55976c5
+08-17 15:50:31.613  2661  2722 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hfp.HeadsetService,
+08-17 15:50:31.613  2661  2722 W BluetoothAdapterService: Not skipping com.android.bluetooth.hfp.HeadsetService
+,08-17 15:50:31.613  1015  3214 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+08-17 15:50:31.613  1015  3214 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hfp.HeadsetService; callingUser = 0; userId(target) = 0
+,08-17 15:50:31.613  1015  3214 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:31.613  1015  3214 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:31.613  1015  3214 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:31.623  2661  2722 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.android.bluetooth.a2dp.A2dpService
+,08-17 15:50:31.623  2661  2722 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.a2dp.A2dpService
+,08-17 15:50:31.623  2661  2722 W BluetoothAdapterService: Not skipping com.android.bluetooth.a2dp.A2dpService
+,08-17 15:50:31.623  1015  1486 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+,08-17 15:50:31.623  1015  1486 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.a2dp.A2dpService; callingUser = 0; userId(target) = 0
+,08-17 15:50:31.623  1015  1486 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:31.623  1015  1486 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:31.623  1015  1486 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:31.623  2661  2722 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.android.bluetooth.hid.HidService
+08-17 15:50:31.623  2661  2722 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hid.HidService
+,08-17 15:50:31.623  2661  2722 W BluetoothAdapterService: Not skipping com.android.bluetooth.hid.HidService
+,08-17 15:50:31.623  1015  3215 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+,08-17 15:50:31.623  1015  3215 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hid.HidService; callingUser = 0; userId(target) = 0
+,08-17 15:50:31.623  1015  3215 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:31.623  1015  3215 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:31.623  1015  3215 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:31.633  2661  2722 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.android.bluetooth.hdp.HealthService
+08-17 15:50:31.633  2661  2722 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hdp.HealthService
+,08-17 15:50:31.633  2661  2722 W BluetoothAdapterService: Not skipping com.android.bluetooth.hdp.HealthService
+,08-17 15:50:31.633  1015  1027 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+,08-17 15:50:31.633  1015  1027 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hdp.HealthService; callingUser = 0; userId(target) = 0
+,08-17 15:50:31.633  1015  1027 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:31.633  1015  1027 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:31.633  1015  1027 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:31.633  2661  2722 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.android.bluetooth.pan.PanService
+,08-17 15:50:31.633  2661  2722 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.pan.PanService
+,08-17 15:50:31.633  2661  2722 W BluetoothAdapterService: Not skipping com.android.bluetooth.pan.PanService
+,08-17 15:50:31.633  1015  2925 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+08-17 15:50:31.633  1015  2925 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.pan.PanService; callingUser = 0; userId(target) = 0
+,08-17 15:50:31.653  1015  2925 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:31.653  1015  2925 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:31.653  1015  2925 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:31.653  2661  2722 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.android.bluetooth.map.BluetoothMapService
+,08-17 15:50:31.653  2661  2722 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.map.BluetoothMapService
+,08-17 15:50:31.653  1015  1503 D ActivityManager: bindService callerProcessName:com.google.android.apps.maps, calleePkgName: com.google.android.gms, action: null
+08-17 15:50:31.653  1015  1503 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.auth.GetToken; callingUser = 0; userId(target) = 0
+,08-17 15:50:31.653  2661  2722 W BluetoothAdapterService: Not skipping com.android.bluetooth.map.BluetoothMapService
+,08-17 15:50:31.653  1015  1503 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:31.653  1015  1503 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,08-17 15:50:31.653  1015  1503 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.apps.maps, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:31.653  1015  1502 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+,08-17 15:50:31.653  1015  1502 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.map.BluetoothMapService; callingUser = 0; userId(target) = 0
+,08-17 15:50:31.653  1015  1502 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:31.653  1015  1502 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:31.653  1015  1502 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:31.663  2661  2722 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.broadcom.bt.service.sap.SapService
+08-17 15:50:31.663  2661  2722 D BtSettings.ProfileConfig: getProfileSaveSetting: com.broadcom.bt.service.sap.SapService
+,08-17 15:50:31.663  2661  2722 W BluetoothAdapterService: Not skipping com.broadcom.bt.service.sap.SapService
+,08-17 15:50:31.663  1015  1485 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+,08-17 15:50:31.663  1015  1485 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.broadcom.bt.service.sap.SapService; callingUser = 0; userId(target) = 0
+,08-17 15:50:31.663  1015  1485 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:31.663  1015  1485 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:31.663  1015  1485 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:31.663  2661  2722 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.android.bluetooth.hfpclient.HeadsetClientService
+08-17 15:50:31.663  2661  2722 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hfpclient.HeadsetClientService
+,08-17 15:50:31.663  2661  2722 W BluetoothAdapterService: Profile supported, But not enabled com.android.bluetooth.hfpclient.HeadsetClientService
+,08-17 15:50:31.663  2661  2722 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.android.bluetooth.a2dp.A2dpSinkService
+,08-17 15:50:31.663  2661  2722 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.a2dp.A2dpSinkService
+,08-17 15:50:31.663  2661  2722 W BluetoothAdapterService: Profile supported, But not enabled com.android.bluetooth.a2dp.A2dpSinkService
+,08-17 15:50:31.663  2661  2722 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.android.bluetooth.sapclient.SapClientService
+,08-17 15:50:31.663  2661  2722 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.sapclient.SapClientService
+,08-17 15:50:31.673  2661  2722 W BluetoothAdapterService: Profile supported, But not enabled com.android.bluetooth.sapclient.SapClientService
+,08-17 15:50:31.673  2661  2722 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.android.bluetooth.hid.HidDevService
+,08-17 15:50:31.673  2661  2722 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hid.HidDevService
+,08-17 15:50:31.673  2661  2722 W BluetoothAdapterService: Profile supported, But not enabled com.android.bluetooth.hid.HidDevService
+08-17 15:50:31.673  2661  2722 D BluetoothAdapterState: Stopping profile services that were post enabled
+,08-17 15:50:31.673  2661  2661 E BluetoothAdapterService(89749189): processProfileServiceStateChanged() serviceName=com.android.bluetooth.gatt.GattService, state=10, doUpdate=false
+08-17 15:50:31.673  2661  2661 D HeadsetService: Received stop request...Stopping profile...
+,08-17 15:50:31.673  2661  2661 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@55976c5
+,08-17 15:50:31.673  1015  1015 D AudioService: onServiceDisconnected: Bluetooth profile: 1
+,08-17 15:50:31.683  2661  2661 D A2dpService: Received stop request...Stopping profile...
+,08-17 15:50:31.683  1317  1317 D HeadsetProfile: Bluetooth service disconnected
+,08-17 15:50:31.683  2661  2752 D A2dpStateMachine: Exit Disconnected: -1
+,08-17 15:50:31.683  2661  2661 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@55976c5
+,08-17 15:50:31.683  2661  2661 D HidService: Received stop request...Stopping profile...
+08-17 15:50:31.683  2661  2661 D HidService: Stopping Bluetooth HidService
+08-17 15:50:31.683  2661  2661 W BluetoothHidServiceJni: Cleaning up Bluetooth HID Interface...
+08-17 15:50:31.683  2661  2661 W bt-btif : cleanup: HH disabling or disabled already, status = 0
+08-17 15:50:31.683  2661  2661 W BluetoothHidServiceJni: Cleaning up Bluetooth GID callback object
+,08-17 15:50:31.683  1015  1015 D BluetoothA2dp: Proxy object disconnected
+,08-17 15:50:31.683  2661  2661 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@55976c5
+,08-17 15:50:31.683  1317  1317 D BluetoothA2dp: Proxy object disconnected
+08-17 15:50:31.683  1317  1317 D A2dpProfile: Bluetooth service disconnected
+,08-17 15:50:31.683  2859  2859 D BluetoothA2dp: Proxy object disconnected
+,08-17 15:50:31.693  1015  1015 D AudioService: onServiceDisconnected: Bluetooth profile: 2
+,08-17 15:50:31.693  1317  1317 D BluetoothInputDevice: Proxy object disconnected
+,08-17 15:50:31.693  1317  1317 D HidProfile: Bluetooth service disconnected
+,08-17 15:50:31.693  2661  2661 D HealthService: Received stop request...Stopping profile...
+08-17 15:50:31.693  2661  2661 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@55976c5
+,08-17 15:50:31.693  2661  2661 D PanService: Received stop request...Stopping profile...
+,08-17 15:50:31.693  2661  2661 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@55976c5
+,08-17 15:50:31.703  1015  1015 D BluetoothPan: BluetoothPAN Proxy object disconnected
+,08-17 15:50:31.703  2661  2661 D BluetoothMapService: Received stop request...Stopping profile...
+,08-17 15:50:31.703  1015  1027 D BatteryService: !@BatteryListener : batteryPropertiesChanged!
+,08-17 15:50:31.703  1015  1027 D BatteryService: level:95, scale:100, status:2, health:2, present:true, voltage: 4185, temperature: 287, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303736, invalid charger:0
+08-17 15:50:31.703  1015  1027 D BatteryService: online:4, current avg:0, charge type:1, power sharing:false, high voltage charger:false, capacity:230000, current_now:0
+08-17 15:50:31.703  1015  1027 D BatteryService: stay LED for charging
+08-17 15:50:31.703  1015  1015 D BatteryService: Sending ACTION_BATTERY_CHANGED.
+,08-17 15:50:31.703  1317  1317 D BluetoothPan: BluetoothPAN Proxy object disconnected
+08-17 15:50:31.703  1317  1317 D PanProfile: Bluetooth service disconnected
+,08-17 15:50:31.703  1015  1015 I MotionRecognitionService: Plugged
+08-17 15:50:31.703  1015  1015 I MotionRecognitionService: mGripSensorEnabled= false
+,08-17 15:50:31.703  1174  1174 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+,08-17 15:50:31.703  1174  1174 D KeyguardUpdateMonitor: handleBatteryUpdate
+,08-17 15:50:31.713  1417  1417 V EmergencyMode: [EmergencyStateReceiver] onReceive : android.intent.action.BATTERY_CHANGED
+08-17 15:50:31.713  1417  1417 V EmergencyMode: [EmergencyStateReceiver] ACTION_BATTERY_CHANGED mBatteryLevelForLogging = 95
+,08-17 15:50:31.713  6354  6354 D StrictMode: StrictMode policy violation; ~duration=234 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=31 violation=2
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1137)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:182)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at libcore.io.IoUtils.canOpenReadOnly(IoUtils.java:165)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at dalvik.system.DexPathList.findLibrary(DexPathList.java:383)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at dalvik.system.BaseDexClassLoader.findLibrary(BaseDexClassLoader.java:77)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.lang.Runtime.loadLibrary(Runtime.java:360)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.lang.System.loadLibrary(System.java:989)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.libraries.social.jni.crashreporter.NativeCrashHandler.a(PG:189)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.libraries.social.jni.crashreporter.NativeCrashHandler.a(PG:1060)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.a.a(PG:82)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.a(PG:195)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.onCreate(PG:164)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1020)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5256)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread.access$1600(ActivityThread.java:181)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1543)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.Looper.loop(Looper.java:145)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:6145)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.lang.reflect.Method.invoke(Method.java:372)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1399)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1194)
+08-17 15:50:31.713  6354  6354 D StrictMode: StrictMode policy violation; ~duration=225 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=31 violation=2
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1137)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:182)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at libcore.io.IoUtils.canOpenReadOnly(IoUtils.java:165)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at dalvik.system.DexPathList.findLibrary(DexPathList.java:383)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at dalvik.system.BaseDexClassLoader.findLibrary(BaseDexClassLoader.java:77)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.lang.Runtime.loadLibrary(Runtime.java:360)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.lang.System.loadLibrary(System.java:989)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.map.util.jni.NativeHelper.initialize(PG:48)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.map.l.g.<clinit>(PG:92)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.a.a(PG:189)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.g,mm.base.app.a.a(PG:1211)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.a(PG:195)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.onCreate(PG:164)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1020)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5256)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread.access$1600(ActivityThread.java:181)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1543)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.Looper.loop(Looper.java:145)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:6145)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.lang.reflect.Method.invoke(Method.java:372)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1399)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1194)
+08-17 15:50:31.713  6354  6354 D StrictMode: StrictMode policy violation; ~duration=171 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=31 violation=2
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1137)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at libcore.io.BlockGuardOs.access(BlockGuardOs.java:67)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.io.File.doAccess(File.java:283)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.io.File.exists(File.java:363)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ContextImpl.createFilesDirLocked(ContextImpl.java:1366)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ContextImpl.getFilesDir(ContextImpl.java:1389)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:1331)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:190)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.shared.f.h.a(PG:150)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.map.l.s.a(PG:7682)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.b.a.ca.a(PG:125)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.map.l.g.a(PG:1530)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.a.a(PG:189)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.a.a(PG:1211)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.a(PG:195)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.onCreate(PG:164)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1020)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5256)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread.access$1600(ActivityThread.java:181)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1543)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.Looper.loop(Looper.java:145)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityTh,read.main(ActivityThread.java:6145)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.lang.reflect.Method.invoke(Method.java:372)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1399)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1194)
+08-17 15:50:31.713  6354  6354 D StrictMode: StrictMode policy violation; ~duration=171 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=31 violation=2
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1137)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:182)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at libcore.io.IoBridge.open(IoBridge.java:442)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.io.FileInputStream.<init>(FileInputStream.java:76)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:1332)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:190)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.shared.f.h.a(PG:150)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.map.l.s.a(PG:7682)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.b.a.ca.a(PG:125)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.map.l.g.a(PG:1530)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.a.a(PG:189)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.a.a(PG:1211)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.a(PG:195)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.onCreate(PG:164)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1020)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5256)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread.access$1600(ActivityThread.java:181)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1543)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.Looper.loop(Looper.java:145)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:6145)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.lang.reflect.Method.invoke(Method.java:372)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1399)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1194)
+08-17 15:50:31.713  6354  6354 D StrictMode: StrictMode policy violation; ~duration=170 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=31 violation=2
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1137)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at libcore.io.BlockGuardOs.fstat(BlockGuardOs.java:132)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at libcore.io.IoBridge.open(IoBridge.java:445)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.io.FileInputStream.<init>(FileInputStream.java:76)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:1332)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:190)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.shared.f.h.a(PG:150)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.map.l.s.a(PG:7682)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.b.a.ca.a(PG:125)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.map.l.g.a(PG:1530)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.a.a(PG:189)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.a.a(PG:1211)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.a(PG:195)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.onCreate(PG:164)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1020)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5256)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread.access$1600(ActivityThread.java:181)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1543)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.Looper.loop(Looper.java:145)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:6145)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.lang.reflect.Method.invoke(Method.java:372)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1399)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1194)
+08-17 15:50:31.713  6354  6354 D StrictMode: StrictMode policy violation; ~duration=168 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=31 violation=2
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1137)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at libcore.io.BlockGuardOs.read(BlockGuardOs.java:229)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at libcore.io.IoBridge.read(IoBridge.java:472)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.io.FileInputStream.read(FileInputStream.java:177)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.io.BufferedInputStream.read(BufferedInputStream.java:290)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.io.DataInputStream.read(DataInputStream.java:63)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.r.k.c(PG:1187)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.r.k.a(PG:2107)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.v.a.a.eq.<init>(PG:23)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.v.a.a.eq.a(PG:12397)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.r.v.a(PG:1206)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.r.y.a(PG:2233)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.r.e.b(PG:170)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.r.e.b(PG:13188)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.shared.f.h.a(PG:151)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.map.l.s.a(PG:7682)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.b.a.ca.a(PG:125)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.map.l.g.a(PG:1530)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.a.a(PG:189)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.a.a(PG:1211)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.a(PG:195)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.onCreate(PG:164)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1020)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5256)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread.access$1600(ActivityThread.java:181)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1543)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.Looper.loop(Looper.java:145)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:6145)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.lang.reflect.Method.invoke(Method.java:372)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1399)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1194)
+08-17 15:50:31.713  6354  6354 D StrictMode: StrictMode policy violation; ~duration=166 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=31 violation=2
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1137)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at libcore.io.BlockGuardOs.read(BlockGuardOs.java:229)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at libcore.io.IoBridge.read(IoBridge.java:472)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.io.FileInputStream.read(FileInputStream.java:177)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.io.BufferedInputStream.read(BufferedInputStream.java:290)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.io.DataInputStream.read(DataInputStream.java:63)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.r.k.c(PG:1187)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.r.k.b(PG:14147)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.r.k.c(PG:583)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.v.a.a.eq.<init>(PG:40)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.v.a.a.eq.a(PG:12397)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.r.v.a(PG:1206)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.r.y.a(PG:2233)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.r.e.b(PG:170)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.r.e.b(PG:13188)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.shared.f.h.a(PG:151)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.map.l.s.a(PG:7682)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.b.a.ca.a(PG:125)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.map.l.g.a(PG:1530)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.a.a(PG:189)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.a.a(PG:1211)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.a(PG:195)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.onCreate(PG:164)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1020)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5256)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread.access$1600(ActivityThread.java:181)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1543)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.Looper.loop(Looper.java:145)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:6145)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.lang.reflect.Method.invoke(Method.java:372)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1399)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1194)
+08-17 15:50:31.713  6354  6354 D StrictMode: StrictMode policy violation; ~duration=142 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=31 violation=2
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1137)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at libcore.io.BlockGuardOs.access(BlockGuardOs.java:67)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.io.File.doAccess(File.java:283)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.io.File.exists(File.java:363)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ContextImpl.createFilesDirLocked(ContextImpl.java:1366)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ContextImpl.getFilesDir(ContextImpl.java:1389)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ContextImpl.getFileStreamPath(ContextImpl.java:1497)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.content.ContextWrapper.getFileStreamPath(ContextWrapper.java:206)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.map.l.s.a(PG:7690)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.b.a.ca.a(PG:125)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.map.l.g.a(PG:1530)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.a.a(PG:189)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.a.a(PG:1211)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.a(PG:195)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.onCreate(PG:164)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1020)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5256)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread.access$1600(ActivityThread.java:181)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1543)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.os.Looper.loop(Looper.java:145)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:6145)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at java.lang.reflect.Method.invoke(Method.java:372)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1399)
+08-17 15:50:31.713  6354  6354 D StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1194)
+08-17 15:50:31.723  2661  2661 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@55976c5
+08-17 15:50:31.723  1015  2925 I ActivityManager: Killing 5329:com.google.android.talk/u0a104 (adj 15): empty #31
+08-17 15:50:31.723  1317  1317 D BluetoothMap: Proxy object disconnected
+08-17 15:50:31.723  1317  1317 D MapProfile: Bluetooth service disconnected
+08-17 15:50:31.723  2661  2661 D SapService: Received stop request...Stopping profile...
+08-17 15:50:31.723  2661  2661 D SapService: Stopping Bluetooth SapService
+08-17 15:50:31.723  2661  2661 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@55976c5
+08-17 15:50:31.723  1317  1317 D Bluetoothsap: BluetoothSAP Proxy object disconnected
+08-17 15:50:31.723  1317  1317 D SapProfile: Bluetooth service disconnected
+08-17 15:50:31.723  2661  2661 E BluetoothAdapterService(89749189): processProfileServiceStateChanged() serviceName=com.android.bluetooth.hfp.HeadsetService, state=10, doUpdate=true
+08-17 15:50:31.723  1932  1932 D EasyUnlockReceiver: Received Bluetooth event: Intent { act=android.bluetooth.adapter.action.STATE_CHANGED flg=0x4000010 cmp=com.google.android.gms/.auth.easyunlock.authorization.BluetoothStateChangeReceiver (has extras) }.
+08-17 15:50:31.723  2661  2661 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hid.HidService
+08-17 15:50:31.733  2661  2661 D BluetoothAdapterService: Profile still running: com.android.bluetooth.hid.HidService
+08-17 15:50:31.733  1174  1174 D BatteryMeterView: ACTION_BATTERY_CHANGED : level:95 status:2 health:2
+08-17 15:50:31.733  1174  1174 D BatteryMeterView: ACTION_BATTERY_CHANGED : level:95 status:2 health:2
+08-17 15:50:31.733  1174  1174 D BatteryMeterView: ACTION_BATTERY_CHANGED : level:95 status:2 health:2
+08-17 15:50:31.733  1932  1932 D BtServices: Received Bluetooth event: Intent { act=android.bluetooth.adapter.action.STATE_CHANGED flg=0x4000010 cmp=com.google.android.gms/.auth.proximity.BluetoothServicesAdapterStateChangeReceiver (has extras) }.
+08-17 15:50:31.733  2661  2661 W BluetoothHeadsetServiceJni: Cleaning up Bluetooth Handsfree Interface...
+08-17 15:50:31.733  2661  2661 W BluetoothHeadsetServiceJni: Cleaning up Bluetooth Handsfree callback object
+08-17 15:50:31.733  2661  2661 E BluetoothAdapterService(89749189): processProfileServiceStateChanged() serviceName=com.android.bluetooth.a2dp.A2dpService, state=10, doUpdate=true
+08-17 15:50:31.733  2661  2661 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hid.HidService
+08-17 15:50:31.733  2661  2661 D BluetoothAdapterService: Profile still running: com.android.bluetooth.hid.HidService
+08-17 15:50:31.733  2661  2754 I GKI_LINUX: gki_task task_id=2 [A2DP-MEDIA] terminating
+08-17 15:50:31.733  2661  2661 I GKI_LINUX: GKI_exit_task 2 done
+08-17 15:50:31.733  2661  2661 I GKI_LINUX: GKI_shutdown(): task [A2DP-MEDIA] terminated
+08-17 15:50:31.743  2661  2661 D BluetoothA2dp: Proxy object disconnected
+08-17 15:50:31.743  2661  2661 D BluetoothAdapterService: Bluetooth A2dp source service disconnected
+08-17 15:50:31.743  2661  2661 E BluetoothAdapterService(89749189): processProfileServiceStateChanged() serviceName=com.android.bluetooth.hid.HidService, state=10, doUpdate=true
+08-17 15:50:31.743  2661  2661 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.map.BluetoothMapService
+08-17 15:50:31.743  2661  2661 D BluetoothAdapterService: Profile still running: com.android.bluetooth.map.BluetoothMapService
+08-17 15:50:31.743  2661  2661 E BluetoothAdapterService(89749189): processProfileServiceStateChanged() serviceName=com.android.bluetooth.hdp.HealthService, state=10, doUpdate=true
+08-17 15:50:31.743  2661  2661 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.map.BluetoothMapService
+08-17 15:50:31.743  2661  2661 D BluetoothAdapterService: Profile still running: com.android.bluetooth.map.BluetoothMapService
+08-17 15:50:31.743  2661  2661 W BluetoothHealthServiceJni: Cleaning up Bluetooth Health Interface...
+08-17 15:50:31.743  2661  2661 W BluetoothHealthServiceJni: Cleaning up Bluetooth Health object
+08-17 15:50:31.743  2661  2661 E BluetoothAdapterService(89749189): processProfileServiceStateChanged() serviceName=com.android.bluetooth.pan.PanService, state=10, doUpdate=true
+08-17 15:50:31.743  2661  2661 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.map.BluetoothMapService
+08-17 15:50:31.743  2661  2661 D BluetoothAdapterService: Profile still running: com.android.bluetooth.map.BluetoothMapService
+08-17 15:50:31.743  2661  2661 W BluetoothPanServiceJni: Cleaning up Bluetooth PAN Interface...
+08-17 15:50:31.743  2661  2661 W BluetoothPanServiceJni: Cleaning up Bluetooth PAN callback object
+08-17 15:50:31.743  2661  2661 E BluetoothAdapterService(89749189): processProfileServiceStateChanged() serviceName=com.android.bluetooth.map.BluetoothMapService, state=10, doUpdate=true
+08-17 15:50:31.743  2661  2661 D BtSettings.ProfileConfig: getProfileSaveSetting: com.broadcom.bt.service.sap.SapService
+08-17 15:50:31.743  2661  2661 D BluetoothAdapterService: Profile still running: com.broadcom.bt.service.sap.SapService
+08-17 15:50:31.743  2661  2661 E BluetoothAdapterService(89749189): processProfileServiceStateChanged() serviceName=com.broadcom.bt.service.sap.SapService, state=10, doUpdate=true
+08-17 15:50:31.743  2661  2661 W BluetoothSAPServiceJni: ## WARNING : cleanupNative(L251): Cleaning up Bluetooth SAP Interface...##
+08-17 15:50:31.743  2661  2661 W BluetoothSAPServiceJni: ## WARNING : cleanupNative(L257): Cleaning up Bluetooth SAP callback object##
+08-17 15:50:31.743  2661  2722 D BluetoothAdapterState: CURRENT_STATE=PENDING,MSG = STOPPED, isTurningOn=false, isTurningOff=true
+08-17 15:50:31.743  2661  2722 D BluetoothAdapterProperties: Setting state to 10
+08-17 15:50:31.743  2661  2722 I BluetoothAdapterState: Bluetooth adapter state changed: 13-> 10
+08-17 15:50:31.743  2661  2722 D BluetoothAdapterService: Bluetooth PBAP supproted is true
+08-17 15:50:31.743  2661  2722 D BluetoothAdapterService: updateAdapterState state is 10
+08-17 15:50:31.743  2661  2722 D BluetoothAdapterService: Autoconnection is available 
+08-17 15:50:31.743  2661  2722 D BluetoothAdapterService: updateAdapterState prevState = 13newState = 10
+08-17 15:50:31.743  2661  2722 I BluetoothAdapterState: Entering OffState
+08-17 15:50:31.743  1317  1329 D BluetoothMap: onBluetoothStateChange: up=false
+08-17 15:50:31.743  6195  6203 D BluetoothAdapter: onBluetoothStateChange: up=false
+08-17 15:50:31.743  6195  6203 D BluetoothAdapter: Bluetooth is turned off, stop adv and scan
+08-17 15:50:31.753  6195  6203 D BluetoothLeAdvertiser: stop All Advertising :: standalone boolean value is = false
+08-17 15:50:31.753  6195  6203 D BluetoothLeAdvertiser: Exit stop advertising
+08-17 15:50:31.753  6195  6203 D BluetoothLeScanner: stopAllScan standalone boolean is value is = false
+08-17 15:50:31.753  6195  6203 D BluetoothLeScanner: Exiting stopAllScan
+08-17 15:50:31.753  1456  1676 D BluetoothAdapter: onBluetoothStateChange: up=false
+08-17 15:50:31.753  1456  1676 D BluetoothAdapter: Bluetooth is turned off, stop adv and scan
+08-17 15:50:31.753  1317  1333 D BluetoothAdapter: onBluetoothStateChange: up=false
+08-17 15:50:31.753  1317  1333 D BluetoothAdapter: Bluetooth is turned off, stop adv and scan
+08-17 15:50:31.753  1015  1044 D BluetoothA2dp: onBluetoothStateChange: up=false
+08-17 15:50:31.753  2661  2675 D BluetoothAdapter: onBluetoothStateChange: up=false
+08-17 15:50:31.753  2661  2675 D BluetoothAdapter: Bluetooth is turned off, stop adv and scan
+08-17 15:50:31.753  1317  1329 D BluetoothInputDevice: onBluetoothStateChange: up=false
+,08-17 15:50:31.753  1932  1944 D BluetoothAdapter: onBluetoothStateChange: up=false
+08-17 15:50:31.753  1932  1944 D BluetoothAdapter: Bluetooth is turned off, stop adv and scan
+08-17 15:50:31.753  2661  2966 D BluetoothA2dp: onBluetoothStateChange: up=false
+08-17 15:50:31.763  1317  6381 D BluetoothPbap: onBluetoothStateChange: up=false
+08-17 15:50:31.763  1317  1329 D BluetoothA2dp: onBluetoothStateChange: up=false
+08-17 15:50:31.763  1443  1454 D BluetoothAdapter: onBluetoothStateChange: up=false
+08-17 15:50:31.763  1443  1454 D BluetoothAdapter: Bluetooth is turned off, stop adv and scan
+08-17 15:50:31.763  2859  2877 D BluetoothAdapter: onBluetoothStateChange: up=false
+08-17 15:50:31.763  2859  2877 D BluetoothAdapter: Bluetooth is turned off, stop adv and scan
+08-17 15:50:31.763  1431  1453 D BluetoothAdapter: onBluetoothStateChange: up=false
+08-17 15:50:31.763  1431  1453 D BluetoothAdapter: Bluetooth is turned off, stop adv and scan
+08-17 15:50:31.763  1015  1044 D BluetoothAdapter: onBluetoothStateChange: up=false
+08-17 15:50:31.763  1015  1044 D BluetoothAdapter: Bluetooth is turned off, stop adv and scan
+08-17 15:50:31.763  1317  1333 D Bluetoothsap: onBluetoothStateChange: up=false
+08-17 15:50:31.763  1317  1333 D Bluetoothsap: Unbinding service...
+08-17 15:50:31.763   314   314 I ServiceManager: Waiting for service AtCmdFwd...
+08-17 15:50:31.763  1174  1187 D BluetoothAdapter: onBluetoothStateChange: up=false
+08-17 15:50:31.763  1174  1187 D BluetoothAdapter: Bluetooth is turned off, stop adv and scan
+08-17 15:50:31.763  2859  2877 D BluetoothA2dp: onBluetoothStateChange: up=false
+08-17 15:50:31.773  1015  1044 D BluetoothManagerService: Broadcasting onBluetoothServiceDown() to 10 receivers.
+08-17 15:50:31.773  1015  1044 D BluetoothManagerService: Broadcasting onBluetoothServiceUp() to 0 receivers.
+08-17 15:50:31.783  1015  1015 W InputMethodManagerService: InputMethodService onReceive() intentActionandroid.bluetooth.adapter.action.STATE_CHANGED
+08-17 15:50:31.783  1015  1015 I InputMethodManagerService: [BT Setting State] State =10
+08-17 15:50:31.783  1015  1015 I InputMethodManagerService: [BT Setting on -> off] mBTKeyboardCount =0, KEYBOARD_BT(0)
+08-17 15:50:31.783  2661  2725 I GKI_LINUX: gki_task task_id=1 [BTIF] terminating
+08-17 15:50:31.783  2661  2661 I GKI_LINUX: GKI_exit_task 1 done
+08-17 15:50:31.783  2661  2661 I GKI_LINUX: GKI_shutdown(): task [BTIF] terminated
+08-17 15:50:31.783  2661  2661 I BluetoothServiceJni: cleanupNative: return from cleanup
+08-17 15:50:31.783  1174  1174 D BluetoothAdapter: 410131130: getState() :  mService = null. Returning STATE_OFF
+08-17 15:50:31.783  1174  1174 D BluetoothTile:  onBluetoothPairedDevicesChanged:
+08-17 15:50:31.783  1174  1721 D BluetoothAdapter: 410131130: getState() :  mService = null. Returning STATE_OFF
+08-17 15:50:31.783  1174  1174 D BluetoothTile: onReceive : android.bluetooth.adapter.action.STATE_CHANGED
+08-17 15:50:31.783  1174  1174 D BluetoothTile:  getBluetoothState : 10
+08-17 15:50:31.793  1174  1721 D BluetoothAdapter: 410131130: getState() :  mService = null. Returning STATE_OFF
+08-17 15:50:31.793  1174  1174 D BluetoothAdapter: 410131130: getState() :  mService = null. Returning STATE_OFF
+08-17 15:50:31.793  1174  1174 D BluetoothAdapter: 410131130: getState() :  mService = null. Returning STATE_OFF
+08-17 15:50:31.793  1015  1485 D StatusBarManagerService: setIcon slot=bluetooth index=16 icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=true num=0 )
+08-17 15:50:31.793  1015  1486 D StatusBarManagerService: setIconVisibility slot=bluetooth visible=false
+08-17 15:50:31.793  1834  1834 I SamsungIME: STATE_CHANGED = 10, KEYBOARD_BT(0), mBTKeyboardCount =0
+08-17 15:50:31.793  1174  1174 D PhoneStatusBar: updateIcon slot=bluetooth index=16 viewIndex=2 old=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=false num=0 ) icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=false num=0 )
+08-17 15:50:31.793  1932  2112 D BluetoothAdapter: 306646425: getState() :  mService = null. Returning STATE_OFF
+08-17 15:50:31.793  1932  2112 D BluetoothAdapter: 306646425: getState() :  mService = null. Returning STATE_OFF
+08-17 15:50:31.793  2661  2661 I art     : System.exit called, status: 0
+08-17 15:50:31.793  2661  2661 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.
+08-17 15:50:31.793  1317  1317 V BluetoothEventManager: Received android.bluetooth.adapter.action.STATE_CHANGED
+08-17 15:50:31.793  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:31.793  1015  1502 D ActivityManager: startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+,08-17 15:50:31.793  6354  6372 W com.google.a.a.b.d.a: Application name is not set. Call Builder#setApplicationName.
+08-17 15:50:31.793  1015  1502 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService; callingUser = 0; userId(target) = 0
+,08-17 15:50:31.793  1015  1502 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:31.803  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+08-17 15:50:31.803  1015  1502 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:31.803  1015  1502 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:31.803  1317  1317 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:2063 android.content.ContextWrapper.startService:533 android.content.ContextWrapper.startService:533 com.android.settings.bluetooth.DockEventReceiver.beginStartingService:134 com.android.settings.bluetooth.DockEventReceiver.onReceive:115 
+,08-17 15:50:31.803  1015  1503 D ActivityManager: startService callerProcessName:com.android.settings, calleePkgName: com.android.settings
+,08-17 15:50:31.803  1015  1503 D ActivityManager: retrieveServiceLocked(): component = com.android.settings/com.android.settings.bluetooth.DockService; callingUser = 0; userId(target) = 0
+,08-17 15:50:31.803  1015  1503 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:31.803  1015  1503 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,08-17 15:50:31.803  1015  1503 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.settings, destAppInfo.processName = com.android.settings
+,08-17 15:50:31.823  1317  1317 D DockEventReceiver: finishStartingService: stopping service
+,08-17 15:50:31.823  1015  3214 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+08-17 15:50:31.823  1317  1317 D BluetoothNotiBroadcastReceiver: onReceive
+,08-17 15:50:31.823  1015  3214 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:31.823  1015  3214 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:31.823  1015  3214 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.apps.maps, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:31.823  1174  1174 V BluetoothStatusReceiver: Received android.bluetooth.adapter.action.STATE_CHANGED
+,08-17 15:50:31.823  1174  1174 D BluetoothStatusReceiver: AdapterStateChanged :: BluetoothAdapter.ACTION_STATE_CHANGED, state = 10
+,08-17 15:50:31.833  1015  1028 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!
+,08-17 15:50:31.843  1015  1028 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!
+,08-17 15:50:31.843  1015  1028 W BroadcastQueue: Exception when sending broadcast to ComponentInfo{com.android.bluetooth/com.android.bluetooth.opp.BluetoothOppReceiver}
+08-17 15:50:31.843  1015  1028 W BroadcastQueue: android.os.TransactionTooLargeException
+08-17 15:50:31.843  1015  1028 W BroadcastQueue: 	at android.os.BinderProxy.transactNative(Native Method)
+08-17 15:50:31.843  1015  1028 W BroadcastQueue: 	at android.os.BinderProxy.transact(Binder.java:496)
+08-17 15:50:31.843  1015  1028 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleReceiver(ApplicationThreadNative.java:969)
+08-17 15:50:31.843  1015  1028 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processCurBroadcastLocked(BroadcastQueue.java:310)
+08-17 15:50:31.843  1015  1028 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:1284)
+08-17 15:50:31.843  1015  1028 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService.finishReceiver(ActivityManagerService.java:20437)
+08-17 15:50:31.843  1015  1028 W BroadcastQueue: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:472)
+08-17 15:50:31.843  1015  1028 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:3278)
+08-17 15:50:31.843  1015  1028 W BroadcastQueue: 	at android.os.Binder.execTransact(Binder.java:446)
+,08-17 15:50:31.843  1015  1028 D ActivityManager: startProcessLocked calleePkgName: com.android.bluetooth, hostingType: broadcast
+,08-17 15:50:31.843  1015  1028 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:31.843  1015  1028 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:31.843  1015  1028 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:31.843  1015  1028 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:31.853  6389  6389 E Zygote  : MountEmulatedStorage()
+08-17 15:50:31.853  6389  6389 E Zygote  : v2
+08-17 15:50:31.853  6389  6389 I libpersona: KNOX_SDCARD checking this for 1002
+08-17 15:50:31.853  6389  6389 I libpersona: KNOX_SDCARD not a persona
+08-17 15:50:31.853  6389  6389 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+08-17 15:50:31.853  1015  1028 I ActivityManager: Start proc com.android.bluetooth for broadcast com.android.bluetooth/.opp.BluetoothOppReceiver: pid=6389 uid=1002 gids={41002, 9997, 3003, 3002, 3001, 1028, 1015, 3005, 1016, 3008} abi=armeabi-v7a
+,08-17 15:50:31.863  6389  6389 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+,08-17 15:50:31.863  6389  6389 E SELinux : [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,08-17 15:50:31.883  6389  6389 D TimaKeyStoreProvider: TimaSignature is unavailable
+,08-17 15:50:31.883  6389  6389 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:31.893  6389  6389 W ResourcesManager: Asset path '/system/framework/javax.obex.jar' does not exist or contains no resources.
+,08-17 15:50:31.893  6389  6389 W ResourcesManager: Asset path '/system/framework/com.broadcom.bt.jar' does not exist or contains no resources.
+,08-17 15:50:31.923  6389  6389 I BluetoothA2dpSinkServiceJni: register_com_android_bluetooth_a2dp_sink
+,08-17 15:50:31.933  1015  1125 D WifiP2pService: InactiveState{ what=143375 }
+,08-17 15:50:31.933  1174  1174 D StatusBar.NetworkController: refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+,08-17 15:50:31.933  1174  1174 D STATUSBAR-WifiQuickSettingButton: onWifiSignalChanged enabled=true enabledDesc:"NG700"
+08-17 15:50:31.933  1015  1125 D WifiP2pService: P2pEnabledState{ what=143375 }
+08-17 15:50:31.933  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:31.933  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:31.933  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:31.933  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:31.933   278  1014 D CommandListener: Clearing all IP addresses on wlan0
+08-17 15:50:31.943  1932  4383 V NativeCrypto: Read error: ssl=0xb84b78b0: I/O error during system call, Connection timed out
+,08-17 15:50:31.943  1932  4383 V NativeCrypto: SSL shutdown failed: ssl=0xb84b78b0: I/O error during system call, Broken pipe
+,08-17 15:50:31.953  1932  4383 E GCM     : Wifi connection closed with errorCode 20
+08-17 15:50:31.953  1015  1128 D ConnectivityService: NetworkAgentInfo [WIFI () - 502] EVENT_NETWORK_INFO_CHANGED, going from CONNECTED to DISCONNECTED, reason = null, [ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps]
+08-17 15:50:31.953  1015  1128 E ConnectivityService: updateNetworkInfo()
+08-17 15:50:31.953  1015  1128 D ConnectivityService: NetworkAgentInfo [WIFI () - 502] got DISCONNECTED, was satisfying 3,
+08-17 15:50:31.953  1015  1128 E ConnectivityService: updateNetworkInfo()
+,08-17 15:50:31.953  1015  1015 I WifiTrafficPoller: evaluateTrafficStatsPolling
+,08-17 15:50:31.953  1015  1218 D ConnectivityService: reportBadNetwork(NetworkAgentInfo [WIFI () - 502]) by 10012
+08-17 15:50:31.953  1015  2274 D NetworkMonitorNetworkAgentInfo [WIFI () - null]: ValidatedState{ when=0 what=532488 arg1=10012 target=com.android.internal.util.StateMachine$SmHandler }
+08-17 15:50:31.953  1015  2274 D NetworkMonitorNetworkAgentInfo [WIFI () - null]: DefaultState{ when=0 what=532488 arg1=10012 target=com.android.internal.util.StateMachine$SmHandler }
+08-17 15:50:31.953  1015  2274 D NetworkMonitorNetworkAgentInfo [WIFI () - null]: Forcing reevaluation
+08-17 15:50:31.953  1015  2274 D NetworkMonitorNetworkAgentInfo [WIFI () - null]: EvaluatingState{ when=-1ms what=532486 arg1=2 target=com.android.internal.util.StateMachine$SmHandler }
+08-17 15:50:31.953  1015  2274 D NetworkMonitorNetworkAgentInfo [WIFI () - null]: Checking http://connectivitycheck.android.com/generate_204 on <unknown ssid>
+08-17 15:50:31.953  1015  2274 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+08-17 15:50:31.953  1015  2274 I qtaguid : Tagging socket 361 with tag ffffffff00000000{4294967295,0} for uid 10012, pid: 1015, getuid(): 1000
+,08-17 15:50:31.963  1015  2274 I qtaguid : Untagging socket 361
+08-17 15:50:31.963  1015  2274 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+,08-17 15:50:31.973  1015  1126 D WifiNetworkAgent: NetworkAgent: NetworkAgent channel lost
+,08-17 15:50:31.973  1015  1125 D WifiP2pService: InactiveState{ what=131204 }
+,08-17 15:50:31.973  1015  1125 D WifiP2pService: P2pEnabledState{ what=131204 }
+08-17 15:50:31.973  1174  1174 D StatusBar.NetworkController: refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f020561/com.android.systemui:drawable/stat_sys_wifi_signal_0 mQSWifiIconId=0x7f020157/com.android.systemui:drawable/ic_qs_wifi_no_network mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+08-17 15:50:31.973  1174  1174 D STATUSBAR-WifiQuickSettingButton: onWifiSignalChanged enabled=true enabledDesc:null
+08-17 15:50:31.973  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:31.973  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:31.973  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:31.983  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,08-17 15:50:31.983  1015  1015 D WifiScanningService: SCAN_AVAILABLE : 1
+08-17 15:50:31.983  1015  1125 D WifiP2pService: sending p2p connection changed broadcast: FAILED
+08-17 15:50:31.983  1015  1149 D WifiScanningService: DefaultState got{ when=-1ms what=160007 target=com.android.internal.util.StateMachine$SmHandler }
+,08-17 15:50:31.983  1015  1015 D RttService: SCAN_AVAILABLE : 1
+08-17 15:50:31.983  1015  1045 D WifiDisplayController: Received WIFI_P2P_CONNECTION_CHANGED_ACTION: networkInfo=[type: WIFI_P2P[] - WIFI_P2P, state: DISCONNECTED/FAILED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+08-17 15:50:31.983  1015  1150 D RttService: EnabledState got{ when=0 what=160513 target=com.android.internal.util.StateMachine$SmHandler }
+08-17 15:50:31.983  1015  1045 D WifiDisplayAdapter: onP2pDisconnected
+,08-17 15:50:31.993  6389  6389 D BtSettings.ProfileConfig: Adding GattService
+,08-17 15:50:31.993  6389  6389 D BtSettings.ProfileConfig: Adding HeadsetService
+08-17 15:50:31.993  6389  6389 D BtSettings.ProfileConfig: Adding A2dpService
+08-17 15:50:31.993  6389  6389 D BtSettings.ProfileConfig: Adding HidService
+08-17 15:50:31.993  6389  6389 D BtSettings.ProfileConfig: Adding HealthService
+08-17 15:50:31.993  6389  6389 D BtSettings.ProfileConfig: Adding PanService
+,08-17 15:50:31.993  6389  6389 D BtSettings.ProfileConfig: Adding BluetoothMapService
+08-17 15:50:31.993  6389  6389 D BtSettings.ProfileConfig: Adding SapService
+08-17 15:50:31.993  6389  6389 D BtSettings.ProfileConfig: Adding HeadsetClientService
+08-17 15:50:31.993  6389  6389 D BtSettings.ProfileConfig: Adding A2dpSinkService,
+08-17 15:50:31.993  6389  6389 D BtSettings.ProfileConfig: Adding SapClientService
+08-17 15:50:31.993  6389  6389 D BtSettings.ProfileConfig: Adding HidDevService
+08-17 15:50:31.993  6389  6389 I BtSettings.ProfileConfig: *********Initializing Bluetooth Profile Settings*******,
+,08-17 15:50:31.993  1015  1474 D SettingsProvider: name = bt_svcst_com.android.bluetooth.gatt.GattService
+08-17 15:50:31.993  1015  1474 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:31.993  1015  1474 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+08-17 15:50:31.993  1015  1045 D IpRemoteDisplayController: disconnectWfdBridgeServer
+08-17 15:50:31.993  1015  1474 D SettingsProvider: selectionArgs: false
+08-17 15:50:31.993  1015  1045 D IpRemoteDisplayController: WfdBridgeServer is already null
+08-17 15:50:31.993  1015  1474 D SettingsProvider: selectionArgs: 1002,
+08-17 15:50:31.993  1015  1125 D WifiP2pService: sending p2p connection changed broadcast: DISCONNECTED
+08-17 15:50:31.993  1015  1474 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+08-17 15:50:31.993  1015  1125 D WifiP2pService: P2pDisablingState
+,08-17 15:50:31.993  1015  1474 D SettingsProvider: ret = -1
+08-17 15:50:31.993  1015  3215 D SettingsProvider: name = bt_svcst_com.android.bluetooth.hfp.HeadsetService
+08-17 15:50:31.993  1015  1125 D WifiP2pService: P2pDisablingState{ what=147458 }
+,08-17 15:50:31.993  1015  3215 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:31.993  1015  1125 D WifiP2pService: p2p socket connection lost
+08-17 15:50:31.993  1015  3215 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+08-17 15:50:31.993  1015  1125 D WifiP2pService: P2pDisabledState
+,08-17 15:50:31.993  1015  3215 D SettingsProvider: selectionArgs: false
+08-17 15:50:32.003  1015  1045 D WifiDisplayController: Received WIFI_P2P_STATE_CHANGED_ACTION: enabled=false,
+08-17 15:50:31.993  1015  3215 D SettingsProvider: selectionArgs: 1002
+08-17 15:50:32.003  1015  1045 D WifiDisplayController: updateScanState() mScanRequested = false, mWfdEnabled = false, mDiscoverPeersInProgress = false
+08-17 15:50:31.993  1015  3215 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+,08-17 15:50:32.003  1015  1045 D WifiDisplayController: disconnect,
+,08-17 15:50:31.993  1015  3215 D SettingsProvider: ret = -1
+08-17 15:50:32.003  1015  1045 D WifiDisplayController: updateConnection
+,08-17 15:50:31.993  1015  1315 D SettingsProvider: name = bt_svcst_com.android.bluetooth.a2dp.A2dpService
+08-17 15:50:32.003  1015  1045 D WifiDisplayController: updateScanState() mScanRequested = false, mWfdEnabled = false, mDiscoverPeersInProgress = false
+08-17 15:50:31.993  1015  1315 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:32.003  1015  1045 D WifiDisplayAdapter: getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=1, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo: Client/Owner: Client GroupId:  Passphrase:  SessionId: 0 IP Address: , connectedState=-1, networkQoS=0}
+08-17 15:50:31.993  1015  1315 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+08-17 15:50:32.003  1015  1045 D WifiDisplayController: Received WIFI_P2P_CONNECTION_CHANGED_ACTION: networkInfo=[type: WIFI_P2P[] - WIFI_P2P, state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: false, isConnectedToProvisioningNetwork: false]
+08-17 15:50:31.993  1015  1315 D SettingsProvider: selectionArgs: false,
+08-17 15:50:32.003  1015  1045 D WifiDisplayAdapter: onP2pDisconnected
+08-17 15:50:31.993  1015  1315 D SettingsProvider: selectionArgs: 1002
+08-17 15:50:32.003  1015  1045 D IpRemoteDisplayController: disconnectWfdBridgeServer
+08-17 15:50:31.993  1015  1315 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+,08-17 15:50:32.003  1015  1045 D IpRemoteDisplayController: WfdBridgeServer is already null
+08-17 15:50:31.993  1015  1315 D SettingsProvider: ret = -1
+08-17 15:50:32.003  1174  1174 D AllShareCastTile: action: android.hardware.display.action.WIFI_DISPLAY_STATUS_CHANGED
+08-17 15:50:31.993  1015  1027 D SettingsProvider: name = bt_svcst_com.android.bluetooth.hid.HidService
+,08-17 15:50:32.003  1015  1503 D WifiDisplayAdapter: getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=1, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo: Client/Owner: Client GroupId:  Passphrase:  SessionId: 0 IP Address: , connectedState=-1, networkQoS=0}
+08-17 15:50:31.993  1015  1027 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:32.003  1174  1174 D AllShareCastTile: wifi display status changed! scanstate : 0, ActiveDisplayState : 0
+08-17 15:50:31.993  1015  1027 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+08-17 15:50:31.993  1015  1027 D SettingsProvider: selectionArgs: false
+08-17 15:50:31.993  1015  1027 D SettingsProvider: selectionArgs: 1002
+08-17 15:50:31.993  1015  1027 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+08-17 15:50:31.993  1015  1027 D SettingsProvider: ret = -1
+08-17 15:50:31.993  1015  1015 E WifiStateMachine: BroadcastReceiver : WIFI_P2P_STATE_CHANGED_ACTION is : android.net.wifi.p2p.STATE_CHANGED
+08-17 15:50:32.003  1015  1076 D SettingsProvider: name = bt_svcst_com.android.bluetooth.hdp.HealthService
+,08-17 15:50:32.003  1015  1076 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:32.003  1015  1076 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+08-17 15:50:32.003  1015  1076 D SettingsProvider: selectionArgs: false
+08-17 15:50:32.003  1015  1076 D SettingsProvider: selectionArgs: 1002
+,08-17 15:50:32.003  1015  1076 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed,
+,08-17 15:50:32.003  1015  1126 E WifiNative-wlan0: do suspend true
+,08-17 15:50:32.003  1015  1076 D SettingsProvider: ret = -1
+08-17 15:50:32.003  1015  3214 D SettingsProvider: name = bt_svcst_com.android.bluetooth.pan.PanService
+,08-17 15:50:32.003  1015  3214 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:32.003  1015  3214 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+08-17 15:50:32.003  1015  3214 D SettingsProvider: selectionArgs: false
+08-17 15:50:32.003  1015  3214 D SettingsProvider: selectionArgs: 1002
+08-17 15:50:32.003  1015  3214 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+08-17 15:50:32.003  1015  3214 D SettingsProvider: ret = -1
+08-17 15:50:32.003  1015  1485 D SettingsProvider: name = bt_svcst_com.android.bluetooth.map.BluetoothMapService
+08-17 15:50:32.003  1015  1485 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:32.003  1015  1485 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+08-17 15:50:32.003  1015  1485 D SettingsProvider: selectionArgs: false
+08-17 15:50:32.003  1015  1485 D SettingsProvider: selectionArgs: 1002
+08-17 15:50:32.003  1015  1485 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+08-17 15:50:32.003  1015  1485 D SettingsProvider: ret = -1
+08-17 15:50:32.003  1015  1502 D SettingsProvider: name = bt_svcst_com.broadcom.bt.service.sap.SapService
+08-17 15:50:32.003  1015  1502 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:32.003  1015  1502 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+08-17 15:50:32.003  1015  1502 D SettingsProvider: selectionArgs: false
+08-17 15:50:32.003  1015  1502 D SettingsProvider: selectionArgs: 1002
+08-17 15:50:32.003  1015  1502 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+,08-17 15:50:32.003  1015  1502 D SettingsProvider: ret = -1
+08-17 15:50:32.003  1015  1486 D SettingsProvider: name = bt_svcst_com.android.bluetooth.hfpclient.HeadsetClientService
+08-17 15:50:32.003  1015  1486 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:32.003  1015  1486 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+08-17 15:50:32.003  1015  1486 D SettingsProvider: selectionArgs: false
+08-17 15:50:32.003  1015  1486 D SettingsProvider: selectionArgs: 1002
+08-17 15:50:32.003  1015  1486 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+08-17 15:50:32.003  1015  1486 D SettingsProvider: ret = -1
+08-17 15:50:32.003  1015  1028 D SettingsProvider: name = bt_svcst_com.android.bluetooth.a2dp.A2dpSinkService
+08-17 15:50:32.003  1015  1028 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:32.013  1015  1315 I ActivityManager: Killing 5013:com.sec.android.gallery3d/u0a44 (adj 15): empty #31
+08-17 15:50:32.003  1015  1028 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+08-17 15:50:32.003  1015  1028 D SettingsProvider: selectionArgs: false
+08-17 15:50:32.003  1015  1028 D SettingsProvider: selectionArgs: 1002
+08-17 15:50:32.003  1015  1028 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+08-17 15:50:32.003  1015  1028 D SettingsProvider: ret = -1
+08-17 15:50:32.003  1015  1218 D SettingsProvider: name = bt_svcst_com.android.bluetooth.sapclient.SapClientService
+08-17 15:50:32.003  1015  1218 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:32.003  1015  1218 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+08-17 15:50:32.003  1015  1218 D SettingsProvider: selectionArgs: false
+08-17 15:50:32.003  1015  1218 D SettingsProvider: selectionArgs: 1002
+08-17 15:50:32.003  1015  1218 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+08-17 15:50:32.003  1015  1218 D SettingsProvider: ret = -1
+08-17 15:50:32.003  1015  3215 D SettingsProvider: name = bt_svcst_com.android.bluetooth.hid.HidDevService
+,08-17 15:50:32.003  1015  3215 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:32.003  1015  3215 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+08-17 15:50:32.003  1015  3215 D SettingsProvider: selectionArgs: false
+08-17 15:50:32.003  1015  3215 D SettingsProvider: selectionArgs: 1002
+08-17 15:50:32.003  1015  3215 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+08-17 15:50:32.003  1015  3215 D SettingsProvider: ret = -1
+,08-17 15:50:32.023  1932  1932 D EasyUnlockReceiver: Received Bluetooth event: Intent { act=android.bluetooth.adapter.action.STATE_CHANGED flg=0x4000010 cmp=com.google.android.gms/.auth.easyunlock.authorization.BluetoothStateChangeReceiver (has extras) }.
+,08-17 15:50:32.023  1015  1485 D ActivityManager: startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+08-17 15:50:32.023  1015  1485 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.auth.easyunlock.authorization.InitializerIntentService; callingUser = 0; userId(target) = 0
+08-17 15:50:32.023  1015  1485 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:32.023  1015  1485 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:32.023  1015  1485 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:32.033  1932  6409 D EasyUnlockInitService: Handling intent for initializer IntentService.
+,08-17 15:50:32.033  1932  1932 D BtServices: Received Bluetooth event: Intent { act=android.bluetooth.adapter.action.STATE_CHANGED flg=0x4000010 cmp=com.google.android.gms/.auth.proximity.BluetoothServicesAdapterStateChangeReceiver (has extras) }.
+,08-17 15:50:32.033  1015  1486 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:32.033  1015  1486 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:32.033  1015  1486 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:32.033  1015  1486 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:32.043  1015  1478 D ActivityManager: startService callerProcessName:com.samsung.hs20settings, calleePkgName: com.samsung.hs20settings
+08-17 15:50:32.043  1015  1478 D ActivityManager: retrieveServiceLocked(): component = com.samsung.hs20settings/com.samsung.hs20settings.WifiHs20UtilityService; callingUser = 0; userId(target) = -2
+,08-17 15:50:32.043  1015  1478 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:32.043  1015  1478 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:32.043  1015  1478 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.hs20settings, destAppInfo.processName = com.samsung.hs20settings
+,08-17 15:50:32.043  3608  3608 I Hs20UtilService: Starting #8
+,08-17 15:50:32.043  3608  3625 I Hs20UtilService: Message received 5007
+,08-17 15:50:32.053  1317  1317 D NearbySettings: MountReceiver.onReceive - ACTION: android.net.wifi.STATE_CHANGE
+,08-17 15:50:32.053  1317  1317 V NearbySettings: DMSUtil.isNetworkConnected - flag-null, state-null
+,08-17 15:50:32.053  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - WIFI: DISCONNECTED
+,08-17 15:50:32.053  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - P2P: IDLE
+08-17 15:50:32.053  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - WIFI-false, Hotspot-false, P2P-false, Eth-false
+08-17 15:50:32.053  1317  1317 I NearbySettings: MountReceiver.onReceive - Set preference state off
+,08-17 15:50:32.053  1317  3049 V NearbySettings: MountReceiver.mPrefHandler - 7002
+,08-17 15:50:32.063  1015  3214 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:32.063  1015  3214 D ActivityManager: startProcessLocked calleePkgName: com.google.android.talk, hostingType: broadcast
+08-17 15:50:32.063  1015  3214 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:32.063  1015  3214 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.talk
+,08-17 15:50:32.063  1015  3214 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:32.063  1015  3214 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:32.063  1015  3214 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:32.063  1015  3214 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:32.073  6410  6410 E Zygote  : MountEmulatedStorage()
+08-17 15:50:32.073  6410  6410 E Zygote  : v2
+08-17 15:50:32.073  6410  6410 I libpersona: KNOX_SDCARD checking this for 10104
+08-17 15:50:32.073  6410  6410 I libpersona: KNOX_SDCARD not a persona
+,08-17 15:50:32.073  6410  6410 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+,08-17 15:50:32.073  1015  3214 I ActivityManager: Start proc com.google.android.talk for broadcast com.google.android.talk/com.google.android.apps.hangouts.service.NetworkStateReceiver: pid=6410 uid=10104 gids={50104, 9997, 3003, 1028, 1015, 3002} abi=armeabi-v7a
+,08-17 15:50:32.073  6410  6410 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+,08-17 15:50:32.083  6410  6410 E SELinux : [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+,08-17 15:50:32.093  6410  6410 D TimaKeyStoreProvider: TimaSignature is unavailable
+,08-17 15:50:32.093  6410  6410 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:32.113  6410  6410 W ResourcesManager: Asset path '/system/framework/com.google.android.media.effects.jar' does not exist or contains no resources.
+,08-17 15:50:32.133  1932  1932 I art     : Explicit concurrent mark sweep GC freed 59300(3MB) AllocSpace objects, 41(1589KB) LOS objects, 39% free, 14MB/24MB, paused 1.439ms total 76.825ms
+,08-17 15:50:32.133  1015  1486 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:32.133  1015  1486 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:32.133  1015  1486 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,08-17 15:50:32.133  1015  1486 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:32.153  1932  6409 D EasyUnlockInitService: Not initializing EasyUnlock: remote_devices=0, bluetooth_on=false
+,08-17 15:50:32.303  6410  6433 I Babel   : MmsConfig: mnc/mcc: 0/0
+08-17 15:50:32.303  6410  6433 I Babel   : MmsConfig.loadMmsSettings
+08-17 15:50:32.303  6410  6433 I Babel   : MmsConfig.loadDeviceMmsSettings from API: mUserAgent=SAMSUNG-ANDROID-MMS/SM-A500FU, mUaProfUrl=http://wap.samsungmobile.com/uaprof/SM-A500FU.xml
+08-17 15:50:32.303  6410  6433 I Babel   : MmsConfig.loadFromDatabase
+,08-17 15:50:32.313  6410  6433 E Babel   : canonicalizeMccMnc: invalid mccmnc 
+,08-17 15:50:32.313  6410  6433 I Babel   : MmsConfig.loadFromResources
+,08-17 15:50:32.323  6410  6433 E Babel   : canonicalizeMccMnc: invalid mccmnc nullnull
+,08-17 15:50:32.323  6410  6433 I Babel   : MmsConfig.loadMmsSettings: mUserAgent=SAMSUNG-ANDROID-MMS/SM-A500FU, mUaProfUrl=http://wap.samsungmobile.com/uaprof/SM-A500FU.xml
+,08-17 15:50:32.323  1015  1503 D ActivityManager: bindService callerProcessName:com.google.android.talk, calleePkgName: com.google.android.talk, action: null
+,08-17 15:50:32.323  1015  1503 D ActivityManager: retrieveServiceLocked(): component = com.google.android.talk/com.google.android.libraries.hangouts.video.CallService; callingUser = 0; userId(target) = 0
+,08-17 15:50:32.323  1015  1503 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:32.323  1015  1503 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:32.323  1015  1503 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.talk, destAppInfo.processName = com.google.android.talk
+,08-17 15:50:32.333  6410  6410 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+,08-17 15:50:32.363  6410  6410 I Babel_StickerModule: App launched.
+,08-17 15:50:32.373  1317  1317 D NearbySettings: MountReceiver.onReceive - ACTION: android.net.wifi.p2p.CONNECTION_STATE_CHANGE
+,08-17 15:50:32.373  1317  1317 V NearbySettings: DMSUtil.isNetworkConnected - flag-null, state-null
+,08-17 15:50:32.373  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - WIFI: DISCONNECTED
+,08-17 15:50:32.373  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - P2P: IDLE
+,08-17 15:50:32.373  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - WIFI-false, Hotspot-false, P2P-false, Eth-false
+,08-17 15:50:32.373  1317  1317 I NearbySettings: MountReceiver.onReceive - Set preference state off
+,08-17 15:50:32.373  1015  1485 D ActivityManager: startProcessLocked calleePkgName: com.samsung.android.app.FileShareClient, hostingType: broadcast
+,08-17 15:50:32.373  1015  1485 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:32.383  1317  3049 V NearbySettings: MountReceiver.mPrefHandler - 7002
+08-17 15:50:32.383  1015  1485 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:32.383  1015  1485 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:32.383  1015  1485 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:32.383   283   283 W QCamera2Factory: getCameraInfo: E, camera_id = 0
+,08-17 15:50:32.383   283   283 W QCamera2Factory: getCameraInfo: X
+,08-17 15:50:32.393   283   675 W QCamera2Factory: getCameraInfo: E, camera_id = 1
+,08-17 15:50:32.393   283   675 W QCamera2Factory: getCameraInfo: X
+,08-17 15:50:32.393  6435  6435 E Zygote  : MountEmulatedStorage(),
+08-17 15:50:32.393  6435  6435 E Zygote  : v2
+08-17 15:50:32.393  6435  6435 I libpersona: KNOX_SDCARD checking this for 10068
+08-17 15:50:32.393  6435  6435 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+08-17 15:50:32.393  6435  6435 I libpersona: KNOX_SDCARD not a persona
+,08-17 15:50:32.393  6435  6435 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+08-17 15:50:32.403  6435  6435 E SELinux : [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,08-17 15:50:32.403  1015  1485 I ActivityManager: Start proc com.samsung.android.app.FileShareClient for broadcast com.samsung.android.app.FileShareClient/.ClientBroadcastReceiver: pid=6435 uid=10068 gids={50068, 9997, 3003, 1028, 1015} abi=armeabi-v7a
+,08-17 15:50:32.413  6435  6435 D TimaKeyStoreProvider: TimaSignature is unavailable
+,08-17 15:50:32.413  6435  6435 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:32.423  6410  6410 W VideoCapabilities: Unrecognized profile 2130706433 for video/avc
+,08-17 15:50:32.423  6410  6410 W AudioCapabilities: Unsupported mime audio/evrc
+,08-17 15:50:32.423  6410  6410 W AudioCapabilities: Unsupported mime audio/qcelp
+,08-17 15:50:32.433  6410  6410 W AudioCapabilities: Unsupported mime audio/mpeg-L1
+,08-17 15:50:32.433  6410  6410 W AudioCapabilities: Unsupported mime audio/mpeg-L2
+,08-17 15:50:32.433  6435  6435 W ResourcesManager: Asset path '/system/framework/allshare.jar' does not exist or contains no resources.
+,08-17 15:50:32.433  6410  6410 W AudioCapabilities: Unsupported mime audio/x-ms-wma
+,08-17 15:50:32.433  6410  6410 W AudioCapabilities: Unsupported mime audio/x-ima
+,08-17 15:50:32.433  6410  6410 W AudioCapabilities: Unsupported mime audio/qcelp
+,08-17 15:50:32.443  6410  6410 W AudioCapabilities: Unsupported mime audio/evrc
+,08-17 15:50:32.453  6410  6410 W VideoCapabilities: Unsupported mime video/wvc1
+,08-17 15:50:32.453  6410  6410 W VideoCapabilities: Unsupported mime video/x-ms-wmv
+,08-17 15:50:32.453  6435  6435 D FileShare-Client: ClientBroadcastReceiver.onReceive - action android.net.wifi.p2p.CONNECTION_STATE_CHANGE // null
+,08-17 15:50:32.453  6435  6435 D FileShare-Client: ClientBroadcastReceiver.onReceive - disconnected
+,08-17 15:50:32.463  6410  6410 W VideoCapabilities: Unrecognized profile/level 32768/2 for video/mp4v-es
+,08-17 15:50:32.473  6410  6410 W VideoCapabilities: Unsupported mime video/wvc1
+,08-17 15:50:32.473  6410  6410 W VideoCapabilities: Unsupported mime video/x-ms-wmv
+,08-17 15:50:32.473  6410  6410 W VideoCapabilities: Unsupported mime video/x-ms-wmv7
+,08-17 15:50:32.473  6410  6410 W VideoCapabilities: Unsupported mime video/x-ms-wmv8
+,08-17 15:50:32.483  6410  6410 W VideoCapabilities: Unsupported mime video/mp43
+,08-17 15:50:32.483  6410  6410 W VideoCapabilities: Unsupported mime video/sorenson
+,08-17 15:50:32.493  6410  6410 W VideoCapabilities: Unsupported mime video/mp4v-esdp
+,08-17 15:50:32.493  6435  6435 D FileShare-Client: Outbound.stopDelayTimer - 
+,08-17 15:50:32.493  1015  1076 D ActivityManager: startProcessLocked calleePkgName: com.samsung.android.app.FileShareServer, hostingType: broadcast
+,08-17 15:50:32.493  1015  1076 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:32.493  1015  1076 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:32.493  1015  1076 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:32.493  1015  1076 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:32.503  6450  6450 E Zygote  : MountEmulatedStorage()
+,08-17 15:50:32.503  6450  6450 E Zygote  : v2
+08-17 15:50:32.503  6450  6450 I libpersona: KNOX_SDCARD checking this for 10069
+08-17 15:50:32.503  6450  6450 I libpersona: KNOX_SDCARD not a persona
+,08-17 15:50:32.503  6450  6450 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+08-17 15:50:32.513  1015  1076 I ActivityManager: Start proc com.samsung.android.app.FileShareServer for broadcast com.samsung.android.app.FileShareServer/.ServerBroadcastReceiver: pid=6450 uid=10069 gids={50069, 9997, 3003, 1028, 1015} abi=armeabi-v7a
+,08-17 15:50:32.513  6450  6450 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051,
+08-17 15:50:32.513  6450  6450 E SELinux : [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,08-17 15:50:32.523  6410  6410 I VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+,08-17 15:50:32.523  6450  6450 D TimaKeyStoreProvider: TimaSignature is unavailable
+,08-17 15:50:32.533  6450  6450 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:32.553  1015  1478 D ActivityManager: bindService callerProcessName:com.google.android.talk, calleePkgName: com.google.android.talk, action: com.google.android.talk.SOFT_BIND
+,08-17 15:50:32.553  1015  1478 D ActivityManager: retrieveServiceLocked(): component = com.google.android.talk/com.google.android.libraries.hangouts.video.VideoChatService; callingUser = 0; userId(target) = 0
+,08-17 15:50:32.553  1015  1478 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:32.553  1015  1478 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:32.553  1015  1478 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.talk, destAppInfo.processName = com.google.android.talk
+,08-17 15:50:32.553  6450  6450 D FileShare-Server: ServerBroadcastReceiver.onReceive - action android.net.wifi.p2p.CONNECTION_STATE_CHANGE // null
+,08-17 15:50:32.563  1015  1474 I ActivityManager: Killing 5567:com.google.android.apps.plus/u0a120 (adj 15): empty #31
+,08-17 15:50:32.563  1015  1218 I ActivityManager: Killing 5479:com.google.android.partnersetup/u0a15 (adj 15): empty #31
+,08-17 15:50:32.763   314   314 I ServiceManager: Waiting for service AtCmdFwd...
+,08-17 15:50:32.813  1174  1174 D StatusBar.NetworkController: refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f020561/com.android.systemui:drawable/stat_sys_wifi_signal_0 mQSWifiIconId=0x7f020157/com.android.systemui:drawable/ic_qs_wifi_no_network mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+,08-17 15:50:32.813  1174  1174 D STATUSBAR-WifiQuickSettingButton: onWifiSignalChanged enabled=true enabledDesc:null
+,08-17 15:50:32.813  1015  1125 D WifiP2pService: P2pDisabledState{ what=143375 }
+08-17 15:50:32.813  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:32.813  1015  1125 D WifiP2pService: DefaultState{ what=143375 }
+08-17 15:50:32.813  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:32.813  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:32.813  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,08-17 15:50:32.813   278  1010 D EnterpriseController: uids 1000,
+08-17 15:50:32.813   278  1014 D CommandListener: Clearing all IP addresses on wlan0
+,08-17 15:50:32.813  1015  1128 E NetdConnector: NDC Command {53 network destroy 502} took too long (863ms)
+08-17 15:50:32.813   278  1010 D EnterpriseController: mIsMarkChainAdded is 18 mIsBlockChainAdded is 252 netId is 0
+,08-17 15:50:32.813  1015  1128 D ConnectivityService: setProvNotificationVisibleIntent: E visible=false networkType=1 extraInfo=null
+08-17 15:50:32.813   278  1010 D Netd    : getNetworkForDns: using netid 0 for uid 1000
+,08-17 15:50:32.813  1015  1128 D ConnectivityService: notifyType LOST for NetworkAgentInfo [WIFI () - 502]
+,08-17 15:50:32.813  1174  1708 D ConnectivityManager.CallbackHandler: CM callback handler got msg 524292
+,08-17 15:50:32.813  1015  1128 D ConnectivityService: Checking for replacement network to handle request NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+08-17 15:50:32.813  3823  6256 D ConnectivityManager.CallbackHandler: CM callback handler got msg 524292
+08-17 15:50:32.823  1015  1128 D CSLegacyTypeTracker: Removing agent NetworkAgentInfo{ ni{[type: WIFI[] - WIFI, state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: <unknown ssid>, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]}  network{502}  lp{{InterfaceName: wlan0 LinkAddresses: [192.168.1.111/24,fe80::7ef9:eff:fe37:96ac/64,]  Routes: [fe80::/64 -> :: wlan0,192.168.1.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.1.1 wlan0,] DnsAddresses: [192.168.1.1,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,4525824,524288,1048576,4525824}}  nc{[ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps]}  Score{60} validated{true} created{true} explicitlySelected{false} }
+08-17 15:50:32.823  1456  1456 D TelephonyNetworkFactory: evalRequest evalRequest  = NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] n.requested= false
+08-17 15:50:32.823  1015  1128 D CSLegacyTypeTracker: Sending disconnected broadcast for type 1 NetworkAgentInfo [WIFI () - 502] isDefaultNetwork=false
+08-17 15:50:32.823  1456  1456 D TelephonyNetworkFactory: Cellular needs Network for NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+08-17 15:50:32.823  1015  1128 D ConnectivityService: sendStickyBroadcast: action=android.net.conn.CONNECTIVITY_CHANGE_IMMEDIATE
+08-17 15:50:32.823  1015  1125 D WIFI_P2P: evalRequest evalRequest  = NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] n.requested= false
+08-17 15:50:32.823  2152  2152 I wpa_supplicant: p2p0: State: DISCONNECTED -> DISCONNECTED
+08-17 15:50:32.823  1015  2274 D NetworkMonitorNetworkAgentInfo [WIFI () - null]: Probably not a portal: exception java.net.UnknownHostException: Unable to resolve host "connectivitycheck.android.com": No address associated with hostname
+08-17 15:50:32.823  1015  2274 D NetworkMonitorNetworkAgentInfo [WIFI () - null]: Validated
+08-17 15:50:32.823  1015  2274 D NetworkMonitorNetworkAgentInfo [WIFI () - null]: ValidatedState{ when=-11ms what=532487 target=com.android.internal.util.StateMachine$SmHandler }
+08-17 15:50:32.833  1015  1015 I WifiTrafficPoller: evaluateTrafficStatsPolling
+,08-17 15:50:32.833  1015  1044 D EntConnectivity: Not allowed due to - mEnabled false - primarySimSlot false
+,08-17 15:50:32.843  1174  1174 D StatusBar.NetworkController: refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f020561/com.android.systemui:drawable/stat_sys_wifi_signal_0 mQSWifiIconId=0x7f020157/com.android.systemui:drawable/ic_qs_wifi_no_network mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+,08-17 15:50:32.843  1174  1174 D STATUSBAR-WifiQuickSettingButton: onWifiSignalChanged enabled=true enabledDesc:null
+08-17 15:50:32.843  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,08-17 15:50:32.843  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:32.843  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:32.843  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,08-17 15:50:32.853  1015  1126 D WIFI    : evalRequest evalRequest  = NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] n.requested= false
+,08-17 15:50:32.853  1015  1486 D ActivityManager: startService callerProcessName:com.samsung.hs20settings, calleePkgName: com.samsung.hs20settings
+08-17 15:50:32.853  1015  1486 D ActivityManager: retrieveServiceLocked(): component = com.samsung.hs20settings/com.samsung.hs20settings.WifiHs20UtilityService; callingUser = 0; userId(target) = -2
+08-17 15:50:32.853  1015  1486 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:32.853  1015  1486 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:32.853  1015  1128 D ConnectivityService: nai.networkMonitor.doQuit()
+08-17 15:50:32.853  1015  1128 D NetworkMonitorNetworkAgentInfo [WIFI () - null]: doQuit - quitNow()
+,08-17 15:50:32.853  1015  1486 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.hs20settings, destAppInfo.processName = com.samsung.hs20settings
+08-17 15:50:32.853  1015  1128 E ConnectivityService: updateNetworkInfo()
+,08-17 15:50:32.853  1015  1128 E ConnectivityService: updateNetworkInfo()
+08-17 15:50:32.853  1015  1128 D ConnectivityService: NetworkAgentInfo [WIFI_P2P () - 501] EVENT_NETWORK_INFO_CHANGED, going from UNKNOWN to DISCONNECTED, reason = null, [ Transports: WIFI Capabilities: WIFI_P2P&NOT_RESTRICTED&TRUSTED&NOT_VPN LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps]
+08-17 15:50:32.853  1015  1126 D SecContentProvider2: uri = 20 selection = getPromptCredentialsEnabled
+08-17 15:50:32.853  1015  1044 D EntConnectivity: Not allowed due to - mEnabled false - primarySimSlot false
+08-17 15:50:32.853  1015  1126 D SecContentProvider2: mCursor = null
+,08-17 15:50:32.853  3608  3608 I Hs20UtilService: Starting #9
+,08-17 15:50:32.853  3608  3625 I Hs20UtilService: Message received 5007
+,08-17 15:50:32.863  1174  1174 D StatusBar.NetworkController: refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x0/(null) mQSWifiIconId=0x0/(null) mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+08-17 15:50:32.863  1174  1174 D STATUSBAR-WifiQuickSettingButton: onWifiSignalChanged enabled=false enabledDesc:null
+08-17 15:50:32.863  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:32.863  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:32.863  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:32.863  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:32.863  1174  1174 D STATUSBAR-WifiQuickSettingButton: onReceive : android.net.wifi.WIFI_STATE_CHANGED
+08-17 15:50:32.863  1174  1174 D STATUSBAR-WifiQuickSettingButton: Wifi onReceive(0)
+,08-17 15:50:32.863  1174  1174 D HotspotTile: onReceive : android.net.wifi.WIFI_STATE_CHANGED
+,08-17 15:50:32.863  1317  1317 D WifiCredService: Action received :android.net.wifi.WIFI_STATE_CHANGED
+,08-17 15:50:32.863  1174  1174 D HotspotTile: onReceive : 0, 0
+,08-17 15:50:32.863  1174  1721 D STATUSBAR-QSTileView: onStateChanged: Wi-Fi
+,08-17 15:50:32.873  1015  1015 D Tethering: Tethering got CONNECTIVITY_ACTION_IMMEDIATE
+08-17 15:50:32.873  1015  1130 D Tethering: MasterInitialState.processMessage what=3
+,08-17 15:50:32.873  6195  6195 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: Checking support for multiple advertisement: Cannot do the check when the Bluetooth is disabled - will return stored value
+08-17 15:50:32.873  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: State changed:
+08-17 15:50:32.873  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:32.873  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:32.873  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: false
+08-17 15:50:32.873  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: false
+08-17 15:50:32.873  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: null
+08-17 15:50:32.873  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: false
+08-17 15:50:32.873  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: false
+08-17 15:50:32.873  6195  6195 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: Checking support for multiple advertisement: Cannot do the check when the Bluetooth is disabled - will return stored value
+08-17 15:50:32.873  6195  6195 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: OFF, Bluetooth: OFF, Wi-Fi: OFF, cellular: DO_NOT_CARE, BSSID name: null
+,08-17 15:50:32.873  6195  6195 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: Checking support for multiple advertisement: Cannot do the check when the Bluetooth is disabled - will return stored value
+,08-17 15:50:32.873  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: State changed:
+08-17 15:50:32.873  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:32.873  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:32.873  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: false
+08-17 15:50:32.873  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: false
+08-17 15:50:32.873  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: null
+08-17 15:50:32.873  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: false
+08-17 15:50:32.873  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: false
+,08-17 15:50:32.873  6195  6195 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: Checking support for multiple advertisement: Cannot do the check when the Bluetooth is disabled - will return stored value
+,08-17 15:50:32.873  6195  6195 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: OFF, Bluetooth: OFF, Wi-Fi: OFF, cellular: DO_NOT_CARE, BSSID name: null,
+,08-17 15:50:32.873  1015  1123 V NetworkStats: updateIfacesLocked()
+,08-17 15:50:32.873  1015  1123 V NetworkStats: performPollLocked(flags=0x1)
+08-17 15:50:32.883  1015  1123 D NtpTrustedTime: currentTimeMillis() cache hit
+,08-17 15:50:32.883  1015  1123 D NetworkStatsFactory: UpdateStatsForKnox updated,
+08-17 15:50:32.883  1015  1123 D NetworkStatsFactory: UpdateStatsForKnox main else ---
+,08-17 15:50:32.883  1015  1124 V NetworkStats: advisePersistThreshold() given 9223372036854775, clamped to 2097152
+08-17 15:50:32.883  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+,08-17 15:50:32.883  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+08-17 15:50:32.883  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+,08-17 15:50:32.883  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+08-17 15:50:32.883  1015  1123 V NetworkStats: performPollLocked() took 7ms
+08-17 15:50:32.883  1015  1123 D NtpTrustedTime: currentTimeMillis() cache hit
+08-17 15:50:32.883  1174  1174 D StatusBar.NetworkController: EthernetConnected: false
+08-17 15:50:32.883  1174  1174 D StatusBar.NetworkController: getUpdateDataNetType(): 0
+08-17 15:50:32.883  1174  1174 D StatusBar.NetworkController: getUpdateDataNetType(): mDataTypeBrand = LTE
+08-17 15:50:32.883  1174  1174 D StatusBar.NetworkController: updateDataNetType()
+08-17 15:50:32.883  1174  1174 D StatusBar.NetworkController: NoService, mRoamingIconId = 0
+08-17 15:50:32.883  1174  1174 E StatusBar.NetworkController: updateLTEICONDataNetType:0
+,08-17 15:50:32.893  1174  1174 D StatusBar.NetworkController: updateDataIcon, mDataDirectionIconId = (null) mDataConnected = false
+,08-17 15:50:32.893  1174  1174 D StatusBar.NetworkController: updateTelephonySignalStrength: hasService=false ss=SignalStrength: 99 99 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 -1 2147483647 0x0 gsm|lte
+,08-17 15:50:32.893  1174  1174 D StatusBar.NetworkController: updateTelephonySignalStrength, No signal level. mPhoneSignalIconId = com.android.systemui:drawable/tw_stat_sys_signal_null mDataSignalIconId = com.android.systemui:drawable/tw_stat_sys_signal_null mQSPhoneSignalIconId = com.android.systemui:drawable/ic_qs_signal_no_signal mContentDescriptionPhoneSignal = No phone signal
+08-17 15:50:32.893  1174  1174 D StatusBar.NetworkController: refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x0/(null) mQSWifiIconId=0x0/(null) mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+,08-17 15:50:32.893  1174  1174 D STATUSBAR-WifiQuickSettingButton: onWifiSignalChanged enabled=false enabledDesc:null
+08-17 15:50:32.893  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:32.893  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:32.893  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:32.893  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,08-17 15:50:32.903  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+08-17 15:50:32.903  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+,08-17 15:50:32.903  1317  1317 D NearbySettings: MountReceiver.onReceive - ACTION: android.net.wifi.STATE_CHANGE
+,08-17 15:50:32.913  1317  1317 V NearbySettings: DMSUtil.isNetworkConnected - flag-null, state-null
+,08-17 15:50:32.913  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - WIFI: DISCONNECTED
+,08-17 15:50:32.913  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - P2P: DISCONNECTED
+,08-17 15:50:32.913  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - WIFI-false, Hotspot-false, P2P-false, Eth-false
+08-17 15:50:32.913  1317  1317 I NearbySettings: MountReceiver.onReceive - Set preference state off
+,08-17 15:50:32.913  1317  3049 V NearbySettings: MountReceiver.mPrefHandler - 7002
+,08-17 15:50:32.943  1015  1218 D ActivityManager: startService callerProcessName:com.samsung.hs20settings, calleePkgName: com.samsung.hs20settings
+,08-17 15:50:32.943  1015  1218 D ActivityManager: retrieveServiceLocked(): component = com.samsung.hs20settings/com.samsung.hs20settings.WifiHs20UtilityService; callingUser = 0; userId(target) = -2
+,08-17 15:50:32.943  1015  1218 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:32.943  1015  1218 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,08-17 15:50:32.943  1015  1218 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.hs20settings, destAppInfo.processName = com.samsung.hs20settings
+,08-17 15:50:32.953  2152  2152 I wpa_supplicant: Blacklist: Clear (all) 
+,08-17 15:50:32.953  3608  3608 I Hs20UtilService: Starting #10
+,08-17 15:50:32.953  3608  3625 I Hs20UtilService: Message received 5011
+,08-17 15:50:32.953  1015  1486 D ActivityManager: startProcessLocked calleePkgName: com.samsung.android.securitylogagent, hostingType: broadcast,
+,08-17 15:50:32.953  1015  1486 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:32.953  1015  1486 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:32.953  1015  1486 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:32.953  1015  1486 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:32.973  6468  6468 E Zygote  : MountEmulatedStorage(),
+08-17 15:50:32.973  1015  1486 I ActivityManager: Start proc com.samsung.android.securitylogagent for broadcast com.samsung.android.securitylogagent/.receivers.NetworkReceiver: pid=6468 uid=1000 gids={41000, 9997, 3002, 3001, 3003, 1028, 1015, 1007, 1023, 2001, 1024, 1001, 1021, 3004, 3005, 1000, 3009, 1010} abi=armeabi-v7a,
+,08-17 15:50:32.973  6468  6468 E Zygote  : v2
+,08-17 15:50:32.973  6468  6468 I libpersona: KNOX_SDCARD checking this for 1000
+,08-17 15:50:32.973  6468  6468 I libpersona: KNOX_SDCARD not a persona
+,08-17 15:50:32.973  6468  6468 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+,08-17 15:50:32.983  6468  6468 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051,
+,08-17 15:50:32.983  6468  6468 E SELinux : [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL,
+,08-17 15:50:32.993  1456  1456 D PhoneApp: PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,08-17 15:50:33.003  1456  1456 D FileWriteThread_Telephony: FileWriteThread : threadType = 3
+08-17 15:50:33.003  1456  1456 D PhoneApp: PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,08-17 15:50:33.003  1456  1456 D FileWriteThread_Telephony: FileWriteThread : threadType = 3
+08-17 15:50:33.003  1456  1456 D PhoneApp: PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,08-17 15:50:33.003  1456  1456 D FileWriteThread_Telephony: FileWriteThread : threadType = 3
+08-17 15:50:33.003  1456  1456 D PhoneApp: PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,08-17 15:50:33.013  1456  1456 D FileWriteThread_Telephony: FileWriteThread : threadType = 3,
+08-17 15:50:33.013  1456  1456 D PhoneApp: PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+08-17 15:50:33.013  1456  1456 D FileWriteThread_Telephony: FileWriteThread : threadType = 3
+08-17 15:50:33.013  1456  1456 D PhoneApp: PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,08-17 15:50:33.013  6468  6468 D TimaKeyStoreProvider: TimaSignature is unavailable
+,08-17 15:50:33.013  1456  1456 D FileWriteThread_Telephony: FileWriteThread : threadType = 3
+08-17 15:50:33.013  6468  6468 D ActivityThread: Added TimaKeyStore provider
+08-17 15:50:33.013  1456  1456 D PhoneApp: PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,08-17 15:50:33.023  1456  1456 D FileWriteThread_Telephony: FileWriteThread : threadType = 3
+,08-17 15:50:33.023  1456  1456 D PhoneApp: PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,08-17 15:50:33.023  1456  1456 D FileWriteThread_Telephony: FileWriteThread : threadType = 3
+,08-17 15:50:33.023  1456  1456 D PhoneApp: PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,08-17 15:50:33.023  1456  1456 D FileWriteThread_Telephony: FileWriteThread : threadType = 3,
+08-17 15:50:33.023  1456  1456 D PhoneApp: PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE,
+,08-17 15:50:33.023  1456  1456 D FileWriteThread_Telephony: FileWriteThread : threadType = 3,
+,08-17 15:50:33.023  1456  1456 D PhoneApp: PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,08-17 15:50:33.033  1456  1456 D FileWriteThread_Telephony: FileWriteThread : threadType = 3
+08-17 15:50:33.033  1456  1456 D PhoneApp: PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,08-17 15:50:33.033  2152  2152 I wpa_supplicant: p2p0: CTRL-EVENT-TERMINATING 
+08-17 15:50:33.033  1456  1456 D FileWriteThread_Telephony: FileWriteThread : threadType = 3
+08-17 15:50:33.033  1456  1456 D PhoneApp: PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,08-17 15:50:33.033  1015  1042 D Tethering: interfaceLinkStateChanged p2p0, false
+08-17 15:50:33.033  1015  1042 I Nat464Xlat: interfaceLinkStateChanged p2p0, false
+08-17 15:50:33.033  1015  1042 D Tethering: interfaceStatusChanged p2p0, false
+,08-17 15:50:33.043  1456  1456 D FileWriteThread_Telephony: FileWriteThread : threadType = 3
+08-17 15:50:33.043  1456  1456 D PhoneApp: PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+08-17 15:50:33.043  1456  1456 D FileWriteThread_Telephony: FileWriteThread : threadType = 3
+,08-17 15:50:33.043  1456  1456 D PhoneApp: PhoneAppBroadcastReceiver onReceive android.intent.action.ANY_DATA_STATE
+,08-17 15:50:33.043  1456  1456 D FileWriteThread_Telephony: FileWriteThread : threadType = 3
+,08-17 15:50:33.053  6468  6468 D SecurityLogAgent: KnoxConfiguration : Current State = 1
+,08-17 15:50:33.053  6468  6468 D SecurityLogAgent: KnoxConfiguration : Current State Mapping Found 
+08-17 15:50:33.053  6468  6468 D SecurityLogAgent: StateMachine : Current State = 1
+,08-17 15:50:33.053  2152  2152 I wpa_supplicant: CTRL-EVENT-DISCONNECTED bssid=F4.99.3E reason=3 locally_generated=1
+,08-17 15:50:33.063  2152  2152 I wpa_supplicant: wlan0: State: COMPLETED -> DISCONNECTED
+08-17 15:50:33.063  1015  1042 I Nat464Xlat: interfaceLinkStateChanged wlan0, false
+08-17 15:50:33.063  1015  1042 D Tethering: interfaceLinkStateChanged wlan0, false
+08-17 15:50:33.063  1015  1042 D Tethering: interfaceStatusChanged wlan0, false
+08-17 15:50:33.063  2152  2152 I wpa_supplicant: Prev BSS - hexdump(len=6): f4 f2 6d 22 99 3e
+08-17 15:50:33.063  2152  2152 I wpa_supplicant: CTRL-EVENT-STATE-CHANGE id=0 state=0 BSSID=F4.99.3E SSID=4E47373030
+08-17 15:50:33.063  2152  2152 I wpa_supplicant: wlan0: State: DISCONNECTED -> DISCONNECTED
+08-17 15:50:33.063  1015  1126 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1698 com.android.server.wifi.WifiStateMachine.insertLog:14956 com.android.server.wifi.WifiStateMachine.access$2700:217 com.android.server.wifi.WifiStateMachine$DefaultState.processMessage:6951 com.android.internal.util.StateMachine$SmHandler.processMsg:966 
+,08-17 15:50:33.063  1015  1130 D Tethering: InitialState.processMessage what=4
+08-17 15:50:33.063  6468  6468 D SecurityLogAgent: StateMachine : Changed Current State = 1
+,08-17 15:50:33.063  1015  1042 I Nat464Xlat: interfaceLinkStateChanged wlan0, false
+08-17 15:50:33.063  1015  1042 D Tethering: interfaceLinkStateChanged wlan0, false
+08-17 15:50:33.063  1015  1042 D Tethering: interfaceStatusChanged wlan0, false
+,08-17 15:50:33.063  1015  1042 I Nat464Xlat: interfaceLinkStateChanged wlan0, false
+08-17 15:50:33.063  1015  1042 D Tethering: interfaceLinkStateChanged wlan0, false
+08-17 15:50:33.063  1015  1042 D Tethering: interfaceStatusChanged wlan0, false
+,08-17 15:50:33.063  1015  1130 E Tethering: No numeric data
+08-17 15:50:33.063  1015  1130 D Tethering: sendTetherStateChangedBroadcast 0, 0, 0
+,08-17 15:50:33.063  1015  1130 D Tethering: clearTetheredNotification(),
+08-17 15:50:33.063  1015  1123 D NtpTrustedTime: currentTimeMillis() cache hit
+08-17 15:50:33.063  1015  1123 V NetworkStats: performPollLocked(flags=0x1)
+08-17 15:50:33.063  1015  1123 D NetworkStatsFactory: UpdateStatsForKnox updated
+08-17 15:50:33.073  1174  1174 D HotspotTile: onReceive : android.net.conn.TETHER_STATE_CHANGED
+08-17 15:50:33.073  1015  1123 D NetworkStatsFactory: UpdateStatsForKnox main else ---
+08-17 15:50:33.073  1174  1174 D HotspotTile: updateTetherState():false, false
+,08-17 15:50:33.073  1015  1123 D NtpTrustedTime: currentTimeMillis() cache hit
+08-17 15:50:33.073  1015  1123 V NetworkStats: performPollLocked() took 4ms
+08-17 15:50:33.073  1015  1502 I ActivityManager: Killing 5793:com.sec.pcw.device/1000 (adj 15): empty #31
+,08-17 15:50:33.073  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+08-17 15:50:33.073  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+,08-17 15:50:33.073  1015  1503 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:33.073  1015  1503 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:33.073  1015  1503 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,08-17 15:50:33.083  1015  1015 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:33.083  1015  1015 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:33.083  1015  1015 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,08-17 15:50:33.083  1015  1015 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:33.083  1015  1015 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:33.083  1015  1015 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,08-17 15:50:33.083  1015  1015 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:33.093  1015  1015 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:33.093  1015  1015 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,08-17 15:50:33.093  1015  1015 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:33.093  1015  1015 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,08-17 15:50:33.093  1015  1015 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,08-17 15:50:33.093  1015  1015 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:33.093  1015  1015 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:33.093  1015  1015 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,08-17 15:50:33.093  1015  1015 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:33.093  1015  1015 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:33.093  1015  1015 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,08-17 15:50:33.103  1015  1015 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:33.103  1015  1015 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:33.103  1015  1015 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,08-17 15:50:33.103  1015  1015 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:33.103  1015  1015 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:33.103  1015  1015 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,08-17 15:50:33.103  1015  1015 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:33.103  1015  1015 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:33.103  1015  1015 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,08-17 15:50:33.113  1015  1015 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:33.113  1015  1015 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:33.113  1015  1015 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,08-17 15:50:33.113  1015  1015 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:33.113  1015  1015 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:33.113  1015  1015 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,08-17 15:50:33.113  1015  1015 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:33.113  1015  1015 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:33.113  1015  1015 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+08-17 15:50:33.113   271   271 I rmt_storage: rmt_storage_connect_cb: clnt_h=0x5 conn_h=0xb6fa87c8
+08-17 15:50:33.113   271   271 I rmt_storage: rmt_storage_rw_iovec_cb: /boot/modem_fs2: clnt_h=0x2: req_h=0xa msg_id=3: R/W request received
+08-17 15:50:33.113   271   271 I rmt_storage: wakelock acquired: 1, error no: 42
+08-17 15:50:33.113   271   349 I rmt_storage: rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2 Unblock worker thread (th_id: -1225095032)
+08-17 15:50:33.113  1015  1015 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:33.113  1015  1015 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:33.113  1015  1015 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system
+,08-17 15:50:33.123  1015  1015 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:33.123  1015  1015 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:33.123  1015  1015 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = system,
+,08-17 15:50:33.183   271   349 I rmt_storage: rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2: req_h=0xa msg_id=3: Bytes written = 917504
+,08-17 15:50:33.183   271   349 I rmt_storage: rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2: req_h=0xa msg_id=3: Send response: res=0 err=0
+08-17 15:50:33.183   271   349 I rmt_storage: rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2 About to block rmt_storage client thread (th_id: -1225095032) wakelock released: 1, error no: 0
+08-17 15:50:33.183   271   349 I rmt_storage: 
+08-17 15:50:33.183   271   271 I rmt_storage: rmt_storage_disconnect_cb: clnt_h=0x5 conn_h=0xb6fa87c8
+,08-17 15:50:33.213  1015  3214 I ActivityManager: Killing 5079:com.samsung.android.app.assistantmenu/1000 (adj 15): empty #31
+,08-17 15:50:33.293  2152  2152 I wpa_supplicant: Blacklist: Clear (all) ,
+,08-17 15:50:33.353  1015  1128 D ConnectivityService: sendStickyBroadcast: action=android.net.conn.CONNECTIVITY_CHANGE,
+,08-17 15:50:33.353  1015  1015 I ApplicationPolicy: updateDataUsageMap
+,08-17 15:50:33.363  1015  1039 D GpsLocationProvider: receive broadcast intent, action: android.net.conn.CONNECTIVITY_CHANGE
+,08-17 15:50:33.373  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:33.373  3177  3177 I DBG_DM  : [com.wssyncmldm.XDMService(936/lIllIlllIIllllIlIlIl)] WiFi network Connected : false
+,08-17 15:50:33.383  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:33.383  1015  1040 D ActivityManager: startProcessLocked calleePkgName: com.sec.pcw.device, hostingType: broadcast
+08-17 15:50:33.383  3177  3177 I DBG_DM  : [com.wssyncmldm.XDMService(952/llIlIllllllllllllllI)] Bluetooth Data Connected : false
+,08-17 15:50:33.393  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0,
+08-17 15:50:33.393  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:33.393  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:33.393  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:33.393  1015  1042 I Nat464Xlat: interfaceLinkStateChanged wlan0, false
+08-17 15:50:33.393  2152  2152 I wpa_supplicant: wlan0: CTRL-EVENT-TERMINATING 
+,08-17 15:50:33.393  1015  1042 D Tethering: interfaceLinkStateChanged wlan0, false
+,08-17 15:50:33.393  1015  1042 D Tethering: interfaceStatusChanged wlan0, false
+,08-17 15:50:33.413  1015  1040 I ActivityManager: Start proc com.sec.pcw.device for broadcast com.sec.pcw.device/.receiver.SYSTEMReceiver: pid=6500 uid=1000 gids={41000, 9997, 3002, 3001, 3003, 1028, 1015, 1007, 1023, 2001, 1024, 1001, 1021, 3004, 3005, 1000, 3009, 1010} abi=armeabi-v7a,
+,08-17 15:50:33.413  6500  6500 E Zygote  : MountEmulatedStorage(),
+08-17 15:50:33.413  6500  6500 E Zygote  : v2
+08-17 15:50:33.413  6500  6500 I libpersona: KNOX_SDCARD checking this for 1000
+,08-17 15:50:33.413  6500  6500 I libpersona: KNOX_SDCARD not a persona
+08-17 15:50:33.413  6500  6500 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+,08-17 15:50:33.423  6500  6500 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051,
+,08-17 15:50:33.423  6500  6500 E SELinux : [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,08-17 15:50:33.443  6500  6500 D TimaKeyStoreProvider: TimaSignature is unavailable
+,08-17 15:50:33.443  6500  6500 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:33.463  6500  6500 I PCWCLIENTTRACE_LOG: DEFAULT_LOGON : true
+,08-17 15:50:33.463  6500  6500 I PCWCLIENTTRACE_LOG: DEFAULT_LOGLEVEL : 3
+08-17 15:50:33.463  6500  6500 I PCWCLIENTTRACE_DMDBOpenHelper: new DMDBOpenHelper instance
+,08-17 15:50:33.473  6500  6500 I PCWCLIENTTRACE_PushUtil: SPPPushClient is installed : true
+,08-17 15:50:33.473  6500  6500 I PCWCLIENTTRACE_PushUtil: sales region : global
+,08-17 15:50:33.473  6500  6500 I PCWCLIENTTRACE_PushUtil: getPushTypeList : [SPP, GCM]
+08-17 15:50:33.473  6500  6500 I PCWCLIENTTRACE_SYSTEMReceiver: [onReceive] - android.net.conn.CONNECTIVITY_CHANGE
+,08-17 15:50:33.473  1015  3215 I splitIntent: Split this intent : android.net.conn.CONNECTIVITY_CHANGE, mSplitNum[0]=8, mSplitNum[1]=17, mSplitNum[2]=25, mBgSplitQueueNum=3 divideNum= 8 r.nextReceiver= 1 receivers.size=33
+,08-17 15:50:33.483  6500  6515 I PCWCLIENTTRACE_SYSTEMReceiver: noConnectivity : true
+,08-17 15:50:33.483  1015  3215 I splitIntent: finish to split intent : android.net.conn.CONNECTIVITY_CHANGE !! Enqueue -> schedule it!!
+,08-17 15:50:33.483  1015  3215 D ActivityManager: startProcessLocked calleePkgName: com.google.android.music, hostingType: broadcast
+,08-17 15:50:33.483  1015  3215 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:33.483  1015  3215 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:33.483  1015  3215 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:33.483  1015  3215 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:33.493  6517  6517 E Zygote  : MountEmulatedStorage()
+08-17 15:50:33.493  1015  3215 I ActivityManager: Start proc com.google.android.music:main for broadcast com.google.android.music/.leanback.notifications.LeanbackRecommendationsService$LeanbackRecommendationReceiver: pid=6517 uid=10111 gids={50111, 9997, 3003, 1028, 1015} abi=armeabi-v7a
+,08-17 15:50:33.493  6517  6517 E Zygote  : v2
+08-17 15:50:33.493  6517  6517 I libpersona: KNOX_SDCARD checking this for 10111
+08-17 15:50:33.493  6517  6517 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+08-17 15:50:33.493  6517  6517 I libpersona: KNOX_SDCARD not a persona
+08-17 15:50:33.493  1015  3215 I ActivityManager: Killing 5502:com.samsung.android.app.galaxyfinder/u0a32 (adj 15): empty #31
+,08-17 15:50:33.503  1015  1040 D ActivityManager: startProcessLocked calleePkgName: com.sec.android.fotaclient, hostingType: broadcast
+,08-17 15:50:33.503  6517  6517 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+,08-17 15:50:33.503  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:33.503  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:33.503  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:33.503  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:33.503  6517  6517 E SELinux : [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+,08-17 15:50:33.513  6526  6526 E Zygote  : MountEmulatedStorage(),
+08-17 15:50:33.513  6526  6526 E Zygote  : v2
+08-17 15:50:33.513  6526  6526 I libpersona: KNOX_SDCARD checking this for 10009
+08-17 15:50:33.513  6526  6526 I libpersona: KNOX_SDCARD not a persona
+,08-17 15:50:33.513  6526  6526 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+,08-17 15:50:33.513  6526  6526 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051,
+,08-17 15:50:33.523  6526  6526 E SELinux : [DEBUG] get_category: variable seinfo: release sensitivity: NULL, cateogry: NULL
+08-17 15:50:33.523  1015  1040 I ActivityManager: Start proc com.sec.android.fotaclient for broadcast com.sec.android.fotaclient/.FotaRegisterReceiver: pid=6526 uid=10009 gids={50009, 9997, 3003, 1028, 1015} abi=armeabi-v7a
+,08-17 15:50:33.533  1726  1726 D accuweather: [KK AccuPhone]>>> WCW:32 [0:0] action : androidnetconnCONNECTIVITY_CHANGE
+,08-17 15:50:33.533  6517  6517 D TimaKeyStoreProvider: TimaSignature is unavailable
+,08-17 15:50:33.533  6517  6517 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:33.533  1015  1040 D ActivityManager: startProcessLocked calleePkgName: com.android.email, hostingType: broadcast
+,08-17 15:50:33.533  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:33.533  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:33.533  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:33.533  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:33.533   304   304 I art     : Explicit concurrent mark sweep GC freed 8733(372KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 6MB/11MB, paused 645us total 20.105ms
+08-17 15:50:33.543  6526  6526 D TimaKeyStoreProvider: TimaSignature is unavailable
+08-17 15:50:33.543  6526  6526 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:33.553   304   304 I art     : Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 39% free, 6MB/11MB, paused 599us total 16.940ms
+,08-17 15:50:33.573   304   304 I art     : Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 39% free, 6MB/11MB, paused 593us total 16.764ms
+,08-17 15:50:33.583  6547  6547 E Zygote  : MountEmulatedStorage(),
+08-17 15:50:33.583  6547  6547 E Zygote  : v2
+08-17 15:50:33.583  1015  1126 E WifiStateMachine: skipWifiStateBroadcast:false, LastBroadcastedWifiState:0
+08-17 15:50:33.583  6547  6547 I libpersona: KNOX_SDCARD checking this for 10145
+,08-17 15:50:33.583  6547  6547 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+08-17 15:50:33.583  6547  6547 I libpersona: KNOX_SDCARD not a persona
+08-17 15:50:33.583  1015  1126 D WifiNative-wlan0: callSECApiBoolean - ID [21]
+08-17 15:50:33.583  1015  1040 I ActivityManager: Start proc com.android.email for broadcast com.android.email/.EmailConnectivityManager: pid=6547 uid=10145 gids={50145, 9997, 3003, 1028, 1015, 1023, 3002, 3001, 1003} abi=armeabi-v7a
+08-17 15:50:33.583  1015  1126 E WifiConfigStore: setLastSelectedConfiguration -1,
+08-17 15:50:33.583  6547  6547 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+08-17 15:50:33.593  6547  6547 E SELinux : [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,08-17 15:50:33.593  6410  6410 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+,08-17 15:50:33.603  1174  1174 D StatusBar.NetworkController: refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x0/(null) mQSWifiIconId=0x0/(null) mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+08-17 15:50:33.603  1174  1174 D STATUSBAR-WifiQuickSettingButton: onWifiSignalChanged enabled=false enabledDesc:null
+08-17 15:50:33.603  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:33.603  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:33.603  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:33.603  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:33.603  1174  1174 D STATUSBAR-WifiQuickSettingButton: onReceive : android.net.wifi.WIFI_STATE_CHANGED
+08-17 15:50:33.603  1174  1174 D HotspotTile: onReceive : android.net.wifi.WIFI_STATE_CHANGED
+08-17 15:50:33.603  1174  1174 D STATUSBAR-WifiQuickSettingButton: Wifi onReceive(1)
+,08-17 15:50:33.603  1174  1721 D STATUSBAR-QSTileView: onStateChanged: Wi-Fi
+08-17 15:50:33.603  1174  1174 D HotspotTile: onReceive : 1, 0
+,08-17 15:50:33.603  1932  2112 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+,08-17 15:50:33.603  1317  1317 D WifiCredService: Action received :android.net.wifi.WIFI_STATE_CHANGED
+,08-17 15:50:33.613  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:33.613  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:33.613  6547  6547 D TimaKeyStoreProvider: TimaSignature is unavailable
+08-17 15:50:33.613  6547  6547 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:33.613  1726  1726 D accuweather: [KK AccuPhone]>>> U:4106 [0:0] getPWC : surface = 0, remote = 1
+08-17 15:50:33.613  1726  1726 D accuweather: [KK AccuPhone]>>> U:4284 [0:0] Store PWC = 1
+08-17 15:50:33.613  1726  1726 D accuweather: [KK AccuPhone]>>> U:4158 [0:0] addPWC = 1
+08-17 15:50:33.613  1726  1726 D accuweather: [KK AccuPhone]>>> UIM:306 [0:0]  action:androidnetconnCONNECTIVITY_CHANGE
+,08-17 15:50:33.623  1726  1726 D accuweather: [KK AccuPhone]>>> WC:30 [0:0] action : androidnetconnCONNECTIVITY_CHANGE
+,08-17 15:50:33.633  1295  1305 D daemonapp: [MSC_Daemon]>>> WCP:1254 [0:0] cp update : count : 1, pt : 9
+,08-17 15:50:33.633  1726  1726 D accuweather: [KK AccuPhone]>>> UIMEM:104 [0:0] The widget does not exist in idle!!
+,08-17 15:50:33.633  1015  3213 D ActivityManager: startProcessLocked calleePkgName: com.android.chrome, hostingType: broadcast
+08-17 15:50:33.633  1015  3213 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:33.633  1015  3213 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:33.633  1015  3213 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:33.633  1015  3213 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:33.633  6547  6547 W ResourcesManager: Asset path '/system/framework/secsmartcard.jar' does not exist or contains no resources.
+,08-17 15:50:33.643  6547  6547 W ResourcesManager: Asset path '/system/framework/com.google.android.maps.jar' does not exist or contains no resources.
+,08-17 15:50:33.643  6547  6547 W ResourcesManager: Asset path '/system/framework/multiwindow.jar' does not exist or contains no resources.
+,08-17 15:50:33.643  6547  6547 W ResourcesManager: Asset path '/system/framework/twframework.jar' does not exist or contains no resources.
+,08-17 15:50:33.643  6547  6547 W ResourcesManager: Asset path '/system/framework/secvision.jar' does not exist or contains no resources.
+,08-17 15:50:33.663  6562  6562 E Zygote  : MountEmulatedStorage()
+,08-17 15:50:33.663  6562  6562 I libpersona: KNOX_SDCARD checking this for 10081
+08-17 15:50:33.663  6562  6562 E Zygote  : v2
+08-17 15:50:33.663  6562  6562 I libpersona: KNOX_SDCARD not a persona
+,08-17 15:50:33.663  6562  6562 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+08-17 15:50:33.673  1015  3213 I ActivityManager: Start proc com.android.chrome for broadcast com.android.chrome/org.chromium.chrome.browser.precache.PrecacheServiceLauncher: pid=6562 uid=10081 gids={50081, 9997, 3003, 1028, 1015} abi=armeabi-v7a
+,08-17 15:50:33.673  6562  6562 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051,
+,08-17 15:50:33.673  6562  6562 E SELinux : [DEBUG] get_category: variable seinfo: chrome sensitivity: NULL, cateogry: NULL
+08-17 15:50:33.673  1726  1726 D accuweather: [KK AccuPhone]>>> U:4250 [0:0] Store PWC succeed
+,08-17 15:50:33.693  6562  6562 D TimaKeyStoreProvider: TimaSignature is unavailable
+,08-17 15:50:33.693  6562  6562 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:33.713  1015  1485 I ActivityManager: Killing 5809:com.samsung.android.provider.shootingmodeprovider/u0a152 (adj 15): empty #31
+,08-17 15:50:33.723  1015  1028 D RCPManagerService: exchangeData() failure , invalid userId
+,08-17 15:50:33.723  6517  6517 I MusicStore: Database version: 108
+,08-17 15:50:33.733  3628  3628 I KLMS-2.5.183: : KLMSAbstractReciever(): onReceive(): Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.samsung.klmsagent/.listner.MainReciver (has extras) } | timestamp: Wed Aug 17 15:50:33 GMT+02:00 2016
+,08-17 15:50:33.733   288   288 E SMD     : DCD OFF,
+,08-17 15:50:33.743  1015  1503 D ActivityManager: startService callerProcessName:com.samsung.klmsagent, calleePkgName: com.samsung.klmsagent
+,08-17 15:50:33.743  1015  1503 D ActivityManager: retrieveServiceLocked(): component = com.samsung.klmsagent/com.samsung.klmsagent.services.KLMSIntentService; callingUser = 0; userId(target) = 0
+,08-17 15:50:33.743  1015  1503 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:33.743  1015  1503 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,08-17 15:50:33.743  1015  1503 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.klmsagent, destAppInfo.processName = com.samsung.klmsagent
+,08-17 15:50:33.743  3628  3628 I KLMS-2.5.183: : KLMSAbstractReciever(): onReceive().END.
+,08-17 15:50:33.753  1015  1502 D RCPManagerService: exchangeData() failure , invalid userId
+,08-17 15:50:33.753  1015  3214 D ActivityManager: bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music, action: null
+08-17 15:50:33.753  1015  3214 D ActivityManager: retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.net.NetworkMonitor; callingUser = 0; userId(target) = 0
+,08-17 15:50:33.753  1015  3214 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:33.753  1015  3214 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:33.753  1015  3214 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,08-17 15:50:33.753  3628  3628 I KLMS-2.5.183: : KLMSIntentService(): onCreate()
+,08-17 15:50:33.763  3628  3628 I KLMS-2.5.183: : KLMSSystemProperties(): getBoolean(): ro.product_ship = true
+,08-17 15:50:33.763  1015  1218 D ActivityManager: startProcessLocked calleePkgName: com.sec.android.soagent, hostingType: broadcast
+,08-17 15:50:33.763  3628  3628 I KLMS-2.5.183: : KLMSUtility(): isTestMode(): product_ship: true | testApk: false
+,08-17 15:50:33.763  1015  1218 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:33.763  1015  1218 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:33.763  1015  1218 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:33.763  1015  1218 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:33.763   314   314 I ServiceManager: Waiting for service AtCmdFwd...
+08-17 15:50:33.763  3628  6583 I KLMS-2.5.183: : KLMSIntentService(): onHandleIntent().START: Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.samsung.klmsagent/.services.KLMSIntentService (has extras) }
+08-17 15:50:33.773  3628  6583 I KLMS-2.5.183: : KLMSIntentService(): NETWORK_STATE_CHANGED_ACTION
+08-17 15:50:33.773  3628  6583 I KLMS-2.5.183: : KLMSUtility(): isNetworkAvailable() - WIFI : false| MOBILE : false| ETHERNET : false
+08-17 15:50:33.773  3628  6583 I KLMS-2.5.183: : StateImplV2(): networkChangeListener().END
+08-17 15:50:33.773  6586  6586 E Zygote  : MountEmulatedStorage()
+,08-17 15:50:33.773  6586  6586 E Zygote  : v2
+08-17 15:50:33.773  6586  6586 I libpersona: KNOX_SDCARD checking this for 10034
+08-17 15:50:33.773  6586  6586 I libpersona: KNOX_SDCARD not a persona
+,08-17 15:50:33.773  6586  6586 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+,08-17 15:50:33.783  6586  6586 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+,08-17 15:50:33.783  6586  6586 E SELinux : [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,08-17 15:50:33.783  1015  1218 I ActivityManager: Start proc com.sec.android.soagent for broadcast com.sec.android.soagent/.RegisterReceiver: pid=6586 uid=10034 gids={50034, 9997, 3003} abi=armeabi-v7a
+,08-17 15:50:33.803  3628  3628 I KLMS-2.5.183: : KLMSIntentService(): onDestroy()
+,08-17 15:50:33.803  6586  6586 D TimaKeyStoreProvider: TimaSignature is unavailable
+,08-17 15:50:33.803  6586  6586 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:33.813  1015  3215 D RCPManagerService: exchangeData() failure , invalid userId
+,08-17 15:50:33.833  1015  3215 D RCPManagerService: exchangeData() failure , invalid userId
+,08-17 15:50:33.853  6586  6586 I SO_AGENT: [com.sec.android.soagent.RegisterReceiver(95/onReceive)] Network is not available
+,08-17 15:50:33.863  1015  1027 D ActivityManager: startProcessLocked calleePkgName: com.google.android.apps.magazines, hostingType: broadcast
+08-17 15:50:33.863  6517  6517 W ResourcesManager: Asset path '/system/framework/com.android.media.remotedisplay.jar' does not exist or contains no resources.
+08-17 15:50:33.863  6517  6517 W ResourcesManager: Asset path '/system/framework/com.android.location.provider.jar' does not exist or contains no resources.
+,08-17 15:50:33.863  1015  1027 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:33.863  1015  1027 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:33.863  1015  1027 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:33.863  1015  1027 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:33.883  6608  6608 E Zygote  : MountEmulatedStorage()
+,08-17 15:50:33.883  6608  6608 E Zygote  : v2
+08-17 15:50:33.883  6608  6608 I libpersona: KNOX_SDCARD checking this for 10113
+08-17 15:50:33.883  1015  1027 I ActivityManager: Start proc com.google.android.apps.magazines for broadcast com.google.android.apps.magazines/com.google.apps.dots.android.newsstand.appwidget.NewsWidgetProvider: pid=6608 uid=10113 gids={50113, 9997, 3003, 1028, 1015} abi=armeabi-v7a
+08-17 15:50:33.883  6608  6608 I libpersona: KNOX_SDCARD not a persona
+,08-17 15:50:33.893  6608  6608 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+08-17 15:50:33.893  1015  1027 I ActivityManager: Killing 5826:com.samsung.android.bbc.bbcagent/1000 (adj 15): empty #31
+,08-17 15:50:33.893  6608  6608 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+,08-17 15:50:33.893  6608  6608 E SELinux : [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+08-17 15:50:33.893  1015  3215 D ActivityManager: startProcessLocked calleePkgName: com.sec.spp.push, hostingType: broadcast
+08-17 15:50:33.893  1015  3215 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:33.893  1015  3215 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:33.893  1015  3215 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:33.893  1015  3215 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:33.903  3235  6614 I DBG_POLICYDM: [com.policydm.XDMService(515/xdmProtoIsWIFIConnected)] WiFi network Connected : false
+08-17 15:50:33.903  3235  6614 I DBG_POLICYDM: [com.policydm.XDMService(525/xdmProtoIsMobileDataConnected)] Mobile Data Connected : false
+,08-17 15:50:33.903  3235  6614 E DBG_POLICYDM: [com.policydm.XDMBroadcastReceiver$2(104/run)] network is unserviceable
+08-17 15:50:33.903  3235  6614 I DBG_POLICYDM: [com.policydm.XDMService(481/isNetworkChanged)] a previous network is 2, current network is 0
+,08-17 15:50:33.913  3235  6614 E DBG_POLICYDM: [com.policydm.XDMService(483/isNetworkChanged)] network changed.... 
+,08-17 15:50:33.923  6621  6621 E Zygote  : MountEmulatedStorage()
+,08-17 15:50:33.923  6621  6621 E Zygote  : v2
+08-17 15:50:33.923  6621  6621 I libpersona: KNOX_SDCARD checking this for 10035
+08-17 15:50:33.923  1015  2925 D RCPManagerService: exchangeData() failure , invalid userId,
+08-17 15:50:33.923  6621  6621 I libpersona: KNOX_SDCARD not a persona
+,08-17 15:50:33.923  6621  6621 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51,
+08-17 15:50:33.923  1015  3215 I ActivityManager: Start proc com.sec.spp.push for broadcast com.sec.spp.push/.monitor.SystemStateMoniter: pid=6621 uid=10035 gids={50035, 9997, 3003, 1028, 1015} abi=armeabi-v7a
+,08-17 15:50:33.933  6621  6621 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+,08-17 15:50:33.933  6621  6621 E SELinux : [DEBUG] get_category: variable seinfo: samsung sensitivity: NULL, cateogry: NULL
+08-17 15:50:33.933  5942  5951 D BadgeProvider: query, [selection] : package='com.android.email' AND class='com.android.email.activity.Welcome' AND extraData='base_extra_badge'
+08-17 15:50:33.943  1015  1478 D RCPManagerService: exchangeData() failure , invalid userId
+,08-17 15:50:33.943  6517  6517 V JNIHelp : Registering com/google/android/gms/org/conscrypt/NativeCrypto's 255 native methods...
+,08-17 15:50:33.943  6608  6608 D TimaKeyStoreProvider: TimaSignature is unavailable
+08-17 15:50:33.943  6608  6608 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:33.973  6621  6621 D TimaKeyStoreProvider: TimaSignature is unavailable
+,08-17 15:50:33.973  6621  6621 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:33.973  5942  5951 D BadgeProvider: sendNotify entered. [uri] : content://com.sec.badge/apps/1
+08-17 15:50:33.973  5942  5951 D BadgeProvider: sendNotify, [notify] : null
+08-17 15:50:33.973  5942  5951 D BadgeProvider: update, [uri] : content://com.sec.badge/apps/1
+08-17 15:50:33.973  5942  5951 D BadgeProvider: update, [BadgeCount] : badgecount=0
+08-17 15:50:33.973  5942  5951 D BadgeProvider: update, [UpdateCount] : 1
+,08-17 15:50:33.983  1487  1487 D Launcher.Model: reloadBadges entered.
+,08-17 15:50:33.993  1015  1315 D RCPManagerService: exchangeData() failure , invalid userId
+,08-17 15:50:34.003  1015  3213 D RCPManagerService: exchangeData() failure , invalid userId
+,08-17 15:50:34.013  6468  6468 D SecurityLogAgent: KnoxConfiguration : Current State = 1
+08-17 15:50:34.013  6468  6468 D SecurityLogAgent: KnoxConfiguration : Current State Mapping Found 
+08-17 15:50:34.013  6468  6468 D SecurityLogAgent: StateMachine : Current State = 1
+08-17 15:50:34.013  6468  6468 D SecurityLogAgent: StateMachine : Changed Current State = 1
+,08-17 15:50:34.013  1015  1028 D ActivityManager: startProcessLocked calleePkgName: com.samsung.android.service.travel, hostingType: broadcast
+,08-17 15:50:34.013  1015  1028 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:34.013  1015  1028 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:34.013  1015  1028 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:34.013  1015  1028 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:34.023  6517  6517 W ActivityThread: ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+,08-17 15:50:34.023  6517  6517 W System  : Could not create com.google.android.gms.org.conscrypt.OpenSSLSocketFactoryImpl with ClassLoader android.app.LoadedApk$WarningContextClassLoader@3b7610c9: com.google.android.gms.org.conscrypt.OpenSSLSocketFactoryImpl
+,08-17 15:50:34.023  6517  6517 I ProviderInstaller: Installed default security provider GmsCore_OpenSSL
+08-17 15:50:34.023  6517  6517 D AndroidMusic: GMSCore installation verified
+,08-17 15:50:34.023  1015  1028 I ActivityManager: Start proc com.samsung.android.service.travel for broadcast com.samsung.android.service.travel/com.samsung.android.travel.bindService.TravelBroadcastReceiver: pid=6640 uid=10159 gids={50159, 9997, 3003, 1028, 1015} abi=armeabi-v7a
+,08-17 15:50:34.033  6640  6640 E Zygote  : MountEmulatedStorage()
+,08-17 15:50:34.033  6640  6640 E Zygote  : v2
+08-17 15:50:34.033  6640  6640 I libpersona: KNOX_SDCARD checking this for 10159
+08-17 15:50:34.033  6640  6640 I libpersona: KNOX_SDCARD not a persona
+,08-17 15:50:34.033  6640  6640 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+,08-17 15:50:34.033  6640  6640 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+,08-17 15:50:34.043  6640  6640 E SELinux : [DEBUG] get_category: variable seinfo: shared sensitivity: NULL, cateogry: NULL
+,08-17 15:50:34.063  6640  6640 D TimaKeyStoreProvider: TimaSignature is unavailable
+,08-17 15:50:34.063  6640  6640 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:34.093  1015  3213 D ActivityManager: bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music, action: null
+08-17 15:50:34.093  1015  3213 D ActivityManager: retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.preferences.MusicPreferenceService$MusicPreferenceServiceBinder; callingUser = 0; userId(target) = 0
+,08-17 15:50:34.093  1015  3213 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:34.093  1015  3213 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:34.093  1015  3213 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,08-17 15:50:34.103  6517  6517 I ConfigStore: Config Database version: 1
+,08-17 15:50:34.103  6621  6656 E SPPClientService: ============PushLog. commonIsShipBuild. stop!
+,08-17 15:50:34.103  6621  6656 E SPPClientService: [PushClientApplication] Push log off : This is Ship build version,
+,08-17 15:50:34.123  6621  6621 E SPPClientService: [[SystemStateMoniter]] SystemStateMonitorService : noConnect? : true
+08-17 15:50:34.123  6621  6656 D SPPClientService: PushLog.txt file is not deleted.
+08-17 15:50:34.123  1015  1042 D Tethering: interfaceRemoved wlan0
+08-17 15:50:34.123  1015  1042 E Tethering: attempting to remove unknown iface (wlan0), ignoring
+08-17 15:50:34.123  6621  6656 D SPPClientService: PushLog.txt file is not deleted.
+08-17 15:50:34.123  6621  6656 D SPPClientService: ============PushLog. stop!
+,08-17 15:50:34.133  6024  6024 I SA      : [DM] init START
+,08-17 15:50:34.133  1015  3215 D ActivityManager: startService callerProcessName:com.sec.spp.push, calleePkgName: com.sec.spp.push
+,08-17 15:50:34.133  1015  3215 D ActivityManager: retrieveServiceLocked(): component = com.sec.spp.push/com.sec.spp.push.monitor.SystemStateMonitorService; callingUser = 0; userId(target) = 0
+,08-17 15:50:34.133  1015  3215 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:34.133  1015  3215 W ActivityManager: NORMAL SET : dst_category = 1023, src_allowCategory = 0,701-1023
+,08-17 15:50:34.133  1015  3215 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.sec.spp.push, destAppInfo.processName = com.sec.spp.push
+,08-17 15:50:34.153  1015  1502 D SecContentProvider: uri = 18 selection = isWifiEnabled
+,08-17 15:50:34.153  1015  1502 D SecContentProvider2: uri = 20 selection = isWifiStateChangeAllowed
+,08-17 15:50:34.153  1015  1502 D SecContentProvider2: mCursor = null
+,08-17 15:50:34.153  1015  1502 D WifiService: setWifiEnabled: true pid=6195, uid=10155
+,08-17 15:50:34.153  1015  1502 W ActivityManager: Permission Denial: getCurrentUser() from pid=6195, uid=10155 requires android.permission.INTERACT_ACROSS_USERS
+,08-17 15:50:34.163  1015  1028 D ActivityManager: startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+08-17 15:50:34.163  1015  1028 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.gcm.GcmService; callingUser = 0; userId(target) = 0
+,08-17 15:50:34.163  1015  1028 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:34.163  1015  1028 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:34.163  1015  1028 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:34.163  1015  3214 I art     : Explicit concurrent mark sweep GC freed 51881(2MB) AllocSpace objects, 2(80KB) LOS objects, 33% free, 27MB/41MB, paused 4.592ms total 179.405ms
+,08-17 15:50:34.163  1015  1502 W WifiService: Failed getting userId using ActivityManagerNative
+08-17 15:50:34.163  1015  1502 W WifiService: java.lang.SecurityException: Permission Denial: getCurrentUser() from pid=6195, uid=10155 requires android.permission.INTERACT_ACROSS_USERS
+08-17 15:50:34.163  1015  1502 W WifiService: 	at com.android.server.am.ActivityManagerService.getCurrentUser(ActivityManagerService.java:23916)
+08-17 15:50:34.163  1015  1502 W WifiService: 	at com.android.server.wifi.WifiServiceImpl.setWifiEnabled(WifiServiceImpl.java:2216)
+08-17 15:50:34.163  1015  1502 W WifiService: 	at com.android.server.wifi.WifiServiceImpl.setWifiEnabled(WifiServiceImpl.java:2204)
+08-17 15:50:34.163  1015  1502 W WifiService: 	at android.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:223)
+08-17 15:50:34.163  1015  1502 W WifiService: 	at android.os.Binder.execTransact(Binder.java:446)
+,08-17 15:50:34.173  1015  1502 D SettingsProvider: name = wifi_on
+,08-17 15:50:34.173  6024  6024 I SA      : [DM] This device is not a Vodafone
+,08-17 15:50:34.193  3823  3823 I iu.Environment: update connectivity state; isNetworkMetered? false, isRoaming? false, isBackgroundDataAllowed? false*
+,08-17 15:50:34.193  3823  4575 I iu.UploadsManager: num queued entries: 0
+,08-17 15:50:34.193  3823  4575 I iu.UploadsManager: num updated entries: 0
+,08-17 15:50:34.203  3823  4575 I iu.SyncManager: NEXT; no task
+08-17 15:50:34.203  1015  1047 I PowerManagerService: [PWL] Off : 50s ago
+08-17 15:50:34.203  1015  1047 I PowerManagerService: [PWL]   PowerManagerService.WakeLocks: ref count=1
+08-17 15:50:34.203  1015  1047 I PowerManagerService: [PWL]     mWakeLockSummary : 0x1
+08-17 15:50:34.203  1015  1047 I PowerManagerService: [PWL]       PARTIAL_WAKE_LOCK              'ConnectivityService' (uid=1000, pid=1015, ws=null) (elapsedTime=1351)
+,08-17 15:50:34.203  6621  6659 E SPPClientService: [[SystemStateMonitorService]] No Active Internet
+,08-17 15:50:34.203  6024  6024 W ResourceType: Failure getting entry for 0x7f060010 (t=5 e=16) (error -75)
+,08-17 15:50:34.203  6024  6024 W ResourceType: Failure getting entry for 0x7f060008 (t=5 e=8) (error -75)
+,08-17 15:50:34.203  6024  6024 W ResourceType: Failure getting entry for 0x7f060009 (t=5 e=9) (error -75)
+,08-17 15:50:34.213  6024  6024 W ResourceType: Failure getting entry for 0x7f06000c (t=5 e=12) (error -75)
+,08-17 15:50:34.213  6024  6024 W ResourceType: Failure getting entry for 0x7f06000d (t=5 e=13) (error -75)
+,08-17 15:50:34.213  1015  2925 I ActivityManager: Killing 5535:com.sec.knox.bridge/1000 (adj 15): empty #31
+08-17 15:50:34.213  6024  6024 W ResourceType: Failure getting entry for 0x7f060002 (t=5 e=2) (error -75)
+,08-17 15:50:34.213  6024  6024 W ResourceType: Failure getting entry for 0x7f060014 (t=5 e=20) (error -75)
+,08-17 15:50:34.213  6024  6024 W ResourceType: No package identifier when getting value for resource number 0x00000000
+,08-17 15:50:34.223  6024  6024 W ResourceType: Failure getting entry for 0x7f060027 (t=5 e=39) (error -75)
+,08-17 15:50:34.223  6024  6024 W ResourceType: Failure getting entry for 0x7f060028 (t=5 e=40) (error -75)
+,08-17 15:50:34.233  6024  6024 W ResourceType: Failure getting entry for 0x7f060029 (t=5 e=41) (error -75)
+,08-17 15:50:34.233  6024  6024 W ResourceType: Failure getting entry for 0x7f06002a (t=5 e=42) (error -75)
+,08-17 15:50:34.233  6024  6024 W ResourceType: Failure getting entry for 0x7f06002b (t=5 e=43) (error -75)
+,08-17 15:50:34.233  6024  6024 W ResourceType: Failure getting entry for 0x7f06002c (t=5 e=44) (error -75)
+,08-17 15:50:34.233  6024  6024 W ResourceType: Failure getting entry for 0x7f06002d (t=5 e=45) (error -75)
+,08-17 15:50:34.233  6024  6024 W ResourceType: Failure getting entry for 0x7f06002e (t=5 e=46) (error -75)
+,08-17 15:50:34.233  6024  6024 W ResourceType: Failure getting entry for 0x7f06002f (t=5 e=47) (error -75)
+,08-17 15:50:34.233  6024  6024 W ResourceType: Failure getting entry for 0x7f060030 (t=5 e=48) (error -75)
+,08-17 15:50:34.233  6024  6024 W ResourceType: Failure getting entry for 0x7f06001e (t=5 e=30) (error -75)
+,08-17 15:50:34.233  6024  6024 W ResourceType: Failure getting entry for 0x7f06001f (t=5 e=31) (error -75)
+,08-17 15:50:34.233  6024  6024 W ResourceType: Failure getting entry for 0x7f060011 (t=5 e=17) (error -75)
+,08-17 15:50:34.233  6024  6024 W ResourceType: Failure getting entry for 0x7f06000a (t=5 e=10) (error -75)
+,08-17 15:50:34.233  6024  6024 W ResourceType: Failure getting entry for 0x7f06000b (t=5 e=11) (error -75)
+,08-17 15:50:34.233  6024  6024 W ResourceType: Failure getting entry for 0x7f060003 (t=5 e=3) (error -75)
+,08-17 15:50:34.233  6024  6024 W ResourceType: Failure getting entry for 0x7f060015 (t=5 e=21) (error -75)
+,08-17 15:50:34.243  6024  6024 W ResourceType: Failure getting entry for 0x7f060016 (t=5 e=22) (error -75)
+,08-17 15:50:34.243  1015  1027 I ActivityManager: Killing 5867:com.sec.android.widgetapp.tapandpay/u0a156 (adj 15): empty #31
+,08-17 15:50:34.243  1015  1042 D Tethering: interfaceRemoved p2p0
+,08-17 15:50:34.243  1015  1042 E Tethering: attempting to remove unknown iface (p2p0), ignoring
+,08-17 15:50:34.253  6024  6024 I SA      : [SCU] isHaveSA() - false
+08-17 15:50:34.253  6024  6024 I SA      : support phone number id : false
+08-17 15:50:34.253  6024  6024 I SA      : [DM] Supports Ref Jpn : true
+,08-17 15:50:34.253  6024  6024 I SA      : [DM] init END
+,08-17 15:50:34.253  6024  6024 I SA      : [OR] onReceive log=[SA = 2.1.0240 V = 21 HWD = 1280X720 2.0 dpi = 320  SIZE = 2 LOCALE = en_US CSC = XEO MCC = 0 MNC 0 T = user DEVICE = a5ulte P = a5ultexx I = LRX22G M = SM-A500FU OKLEFT false DIS LRX22G.A500FUXXU1BOJ6 PSS = 4.978878039476607  ]
+,08-17 15:50:34.253  6024  6024 I SA      : [OR] onReceive Intent=[ conn.CONNECTIVITY_CHANGE. networkInfo:[type: WIFI[] - WIFI, state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: <unknown ssid>, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false] networkType:1 inetCondition:0 extraInfo:? noConnectivity:true ]
+08-17 15:50:34.253  6024  6024 I SA      : [OR] == ACTION_CONNECTIVITY_CHANGE ==
+,08-17 15:50:34.253  6024  6024 I SA      : [SLFUCHKMGR] constructor called
+,08-17 15:50:34.263  6024  6024 I SA      : [TPMU]  strSIMState 	:SIM_STATE_ABSENT
+,08-17 15:50:34.263  6024  6024 I SA      : [OR] == isSIMCardReady false ==
+,08-17 15:50:34.273  6024  6024 I SA      : [SCU] == networkStateCheck == false
+08-17 15:50:34.273  6024  6024 I SA      : [OR] onReceive END
+,08-17 15:50:34.273  1015  1502 I ActivityManager: Killing 5775:com.android.mms/u0a46 (adj 15): empty #31
+,08-17 15:50:34.273  1228  1228 V DownloadManager: onReceive intent + android.net.conn.CONNECTIVITY_CHANGE
+,08-17 15:50:34.283  1015  2729 D SSRM:n  : SIOP:: AP = 350
+,08-17 15:50:34.293   257   524 E Vold    : Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.music/files/
+08-17 15:50:34.293   257   524 W Vold    : Returning OperationFailed - no handler for errno 0
+,08-17 15:50:34.293  6517  6517 W ContextImpl: Failed to ensure directory: /storage/extSdCard/Android/data/com.google.android.music/files,
+,08-17 15:50:34.303   257   524 E Vold    : Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.music/files/
+08-17 15:50:34.303   257   524 W Vold    : Returning OperationFailed - no handler for errno 0
+,08-17 15:50:34.303  6517  6517 W ContextImpl: Failed to ensure directory: /storage/extSdCard/Android/data/com.google.android.music/files
+,08-17 15:50:34.303   257   524 E Vold    : Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.music/files/
+08-17 15:50:34.303   257   524 W Vold    : Returning OperationFailed - no handler for errno 0
+,08-17 15:50:34.303  6517  6517 W ContextImpl: Failed to ensure directory: /storage/extSdCard/Android/data/com.google.android.music/files
+,08-17 15:50:34.313  1015  1486 D ActivityManager: retrieveServiceLocked(): component = com.android.email/com.android.email.service.AttachmentDownloadService; callingUser = 0; userId(target) = 0
+08-17 15:50:34.313  1015  1486 W ActivityManager: Unable to start service Intent { cmp=com.android.email/.service.AttachmentDownloadService } U=0: not found
+,08-17 15:50:34.313  1015  3214 D ActivityManager: startService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music
+,08-17 15:50:34.313  1015  3214 D ActivityManager: retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.download.cache.StorageMigrationService; callingUser = 0; userId(target) = 0
+,08-17 15:50:34.323  1015  3214 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:34.323  1015  3214 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,08-17 15:50:34.323  1015  3214 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,08-17 15:50:34.323  1015  1076 D ActivityManager: retrieveServiceLocked(): component = com.android.email/com.android.email.service.EmailDebugService; callingUser = 0; userId(target) = 0
+,08-17 15:50:34.333  1015  1503 D ActivityManager: retrieveServiceLocked(): component = com.android.email/com.android.email.legacypush.ImapPushService; callingUser = 0; userId(target) = 0
+,08-17 15:50:34.333  1015  3214 D ActivityManager: bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music, action: null
+08-17 15:50:34.333  1015  3214 D ActivityManager: retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.download.artwork.ArtDownloadService2; callingUser = 0; userId(target) = 0
+,08-17 15:50:34.343  1015  3214 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:34.343  1015  3214 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,08-17 15:50:34.343  1015  3214 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,08-17 15:50:34.353  1015  1503 D WifiDisplayAdapter: getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=1, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo: Client/Owner: Client GroupId:  Passphrase:  SessionId: 0 IP Address: , connectedState=-1, networkQoS=0}
+,08-17 15:50:34.363  1015  1315 D WifiDisplayAdapter: getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=1, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo: Client/Owner: Client GroupId:  Passphrase:  SessionId: 0 IP Address: , connectedState=-1, networkQoS=0}
+,08-17 15:50:34.363  1015  1028 I AudioService: getStreamVolume 3 index 0
+,08-17 15:50:34.373  1015  1218 D CountryDetector: No listener is left
+,08-17 15:50:34.373  6517  6517 I MediaRouter: Found default route: MediaRouter.RouteInfo{ uniqueId=android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE, name=Phone, description=null, enabled=true, connecting=false, canDisconnect=false, playbackType=0, playbackStream=3, volumeHandling=1, volume=0, volumeMax=15, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+,08-17 15:50:34.373  6517  6517 V MusicLeanback: onReceive: Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.google.android.music/.leanback.notifications.LeanbackRecommendationsService$LeanbackRecommendationReceiver (has extras) }
+,08-17 15:50:34.383   257   524 E Vold    : Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.apps.magazines/cache/
+08-17 15:50:34.383   257   524 W Vold    : Returning OperationFailed - no handler for errno 0
+,08-17 15:50:34.383  6608  6671 W ContextImpl: Failed to ensure directory: /storage/extSdCard/Android/data/com.google.android.apps.magazines/cache
+,08-17 15:50:34.383   257   524 E Vold    : Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.apps.magazines/files/
+08-17 15:50:34.383   257   524 W Vold    : Returning OperationFailed - no handler for errno 0
+,08-17 15:50:34.393  6608  6671 W ContextImpl: Failed to ensure directory: /storage/extSdCard/Android/data/com.google.android.apps.magazines/files
+,08-17 15:50:34.393  1015  2925 D ActivityManager: bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music, action: null
+08-17 15:50:34.393  1015  2925 D ActivityManager: retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.net.NetworkMonitor; callingUser = 0; userId(target) = 0
+,08-17 15:50:34.393  1015  2925 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:34.393  1015  2925 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:34.393  1015  2925 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,08-17 15:50:34.403  1015  1027 D ActivityManager: bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music, action: null
+,08-17 15:50:34.403  1015  1027 D ActivityManager: retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.download.ArtDownloadQueueService; callingUser = 0; userId(target) = 0
+,08-17 15:50:34.403  1015  1027 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:34.403  1015  1027 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,08-17 15:50:34.403  1015  1027 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main,
+08-17 15:50:34.403   257   524 E Vold    : Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.apps.magazines/cache/,
+08-17 15:50:34.403   257   524 W Vold    : Returning OperationFailed - no handler for errno 0
+,08-17 15:50:34.403  6608  6676 W ContextImpl: Failed to ensure directory: /storage/extSdCard/Android/data/com.google.android.apps.magazines/cache
+,08-17 15:50:34.403  1015  1503 D ActivityManager: bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music, action: null
+08-17 15:50:34.403  1015  1503 D ActivityManager: retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.download.cache.ArtCacheService; callingUser = 0; userId(target) = 0
+,08-17 15:50:34.413  1015  1503 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:34.413  1015  1503 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:34.413  1015  1503 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,08-17 15:50:34.413  1015  1315 I ActivityManager: Killing 5963:com.sec.android.app.myfiles/u0a47 (adj 15): empty #31
+,08-17 15:50:34.423  1015  1485 D WifiDisplayAdapter: getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=1, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo: Client/Owner: Client GroupId:  Passphrase:  SessionId: 0 IP Address: , connectedState=-1, networkQoS=0}
+,08-17 15:50:34.423   257   524 E Vold    : Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.apps.magazines/files/
+08-17 15:50:34.423   257   524 W Vold    : Returning OperationFailed - no handler for errno 0
+,08-17 15:50:34.423  6608  6676 W ContextImpl: Failed to ensure directory: /storage/extSdCard/Android/data/com.google.android.apps.magazines/files
+,08-17 15:50:34.433  1015  1015 D ActivityManager: startProcessLocked calleePkgName: com.sec.android.cloudagent, hostingType: broadcast
+,08-17 15:50:34.443  1015  1015 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:34.443  1015  1015 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:34.443  1015  1015 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:34.443  1015  1015 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:34.453  6678  6678 E Zygote  : MountEmulatedStorage(),
+,08-17 15:50:34.453  6678  6678 I libpersona: KNOX_SDCARD checking this for 10002
+08-17 15:50:34.453  6678  6678 E Zygote  : v2
+,08-17 15:50:34.453  6678  6678 I libpersona: KNOX_SDCARD not a persona
+08-17 15:50:34.453  6678  6678 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51,
+08-17 15:50:34.463  1015  1015 I ActivityManager: Start proc com.sec.android.cloudagent for broadcast com.sec.android.cloudagent/.detector.DetectorReceiver: pid=6678 uid=10002 gids={50002, 9997, 3003, 1028, 1015} abi=armeabi-v7a
+08-17 15:50:34.463  6678  6678 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+08-17 15:50:34.463  6678  6678 E SELinux : [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,08-17 15:50:34.483  1015  1503 D ActivityManager: bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.gms, action: null
+,08-17 15:50:34.483  1015  1503 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.gcm.http.GoogleHttpService; callingUser = 0; userId(target) = 0
+,08-17 15:50:34.483  1015  1503 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:34.483  1015  1503 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:34.483  1015  1503 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:34.483  6678  6678 D TimaKeyStoreProvider: TimaSignature is unavailable
+,08-17 15:50:34.483  6678  6678 D ActivityThread: Added TimaKeyStore provider
+08-17 15:50:34.483  6517  6517 I GHttpClientFactory: Using the GMSCore's GoogleHttpClient
+,08-17 15:50:34.493  1015  1027 D ActivityManager: bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music, action: null
+08-17 15:50:34.493  1015  1027 D ActivityManager: retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.net.NetworkMonitor; callingUser = 0; userId(target) = 0
+,08-17 15:50:34.493  1015  1027 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:34.493  1015  1027 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:34.493  1015  1027 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,08-17 15:50:34.523  1015  1315 I ActivityManager: Killing 5980:com.wsomacp/u0a25 (adj 15): empty #31
+,08-17 15:50:34.543  1015  3213 I ActivityManager: Killing 5853:com.samsung.android.sdk.samsunglink/u0a38 (adj 15): empty #31
+,08-17 15:50:34.543  1015  3213 D ActivityManager: startProcessLocked calleePkgName: com.sec.android.diagmonagent, hostingType: broadcast
+,08-17 15:50:34.543  1015  3213 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:34.543  1015  3213 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:34.543  1015  3213 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:34.543  1015  3213 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:34.563  6709  6709 E Zygote  : MountEmulatedStorage()
+08-17 15:50:34.563  6709  6709 I libpersona: KNOX_SDCARD checking this for 1000
+08-17 15:50:34.563  6709  6709 E Zygote  : v2
+08-17 15:50:34.563  6709  6709 I libpersona: KNOX_SDCARD not a persona
+,08-17 15:50:34.563  6709  6709 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+,08-17 15:50:34.563  1015  3213 I ActivityManager: Start proc com.sec.android.diagmonagent for broadcast com.sec.android.diagmonagent/.DiagMonRegistrationReceiver: pid=6709 uid=1000 gids={41000, 9997, 3002, 3001, 3003, 1028, 1015, 1007, 1023, 2001, 1024, 1001, 1021, 3004, 3005, 1000, 3009, 1010} abi=armeabi-v7a
+,08-17 15:50:34.563  6709  6709 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+,08-17 15:50:34.563  6709  6709 E SELinux : [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,08-17 15:50:34.573  1015  1474 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:34.583  1015  1474 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:34.583  1015  1474 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:34.583  1015  1474 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.apps.magazines, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:34.593  6709  6709 D TimaKeyStoreProvider: TimaSignature is unavailable
+,08-17 15:50:34.593  6709  6709 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:34.603  6608  6608 I WebViewFactory: Loading com.google.android.webview version 43.0.2357.121 (code 2357121)
+,08-17 15:50:34.613  6608  6608 I LibraryLoader: Time to load native libraries: 1 ms (timestamps 9057-9058)
+,08-17 15:50:34.613  6608  6608 I LibraryLoader: Expected native library version number "",actual native library version number ""
+,08-17 15:50:34.623  6608  6608 V WebViewChromiumFactoryProvider: Binding Chromium to main looper Looper (main, tid 1) {a9f4ea6}
+,08-17 15:50:34.623  6608  6608 I LibraryLoader: Expected native library version number "",actual native library version number ""
+,08-17 15:50:34.623  6608  6608 I chromium: [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+,08-17 15:50:34.643  6709  6709 I DIAGMON_AGENT: [com.diagmondm.db.file.XDB(372/llIlIIIIlIIIIIlIlIII)] 
+,08-17 15:50:34.643  6608  6608 I BrowserStartupController: Initializing chromium process, singleProcess=true
+,08-17 15:50:34.643  6608  6608 W art     : Attempt to remove local handle scope entry from IRT, ignoring
+,08-17 15:50:34.653  6608  6608 E SysUtils: ApplicationContext is null in ApplicationStatus
+,08-17 15:50:34.673  6608  6608 W chromium: [WARNING:resource_bundle.cc(286)] locale_file_path.empty()
+,08-17 15:50:34.673  6608  6608 I chromium: [INFO:aw_browser_main_parts.cc(63)] Load from apk succesful, fd=44 off=50556 len=3379
+,08-17 15:50:34.673  6608  6608 I chromium: [INFO:aw_browser_main_parts.cc(76)] Loading webviewchromium.pak from, fd:45 off:7638088 len:1165478
+,08-17 15:50:34.673  6608  6608 I Adreno-EGL: <qeglDrvAPI_eglInitialize:379>: EGL 1.4 QUALCOMM build: SKARAJGA_AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.02.031.018+PATCH[ES]_msm8916_32_refs/tags/AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.02.031.018__release_ENGG (I856e09677e)
+08-17 15:50:34.673  6608  6608 I Adreno-EGL: OpenGL ES Shader Compiler Version: E031.25.03.02
+08-17 15:50:34.673  6608  6608 I Adreno-EGL: Build Date: 04/06/15 Mon
+08-17 15:50:34.673  6608  6608 I Adreno-EGL: Local Branch: 
+08-17 15:50:34.673  6608  6608 I Adreno-EGL: Remote Branch: refs/tags/AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.02.031.018
+08-17 15:50:34.673  6608  6608 I Adreno-EGL: Local Patches: 112c106f3772623daa7b4181c6cf23491044ead1 Revert "Disable ASTC on A405"
+08-17 15:50:34.673  6608  6608 I Adreno-EGL:                  58a118cb818fdc906095a49a90977c15f9d3b223 Remove ASTC
+,08-17 15:50:34.733  6608  6608 I NSApplication: Starting up...
+,08-17 15:50:34.733  6608  6737 W AudioManagerAndroid: Requires BLUETOOTH permission
+,08-17 15:50:34.743  1015  1076 D ActivityManager: startProcessLocked calleePkgName: com.google.android.apps.plus, hostingType: broadcast
+,08-17 15:50:34.743  1015  1076 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:34.753  1015  1076 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:34.753  1015  1076 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:34.753  1015  1076 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:34.763  6709  6709 I DIAGMON_AGENT: [com.sec.android.diagmonagent.DiagMonAgentApplication(59/onCreate)] nStatus : 0
+,08-17 15:50:34.763  1015  1076 I ActivityManager: Start proc com.google.android.apps.plus for broadcast com.google.android.apps.plus/.service.ConnectivityReceiver: pid=6742 uid=10120 gids={50120, 9997, 3003, 3002, 1028, 1015} abi=armeabi-v7a
+08-17 15:50:34.763  6742  6742 E Zygote  : MountEmulatedStorage(),
+08-17 15:50:34.763  6742  6742 I libpersona: KNOX_SDCARD checking this for 10120
+08-17 15:50:34.763  6742  6742 E Zygote  : v2
+08-17 15:50:34.763  6742  6742 I libpersona: KNOX_SDCARD not a persona
+08-17 15:50:34.763  1015  1076 I ActivityManager: Killing 5999:com.sec.android.app.soundalive/u0a53 (adj 15): empty #31,
+,08-17 15:50:34.763  6742  6742 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+08-17 15:50:34.763   314   314 W Atfwd_Sendcmd: AtCmdFwd service not published, waiting... retryCnt : 2
+,08-17 15:50:34.773  6742  6742 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+,08-17 15:50:34.773  6742  6742 E SELinux : [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+,08-17 15:50:34.773  6709  6709 I DIAGMON_AGENT: [com.sec.android.diagmonagent.DiagMonAgentApplication(76/onCreate)] DiagMon DM Application Start !
+,08-17 15:50:34.773  6709  6709 I DIAGMON_AGENT: [lllIIIIlIIlIlllIlIIl(39/llIIIIlllllIIllIIllI)] Receive broadcast: android.net.conn.CONNECTIVITY_CHANGE
+,08-17 15:50:34.773  6709  6709 I DIAGMON_AGENT: [lllIIIIlIIlIlllIlIIl(40/llIIIIlllllIIllIIllI)] Receive broadcast:
+08-17 15:50:34.773  6709  6709 I DIAGMON_AGENT: ./extraInfo: <unknown ssid>
+,08-17 15:50:34.783  6709  6709 W DIAGMON_AGENT: [lllIIIIlIIlIlllIlIIl(27/llIIIIlllllIIllIIllI)] Network is changed and not available now, so don't do anything
+,08-17 15:50:34.783  1015  1502 I ActivityManager: Killing 5843:com.google.android.apps.docs/u0a91 (adj 15): empty #31
+,08-17 15:50:34.793  6742  6742 D TimaKeyStoreProvider: TimaSignature is unavailable
+,08-17 15:50:34.803  6742  6742 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:34.813  6742  6742 W ResourcesManager: Asset path '/system/framework/com.google.android.maps.jar' does not exist or contains no resources.
+,08-17 15:50:34.953  1015  1126 E WifiStateMachine: skipWifiStateBroadcast:false, LastBroadcastedWifiState:1
+,08-17 15:50:34.953  1015  1126 E WifiHW  : ##################### set firmware type 0 #####################
+,08-17 15:50:35.123  1015  1478 D ActivityManager: startProcessLocked calleePkgName: com.samsung.android.sconnect, hostingType: broadcast
+,08-17 15:50:35.123  1015  1478 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:35.123  1015  1478 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:35.123  1015  1478 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:35.123  1015  1478 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:35.143  6763  6763 E Zygote  : MountEmulatedStorage()
+08-17 15:50:35.143  6763  6763 E Zygote  : v2
+08-17 15:50:35.143  6763  6763 I libpersona: KNOX_SDCARD checking this for 10125
+08-17 15:50:35.143  6763  6763 I libpersona: KNOX_SDCARD not a persona
+,08-17 15:50:35.143  6763  6763 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+,08-17 15:50:35.153  1015  1478 I ActivityManager: Start proc com.samsung.android.sconnect for broadcast com.samsung.android.sconnect/.periph.PeriphStartReceiver: pid=6763 uid=10125 gids={50125, 9997, 3002, 3001, 1028, 1015, 3003} abi=armeabi-v7a
+,08-17 15:50:35.153  6763  6763 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+,08-17 15:50:35.153  1015  1478 I ActivityManager: Killing 6058:com.samsung.android.app.watchmanagerstub/u0a100 (adj 15): empty #31
+,08-17 15:50:35.153  6763  6763 E SELinux : [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,08-17 15:50:35.173  6763  6763 D TimaKeyStoreProvider: TimaSignature is unavailable
+,08-17 15:50:35.173  6763  6763 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:35.183  6763  6763 W ResourcesManager: Asset path '/system/framework/com.google.android.maps.jar' does not exist or contains no resources.
+,08-17 15:50:35.183  6763  6763 W ResourcesManager: Asset path '/system/framework/allshare.jar' does not exist or contains no resources.
+08-17 15:50:35.183  6763  6763 W ResourcesManager: Asset path '/system/framework/com.broadcom.bt.jar' does not exist or contains no resources.
+,08-17 15:50:35.203  6763  6763 D QuickConnect: PeriphStartReceiver.onReceive - android.net.conn.CONNECTIVITY_CHANGE
+,08-17 15:50:35.203  6763  6763 I QuickConnect: PeriphStartReceiver.onReceive - USER_OWNER care CONNECTIVITY_ACTION. run P service
+,08-17 15:50:35.203  6763  6763 I QuickConnect: PeriphStartReceiver.onReceive - no need to start
+,08-17 15:50:35.213  1015  1474 I splitIntent: Queue : backgroundsplit_1 intent android.net.conn.CONNECTIVITY_CHANGE is finished at BG and BG split queue. set mSplitStart and mBgSplitQueueOnlyRun false.
+,08-17 15:50:35.213  1015  1474 I ActivityManager: Killing 6081:com.samsung.helphub/1000 (adj 15): empty #31
+,08-17 15:50:35.223  1015  1502 D ActivityManager: startService callerProcessName:com.samsung.hs20settings, calleePkgName: com.samsung.hs20settings
+,08-17 15:50:35.223  1015  1502 D ActivityManager: retrieveServiceLocked(): component = com.samsung.hs20settings/com.samsung.hs20settings.WifiHs20UtilityService; callingUser = 0; userId(target) = -2
+08-17 15:50:35.223  1015  1502 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:35.223  1015  1502 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:35.223  1015  1502 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.hs20settings, destAppInfo.processName = com.samsung.hs20settings
+08-17 15:50:35.223  3608  3608 I Hs20UtilService: Starting #11
+,08-17 15:50:35.223  3608  3625 I Hs20UtilService: Message received 5011,
+,08-17 15:50:35.223  6468  6468 D SecurityLogAgent: KnoxConfiguration : Current State = 1
+,08-17 15:50:35.223  6468  6468 D SecurityLogAgent: KnoxConfiguration : Current State Mapping Found 
+08-17 15:50:35.223  6468  6468 D SecurityLogAgent: StateMachine : Current State = 1
+08-17 15:50:35.223  6468  6468 D SecurityLogAgent: StateMachine : Changed Current State = 1
+,08-17 15:50:35.323  1015  1042 D Tethering: interfaceAdded wlan0
+,08-17 15:50:35.333  1015  1042 I Nat464Xlat: interfaceLinkStateChanged wlan0, false
+,08-17 15:50:35.333  1015  1042 D Tethering: interfaceLinkStateChanged wlan0, false
+08-17 15:50:35.333  1015  1042 D Tethering: interfaceStatusChanged wlan0, false
+,08-17 15:50:35.333  1015  1130 E Tethering: No numeric data
+08-17 15:50:35.333  1015  1130 D Tethering: sendTetherStateChangedBroadcast 1, 0, 0
+08-17 15:50:35.333  1015  1130 D Tethering: clearTetheredNotification()
+,08-17 15:50:35.333  1015  1130 D Tethering: InitialState.processMessage what=4
+,08-17 15:50:35.343  1015  1123 V NetworkStats: performPollLocked(flags=0x1)
+08-17 15:50:35.343  1015  1123 D NtpTrustedTime: currentTimeMillis() cache hit
+08-17 15:50:35.343  1015  1042 D Tethering: interfaceAdded p2p0
+,08-17 15:50:35.343  1015  1123 D NetworkStatsFactory: UpdateStatsForKnox updated,
+08-17 15:50:35.343  1015  1123 D NetworkStatsFactory: UpdateStatsForKnox main else ---,
+,08-17 15:50:35.343  1174  1174 D HotspotTile: onReceive : android.net.conn.TETHER_STATE_CHANGED
+08-17 15:50:35.343  1174  1174 D HotspotTile: updateTetherState():false, false,
+08-17 15:50:35.343  1015  1123 D NtpTrustedTime: currentTimeMillis() cache hit
+08-17 15:50:35.343  1015  1123 V NetworkStats: performPollLocked() took 7ms
+,08-17 15:50:35.353  1015  1130 E Tethering: No numeric data
+,08-17 15:50:35.353  1015  1042 D Tethering: p2p0 is not a tetherable iface, ignoring
+,08-17 15:50:35.353  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+08-17 15:50:35.353  1015  1042 I Nat464Xlat: interfaceLinkStateChanged p2p0, false
+08-17 15:50:35.353  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+08-17 15:50:35.353  1015  1042 D Tethering: interfaceLinkStateChanged p2p0, false
+08-17 15:50:35.353  1015  1130 D Tethering: sendTetherStateChangedBroadcast 0, 0, 0
+08-17 15:50:35.353  1015  1130 D Tethering: clearTetheredNotification()
+,08-17 15:50:35.353  1015  1042 D Tethering: interfaceStatusChanged p2p0, false
+,08-17 15:50:35.363   278  1014 I WifiHW  : wifi_change_fw_path(): fwpath = sta
+,08-17 15:50:35.363   278  1014 D SoftapController: Softap fwReload - Ok
+08-17 15:50:35.363  1015  1123 V NetworkStats: performPollLocked(flags=0x1)
+08-17 15:50:35.363  1015  1123 D NtpTrustedTime: currentTimeMillis() cache hit
+,08-17 15:50:35.363  1015  1123 D NetworkStatsFactory: UpdateStatsForKnox updated
+08-17 15:50:35.363  1015  1123 D NetworkStatsFactory: UpdateStatsForKnox main else ---
+08-17 15:50:35.363   278  1014 D CommandListener: Setting iface cfg
+08-17 15:50:35.363   278  1014 D CommandListener: Trying to bring down wlan0
+,08-17 15:50:35.363  1174  1174 D HotspotTile: onReceive : android.net.conn.TETHER_STATE_CHANGED
+08-17 15:50:35.373   278  1014 D CommandListener: Clearing all IP addresses on wlan0
+08-17 15:50:35.363  1174  1174 D HotspotTile: updateTetherState():false, false
+,08-17 15:50:35.373  1015  1123 D NtpTrustedTime: currentTimeMillis() cache hit
+,08-17 15:50:35.373  1015  1123 V NetworkStats: performPollLocked() took 8ms
+,08-17 15:50:35.383  1015  1126 E WifiHW  : supplicant_name : p2p_supplicant
+,08-17 15:50:35.393  1015  1126 D WifiMonitor: startMonitoring(wlan0) with mConnected = false
+,08-17 15:50:35.393  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+08-17 15:50:35.393  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+,08-17 15:50:35.393  1174  1174 D StatusBar.NetworkController: refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x0/(null) mQSWifiIconId=0x0/(null) mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+08-17 15:50:35.393  1174  1174 D STATUSBAR-WifiQuickSettingButton: onWifiSignalChanged enabled=false enabledDesc:null
+08-17 15:50:35.393  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:35.393  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:35.393  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:35.393  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:35.403  1174  1174 D STATUSBAR-WifiQuickSettingButton: onReceive : android.net.wifi.WIFI_STATE_CHANGED
+08-17 15:50:35.403  1174  1721 D STATUSBAR-QSTileView: onStateChanged: Wi-Fi
+08-17 15:50:35.403  1174  1174 D STATUSBAR-WifiQuickSettingButton: Wifi onReceive(2)
+,08-17 15:50:35.403  1174  1174 D HotspotTile: onReceive : android.net.wifi.WIFI_STATE_CHANGED
+08-17 15:50:35.403  1174  1174 D HotspotTile: onReceive : 2, 0
+,08-17 15:50:35.403  1317  1317 D WifiCredService: Action received :android.net.wifi.WIFI_STATE_CHANGED,
+08-17 15:50:35.403  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+08-17 15:50:35.413  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:35.423  1015  1028 D ActivityManager: startService callerProcessName:com.samsung.hs20settings, calleePkgName: com.samsung.hs20settings
+08-17 15:50:35.423  1015  1028 D ActivityManager: retrieveServiceLocked(): component = com.samsung.hs20settings/com.samsung.hs20settings.WifiHs20UtilityService; callingUser = 0; userId(target) = -2
+,08-17 15:50:35.423  1015  1028 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:35.423  1015  1028 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:35.423  1015  1028 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.hs20settings, destAppInfo.processName = com.samsung.hs20settings
+,08-17 15:50:35.423  6468  6468 D SecurityLogAgent: KnoxConfiguration : Current State = 1
+,08-17 15:50:35.423  6468  6468 D SecurityLogAgent: KnoxConfiguration : Current State Mapping Found 
+08-17 15:50:35.423  6468  6468 D SecurityLogAgent: StateMachine : Current State = 1
+08-17 15:50:35.423  6468  6468 D SecurityLogAgent: StateMachine : Changed Current State = 1
+,08-17 15:50:35.433  3608  3608 I Hs20UtilService: Starting #12
+08-17 15:50:35.433  3608  3625 I Hs20UtilService: Message received 5011
+,08-17 15:50:35.443  6785  6785 I wpa_supplicant: [wpa_supplicant_init]: use SECRIL
+08-17 15:50:35.443  6785  6785 I wpa_supplicant: Successfully initialized wpa_supplicant
+,08-17 15:50:35.443  6785  6785 I SecureStorage: [INFO]: SPID(0x00000000)Checking if this device supports Secure Storage
+,08-17 15:50:35.453  6785  6785 I SecureStorage: [INFO]: SPID(0x00000000)This device supports Secure Storage,
+08-17 15:50:35.453   355   355 I SecureStorage: [INFO]: SPID(0x00000002)Credentials: uid 1010, gid 1010, pid 6785,
+08-17 15:50:35.453   355   355 I SecureStorage: [INFO]: SPID(0x00000002)Received function mask & code: 0x0000010C
+08-17 15:50:35.453  6785  6785 I SecureStorage: [INFO]: SPID(0x00000000)SS Daemon is running
+08-17 15:50:35.453  6785  6785 I wpa_supplicant: ssSupport state is = 1
+08-17 15:50:35.453  6785  6785 I wpa_supplicant: >>>>> GET KEY, IV <<<<<
+08-17 15:50:35.453  6785  6785 I SecureStorage: [INFO]: SPID(0x00000000)Processing data
+,08-17 15:50:35.453   355   355 I SecureStorage: [INFO]: SPID(0x00000002)Credentials: uid 1010, gid 1010, pid 6785
+08-17 15:50:35.453   355   355 I SecureStorage: [INFO]: SPID(0x00000002)Received function mask & code: 0x00000106
+,08-17 15:50:35.603   355   355 I SecureStorage: [INFO]: SPID(0x00000003)Secure Storage Daemon finished processing with result: 0,
+,08-17 15:50:35.603  6785  6785 I SecureStorage: [INFO]: SPID(0x00000003)Processing data has been completed,
+,08-17 15:50:35.673  6785  6785 I wpa_supplicant: Ctrl_iface: loading cred from phone
+,08-17 15:50:35.673  6785  6785 I SecureStorage: [INFO]: SPID(0x00000003)Checking if this device supports Secure Storage
+,08-17 15:50:35.683  6785  6785 I SecureStorage: [INFO]: SPID(0x00000003)This device supports Secure Storage,
+08-17 15:50:35.683   355   355 I SecureStorage: [INFO]: SPID(0x00000003)Credentials: uid 1010, gid 1010, pid 6785
+08-17 15:50:35.683   355   355 I SecureStorage: [INFO]: SPID(0x00000003)Received function mask & code: 0x0000010C
+08-17 15:50:35.683  6785  6785 I SecureStorage: [INFO]: SPID(0x00000003)SS Daemon is running
+08-17 15:50:35.683  6785  6785 I wpa_supplicant: ssSupport state is = 1
+,08-17 15:50:35.683  6785  6785 I wpa_supplicant: [set_default_callid]: set_default_callid simnumber = 0,default_callid = 0
+08-17 15:50:35.683  6785  6785 E wpa_supplicant: getIMSI cannot open /data/misc/radio/kmem: No such file or directory
+08-17 15:50:35.683  6785  6785 E wpa_supplicant: SIM READ ERROR
+08-17 15:50:35.683  6785  6785 I wpa_supplicant: [set_default_callid]: set_default_callid simnumber = 0,default_callid = 0,
+08-17 15:50:35.683  6785  6785 E wpa_supplicant: getIMSI cannot open /data/misc/radio/kmem: No such file or directory
+08-17 15:50:35.683  6785  6785 E wpa_supplicant: SIM READ ERROR
+08-17 15:50:35.683  6785  6785 I wpa_supplicant: Blacklist: Clear (all) 
+08-17 15:50:35.683  6785  6785 I wpa_supplicant: wpa_default_ap_write_once
+08-17 15:50:35.683  6785  6785 I wpa_supplicant: There is no /data/misc/wifi/default_ap.check. Start copy default ap
+,08-17 15:50:35.683  6785  6785 I wpa_supplicant: [set_default_callid]: set_default_callid simnumber = 0,default_callid = 0
+08-17 15:50:35.683  6785  6785 E wpa_supplicant: getSavedIMSI cannot open /data/misc/wifi/.kmem: No such file or directory
+08-17 15:50:35.683  6785  6785 I wpa_supplicant: [set_default_callid]: set_default_callid simnumber = 0,default_callid = 0
+08-17 15:50:35.683  6785  6785 E wpa_supplicant: getIMSI cannot open /data/misc/radio/kmem: No such file or directory
+,08-17 15:50:35.683  6785  6785 I wpa_supplicant: rfkill: Cannot open RFKILL control device,
+,08-17 15:50:35.693  1015  1042 D Tethering: interfaceLinkStateChanged wlan0, false
+08-17 15:50:35.693  1015  1042 I Nat464Xlat: interfaceLinkStateChanged wlan0, false
+08-17 15:50:35.693  1015  1042 D Tethering: interfaceStatusChanged wlan0, false
+,08-17 15:50:35.813  6785  6785 I wpa_supplicant: wlan0: Setting scan request: 0 sec 100000 usec,
+,08-17 15:50:36.043  6785  6785 I wpa_supplicant: wlan0: State: DISCONNECTED -> DISCONNECTED
+,08-17 15:50:36.043  6785  6785 I SecureStorage: [INFO]: SPID(0x00000003)Checking if this device supports Secure Storage
+,08-17 15:50:36.053  6785  6785 I SecureStorage: [INFO]: SPID(0x00000003)This device supports Secure Storage
+08-17 15:50:36.053   355   355 I SecureStorage: [INFO]: SPID(0x00000003)Credentials: uid 1010, gid 1010, pid 6785
+08-17 15:50:36.053   355   355 I SecureStorage: [INFO]: SPID(0x00000003)Received function mask & code: 0x0000010C
+,08-17 15:50:36.053  6785  6785 I SecureStorage: [INFO]: SPID(0x00000003)SS Daemon is running
+08-17 15:50:36.053  6785  6785 I wpa_supplicant: ssSupport state is = 1
+08-17 15:50:36.053  6785  6785 I wpa_supplicant: Ctrl_iface: loading cred from phone
+08-17 15:50:36.053  6785  6785 I SecureStorage: [INFO]: SPID(0x00000003)Checking if this device supports Secure Storage
+,08-17 15:50:36.073  6785  6785 I SecureStorage: [INFO]: SPID(0x00000003)This device supports Secure Storage,
+08-17 15:50:36.073   355   355 I SecureStorage: [INFO]: SPID(0x00000003)Credentials: uid 1010, gid 1010, pid 6785
+08-17 15:50:36.073   355   355 I SecureStorage: [INFO]: SPID(0x00000003)Received function mask & code: 0x0000010C
+08-17 15:50:36.073  6785  6785 I SecureStorage: [INFO]: SPID(0x00000003)SS Daemon is running,
+08-17 15:50:36.073  6785  6785 I wpa_supplicant: ssSupport state is = 1
+08-17 15:50:36.073  6785  6785 I wpa_supplicant: [set_default_callid]: set_default_callid simnumber = 0,default_callid = 0
+08-17 15:50:36.073  6785  6785 E wpa_supplicant: getIMSI cannot open /data/misc/radio/kmem: No such file or directory
+,08-17 15:50:36.073  6785  6785 E wpa_supplicant: SIM READ ERROR
+08-17 15:50:36.073  6785  6785 I wpa_supplicant: wpa_default_ap_write_once
+08-17 15:50:36.073  6785  6785 I wpa_supplicant: There is no /data/misc/wifi/default_ap.check. Start copy default ap
+,08-17 15:50:36.073  6785  6785 I wpa_supplicant: rfkill: Cannot open RFKILL control device
+,08-17 15:50:36.083  1015  1042 D Tethering: interfaceLinkStateChanged p2p0, false
+08-17 15:50:36.083  1015  1042 I Nat464Xlat: interfaceLinkStateChanged p2p0, false
+08-17 15:50:36.083  1015  1042 D Tethering: interfaceStatusChanged p2p0, false
+08-17 15:50:36.083  1015  1042 D Tethering: interfaceLinkStateChanged p2p0, false
+08-17 15:50:36.083  1015  1042 I Nat464Xlat: interfaceLinkStateChanged p2p0, false
+08-17 15:50:36.083  1015  1042 D Tethering: interfaceStatusChanged p2p0, false
+,08-17 15:50:36.123  6785  6785 I wpa_supplicant: p2p0: State: DISCONNECTED -> INACTIVE,
+08-17 15:50:36.123  6785  6785 I wpa_supplicant: CTRL-EVENT-STATE-CHANGE id=-1 state=2 BSSID=00.00.00 SSID=
+,08-17 15:50:36.183  6785  6785 I wpa_supplicant: p2p0: State: INACTIVE -> DISCONNECTED
+,08-17 15:50:36.183  6785  6785 I wpa_supplicant: CTRL-EVENT-STATE-CHANGE id=-1 state=0 BSSID=00.00.00 SSID=
+08-17 15:50:36.183  6785  6785 I wpa_supplicant: Skip scan - bUseNetwork false
+,08-17 15:50:36.193  1015  1126 E WifiStateMachine: skipWifiStateBroadcast:false, LastBroadcastedWifiState:2
+08-17 15:50:36.193  1015  1126 D WifiNative-wlan0: callSECApiBoolean - ID [21]
+,08-17 15:50:36.193  6785  6785 I wpa_supplicant: HOTSPOT20_ENABLE called
+08-17 15:50:36.193  6785  6785 I wpa_supplicant: [set_default_callid]: set_default_callid simnumber = 0,default_callid = 0
+08-17 15:50:36.193  6785  6785 E wpa_supplicant: getIMSI cannot open /data/misc/radio/kmem: No such file or directory
+08-17 15:50:36.193  6785  6785 E wpa_supplicant: SIM READ ERROR
+08-17 15:50:36.193  6785  6785 I wpa_supplicant: Blacklist: Clear (all) 
+,08-17 15:50:36.213  6785  6785 I wpa_supplicant: wlan0: Setting scan request: 0 sec 0 usec
+,08-17 15:50:36.223  1015  1126 D WifiNative-wlan0: callSECApiInt - ID [210]
+08-17 15:50:36.223  6785  6785 I wpa_supplicant: Skip scan - bUseNetwork false
+,08-17 15:50:36.223  1015  1126 D WifiConfigStore: Loading config and enabling all networks ,
+,08-17 15:50:36.233  1174  1174 D StatusBar.NetworkController: refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f020561/com.android.systemui:drawable/stat_sys_wifi_signal_0 mQSWifiIconId=0x7f020157/com.android.systemui:drawable/ic_qs_wifi_no_network mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+,08-17 15:50:36.233  1174  1174 D STATUSBAR-WifiQuickSettingButton: onWifiSignalChanged enabled=true enabledDesc:null
+08-17 15:50:36.233  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:36.233  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:36.233  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:36.233  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:36.233  1174  1174 D STATUSBAR-WifiQuickSettingButton: onReceive : android.net.wifi.WIFI_STATE_CHANGED
+08-17 15:50:36.233  1174  1174 D STATUSBAR-WifiQuickSettingButton: Wifi onReceive(3)
+08-17 15:50:36.233  1174  1174 D HotspotTile: onReceive : android.net.wifi.WIFI_STATE_CHANGED
+,08-17 15:50:36.233  1174  1721 D STATUSBAR-QSTileView: onStateChanged: Wi-Fi
+,08-17 15:50:36.233  1174  1174 D HotspotTile: onReceive : 3, 0
+,08-17 15:50:36.243  1015  1126 E WifiConfigStore: Not a HS20
+,08-17 15:50:36.243  6195  6195 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: Checking support for multiple advertisement: Cannot do the check when the Bluetooth is disabled - will return stored value
+,08-17 15:50:36.243  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: State changed:
+08-17 15:50:36.243  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:36.243  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:36.243  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: true
+08-17 15:50:36.243  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: false
+08-17 15:50:36.243  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: null
+08-17 15:50:36.243  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: false
+08-17 15:50:36.243  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: false
+08-17 15:50:36.243  6195  6195 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: Checking support for multiple advertisement: Cannot do the check when the Bluetooth is disabled - will return stored value
+08-17 15:50:36.243  1317  1317 D WifiCredService: Action received :android.net.wifi.WIFI_STATE_CHANGED
+08-17 15:50:36.243  6195  6195 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: OFF, Bluetooth: OFF, Wi-Fi: ON, cellular: DO_NOT_CARE, BSSID name: null
+,08-17 15:50:36.243  6195  6195 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: Checking support for multiple advertisement: Cannot do the check when the Bluetooth is disabled - will return stored value
+08-17 15:50:36.243  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: State changed:
+08-17 15:50:36.243  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:36.243  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:36.243  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: true
+08-17 15:50:36.243  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: false
+08-17 15:50:36.243  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: null
+08-17 15:50:36.243  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: false
+08-17 15:50:36.243  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: false
+08-17 15:50:36.243  6195  6195 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: Checking support for multiple advertisement: Cannot do the check when the Bluetooth is disabled - will return stored value
+08-17 15:50:36.243  6195  6195 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: OFF, Bluetooth: OFF, Wi-Fi: ON, cellular: DO_NOT_CARE, BSSID name: null
+,08-17 15:50:36.243  1015  1126 E WifiConfigStore: Error parsing configuration: java.io.FileNotFoundException: /data/misc/wifi/ipconfig.txt: open failed: ENOENT (No such file or directory)
+,08-17 15:50:36.243  1015  1126 D WifiNative-wlan0: callSECApiInt - ID [65]
+,08-17 15:50:36.253  1015  1218 D ActivityManager: startService callerProcessName:com.samsung.hs20settings, calleePkgName: com.samsung.hs20settings
+08-17 15:50:36.253  1015  1218 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:36.253  1015  1218 D ActivityManager: retrieveServiceLocked(): component = com.samsung.hs20settings/com.samsung.hs20settings.WifiHs20UtilityService; callingUser = 0; userId(target) = -2
+08-17 15:50:36.253  1015  1218 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:36.253  1015  1218 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.hs20settings, destAppInfo.processName = com.samsung.hs20settings
+,08-17 15:50:36.253  1015  1126 D WifiNative-wlan0: callSECApiBoolean - ID [13]
+08-17 15:50:36.253  3608  3608 I Hs20UtilService: Starting #13
+08-17 15:50:36.253  6785  6785 I wpa_supplicant: USE_NETWORK : USE_NETWORK ON
+08-17 15:50:36.253  6785  6785 I wpa_supplicant: wlan0: Setting scan request: 8 sec 0 usec
+08-17 15:50:36.253  3608  3625 I Hs20UtilService: Message received 5011
+08-17 15:50:36.253  6785  6785 I wpa_supplicant: reset timer : RESET_TIMER 0
+08-17 15:50:36.253  6785  6785 I wpa_supplicant: P2P: Current p2p state = IDLE
+08-17 15:50:36.253  6785  6785 I wpa_supplicant: wlan0: State: DISCONNECTED -> SCANNING
+08-17 15:50:36.253  6785  6785 I wpa_supplicant: CTRL-EVENT-STATE-CHANGE id=-1 state=3 BSSID=00.00.00 SSID=
+08-17 15:50:36.253  6785  6785 I wpa_supplicant: First Scan Start
+,08-17 15:50:36.253  6785  6785 I wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+,08-17 15:50:36.253  6468  6468 D SecurityLogAgent: KnoxConfiguration : Current State = 1
+,08-17 15:50:36.253  1015  1126 D WifiNative-wlan0: Setting external_sim to 1
+,08-17 15:50:36.253  1015  1126 D WifiStateMachine: Setting OUI to DA-A1-19
+08-17 15:50:36.253  1015  1126 I WifiNative-HAL: startHal
+08-17 15:50:36.253  1015  1126 E wifi    : getStaticLongField sWifiHalHandle 0x9ca2288c
+08-17 15:50:36.253  1015  1126 I WifiNative-HAL: Could not start hal
+08-17 15:50:36.253  6468  6468 D SecurityLogAgent: KnoxConfiguration : Current State Mapping Found 
+08-17 15:50:36.253  6468  6468 D SecurityLogAgent: StateMachine : Current State = 1
+08-17 15:50:36.253  6468  6468 D SecurityLogAgent: StateMachine : Changed Current State = 1
+,08-17 15:50:36.263  6410  6410 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+,08-17 15:50:36.263  1015  1126 E WifiNative-wlan0: do suspend true
+,08-17 15:50:36.263  1015  1125 D WifiP2pService: P2pDisabledState{ what=131203 }
+,08-17 15:50:36.263  1015  1126 E WifiStateMachine: skipWifiStateBroadcast:false, LastBroadcastedWifiState:3
+,08-17 15:50:36.263   278  1014 D CommandListener: Setting iface cfg
+08-17 15:50:36.263   278  1014 D CommandListener: Trying to bring up p2p0
+,08-17 15:50:36.273  1015  1125 D WifiMonitor: startMonitoring(p2p0) with mConnected = true,
+08-17 15:50:36.273  1015  1126 E WifiStateMachine: DriverStatedState::CMD_SEC_STRING_API - inner msg [207]
+08-17 15:50:36.273  1015  1126 D WifiNative-wlan0: callSECStringApiVoid - ID [215]
+08-17 15:50:36.273  1015  1126 E WifiNative-wlan0: invaild command id : 215
+,08-17 15:50:36.273  1015  1125 D WifiP2pService: P2pEnablingState
+08-17 15:50:36.273  1015  1015 D WifiScanningService: SCAN_AVAILABLE : 3
+,08-17 15:50:36.273  1015  1126 E WifiStateMachine: DriverStatedState::CMD_SEC_STRING_API - inner msg [207]
+08-17 15:50:36.273  1015  1126 D WifiNative-wlan0: callSECStringApiVoid - ID [215]
+08-17 15:50:36.273  1015  1126 E WifiNative-wlan0: invaild command id : 215
+,08-17 15:50:36.273  1015  1149 D WifiScanningService: DefaultState got{ when=-1ms what=160006 target=com.android.internal.util.StateMachine$SmHandler }
+08-17 15:50:36.273  1015  1149 I WifiNative-HAL: startHal
+08-17 15:50:36.273  1015  1149 E wifi    : getStaticLongField sWifiHalHandle 0x9dcd29bc
+08-17 15:50:36.273  1015  1149 I WifiNative-HAL: Could not start hal
+08-17 15:50:36.273  1015  1149 E WifiScanningService: could not start HAL
+08-17 15:50:36.273  1015  1015 D RttService: SCAN_AVAILABLE : 3
+08-17 15:50:36.273  1015  1150 D RttService: DefaultState got{ when=-1ms what=160512 target=com.android.internal.util.StateMachine$SmHandler }
+,08-17 15:50:36.273  1015  1125 D WifiP2pService: P2pEnablingState{ what=147457 }
+08-17 15:50:36.273  1015  1125 D WifiP2pService: P2p socket connection successful
+08-17 15:50:36.273  1015  1125 D WifiP2pService: P2pEnabledState
+,08-17 15:50:36.273  6785  6785 I wpa_supplicant: wlan0: CTRL-EVENT-REGDOM-CHANGE init=USER type=COUNTRY alpha2=PL
+08-17 15:50:36.273  1015  1125 D WifiP2pService: sending p2p connection changed broadcast: DISCONNECTED
+08-17 15:50:36.273  1015  1128 E ConnectivityService: updateNetworkInfo()
+,08-17 15:50:36.273  6785  6785 I wpa_supplicant: p2p0: CTRL-EVENT-REGDOM-CHANGE init=USER type=COUNTRY alpha2=PL
+,08-17 15:50:36.273  1015  1015 E WifiStateMachine: BroadcastReceiver : WIFI_P2P_STATE_CHANGED_ACTION is : android.net.wifi.p2p.STATE_CHANGED
+,08-17 15:50:36.273  1015  1045 D WifiDisplayController: Received WIFI_P2P_STATE_CHANGED_ACTION: enabled=true
+,08-17 15:50:36.283  1015  1045 D WifiDisplayController: updateScanState() mScanRequested = false, mWfdEnabled = false, mDiscoverPeersInProgress = false
+08-17 15:50:36.283  6785  6785 I wpa_supplicant: wlan0: CTRL-EVENT-REGDOM-CHANGE init=USER type=UNKNOWN
+08-17 15:50:36.283  1015  1045 D WifiDisplayController: disconnect
+,08-17 15:50:36.283  1015  1045 D WifiDisplayController: updateConnection,
+08-17 15:50:36.283  1015  1045 D WifiDisplayController: updateScanState() mScanRequested = false, mWfdEnabled = false, mDiscoverPeersInProgress = false
+08-17 15:50:36.283  1015  1045 D WifiDisplayAdapter: getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=2, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo: Client/Owner: Client GroupId:  Passphrase:  SessionId: 0 IP Address: , connectedState=-1, networkQoS=0}
+,08-17 15:50:36.283  1015  1126 D SecContentProvider2: uri = 20 selection = getPromptCredentialsEnabled
+,08-17 15:50:36.283  1015  1126 D SecContentProvider2: mCursor = null
+,08-17 15:50:36.283  1015  1125 D WifiNative-p2p0: p2pGetDeviceAddress
+08-17 15:50:36.283  1015  1125 D WifiNative-p2p0: p2pGetDeviceAddress returning 7e:f9:0e:37:96:ac
+,08-17 15:50:36.283  1174  1174 D AllShareCastTile: action: android.hardware.display.action.WIFI_DISPLAY_STATUS_CHANGED
+08-17 15:50:36.283  1015  2925 D WifiDisplayAdapter: getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=2, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo: Client/Owner: Client GroupId:  Passphrase:  SessionId: 0 IP Address: , connectedState=-1, networkQoS=0}
+08-17 15:50:36.283  1174  1174 D AllShareCastTile: wifi display status changed! scanstate : 0, ActiveDisplayState : 0
+,08-17 15:50:36.283  1015  1045 D WifiDisplayController: Received WIFI_P2P_CONNECTION_CHANGED_ACTION: networkInfo=[type: WIFI_P2P[] - WIFI_P2P, state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+08-17 15:50:36.283  1015  1045 D WifiDisplayAdapter: onP2pDisconnected
+08-17 15:50:36.283  1015  1045 D IpRemoteDisplayController: disconnectWfdBridgeServer
+08-17 15:50:36.283  1015  1045 D IpRemoteDisplayController: WfdBridgeServer is already null
+,08-17 15:50:36.293  1015  1126 D SecContentProvider2: uri = 20 selection = getPromptCredentialsEnabled
+08-17 15:50:36.293  1015  1126 D SecContentProvider2: mCursor = null
+08-17 15:50:36.293  1015  1125 D WifiP2pService: DeviceAddress: 7e:96:ac
+,08-17 15:50:36.293  1317  1317 D NearbySettings: MountReceiver.onReceive - ACTION: android.net.wifi.p2p.CONNECTION_STATE_CHANGE
+08-17 15:50:36.293  1015  1045 D WifiDisplayController: Received WIFI_P2P_THIS_DEVICE_CHANGED_ACTION: mThisDevice= Device: A5-1
+08-17 15:50:36.293  1015  1045 D WifiDisplayController:  deviceAddress: 7e:f9:0e:37:96:ac
+08-17 15:50:36.293  1015  1045 D WifiDisplayController:  primary type: 10-0050F204-5
+08-17 15:50:36.293  1015  1045 D WifiDisplayController:  secondary type: null
+08-17 15:50:36.293  1015  1045 D WifiDisplayController:  wps: 0
+08-17 15:50:36.293  1015  1045 D WifiDisplayController:  grpcapab: 0
+08-17 15:50:36.293  1015  1045 D WifiDisplayController:  devcapab: 0
+08-17 15:50:36.293  1015  1045 D WifiDisplayController:  status: 3
+08-17 15:50:36.293  1015  1045 D WifiDisplayController:  wfdInfo: null
+08-17 15:50:36.293  1015  1045 D WifiDisplayController:  groupownerAddress: null
+08-17 15:50:36.293  1015  1045 D WifiDisplayController:  GOdeviceName: null
+08-17 15:50:36.293  1015  1045 D WifiDisplayController:  interfaceAddress: 
+08-17 15:50:36.293  1015  1045 D WifiDisplayController:  SConnectInfo : null
+08-17 15:50:36.293  1317  1317 V NearbySettings: DMSUtil.isNetworkConnected - flag-null, state-null
+,08-17 15:50:36.293  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - WIFI: DISCONNECTED
+,08-17 15:50:36.293  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - P2P: DISCONNECTED
+,08-17 15:50:36.303  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - WIFI-false, Hotspot-false, P2P-false, Eth-false
+08-17 15:50:36.303  1317  1317 I NearbySettings: MountReceiver.onReceive - Set preference state off
+,08-17 15:50:36.303  1317  3049 V NearbySettings: MountReceiver.mPrefHandler - 7002
+,08-17 15:50:36.303  6435  6435 D FileShare-Client: ClientBroadcastReceiver.onReceive - action android.net.wifi.p2p.CONNECTION_STATE_CHANGE // null
+,08-17 15:50:36.303  6435  6435 D FileShare-Client: ClientBroadcastReceiver.onReceive - disconnected
+08-17 15:50:36.303  6435  6435 D FileShare-Client: Outbound.stopDelayTimer - 
+,08-17 15:50:36.313  1015  1125 D WifiP2pService: sending p2p persistent groups changed broadcast
+,08-17 15:50:36.313  6450  6450 D FileShare-Server: ServerBroadcastReceiver.onReceive - action android.net.wifi.p2p.CONNECTION_STATE_CHANGE // null
+,08-17 15:50:36.313  1015  1125 D WifiP2pService: InactiveState
+,08-17 15:50:36.323  1015  1125 D WifiP2pService: InactiveState{ what=143376 }
+,08-17 15:50:36.323  1015  1125 D WifiP2pService: P2pEnabledState{ what=143376 }
+,08-17 15:50:36.323  6785  6785 I wpa_supplicant: p2p0: CTRL-EVENT-REGDOM-CHANGE init=USER type=COUNTRY alpha2=PL
+,08-17 15:50:36.323  1015  1125 D WifiP2pService: InactiveState{ what=143376 }
+08-17 15:50:36.323  1015  1125 D WifiP2pService: P2pEnabledState{ what=143376 }
+,08-17 15:50:36.333  1015  1042 I Nat464Xlat: interfaceLinkStateChanged p2p0, false
+,08-17 15:50:36.333  1015  1042 D Tethering: interfaceLinkStateChanged p2p0, false
+08-17 15:50:36.333  1015  1042 D Tethering: interfaceStatusChanged p2p0, false
+,08-17 15:50:36.743   288   288 E SMD     : DCD OFF
+,08-17 15:50:37.153  1015  1503 I ActivityManager: Killing 5758:com.samsung.android.sm/1000 (adj 15): empty #31
+,08-17 15:50:37.193  1015  1027 D SecContentProvider: uri = 18 selection = isWifiEnabled,
+08-17 15:50:37.193  1015  1027 D WifiService: setWifiEnabled: false pid=6195, uid=10155
+08-17 15:50:37.193  1015  1027 D SecContentProvider2: uri = 20 selection = isWifiStateChangeAllowed
+08-17 15:50:37.193  1015  1027 D SecContentProvider2: mCursor = null
+08-17 15:50:37.193  1015  1027 D SettingsProvider: name = wifi_on
+,08-17 15:50:37.203  1015  1125 D WifiP2pService: InactiveState{ what=131204 },
+08-17 15:50:37.203  1015  1125 D WifiP2pService: P2pEnabledState{ what=131204 }
+08-17 15:50:37.203  1015  1125 D WifiP2pService: sending p2p connection changed broadcast: FAILED
+08-17 15:50:37.203  1015  1128 E ConnectivityService: updateNetworkInfo()
+,08-17 15:50:37.203  1015  1015 D WifiScanningService: SCAN_AVAILABLE : 1
+,08-17 15:50:37.203  1015  1015 D RttService: SCAN_AVAILABLE : 1
+08-17 15:50:37.203  1015  1149 D WifiScanningService: DefaultState got{ when=-1ms what=160007 target=com.android.internal.util.StateMachine$SmHandler }
+08-17 15:50:37.203  1015  1150 D RttService: EnabledState got{ when=-1ms what=160513 target=com.android.internal.util.StateMachine$SmHandler }
+,08-17 15:50:37.213  1015  1045 D WifiDisplayController: Received WIFI_P2P_CONNECTION_CHANGED_ACTION: networkInfo=[type: WIFI_P2P[] - WIFI_P2P, state: DISCONNECTED/FAILED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+,08-17 15:50:37.213  1015  1045 D WifiDisplayAdapter: onP2pDisconnected
+08-17 15:50:37.213  1015  1045 D IpRemoteDisplayController: disconnectWfdBridgeServer
+08-17 15:50:37.213  1015  1045 D IpRemoteDisplayController: WfdBridgeServer is already null
+,08-17 15:50:37.213  1317  1317 D NearbySettings: MountReceiver.onReceive - ACTION: android.net.wifi.p2p.CONNECTION_STATE_CHANGE
+08-17 15:50:37.213  1015  1125 D WifiP2pService: sending p2p connection changed broadcast: DISCONNECTED
+08-17 15:50:37.213  1317  1317 V NearbySettings: DMSUtil.isNetworkConnected - flag-null, state-null
+08-17 15:50:37.213  1015  1125 D WifiP2pService: P2pDisablingState
+08-17 15:50:37.213  1015  1128 E ConnectivityService: updateNetworkInfo()
+08-17 15:50:37.213  1015  1125 D WifiP2pService: P2pDisablingState{ what=147458 }
+08-17 15:50:37.213  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - WIFI: DISCONNECTED
+08-17 15:50:37.213  1015  1125 D WifiP2pService: p2p socket connection lost
+08-17 15:50:37.213  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - P2P: DISCONNECTED
+08-17 15:50:37.213  1015  1125 D WifiP2pService: P2pDisabledState
+08-17 15:50:37.213  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - WIFI-false, Hotspot-false, P2P-false, Eth-false
+08-17 15:50:37.213  1015  1045 D WifiDisplayController: Received WIFI_P2P_STATE_CHANGED_ACTION: enabled=false
+08-17 15:50:37.213  1317  1317 I NearbySettings: MountReceiver.onReceive - Set preference state off
+08-17 15:50:37.213  1015  1045 D WifiDisplayController: updateScanState() mScanRequested = false, mWfdEnabled = false, mDiscoverPeersInProgress = false
+08-17 15:50:37.213  1317  3049 V NearbySettings: MountReceiver.mPrefHandler - 7002
+08-17 15:50:37.213  1015  1045 D WifiDisplayController: disconnect
+08-17 15:50:37.213   278  1014 D CommandListener: Clearing all IP addresses on wlan0
+08-17 15:50:37.213  1015  1045 D WifiDisplayController: updateConnection
+08-17 15:50:37.213  1015  1045 D WifiDisplayController: updateScanState() mScanRequested = false, mWfdEnabled = false, mDiscoverPeersInProgress = false
+08-17 15:50:37.213  1015  1045 D WifiDisplayAdapter: getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=1, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo: Client/Owner: Client GroupId:  Passphrase:  SessionId: 0 IP Address: , connectedState=-1, networkQoS=0}
+,08-17 15:50:37.213  1015  1015 E WifiStateMachine: BroadcastReceiver : WIFI_P2P_STATE_CHANGED_ACTION is : android.net.wifi.p2p.STATE_CHANGED
+,08-17 15:50:37.223  6435  6435 D FileShare-Client: ClientBroadcastReceiver.onReceive - action android.net.wifi.p2p.CONNECTION_STATE_CHANGE // null
+,08-17 15:50:37.223  6435  6435 D FileShare-Client: ClientBroadcastReceiver.onReceive - disconnected
+08-17 15:50:37.223  6435  6435 D FileShare-Client: Outbound.stopDelayTimer - 
+,08-17 15:50:37.223  1015  1015 I WifiTrafficPoller: evaluateTrafficStatsPolling,
+08-17 15:50:37.223  6785  6785 I wpa_supplicant: p2p0: State: DISCONNECTED -> DISCONNECTED
+08-17 15:50:37.233  1174  1174 D StatusBar.NetworkController: refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f020561/com.android.systemui:drawable/stat_sys_wifi_signal_0 mQSWifiIconId=0x7f020157/com.android.systemui:drawable/ic_qs_wifi_no_network mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+,08-17 15:50:37.233  1174  1174 D STATUSBAR-WifiQuickSettingButton: onWifiSignalChanged enabled=true enabledDesc:null
+08-17 15:50:37.233  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:37.233  1015  1045 D WifiDisplayController: Received WIFI_P2P_CONNECTION_CHANGED_ACTION: networkInfo=[type: WIFI_P2P[] - WIFI_P2P, state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: false, isConnectedToProvisioningNetwork: false]
+,08-17 15:50:37.233  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:37.233  1015  1045 D WifiDisplayAdapter: onP2pDisconnected
+08-17 15:50:37.233  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:37.233  1015  1045 D IpRemoteDisplayController: disconnectWfdBridgeServer
+08-17 15:50:37.233  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,08-17 15:50:37.233  1015  1045 D IpRemoteDisplayController: WfdBridgeServer is already null
+08-17 15:50:37.233  1174  1174 D AllShareCastTile: action: android.hardware.display.action.WIFI_DISPLAY_STATUS_CHANGED
+,08-17 15:50:37.233  1015  1486 D WifiDisplayAdapter: getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=1, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo: Client/Owner: Client GroupId:  Passphrase:  SessionId: 0 IP Address: , connectedState=-1, networkQoS=0}
+,08-17 15:50:37.233  1174  1174 D AllShareCastTile: wifi display status changed! scanstate : 0, ActiveDisplayState : 0
+,08-17 15:50:37.243  1174  1174 D StatusBar.NetworkController: refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x0/(null) mQSWifiIconId=0x0/(null) mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+08-17 15:50:37.243  1174  1174 D STATUSBAR-WifiQuickSettingButton: onWifiSignalChanged enabled=false enabledDesc:null
+08-17 15:50:37.243  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:37.243  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:37.243  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:37.243  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,08-17 15:50:37.243  1174  1174 D STATUSBAR-WifiQuickSettingButton: onReceive : android.net.wifi.WIFI_STATE_CHANGED
+,08-17 15:50:37.243  1174  1174 D STATUSBAR-WifiQuickSettingButton: Wifi onReceive(0)
+,08-17 15:50:37.243  1174  1721 D STATUSBAR-QSTileView: onStateChanged: Wi-Fi
+,08-17 15:50:37.243  1174  1174 D HotspotTile: onReceive : android.net.wifi.WIFI_STATE_CHANGED
+,08-17 15:50:37.243  1174  1174 D HotspotTile: onReceive : 0, 0
+,08-17 15:50:37.253  6195  6195 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: Checking support for multiple advertisement: Cannot do the check when the Bluetooth is disabled - will return stored value
+,08-17 15:50:37.253  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: State changed:
+08-17 15:50:37.253  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:37.253  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:37.253  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: false
+08-17 15:50:37.253  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: false
+08-17 15:50:37.253  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: null
+08-17 15:50:37.253  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: false
+08-17 15:50:37.253  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: false
+08-17 15:50:37.253  6195  6195 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: Checking support for multiple advertisement: Cannot do the check when the Bluetooth is disabled - will return stored value
+08-17 15:50:37.253  6195  6195 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: OFF, Bluetooth: OFF, Wi-Fi: OFF, cellular: DO_NOT_CARE, BSSID name: null
+08-17 15:50:37.253  1317  1317 D WifiCredService: Action received :android.net.wifi.WIFI_STATE_CHANGED
+,08-17 15:50:37.253  6195  6195 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: Checking support for multiple advertisement: Cannot do the check when the Bluetooth is disabled - will return stored value
+08-17 15:50:37.253  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: State changed:
+08-17 15:50:37.253  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:37.253  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:37.253  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: false
+08-17 15:50:37.253  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: false
+08-17 15:50:37.253  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: null
+08-17 15:50:37.253  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: false
+08-17 15:50:37.253  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: false
+08-17 15:50:37.253  6195  6195 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: Checking support for multiple advertisement: Cannot do the check when the Bluetooth is disabled - will return stored value
+08-17 15:50:37.253  6195  6195 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: OFF, Bluetooth: OFF, Wi-Fi: OFF, cellular: DO_NOT_CARE, BSSID name: null
+,08-17 15:50:37.263  6450  6450 D FileShare-Server: ServerBroadcastReceiver.onReceive - action android.net.wifi.p2p.CONNECTION_STATE_CHANGE // null
+,08-17 15:50:37.263  1317  1317 D NearbySettings: MountReceiver.onReceive - ACTION: android.net.wifi.p2p.CONNECTION_STATE_CHANGE
+,08-17 15:50:37.263  1317  1317 V NearbySettings: DMSUtil.isNetworkConnected - flag-null, state-null
+,08-17 15:50:37.263  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - WIFI: DISCONNECTED
+,08-17 15:50:37.263  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - P2P: DISCONNECTED
+,08-17 15:50:37.273  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - WIFI-false, Hotspot-false, P2P-false, Eth-false
+08-17 15:50:37.273  1317  1317 I NearbySettings: MountReceiver.onReceive - Set preference state off
+08-17 15:50:37.273  1317  3049 V NearbySettings: MountReceiver.mPrefHandler - 7002
+,08-17 15:50:37.273  6435  6435 D FileShare-Client: ClientBroadcastReceiver.onReceive - action android.net.wifi.p2p.CONNECTION_STATE_CHANGE // null
+,08-17 15:50:37.273  6435  6435 D FileShare-Client: ClientBroadcastReceiver.onReceive - disconnected
+,08-17 15:50:37.273  6435  6435 D FileShare-Client: Outbound.stopDelayTimer - 
+,08-17 15:50:37.283  6450  6450 D FileShare-Server: ServerBroadcastReceiver.onReceive - action android.net.wifi.p2p.CONNECTION_STATE_CHANGE // null
+,08-17 15:50:37.283  1015  1218 D ActivityManager: startService callerProcessName:com.samsung.hs20settings, calleePkgName: com.samsung.hs20settings
+,08-17 15:50:37.283  1015  1218 D ActivityManager: retrieveServiceLocked(): component = com.samsung.hs20settings/com.samsung.hs20settings.WifiHs20UtilityService; callingUser = 0; userId(target) = -2
+,08-17 15:50:37.283  1015  1218 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:37.283  1015  1218 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:37.283  1015  1218 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.hs20settings, destAppInfo.processName = com.samsung.hs20settings
+,08-17 15:50:37.293  3608  3608 I Hs20UtilService: Starting #14
+,08-17 15:50:37.293  3608  3625 I Hs20UtilService: Message received 5007
+,08-17 15:50:37.293  1317  1317 D NearbySettings: MountReceiver.onReceive - ACTION: android.net.wifi.STATE_CHANGE
+,08-17 15:50:37.293  1317  1317 V NearbySettings: DMSUtil.isNetworkConnected - flag-null, state-null
+,08-17 15:50:37.293  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - WIFI: DISCONNECTED
+,08-17 15:50:37.293  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - P2P: DISCONNECTED
+,08-17 15:50:37.293  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - WIFI-false, Hotspot-false, P2P-false, Eth-false
+08-17 15:50:37.293  1317  1317 I NearbySettings: MountReceiver.onReceive - Set preference state off
+,08-17 15:50:37.293  1317  3049 V NearbySettings: MountReceiver.mPrefHandler - 7002
+,08-17 15:50:37.303  1015  1076 D ActivityManager: startService callerProcessName:com.samsung.hs20settings, calleePkgName: com.samsung.hs20settings
+,08-17 15:50:37.303  1015  1076 D ActivityManager: retrieveServiceLocked(): component = com.samsung.hs20settings/com.samsung.hs20settings.WifiHs20UtilityService; callingUser = 0; userId(target) = -2
+,08-17 15:50:37.303  1015  1076 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:37.303  1015  1076 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:37.303  1015  1076 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.hs20settings, destAppInfo.processName = com.samsung.hs20settings
+,08-17 15:50:37.313  3608  3608 I Hs20UtilService: Starting #15
+08-17 15:50:37.313  3608  3625 I Hs20UtilService: Message received 5011
+,08-17 15:50:37.313  6468  6468 D SecurityLogAgent: KnoxConfiguration : Current State = 1
+08-17 15:50:37.313  6468  6468 D SecurityLogAgent: KnoxConfiguration : Current State Mapping Found 
+08-17 15:50:37.313  6468  6468 D SecurityLogAgent: StateMachine : Current State = 1
+08-17 15:50:37.313  6468  6468 D SecurityLogAgent: StateMachine : Changed Current State = 1
+,08-17 15:50:37.393  6785  6785 I wpa_supplicant: Blacklist: Clear (all) 
+,08-17 15:50:37.553  6785  6785 I wpa_supplicant: p2p0: CTRL-EVENT-TERMINATING ,
+08-17 15:50:37.553  6785  6785 I wpa_supplicant: wlan0: State: SCANNING -> DISCONNECTED
+08-17 15:50:37.553  6785  6785 I wpa_supplicant: CTRL-EVENT-STATE-CHANGE id=-1 state=0 BSSID=00.00.00 SSID=
+,08-17 15:50:37.553  1015  1042 D Tethering: interfaceLinkStateChanged p2p0, false
+08-17 15:50:37.553  1015  1042 I Nat464Xlat: interfaceLinkStateChanged p2p0, false
+08-17 15:50:37.553  1015  1042 D Tethering: interfaceStatusChanged p2p0, false
+,08-17 15:50:37.833  6785  6785 I wpa_supplicant: Blacklist: Clear (all) ,
+,08-17 15:50:37.913  6785  6785 I wpa_supplicant: wlan0: CTRL-EVENT-TERMINATING ,
+08-17 15:50:37.913  1015  1042 I Nat464Xlat: interfaceLinkStateChanged wlan0, false
+08-17 15:50:37.913  1015  1042 D Tethering: interfaceLinkStateChanged wlan0, false
+08-17 15:50:37.913  1015  1042 D Tethering: interfaceStatusChanged wlan0, false
+,08-17 15:50:38.023  1015  1126 E WifiStateMachine: skipWifiStateBroadcast:false, LastBroadcastedWifiState:0,
+,08-17 15:50:38.023  1015  1126 D WifiNative-wlan0: callSECApiBoolean - ID [21]
+08-17 15:50:38.023  1015  1126 E WifiConfigStore: setLastSelectedConfiguration -1
+08-17 15:50:38.023  6410  6410 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+08-17 15:50:38.023  1174  1174 D StatusBar.NetworkController: refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x0/(null) mQSWifiIconId=0x0/(null) mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+08-17 15:50:38.023  1174  1174 D STATUSBAR-WifiQuickSettingButton: onWifiSignalChanged enabled=false enabledDesc:null
+08-17 15:50:38.023  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:38.023  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false),
+08-17 15:50:38.023  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:38.023  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false),
+,08-17 15:50:38.033  1174  1174 D STATUSBAR-WifiQuickSettingButton: onReceive : android.net.wifi.WIFI_STATE_CHANGED
+08-17 15:50:38.033  1174  1174 D STATUSBAR-WifiQuickSettingButton: Wifi onReceive(1)
+,08-17 15:50:38.033  1174  1721 D STATUSBAR-QSTileView: onStateChanged: Wi-Fi
+08-17 15:50:38.033  1174  1174 D HotspotTile: onReceive : android.net.wifi.WIFI_STATE_CHANGED
+,08-17 15:50:38.033  1174  1174 D HotspotTile: onReceive : 1, 0
+,08-17 15:50:38.033  1932  2112 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+,08-17 15:50:38.043  1317  1317 D WifiCredService: Action received :android.net.wifi.WIFI_STATE_CHANGED
+,08-17 15:50:38.043  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:38.043  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:38.043  1015  3213 D ActivityManager: startService callerProcessName:com.samsung.hs20settings, calleePkgName: com.samsung.hs20settings
+,08-17 15:50:38.043  1015  3213 D ActivityManager: retrieveServiceLocked(): component = com.samsung.hs20settings/com.samsung.hs20settings.WifiHs20UtilityService; callingUser = 0; userId(target) = -2
+,08-17 15:50:38.043  1015  3213 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:38.043  1015  3213 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,08-17 15:50:38.043  1015  3213 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.hs20settings, destAppInfo.processName = com.samsung.hs20settings
+,08-17 15:50:38.053  3608  3608 I Hs20UtilService: Starting #16
+,08-17 15:50:38.053  3608  3625 I Hs20UtilService: Message received 5011
+,08-17 15:50:38.063  6468  6468 D SecurityLogAgent: KnoxConfiguration : Current State = 1
+,08-17 15:50:38.063  6468  6468 D SecurityLogAgent: KnoxConfiguration : Current State Mapping Found 
+08-17 15:50:38.063  6468  6468 D SecurityLogAgent: StateMachine : Current State = 1
+08-17 15:50:38.063  6468  6468 D SecurityLogAgent: StateMachine : Changed Current State = 1
+,08-17 15:50:38.773  1015  1042 D Tethering: interfaceRemoved wlan0
+,08-17 15:50:38.773  1015  1042 E Tethering: attempting to remove unknown iface (wlan0), ignoring
+,08-17 15:50:38.913  1015  1042 D Tethering: interfaceRemoved p2p0
+,08-17 15:50:38.913  1015  1042 E Tethering: attempting to remove unknown iface (p2p0), ignoring
+,08-17 15:50:39.373  1015  1040 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:39.373  1015  1040 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:39.373  1015  1040 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,08-17 15:50:39.383  1015  3213 D ActivityManager: startService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music
+,08-17 15:50:39.383  1015  3213 D ActivityManager: retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.leanback.AutoCacheSchedulingService; callingUser = 0; userId(target) = 0
+,08-17 15:50:39.383  1015  3213 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:39.383  1015  3213 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:39.383  1015  3213 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,08-17 15:50:39.393  1015  1218 D ActivityManager: bindService callerProcessName:com.google.android.apps.magazines, calleePkgName: com.google.android.gms, action: com.google.android.gms.analytics.service.START
+08-17 15:50:39.393  1015  1218 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.analytics.service.AnalyticsService; callingUser = 0; userId(target) = 0
+,08-17 15:50:39.393  1015  1218 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:39.393  1015  1218 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:39.393  1015  1218 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.apps.magazines, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:39.403  1015  1502 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:39.403  6608  6672 I GAV4    : Thread[GAThread,5,main]: No campaign data found.
+,08-17 15:50:39.403  1015  1502 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:39.403  1015  1502 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,08-17 15:50:39.413  1015  1478 D ActivityManager: bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music, action: null
+,08-17 15:50:39.413  1015  1478 D ActivityManager: retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.download.TrackDownloadQueueService; callingUser = 0; userId(target) = 0
+,08-17 15:50:39.413  1015  1478 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:39.423  1015  1478 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,08-17 15:50:39.423  1015  1478 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,08-17 15:50:39.433  1015  1076 D ActivityManager: bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music, action: null
+,08-17 15:50:39.433  1015  1076 D ActivityManager: retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.download.cache.TrackCacheService; callingUser = 0; userId(target) = 0
+,08-17 15:50:39.433  1015  1076 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:39.433  1015  1076 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:39.433  1015  1076 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,08-17 15:50:39.433  1015  1503 D ActivityManager: bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music, action: null
+,08-17 15:50:39.443  1015  1503 D ActivityManager: retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.net.NetworkMonitor; callingUser = 0; userId(target) = 0
+,08-17 15:50:39.443  1015  1503 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:39.443  1015  1503 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:39.443  1015  1503 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,08-17 15:50:39.453  1015  1028 D ActivityManager: startService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music
+,08-17 15:50:39.453  1015  1028 D ActivityManager: retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.wear.WearMetadataSyncService; callingUser = 0; userId(target) = 0
+,08-17 15:50:39.453  1015  1028 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:39.453  1015  1028 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:39.453  1015  1028 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,08-17 15:50:39.483  1015  1478 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:39.483  1015  1478 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:39.483  1015  1478 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,08-17 15:50:39.483  1015  1478 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:39.493  1932  1932 D WearableService: callingUid 10012, callindPid: 1932
+,08-17 15:50:39.513  1015  1503 D ActivityManager: bindService callerProcessName:com.google.android.music, calleePkgName: com.google.android.music, action: null
+,08-17 15:50:39.513  1015  1503 D ActivityManager: retrieveServiceLocked(): component = com.google.android.music/com.google.android.music.net.NetworkMonitor; callingUser = 0; userId(target) = 0
+,08-17 15:50:39.513  1015  1503 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:39.513  1015  1503 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,08-17 15:50:39.513  1015  1503 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.music:main, destAppInfo.processName = com.google.android.music:main
+,08-17 15:50:39.543  6517  6798 I MusicLeanback: Conditions not met for autocaching.
+08-17 15:50:39.543  6517  6798 I MusicLeanback: Stop autocaching.
+,08-17 15:50:39.553  6517  6517 E GmsUtils: Failed to connect to Google API client: ConnectionResult{statusCode=unknown status code 16, resolution=null}
+,08-17 15:50:39.553  6517  6804 E GmsUtils: Failed to connect to Google API client: ConnectionResult{statusCode=unknown status code 16, resolution=null}
+,08-17 15:50:39.733  1015  1126 E WifiStateMachine: skipWifiStateBroadcast:false, LastBroadcastedWifiState:1
+,08-17 15:50:39.743   288   288 E SMD     : DCD OFF
+,08-17 15:50:40.203  6195  6247 D BluetoothAdapter: enable()
+,08-17 15:50:40.203  1015  1028 W ActivityManager: Permission Denial: getCurrentUser() from pid=6195, uid=10155 requires android.permission.INTERACT_ACROSS_USERS,
+,08-17 15:50:40.203  1015  1028 W BluetoothManagerService: Failed getting userId using ActivityManagerNative,
+08-17 15:50:40.203  1015  1028 W BluetoothManagerService: java.lang.SecurityException: Permission Denial: getCurrentUser() from pid=6195, uid=10155 requires android.permission.INTERACT_ACROSS_USERS
+08-17 15:50:40.203  1015  1028 W BluetoothManagerService: 	at com.android.server.am.ActivityManagerService.getCurrentUser(ActivityManagerService.java:23916)
+08-17 15:50:40.203  1015  1028 W BluetoothManagerService: 	at com.android.server.BluetoothManagerService.CheckItPolicy(BluetoothManagerService.java:2270)
+08-17 15:50:40.203  1015  1028 W BluetoothManagerService: 	at com.android.server.BluetoothManagerService.enable(BluetoothManagerService.java:702)
+08-17 15:50:40.203  1015  1028 W BluetoothManagerService: 	at android.bluetooth.IBluetoothManager$Stub.onTransact(IBluetoothManager.java:116)
+08-17 15:50:40.203  1015  1028 W BluetoothManagerService: 	at android.os.Binder.execTransact(Binder.java:446)
+08-17 15:50:40.203  1015  1028 E DevicePolicyManagerService: getAllowBluetoothMode - value retunrs : 2
+08-17 15:50:40.203  1015  1028 E DevicePolicyManagerService: getAllowBluetoothMode - value retunrs : 2
+,08-17 15:50:40.213  1015  1028 D SettingsProvider: name = bluetooth_on
+,08-17 15:50:40.213  1015  1044 E DevicePolicyManagerService: getAllowBluetoothMode - value retunrs : 2,
+08-17 15:50:40.213  1015  1044 E DevicePolicyManagerService: getAllowBluetoothMode - value retunrs : 2
+,08-17 15:50:40.213  1015  1044 D ActivityManager: bindService callerProcessName:android, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetooth
+08-17 15:50:40.213  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.btservice.AdapterService; callingUser = 0; userId(target) = -2
+,08-17 15:50:40.253  6389  6389 D BluetoothAdapterState: make
+,08-17 15:50:40.253  6389  6389 I bluedroid: init
+,08-17 15:50:40.263  6389  6806 I BluetoothAdapterState: Entering OffState,
+,08-17 15:50:40.263  6389  6389 I bte_conf: bte_load_conf attempt to load stack conf from /etc/bluetooth/bt_stack.conf
+,08-17 15:50:40.263  6389  6389 I bte_conf: bte_load_ble_conf attempt to load ble stack conf from /etc/bluetooth/ble_stack.conf
+,08-17 15:50:40.263  6389  6389 E bt_osi_config: config_new unable to open file '/etc/bluetooth/ble_stack.conf': No such file or directory
+08-17 15:50:40.263  6389  6389 I bte_conf: bte_load_ble_conf file >/etc/bluetooth/ble_stack.conf< not found
+,08-17 15:50:40.263  6389  6389 E bt-btif : btif_fetch_local_ble_random_bdaddr
+,08-17 15:50:40.273  6389  6389 I bluedroid: get_profile_interface socket
+08-17 15:50:40.273  6389  6389 I bluedroid: get_profile_interface map_client
+,08-17 15:50:40.273  6389  6809 I GKI_LINUX: gki_task_entry task_id=1 [BTIF] starting
+,08-17 15:50:40.273  6389  6389 D BluetoothAdapterService: checkAddrForIOP: Loading from conf
+,08-17 15:50:40.273  6389  6809 D BluetoothAdapterProperties: Address is:7C:F9:0E:37:96:AB
+,08-17 15:50:40.273  6389  6809 E BluetoothServiceJni: populateRssiValuesNative
+08-17 15:50:40.273  6389  6809 I bluedroid: getModelRssiValues
+08-17 15:50:40.273  6389  6809 E BluetoothServiceJni: model_rssi_values_callback: low = -70, mid = -60, high = 127
+,08-17 15:50:40.273  6389  6809 D BluetoothAdapterProperties: modelRssiValuesCallback, low, mid, high = -70,-60,127
+,08-17 15:50:40.273  1015  1015 D SettingsProvider: name = bluetooth_name
+,08-17 15:50:40.273  6389  6809 D BluetoothAdapterProperties: Name is: A5-1
+,08-17 15:50:40.283  6389  6389 D BluetoothA2dp: doBind(): CallingUid(myUserHandle) = 0
+,08-17 15:50:40.283  1015  1486 D ActivityManager: bindService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothA2dp
+,08-17 15:50:40.283  1015  1486 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.a2dp.A2dpService; callingUser = 0; userId(target) = 0
+,08-17 15:50:40.283  1015  1486 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:40.283  1015  1486 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,08-17 15:50:40.283  1015  1486 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:40.283  6389  6397 I bluedroid: config_hci_snoop_log
+,08-17 15:50:40.283  1015  1044 D BluetoothManagerService: Broadcasting onBluetoothServiceUp() to 11 receivers.
+,08-17 15:50:40.293  1015  1044 D BluetoothManagerService: Ble is always on enable gatt
+,08-17 15:50:40.293  1015  1044 I BluetoothManagerService: enableGattForLeMode, doBind called
+,08-17 15:50:40.293  1015  1044 D ActivityManager: bindService callerProcessName:android, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothGatt
+,08-17 15:50:40.293  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.gatt.GattService; callingUser = 0; userId(target) = -2
+,08-17 15:50:40.293  1015  1044 E DevicePolicyManagerService: getAllowBluetoothMode - value retunrs : 2
+,08-17 15:50:40.293  1015  1044 E DevicePolicyManagerService: getAllowBluetoothMode - value retunrs : 2
+,08-17 15:50:40.303  1015  1044 D SecContentProvider: uri = 3 selection = isBluetoothEnabled
+,08-17 15:50:40.303  6389  6389 I BtGatt.JNI: classInitNative(L900): classInitNative: Success!
+,08-17 15:50:40.303  6389  6806 D BluetoothAdapterState: CURRENT_STATE=OFF, MSG = USER_TURN_ON
+,08-17 15:50:40.303  6389  6806 D BluetoothAdapterProperties: Setting state to 11
+,08-17 15:50:40.303  6389  6806 I BluetoothAdapterState: Bluetooth adapter state changed: 10-> 11
+,08-17 15:50:40.303  6389  6806 D BluetoothAdapterService: Bluetooth PBAP supproted is true
+,08-17 15:50:40.303  6389  6806 D BluetoothAdapterService: updateAdapterState state is 11
+,08-17 15:50:40.303  6389  6806 D BluetoothAdapterService: Autoconnection is available 
+08-17 15:50:40.303  6389  6806 D BluetoothAdapterService: updateAdapterState prevState = 10newState = 11
+,08-17 15:50:40.303  1015  1015 W InputMethodManagerService: InputMethodService onReceive() intentActionandroid.bluetooth.adapter.action.STATE_CHANGED
+,08-17 15:50:40.303  1015  1015 I InputMethodManagerService: [BT Setting State] State =11
+,08-17 15:50:40.313  6389  6806 D BluetoothSecureManager: getInstant: null
+08-17 15:50:40.313  6389  6806 D BluetoothSecureManager: calling getMethod for getService
+08-17 15:50:40.313  6389  6806 D BluetoothSecureManager: calling getService
+,08-17 15:50:40.313  6389  6806 D BluetoothSecureManager: getService return binder: android.os.BinderProxy@7507079
+,08-17 15:50:40.313  1174  1174 D BluetoothTile:  onBluetoothPairedDevicesChanged:
+08-17 15:50:40.313  1174  1174 D BluetoothTile: onReceive : android.bluetooth.adapter.action.STATE_CHANGED
+08-17 15:50:40.313  1174  1174 D BluetoothTile:  getBluetoothState : 11
+08-17 15:50:40.313  1015  1218 D BluetoothSecureManagerService: isSecureModeEnabled
+,08-17 15:50:40.313  1015  1218 D BluetoothSecureManagerService: getSecureModeSetting, name: secure_mode_enable
+,08-17 15:50:40.323  6389  6806 D BtConfig.SecureMode: isSecureModeOn:false,
+08-17 15:50:40.323  1834  1834 I SamsungIME: STATE_CHANGED = 11, KEYBOARD_BT(0), mBTKeyboardCount =0
+08-17 15:50:40.323  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.gatt.GattService
+,08-17 15:50:40.323  6389  6806 W BluetoothAdapterService: isProfileEnabled(): profile not found com.android.bluetooth.gatt.GattService
+,08-17 15:50:40.323  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hfp.HeadsetService
+,08-17 15:50:40.323  1174  1721 D BluetoothTile:  handleUpdatestate:false name:null
+,08-17 15:50:40.323  1174  1721 D STATUSBAR-QSTileView: onStateChanged: Bluetooth
+,08-17 15:50:40.323  6389  6806 W BluetoothAdapterService: isProfileEnabled(): profile not found com.android.bluetooth.hfp.HeadsetService
+,08-17 15:50:40.323  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.a2dp.A2dpService
+08-17 15:50:40.323  1317  1317 V BluetoothEventManager: Received android.bluetooth.adapter.action.STATE_CHANGED
+08-17 15:50:40.323  6389  6806 W BluetoothAdapterService: isProfileEnabled(): profile not found com.android.bluetooth.a2dp.A2dpService
+08-17 15:50:40.323  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hid.HidService
+,08-17 15:50:40.333  6389  6806 W BluetoothAdapterService: isProfileEnabled(): profile not found com.android.bluetooth.hid.HidService
+08-17 15:50:40.333  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hdp.HealthService
+,08-17 15:50:40.333  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:40.333  1015  1028 D ActivityManager: startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+08-17 15:50:40.333  1015  1028 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService; callingUser = 0; userId(target) = 0
+,08-17 15:50:40.333  1015  1044 D BluetoothManagerService: Broadcasting onBluetoothServiceUp() to 0 receivers.
+08-17 15:50:40.333  6389  6806 W BluetoothAdapterService: isProfileEnabled(): profile not found com.android.bluetooth.hdp.HealthService
+08-17 15:50:40.333  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.pan.PanService
+,08-17 15:50:40.333  1015  1028 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:40.333  1015  1028 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:40.333  1015  1028 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+08-17 15:50:40.333  6389  6806 W BluetoothAdapterService: isProfileEnabled(): profile not found com.android.bluetooth.pan.PanService
+08-17 15:50:40.333  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.map.BluetoothMapService
+,08-17 15:50:40.333  6389  6806 W BluetoothAdapterService: isProfileEnabled(): profile not found com.android.bluetooth.map.BluetoothMapService
+08-17 15:50:40.333  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.broadcom.bt.service.sap.SapService
+,08-17 15:50:40.333  6389  6806 W BluetoothAdapterService: isProfileEnabled(): profile not found com.broadcom.bt.service.sap.SapService
+08-17 15:50:40.333  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hfpclient.HeadsetClientService
+,08-17 15:50:40.333  6389  6806 W BluetoothAdapterService: processStart(): removed Client profile: com.android.bluetooth.hfpclient.HeadsetClientService
+08-17 15:50:40.333  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.a2dp.A2dpSinkService
+,08-17 15:50:40.333  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+08-17 15:50:40.333  6389  6806 W BluetoothAdapterService: processStart(): removed Client profile: com.android.bluetooth.a2dp.A2dpSinkService
+08-17 15:50:40.333  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.sapclient.SapClientService
+,08-17 15:50:40.333  1015  1486 D StatusBarManagerService: setIcon slot=bluetooth index=16 icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=true num=0 )
+08-17 15:50:40.333  6389  6806 W BluetoothAdapterService: processStart(): removed Client profile: com.android.bluetooth.sapclient.SapClientService
+08-17 15:50:40.333  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hid.HidDevService
+,08-17 15:50:40.343  1015  1028 D StatusBarManagerService: setIconVisibility slot=bluetooth visible=false
+08-17 15:50:40.343  6389  6806 W BluetoothAdapterService: processStart(): removed Client profile: com.android.bluetooth.hid.HidDevService
+,08-17 15:50:40.343  1174  1174 D PhoneStatusBar: updateIcon slot=bluetooth index=16 viewIndex=2 old=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=false num=0 ) icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=false num=0 )
+,08-17 15:50:40.343  6389  6806 D BluetoothBondStateMachine: make
+,08-17 15:50:40.343  1317  1317 D BluetoothNotiBroadcastReceiver: onReceive
+,08-17 15:50:40.343  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.android.bluetooth.gatt.GattService
+08-17 15:50:40.343  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.gatt.GattService
+08-17 15:50:40.343  6389  6806 W BluetoothAdapterService: Not skipping com.android.bluetooth.gatt.GattService
+,08-17 15:50:40.343  6389  6812 I BluetoothBondStateMachine: StableState(): Entering Off State
+,08-17 15:50:40.343  1015  3215 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+,08-17 15:50:40.343  1015  3215 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.gatt.GattService; callingUser = 0; userId(target) = 0
+,08-17 15:50:40.343  1015  3215 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:40.343  1015  3215 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,08-17 15:50:40.343  1174  1174 V BluetoothStatusReceiver: Received android.bluetooth.adapter.action.STATE_CHANGED
+08-17 15:50:40.343  1174  1174 D BluetoothStatusReceiver: AdapterStateChanged :: BluetoothAdapter.ACTION_STATE_CHANGED, state = 11
+08-17 15:50:40.353  1015  3215 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:40.353  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.android.bluetooth.hfp.HeadsetService
+,08-17 15:50:40.353  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hfp.HeadsetService
+08-17 15:50:40.353  6389  6806 W BluetoothAdapterService: Not skipping com.android.bluetooth.hfp.HeadsetService
+,08-17 15:50:40.353  6389  6389 D BtGatt.DebugUtils: handleDebugAction() action=null
+,08-17 15:50:40.353  6389  6389 D BtGatt.GattService: Received start request. Starting profile...
+08-17 15:50:40.353  6389  6389 D BtGatt.GattService: start()
+08-17 15:50:40.353  6389  6389 D BtGatt.GattService: start()
+08-17 15:50:40.353  6389  6389 I bluedroid: get_profile_interface gatt
+,08-17 15:50:40.353  6389  6389 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+08-17 15:50:40.353  6389  6389 D BtGatt.AdvertiseManager: advertise manager created
+,08-17 15:50:40.353  1015  1027 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+08-17 15:50:40.353  1015  1027 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hfp.HeadsetService; callingUser = 0; userId(target) = 0
+,08-17 15:50:40.353  1015  1027 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:40.353  1015  1027 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:40.353  1015  1027 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:40.363  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.android.bluetooth.a2dp.A2dpService
+08-17 15:50:40.363  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.a2dp.A2dpService
+08-17 15:50:40.363  6389  6806 W BluetoothAdapterService: Not skipping com.android.bluetooth.a2dp.A2dpService
+,08-17 15:50:40.363  1015  1218 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+,08-17 15:50:40.363  1015  1218 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.a2dp.A2dpService; callingUser = 0; userId(target) = 0
+,08-17 15:50:40.363  1015  1218 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:40.363  1015  1218 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:40.363  1015  1218 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:40.363  6389  6389 D BtGatt.GattService: mStartError = false
+,08-17 15:50:40.363  6389  6389 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+,08-17 15:50:40.363  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.android.bluetooth.hid.HidService
+08-17 15:50:40.363  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hid.HidService
+08-17 15:50:40.363  6389  6806 W BluetoothAdapterService: Not skipping com.android.bluetooth.hid.HidService
+08-17 15:50:40.373  1015  1474 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+08-17 15:50:40.373  1015  1474 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hid.HidService; callingUser = 0; userId(target) = 0
+,08-17 15:50:40.373  1015  1474 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:40.373  1015  1474 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:40.373  1015  1474 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:40.373  6389  6389 D HeadsetService: Received start request. Starting profile...
+08-17 15:50:40.373  6389  6389 D HeadsetService: start()
+,08-17 15:50:40.373  6389  6389 I BluetoothHeadsetServiceJni: classInitNative: succeeds
+,08-17 15:50:40.373  6389  6389 D HeadsetStateMachine: make
+,08-17 15:50:40.373  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.android.bluetooth.hdp.HealthService
+,08-17 15:50:40.373  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hdp.HealthService
+08-17 15:50:40.373  6389  6806 W BluetoothAdapterService: Not skipping com.android.bluetooth.hdp.HealthService
+,08-17 15:50:40.383  6389  6389 E HeadsetStateMachine: # of Max HF connection is 2
+,08-17 15:50:40.383  1015  3214 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+08-17 15:50:40.383  1015  3214 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hdp.HealthService; callingUser = 0; userId(target) = 0
+,08-17 15:50:40.383  1015  3214 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:40.383  1015  3214 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:40.383  1015  3214 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:40.393  1015  3213 D ActivityManager: bindService callerProcessName:com.android.bluetooth, calleePkgName: com.android.server.telecom, action: android.bluetooth.IBluetoothHeadsetPhone
+08-17 15:50:40.393  1015  3213 D ActivityManager: retrieveServiceLocked(): component = com.android.server.telecom/com.android.server.telecom.BluetoothPhoneService; callingUser = 0; userId(target) = 0
+,08-17 15:50:40.393  1015  3213 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:40.393  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.android.bluetooth.pan.PanService
+,08-17 15:50:40.393  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.pan.PanService
+08-17 15:50:40.393  1015  3213 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:40.393  1015  3213 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.server.telecom
+08-17 15:50:40.393  6389  6806 W BluetoothAdapterService: Not skipping com.android.bluetooth.pan.PanService
+,08-17 15:50:40.393  1015  1076 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+08-17 15:50:40.393  1015  1076 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.pan.PanService; callingUser = 0; userId(target) = 0
+,08-17 15:50:40.393  1015  1076 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:40.393  1015  1076 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,08-17 15:50:40.393  1015  1076 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:40.393  1015  3215 D ActivityManager: bindService callerProcessName:com.android.bluetooth, calleePkgName: com.android.server.telecom, action: com.samsung.bt.hfp.IBluetoothHeadsetVoIP
+,08-17 15:50:40.393  1015  3215 D ActivityManager: retrieveServiceLocked(): component = com.android.server.telecom/com.android.server.telecom.BluetoothVoIPService; callingUser = 0; userId(target) = 0
+,08-17 15:50:40.393  1015  3215 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:40.393  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.android.bluetooth.map.BluetoothMapService
+08-17 15:50:40.393  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.map.BluetoothMapService
+08-17 15:50:40.393  6389  6806 W BluetoothAdapterService: Not skipping com.android.bluetooth.map.BluetoothMapService
+,08-17 15:50:40.403  1015  3215 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:40.403  1015  3215 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.server.telecom
+,08-17 15:50:40.403  6389  6389 I bluedroid: get_profile_interface handsfree
+,08-17 15:50:40.403  1015  1076 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+,08-17 15:50:40.403  1015  1076 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.map.BluetoothMapService; callingUser = 0; userId(target) = 0
+,08-17 15:50:40.403  1015  1076 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:40.403  1015  1076 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:40.403  1015  1076 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:40.413  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.broadcom.bt.service.sap.SapService
+,08-17 15:50:40.413  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.broadcom.bt.service.sap.SapService
+,08-17 15:50:40.413  6389  6806 W BluetoothAdapterService: Not skipping com.broadcom.bt.service.sap.SapService
+,08-17 15:50:40.413  1015  1218 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+,08-17 15:50:40.413  1015  1218 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.broadcom.bt.service.sap.SapService; callingUser = 0; userId(target) = 0
+,08-17 15:50:40.413  1015  1218 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:40.413  1015  1218 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,08-17 15:50:40.413  1015  1218 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:40.423  6389  6389 I DualScoManager: Instantiating Dual Sco Manager
+,08-17 15:50:40.423  6389  6389 I DualScoManager: Set HeadsetServiceHelper
+,08-17 15:50:40.423  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.android.bluetooth.hfpclient.HeadsetClientService
+,08-17 15:50:40.423  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hfpclient.HeadsetClientService
+,08-17 15:50:40.423  6389  6806 W BluetoothAdapterService: Profile supported, But not enabled com.android.bluetooth.hfpclient.HeadsetClientService
+08-17 15:50:40.423  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.android.bluetooth.a2dp.A2dpSinkService
+08-17 15:50:40.423  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.a2dp.A2dpSinkService
+,08-17 15:50:40.423  6389  6806 W BluetoothAdapterService: Profile supported, But not enabled com.android.bluetooth.a2dp.A2dpSinkService
+08-17 15:50:40.423  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.android.bluetooth.sapclient.SapClientService
+08-17 15:50:40.423  6389  6389 D BluetoothAtMessage: createCMTIContentObservers
+,08-17 15:50:40.423  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.sapclient.SapClientService
+08-17 15:50:40.423  6389  6806 W BluetoothAdapterService: Profile supported, But not enabled com.android.bluetooth.sapclient.SapClientService
+,08-17 15:50:40.423  1015  1028 D SettingsProvider: name = bluetooth_hfp_allowed_bvra
+08-17 15:50:40.423  1015  1028 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:40.423  1015  1028 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+08-17 15:50:40.423  1015  1028 D SettingsProvider: selectionArgs: false
+08-17 15:50:40.423  1015  1028 D SettingsProvider: selectionArgs: 1002
+08-17 15:50:40.423  1015  1028 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+08-17 15:50:40.423  1015  1028 D SettingsProvider: ret = -1
+08-17 15:50:40.423  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.android.bluetooth.hid.HidDevService
+08-17 15:50:40.423  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hid.HidDevService
+08-17 15:50:40.423  6389  6806 W BluetoothAdapterService: Profile supported, But not enabled com.android.bluetooth.hid.HidDevService
+08-17 15:50:40.423  6389  6806 I BluetoothAdapterState: Entering PendingCommandState State: isTurningOn()=true, isTurningOff()=false
+,08-17 15:50:40.423  6389  6815 D HeadsetStateMachine: Enter Disconnected: -2
+,08-17 15:50:40.423  6389  6389 D HeadsetService: mStartError = false
+08-17 15:50:40.423  6389  6389 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+,08-17 15:50:40.433  6389  6389 D A2dpService: Received start request. Starting profile...
+08-17 15:50:40.433  6389  6815 D HeadsetStateMachine: Clear mHeadsetBrsf
+08-17 15:50:40.433  6389  6815 D HeadsetStateMachine: map size, before remove : 0
+08-17 15:50:40.433  6389  6815 D HeadsetStateMachine: map size, after remove: 0
+,08-17 15:50:40.433  6389  6389 D A2dpService: start()
+,08-17 15:50:40.433  6389  6389 I BluetoothAvrcpServiceJni: classInitNative: succeeds
+,08-17 15:50:40.433  6389  6389 I bluedroid: get_profile_interface avrcp
+,08-17 15:50:40.443  6389  6389 E RemoteController: Cannot set synchronization mode on an unregistered RemoteController
+,08-17 15:50:40.453  6389  6389 I Avrcp   :  Updating now playing list upon AVRCP Start
+,08-17 15:50:40.453  6389  6819 D BluetoothMediaBrowser:  getNowPlayingListcontent://media/external/audio/playlists?secFilter=include
+,08-17 15:50:40.453  6389  6389 I BluetoothA2dpServiceJni: classInitNative: succeeds
+08-17 15:50:40.453  6389  6389 D A2dpStateMachine: make
+,08-17 15:50:40.453  6389  6389 I bluedroid: get_profile_interface a2dp
+08-17 15:50:40.463  6389  6821 I GKI_LINUX: gki_task_entry task_id=2 [A2DP-MEDIA] starting
+08-17 15:50:40.463  6389  6389 E bt-btif : warning : media task started media_task_refcnt 1 
+,08-17 15:50:40.463  6389  6389 D A2dpService: mStartError = false
+08-17 15:50:40.463  6389  6389 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+,08-17 15:50:40.463  6389  6389 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.android.bluetooth.gatt.GattService, state=12, doUpdate=false
+,08-17 15:50:40.463  6389  6389 I BluetoothHidServiceJni: classInitNative: succeeds
+,08-17 15:50:40.463  6389  6820 D A2dpStateMachine: Enter Disconnected: -2
+08-17 15:50:40.463  6389  6389 D HidService: Received start request. Starting profile...
+08-17 15:50:40.463  6389  6389 D HidService: start()
+08-17 15:50:40.463  6389  6389 I bluedroid: get_profile_interface hidhost
+08-17 15:50:40.463  6389  6389 D HidService: setHidService(): set to: null
+08-17 15:50:40.463  6389  6389 D HidService: mStartError = false
+08-17 15:50:40.463  6389  6389 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+,08-17 15:50:40.463  6389  6389 I BluetoothHealthServiceJni: classInitNative: succeeds
+,08-17 15:50:40.473  6389  6389 D HealthService: Received start request. Starting profile...
+,08-17 15:50:40.473  6389  6389 D HealthService: start()
+,08-17 15:50:40.473  6389  6389 I bluedroid: get_profile_interface health
+,08-17 15:50:40.473  6389  6389 D HealthService: mStartError = false
+08-17 15:50:40.473  6389  6389 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+,08-17 15:50:40.473  6389  6389 D HeadsetStateMachine: Try to query the phonestate on bind
+,08-17 15:50:40.473  1431  1453 I Telecom : BluetoothPhoneService: queryPhoneState
+,08-17 15:50:40.473  1431  1431 I Telecom : BluetoothPhoneService: handleMessage(7) / param 0
+,08-17 15:50:40.473  1431  1431 I Telecom : BluetoothPhoneService: updateHeadsetWithCallState
+,08-17 15:50:40.473  1431  1453 I Telecom : BluetoothPhoneService: Result of Message : true
+,08-17 15:50:40.473  6389  6389 I BluetoothPanServiceJni: classInitNative(L105): succeeds
+,08-17 15:50:40.483  6389  6389 D PanService: Received start request. Starting profile...
+08-17 15:50:40.483  6389  6389 D PanService: start()
+08-17 15:50:40.483  6389  6389 D BluetoothPanServiceJni: initializeNative(L110): pan
+08-17 15:50:40.483  6389  6389 I bluedroid: get_profile_interface pan
+,08-17 15:50:40.483  6389  6389 D PanService: mStartError = false
+08-17 15:50:40.483  6389  6389 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+08-17 15:50:40.483  6389  6389 D HeadsetStateMachine: Proxy object connected
+,08-17 15:50:40.483  6389  6389 D HeadsetPhoneState: sendDeviceStateChanged. mService=0 mSignal=0 mRoam=0 mBatteryCharge=0
+08-17 15:50:40.483  6389  6815 D HeadsetStateMachine: Disconnected process message: 11
+08-17 15:50:40.483  6389  6389 D BluetoothMapService: Received start request. Starting profile...
+08-17 15:50:40.483  6389  6389 D BluetoothMapService: start()
+,08-17 15:50:40.483  1932  1932 D EasyUnlockReceiver: Received Bluetooth event: Intent { act=android.bluetooth.adapter.action.STATE_CHANGED flg=0x4000010 cmp=com.google.android.gms/.auth.easyunlock.authorization.BluetoothStateChangeReceiver (has extras) }.
+,08-17 15:50:40.483  6389  6819 D BluetoothMediaBrowser: no now playing list
+08-17 15:50:40.483  6389  6819 D BluetoothMediaBrowser:  getNowPlayingId now playing id : -1
+,08-17 15:50:40.483  6389  6389 D BluetoothMapService: mStartError = false
+,08-17 15:50:40.483  6389  6389 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+08-17 15:50:40.483  6389  6389 D HeadsetPhoneState: sendDeviceDataStateChanged
+,08-17 15:50:40.483  6389  6389 D HeadsetPhoneState: Signal level : previous=0 curr=0
+,08-17 15:50:40.493  6389  6815 D HeadsetStateMachine: Disconnected process message: 18
+08-17 15:50:40.493  6389  6389 I BluetoothSAPServiceJni: classInitNative(L204): succeeds
+,08-17 15:50:40.493  1932  1932 D BtServices: Received Bluetooth event: Intent { act=android.bluetooth.adapter.action.STATE_CHANGED flg=0x4000010 cmp=com.google.android.gms/.auth.proximity.BluetoothServicesAdapterStateChangeReceiver (has extras) }.
+,08-17 15:50:40.493  6389  6389 D SapService: Received start request. Starting profile...
+08-17 15:50:40.493  6389  6389 D SapService: start()
+08-17 15:50:40.493  6389  6389 D BluetoothSAPServiceJni: initializeNative(L209): sap
+08-17 15:50:40.493  6389  6389 I bluedroid: get_profile_interface sap
+08-17 15:50:40.493  6389  6389 D SapService: mStartError = false
+08-17 15:50:40.493  6389  6389 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+08-17 15:50:40.493  6389  6389 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.android.bluetooth.hfp.HeadsetService, state=12, doUpdate=true
+,08-17 15:50:40.493  6389  6389 V HeadsetService: HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+08-17 15:50:40.493  6389  6389 D BluetoothA2dp: Proxy object connected
+,08-17 15:50:40.493  6389  6815 D HeadsetStateMachine: Disconnected process message: 10
+08-17 15:50:40.493  6389  6389 D BluetoothAdapterService: Bluetooth A2dp source service connected
+08-17 15:50:40.493  6389  6389 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.android.bluetooth.a2dp.A2dpService, state=12, doUpdate=true
+08-17 15:50:40.493  6389  6389 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.android.bluetooth.hid.HidService, state=12, doUpdate=true
+,08-17 15:50:40.493  6389  6815 D HeadsetPhoneState: sendDeviceStateChanged. mService=0 mSignal=0 mRoam=0 mBatteryCharge=5
+08-17 15:50:40.493  6389  6815 D HeadsetStateMachine: Disconnected process message: 11
+08-17 15:50:40.493  6389  6389 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.android.bluetooth.hdp.HealthService, state=12, doUpdate=true
+,08-17 15:50:40.493  6389  6389 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.android.bluetooth.pan.PanService, state=12, doUpdate=true
+,08-17 15:50:40.523  6389  6389 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.android.bluetooth.map.BluetoothMapService, state=12, doUpdate=true
+,08-17 15:50:40.523  6389  6389 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.broadcom.bt.service.sap.SapService, state=12, doUpdate=true
+,08-17 15:50:40.523  6389  6806 D BluetoothAdapterState: CURRENT_STATE=PENDING, MSG = STARTED, isTurningOn=true, isTurningOff=false
+,08-17 15:50:40.523  6389  6806 I bluedroid: enable
+,08-17 15:50:40.533  6389  6825 I GKI_LINUX: gki_task_entry task_id=0 [BTU] starting
+08-17 15:50:40.533  6389  6806 I bt_hci_bdroid: init
+,08-17 15:50:40.533  6389  6806 I bt_vendor: bt-vendor : init
+,08-17 15:50:40.533  6389  6806 I bt_vendor: bt-vendor : get_bt_soc_type
+08-17 15:50:40.533  6389  6806 E bt_vendor: get_bt_soc_type: Failed to get soc type
+,08-17 15:50:40.533  6389  6806 I bt_vendor: init: Local BD Address : ab:96:37:0e:f9:7c
+,08-17 15:50:40.533  6389  6806 D bt_userial_mct: userial_init
+,08-17 15:50:40.533  6389  6806 I bt_vendor: bt-vendor : BT_VND_OP_POWER_CTRL: Off
+08-17 15:50:40.533  6389  6806 I bt_vendor: Starting hciattach daemon
+,08-17 15:50:40.533  6389  6806 I bt_vendor: try to set false
+,08-17 15:50:40.533  6389  6806 I bt_vendor: bt-vendor : BT_VND_OP_POWER_CTRL: On,
+08-17 15:50:40.533  6389  6806 I bt_vendor: Starting hciattach daemon
+08-17 15:50:40.533  6389  6806 I bt_vendor: try to set true
+,08-17 15:50:40.553  6829  6829 I qcom-bluetooth: /system/etc/init.qcom.bt.sh: init.qcom.bt.sh config =  ,
+,08-17 15:50:40.603  6835  6835 I qcom-bluetooth: /system/etc/init.qcom.bt.sh: Transport : smd ,
+,08-17 15:50:40.613  6836  6836 I qcom-bluetooth: /system/etc/init.qcom.bt.sh: ** Bluedroid stack ** ,
+,08-17 15:50:40.633  6838  6838 I qcom-bluetooth: /system/etc/init.qcom.bt.sh: Power Class: Ignored. Default(1) used (1-CLASS1/2-CLASS2/3-CUSTOM) ,
+,08-17 15:50:40.643  6839  6839 I qcom-bluetooth: /system/etc/init.qcom.bt.sh: Power Class: To override, Before turning BT ON; setprop qcom.bt.dev_power_class <1 or 2 or 3> ,
+,08-17 15:50:40.653  6840  6840 I qcom-bluetooth: /system/etc/init.qcom.bt.sh: LE Power Class: Ignored. Default(2) used (1-CLASS1/2-CLASS2/3-CUSTOM) ,
+,08-17 15:50:40.653  6841  6841 I qcom-bluetooth: /system/etc/init.qcom.bt.sh: LE Power Class: To override, Before turning BT ON; setprop qcom.bt.le_dev_pwr_class <1 or 2 or 3> ,
+,08-17 15:50:40.883  6844  6844 I qcom-bluetooth: /system/etc/init.qcom.bt.sh: Bluetooth QSoC firmware download succeeded, /dev/ttyHS0 qualcomm 3000000 7c:f9:0e:37:96:ab ,
+,08-17 15:50:40.893  6845  6845 I qcom-bluetooth: /system/etc/init.qcom.bt.sh: ** Bluedroid stack ** ,
+,08-17 15:50:40.943  6389  6806 I bt_vendor: bluetooth satus is on
+,08-17 15:50:40.943  6389  6827 D bt_userial_mct: userial_open(port:0)
+08-17 15:50:40.943  6389  6827 I bt_vendor: bt-vendor : BT_VND_OP_USERIAL_OPEN
+,08-17 15:50:40.943  6389  6827 I bt_vendor: Done intiailizing UART,
+,08-17 15:50:40.953  6389  6827 I bt_vendor: Done intiailizing UART,
+08-17 15:50:40.953  6389  6827 I bt_userial_mct: CMD=66, EVT=66, ACL_Out=67, ACL_In=67,
+08-17 15:50:40.953  6389  6827 I bt_vendor: Bluetooth Firmware and transport layer are initialized,
+08-17 15:50:40.953  6389  6847 D bt_userial_mct: Entering userial_read_thread()
+08-17 15:50:40.953  6389  6825 I         : BTE_InitTraceLevels -- TRC_HCI,
+08-17 15:50:40.953  6389  6825 I         : BTE_InitTraceLevels -- TRC_L2CAP
+08-17 15:50:40.953  6389  6825 I         : BTE_InitTraceLevels -- TRC_RFCOMM,
+08-17 15:50:40.953  6389  6825 I         : BTE_InitTraceLevels -- TRC_AVDT
+08-17 15:50:40.953  6389  6825 I         : BTE_InitTraceLevels -- TRC_AVRC,
+08-17 15:50:40.953  6389  6825 I         : BTE_InitTraceLevels -- TRC_A2D
+,08-17 15:50:40.953  6389  6825 I         : BTE_InitTraceLevels -- TRC_BNEP
+,08-17 15:50:40.953  6389  6825 I         : BTE_InitTraceLevels -- TRC_BTM,
+,08-17 15:50:40.953  6389  6825 I         : BTE_InitTraceLevels -- TRC_GAP,
+,08-17 15:50:40.953  6389  6825 I         : BTE_InitTraceLevels -- TRC_PAN
+,08-17 15:50:40.953  6389  6825 I         : BTE_InitTraceLevels -- TRC_SAP
+,08-17 15:50:40.953  6389  6825 I         : BTE_InitTraceLevels -- TRC_SDP
+,08-17 15:50:40.953  6389  6825 I         : BTE_InitTraceLevels -- TRC_GATT
+,08-17 15:50:40.953  6389  6825 I         : BTE_InitTraceLevels -- TRC_SMP
+,08-17 15:50:40.953  6389  6825 I         : BTE_InitTraceLevels -- TRC_BTAPP
+08-17 15:50:40.953  6389  6825 I         : BTE_InitTraceLevels -- TRC_BTIF,
+08-17 15:50:40.953  6389  6825 I         : BTE_InitTraceLevels -- TRC_PROTOCOL
+,08-17 15:50:41.063  6389  6825 W bt-l2cap: l2c_link_processs_ble_num_bufs 16
+,08-17 15:50:41.063  6389  6825 E bt-btm  : BTM_SecRegister:p_cb_info->p_le_callback == 0xa40216e9 
+,08-17 15:50:41.063  6389  6825 E bt-btm  : BTM_SecRegister: btm_cb.api.p_le_callback = 0xa40216e9 
+,08-17 15:50:41.083  6389  6809 D BluetoothAdapterProperties: BT_PROPERTY_LOCAL_LE_FEATURES: update from BT controller mNumOfAdvertisementInstancesSupported = 10 mRpaOffloadSupported = true mNumOfOffloadedIrkSupported = 32 mNumOfOffloadedScanFilterSupported = 16 mOffloadedScanResultStorageBytes= 10240 mIsActivityAndEnergyReporting = true mAobleSupported = 0
+,08-17 15:50:41.093  6389  6809 E bt-btif : Calling BTA_HhEnable
+,08-17 15:50:41.093  6389  6809 E bt-btif : btif_storage_get_adapter_property service_mask:0x2120048
+,08-17 15:50:41.093  6389  6809 D BluetoothAdapterProperties: Address is:7C:F9:0E:37:96:AB
+,08-17 15:50:41.093  6389  6809 E BluetoothServiceJni: populateRssiValuesNative
+,08-17 15:50:41.093  6389  6809 I bluedroid: getModelRssiValues
+,08-17 15:50:41.093  6389  6809 E BluetoothServiceJni: model_rssi_values_callback: low = -70, mid = -60, high = 127
+,08-17 15:50:41.093  6389  6809 D BluetoothAdapterProperties: modelRssiValuesCallback, low, mid, high = -70,-60,127
+,08-17 15:50:41.093  1015  1015 D SettingsProvider: name = bluetooth_name
+,08-17 15:50:41.093  6389  6809 D BluetoothAdapterProperties: Name is: A5-1
+,08-17 15:50:41.103  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+08-17 15:50:41.103  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:41.103  6389  6809 D BluetoothUtils: getBtEnabledContainers(): btContainers = []
+,08-17 15:50:41.103  6389  6809 D BluetoothAdapterProperties: Scan Mode:20
+,08-17 15:50:41.103  6389  6809 D BluetoothAdapterProperties: Discoverable Timeout:120
+,08-17 15:50:41.103  6389  6809 D BluetoothAdapterProperties: LE Address is:FC:F3:1C:6E:2D:57
+,08-17 15:50:41.113  6389  6809 E bt-btif : btif_handle_bluetooth_enable_evt: btif_core_radio_ref_count:1
+,08-17 15:50:41.113  6389  6809 E bt-btif : btif_sock_init, radio_req:0, rfc_init:0, vhci_init:0
+,08-17 15:50:41.113  6389  6809 E bt-btif : btif_sock_init: !radio_req && !rfc_init
+,08-17 15:50:41.113  6389  6809 E bt-btif : btif_sock_init: !vhci_init
+,08-17 15:50:41.113  6389  6809 D IOP_DB_BT: db_open: file /etc/bluetooth/iop_bt.db
+,08-17 15:50:41.113  6389  6809 D IOP_DB_BT: db_open: db_open : handle 3028402192l, read 13894 bytes onto local cache
+,08-17 15:50:41.113  6389  6809 D IOP_DB_BT: db_query: id __IOPFLAGS :: key __KEY_ENABLE_VERBOSE, value 1
+,08-17 15:50:41.113  6389  6847 E bt_mct  : hci lib postload completed
+,08-17 15:50:41.113  6389  6809 D IOP_DB_BT: db_query: result 1
+,08-17 15:50:41.113  6389  6809 I         : iop_db_open: iop_db_open status 0
+,08-17 15:50:41.123  6389  6809 D bte_conf: Device ID record 1 : primary
+,08-17 15:50:41.123  6389  6809 D bte_conf:   vendorId            = 0075
+08-17 15:50:41.123  6389  6809 D bte_conf:   vendorIdSource      = 0001
+08-17 15:50:41.123  6389  6809 D bte_conf:   product             = 0100
+08-17 15:50:41.123  6389  6809 D bte_conf:   version             = 0200
+08-17 15:50:41.123  6389  6809 D bte_conf:   clientExecutableURL = 
+08-17 15:50:41.123  6389  6809 D bte_conf:   serviceDescription  = 
+08-17 15:50:41.123  6389  6809 D bte_conf:   documentationURL    = 
+08-17 15:50:41.123  6389  6809 D bte_conf: bte_load_did_conf no section named DID2.
+,08-17 15:50:41.123  6389  6809 D BluetoothPanServiceJni: control_state_callback(L61): state:0, local_role:3, ifname:bt-pan
+,08-17 15:50:41.123  6389  6806 D BluetoothAdapterState: CURRENT_STATE=PENDING, MSG = ENABLE_READY, isTurningOn=true, isTurningOff=false
+,08-17 15:50:41.123  6389  6806 D BluetoothAdapterProperties: ScanMode =  20
+,08-17 15:50:41.123  6389  6806 D BluetoothAdapterProperties: State =  11
+,08-17 15:50:41.123  1015  1478 D SecContentProvider: uri = 3 selection = isDiscoverableEnabled
+,08-17 15:50:41.123  6389  6806 D BluetoothAdapterProperties: Setting state to 12
+,08-17 15:50:41.133  6389  6806 I BluetoothAdapterState: Bluetooth adapter state changed: 11-> 12
+,08-17 15:50:41.133  6389  6809 D BluetoothUtils: getBtEnabledContainers(): btContainers = []
+08-17 15:50:41.133  6389  6809 D BluetoothAdapterProperties: Scan Mode:21
+08-17 15:50:41.133  6389  6809 D BluetoothAdapterProperties: Discoverable Timeout:120
+,08-17 15:50:41.133  1015  1486 D SettingsProvider: name = bluetooth_a2dp_sink_mode
+,08-17 15:50:41.133  1015  1486 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:41.133  1015  1486 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+08-17 15:50:41.133  1015  1486 D SettingsProvider: selectionArgs: false
+08-17 15:50:41.133  1015  1486 D SettingsProvider: selectionArgs: 1002
+08-17 15:50:41.133  1015  1486 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+08-17 15:50:41.133  1015  1486 D SettingsProvider: ret = -1
+,08-17 15:50:41.133  6389  6806 D BluetoothAdapterService: Bluetooth PBAP supproted is true
+08-17 15:50:41.133  6389  6806 D BluetoothAdapterService: updateAdapterState state is 12
+,08-17 15:50:41.133  1015  1218 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+08-17 15:50:41.133  1015  1218 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.pbap.BluetoothPbapService; callingUser = 0; userId(target) = 0
+,08-17 15:50:41.143  1015  1218 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:41.143  1015  1218 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,08-17 15:50:41.143  1015  1218 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:41.143  6389  6806 D BluetoothAdapterService: Autoconnection is available 
+08-17 15:50:41.143  6389  6806 D BluetoothAdapterService: updateAdapterState prevState = 11newState = 12
+08-17 15:50:41.143  6389  6806 D BluetoothAdapterService: starting service from this receiver
+,08-17 15:50:41.143  1015  1485 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+08-17 15:50:41.143  1015  1485 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.samsung.ble.BleAutoConnectService; callingUser = 0; userId(target) = 0
+,08-17 15:50:41.153  1015  1485 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:41.153  1015  1485 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:41.153  1015  1485 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:41.153  6354  6364 D BluetoothAdapter: onBluetoothStateChange: up=true
+08-17 15:50:41.153  6354  6364 D BluetoothAdapter: onBluetoothStateChange: Bluetooth is on
+,08-17 15:50:41.153  6389  6806 I BluetoothAdapterState: Entering On State from state = 11
+,08-17 15:50:41.153  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: State changed:
+08-17 15:50:41.153  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:41.153  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:41.153  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: false
+08-17 15:50:41.153  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: true
+08-17 15:50:41.153  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: null
+08-17 15:50:41.153  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: false
+08-17 15:50:41.153  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: false
+,08-17 15:50:41.153  1456  1481 D BluetoothHeadset: doBind(): CallingUid(myUserHandle) = 0
+,08-17 15:50:41.163  6195  6195 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: ON, Bluetooth: ON, Wi-Fi: OFF, cellular: DO_NOT_CARE, BSSID name: null
+,08-17 15:50:41.163  1015  1044 D ActivityManager: bindService callerProcessName:com.android.phone, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothHeadset
+,08-17 15:50:41.163  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hfp.HeadsetService; callingUser = 0; userId(target) = -3
+,08-17 15:50:41.163  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:41.163  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:41.163  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:41.163  1456  1481 E BluetoothHeadset: BluetoothHeadset service is binded
+,08-17 15:50:41.163  1317  1333 D BluetoothMap: onBluetoothStateChange: up=true
+,08-17 15:50:41.173  1015  1044 D ActivityManager: bindService callerProcessName:com.android.settings, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothMap
+,08-17 15:50:41.173  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.map.BluetoothMapService; callingUser = 0; userId(target) = 0
+08-17 15:50:41.173  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: State changed:
+08-17 15:50:41.173  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:41.173  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:41.173  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: false
+08-17 15:50:41.173  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: true
+08-17 15:50:41.173  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: null
+08-17 15:50:41.173  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: false
+08-17 15:50:41.173  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: false
+,08-17 15:50:41.173  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:41.173  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:41.173  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.settings, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:41.173  6389  6389 I BluetoothPbapService: action: android.bluetooth.adapter.action.STATE_CHANGED, state: 12
+,08-17 15:50:41.173  6195  6204 D BluetoothAdapter: onBluetoothStateChange: up=true
+,08-17 15:50:41.173  6195  6204 D BluetoothAdapter: onBluetoothStateChange: Bluetooth is on
+,08-17 15:50:41.173  1431  6380 D BluetoothHeadset: doBind(): CallingUid(myUserHandle) = 0
+,08-17 15:50:41.173  1015  1044 D ActivityManager: bindService callerProcessName:com.android.server.telecom, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothHeadset
+08-17 15:50:41.173  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hfp.HeadsetService; callingUser = 0; userId(target) = -3
+,08-17 15:50:41.183  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:41.183  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:41.183  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.server.telecom, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:41.183  1431  6380 E BluetoothHeadset: BluetoothHeadset service is binded
+,08-17 15:50:41.183  6195  6195 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: ON, Bluetooth: ON, Wi-Fi: OFF, cellular: DO_NOT_CARE, BSSID name: null
+,08-17 15:50:41.183  6389  6389 I BluetoothPbapService: Handler(): got msg=1
+,08-17 15:50:41.193  1015  1315 D SecContentProvider: uri = 4 selection = isProfileAuthorizedBySecurityPolicy
+,08-17 15:50:41.193  1456  1481 D BluetoothAdapter: onBluetoothStateChange: up=true
+08-17 15:50:41.193  1456  1481 D BluetoothAdapter: onBluetoothStateChange: Bluetooth is on
+,08-17 15:50:41.193  1317  6381 D BluetoothAdapter: onBluetoothStateChange: up=true
+08-17 15:50:41.193  1317  6381 D BluetoothAdapter: onBluetoothStateChange: Bluetooth is on
+08-17 15:50:41.193  1015  1044 D BluetoothA2dp: onBluetoothStateChange: up=true
+,08-17 15:50:41.193  1015  1044 D BluetoothA2dp: doBind(): CallingUid(myUserHandle) = 0
+08-17 15:50:41.193  1015  1044 D ActivityManager: bindService callerProcessName:android, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothA2dp
+08-17 15:50:41.193  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.a2dp.A2dpService; callingUser = 0; userId(target) = 0
+,08-17 15:50:41.193  1431  1453 D BluetoothHeadset: doBind(): CallingUid(myUserHandle) = 0
+,08-17 15:50:41.193  1015  1015 D BluetoothA2dp: Proxy object connected
+,08-17 15:50:41.193  1015  1044 D ActivityManager: bindService callerProcessName:com.android.server.telecom, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothHeadset
+08-17 15:50:41.193  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hfp.HeadsetService; callingUser = 0; userId(target) = -3
+,08-17 15:50:41.193  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:41.193  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:41.193  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.server.telecom, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:41.193  1431  1453 E BluetoothHeadset: BluetoothHeadset service is binded
+,08-17 15:50:41.203  1317  6381 D BluetoothPan: Binding service...
+,08-17 15:50:41.203  1317  1317 D BluetoothMap: Proxy object connected
+08-17 15:50:41.203  1317  1317 D MapProfile: Bluetooth service connected
+08-17 15:50:41.203  1317  1317 D BluetoothMap: getConnectedDevices()
+,08-17 15:50:41.203  1015  1044 D ActivityManager: bindService callerProcessName:com.android.settings, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothPan
+,08-17 15:50:41.203  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.pan.PanService; callingUser = 0; userId(target) = 0
+,08-17 15:50:41.203  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:41.203  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:41.203  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.settings, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:41.203  6389  6398 D BluetoothAdapter: onBluetoothStateChange: up=true
+08-17 15:50:41.203  6389  6398 D BluetoothAdapter: onBluetoothStateChange: Bluetooth is on
+,08-17 15:50:41.203  1317  1329 D BluetoothInputDevice: onBluetoothStateChange: up=true
+,08-17 15:50:41.203  1015  1044 D ActivityManager: bindService callerProcessName:com.android.settings, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothInputDevice
+08-17 15:50:41.203  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hid.HidService; callingUser = 0; userId(target) = 0
+,08-17 15:50:41.203  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:41.203  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:41.203  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.settings, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:41.203  1317  1317 D BluetoothPan: BluetoothPAN Proxy object connected
+08-17 15:50:41.203  1317  1317 D PanProfile: Bluetooth service connected
+,08-17 15:50:41.213  6389  6851 V BluetoothPbapService: PBAP Service initSocket try: 0
+,08-17 15:50:41.213  1932  2106 D BluetoothAdapter: onBluetoothStateChange: up=true
+,08-17 15:50:41.213  1932  2106 D BluetoothAdapter: onBluetoothStateChange: Bluetooth is on
+,08-17 15:50:41.213  1317  1317 D BluetoothInputDevice: Proxy object connected
+08-17 15:50:41.213  1317  1329 D BluetoothHeadset: doBind(): CallingUid(myUserHandle) = 0
+,08-17 15:50:41.213  1015  1044 D ActivityManager: bindService callerProcessName:com.android.settings, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothHeadset
+08-17 15:50:41.213  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hfp.HeadsetService; callingUser = 0; userId(target) = -3
+,08-17 15:50:41.213  1317  1317 D HidProfile: Bluetooth service connected
+,08-17 15:50:41.213  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:41.213  6389  6851 D BluetoothSocket: bindListen(): myUserId = 0
+08-17 15:50:41.213  6389  6851 W BluetoothAdapter: getBluetoothService() called with no BluetoothManagerCallback
+,08-17 15:50:41.213  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:41.213  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.settings, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:41.213  1317  1329 E BluetoothHeadset: BluetoothHeadset service is binded
+,08-17 15:50:41.213  1317  1333 D BluetoothPbap: onBluetoothStateChange: up=true
+,08-17 15:50:41.213  6389  6851 D BluetoothSocket: bindListen(), SocketState: INIT, mPfd: {ParcelFileDescriptor: FileDescriptor[75]}
+08-17 15:50:41.213  6389  6851 D BluetoothSocket: bindListen(), new LocalSocket 
+08-17 15:50:41.213  6389  6851 D BluetoothSocket: bindListen(), new LocalSocket.getInputStream() 
+08-17 15:50:41.213  6389  6851 D BluetoothSocket: bindListen(), readInt mSocketIS: android.net.LocalSocketImpl$SocketInputStream@328a6a64
+08-17 15:50:41.213  6389  6851 D BluetoothSocket: channel: 19
+08-17 15:50:41.213  6389  6851 D BluetoothPbapService: PBAP Socket is BluetoothServerSocket
+,08-17 15:50:41.213  1015  1044 D ActivityManager: bindService callerProcessName:com.android.settings, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothPbap
+08-17 15:50:41.213  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.pbap.BluetoothPbapService; callingUser = 0; userId(target) = 0
+,08-17 15:50:41.213  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:41.213  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:41.213  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.settings, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:41.223  1317  1317 D HeadsetProfile: Bluetooth service connected
+,08-17 15:50:41.223  6389  6397 D BluetoothA2dp: onBluetoothStateChange: up=true
+,08-17 15:50:41.223  1317  1329 D BluetoothA2dp: onBluetoothStateChange: up=true
+,08-17 15:50:41.223  1317  1329 D BluetoothA2dp: doBind(): CallingUid(myUserHandle) = 0
+,08-17 15:50:41.223  1015  1044 D ActivityManager: bindService callerProcessName:com.android.settings, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothA2dp
+08-17 15:50:41.223  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.a2dp.A2dpService; callingUser = 0; userId(target) = 0
+,08-17 15:50:41.223  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:41.223  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:41.223  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.settings, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:41.223  1317  1317 D BluetoothPbap: Proxy object connected
+,08-17 15:50:41.223  1317  1317 D PbapServerProfile: Bluetooth service connected
+08-17 15:50:41.223  1317  1317 D BluetoothA2dp: Proxy object connected
+08-17 15:50:41.223  1317  1317 D A2dpProfile: Bluetooth service connected
+,08-17 15:50:41.223  1443  1744 D BluetoothAdapter: onBluetoothStateChange: up=true
+08-17 15:50:41.223  1443  1744 D BluetoothAdapter: onBluetoothStateChange: Bluetooth is on
+,08-17 15:50:41.223  2859  2877 D BluetoothAdapter: onBluetoothStateChange: up=true
+08-17 15:50:41.223  2859  2877 D BluetoothAdapter: onBluetoothStateChange: Bluetooth is on
+,08-17 15:50:41.223  1431  6380 D BluetoothAdapter: onBluetoothStateChange: up=true
+08-17 15:50:41.223  1431  6380 D BluetoothAdapter: onBluetoothStateChange: Bluetooth is on
+,08-17 15:50:41.223  1015  1044 D BluetoothAdapter: onBluetoothStateChange: up=true
+08-17 15:50:41.223  1015  1044 D BluetoothAdapter: onBluetoothStateChange: Bluetooth is on
+08-17 15:50:41.223  1015  1044 D BluetoothPan: Binding service...
+,08-17 15:50:41.223  1015  1044 D ActivityManager: bindService callerProcessName:android, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothPan
+08-17 15:50:41.223  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.pan.PanService; callingUser = 0; userId(target) = 0
+,08-17 15:50:41.233  1015  1015 D BluetoothPan: BluetoothPAN Proxy object connected
+08-17 15:50:41.233  1317  6381 D Bluetoothsap: onBluetoothStateChange: up=true
+08-17 15:50:41.233  1317  6381 D Bluetoothsap: Binding service...
+,08-17 15:50:41.233  1317  6381 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:2136 android.content.ContextWrapper.bindService:559 com.broadcom.bt.service.sap.BluetoothSap.doBind:186 com.broadcom.bt.service.sap.BluetoothSap$1.onBluetoothStateChange:156 android.bluetooth.IBluetoothStateChangeCallback$Stub.onTransact:55 
+,08-17 15:50:41.233  1015  1044 D ActivityManager: bindService callerProcessName:com.android.settings, calleePkgName: com.android.bluetooth, action: com.broadcom.bt.service.sap.IBluetoothSap
+,08-17 15:50:41.233  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.broadcom.bt.service.sap.SapService; callingUser = 0; userId(target) = 0
+,08-17 15:50:41.233  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:41.233  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:41.233  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.settings, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:41.233  1317  6381 D Bluetoothsap: bindService called to Bluetooth SAP Service
+,08-17 15:50:41.233  1317  1317 D Bluetoothsap: BluetoothSAP Proxy object connected
+08-17 15:50:41.233  1317  1317 D SapProfile: Bluetooth service connected
+08-17 15:50:41.233  1317  1317 D Bluetoothsap: getConnectedDevices()
+,08-17 15:50:41.233  2859  2871 D BluetoothHeadset: doBind(): CallingUid(myUserHandle) = 0
+,08-17 15:50:41.233  1015  1044 D ActivityManager: bindService callerProcessName:com.samsung.android.providers.context, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothHeadset
+,08-17 15:50:41.233  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hfp.HeadsetService; callingUser = 0; userId(target) = -3
+,08-17 15:50:41.233  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:41.233  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:41.233  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.android.providers.context, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:41.243  2859  2871 E BluetoothHeadset: BluetoothHeadset service is binded
+,08-17 15:50:41.243  1174  2008 D BluetoothAdapter: onBluetoothStateChange: up=true
+08-17 15:50:41.243  1174  2008 D BluetoothAdapter: onBluetoothStateChange: Bluetooth is on
+,08-17 15:50:41.243  1431  1453 D BluetoothHeadset: doBind(): CallingUid(myUserHandle) = 0
+,08-17 15:50:41.243  1015  1044 D ActivityManager: bindService callerProcessName:com.android.server.telecom, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothHeadset
+,08-17 15:50:41.243  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hfp.HeadsetService; callingUser = 0; userId(target) = -3
+,08-17 15:50:41.243  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:41.243  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:41.243  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.server.telecom, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:41.243  1431  1453 E BluetoothHeadset: BluetoothHeadset service is binded
+,08-17 15:50:41.243  2859  2877 D BluetoothA2dp: onBluetoothStateChange: up=true
+,08-17 15:50:41.243  2859  2877 D BluetoothA2dp: doBind(): CallingUid(myUserHandle) = 0
+,08-17 15:50:41.243  1015  1044 D ActivityManager: bindService callerProcessName:com.samsung.android.providers.context, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothA2dp
+,08-17 15:50:41.253  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.a2dp.A2dpService; callingUser = 0; userId(target) = 0
+,08-17 15:50:41.253  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:41.253  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:41.253  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.android.providers.context, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:41.253  2859  2859 D BluetoothA2dp: Proxy object connected
+,08-17 15:50:41.253  1015  1044 D BluetoothHeadset: doBind(): CallingUid(myUserHandle) = 0
+,08-17 15:50:41.253  1015  1044 D ActivityManager: bindService callerProcessName:android, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothHeadset
+08-17 15:50:41.253  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hfp.HeadsetService; callingUser = 0; userId(target) = -3
+08-17 15:50:41.253  1015  1044 E BluetoothHeadset: BluetoothHeadset service is binded
+,08-17 15:50:41.253  1015  1044 D ActivityManager: bindService callerProcessName:android, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothGatt
+08-17 15:50:41.253  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.gatt.GattService; callingUser = 0; userId(target) = -2
+,08-17 15:50:41.253  1174  1174 D BluetoothTile:  onBluetoothStateChange:
+,08-17 15:50:41.263  1431  1431 D BluetoothHeadset: registerListener : 11, listenercom.android.server.telecom.wearable.BluetoothMessageListener@250678a3, true
+,08-17 15:50:41.263  1431  1431 D BluetoothHeadset: registerMessageListener
+,08-17 15:50:41.263  1834  1834 I SamsungIME: STATE_CHANGED = 12, KEYBOARD_BT(0), mBTKeyboardCount =0
+08-17 15:50:41.263  1317  1317 V BluetoothEventManager: Received android.bluetooth.adapter.action.STATE_CHANGED
+,08-17 15:50:41.273  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:41.273  1015  1028 D ActivityManager: startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+08-17 15:50:41.273  1015  1028 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService; callingUser = 0; userId(target) = 0
+,08-17 15:50:41.273  6389  6810 D HeadsetService: registerMessageListener
+,08-17 15:50:41.273  1015  1015 W InputMethodManagerService: InputMethodService onReceive() intentActionandroid.bluetooth.adapter.action.STATE_CHANGED
+08-17 15:50:41.273  1015  1015 I InputMethodManagerService: [BT Setting State] State =12
+08-17 15:50:41.273  1015  1015 I InputMethodManagerService: [BT Setting off -> on] mBTKeyboardCount =0, KEYBOARD_BT(0)
+,08-17 15:50:41.273  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:41.273  1015  1028 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:41.273  1015  1028 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:41.273  1015  1028 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:41.273  1174  1174 D BluetoothTile:  onBluetoothPairedDevicesChanged:
+,08-17 15:50:41.273  1174  1174 D BluetoothTile: onReceive : android.bluetooth.adapter.action.STATE_CHANGED
+08-17 15:50:41.273  1174  1174 D BluetoothTile:  getBluetoothState : 12
+,08-17 15:50:41.273  6389  6810 D HeadsetService: registerMessageListener
+,08-17 15:50:41.273  6389  6815 D HeadsetStateMachine: Disconnected process message: 70
+08-17 15:50:41.273  1431  1431 I Telecom : BluetoothPhoneService: handleMessage(7) / param null
+08-17 15:50:41.273  1431  1431 I Telecom : BluetoothPhoneService: updateHeadsetWithCallState
+,08-17 15:50:41.273  6389  6815 D HeadsetStateMachine: processRegisterMessageListener : 11, com.samsung.bt.hfp.IMessageListener$Stub$Proxy@1eb1f4cd
+,08-17 15:50:41.283  1174  1721 D BluetoothTile:  handleUpdatestate:false name:null
+,08-17 15:50:41.283  1317  1317 W LocalBluetoothProfileManager: Warning: MAP profile was previously added but the UUID is now missing.
+,08-17 15:50:41.283  1317  1317 W LocalBluetoothProfileManager: Warning: PBAP profile was previously added but the UUID is now missing.
+08-17 15:50:41.283  1317  1317 W LocalBluetoothProfileManager: Warning: SAP profile was previously added but the UUID is now missing.
+08-17 15:50:41.283  1317  1317 W LocalBluetoothProfileManager: Warning: HID profile was previously added but the UUID is now missing.
+,08-17 15:50:41.283  1431  1431 I Telecom : BluetoothPhoneService: getCurrentCallPhoneType, Defalut Phonetype : 1
+08-17 15:50:41.283  1431  1431 I Telecom : BluetoothPhoneService: getCurrentCallPhoneType, Current Phonetype : 1
+,08-17 15:50:41.283  1431  1431 I Telecom : BluetoothPhoneService: updateHeadsetWithCallState numActive 0, numHeld 0, callState 6, ringing number [da39a3ee5e6b4b0d3255bfef95601890afd80709], ringing type 128
+,08-17 15:50:41.283  6389  6855 D BluetoothMapMasInstance: set MAP SDP message type : 1
+,08-17 15:50:41.283  1015  1485 D StatusBarManagerService: setIcon slot=bluetooth index=16 icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=true num=0 )
+,08-17 15:50:41.283  1015  1218 D StatusBarManagerService: setIconVisibility slot=bluetooth visible=true
+08-17 15:50:41.283  1174  1174 D PhoneStatusBar: updateIcon slot=bluetooth index=16 viewIndex=2 old=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=false num=0 ) icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=true num=0 )
+,08-17 15:50:41.283  1174  1721 D BluetoothTile:  handleUpdatestate:false name:null
+,08-17 15:50:41.293  6389  6815 D HeadsetStateMachine: Disconnected process message: 9
+,08-17 15:50:41.293  6389  6815 D HeadsetStateMachine: mNumActive: 0 mNumHeld: 0 mCallState: 6
+,08-17 15:50:41.293  1174  1721 D BluetoothTile:  handleUpdatestate:false name:null
+,08-17 15:50:41.293  6389  6855 D BluetoothSocket: bindListen(): myUserId = 0
+,08-17 15:50:41.293  6389  6855 W BluetoothAdapter: getBluetoothService() called with no BluetoothManagerCallback
+,08-17 15:50:41.293  6389  6855 D BluetoothSocket: bindListen(), SocketState: INIT, mPfd: {ParcelFileDescriptor: FileDescriptor[77]}
+08-17 15:50:41.293  6389  6855 D BluetoothSocket: bindListen(), new LocalSocket 
+08-17 15:50:41.293  6389  6855 D BluetoothSocket: bindListen(), new LocalSocket.getInputStream() 
+08-17 15:50:41.293  6389  6855 D BluetoothSocket: bindListen(), readInt mSocketIS: android.net.LocalSocketImpl$SocketInputStream@2de9e182
+08-17 15:50:41.293  6389  6855 D BluetoothSocket: channel: 5
+,08-17 15:50:41.303   283   680 D audio_hw_primary: adev_set_parameters: enter: A2dpSuspended=false
+08-17 15:50:41.303   283   680 V voice   : voice_set_parameters: enter: A2dpSuspended=false
+08-17 15:50:41.303   283   680 V voice   : voice_set_parameters: exit with code(-2)
+08-17 15:50:41.303   283   680 V msm8974_platform: platform_set_parameters: enter: A2dpSuspended=false
+08-17 15:50:41.303   283   680 V msm8974_platform: platform_set_parameters: exit with code(-2)
+08-17 15:50:41.303   283   680 D audio_hw_hfp: audio_extn_hfp_set_parameters: enter
+08-17 15:50:41.303   283   680 V audio_hw_primary: adev_set_parameters: exit
+08-17 15:50:41.303  6389  6815 E HeadsetStateMachine: terminateScoUsingVirtualVoiceCall:No present call to terminate
+,08-17 15:50:41.303  1317  1317 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:2063 android.content.ContextWrapper.startService:533 android.content.ContextWrapper.startService:533 com.android.settings.bluetooth.DockEventReceiver.beginStartingService:134 com.android.settings.bluetooth.DockEventReceiver.onReceive:115 
+,08-17 15:50:41.303  1015  2925 D ActivityManager: startService callerProcessName:com.android.settings, calleePkgName: com.android.settings
+08-17 15:50:41.303  1015  2925 D ActivityManager: retrieveServiceLocked(): component = com.android.settings/com.android.settings.bluetooth.DockService; callingUser = 0; userId(target) = 0
+,08-17 15:50:41.313  1015  2925 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:41.313  1015  2925 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:41.313  1015  2925 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.settings, destAppInfo.processName = com.android.settings
+,08-17 15:50:41.313  1317  1317 D DockEventReceiver: finishStartingService: stopping service
+,08-17 15:50:41.323  1317  1317 D BluetoothNotiBroadcastReceiver: onReceive
+,08-17 15:50:41.323  1174  1174 V BluetoothStatusReceiver: Received android.bluetooth.adapter.action.STATE_CHANGED
+08-17 15:50:41.323  1174  1174 D BluetoothStatusReceiver: AdapterStateChanged :: BluetoothAdapter.ACTION_STATE_CHANGED, state = 12
+,08-17 15:50:41.333  6389  6389 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+,08-17 15:50:41.333  6389  6389 D BtConfig.SecureMode: isSecureModeOn:false
+,08-17 15:50:41.333  1015  3215 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+,08-17 15:50:41.333  1015  3215 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.opp.BluetoothOppService; callingUser = 0; userId(target) = 0
+,08-17 15:50:41.333  1015  3215 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:41.333  1015  3215 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:41.333  1015  3215 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:41.353  1932  1932 D EasyUnlockReceiver: Received Bluetooth event: Intent { act=android.bluetooth.adapter.action.STATE_CHANGED flg=0x4000010 cmp=com.google.android.gms/.auth.easyunlock.authorization.BluetoothStateChangeReceiver (has extras) }.
+,08-17 15:50:41.353  1015  2925 D ActivityManager: startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+08-17 15:50:41.353  1015  2925 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.auth.easyunlock.authorization.InitializerIntentService; callingUser = 0; userId(target) = 0
+,08-17 15:50:41.353  1015  2925 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:41.353  1015  2925 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:41.353  1015  2925 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:41.363  1932  6863 D EasyUnlockInitService: Handling intent for initializer IntentService.
+,08-17 15:50:41.363  1932  1932 D BtServices: Received Bluetooth event: Intent { act=android.bluetooth.adapter.action.STATE_CHANGED flg=0x4000010 cmp=com.google.android.gms/.auth.proximity.BluetoothServicesAdapterStateChangeReceiver (has extras) }.
+,08-17 15:50:41.363  1015  3215 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:41.363  1015  1502 D SecContentProvider: uri = 4 selection = isProfileAuthorizedBySecurityPolicy
+,08-17 15:50:41.363  1015  3215 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:41.363  1015  3215 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:41.363  1015  3215 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:41.383  6389  6866 D BluetoothSocket: bindListen(): myUserId = 0
+,08-17 15:50:41.383  6389  6866 W BluetoothAdapter: getBluetoothService() called with no BluetoothManagerCallback
+,08-17 15:50:41.383  1015  1502 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:41.383  1015  1502 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:41.383  1015  1502 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:41.383  1015  1502 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:41.393  6389  6866 D BluetoothSocket: bindListen(), SocketState: INIT, mPfd: {ParcelFileDescriptor: FileDescriptor[80]}
+08-17 15:50:41.393  6389  6866 D BluetoothSocket: bindListen(), new LocalSocket 
+08-17 15:50:41.393  6389  6866 D BluetoothSocket: bindListen(), new LocalSocket.getInputStream() 
+08-17 15:50:41.393  6389  6866 D BluetoothSocket: bindListen(), readInt mSocketIS: android.net.LocalSocketImpl$SocketInputStream@ed893ce
+08-17 15:50:41.393  6389  6866 D BluetoothSocket: channel: 12
+08-17 15:50:41.393  6389  6866 I BtOppRfcommListener: Accept thread started.
+,08-17 15:50:41.393  1932  6863 D EasyUnlockInitService: Not initializing EasyUnlock: remote_devices=0, bluetooth_on=true
+,08-17 15:50:41.763  1015  1485 D BatteryService: !@BatteryListener : batteryPropertiesChanged!
+,08-17 15:50:41.763  1015  1485 D BatteryService: level:95, scale:100, status:2, health:2, present:true, voltage: 4203, temperature: 287, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303736, invalid charger:0
+08-17 15:50:41.763  1015  1485 D BatteryService: online:4, current avg:0, charge type:1, power sharing:false, high voltage charger:false, capacity:230000, current_now:0
+,08-17 15:50:41.763  1015  1485 D BatteryService: stay LED for charging
+08-17 15:50:41.763  1015  1015 D BatteryService: Sending ACTION_BATTERY_CHANGED.
+08-17 15:50:41.763  1015  1015 I MotionRecognitionService: Plugged
+08-17 15:50:41.763  1015  1015 I MotionRecognitionService: mGripSensorEnabled= false
+,08-17 15:50:41.773  1174  1174 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+,08-17 15:50:41.773  1174  1174 D KeyguardUpdateMonitor: handleBatteryUpdate
+,08-17 15:50:41.773  1417  1417 V EmergencyMode: [EmergencyStateReceiver] onReceive : android.intent.action.BATTERY_CHANGED,
+08-17 15:50:41.773  1417  1417 V EmergencyMode: [EmergencyStateReceiver] ACTION_BATTERY_CHANGED mBatteryLevelForLogging = 95,
+,08-17 15:50:41.793  6389  6389 V HeadsetService: HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+,08-17 15:50:41.793  6389  6815 D HeadsetStateMachine: Disconnected process message: 10
+,08-17 15:50:41.793  1174  1174 D BatteryMeterView: ACTION_BATTERY_CHANGED : level:95 status:2 health:2
+,08-17 15:50:41.793  1174  1174 D BatteryMeterView: ACTION_BATTERY_CHANGED : level:95 status:2 health:2
+,08-17 15:50:41.793  1174  1174 D BatteryMeterView: ACTION_BATTERY_CHANGED : level:95 status:2 health:2
+,08-17 15:50:41.953  1015  2925 I art     : Explicit concurrent mark sweep GC freed 47845(2MB) AllocSpace objects, 4(64KB) LOS objects, 33% free, 27MB/41MB, paused 2.436ms total 171.237ms
+,08-17 15:50:42.673  1015  2753 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1698 com.absolute.android.persistservice.a.run:1065 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+,08-17 15:50:42.743   288   288 E SMD     : DCD OFF
+,08-17 15:50:43.213  6195  6247 D BluetoothAdapter: disable()
+,08-17 15:50:43.213  1015  1028 D SettingsProvider: name = bluetooth_on
+,08-17 15:50:43.233  6389  6806 D BluetoothAdapterState: CURRENT_STATE=ON, MSG = USER_TURN_OFF,
+08-17 15:50:43.233  6389  6806 D BluetoothAdapterProperties: Setting state to 13
+08-17 15:50:43.233  1015  1485 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth,
+08-17 15:50:43.233  6389  6806 I BluetoothAdapterState: Bluetooth adapter state changed: 12-> 13,
+08-17 15:50:43.233  1015  1485 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.pbap.BluetoothPbapService; callingUser = 0; userId(target) = 0
+08-17 15:50:43.233  6389  6806 D BluetoothAdapterService: Bluetooth PBAP supproted is true
+08-17 15:50:43.233  6389  6806 D BluetoothAdapterService: updateAdapterState state is 13
+08-17 15:50:43.233  1015  1485 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:43.233  1015  1485 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:43.233  1015  1485 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+08-17 15:50:43.233  6389  6389 I BluetoothPbapService: action: android.bluetooth.adapter.action.STATE_CHANGED, state: 13
+,08-17 15:50:43.233  6389  6806 D BluetoothAdapterService: Autoconnection is available 
+08-17 15:50:43.233  6389  6806 D BluetoothAdapterService: updateAdapterState prevState = 12newState = 13
+08-17 15:50:43.233  6389  6806 D BluetoothAdapterService: terminating service from this receiver
+,08-17 15:50:43.233  1015  3214 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.samsung.ble.BleAutoConnectService; callingUser = 0; userId(target) = 0
+08-17 15:50:43.233  1015  3214 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:43.233  6389  6389 D BluetoothSocket: close() in, this: android.bluetooth.BluetoothSocket@2e93e2ef, channel: 19, state: LISTENING
+08-17 15:50:43.233  6389  6389 D BluetoothSocket: close() this: android.bluetooth.BluetoothSocket@2e93e2ef, channel: 19, mSocketIS: android.net.LocalSocketImpl$SocketInputStream@328a6a64, mSocketOS: android.net.LocalSocketImpl$SocketOutputStream@17f6a1fcmSocket: android.net.LocalSocket@1e45f085 impl:android.net.LocalSocketImpl@3eee1eda fd:FileDescriptor[75]
+08-17 15:50:43.233  6389  6389 D BluetoothSocket: Closing mSocket: android.net.LocalSocket@1e45f085 impl:android.net.LocalSocketImpl@3eee1eda fd:FileDescriptor[75]
+08-17 15:50:43.233  1015  3214 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:43.233  1015  3214 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:43.243  6389  6806 D BluetoothAdapterProperties: onBluetoothDisable()
+,08-17 15:50:43.243  6389  6806 D BluetoothAdapterProperties: mDiscovering is false
+08-17 15:50:43.243  1015  3213 D SecContentProvider: uri = 3 selection = isDiscoverableEnabled
+,08-17 15:50:43.243  6389  6806 I BluetoothAdapterState: Entering PendingCommandState State: isTurningOn()=false, isTurningOff()=true
+,08-17 15:50:43.243  1317  1317 D BluetoothPbap: Proxy object disconnected
+08-17 15:50:43.243  1015  1015 W InputMethodManagerService: InputMethodService onReceive() intentActionandroid.bluetooth.adapter.action.STATE_CHANGED
+08-17 15:50:43.243  1015  1015 I InputMethodManagerService: [BT Setting State] State =13
+08-17 15:50:43.243  1317  1317 D PbapServerProfile: Bluetooth service disconnected
+,08-17 15:50:43.253  1174  1174 D BluetoothTile:  onBluetoothStateChange:
+,08-17 15:50:43.253  1174  1174 D BluetoothTile:  onBluetoothPairedDevicesChanged:
+,08-17 15:50:43.253  1174  1174 D BluetoothTile: onReceive : android.bluetooth.adapter.action.STATE_CHANGED
+08-17 15:50:43.253  1174  1174 D BluetoothTile:  getBluetoothState : 13
+,08-17 15:50:43.253  1834  1834 I SamsungIME: STATE_CHANGED = 13, KEYBOARD_BT(0), mBTKeyboardCount =0
+,08-17 15:50:43.253  1174  1721 D BluetoothTile:  handleUpdatestate:false name:null
+,08-17 15:50:43.253  1174  1721 D BluetoothTile:  handleUpdatestate:false name:null
+,08-17 15:50:43.253  1174  1721 D STATUSBAR-QSTileView: onStateChanged: Bluetooth
+,08-17 15:50:43.263  1317  1317 V BluetoothEventManager: Received android.bluetooth.adapter.action.STATE_CHANGED
+,08-17 15:50:43.263  1015  3213 D StatusBarManagerService: setIcon slot=bluetooth index=16 icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=true num=0 )
+,08-17 15:50:43.263  6195  6195 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: Checking support for multiple advertisement: Cannot do the check when the Bluetooth is disabled - will return stored value
+08-17 15:50:43.263  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: State changed:
+08-17 15:50:43.263  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:43.263  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:43.263  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: false
+08-17 15:50:43.263  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: false
+08-17 15:50:43.263  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: null
+08-17 15:50:43.263  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: false
+08-17 15:50:43.263  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: false
+08-17 15:50:43.263  1015  3215 D StatusBarManagerService: setIconVisibility slot=bluetooth visible=false
+,08-17 15:50:43.263  6195  6195 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: Checking support for multiple advertisement: Cannot do the check when the Bluetooth is disabled - will return stored value
+,08-17 15:50:43.263  1174  1174 D PhoneStatusBar: updateIcon slot=bluetooth index=16 viewIndex=2 old=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=false num=0 )
+08-17 15:50:43.263  6195  6195 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: OFF, Bluetooth: OFF, Wi-Fi: OFF, cellular: DO_NOT_CARE, BSSID name: null
+,08-17 15:50:43.263  1015  2925 D ActivityManager: startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+,08-17 15:50:43.273  6195  6195 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: Checking support for multiple advertisement: Cannot do the check when the Bluetooth is disabled - will return stored value
+08-17 15:50:43.273  1015  2925 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService; callingUser = 0; userId(target) = 0
+08-17 15:50:43.273  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: State changed:
+,08-17 15:50:43.273  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:43.273  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:43.273  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: false
+08-17 15:50:43.273  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: false
+,08-17 15:50:43.273  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: null
+08-17 15:50:43.273  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: false
+08-17 15:50:43.273  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: false
+08-17 15:50:43.273  6195  6195 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: Checking support for multiple advertisement: Cannot do the check when the Bluetooth is disabled - will return stored value
+08-17 15:50:43.273  1015  2925 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:43.273  6195  6195 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: OFF, Bluetooth: OFF, Wi-Fi: OFF, cellular: DO_NOT_CARE, BSSID name: null
+,08-17 15:50:43.273  1015  2925 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:43.273  1015  2925 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+08-17 15:50:43.273  6389  6809 D BluetoothUtils: getBtEnabledContainers(): btContainers = []
+08-17 15:50:43.273  6389  6809 D BluetoothAdapterProperties: Scan Mode:20
+,08-17 15:50:43.273  1317  1317 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:2063 android.content.ContextWrapper.startService:533 android.content.ContextWrapper.startService:533 com.android.settings.bluetooth.DockEventReceiver.beginStartingService:134 com.android.settings.bluetooth.DockEventReceiver.onReceive:115 
+,08-17 15:50:43.283  6389  6806 D BluetoothAdapterState: CURRENT_STATE=PENDING, MESSAGE = BEGIN_DISABLE, isTurningOn=false, isTurningOff=true,
+,08-17 15:50:43.283  1015  1486 D ActivityManager: startService callerProcessName:com.android.settings, calleePkgName: com.android.settings
+08-17 15:50:43.283  6389  6806 E bt-btif : btif_vhci_sock_cleanup, sock_thread_handle:6, rfc_init:1, vhci_init:1
+,08-17 15:50:43.283  1015  1486 D ActivityManager: retrieveServiceLocked(): component = com.android.settings/com.android.settings.bluetooth.DockService; callingUser = 0; userId(target) = 0
+08-17 15:50:43.283  6389  6806 E bt-btif : btif_sock_cleanup, sock_thread_handle:6, rfc_init:1, vhci_init:0
+08-17 15:50:43.283  6389  6806 E bt-btif : BTA got event 0x1a12
+08-17 15:50:43.283  6389  6866 E BtOppRfcommListener: Error accept connection java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+,08-17 15:50:43.283  6389  6806 D btif_config_util: btif_config_save_file(L188): in file name:/data/misc/bluedroid/bt_config.new
+08-17 15:50:43.283  6389  6825 E bt-btm  : btm_ble_start_auto_conn start : 0, 0
+08-17 15:50:43.283  6389  6825 W bt-btif : bta_dm_disable BTA_DISABLE_DELAY set to 200 ms
+08-17 15:50:43.283  6389  6825 W bt-l2cap: L2CAP - PSM: 0x0019 not found for deregistration
+08-17 15:50:43.283  6389  6825 W bt-l2cap: L2CAP - PSM: 0x0017 not found for deregistration
+,08-17 15:50:43.283  6389  6825 W bt-l2cap: L2CAP - PSM: 0x001b not found for deregistration
+,08-17 15:50:43.283  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:43.283  1015  1486 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:43.283  1015  1486 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:43.283  1015  1486 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.settings, destAppInfo.processName = com.android.settings
+,08-17 15:50:43.283  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:43.293  6389  6389 D BluetoothSocket: close() in, this: android.bluetooth.BluetoothSocket@1c09e1e8, channel: 5, state: LISTENING
+08-17 15:50:43.293  6389  6389 D BluetoothSocket: close() this: android.bluetooth.BluetoothSocket@1c09e1e8, channel: 5, mSocketIS: android.net.LocalSocketImpl$SocketInputStream@2de9e182, mSocketOS: android.net.LocalSocketImpl$SocketOutputStream@147a1001mSocket: android.net.LocalSocket@a9f4ea6 impl:android.net.LocalSocketImpl@a2f40e7 fd:FileDescriptor[77]
+08-17 15:50:43.293  6389  6389 D BluetoothSocket: Closing mSocket: android.net.LocalSocket@a9f4ea6 impl:android.net.LocalSocketImpl@a2f40e7 fd:FileDescriptor[77]
+,08-17 15:50:43.293  6389  6389 I BtOppRfcommListener: stopping Accept Thread
+08-17 15:50:43.293  6389  6389 D BluetoothSocket: close() in, this: android.bluetooth.BluetoothSocket@158f3494, channel: 12, state: LISTENING
+08-17 15:50:43.293  6389  6389 D BluetoothSocket: close() this: android.bluetooth.BluetoothSocket@158f3494, channel: 12, mSocketIS: android.net.LocalSocketImpl$SocketInputStream@ed893ce, mSocketOS: android.net.LocalSocketImpl$SocketOutputStream@e76ab3dmSocket: android.net.LocalSocket@3ee1af32 impl:android.net.LocalSocketImpl@3c250483 fd:FileDescriptor[80]
+,08-17 15:50:43.293  6389  6389 D BluetoothSocket: Closing mSocket: android.net.LocalSocket@3ee1af32 impl:android.net.LocalSocketImpl@3c250483 fd:FileDescriptor[80]
+08-17 15:50:43.293  6389  6866 I BtOppRfcommListener: BluetoothSocket listen thread finished
+,08-17 15:50:43.303  6389  6389 V BluetoothOppManager: cleanUp...
+,08-17 15:50:43.303  1317  1317 D DockEventReceiver: finishStartingService: stopping service
+,08-17 15:50:43.303  1317  1317 D BluetoothNotiBroadcastReceiver: onReceive
+,08-17 15:50:43.313  1174  1174 V BluetoothStatusReceiver: Received android.bluetooth.adapter.action.STATE_CHANGED
+,08-17 15:50:43.313  1174  1174 D BluetoothStatusReceiver: AdapterStateChanged :: BluetoothAdapter.ACTION_STATE_CHANGED, state = 13
+,08-17 15:50:43.333  1932  1932 D EasyUnlockReceiver: Received Bluetooth event: Intent { act=android.bluetooth.adapter.action.STATE_CHANGED flg=0x4000010 cmp=com.google.android.gms/.auth.easyunlock.authorization.BluetoothStateChangeReceiver (has extras) }.
+,08-17 15:50:43.343  1932  1932 D BtServices: Received Bluetooth event: Intent { act=android.bluetooth.adapter.action.STATE_CHANGED flg=0x4000010 cmp=com.google.android.gms/.auth.proximity.BluetoothServicesAdapterStateChangeReceiver (has extras) }.
+,08-17 15:50:43.483  6389  6825 W bt-l2cap: L2CAP - PSM: 0x0019 not found for deregistration
+,08-17 15:50:43.483  6389  6825 W bt-l2cap: L2CAP - PSM: 0x0017 not found for deregistration
+08-17 15:50:43.483  6389  6825 W bt-l2cap: L2CAP - PSM: 0x001b not found for deregistration
+08-17 15:50:43.483  6389  6825 W bt-l2cap: L2CAP - PSM: 0x0019 not found for deregistration
+08-17 15:50:43.483  6389  6825 W bt-l2cap: L2CAP - PSM: 0x0017 not found for deregistration
+08-17 15:50:43.483  6389  6825 W bt-l2cap: L2CAP - PSM: 0x001b not found for deregistration
+08-17 15:50:43.483  6389  6825 W bt-l2cap: L2CAP - PSM: 0x0019 not found for deregistration
+08-17 15:50:43.483  6389  6825 W bt-l2cap: L2CAP - PSM: 0x0017 not found for deregistration
+08-17 15:50:43.483  6389  6825 W bt-l2cap: L2CAP - PSM: 0x001b not found for deregistration
+08-17 15:50:43.483  6389  6825 W bt-btif : ag scb idx 1 not allocated
+08-17 15:50:43.483  6389  6825 W bt-btif : ag scb idx 2 not allocated
+08-17 15:50:43.483  6389  6825 E bt-btif : BTA AG is already disabled, ignoring ...
+08-17 15:50:43.483  6389  6847 I bt_userial_mct: exiting userial_read_thread
+08-17 15:50:43.483  6389  6847 D bt_userial_mct: Leaving userial_evt_read_thread()
+08-17 15:50:43.483  6389  6809 D bt_userial_mct: userial_close_reader Joined userial reader thread: 0
+08-17 15:50:43.483  6389  6827 I bt_vendor: hw_epilog_process
+08-17 15:50:43.483  6389  6809 D bt_userial_mct: userial_close
+08-17 15:50:43.483  6389  6809 I bt_vendor: bt-vendor : BT_VND_OP_USERIAL_CLOSE btSocType: 0
+,08-17 15:50:43.833  6389  6809 I bt_vendor: bt-vendor : BT_VND_OP_POWER_CTRL: Off
+,08-17 15:50:43.833  6389  6809 I bt_vendor: bluetooth satus is on
+08-17 15:50:43.833  6389  6809 I bt_vendor: bt-vendor : resetting BT status
+08-17 15:50:43.833  6389  6809 I bt_vendor: Starting hciattach daemon
+08-17 15:50:43.833  6389  6809 I bt_vendor: try to set false
+,08-17 15:50:43.833  6389  6809 I bt_vendor: Starting hciattach daemon
+08-17 15:50:43.833  6389  6809 I bt_vendor: try to set false
+,08-17 15:50:43.833  6389  6809 I bt_vendor: cleanup
+,08-17 15:50:43.833  6389  6825 I GKI_LINUX: gki_task task_id=0 [BTU] terminating
+,08-17 15:50:43.833  6389  6809 I GKI_LINUX: GKI_exit_task 0 done
+,08-17 15:50:43.833  6389  6809 I GKI_LINUX: GKI_shutdown(): task [BTU] terminated
+,08-17 15:50:43.833  6389  6806 D BluetoothAdapterState: CURRENT_STATE=PENDING, MESSAGE = DISABLED, isTurningOn=false, isTurningOff=true,
+08-17 15:50:43.833  6389  6806 D BtConfig.SecureMode: isSecureModeOn:false
+,08-17 15:50:43.833  6389  6806 D BluetoothAdapterService: mProfilesStarted : true supportedProfileServices.length : 12
+,08-17 15:50:43.833  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.android.bluetooth.gatt.GattService
+,08-17 15:50:43.833  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.gatt.GattService
+,08-17 15:50:43.833  6389  6806 W BluetoothAdapterService: Not skipping com.android.bluetooth.gatt.GattService,
+,08-17 15:50:43.833  1015  1028 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth,
+08-17 15:50:43.843  1015  1028 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:43.833  1015  1028 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.gatt.GattService; callingUser = 0; userId(target) = 0
+08-17 15:50:43.843  1015  1028 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,08-17 15:50:43.843  1015  1028 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+08-17 15:50:43.843  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.android.bluetooth.hfp.HeadsetService
+08-17 15:50:43.843  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hfp.HeadsetService
+,08-17 15:50:43.843  6389  6806 W BluetoothAdapterService: Not skipping com.android.bluetooth.hfp.HeadsetService
+08-17 15:50:43.843  6389  6389 D BtGatt.DebugUtils: handleDebugAction() action=null
+08-17 15:50:43.843  1015  1486 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+,08-17 15:50:43.843  1015  1486 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hfp.HeadsetService; callingUser = 0; userId(target) = 0
+,08-17 15:50:43.843  6389  6389 D BtGatt.GattService: Received stop request...Stopping profile...
+,08-17 15:50:43.843  6389  6389 D BtGatt.GattService: stop()
+,08-17 15:50:43.843  6389  6389 D BtGatt.AdvertiseManager: advertise clients cleared
+,08-17 15:50:43.843  1015  1486 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:43.843  1015  1486 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,08-17 15:50:43.843  1015  1486 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:43.853  6389  6389 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+,08-17 15:50:43.853  6389  6389 D HeadsetService: Received stop request...Stopping profile...
+,08-17 15:50:43.853  6389  6389 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+,08-17 15:50:43.853  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.android.bluetooth.a2dp.A2dpService
+08-17 15:50:43.853  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.a2dp.A2dpService
+08-17 15:50:43.853  6389  6806 W BluetoothAdapterService: Not skipping com.android.bluetooth.a2dp.A2dpService
+,08-17 15:50:43.853  1015  1015 D AudioService: onServiceDisconnected: Bluetooth profile: 1
+08-17 15:50:43.853  1015  3213 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+,08-17 15:50:43.853  1015  3213 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.a2dp.A2dpService; callingUser = 0; userId(target) = 0
+,08-17 15:50:43.853  1317  1317 D HeadsetProfile: Bluetooth service disconnected
+,08-17 15:50:43.853  1015  3213 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:43.853  1015  3213 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:43.853  1015  3213 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:43.863  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.android.bluetooth.hid.HidService
+,08-17 15:50:43.863  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hid.HidService
+,08-17 15:50:43.863  6389  6806 W BluetoothAdapterService: Not skipping com.android.bluetooth.hid.HidService
+,08-17 15:50:43.863  1015  1028 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+,08-17 15:50:43.863  1015  1028 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hid.HidService; callingUser = 0; userId(target) = 0
+,08-17 15:50:43.863  1015  1028 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:43.863  1015  1028 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,08-17 15:50:43.863  1015  1028 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:43.863  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.android.bluetooth.hdp.HealthService
+08-17 15:50:43.863  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hdp.HealthService
+08-17 15:50:43.863  6389  6806 W BluetoothAdapterService: Not skipping com.android.bluetooth.hdp.HealthService
+,08-17 15:50:43.863  1015  1028 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+,08-17 15:50:43.863  1015  1028 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hdp.HealthService; callingUser = 0; userId(target) = 0
+,08-17 15:50:43.873  1015  1028 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:43.873  1015  1028 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,08-17 15:50:43.873  1015  1028 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:43.873  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.android.bluetooth.pan.PanService
+,08-17 15:50:43.873  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.pan.PanService
+,08-17 15:50:43.873  6389  6806 W BluetoothAdapterService: Not skipping com.android.bluetooth.pan.PanService
+,08-17 15:50:43.873  1015  1474 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+,08-17 15:50:43.873  1015  1474 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.pan.PanService; callingUser = 0; userId(target) = 0
+,08-17 15:50:43.873  1015  1474 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:43.873  1015  1474 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,08-17 15:50:43.873  1015  1474 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:43.883  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.android.bluetooth.map.BluetoothMapService
+,08-17 15:50:43.883  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.map.BluetoothMapService
+,08-17 15:50:43.883  6389  6806 W BluetoothAdapterService: Not skipping com.android.bluetooth.map.BluetoothMapService
+,08-17 15:50:43.883  1015  1485 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+,08-17 15:50:43.883  1015  1485 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.map.BluetoothMapService; callingUser = 0; userId(target) = 0,
+,08-17 15:50:43.883  1015  1485 W ActivityManager: userId = 0, bbcId = -10000,
+08-17 15:50:43.883  1015  1485 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023,
+08-17 15:50:43.883  1015  1485 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:43.883  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.broadcom.bt.service.sap.SapService,
+08-17 15:50:43.883  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.broadcom.bt.service.sap.SapService
+08-17 15:50:43.883  6389  6806 W BluetoothAdapterService: Not skipping com.broadcom.bt.service.sap.SapService
+,08-17 15:50:43.893  1015  1502 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+,08-17 15:50:43.893  1015  1502 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.broadcom.bt.service.sap.SapService; callingUser = 0; userId(target) = 0
+08-17 15:50:43.893  1015  1502 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:43.893  1015  1502 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:43.893  1015  1502 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:43.893  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.android.bluetooth.hfpclient.HeadsetClientService
+08-17 15:50:43.893  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hfpclient.HeadsetClientService
+,08-17 15:50:43.893  6389  6806 W BluetoothAdapterService: Profile supported, But not enabled com.android.bluetooth.hfpclient.HeadsetClientService
+08-17 15:50:43.893  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.android.bluetooth.a2dp.A2dpSinkService,
+08-17 15:50:43.893  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.a2dp.A2dpSinkService
+08-17 15:50:43.893  6389  6806 W BluetoothAdapterService: Profile supported, But not enabled com.android.bluetooth.a2dp.A2dpSinkService,
+08-17 15:50:43.893  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.android.bluetooth.sapclient.SapClientService
+,08-17 15:50:43.893  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.sapclient.SapClientService
+,08-17 15:50:43.893  6389  6806 W BluetoothAdapterService: Profile supported, But not enabled com.android.bluetooth.sapclient.SapClientService
+08-17 15:50:43.893  6389  6806 W BluetoothAdapterService: check For Quiet mode profile 10 RadioCount =0 srv name=com.android.bluetooth.hid.HidDevService
+08-17 15:50:43.893  6389  6806 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hid.HidDevService
+,08-17 15:50:43.893  6389  6806 W BluetoothAdapterService: Profile supported, But not enabled com.android.bluetooth.hid.HidDevService
+08-17 15:50:43.893  6389  6389 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.android.bluetooth.gatt.GattService, state=10, doUpdate=false,
+08-17 15:50:43.893  6389  6389 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.android.bluetooth.hfp.HeadsetService, state=10, doUpdate=true
+,08-17 15:50:43.893  6389  6389 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hid.HidService,
+08-17 15:50:43.893  6389  6389 D BluetoothAdapterService: Profile still running: com.android.bluetooth.hid.HidService
+08-17 15:50:43.893  6389  6806 D BluetoothAdapterState: Stopping profile services that were post enabled
+08-17 15:50:43.893  6389  6389 W BluetoothHeadsetServiceJni: Cleaning up Bluetooth Handsfree Interface...
+08-17 15:50:43.893  6389  6389 W BluetoothHeadsetServiceJni: Cleaning up Bluetooth Handsfree callback object
+08-17 15:50:43.893  6389  6389 D A2dpService: Received stop request...Stopping profile...
+08-17 15:50:43.903  6389  6820 D A2dpStateMachine: Exit Disconnected: -1
+,08-17 15:50:43.903  6389  6389 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+,08-17 15:50:43.903  1015  1015 D BluetoothA2dp: Proxy object disconnected
+,08-17 15:50:43.903  1015  1015 D AudioService: onServiceDisconnected: Bluetooth profile: 2
+,08-17 15:50:43.903  1317  1317 D BluetoothA2dp: Proxy object disconnected
+08-17 15:50:43.903  1317  1317 D A2dpProfile: Bluetooth service disconnected
+08-17 15:50:43.903  6389  6389 D HidService: Received stop request...Stopping profile...
+08-17 15:50:43.903  6389  6389 D HidService: Stopping Bluetooth HidService
+08-17 15:50:43.903  6389  6389 W BluetoothHidServiceJni: Cleaning up Bluetooth HID Interface...
+08-17 15:50:43.903  6389  6389 W bt-btif : cleanup: HH disabling or disabled already, status = 0
+08-17 15:50:43.903  6389  6389 W BluetoothHidServiceJni: Cleaning up Bluetooth GID callback object
+08-17 15:50:43.903  6389  6389 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+,08-17 15:50:43.903  2859  2859 D BluetoothA2dp: Proxy object disconnected
+,08-17 15:50:43.903  1317  1317 D BluetoothInputDevice: Proxy object disconnected
+08-17 15:50:43.903  1317  1317 D HidProfile: Bluetooth service disconnected
+,08-17 15:50:43.903  6389  6389 D HealthService: Received stop request...Stopping profile...
+,08-17 15:50:43.903  6389  6389 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+,08-17 15:50:43.913  6389  6389 D PanService: Received stop request...Stopping profile...
+08-17 15:50:43.913  6389  6389 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+,08-17 15:50:43.913  1015  1015 D BluetoothPan: BluetoothPAN Proxy object disconnected
+,08-17 15:50:43.913  6389  6389 D BluetoothMapService: Received stop request...Stopping profile...
+,08-17 15:50:43.913  6389  6389 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+,08-17 15:50:43.913  6389  6389 D SapService: Received stop request...Stopping profile...
+08-17 15:50:43.913  6389  6389 D SapService: Stopping Bluetooth SapService
+08-17 15:50:43.913  6389  6389 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+,08-17 15:50:43.913  6389  6389 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.android.bluetooth.a2dp.A2dpService, state=10, doUpdate=true
+08-17 15:50:43.913  6389  6389 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hid.HidService
+08-17 15:50:43.913  6389  6389 D BluetoothAdapterService: Profile still running: com.android.bluetooth.hid.HidService
+08-17 15:50:43.913  6389  6389 D BluetoothA2dp: Proxy object disconnected
+08-17 15:50:43.913  6389  6389 D BluetoothAdapterService: Bluetooth A2dp source service disconnected
+,08-17 15:50:43.923  1317  1317 D BluetoothPan: BluetoothPAN Proxy object disconnected
+08-17 15:50:43.923  6389  6821 I GKI_LINUX: gki_task task_id=2 [A2DP-MEDIA] terminating
+08-17 15:50:43.923  1317  1317 D PanProfile: Bluetooth service disconnected
+08-17 15:50:43.923  1317  1317 D BluetoothMap: Proxy object disconnected
+08-17 15:50:43.923  1317  1317 D MapProfile: Bluetooth service disconnected
+08-17 15:50:43.923  6389  6389 I GKI_LINUX: GKI_exit_task 2 done
+08-17 15:50:43.923  6389  6389 I GKI_LINUX: GKI_shutdown(): task [A2DP-MEDIA] terminated
+,08-17 15:50:43.923  6389  6389 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.android.bluetooth.hid.HidService, state=10, doUpdate=true,
+08-17 15:50:43.923  6389  6389 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.map.BluetoothMapService
+08-17 15:50:43.923  6389  6389 D BluetoothAdapterService: Profile still running: com.android.bluetooth.map.BluetoothMapService
+08-17 15:50:43.923  6389  6389 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.android.bluetooth.hdp.HealthService, state=10, doUpdate=true,
+08-17 15:50:43.923  6389  6389 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.map.BluetoothMapService
+,08-17 15:50:43.923  6389  6389 D BluetoothAdapterService: Profile still running: com.android.bluetooth.map.BluetoothMapService
+08-17 15:50:43.923  6389  6389 W BluetoothHealthServiceJni: Cleaning up Bluetooth Health Interface...
+08-17 15:50:43.923  6389  6389 W BluetoothHealthServiceJni: Cleaning up Bluetooth Health object
+08-17 15:50:43.923  6389  6389 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.android.bluetooth.pan.PanService, state=10, doUpdate=true
+08-17 15:50:43.923  6389  6389 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.map.BluetoothMapService,
+08-17 15:50:43.923  6389  6389 D BluetoothAdapterService: Profile still running: com.android.bluetooth.map.BluetoothMapService
+08-17 15:50:43.923  6389  6389 W BluetoothPanServiceJni: Cleaning up Bluetooth PAN Interface...
+08-17 15:50:43.923  6389  6389 W BluetoothPanServiceJni: Cleaning up Bluetooth PAN callback object
+08-17 15:50:43.923  1317  1317 D Bluetoothsap: BluetoothSAP Proxy object disconnected
+08-17 15:50:43.923  1317  1317 D SapProfile: Bluetooth service disconnected
+08-17 15:50:43.923  6389  6389 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.android.bluetooth.map.BluetoothMapService, state=10, doUpdate=true
+08-17 15:50:43.923  6389  6389 D BtSettings.ProfileConfig: getProfileSaveSetting: com.broadcom.bt.service.sap.SapService
+08-17 15:50:43.923  6389  6389 D BluetoothAdapterService: Profile still running: com.broadcom.bt.service.sap.SapService
+,08-17 15:50:43.923  6389  6389 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.broadcom.bt.service.sap.SapService, state=10, doUpdate=true
+08-17 15:50:43.923  6389  6389 W BluetoothSAPServiceJni: ## WARNING : cleanupNative(L251): Cleaning up Bluetooth SAP Interface...##
+08-17 15:50:43.923  6389  6389 W BluetoothSAPServiceJni: ## WARNING : cleanupNative(L257): Cleaning up Bluetooth SAP callback object##
+,08-17 15:50:43.923  6389  6806 D BluetoothAdapterState: CURRENT_STATE=PENDING,MSG = STOPPED, isTurningOn=false, isTurningOff=true
+08-17 15:50:43.923  6389  6806 D BluetoothAdapterProperties: Setting state to 10
+08-17 15:50:43.923  6389  6806 I BluetoothAdapterState: Bluetooth adapter state changed: 13-> 10
+08-17 15:50:43.923  6389  6806 D BluetoothAdapterService: Bluetooth PBAP supproted is true
+08-17 15:50:43.923  6389  6806 D BluetoothAdapterService: updateAdapterState state is 10
+,08-17 15:50:43.923  6389  6806 D BluetoothAdapterService: Autoconnection is available 
+,08-17 15:50:43.923  6389  6806 D BluetoothAdapterService: updateAdapterState prevState = 13newState = 10
+08-17 15:50:43.923  6389  6806 I BluetoothAdapterState: Entering OffState
+08-17 15:50:43.923  6354  6364 D BluetoothAdapter: onBluetoothStateChange: up=false
+08-17 15:50:43.923  6354  6364 D BluetoothAdapter: Bluetooth is turned off, stop adv and scan
+,08-17 15:50:43.923  1317  1329 D BluetoothMap: onBluetoothStateChange: up=false
+,08-17 15:50:43.933  6195  6204 D BluetoothAdapter: onBluetoothStateChange: up=false
+,08-17 15:50:43.933  6195  6204 D BluetoothAdapter: Bluetooth is turned off, stop adv and scan
+08-17 15:50:43.933  6195  6204 D BluetoothLeAdvertiser: stop All Advertising :: standalone boolean value is = false
+08-17 15:50:43.933  6195  6204 D BluetoothLeAdvertiser: Exit stop advertising
+08-17 15:50:43.933  6195  6204 D BluetoothLeScanner: stopAllScan standalone boolean is value is = false
+08-17 15:50:43.933  6195  6204 D BluetoothLeScanner: Exiting stopAllScan
+,08-17 15:50:43.933  1456  1470 D BluetoothAdapter: onBluetoothStateChange: up=false
+,08-17 15:50:43.933  1456  1470 D BluetoothAdapter: Bluetooth is turned off, stop adv and scan
+,08-17 15:50:43.933  1317  1333 D BluetoothAdapter: onBluetoothStateChange: up=false
+,08-17 15:50:43.933  1317  1333 D BluetoothAdapter: Bluetooth is turned off, stop adv and scan
+,08-17 15:50:43.933  1015  1044 D BluetoothA2dp: onBluetoothStateChange: up=false
+,08-17 15:50:43.933  6389  6854 D BluetoothAdapter: onBluetoothStateChange: up=false
+,08-17 15:50:43.933  6389  6854 D BluetoothAdapter: Bluetooth is turned off, stop adv and scan
+,08-17 15:50:43.933  1317  1329 D BluetoothInputDevice: onBluetoothStateChange: up=false
+,08-17 15:50:43.933  1932  2106 D BluetoothAdapter: onBluetoothStateChange: up=false
+,08-17 15:50:43.933  1932  2106 D BluetoothAdapter: Bluetooth is turned off, stop adv and scan
+,08-17 15:50:43.943  1317  6381 D BluetoothPbap: onBluetoothStateChange: up=false
+,08-17 15:50:43.943  6389  6398 D BluetoothA2dp: onBluetoothStateChange: up=false
+,08-17 15:50:43.943  1317  1329 D BluetoothA2dp: onBluetoothStateChange: up=false
+,08-17 15:50:43.943  1443  1744 D BluetoothAdapter: onBluetoothStateChange: up=false
+,08-17 15:50:43.943  1443  1744 D BluetoothAdapter: Bluetooth is turned off, stop adv and scan
+,08-17 15:50:43.943  2859  2871 D BluetoothAdapter: onBluetoothStateChange: up=false
+,08-17 15:50:43.943  2859  2871 D BluetoothAdapter: Bluetooth is turned off, stop adv and scan
+,08-17 15:50:43.943  1431  6380 D BluetoothAdapter: onBluetoothStateChange: up=false
+,08-17 15:50:43.943  1431  6380 D BluetoothAdapter: Bluetooth is turned off, stop adv and scan
+,08-17 15:50:43.943  1015  1044 D BluetoothAdapter: onBluetoothStateChange: up=false
+08-17 15:50:43.943  1015  1044 D BluetoothAdapter: Bluetooth is turned off, stop adv and scan
+,08-17 15:50:43.943  1317  1333 D Bluetoothsap: onBluetoothStateChange: up=false
+,08-17 15:50:43.943  1317  1333 D Bluetoothsap: Unbinding service...
+,08-17 15:50:43.943  1174  1896 D BluetoothAdapter: onBluetoothStateChange: up=false
+,08-17 15:50:43.943  1174  1896 D BluetoothAdapter: Bluetooth is turned off, stop adv and scan
+,08-17 15:50:43.953  2859  6852 D BluetoothA2dp: onBluetoothStateChange: up=false
+,08-17 15:50:43.953  1015  1044 D BluetoothManagerService: Broadcasting onBluetoothServiceDown() to 11 receivers.
+,08-17 15:50:43.953  1015  1044 D BluetoothManagerService: Broadcasting onBluetoothServiceUp() to 0 receivers.
+,08-17 15:50:43.953  1015  1015 W InputMethodManagerService: InputMethodService onReceive() intentActionandroid.bluetooth.adapter.action.STATE_CHANGED
+,08-17 15:50:43.963  1015  1015 I InputMethodManagerService: [BT Setting State] State =10
+08-17 15:50:43.963  1015  1015 I InputMethodManagerService: [BT Setting on -> off] mBTKeyboardCount =0, KEYBOARD_BT(0)
+,08-17 15:50:43.963  1174  1174 D BluetoothAdapter: 410131130: getState() :  mService = null. Returning STATE_OFF
+,08-17 15:50:43.963  1174  1174 D BluetoothTile:  onBluetoothPairedDevicesChanged:
+,08-17 15:50:43.963  1174  1721 D BluetoothAdapter: 410131130: getState() :  mService = null. Returning STATE_OFF
+08-17 15:50:43.963  1174  1174 D BluetoothTile: onReceive : android.bluetooth.adapter.action.STATE_CHANGED
+08-17 15:50:43.963  1174  1174 D BluetoothTile:  getBluetoothState : 10
+,08-17 15:50:43.963  1174  1721 D BluetoothAdapter: 410131130: getState() :  mService = null. Returning STATE_OFF
+,08-17 15:50:43.963  1174  1174 D BluetoothAdapter: 410131130: getState() :  mService = null. Returning STATE_OFF
+08-17 15:50:43.963  1174  1174 D BluetoothAdapter: 410131130: getState() :  mService = null. Returning STATE_OFF
+,08-17 15:50:43.963  1015  1076 D StatusBarManagerService: setIcon slot=bluetooth index=16 icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=true num=0 )
+,08-17 15:50:43.963  1834  1834 I SamsungIME: STATE_CHANGED = 10, KEYBOARD_BT(0), mBTKeyboardCount =0
+,08-17 15:50:43.963  1015  1502 D StatusBarManagerService: setIconVisibility slot=bluetooth visible=false
+,08-17 15:50:43.973  1932  2112 D BluetoothAdapter: 306646425: getState() :  mService = null. Returning STATE_OFF
+08-17 15:50:43.973  1932  2112 D BluetoothAdapter: 306646425: getState() :  mService = null. Returning STATE_OFF
+08-17 15:50:43.973  1174  1174 D PhoneStatusBar: updateIcon slot=bluetooth index=16 viewIndex=2 old=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=false num=0 ) icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=false num=0 )
+,08-17 15:50:43.973  1317  1317 V BluetoothEventManager: Received android.bluetooth.adapter.action.STATE_CHANGED
+,08-17 15:50:43.973  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:43.973  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:43.973  1015  1486 D ActivityManager: startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+08-17 15:50:43.973  1015  1486 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService; callingUser = 0; userId(target) = 0
+,08-17 15:50:43.973  1015  1486 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:43.973  1015  1486 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:43.973  1015  1486 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:43.983  1317  1317 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:2063 android.content.ContextWrapper.startService:533 android.content.ContextWrapper.startService:533 com.android.settings.bluetooth.DockEventReceiver.beginStartingService:134 com.android.settings.bluetooth.DockEventReceiver.onReceive:115 
+,08-17 15:50:43.983  1015  1485 D ActivityManager: startService callerProcessName:com.android.settings, calleePkgName: com.android.settings
+,08-17 15:50:43.983  1015  1485 D ActivityManager: retrieveServiceLocked(): component = com.android.settings/com.android.settings.bluetooth.DockService; callingUser = 0; userId(target) = 0
+,08-17 15:50:43.983  1015  1485 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:43.983  1015  1485 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:43.983  1015  1485 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.settings, destAppInfo.processName = com.android.settings
+,08-17 15:50:43.983  6389  6809 I GKI_LINUX: gki_task task_id=1 [BTIF] terminating
+,08-17 15:50:43.983  6389  6389 I GKI_LINUX: GKI_exit_task 1 done
+08-17 15:50:43.983  6389  6389 I GKI_LINUX: GKI_shutdown(): task [BTIF] terminated
+,08-17 15:50:43.983  6389  6389 I BluetoothServiceJni: cleanupNative: return from cleanup
+,08-17 15:50:43.993  6389  6389 I art     : System.exit called, status: 0
+,08-17 15:50:43.993  6389  6389 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.
+,08-17 15:50:43.993  1317  1317 D DockEventReceiver: finishStartingService: stopping service
+,08-17 15:50:44.003  1317  1317 D BluetoothNotiBroadcastReceiver: onReceive
+,08-17 15:50:44.003  1174  1174 V BluetoothStatusReceiver: Received android.bluetooth.adapter.action.STATE_CHANGED
+08-17 15:50:44.003  1174  1174 D BluetoothStatusReceiver: AdapterStateChanged :: BluetoothAdapter.ACTION_STATE_CHANGED, state = 10
+,08-17 15:50:44.013  1015  1218 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!
+,08-17 15:50:44.013  1015  1218 W BroadcastQueue: Exception when sending broadcast to ComponentInfo{com.android.bluetooth/com.android.bluetooth.opp.BluetoothOppReceiver}
+08-17 15:50:44.013  1015  1218 W BroadcastQueue: android.os.TransactionTooLargeException
+08-17 15:50:44.013  1015  1218 W BroadcastQueue: 	at android.os.BinderProxy.transactNative(Native Method)
+08-17 15:50:44.013  1015  1218 W BroadcastQueue: 	at android.os.BinderProxy.transact(Binder.java:496)
+08-17 15:50:44.013  1015  1218 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleReceiver(ApplicationThreadNative.java:969)
+08-17 15:50:44.013  1015  1218 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processCurBroadcastLocked(BroadcastQueue.java:310)
+08-17 15:50:44.013  1015  1218 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:1284)
+08-17 15:50:44.013  1015  1218 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService.finishReceiver(ActivityManagerService.java:20437)
+08-17 15:50:44.013  1015  1218 W BroadcastQueue: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:472)
+08-17 15:50:44.013  1015  1218 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:3278)
+08-17 15:50:44.013  1015  1218 W BroadcastQueue: 	at android.os.Binder.execTransact(Binder.java:446)
+,08-17 15:50:44.013  1015  1218 D ActivityManager: startProcessLocked calleePkgName: com.android.bluetooth, hostingType: broadcast
+,08-17 15:50:44.013  1015  1218 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:44.013  1015  1218 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:44.013  1015  1218 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:44.013  1015  1218 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:44.033  1015  1218 I ActivityManager: Start proc com.android.bluetooth for broadcast com.android.bluetooth/.opp.BluetoothOppReceiver: pid=6884 uid=1002 gids={41002, 9997, 3003, 3002, 3001, 1028, 1015, 3005, 1016, 3008} abi=armeabi-v7a
+,08-17 15:50:44.033  6884  6884 E Zygote  : MountEmulatedStorage()
+,08-17 15:50:44.033  6884  6884 E Zygote  : v2
+08-17 15:50:44.033  6884  6884 I libpersona: KNOX_SDCARD checking this for 1002
+,08-17 15:50:44.033  6884  6884 I libpersona: KNOX_SDCARD not a persona
+,08-17 15:50:44.033  6884  6884 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+,08-17 15:50:44.033  6884  6884 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051,
+,08-17 15:50:44.043  6884  6884 E SELinux : [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,08-17 15:50:44.053   304   304 I art     : Explicit concurrent mark sweep GC freed 8729(371KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 6MB/11MB, paused 611us total 20.710ms
+,08-17 15:50:44.053  6884  6884 D TimaKeyStoreProvider: TimaSignature is unavailable
+,08-17 15:50:44.053  6884  6884 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:44.063   304   304 I art     : Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 39% free, 6MB/11MB, paused 613us total 17.093ms
+,08-17 15:50:44.073  6884  6884 W ResourcesManager: Asset path '/system/framework/javax.obex.jar' does not exist or contains no resources.
+,08-17 15:50:44.073  6884  6884 W ResourcesManager: Asset path '/system/framework/com.broadcom.bt.jar' does not exist or contains no resources.
+,08-17 15:50:44.083   304   304 I art     : Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 39% free, 6MB/11MB, paused 592us total 16.794ms,
+,08-17 15:50:44.093  6884  6884 I BluetoothA2dpSinkServiceJni: register_com_android_bluetooth_a2dp_sink
+,08-17 15:50:44.123  6884  6884 D BtSettings.ProfileConfig: Adding GattService
+,08-17 15:50:44.123  6884  6884 D BtSettings.ProfileConfig: Adding HeadsetService
+,08-17 15:50:44.123  6884  6884 D BtSettings.ProfileConfig: Adding A2dpService
+08-17 15:50:44.123  6884  6884 D BtSettings.ProfileConfig: Adding HidService
+08-17 15:50:44.123  6884  6884 D BtSettings.ProfileConfig: Adding HealthService
+08-17 15:50:44.123  6884  6884 D BtSettings.ProfileConfig: Adding PanService
+08-17 15:50:44.123  6884  6884 D BtSettings.ProfileConfig: Adding BluetoothMapService
+08-17 15:50:44.123  6884  6884 D BtSettings.ProfileConfig: Adding SapService
+,08-17 15:50:44.123  6884  6884 D BtSettings.ProfileConfig: Adding HeadsetClientService
+08-17 15:50:44.123  6884  6884 D BtSettings.ProfileConfig: Adding A2dpSinkService
+08-17 15:50:44.123  6884  6884 D BtSettings.ProfileConfig: Adding SapClientService
+,08-17 15:50:44.123  6884  6884 D BtSettings.ProfileConfig: Adding HidDevService
+08-17 15:50:44.123  6884  6884 I BtSettings.ProfileConfig: *********Initializing Bluetooth Profile Settings*******
+,08-17 15:50:44.123  1015  1503 D SettingsProvider: name = bt_svcst_com.android.bluetooth.gatt.GattService
+,08-17 15:50:44.123  1015  1503 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:44.123  1015  1503 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+,08-17 15:50:44.123  1015  1503 D SettingsProvider: selectionArgs: false
+08-17 15:50:44.123  1015  1503 D SettingsProvider: selectionArgs: 1002
+,08-17 15:50:44.133  1015  1503 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+,08-17 15:50:44.133  1015  1503 D SettingsProvider: ret = -1
+,08-17 15:50:44.133  1015  1486 D SettingsProvider: name = bt_svcst_com.android.bluetooth.hfp.HeadsetService
+,08-17 15:50:44.133  1015  1486 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:44.133  1015  1486 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+08-17 15:50:44.133  1015  1486 D SettingsProvider: selectionArgs: false
+08-17 15:50:44.133  1015  1486 D SettingsProvider: selectionArgs: 1002
+08-17 15:50:44.133  1015  1486 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+08-17 15:50:44.133  1015  1486 D SettingsProvider: ret = -1
+,08-17 15:50:44.133  1015  1478 D SettingsProvider: name = bt_svcst_com.android.bluetooth.a2dp.A2dpService
+08-17 15:50:44.133  1015  1478 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:44.133  1015  1478 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+08-17 15:50:44.133  1015  1478 D SettingsProvider: selectionArgs: false
+08-17 15:50:44.133  1015  1478 D SettingsProvider: selectionArgs: 1002
+08-17 15:50:44.133  1015  1478 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+08-17 15:50:44.133  1015  1478 D SettingsProvider: ret = -1
+,08-17 15:50:44.133  1015  1502 D SettingsProvider: name = bt_svcst_com.android.bluetooth.hid.HidService
+,08-17 15:50:44.133  1015  1502 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+,08-17 15:50:44.133  1015  1502 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+08-17 15:50:44.133  1015  1502 D SettingsProvider: selectionArgs: false
+,08-17 15:50:44.133  1015  1502 D SettingsProvider: selectionArgs: 1002
+,08-17 15:50:44.133  1015  1502 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+,08-17 15:50:44.133  1015  1502 D SettingsProvider: ret = -1
+,08-17 15:50:44.133  1015  3214 D SettingsProvider: name = bt_svcst_com.android.bluetooth.hdp.HealthService
+,08-17 15:50:44.133  1015  3214 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:44.133  1015  3214 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+,08-17 15:50:44.133  1015  3214 D SettingsProvider: selectionArgs: false
+08-17 15:50:44.133  1015  3214 D SettingsProvider: selectionArgs: 1002
+,08-17 15:50:44.133  1015  3214 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+,08-17 15:50:44.133  1015  3214 D SettingsProvider: ret = -1
+,08-17 15:50:44.133  1015  1485 D SettingsProvider: name = bt_svcst_com.android.bluetooth.pan.PanService
+,08-17 15:50:44.143  1015  1485 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+,08-17 15:50:44.143  1015  1485 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+08-17 15:50:44.143  1015  1485 D SettingsProvider: selectionArgs: false
+08-17 15:50:44.143  1015  1485 D SettingsProvider: selectionArgs: 1002,
+08-17 15:50:44.143  1015  1485 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+08-17 15:50:44.143  1015  1485 D SettingsProvider: ret = -1,
+,08-17 15:50:44.143  1015  1315 D SettingsProvider: name = bt_svcst_com.android.bluetooth.map.BluetoothMapService,
+,08-17 15:50:44.143  1015  1315 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+,08-17 15:50:44.143  1015  1315 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+,08-17 15:50:44.143  1015  1315 D SettingsProvider: selectionArgs: false
+08-17 15:50:44.143  1015  1315 D SettingsProvider: selectionArgs: 1002
+08-17 15:50:44.143  1015  1315 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+08-17 15:50:44.143  1015  1315 D SettingsProvider: ret = -1
+08-17 15:50:44.143  1015  1474 D SettingsProvider: name = bt_svcst_com.broadcom.bt.service.sap.SapService
+,08-17 15:50:44.143  1015  1474 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:44.143  1015  1474 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+08-17 15:50:44.143  1015  1474 D SettingsProvider: selectionArgs: false
+08-17 15:50:44.143  1015  1474 D SettingsProvider: selectionArgs: 1002
+08-17 15:50:44.143  1015  1474 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+08-17 15:50:44.143  1015  1474 D SettingsProvider: ret = -1
+,08-17 15:50:44.143  1015  1027 D SettingsProvider: name = bt_svcst_com.android.bluetooth.hfpclient.HeadsetClientService
+08-17 15:50:44.143  1015  1027 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:44.143  1015  1027 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+08-17 15:50:44.143  1015  1027 D SettingsProvider: selectionArgs: false
+08-17 15:50:44.143  1015  1027 D SettingsProvider: selectionArgs: 1002
+,08-17 15:50:44.143  1015  1027 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+08-17 15:50:44.143  1015  1027 D SettingsProvider: ret = -1
+08-17 15:50:44.143  1015  1218 D SettingsProvider: name = bt_svcst_com.android.bluetooth.a2dp.A2dpSinkService
+08-17 15:50:44.143  1015  1218 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:44.143  1015  1218 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+08-17 15:50:44.143  1015  1218 D SettingsProvider: selectionArgs: false
+,08-17 15:50:44.143  1015  1218 D SettingsProvider: selectionArgs: 1002
+08-17 15:50:44.143  1015  1218 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+08-17 15:50:44.143  1015  1218 D SettingsProvider: ret = -1
+08-17 15:50:44.143  1015  1076 D SettingsProvider: name = bt_svcst_com.android.bluetooth.sapclient.SapClientService
+08-17 15:50:44.143  1015  1076 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:44.143  1015  1076 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+,08-17 15:50:44.143  1015  1076 D SettingsProvider: selectionArgs: false
+08-17 15:50:44.143  1015  1076 D SettingsProvider: selectionArgs: 1002
+08-17 15:50:44.143  1015  1076 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+08-17 15:50:44.143  1015  1076 D SettingsProvider: ret = -1
+08-17 15:50:44.143  1015  3215 D SettingsProvider: name = bt_svcst_com.android.bluetooth.hid.HidDevService
+08-17 15:50:44.143  1015  3215 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+,08-17 15:50:44.143  1015  3215 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+08-17 15:50:44.143  1015  3215 D SettingsProvider: selectionArgs: false
+08-17 15:50:44.143  1015  3215 D SettingsProvider: selectionArgs: 1002
+08-17 15:50:44.143  1015  3215 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+08-17 15:50:44.143  1015  3215 D SettingsProvider: ret = -1
+,08-17 15:50:44.163  1932  1932 D EasyUnlockReceiver: Received Bluetooth event: Intent { act=android.bluetooth.adapter.action.STATE_CHANGED flg=0x4000010 cmp=com.google.android.gms/.auth.easyunlock.authorization.BluetoothStateChangeReceiver (has extras) }.
+,08-17 15:50:44.163  1015  1478 D ActivityManager: startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+,08-17 15:50:44.163  1015  1478 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.auth.easyunlock.authorization.InitializerIntentService; callingUser = 0; userId(target) = 0
+,08-17 15:50:44.163  1015  1478 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:44.163  1015  1478 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:44.163  1015  1478 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:44.173  1932  6900 D EasyUnlockInitService: Handling intent for initializer IntentService.
+,08-17 15:50:44.173  1932  1932 D BtServices: Received Bluetooth event: Intent { act=android.bluetooth.adapter.action.STATE_CHANGED flg=0x4000010 cmp=com.google.android.gms/.auth.proximity.BluetoothServicesAdapterStateChangeReceiver (has extras) }.
+,08-17 15:50:44.173  1015  1027 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:44.183  1015  1027 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:44.183  1015  1027 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,08-17 15:50:44.183  1015  1027 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:44.193  1932  6900 D EasyUnlockInitService: Not initializing EasyUnlock: remote_devices=0, bluetooth_on=false
+,08-17 15:50:44.213  1015  1340 E Watchdog: !@Sync 4
+,08-17 15:50:44.313  1015  2729 D SSRM:n  : SIOP:: AP = 340
+,08-17 15:50:44.773   314   314 I ServiceManager: Waiting for service AtCmdFwd...,
+,08-17 15:50:45.743   288   288 E SMD     : DCD OFF,
+,08-17 15:50:45.773   314   314 I ServiceManager: Waiting for service AtCmdFwd...
+,08-17 15:50:46.233  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop,
+08-17 15:50:46.233  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+,08-17 15:50:46.773   314   314 I ServiceManager: Waiting for service AtCmdFwd...,
+,08-17 15:50:47.773   314   314 I ServiceManager: Waiting for service AtCmdFwd...
+,08-17 15:50:48.283  1015  1979 V SAMP_SPCM_test: CSC File load.. ,
+,08-17 15:50:48.283  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.sec.esdk.elm/com.sec.esdk.elm.DeviceAdminManager.AdminReceiver}: mdm-application
+,08-17 15:50:48.293  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.sec.esdk.elm/com.sec.esdk.elm.DeviceAdminManager.AdminReceiver}: mdm-bluetooth
+,08-17 15:50:48.293  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.sec.esdk.elm/com.sec.esdk.elm.DeviceAdminManager.AdminReceiver}: mdm-device-inventory
+08-17 15:50:48.293  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.sec.esdk.elm/com.sec.esdk.elm.DeviceAdminManager.AdminReceiver}: mdm-date-time
+08-17 15:50:48.293  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.sec.esdk.elm/com.sec.esdk.elm.DeviceAdminManager.AdminReceiver}: mdm-exchange-account
+,08-17 15:50:48.293  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.sec.esdk.elm/com.sec.esdk.elm.DeviceAdminManager.AdminReceiver}: mdm-roaming
+08-17 15:50:48.293  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.sec.esdk.elm/com.sec.esdk.elm.DeviceAdminManager.AdminReceiver}: mdm-wifi
+,08-17 15:50:48.293  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.sec.esdk.elm/com.sec.esdk.elm.DeviceAdminManager.AdminReceiver}: mdm-security
+08-17 15:50:48.293  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.sec.esdk.elm/com.sec.esdk.elm.DeviceAdminManager.AdminReceiver}: mdm-email-account
+08-17 15:50:48.293  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.sec.esdk.elm/com.sec.esdk.elm.DeviceAdminManager.AdminReceiver}: mdm-hardware-control
+08-17 15:50:48.293  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.sec.esdk.elm/com.sec.esdk.elm.DeviceAdminManager.AdminReceiver}: mdm-tethering,
+08-17 15:50:48.293  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.sec.esdk.elm/com.sec.esdk.elm.DeviceAdminManager.AdminReceiver}: mdm-location
+08-17 15:50:48.293  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.sec.esdk.elm/com.sec.esdk.elm.DeviceAdminManager.AdminReceiver}: mdm-calling
+,08-17 15:50:48.293  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.sec.esdk.elm/com.sec.esdk.elm.DeviceAdminManager.AdminReceiver}: mdm-email
+08-17 15:50:48.293  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.sec.esdk.elm/com.sec.esdk.elm.DeviceAdminManager.AdminReceiver}: mdm-vpn
+08-17 15:50:48.293  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.sec.esdk.elm/com.sec.esdk.elm.DeviceAdminManager.AdminReceiver}: mdm-apn-settings
+,08-17 15:50:48.293  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.sec.esdk.elm/com.sec.esdk.elm.DeviceAdminManager.AdminReceiver}: mdm-browser-settings
+08-17 15:50:48.293  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.sec.esdk.elm/com.sec.esdk.elm.DeviceAdminManager.AdminReceiver}: mdm-phone-restriction
+08-17 15:50:48.293  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.sec.esdk.elm/com.sec.esdk.elm.DeviceAdminManager.AdminReceiver}: mdm-firewall
+,08-17 15:50:48.293  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.sec.esdk.elm/com.sec.esdk.elm.DeviceAdminManager.AdminReceiver}: mdm-enterprise-vpn
+08-17 15:50:48.293  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.sec.esdk.elm/com.sec.esdk.elm.DeviceAdminManager.AdminReceiver}: mdm-data-time
+,08-17 15:50:48.323  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.klmsagent/com.samsung.klmsagent.listner.KLMSDeviceAdminReceiver}: mdm-application
+,08-17 15:50:48.323  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.klmsagent/com.samsung.klmsagent.listner.KLMSDeviceAdminReceiver}: mdm-bluetooth
+,08-17 15:50:48.323  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.klmsagent/com.samsung.klmsagent.listner.KLMSDeviceAdminReceiver}: mdm-device-inventory
+08-17 15:50:48.323  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.klmsagent/com.samsung.klmsagent.listner.KLMSDeviceAdminReceiver}: mdm-date-time
+,08-17 15:50:48.323  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.klmsagent/com.samsung.klmsagent.listner.KLMSDeviceAdminReceiver}: mdm-exchange-account
+08-17 15:50:48.323  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.klmsagent/com.samsung.klmsagent.listner.KLMSDeviceAdminReceiver}: mdm-roaming
+08-17 15:50:48.323  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.klmsagent/com.samsung.klmsagent.listner.KLMSDeviceAdminReceiver}: mdm-wifi
+08-17 15:50:48.323  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.klmsagent/com.samsung.klmsagent.listner.KLMSDeviceAdminReceiver}: mdm-security
+,08-17 15:50:48.323  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.klmsagent/com.samsung.klmsagent.listner.KLMSDeviceAdminReceiver}: mdm-email-account
+08-17 15:50:48.323  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.klmsagent/com.samsung.klmsagent.listner.KLMSDeviceAdminReceiver}: mdm-hardware-control
+08-17 15:50:48.323  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.klmsagent/com.samsung.klmsagent.listner.KLMSDeviceAdminReceiver}: mdm-tethering
+08-17 15:50:48.323  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.klmsagent/com.samsung.klmsagent.listner.KLMSDeviceAdminReceiver}: mdm-location
+08-17 15:50:48.323  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.klmsagent/com.samsung.klmsagent.listner.KLMSDeviceAdminReceiver}: mdm-calling
+08-17 15:50:48.323  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.klmsagent/com.samsung.klmsagent.listner.KLMSDeviceAdminReceiver}: mdm-email
+08-17 15:50:48.323  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.klmsagent/com.samsung.klmsagent.listner.KLMSDeviceAdminReceiver}: mdm-vpn
+08-17 15:50:48.323  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.klmsagent/com.samsung.klmsagent.listner.KLMSDeviceAdminReceiver}: mdm-apn-settings
+08-17 15:50:48.323  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.klmsagent/com.samsung.klmsagent.listner.KLMSDeviceAdminReceiver}: mdm-browser-settings
+08-17 15:50:48.323  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.klmsagent/com.samsung.klmsagent.listner.KLMSDeviceAdminReceiver}: mdm-phone-restriction
+08-17 15:50:48.323  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.klmsagent/com.samsung.klmsagent.listner.KLMSDeviceAdminReceiver}: mdm-firewall
+08-17 15:50:48.323  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.klmsagent/com.samsung.klmsagent.listner.KLMSDeviceAdminReceiver}: mdm-enterprise-vpn
+08-17 15:50:48.323  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.klmsagent/com.samsung.klmsagent.listner.KLMSDeviceAdminReceiver}: mdm-data-time
+,08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: history-password,
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: allow-attachments
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: limit-attachments
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: allow-camera
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: allow-htmlemail,
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: require-manualsyncroaming
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: min-passwordcomplexchars
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: max-calendarage
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: max-emailage
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: max-emailbodytruncsize
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: max-htmlemailbodytruncsize
+,08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: require-signedsmimemessages
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: require-encryptedsmimemessages
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: require-signedsmimealgorithm
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: require-encryptionsmimealgorithm
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: allow-smimeencryptionalgonegotiation
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: allow-smimesoftcerts
+,08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: require-device-encryption
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: mdm-application
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: mdm-bluetooth
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: mdm-device-inventory
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: mdm-date-time
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: mdm-exchange-account
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: mdm-roaming
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: mdm-wifi
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: mdm-security
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: mdm-email-account,
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: mdm-hardware-control
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: mdm-tethering
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: mdm-location
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: mdm-calling
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: mdm-email
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: mdm-vpn
+,08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: mdm-apn-settings
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: mdm-browser-settings
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: mdm-phone-restriction
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: mdm-firewall
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: mdm-enterprise-vpn
+08-17 15:50:48.333  1015  1979 W DeviceAdminInfo: Unknown tag under uses-policies of ComponentInfo{com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.bbcagent.bbccontroller.receiver.BBCDeviceAdminReceiver}: mdm-data-time
+,08-17 15:50:48.343  1015  1979 D ActivityManager: getContentProviderImpl callerProcessName:android, calleePkgName: com.samsung.android.sm
+,08-17 15:50:48.343  1015  1979 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:48.343  1015  1979 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:48.343  1015  1979 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:48.343  1015  1979 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:48.363  6903  6903 E Zygote  : MountEmulatedStorage()
+,08-17 15:50:48.363  6903  6903 E Zygote  : v2
+08-17 15:50:48.363  6903  6903 I libpersona: KNOX_SDCARD checking this for 1000
+08-17 15:50:48.363  6903  6903 I libpersona: KNOX_SDCARD not a persona
+,08-17 15:50:48.363  1015  1979 I ActivityManager: Start proc com.samsung.android.sm for content provider com.samsung.android.sm/.database.SmProvider: pid=6903 uid=1000 gids={41000, 9997, 3002, 3001, 3003, 1028, 1015, 1007, 1023, 2001, 1024, 1001, 1021, 3004, 3005, 1000, 3009, 1010} abi=armeabi-v7a
+,08-17 15:50:48.363  6903  6903 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51,
+,08-17 15:50:48.373  6903  6903 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+,08-17 15:50:48.373  6903  6903 E SELinux : [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,08-17 15:50:48.393  6903  6903 D TimaKeyStoreProvider: TimaSignature is unavailable
+,08-17 15:50:48.393  6903  6903 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:48.403  6903  6903 W ResourcesManager: Asset path '/system/framework/twframework.jar' does not exist or contains no resources.
+,08-17 15:50:48.453  1015  1015 I ActivityManager: Killing 5459:com.google.android.googlequicksearchbox:search/u0a57 (adj 15): empty #31
+,08-17 15:50:48.453  1015  1979 E SAMP_SPCMtest: setPackageLockingTimeBySPCM() :72
+,08-17 15:50:48.743   288   288 E SMD     : DCD OFF
+,08-17 15:50:48.773   314   314 I ServiceManager: Waiting for service AtCmdFwd...
+,08-17 15:50:49.233  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: load: Already loaded
+,08-17 15:50:49.233  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: addListener: Listener io.jxcore.node.ConnectivityMonitorTest$DiscoveryManagerMock@38389a1e added. We now have 6 listener(s)
+08-17 15:50:49.233  6195  6247 D org.thaliproject.p2p.btconnectorlib.utils.PeerModel: addListener: New listener added - the number of listeners is now 1
+,08-17 15:50:49.233  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: load: Already loaded
+,08-17 15:50:49.233  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: addListener: Listener io.jxcore.node.ConnectivityMonitorTest$DiscoveryManagerMock@42f2ff added. We now have 7 listener(s)
+,08-17 15:50:49.233  6195  6247 D org.thaliproject.p2p.btconnectorlib.utils.PeerModel: addListener: New listener added - the number of listeners is now 1
+,08-17 15:50:49.233  6195  6247 I System.out: IsBluetoothEnabled
+,08-17 15:50:49.233  6195  6247 D BluetoothAdapter: disable()
+,08-17 15:50:49.233  1015  1502 E BluetoothManagerService: Bluetooth is already disabled. DO NOT disable again.
+,08-17 15:50:49.243  6195  6247 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:49.243  6195  6247 D BluetoothAdapter: enable()
+,08-17 15:50:49.243  1015  1027 W ActivityManager: Permission Denial: getCurrentUser() from pid=6195, uid=10155 requires android.permission.INTERACT_ACROSS_USERS
+,08-17 15:50:49.243  1015  1027 W BluetoothManagerService: Failed getting userId using ActivityManagerNative
+08-17 15:50:49.243  1015  1027 W BluetoothManagerService: java.lang.SecurityException: Permission Denial: getCurrentUser() from pid=6195, uid=10155 requires android.permission.INTERACT_ACROSS_USERS
+08-17 15:50:49.243  1015  1027 W BluetoothManagerService: 	at com.android.server.am.ActivityManagerService.getCurrentUser(ActivityManagerService.java:23916)
+08-17 15:50:49.243  1015  1027 W BluetoothManagerService: 	at com.android.server.BluetoothManagerService.CheckItPolicy(BluetoothManagerService.java:2270)
+08-17 15:50:49.243  1015  1027 W BluetoothManagerService: 	at com.android.server.BluetoothManagerService.enable(BluetoothManagerService.java:702)
+08-17 15:50:49.243  1015  1027 W BluetoothManagerService: 	at android.bluetooth.IBluetoothManager$Stub.onTransact(IBluetoothManager.java:116)
+08-17 15:50:49.243  1015  1027 W BluetoothManagerService: 	at android.os.Binder.execTransact(Binder.java:446)
+,08-17 15:50:49.243  1015  1027 E DevicePolicyManagerService: getAllowBluetoothMode - value retunrs : 2
+08-17 15:50:49.243  1015  1027 E DevicePolicyManagerService: getAllowBluetoothMode - value retunrs : 2
+,08-17 15:50:49.243  1015  1027 D SettingsProvider: name = bluetooth_on
+,08-17 15:50:49.253  1015  1044 E DevicePolicyManagerService: getAllowBluetoothMode - value retunrs : 2
+08-17 15:50:49.253  1015  1044 E DevicePolicyManagerService: getAllowBluetoothMode - value retunrs : 2
+,08-17 15:50:49.263  1015  1044 D ActivityManager: bindService callerProcessName:android, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetooth
+,08-17 15:50:49.263  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.btservice.AdapterService; callingUser = 0; userId(target) = -2
+,08-17 15:50:49.293  6884  6884 D BluetoothAdapterState: make
+,08-17 15:50:49.293  6884  6884 I bluedroid: init
+,08-17 15:50:49.293  6884  6922 I BluetoothAdapterState: Entering OffState
+,08-17 15:50:49.303  6884  6884 I bte_conf: bte_load_conf attempt to load stack conf from /etc/bluetooth/bt_stack.conf
+,08-17 15:50:49.303  6884  6884 I bte_conf: bte_load_ble_conf attempt to load ble stack conf from /etc/bluetooth/ble_stack.conf
+,08-17 15:50:49.303  6884  6884 E bt_osi_config: config_new unable to open file '/etc/bluetooth/ble_stack.conf': No such file or directory
+,08-17 15:50:49.303  6884  6884 I bte_conf: bte_load_ble_conf file >/etc/bluetooth/ble_stack.conf< not found
+,08-17 15:50:49.303  6884  6884 E bt-btif : btif_fetch_local_ble_random_bdaddr,
+08-17 15:50:49.303  6884  6884 I bluedroid: get_profile_interface socket
+,08-17 15:50:49.303  6884  6884 I bluedroid: get_profile_interface map_client
+,08-17 15:50:49.313  6884  6925 I GKI_LINUX: gki_task_entry task_id=1 [BTIF] starting
+,08-17 15:50:49.313  6884  6884 D BluetoothAdapterService: checkAddrForIOP: Loading from conf
+,08-17 15:50:49.323  6884  6884 D BluetoothA2dp: doBind(): CallingUid(myUserHandle) = 0
+,08-17 15:50:49.323  1015  1478 D ActivityManager: bindService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothA2dp
+08-17 15:50:49.323  1015  1478 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.a2dp.A2dpService; callingUser = 0; userId(target) = 0
+,08-17 15:50:49.323  6884  6925 D BluetoothAdapterProperties: Address is:7C:F9:0E:37:96:AB
+08-17 15:50:49.323  6884  6925 E BluetoothServiceJni: populateRssiValuesNative
+08-17 15:50:49.323  6884  6925 I bluedroid: getModelRssiValues
+08-17 15:50:49.323  6884  6925 E BluetoothServiceJni: model_rssi_values_callback: low = -70, mid = -60, high = 127
+08-17 15:50:49.323  6884  6925 D BluetoothAdapterProperties: modelRssiValuesCallback, low, mid, high = -70,-60,127
+,08-17 15:50:49.323  1015  1478 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:49.323  1015  1478 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023,
+08-17 15:50:49.323  1015  1478 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:49.323  6884  6925 D BluetoothAdapterProperties: Name is: A5-1
+,08-17 15:50:49.323  1015  1015 D SettingsProvider: name = bluetooth_name
+,08-17 15:50:49.333  6884  6892 I bluedroid: config_hci_snoop_log
+,08-17 15:50:49.333  1015  1044 D BluetoothManagerService: Broadcasting onBluetoothServiceUp() to 11 receivers.
+,08-17 15:50:49.333  1015  1044 D BluetoothManagerService: Ble is always on enable gatt
+,08-17 15:50:49.333  1015  1044 I BluetoothManagerService: enableGattForLeMode, doBind called
+,08-17 15:50:49.343  1015  1044 D ActivityManager: bindService callerProcessName:android, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothGatt
+08-17 15:50:49.343  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.gatt.GattService; callingUser = 0; userId(target) = -2
+,08-17 15:50:49.343  6884  6884 I BtGatt.JNI: classInitNative(L900): classInitNative: Success!
+,08-17 15:50:49.343  1015  1044 E DevicePolicyManagerService: getAllowBluetoothMode - value retunrs : 2
+,08-17 15:50:49.343  1015  1044 E DevicePolicyManagerService: getAllowBluetoothMode - value retunrs : 2
+,08-17 15:50:49.353  1015  1044 D SecContentProvider: uri = 3 selection = isBluetoothEnabled
+,08-17 15:50:49.353  6884  6922 D BluetoothAdapterState: CURRENT_STATE=OFF, MSG = USER_TURN_ON
+08-17 15:50:49.353  6884  6922 D BluetoothAdapterProperties: Setting state to 11
+08-17 15:50:49.353  6884  6922 I BluetoothAdapterState: Bluetooth adapter state changed: 10-> 11
+08-17 15:50:49.353  6884  6922 D BluetoothAdapterService: Bluetooth PBAP supproted is true
+08-17 15:50:49.353  6884  6922 D BluetoothAdapterService: updateAdapterState state is 11
+,08-17 15:50:49.353  6884  6922 D BluetoothAdapterService: Autoconnection is available 
+,08-17 15:50:49.353  6884  6922 D BluetoothAdapterService: updateAdapterState prevState = 10newState = 11
+,08-17 15:50:49.353  1015  1015 W InputMethodManagerService: InputMethodService onReceive() intentActionandroid.bluetooth.adapter.action.STATE_CHANGED
+,08-17 15:50:49.363  1015  1015 I InputMethodManagerService: [BT Setting State] State =11
+,08-17 15:50:49.363  6884  6922 D BluetoothSecureManager: getInstant: null
+08-17 15:50:49.363  6884  6922 D BluetoothSecureManager: calling getMethod for getService
+08-17 15:50:49.363  6884  6922 D BluetoothSecureManager: calling getService
+,08-17 15:50:49.363  1174  1174 D BluetoothTile:  onBluetoothPairedDevicesChanged:,
+08-17 15:50:49.363  6884  6922 D BluetoothSecureManager: getService return binder: android.os.BinderProxy@7507079
+,08-17 15:50:49.373  1015  1485 D BluetoothSecureManagerService: isSecureModeEnabled
+08-17 15:50:49.373  1015  1485 D BluetoothSecureManagerService: getSecureModeSetting, name: secure_mode_enable
+,08-17 15:50:49.373  6884  6922 D BtConfig.SecureMode: isSecureModeOn:false
+08-17 15:50:49.373  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.gatt.GattService
+,08-17 15:50:49.373  1174  1174 D BluetoothTile: onReceive : android.bluetooth.adapter.action.STATE_CHANGED
+,08-17 15:50:49.373  1174  1174 D BluetoothTile:  getBluetoothState : 11
+,08-17 15:50:49.373  1174  1721 D BluetoothTile:  handleUpdatestate:false name:null
+,08-17 15:50:49.373  1174  1721 D STATUSBAR-QSTileView: onStateChanged: Bluetooth
+,08-17 15:50:49.373  1015  1502 D StatusBarManagerService: setIcon slot=bluetooth index=16 icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=true num=0 )
+,08-17 15:50:49.373  1015  3214 D StatusBarManagerService: setIconVisibility slot=bluetooth visible=false
+,08-17 15:50:49.383  6884  6922 W BluetoothAdapterService: isProfileEnabled(): profile not found com.android.bluetooth.gatt.GattService
+08-17 15:50:49.383  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hfp.HeadsetService
+,08-17 15:50:49.383  6884  6922 W BluetoothAdapterService: isProfileEnabled(): profile not found com.android.bluetooth.hfp.HeadsetService
+08-17 15:50:49.383  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.a2dp.A2dpService
+,08-17 15:50:49.383  1834  1834 I SamsungIME: STATE_CHANGED = 11, KEYBOARD_BT(0), mBTKeyboardCount =0
+,08-17 15:50:49.383  1174  1174 D PhoneStatusBar: updateIcon slot=bluetooth index=16 viewIndex=2 old=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=false num=0 ) icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=false num=0 )
+08-17 15:50:49.383  6884  6922 W BluetoothAdapterService: isProfileEnabled(): profile not found com.android.bluetooth.a2dp.A2dpService
+08-17 15:50:49.383  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hid.HidService
+,08-17 15:50:49.383  6884  6922 W BluetoothAdapterService: isProfileEnabled(): profile not found com.android.bluetooth.hid.HidService
+08-17 15:50:49.383  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hdp.HealthService
+,08-17 15:50:49.383  6884  6922 W BluetoothAdapterService: isProfileEnabled(): profile not found com.android.bluetooth.hdp.HealthService
+08-17 15:50:49.383  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.pan.PanService
+,08-17 15:50:49.383  6884  6922 W BluetoothAdapterService: isProfileEnabled(): profile not found com.android.bluetooth.pan.PanService
+08-17 15:50:49.383  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.map.BluetoothMapService
+,08-17 15:50:49.383  6884  6922 W BluetoothAdapterService: isProfileEnabled(): profile not found com.android.bluetooth.map.BluetoothMapService
+08-17 15:50:49.383  1317  1317 V BluetoothEventManager: Received android.bluetooth.adapter.action.STATE_CHANGED
+08-17 15:50:49.383  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.broadcom.bt.service.sap.SapService
+08-17 15:50:49.393  6884  6922 W BluetoothAdapterService: isProfileEnabled(): profile not found com.broadcom.bt.service.sap.SapService
+08-17 15:50:49.393  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hfpclient.HeadsetClientService
+,08-17 15:50:49.393  6884  6922 W BluetoothAdapterService: processStart(): removed Client profile: com.android.bluetooth.hfpclient.HeadsetClientService
+08-17 15:50:49.393  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.a2dp.A2dpSinkService
+,08-17 15:50:49.393  6884  6922 W BluetoothAdapterService: processStart(): removed Client profile: com.android.bluetooth.a2dp.A2dpSinkService
+08-17 15:50:49.393  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.sapclient.SapClientService
+,08-17 15:50:49.393  6884  6922 W BluetoothAdapterService: processStart(): removed Client profile: com.android.bluetooth.sapclient.SapClientService
+08-17 15:50:49.393  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hid.HidDevService
+,08-17 15:50:49.393  6884  6922 W BluetoothAdapterService: processStart(): removed Client profile: com.android.bluetooth.hid.HidDevService
+,08-17 15:50:49.393  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:49.393  6884  6922 D BluetoothBondStateMachine: make
+08-17 15:50:49.393  1015  2925 D ActivityManager: startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+08-17 15:50:49.393  1015  2925 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService; callingUser = 0; userId(target) = 0
+,08-17 15:50:49.393  1015  1044 D BluetoothManagerService: Broadcasting onBluetoothServiceUp() to 0 receivers.
+08-17 15:50:49.393  1015  2925 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:49.393  1015  2925 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:49.393  1015  2925 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:49.393  6884  6922 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.android.bluetooth.gatt.GattService
+,08-17 15:50:49.403  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.gatt.GattService
+08-17 15:50:49.403  6884  6922 W BluetoothAdapterService: Not skipping com.android.bluetooth.gatt.GattService
+,08-17 15:50:49.403  6884  6926 I BluetoothBondStateMachine: StableState(): Entering Off State
+,08-17 15:50:49.403  1015  1485 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+,08-17 15:50:49.403  1015  1485 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.gatt.GattService; callingUser = 0; userId(target) = 0
+,08-17 15:50:49.403  1015  1485 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:49.403  1015  1485 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,08-17 15:50:49.403  1015  1485 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:49.403  6884  6922 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.android.bluetooth.hfp.HeadsetService
+08-17 15:50:49.403  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hfp.HeadsetService
+08-17 15:50:49.403  6884  6922 W BluetoothAdapterService: Not skipping com.android.bluetooth.hfp.HeadsetService
+,08-17 15:50:49.413  1015  1315 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+08-17 15:50:49.413  1015  1315 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hfp.HeadsetService; callingUser = 0; userId(target) = 0
+08-17 15:50:49.413  1317  1317 D BluetoothNotiBroadcastReceiver: onReceive
+08-17 15:50:49.413  6884  6884 D BtGatt.DebugUtils: handleDebugAction() action=null
+,08-17 15:50:49.413  6884  6884 D BtGatt.GattService: Received start request. Starting profile...
+08-17 15:50:49.413  6884  6884 D BtGatt.GattService: start()
+08-17 15:50:49.413  6884  6884 D BtGatt.GattService: start()
+08-17 15:50:49.413  6884  6884 I bluedroid: get_profile_interface gatt
+,08-17 15:50:49.413  6884  6884 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+,08-17 15:50:49.413  6884  6884 D BtGatt.AdvertiseManager: advertise manager created
+,08-17 15:50:49.413  1015  1315 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:49.413  1015  1315 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:49.413  1015  1315 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:49.413  6884  6922 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.android.bluetooth.a2dp.A2dpService
+08-17 15:50:49.413  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.a2dp.A2dpService
+08-17 15:50:49.413  6884  6922 W BluetoothAdapterService: Not skipping com.android.bluetooth.a2dp.A2dpService
+,08-17 15:50:49.423  1174  1174 V BluetoothStatusReceiver: Received android.bluetooth.adapter.action.STATE_CHANGED
+,08-17 15:50:49.423  1174  1174 D BluetoothStatusReceiver: AdapterStateChanged :: BluetoothAdapter.ACTION_STATE_CHANGED, state = 11
+,08-17 15:50:49.423  1015  1027 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth,
+08-17 15:50:49.423  1015  1027 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.a2dp.A2dpService; callingUser = 0; userId(target) = 0
+,08-17 15:50:49.433  1015  1027 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:49.433  1015  1027 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:49.433  1015  1027 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:49.443  6884  6922 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.android.bluetooth.hid.HidService
+08-17 15:50:49.443  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hid.HidService
+08-17 15:50:49.443  6884  6922 W BluetoothAdapterService: Not skipping com.android.bluetooth.hid.HidService
+,08-17 15:50:49.443  6884  6884 D BtGatt.GattService: mStartError = false
+,08-17 15:50:49.443  6884  6884 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+,08-17 15:50:49.453  1015  1028 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+08-17 15:50:49.453  1015  1028 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hid.HidService; callingUser = 0; userId(target) = 0
+,08-17 15:50:49.453  6884  6884 D HeadsetService: Received start request. Starting profile...
+,08-17 15:50:49.453  6884  6884 D HeadsetService: start()
+08-17 15:50:49.453  1015  1028 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:49.453  1015  1028 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:49.453  1015  1028 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:49.453  6884  6884 I BluetoothHeadsetServiceJni: classInitNative: succeeds
+,08-17 15:50:49.453  6884  6884 D HeadsetStateMachine: make
+,08-17 15:50:49.453  6884  6922 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.android.bluetooth.hdp.HealthService
+08-17 15:50:49.453  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hdp.HealthService
+08-17 15:50:49.453  6884  6922 W BluetoothAdapterService: Not skipping com.android.bluetooth.hdp.HealthService
+,08-17 15:50:49.453  1015  3214 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+08-17 15:50:49.453  1015  3214 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hdp.HealthService; callingUser = 0; userId(target) = 0
+,08-17 15:50:49.453  1015  3214 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:49.453  1015  3214 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:49.453  1015  3214 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:49.463  6884  6884 E HeadsetStateMachine: # of Max HF connection is 2
+,08-17 15:50:49.473  1015  1486 D ActivityManager: bindService callerProcessName:com.android.bluetooth, calleePkgName: com.android.server.telecom, action: android.bluetooth.IBluetoothHeadsetPhone
+,08-17 15:50:49.473  1015  1486 D ActivityManager: retrieveServiceLocked(): component = com.android.server.telecom/com.android.server.telecom.BluetoothPhoneService; callingUser = 0; userId(target) = 0
+08-17 15:50:49.473  6884  6922 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.android.bluetooth.pan.PanService
+08-17 15:50:49.473  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.pan.PanService
+08-17 15:50:49.473  6884  6922 W BluetoothAdapterService: Not skipping com.android.bluetooth.pan.PanService
+,08-17 15:50:49.473  1015  1486 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:49.473  1015  1486 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:49.473  1015  1486 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.server.telecom
+08-17 15:50:49.473  1015  3215 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+08-17 15:50:49.473  1015  3215 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.pan.PanService; callingUser = 0; userId(target) = 0
+,08-17 15:50:49.473  1015  3215 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:49.473  1015  3215 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:49.473  1015  3215 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:49.473  6884  6922 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.android.bluetooth.map.BluetoothMapService
+,08-17 15:50:49.473  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.map.BluetoothMapService
+08-17 15:50:49.473  6884  6922 W BluetoothAdapterService: Not skipping com.android.bluetooth.map.BluetoothMapService
+,08-17 15:50:49.473  1015  1502 D ActivityManager: bindService callerProcessName:com.android.bluetooth, calleePkgName: com.android.server.telecom, action: com.samsung.bt.hfp.IBluetoothHeadsetVoIP
+08-17 15:50:49.473  1015  1502 D ActivityManager: retrieveServiceLocked(): component = com.android.server.telecom/com.android.server.telecom.BluetoothVoIPService; callingUser = 0; userId(target) = 0
+,08-17 15:50:49.473  1015  1502 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:49.473  1015  1502 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:49.473  1015  1478 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+08-17 15:50:49.473  1015  1502 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.server.telecom
+08-17 15:50:49.473  1015  1478 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.map.BluetoothMapService; callingUser = 0; userId(target) = 0
+08-17 15:50:49.473  6884  6884 I bluedroid: get_profile_interface handsfree
+,08-17 15:50:49.483  1015  1478 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:49.483  1015  1478 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:49.483  1015  1478 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:49.483  6884  6922 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.broadcom.bt.service.sap.SapService
+,08-17 15:50:49.483  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.broadcom.bt.service.sap.SapService
+08-17 15:50:49.483  6884  6922 W BluetoothAdapterService: Not skipping com.broadcom.bt.service.sap.SapService
+,08-17 15:50:49.483  1015  1027 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+,08-17 15:50:49.483  1015  1027 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.broadcom.bt.service.sap.SapService; callingUser = 0; userId(target) = 0
+,08-17 15:50:49.483  1015  1027 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:49.483  1015  1027 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:49.483  1015  1027 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:49.493  6884  6922 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.android.bluetooth.hfpclient.HeadsetClientService
+08-17 15:50:49.493  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hfpclient.HeadsetClientService
+08-17 15:50:49.493  6884  6922 W BluetoothAdapterService: Profile supported, But not enabled com.android.bluetooth.hfpclient.HeadsetClientService
+08-17 15:50:49.493  6884  6922 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.android.bluetooth.a2dp.A2dpSinkService
+08-17 15:50:49.493  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.a2dp.A2dpSinkService
+08-17 15:50:49.493  6884  6922 W BluetoothAdapterService: Profile supported, But not enabled com.android.bluetooth.a2dp.A2dpSinkService
+08-17 15:50:49.493  6884  6922 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.android.bluetooth.sapclient.SapClientService
+08-17 15:50:49.493  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.sapclient.SapClientService
+08-17 15:50:49.493  6884  6922 W BluetoothAdapterService: Profile supported, But not enabled com.android.bluetooth.sapclient.SapClientService
+08-17 15:50:49.493  6884  6922 W BluetoothAdapterService: check For Quiet mode profile 12 RadioCount =0 srv name=com.android.bluetooth.hid.HidDevService
+08-17 15:50:49.493  6884  6922 D BtSettings.ProfileConfig: getProfileSaveSetting: com.android.bluetooth.hid.HidDevService
+08-17 15:50:49.493  6884  6922 W BluetoothAdapterService: Profile supported, But not enabled com.android.bluetooth.hid.HidDevService
+08-17 15:50:49.493  6884  6922 I BluetoothAdapterState: Entering PendingCommandState State: isTurningOn()=true, isTurningOff()=false
+,08-17 15:50:49.493  6884  6884 I DualScoManager: Instantiating Dual Sco Manager
+,08-17 15:50:49.493  6884  6884 I DualScoManager: Set HeadsetServiceHelper
+,08-17 15:50:49.493  6884  6884 D BluetoothAtMessage: createCMTIContentObservers
+,08-17 15:50:49.493  1015  2925 D SettingsProvider: name = bluetooth_hfp_allowed_bvra
+,08-17 15:50:49.503  1015  2925 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:49.503  1015  2925 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+,08-17 15:50:49.503  1015  2925 D SettingsProvider: selectionArgs: false
+08-17 15:50:49.503  1015  2925 D SettingsProvider: selectionArgs: 1002
+08-17 15:50:49.503  1015  2925 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+,08-17 15:50:49.503  1015  2925 D SettingsProvider: ret = -1
+,08-17 15:50:49.503  6884  6930 D HeadsetStateMachine: Enter Disconnected: -2
+,08-17 15:50:49.503  6884  6884 D HeadsetService: mStartError = false
+08-17 15:50:49.503  6884  6884 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+,08-17 15:50:49.503  6884  6930 D HeadsetStateMachine: Clear mHeadsetBrsf
+08-17 15:50:49.503  6884  6930 D HeadsetStateMachine: map size, before remove : 0
+08-17 15:50:49.503  6884  6930 D HeadsetStateMachine: map size, after remove: 0
+,08-17 15:50:49.503  6884  6884 D A2dpService: Received start request. Starting profile...
+,08-17 15:50:49.503  6884  6884 D A2dpService: start()
+,08-17 15:50:49.503  6884  6884 I BluetoothAvrcpServiceJni: classInitNative: succeeds
+,08-17 15:50:49.513  6884  6884 I bluedroid: get_profile_interface avrcp
+,08-17 15:50:49.513  6884  6884 E RemoteController: Cannot set synchronization mode on an unregistered RemoteController
+,08-17 15:50:49.533  6884  6884 I Avrcp   :  Updating now playing list upon AVRCP Start
+,08-17 15:50:49.533  6884  6884 I BluetoothA2dpServiceJni: classInitNative: succeeds
+08-17 15:50:49.533  6884  6884 D A2dpStateMachine: make
+,08-17 15:50:49.533  6884  6934 D BluetoothMediaBrowser:  getNowPlayingListcontent://media/external/audio/playlists?secFilter=include
+,08-17 15:50:49.533  6884  6884 I bluedroid: get_profile_interface a2dp
+08-17 15:50:49.533  6884  6936 I GKI_LINUX: gki_task_entry task_id=2 [A2DP-MEDIA] starting
+,08-17 15:50:49.533  6884  6884 E bt-btif : warning : media task started media_task_refcnt 1 
+,08-17 15:50:49.533  6884  6884 D A2dpService: mStartError = false
+08-17 15:50:49.533  6884  6884 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+,08-17 15:50:49.533  6884  6884 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.android.bluetooth.gatt.GattService, state=12, doUpdate=false
+,08-17 15:50:49.543  6884  6884 I BluetoothHidServiceJni: classInitNative: succeeds
+,08-17 15:50:49.543  6884  6935 D A2dpStateMachine: Enter Disconnected: -2
+,08-17 15:50:49.543  6884  6884 D HidService: Received start request. Starting profile...
+08-17 15:50:49.543  6884  6884 D HidService: start()
+08-17 15:50:49.543  6884  6884 I bluedroid: get_profile_interface hidhost
+08-17 15:50:49.543  6884  6884 D HidService: setHidService(): set to: null
+08-17 15:50:49.543  6884  6884 D HidService: mStartError = false
+08-17 15:50:49.543  6884  6884 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+,08-17 15:50:49.543  6884  6884 I BluetoothHealthServiceJni: classInitNative: succeeds
+,08-17 15:50:49.543  6884  6884 D HealthService: Received start request. Starting profile...
+08-17 15:50:49.543  6884  6884 D HealthService: start()
+,08-17 15:50:49.543  6884  6934 D BluetoothMediaBrowser: no now playing list
+,08-17 15:50:49.543  6884  6934 D BluetoothMediaBrowser:  getNowPlayingId now playing id : -1
+,08-17 15:50:49.553  6884  6884 I bluedroid: get_profile_interface health
+,08-17 15:50:49.553  6884  6884 D HealthService: mStartError = false
+08-17 15:50:49.553  6884  6884 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+08-17 15:50:49.553  6884  6884 D HeadsetStateMachine: Try to query the phonestate on bind
+,08-17 15:50:49.553  1431  6380 I Telecom : BluetoothPhoneService: queryPhoneState
+,08-17 15:50:49.553  1431  1431 I Telecom : BluetoothPhoneService: handleMessage(7) / param 0
+08-17 15:50:49.553  1431  1431 I Telecom : BluetoothPhoneService: updateHeadsetWithCallState
+,08-17 15:50:49.553  1431  6380 I Telecom : BluetoothPhoneService: Result of Message : true
+,08-17 15:50:49.553  6884  6884 I BluetoothPanServiceJni: classInitNative(L105): succeeds
+,08-17 15:50:49.553  6884  6884 D PanService: Received start request. Starting profile...
+08-17 15:50:49.553  6884  6884 D PanService: start()
+08-17 15:50:49.553  6884  6884 D BluetoothPanServiceJni: initializeNative(L110): pan
+08-17 15:50:49.553  6884  6884 I bluedroid: get_profile_interface pan
+,08-17 15:50:49.553  6884  6884 D PanService: mStartError = false
+08-17 15:50:49.553  6884  6884 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+08-17 15:50:49.553  1932  1932 D EasyUnlockReceiver: Received Bluetooth event: Intent { act=android.bluetooth.adapter.action.STATE_CHANGED flg=0x4000010 cmp=com.google.android.gms/.auth.easyunlock.authorization.BluetoothStateChangeReceiver (has extras) }.
+08-17 15:50:49.553  6884  6884 D HeadsetStateMachine: Proxy object connected
+,08-17 15:50:49.563  6884  6884 D BluetoothMapService: Received start request. Starting profile...
+08-17 15:50:49.563  6884  6884 D BluetoothMapService: start()
+,08-17 15:50:49.563  6884  6884 D BluetoothMapService: mStartError = false
+,08-17 15:50:49.563  6884  6884 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+08-17 15:50:49.563  6884  6884 D HeadsetPhoneState: sendDeviceStateChanged. mService=0 mSignal=0 mRoam=0 mBatteryCharge=0
+,08-17 15:50:49.563  6884  6930 D HeadsetStateMachine: Disconnected process message: 11
+08-17 15:50:49.563  6884  6884 I BluetoothSAPServiceJni: classInitNative(L204): succeeds
+,08-17 15:50:49.563  6884  6884 D SapService: Received start request. Starting profile...
+,08-17 15:50:49.563  6884  6884 D SapService: start()
+,08-17 15:50:49.563  6884  6884 D BluetoothSAPServiceJni: initializeNative(L209): sap
+08-17 15:50:49.563  6884  6884 I bluedroid: get_profile_interface sap
+08-17 15:50:49.563  6884  6884 D SapService: mStartError = false
+08-17 15:50:49.563  6884  6884 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+08-17 15:50:49.563  6884  6884 D HeadsetPhoneState: sendDeviceDataStateChanged
+08-17 15:50:49.563  6884  6884 D HeadsetPhoneState: Signal level : previous=0 curr=0
+08-17 15:50:49.563  6884  6884 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.android.bluetooth.hfp.HeadsetService, state=12, doUpdate=true,
+08-17 15:50:49.563  6884  6884 V HeadsetService: HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+08-17 15:50:49.563  6884  6884 D BluetoothA2dp: Proxy object connected
+08-17 15:50:49.563  6884  6884 D BluetoothAdapterService: Bluetooth A2dp source service connected
+08-17 15:50:49.563  6884  6884 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.android.bluetooth.a2dp.A2dpService, state=12, doUpdate=true
+08-17 15:50:49.563  6884  6884 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.android.bluetooth.hid.HidService, state=12, doUpdate=true
+08-17 15:50:49.563  6884  6930 D HeadsetStateMachine: Disconnected process message: 18
+,08-17 15:50:49.563  6884  6930 D HeadsetStateMachine: Disconnected process message: 10
+08-17 15:50:49.563  6884  6930 D HeadsetPhoneState: sendDeviceStateChanged. mService=0 mSignal=0 mRoam=0 mBatteryCharge=5
+08-17 15:50:49.563  6884  6930 D HeadsetStateMachine: Disconnected process message: 11
+,08-17 15:50:49.563  1932  1932 D BtServices: Received Bluetooth event: Intent { act=android.bluetooth.adapter.action.STATE_CHANGED flg=0x4000010 cmp=com.google.android.gms/.auth.proximity.BluetoothServicesAdapterStateChangeReceiver (has extras) }.
+,08-17 15:50:49.573  6884  6884 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.android.bluetooth.hdp.HealthService, state=12, doUpdate=true
+08-17 15:50:49.573  6884  6884 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.android.bluetooth.pan.PanService, state=12, doUpdate=true
+,08-17 15:50:49.593  6884  6884 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.android.bluetooth.map.BluetoothMapService, state=12, doUpdate=true
+08-17 15:50:49.593  6884  6884 E BluetoothAdapterService(162156363): processProfileServiceStateChanged() serviceName=com.broadcom.bt.service.sap.SapService, state=12, doUpdate=true
+,08-17 15:50:49.593  6884  6922 D BluetoothAdapterState: CURRENT_STATE=PENDING, MSG = STARTED, isTurningOn=true, isTurningOff=false
+,08-17 15:50:49.593  6884  6922 I bluedroid: enable
+,08-17 15:50:49.593  6884  6922 I bt_hci_bdroid: init
+08-17 15:50:49.593  6884  6940 I GKI_LINUX: gki_task_entry task_id=0 [BTU] starting,
+,08-17 15:50:49.593  6884  6922 I bt_vendor: bt-vendor : init
+,08-17 15:50:49.603  6884  6922 I bt_vendor: bt-vendor : get_bt_soc_type
+,08-17 15:50:49.603  6884  6922 E bt_vendor: get_bt_soc_type: Failed to get soc type
+08-17 15:50:49.603  6884  6922 I bt_vendor: init: Local BD Address : ab:96:37:0e:f9:7c
+,08-17 15:50:49.603  6884  6922 D bt_userial_mct: userial_init
+,08-17 15:50:49.603  6884  6922 I bt_vendor: bt-vendor : BT_VND_OP_POWER_CTRL: Off
+08-17 15:50:49.603  6884  6922 I bt_vendor: Starting hciattach daemon
+,08-17 15:50:49.603  6884  6922 I bt_vendor: try to set false
+,08-17 15:50:49.603  6884  6922 I bt_vendor: bt-vendor : BT_VND_OP_POWER_CTRL: On,
+08-17 15:50:49.603  6884  6922 I bt_vendor: Starting hciattach daemon
+,08-17 15:50:49.603  6884  6922 I bt_vendor: try to set true
+,08-17 15:50:49.623  6944  6944 I qcom-bluetooth: /system/etc/init.qcom.bt.sh: init.qcom.bt.sh config =  ,
+,08-17 15:50:49.673  6950  6950 I qcom-bluetooth: /system/etc/init.qcom.bt.sh: Transport : smd ,
+,08-17 15:50:49.683  6951  6951 I qcom-bluetooth: /system/etc/init.qcom.bt.sh: ** Bluedroid stack ** ,
+,08-17 15:50:49.693  6953  6953 I qcom-bluetooth: /system/etc/init.qcom.bt.sh: Power Class: Ignored. Default(1) used (1-CLASS1/2-CLASS2/3-CUSTOM) ,
+,08-17 15:50:49.703  6954  6954 I qcom-bluetooth: /system/etc/init.qcom.bt.sh: Power Class: To override, Before turning BT ON; setprop qcom.bt.dev_power_class <1 or 2 or 3> ,
+,08-17 15:50:49.713  6955  6955 I qcom-bluetooth: /system/etc/init.qcom.bt.sh: LE Power Class: Ignored. Default(2) used (1-CLASS1/2-CLASS2/3-CUSTOM) ,
+,08-17 15:50:49.723  6956  6956 I qcom-bluetooth: /system/etc/init.qcom.bt.sh: LE Power Class: To override, Before turning BT ON; setprop qcom.bt.le_dev_pwr_class <1 or 2 or 3> ,
+,08-17 15:50:49.773   314   314 W Atfwd_Sendcmd: AtCmdFwd service not published, waiting... retryCnt : 3,
+,08-17 15:50:49.963  6959  6959 I qcom-bluetooth: /system/etc/init.qcom.bt.sh: Bluetooth QSoC firmware download succeeded, /dev/ttyHS0 qualcomm 3000000 7c:f9:0e:37:96:ab ,
+,08-17 15:50:49.973  6960  6960 I qcom-bluetooth: /system/etc/init.qcom.bt.sh: ** Bluedroid stack ** ,
+,08-17 15:50:50.013  6884  6922 I bt_vendor: bluetooth satus is on,
+08-17 15:50:50.013  6884  6942 D bt_userial_mct: userial_open(port:0)
+08-17 15:50:50.013  6884  6942 I bt_vendor: bt-vendor : BT_VND_OP_USERIAL_OPEN
+,08-17 15:50:50.013  6884  6942 I bt_vendor: Done intiailizing UART,
+,08-17 15:50:50.013  6884  6942 I bt_vendor: Done intiailizing UART,
+08-17 15:50:50.013  6884  6942 I bt_userial_mct: CMD=66, EVT=66, ACL_Out=67, ACL_In=67
+08-17 15:50:50.013  6884  6942 I bt_vendor: Bluetooth Firmware and transport layer are initialized
+08-17 15:50:50.023  6884  6962 D bt_userial_mct: Entering userial_read_thread()
+08-17 15:50:50.023  6884  6940 I         : BTE_InitTraceLevels -- TRC_HCI
+08-17 15:50:50.023  6884  6940 I         : BTE_InitTraceLevels -- TRC_L2CAP
+08-17 15:50:50.023  6884  6940 I         : BTE_InitTraceLevels -- TRC_RFCOMM
+08-17 15:50:50.023  6884  6940 I         : BTE_InitTraceLevels -- TRC_AVDT
+,08-17 15:50:50.023  6884  6940 I         : BTE_InitTraceLevels -- TRC_AVRC
+08-17 15:50:50.023  6884  6940 I         : BTE_InitTraceLevels -- TRC_A2D
+08-17 15:50:50.023  6884  6940 I         : BTE_InitTraceLevels -- TRC_BNEP
+08-17 15:50:50.023  6884  6940 I         : BTE_InitTraceLevels -- TRC_BTM
+08-17 15:50:50.023  6884  6940 I         : BTE_InitTraceLevels -- TRC_GAP
+08-17 15:50:50.023  6884  6940 I         : BTE_InitTraceLevels -- TRC_PAN
+08-17 15:50:50.023  6884  6940 I         : BTE_InitTraceLevels -- TRC_SAP
+,08-17 15:50:50.023  6884  6940 I         : BTE_InitTraceLevels -- TRC_SDP
+08-17 15:50:50.023  6884  6940 I         : BTE_InitTraceLevels -- TRC_GATT
+08-17 15:50:50.023  6884  6940 I         : BTE_InitTraceLevels -- TRC_SMP
+08-17 15:50:50.023  6884  6940 I         : BTE_InitTraceLevels -- TRC_BTAPP
+08-17 15:50:50.023  6884  6940 I         : BTE_InitTraceLevels -- TRC_BTIF
+08-17 15:50:50.023  6884  6940 I         : BTE_InitTraceLevels -- TRC_PROTOCOL
+,08-17 15:50:50.123  6884  6940 W bt-l2cap: l2c_link_processs_ble_num_bufs 16
+,08-17 15:50:50.123  6884  6940 E bt-btm  : BTM_SecRegister:p_cb_info->p_le_callback == 0xa40216e9 
+,08-17 15:50:50.123  6884  6940 E bt-btm  : BTM_SecRegister: btm_cb.api.p_le_callback = 0xa40216e9 
+,08-17 15:50:50.143  6884  6925 D BluetoothAdapterProperties: BT_PROPERTY_LOCAL_LE_FEATURES: update from BT controller mNumOfAdvertisementInstancesSupported = 10 mRpaOffloadSupported = true mNumOfOffloadedIrkSupported = 32 mNumOfOffloadedScanFilterSupported = 16 mOffloadedScanResultStorageBytes= 10240 mIsActivityAndEnergyReporting = true mAobleSupported = 0
+,08-17 15:50:50.143  6884  6925 E bt-btif : Calling BTA_HhEnable
+,08-17 15:50:50.143  6884  6925 E bt-btif : btif_storage_get_adapter_property service_mask:0x2120048
+,08-17 15:50:50.143  6884  6925 D BluetoothAdapterProperties: Address is:7C:F9:0E:37:96:AB
+,08-17 15:50:50.153  6884  6925 E BluetoothServiceJni: populateRssiValuesNative
+08-17 15:50:50.153  6884  6925 I bluedroid: getModelRssiValues
+,08-17 15:50:50.153  6884  6925 E BluetoothServiceJni: model_rssi_values_callback: low = -70, mid = -60, high = 127,
+08-17 15:50:50.153  6884  6925 D BluetoothAdapterProperties: modelRssiValuesCallback, low, mid, high = -70,-60,127
+,08-17 15:50:50.153  1015  1015 D SettingsProvider: name = bluetooth_name
+,08-17 15:50:50.153  6884  6925 D BluetoothAdapterProperties: Name is: A5-1
+,08-17 15:50:50.153  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:50.163  6884  6925 D BluetoothUtils: getBtEnabledContainers(): btContainers = []
+,08-17 15:50:50.163  6884  6925 D BluetoothAdapterProperties: Scan Mode:20
+08-17 15:50:50.163  6884  6925 D BluetoothAdapterProperties: Discoverable Timeout:120
+08-17 15:50:50.163  6884  6925 D BluetoothAdapterProperties: LE Address is:FC:F3:1C:6E:2D:57
+08-17 15:50:50.163  6884  6925 E bt-btif : btif_handle_bluetooth_enable_evt: btif_core_radio_ref_count:1
+08-17 15:50:50.163  6884  6925 E bt-btif : btif_sock_init, radio_req:0, rfc_init:0, vhci_init:0
+,08-17 15:50:50.163  6884  6925 E bt-btif : btif_sock_init: !radio_req && !rfc_init
+08-17 15:50:50.163  6884  6925 E bt-btif : btif_sock_init: !vhci_init
+,08-17 15:50:50.163  6884  6925 D IOP_DB_BT: db_open: file /etc/bluetooth/iop_bt.db
+08-17 15:50:50.163  6884  6925 D IOP_DB_BT: db_open: db_open : handle 3028328464l, read 13894 bytes onto local cache
+08-17 15:50:50.163  6884  6925 D IOP_DB_BT: db_query: id __IOPFLAGS :: key __KEY_ENABLE_VERBOSE, value 1
+,08-17 15:50:50.163  6884  6925 D IOP_DB_BT: db_query: result 1
+08-17 15:50:50.163  6884  6925 I         : iop_db_open: iop_db_open status 0
+08-17 15:50:50.163  6884  6925 D bte_conf: Device ID record 1 : primary
+08-17 15:50:50.163  6884  6925 D bte_conf:   vendorId            = 0075
+,08-17 15:50:50.163  6884  6925 D bte_conf:   vendorIdSource      = 0001
+08-17 15:50:50.163  6884  6925 D bte_conf:   product             = 0100
+08-17 15:50:50.163  6884  6925 D bte_conf:   version             = 0200
+,08-17 15:50:50.163  6884  6925 D bte_conf:   clientExecutableURL = 
+08-17 15:50:50.163  6884  6925 D bte_conf:   serviceDescription  = 
+08-17 15:50:50.163  6884  6925 D bte_conf:   documentationURL    = 
+08-17 15:50:50.163  6884  6925 D bte_conf: bte_load_did_conf no section named DID2.
+08-17 15:50:50.163  6884  6925 D BluetoothPanServiceJni: control_state_callback(L61): state:0, local_role:3, ifname:bt-pan
+,08-17 15:50:50.163  6884  6922 D BluetoothAdapterState: CURRENT_STATE=PENDING, MSG = ENABLE_READY, isTurningOn=true, isTurningOff=false
+,08-17 15:50:50.163  6884  6922 D BluetoothAdapterProperties: ScanMode =  20
+08-17 15:50:50.163  6884  6922 D BluetoothAdapterProperties: State =  11
+,08-17 15:50:50.173  1015  1028 D SecContentProvider: uri = 3 selection = isDiscoverableEnabled
+08-17 15:50:50.173  6884  6962 E bt_mct  : hci lib postload completed
+,08-17 15:50:50.173  6884  6922 D BluetoothAdapterProperties: Setting state to 12,
+08-17 15:50:50.173  6884  6922 I BluetoothAdapterState: Bluetooth adapter state changed: 11-> 12
+,08-17 15:50:50.173  6884  6925 D BluetoothUtils: getBtEnabledContainers(): btContainers = []
+08-17 15:50:50.173  6884  6925 D BluetoothAdapterProperties: Scan Mode:21
+08-17 15:50:50.173  6884  6925 D BluetoothAdapterProperties: Discoverable Timeout:120
+,08-17 15:50:50.173  1015  1076 D SettingsProvider: name = bluetooth_a2dp_sink_mode
+,08-17 15:50:50.183  1015  1076 D SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+08-17 15:50:50.183  1015  1076 D SettingsProvider: projectionArgs: isSettingsChangesAllowed
+08-17 15:50:50.183  1015  1076 D SettingsProvider: selectionArgs: false
+08-17 15:50:50.183  1015  1076 D SettingsProvider: selectionArgs: 1002
+08-17 15:50:50.183  1015  1076 D SecContentProvider: uri = 17 selection = isSettingsChangesAllowed
+08-17 15:50:50.183  1015  1076 D SettingsProvider: ret = -1
+,08-17 15:50:50.183  6884  6922 D BluetoothAdapterService: Bluetooth PBAP supproted is true
+08-17 15:50:50.183  6884  6922 D BluetoothAdapterService: updateAdapterState state is 12
+,08-17 15:50:50.183  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: State changed:
+08-17 15:50:50.183  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:50.183  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:50.183  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: false
+08-17 15:50:50.183  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: true
+08-17 15:50:50.183  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: null
+08-17 15:50:50.183  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: false
+08-17 15:50:50.183  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: false
+,08-17 15:50:50.183  1015  1028 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+,08-17 15:50:50.183  1015  1028 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.pbap.BluetoothPbapService; callingUser = 0; userId(target) = 0
+,08-17 15:50:50.183  1015  1028 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:50.183  1015  1028 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:50.183  1015  1028 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:50.183  6884  6922 D BluetoothAdapterService: Autoconnection is available 
+,08-17 15:50:50.193  6354  6365 D BluetoothAdapter: onBluetoothStateChange: up=true
+08-17 15:50:50.193  6354  6365 D BluetoothAdapter: onBluetoothStateChange: Bluetooth is on
+08-17 15:50:50.193  6884  6922 D BluetoothAdapterService: updateAdapterState prevState = 11newState = 12
+08-17 15:50:50.193  6884  6922 D BluetoothAdapterService: starting service from this receiver
+,08-17 15:50:50.193  1015  1315 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+08-17 15:50:50.193  1015  1315 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.samsung.ble.BleAutoConnectService; callingUser = 0; userId(target) = 0
+,08-17 15:50:50.193  1015  1315 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:50.193  1015  1315 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,08-17 15:50:50.193  1015  1315 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:50.193  6884  6922 I BluetoothAdapterState: Entering On State from state = 11
+,08-17 15:50:50.203  1456  1481 D BluetoothHeadset: doBind(): CallingUid(myUserHandle) = 0
+,08-17 15:50:50.203  1015  1044 D ActivityManager: bindService callerProcessName:com.android.phone, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothHeadset
+08-17 15:50:50.203  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hfp.HeadsetService; callingUser = 0; userId(target) = -3
+,08-17 15:50:50.203  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:50.203  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:50.203  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.phone, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:50.203  1456  1481 E BluetoothHeadset: BluetoothHeadset service is binded
+,08-17 15:50:50.203  1317  1329 D BluetoothMap: onBluetoothStateChange: up=true
+,08-17 15:50:50.213  6195  6195 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: ON, Bluetooth: ON, Wi-Fi: OFF, cellular: DO_NOT_CARE, BSSID name: null
+,08-17 15:50:50.213  1015  1044 D ActivityManager: bindService callerProcessName:com.android.settings, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothMap
+,08-17 15:50:50.213  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.map.BluetoothMapService; callingUser = 0; userId(target) = 0
+,08-17 15:50:50.213  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:50.223  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,08-17 15:50:50.223  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.settings, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:50.223  6884  6884 I BluetoothPbapService: action: android.bluetooth.adapter.action.STATE_CHANGED, state: 12
+,08-17 15:50:50.223  6195  6203 D BluetoothAdapter: onBluetoothStateChange: up=true
+,08-17 15:50:50.223  6195  6203 D BluetoothAdapter: onBluetoothStateChange: Bluetooth is on
+,08-17 15:50:50.223  1431  1440 D BluetoothHeadset: doBind(): CallingUid(myUserHandle) = 0
+,08-17 15:50:50.233  1015  1044 D ActivityManager: bindService callerProcessName:com.android.server.telecom, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothHeadset
+08-17 15:50:50.233  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hfp.HeadsetService; callingUser = 0; userId(target) = -3
+,08-17 15:50:50.233  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:50.233  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:50.233  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.server.telecom, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:50.233  1431  1440 E BluetoothHeadset: BluetoothHeadset service is binded
+,08-17 15:50:50.233  1456  1676 D BluetoothAdapter: onBluetoothStateChange: up=true
+,08-17 15:50:50.233  1456  1676 D BluetoothAdapter: onBluetoothStateChange: Bluetooth is on
+,08-17 15:50:50.233  1317  6381 D BluetoothAdapter: onBluetoothStateChange: up=true
+08-17 15:50:50.233  1317  6381 D BluetoothAdapter: onBluetoothStateChange: Bluetooth is on
+08-17 15:50:50.233  1015  1044 D BluetoothA2dp: onBluetoothStateChange: up=true
+08-17 15:50:50.233  1015  1044 D BluetoothA2dp: doBind(): CallingUid(myUserHandle) = 0
+,08-17 15:50:50.233  1015  1044 D ActivityManager: bindService callerProcessName:android, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothA2dp
+08-17 15:50:50.233  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.a2dp.A2dpService; callingUser = 0; userId(target) = 0
+08-17 15:50:50.243  1015  1015 D BluetoothA2dp: Proxy object connected
+,08-17 15:50:50.243  6884  6884 I BluetoothPbapService: Handler(): got msg=1
+,08-17 15:50:50.243  1015  3214 D SecContentProvider: uri = 4 selection = isProfileAuthorizedBySecurityPolicy
+,08-17 15:50:50.253  1431  1453 D BluetoothHeadset: doBind(): CallingUid(myUserHandle) = 0
+,08-17 15:50:50.253  1015  1044 D ActivityManager: bindService callerProcessName:com.android.server.telecom, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothHeadset
+08-17 15:50:50.253  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hfp.HeadsetService; callingUser = 0; userId(target) = -3
+,08-17 15:50:50.253  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:50.253  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:50.253  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.server.telecom, destAppInfo.processName = com.android.bluetooth
+08-17 15:50:50.253  1431  1453 E BluetoothHeadset: BluetoothHeadset service is binded
+,08-17 15:50:50.253  1317  1333 D BluetoothPan: Binding service...
+,08-17 15:50:50.253  1317  1317 D BluetoothMap: Proxy object connected
+08-17 15:50:50.253  1317  1317 D MapProfile: Bluetooth service connected
+08-17 15:50:50.253  1317  1317 D BluetoothMap: getConnectedDevices()
+,08-17 15:50:50.253  6884  6967 V BluetoothPbapService: PBAP Service initSocket try: 0
+,08-17 15:50:50.253  1015  1044 D ActivityManager: bindService callerProcessName:com.android.settings, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothPan
+08-17 15:50:50.253  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.pan.PanService; callingUser = 0; userId(target) = 0
+,08-17 15:50:50.253  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:50.253  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:50.253  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.settings, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:50.263  1317  1329 D BluetoothInputDevice: onBluetoothStateChange: up=true
+08-17 15:50:50.263  1317  1317 D BluetoothPan: BluetoothPAN Proxy object connected
+08-17 15:50:50.263  1317  1317 D PanProfile: Bluetooth service connected
+,08-17 15:50:50.263  6884  6967 D BluetoothSocket: bindListen(): myUserId = 0
+08-17 15:50:50.263  6884  6967 W BluetoothAdapter: getBluetoothService() called with no BluetoothManagerCallback
+,08-17 15:50:50.263  6884  6967 D BluetoothSocket: bindListen(), SocketState: INIT, mPfd: {ParcelFileDescriptor: FileDescriptor[75]}
+08-17 15:50:50.263  6884  6967 D BluetoothSocket: bindListen(), new LocalSocket 
+08-17 15:50:50.263  6884  6967 D BluetoothSocket: bindListen(), new LocalSocket.getInputStream() 
+08-17 15:50:50.263  6884  6967 D BluetoothSocket: bindListen(), readInt mSocketIS: android.net.LocalSocketImpl$SocketInputStream@328a6a64
+,08-17 15:50:50.263  1015  1044 D ActivityManager: bindService callerProcessName:com.android.settings, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothInputDevice
+08-17 15:50:50.263  6884  6967 D BluetoothSocket: channel: 19
+08-17 15:50:50.263  6884  6967 D BluetoothPbapService: PBAP Socket is BluetoothServerSocket
+,08-17 15:50:50.263  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hid.HidService; callingUser = 0; userId(target) = 0
+,08-17 15:50:50.263  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:50.263  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:50.263  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.settings, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:50.273  1317  1317 D BluetoothInputDevice: Proxy object connected
+,08-17 15:50:50.273  1317  1317 D HidProfile: Bluetooth service connected
+,08-17 15:50:50.273  1932  1944 D BluetoothAdapter: onBluetoothStateChange: up=true
+,08-17 15:50:50.273  1932  1944 D BluetoothAdapter: onBluetoothStateChange: Bluetooth is on
+,08-17 15:50:50.273  1317  6381 D BluetoothHeadset: doBind(): CallingUid(myUserHandle) = 0
+,08-17 15:50:50.273  1015  1044 D ActivityManager: bindService callerProcessName:com.android.settings, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothHeadset
+08-17 15:50:50.273  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hfp.HeadsetService; callingUser = 0; userId(target) = -3
+,08-17 15:50:50.273  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:50.273  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:50.273  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.settings, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:50.273  1317  6381 E BluetoothHeadset: BluetoothHeadset service is binded
+08-17 15:50:50.273  1317  1317 D HeadsetProfile: Bluetooth service connected
+08-17 15:50:50.273  6195  6247 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: State changed:
+08-17 15:50:50.273  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:50.273  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:50.273  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: false
+08-17 15:50:50.273  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: true
+08-17 15:50:50.273  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: null
+08-17 15:50:50.273  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: false
+08-17 15:50:50.273  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: false
+08-17 15:50:50.273  1317  1329 D BluetoothPbap: onBluetoothStateChange: up=true
+,08-17 15:50:50.283  1015  1044 D ActivityManager: bindService callerProcessName:com.android.settings, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothPbap
+,08-17 15:50:50.283  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.pbap.BluetoothPbapService; callingUser = 0; userId(target) = 0
+08-17 15:50:50.283  6195  6247 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: ON, Bluetooth: ON, Wi-Fi: OFF, cellular: DO_NOT_CARE, BSSID name: null
+,08-17 15:50:50.283  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: load: Already loaded
+08-17 15:50:50.283  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: addListener: Listener io.jxcore.node.ConnectivityMonitorTest$DiscoveryManagerMock@32c558cc added. We now have 8 listener(s)
+08-17 15:50:50.283  6195  6247 D org.thaliproject.p2p.btconnectorlib.utils.PeerModel: addListener: New listener added - the number of listeners is now 1
+,08-17 15:50:50.283  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:50.283  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:50.283  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.settings, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:50.283  1317  6381 D BluetoothA2dp: onBluetoothStateChange: up=true
+,08-17 15:50:50.283  1317  1317 D BluetoothPbap: Proxy object connected
+08-17 15:50:50.283  1317  1317 D PbapServerProfile: Bluetooth service connected
+08-17 15:50:50.283  1317  6381 D BluetoothA2dp: doBind(): CallingUid(myUserHandle) = 0
+08-17 15:50:50.283  1015  1027 D SecContentProvider: uri = 18 selection = isWifiEnabled
+,08-17 15:50:50.283  1015  1044 D ActivityManager: bindService callerProcessName:com.android.settings, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothA2dp
+08-17 15:50:50.283  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.a2dp.A2dpService; callingUser = 0; userId(target) = 0
+08-17 15:50:50.293  1015  1027 D SecContentProvider2: uri = 20 selection = isWifiStateChangeAllowed
+08-17 15:50:50.293  1015  1027 D SecContentProvider2: mCursor = null
+,08-17 15:50:50.293  1015  1027 D WifiService: setWifiEnabled: false pid=6195, uid=10155
+,08-17 15:50:50.293  1015  1027 D SettingsProvider: name = wifi_on
+,08-17 15:50:50.293  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:50.293  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:50.293  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.settings, destAppInfo.processName = com.android.bluetooth
+08-17 15:50:50.293  1317  1317 D BluetoothA2dp: Proxy object connected
+,08-17 15:50:50.293  1443  1462 D BluetoothAdapter: onBluetoothStateChange: up=true
+08-17 15:50:50.293  1317  1317 D A2dpProfile: Bluetooth service connected
+08-17 15:50:50.293  1443  1462 D BluetoothAdapter: onBluetoothStateChange: Bluetooth is on
+08-17 15:50:50.293  2859  6852 D BluetoothAdapter: onBluetoothStateChange: up=true
+,08-17 15:50:50.293  2859  6852 D BluetoothAdapter: onBluetoothStateChange: Bluetooth is on
+,08-17 15:50:50.293  1431  6380 D BluetoothAdapter: onBluetoothStateChange: up=true
+08-17 15:50:50.293  1431  6380 D BluetoothAdapter: onBluetoothStateChange: Bluetooth is on
+,08-17 15:50:50.293  6884  6965 D BluetoothA2dp: onBluetoothStateChange: up=true,
+08-17 15:50:50.293  1015  1044 D BluetoothAdapter: onBluetoothStateChange: up=true
+08-17 15:50:50.293  1015  1044 D BluetoothAdapter: onBluetoothStateChange: Bluetooth is on
+,08-17 15:50:50.293  1015  1044 D BluetoothPan: Binding service...
+08-17 15:50:50.303  1015  1044 D ActivityManager: bindService callerProcessName:android, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothPan
+08-17 15:50:50.303  6884  6892 D BluetoothAdapter: onBluetoothStateChange: up=true
+08-17 15:50:50.303  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.pan.PanService; callingUser = 0; userId(target) = 0
+,08-17 15:50:50.303  6884  6892 D BluetoothAdapter: onBluetoothStateChange: Bluetooth is on
+08-17 15:50:50.303  1015  1015 D BluetoothPan: BluetoothPAN Proxy object connected
+08-17 15:50:50.303  6195  6247 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+08-17 15:50:50.303  1317  1333 D Bluetoothsap: onBluetoothStateChange: up=true
+08-17 15:50:50.303  1317  1333 D Bluetoothsap: Binding service...
+08-17 15:50:50.303  1317  1333 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:2136 android.content.ContextWrapper.bindService:559 com.broadcom.bt.service.sap.BluetoothSap.doBind:186 com.broadcom.bt.service.sap.BluetoothSap$1.onBluetoothStateChange:156 android.bluetooth.IBluetoothStateChangeCallback$Stub.onTransact:55 
+,08-17 15:50:50.303  1015  1485 D SecContentProvider: uri = 18 selection = isWifiEnabled
+08-17 15:50:50.303  1015  1485 D SecContentProvider2: uri = 20 selection = isWifiStateChangeAllowed
+08-17 15:50:50.303  1015  1485 D SecContentProvider2: mCursor = null
+,08-17 15:50:50.303  1015  1485 D WifiService: setWifiEnabled: true pid=6195, uid=10155
+08-17 15:50:50.303  1015  1485 W ActivityManager: Permission Denial: getCurrentUser() from pid=6195, uid=10155 requires android.permission.INTERACT_ACROSS_USERS
+,08-17 15:50:50.303  1015  1485 W WifiService: Failed getting userId using ActivityManagerNative
+08-17 15:50:50.303  1015  1485 W WifiService: java.lang.SecurityException: Permission Denial: getCurrentUser() from pid=6195, uid=10155 requires android.permission.INTERACT_ACROSS_USERS
+08-17 15:50:50.303  1015  1485 W WifiService: 	at com.android.server.am.ActivityManagerService.getCurrentUser(ActivityManagerService.java:23916)
+08-17 15:50:50.303  1015  1485 W WifiService: 	at com.android.server.wifi.WifiServiceImpl.setWifiEnabled(WifiServiceImpl.java:2216)
+08-17 15:50:50.303  1015  1485 W WifiService: 	at com.android.server.wifi.WifiServiceImpl.setWifiEnabled(WifiServiceImpl.java:2204)
+08-17 15:50:50.303  1015  1485 W WifiService: 	at android.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:223)
+08-17 15:50:50.303  1015  1485 W WifiService: 	at android.os.Binder.execTransact(Binder.java:446)
+08-17 15:50:50.303  1015  1485 D SettingsProvider: name = wifi_on
+08-17 15:50:50.303  1015  1044 D ActivityManager: bindService callerProcessName:com.android.settings, calleePkgName: com.android.bluetooth, action: com.broadcom.bt.service.sap.IBluetoothSap
+08-17 15:50:50.303  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.broadcom.bt.service.sap.SapService; callingUser = 0; userId(target) = 0
+08-17 15:50:50.303  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:50.303  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:50.303  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.settings, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:50.303  1317  1333 D Bluetoothsap: bindService called to Bluetooth SAP Service
+,08-17 15:50:50.303  1317  1317 D Bluetoothsap: BluetoothSAP Proxy object connected
+,08-17 15:50:50.303  1317  1317 D SapProfile: Bluetooth service connected,
+,08-17 15:50:50.303  1317  1317 D Bluetoothsap: getConnectedDevices()
+08-17 15:50:50.303  2859  2871 D BluetoothHeadset: doBind(): CallingUid(myUserHandle) = 0
+,08-17 15:50:50.313  1015  1044 D ActivityManager: bindService callerProcessName:com.samsung.android.providers.context, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothHeadset
+08-17 15:50:50.313  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hfp.HeadsetService; callingUser = 0; userId(target) = -3
+,08-17 15:50:50.313  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:50.313  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:50.313  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.android.providers.context, destAppInfo.processName = com.android.bluetooth
+08-17 15:50:50.313  2859  2871 E BluetoothHeadset: BluetoothHeadset service is binded
+,08-17 15:50:50.313  1174  2008 D BluetoothAdapter: onBluetoothStateChange: up=true
+,08-17 15:50:50.313  1174  2008 D BluetoothAdapter: onBluetoothStateChange: Bluetooth is on
+,08-17 15:50:50.313  1431  1440 D BluetoothHeadset: doBind(): CallingUid(myUserHandle) = 0
+,08-17 15:50:50.313  1015  1044 D ActivityManager: bindService callerProcessName:com.android.server.telecom, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothHeadset
+,08-17 15:50:50.313  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hfp.HeadsetService; callingUser = 0; userId(target) = -3
+,08-17 15:50:50.313  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:50.313  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:50.313  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.server.telecom, destAppInfo.processName = com.android.bluetooth
+08-17 15:50:50.313  1015  1126 E WifiHW  : ##################### set firmware type 0 #####################
+08-17 15:50:50.313  1431  1440 E BluetoothHeadset: BluetoothHeadset service is binded
+08-17 15:50:50.313  2859  6852 D BluetoothA2dp: onBluetoothStateChange: up=true
+,08-17 15:50:50.323  2859  6852 D BluetoothA2dp: doBind(): CallingUid(myUserHandle) = 0
+,08-17 15:50:50.323  1015  1044 D ActivityManager: bindService callerProcessName:com.samsung.android.providers.context, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothA2dp
+08-17 15:50:50.323  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.a2dp.A2dpService; callingUser = 0; userId(target) = 0
+,08-17 15:50:50.323  1015  1044 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:50.323  1015  1044 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:50.323  1015  1044 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.android.providers.context, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:50.323  2859  2859 D BluetoothA2dp: Proxy object connected
+08-17 15:50:50.323  1015  1044 D BluetoothHeadset: doBind(): CallingUid(myUserHandle) = 0
+,08-17 15:50:50.323  1015  1044 D ActivityManager: bindService callerProcessName:android, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothHeadset
+08-17 15:50:50.323  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.hfp.HeadsetService; callingUser = 0; userId(target) = -3
+,08-17 15:50:50.323  1015  1044 E BluetoothHeadset: BluetoothHeadset service is binded
+08-17 15:50:50.323  1015  1044 D ActivityManager: bindService callerProcessName:android, calleePkgName: com.android.bluetooth, action: android.bluetooth.IBluetoothGatt
+08-17 15:50:50.323  1015  1044 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.gatt.GattService; callingUser = 0; userId(target) = -2
+,08-17 15:50:50.343  1174  1174 D BluetoothTile:  onBluetoothStateChange:
+,08-17 15:50:50.343  1834  1834 I SamsungIME: STATE_CHANGED = 12, KEYBOARD_BT(0), mBTKeyboardCount =0
+,08-17 15:50:50.343  1431  1431 D BluetoothHeadset: registerListener : 11, listenercom.android.server.telecom.wearable.BluetoothMessageListener@2d9537a0, true
+,08-17 15:50:50.353  1174  1174 D BluetoothTile:  onBluetoothPairedDevicesChanged:
+08-17 15:50:50.353  1174  1174 D BluetoothTile: onReceive : android.bluetooth.adapter.action.STATE_CHANGED
+08-17 15:50:50.353  1174  1174 D BluetoothTile:  getBluetoothState : 12
+,08-17 15:50:50.353  1317  1317 V BluetoothEventManager: Received android.bluetooth.adapter.action.STATE_CHANGED
+,08-17 15:50:50.353  1431  1431 D BluetoothHeadset: registerMessageListener
+,08-17 15:50:50.353  1174  1721 D BluetoothTile:  handleUpdatestate:false name:null
+,08-17 15:50:50.353  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:50.353  1015  1485 D ActivityManager: startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+08-17 15:50:50.353  1015  1485 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService; callingUser = 0; userId(target) = 0
+,08-17 15:50:50.363  1015  1485 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:50.363  1015  1485 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:50.363  1015  1485 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:50.363  1015  1015 W InputMethodManagerService: InputMethodService onReceive() intentActionandroid.bluetooth.adapter.action.STATE_CHANGED
+08-17 15:50:50.363  1015  1015 I InputMethodManagerService: [BT Setting State] State =12
+08-17 15:50:50.363  1015  1015 I InputMethodManagerService: [BT Setting off -> on] mBTKeyboardCount =0, KEYBOARD_BT(0)
+,08-17 15:50:50.363  6884  6893 D HeadsetService: registerMessageListener,
+08-17 15:50:50.363  1015  1474 D StatusBarManagerService: setIcon slot=bluetooth index=16 icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=true num=0 )
+08-17 15:50:50.363  1174  1174 D PhoneStatusBar: updateIcon slot=bluetooth index=16 viewIndex=2 old=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=false num=0 ) icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020338 level=0 visible=true num=0 )
+08-17 15:50:50.363  1015  3215 D StatusBarManagerService: setIconVisibility slot=bluetooth visible=true
+08-17 15:50:50.363  6884  6893 D HeadsetService: registerMessageListener
+,08-17 15:50:50.363  6884  6930 D HeadsetStateMachine: Disconnected process message: 70
+08-17 15:50:50.363  1317  1317 W LocalBluetoothProfileManager: Warning: MAP profile was previously added but the UUID is now missing.
+08-17 15:50:50.363  1317  1317 W LocalBluetoothProfileManager: Warning: PBAP profile was previously added but the UUID is now missing.
+08-17 15:50:50.363  1317  1317 W LocalBluetoothProfileManager: Warning: SAP profile was previously added but the UUID is now missing.
+08-17 15:50:50.363  1317  1317 W LocalBluetoothProfileManager: Warning: HID profile was previously added but the UUID is now missing.
+08-17 15:50:50.363  1431  1431 I Telecom : BluetoothPhoneService: handleMessage(7) / param null
+08-17 15:50:50.363  1431  1431 I Telecom : BluetoothPhoneService: updateHeadsetWithCallState
+,08-17 15:50:50.363  6884  6930 D HeadsetStateMachine: processRegisterMessageListener : 11, com.samsung.bt.hfp.IMessageListener$Stub$Proxy@1eb1f4cd
+,08-17 15:50:50.373  1174  1721 D BluetoothTile:  handleUpdatestate:false name:null
+,08-17 15:50:50.373  1431  1431 I Telecom : BluetoothPhoneService: getCurrentCallPhoneType, Defalut Phonetype : 1
+,08-17 15:50:50.373  1431  1431 I Telecom : BluetoothPhoneService: getCurrentCallPhoneType, Current Phonetype : 1
+,08-17 15:50:50.373  1431  1431 I Telecom : BluetoothPhoneService: updateHeadsetWithCallState numActive 0, numHeld 0, callState 6, ringing number [da39a3ee5e6b4b0d3255bfef95601890afd80709], ringing type 128
+,08-17 15:50:50.373  6884  6973 D BluetoothMapMasInstance: set MAP SDP message type : 1
+,08-17 15:50:50.383  1174  1721 D BluetoothTile:  handleUpdatestate:false name:null,
+,08-17 15:50:50.383  6884  6930 D HeadsetStateMachine: Disconnected process message: 9
+,08-17 15:50:50.383  6884  6930 D HeadsetStateMachine: mNumActive: 0 mNumHeld: 0 mCallState: 6
+,08-17 15:50:50.383  1317  1317 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:2063 android.content.ContextWrapper.startService:533 android.content.ContextWrapper.startService:533 com.android.settings.bluetooth.DockEventReceiver.beginStartingService:134 com.android.settings.bluetooth.DockEventReceiver.onReceive:115 
+,08-17 15:50:50.403  1015  1502 D ActivityManager: startService callerProcessName:com.android.settings, calleePkgName: com.android.settings
+08-17 15:50:50.403  1015  1502 D ActivityManager: retrieveServiceLocked(): component = com.android.settings/com.android.settings.bluetooth.DockService; callingUser = 0; userId(target) = 0
+,08-17 15:50:50.403  6884  6973 D BluetoothSocket: bindListen(): myUserId = 0
+08-17 15:50:50.403  6884  6973 W BluetoothAdapter: getBluetoothService() called with no BluetoothManagerCallback
+08-17 15:50:50.403   283   283 D audio_hw_primary: adev_set_parameters: enter: A2dpSuspended=false
+08-17 15:50:50.403   283   283 V voice   : voice_set_parameters: enter: A2dpSuspended=false
+08-17 15:50:50.403   283   283 V voice   : voice_set_parameters: exit with code(-2)
+08-17 15:50:50.403   283   283 V msm8974_platform: platform_set_parameters: enter: A2dpSuspended=false
+08-17 15:50:50.403   283   283 V msm8974_platform: platform_set_parameters: exit with code(-2)
+08-17 15:50:50.403   283   283 D audio_hw_hfp: audio_extn_hfp_set_parameters: enter
+08-17 15:50:50.403   283   283 V audio_hw_primary: adev_set_parameters: exit
+08-17 15:50:50.403  6884  6930 E HeadsetStateMachine: terminateScoUsingVirtualVoiceCall:No present call to terminate
+08-17 15:50:50.403  1015  1502 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:50.403  1015  1502 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:50.403  1015  1502 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.settings, destAppInfo.processName = com.android.settings
+,08-17 15:50:50.403  6884  6973 D BluetoothSocket: bindListen(), SocketState: INIT, mPfd: {ParcelFileDescriptor: FileDescriptor[77]}
+08-17 15:50:50.403  6884  6973 D BluetoothSocket: bindListen(), new LocalSocket 
+08-17 15:50:50.413  6884  6973 D BluetoothSocket: bindListen(), new LocalSocket.getInputStream() 
+08-17 15:50:50.413  6884  6973 D BluetoothSocket: bindListen(), readInt mSocketIS: android.net.LocalSocketImpl$SocketInputStream@2de9e182
+,08-17 15:50:50.413  6884  6973 D BluetoothSocket: channel: 5
+,08-17 15:50:50.413  1317  1317 D DockEventReceiver: finishStartingService: stopping service
+,08-17 15:50:50.413  1317  1317 D BluetoothNotiBroadcastReceiver: onReceive
+,08-17 15:50:50.423  1174  1174 V BluetoothStatusReceiver: Received android.bluetooth.adapter.action.STATE_CHANGED
+,08-17 15:50:50.423  1174  1174 D BluetoothStatusReceiver: AdapterStateChanged :: BluetoothAdapter.ACTION_STATE_CHANGED, state = 12
+,08-17 15:50:50.433  6884  6884 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+,08-17 15:50:50.433  6884  6884 D BtConfig.SecureMode: isSecureModeOn:false
+,08-17 15:50:50.433  1015  3214 D ActivityManager: startService callerProcessName:com.android.bluetooth, calleePkgName: com.android.bluetooth
+,08-17 15:50:50.433  1015  3214 D ActivityManager: retrieveServiceLocked(): component = com.android.bluetooth/com.android.bluetooth.opp.BluetoothOppService; callingUser = 0; userId(target) = 0
+,08-17 15:50:50.433  1015  3214 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:50.433  1015  3214 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,08-17 15:50:50.433  1015  3214 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.android.bluetooth, destAppInfo.processName = com.android.bluetooth
+,08-17 15:50:50.463  1932  1932 D EasyUnlockReceiver: Received Bluetooth event: Intent { act=android.bluetooth.adapter.action.STATE_CHANGED flg=0x4000010 cmp=com.google.android.gms/.auth.easyunlock.authorization.BluetoothStateChangeReceiver (has extras) }.
+08-17 15:50:50.463  1015  2925 D ActivityManager: startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+08-17 15:50:50.463  1015  2925 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.auth.easyunlock.authorization.InitializerIntentService; callingUser = 0; userId(target) = 0
+,08-17 15:50:50.463  1015  2925 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:50.463  1015  2925 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:50.463  1015  2925 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:50.463  1015  1027 D SecContentProvider: uri = 4 selection = isProfileAuthorizedBySecurityPolicy
+,08-17 15:50:50.473  6884  6983 D BluetoothSocket: bindListen(): myUserId = 0
+08-17 15:50:50.473  6884  6983 W BluetoothAdapter: getBluetoothService() called with no BluetoothManagerCallback
+,08-17 15:50:50.473  1932  6984 D EasyUnlockInitService: Handling intent for initializer IntentService.
+,08-17 15:50:50.473  1932  1932 D BtServices: Received Bluetooth event: Intent { act=android.bluetooth.adapter.action.STATE_CHANGED flg=0x4000010 cmp=com.google.android.gms/.auth.proximity.BluetoothServicesAdapterStateChangeReceiver (has extras) }.
+,08-17 15:50:50.483  6884  6983 D BluetoothSocket: bindListen(), SocketState: INIT, mPfd: {ParcelFileDescriptor: FileDescriptor[81]}
+,08-17 15:50:50.483  6884  6983 D BluetoothSocket: bindListen(), new LocalSocket 
+08-17 15:50:50.483  6884  6983 D BluetoothSocket: bindListen(), new LocalSocket.getInputStream() 
+08-17 15:50:50.483  6884  6983 D BluetoothSocket: bindListen(), readInt mSocketIS: android.net.LocalSocketImpl$SocketInputStream@ed893ce
+08-17 15:50:50.483  6884  6983 D BluetoothSocket: channel: 12
+08-17 15:50:50.483  6884  6983 I BtOppRfcommListener: Accept thread started.
+,08-17 15:50:50.483  1015  2925 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:50.483  1015  2925 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:50.483  1015  2925 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+,08-17 15:50:50.483  1015  2925 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:50.503  1015  1027 D ActivityManager: retrieveServiceLocked(): component = null; callingUser = 0; userId(target) = 0
+,08-17 15:50:50.503  1015  1027 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:50.503  1015  1027 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:50.503  1015  1027 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:50.513  1932  6984 D EasyUnlockInitService: Not initializing EasyUnlock: remote_devices=0, bluetooth_on=true
+,08-17 15:50:50.713  1015  1042 D Tethering: interfaceAdded wlan0
+,08-17 15:50:50.713  1015  1042 I Nat464Xlat: interfaceLinkStateChanged wlan0, false
+08-17 15:50:50.713  1015  1042 D Tethering: interfaceLinkStateChanged wlan0, false
+08-17 15:50:50.713  1015  1042 D Tethering: interfaceStatusChanged wlan0, false
+,08-17 15:50:50.723  1015  1130 E Tethering: No numeric data
+,08-17 15:50:50.723  1015  1130 D Tethering: sendTetherStateChangedBroadcast 0, 0, 0
+,08-17 15:50:50.723  1015  1130 D Tethering: clearTetheredNotification()
+,08-17 15:50:50.723  1015  1123 V NetworkStats: performPollLocked(flags=0x1)
+,08-17 15:50:50.723  1015  1042 D Tethering: interfaceAdded p2p0
+,08-17 15:50:50.723  1015  1042 D Tethering: p2p0 is not a tetherable iface, ignoring
+08-17 15:50:50.723  1015  1123 D NtpTrustedTime: currentTimeMillis() cache hit
+,08-17 15:50:50.723  1174  1174 D HotspotTile: onReceive : android.net.conn.TETHER_STATE_CHANGED
+08-17 15:50:50.723  1174  1174 D HotspotTile: updateTetherState():false, false
+,08-17 15:50:50.733  1015  1123 D NetworkStatsFactory: UpdateStatsForKnox updated
+,08-17 15:50:50.733  1015  1123 D NetworkStatsFactory: UpdateStatsForKnox main else ---
+,08-17 15:50:50.733  1015  1130 D Tethering: InitialState.processMessage what=4
+,08-17 15:50:50.733  1015  1042 I Nat464Xlat: interfaceLinkStateChanged p2p0, false
+08-17 15:50:50.733  1015  1042 D Tethering: interfaceLinkStateChanged p2p0, false
+08-17 15:50:50.733  1015  1042 D Tethering: interfaceStatusChanged p2p0, false
+,08-17 15:50:50.743  1015  1123 V NetworkStats: performPollLocked() took 13ms,
+08-17 15:50:50.743  1015  1123 D NtpTrustedTime: currentTimeMillis() cache hit
+,08-17 15:50:50.743  1015  1130 E Tethering: No numeric data
+08-17 15:50:50.743  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+08-17 15:50:50.743  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+,08-17 15:50:50.743   278  1014 I WifiHW  : wifi_change_fw_path(): fwpath = sta
+08-17 15:50:50.743   278  1014 D SoftapController: Softap fwReload - Ok
+,08-17 15:50:50.753  1015  1130 D Tethering: sendTetherStateChangedBroadcast 0, 0, 0,
+08-17 15:50:50.753  1015  1130 D Tethering: clearTetheredNotification()
+,08-17 15:50:50.753  1015  1123 D NtpTrustedTime: currentTimeMillis() cache hit,
+,08-17 15:50:50.753  1015  1123 V NetworkStats: performPollLocked(flags=0x1)
+08-17 15:50:50.753  1015  1123 D NetworkStatsFactory: UpdateStatsForKnox updated,
+08-17 15:50:50.753  1174  1174 D HotspotTile: onReceive : android.net.conn.TETHER_STATE_CHANGED,
+08-17 15:50:50.753  1015  1123 D NetworkStatsFactory: UpdateStatsForKnox main else ---
+08-17 15:50:50.753  1174  1174 D HotspotTile: updateTetherState():false, false
+,08-17 15:50:50.753   278  1014 D CommandListener: Setting iface cfg
+08-17 15:50:50.763  1015  1123 V NetworkStats: performPollLocked() took 7ms
+,08-17 15:50:50.753   278  1014 D CommandListener: Trying to bring down wlan0
+08-17 15:50:50.753   278  1014 D CommandListener: Clearing all IP addresses on wlan0
+08-17 15:50:50.763  1015  1123 D NtpTrustedTime: currentTimeMillis() cache hit
+,08-17 15:50:50.763  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+,08-17 15:50:50.763  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+,08-17 15:50:50.763  1015  1126 E WifiHW  : supplicant_name : p2p_supplicant
+,08-17 15:50:50.813  6992  6992 I wpa_supplicant: [wpa_supplicant_init]: use SECRIL
+08-17 15:50:50.813  6992  6992 I wpa_supplicant: Successfully initialized wpa_supplicant
+,08-17 15:50:50.813  6992  6992 I SecureStorage: [INFO]: SPID(0x00000000)Checking if this device supports Secure Storage
+,08-17 15:50:50.833  6992  6992 I SecureStorage: [INFO]: SPID(0x00000000)This device supports Secure Storage
+08-17 15:50:50.833   355   355 I SecureStorage: [INFO]: SPID(0x00000003)Credentials: uid 1010, gid 1010, pid 6992
+08-17 15:50:50.833   355   355 I SecureStorage: [INFO]: SPID(0x00000003)Received function mask & code: 0x0000010C
+,08-17 15:50:50.833  6992  6992 I SecureStorage: [INFO]: SPID(0x00000000)SS Daemon is running
+08-17 15:50:50.833  6992  6992 I wpa_supplicant: ssSupport state is = 1
+08-17 15:50:50.833  6992  6992 I wpa_supplicant: >>>>> GET KEY, IV <<<<<
+08-17 15:50:50.833  6992  6992 I SecureStorage: [INFO]: SPID(0x00000000)Processing data
+08-17 15:50:50.833   355   355 I SecureStorage: [INFO]: SPID(0x00000003)Credentials: uid 1010, gid 1010, pid 6992
+08-17 15:50:50.833   355   355 I SecureStorage: [INFO]: SPID(0x00000003)Received function mask & code: 0x00000106
+,08-17 15:50:50.873  1015  1126 D WifiMonitor: startMonitoring(wlan0) with mConnected = false
+08-17 15:50:50.873  1174  1174 D StatusBar.NetworkController: refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x0/(null) mQSWifiIconId=0x0/(null) mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+08-17 15:50:50.873  1174  1174 D STATUSBAR-WifiQuickSettingButton: onWifiSignalChanged enabled=false enabledDesc:null
+,08-17 15:50:50.873  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:50.873  1174  1174 D HotspotTile: onReceive : android.net.wifi.WIFI_STATE_CHANGED
+08-17 15:50:50.873  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:50.873  1174  1721 D STATUSBAR-QSTileView: onStateChanged: Wi-Fi
+08-17 15:50:50.873  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:50.873  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:50.873  1174  1174 D STATUSBAR-WifiQuickSettingButton: onReceive : android.net.wifi.WIFI_STATE_CHANGED
+08-17 15:50:50.873  1174  1174 D STATUSBAR-WifiQuickSettingButton: Wifi onReceive(2)
+,08-17 15:50:50.873  1174  1174 D HotspotTile: onReceive : 2, 0
+,08-17 15:50:50.873  1317  1317 D WifiCredService: Action received :android.net.wifi.WIFI_STATE_CHANGED
+,08-17 15:50:50.883  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:50.883  1015  1486 D ActivityManager: startService callerProcessName:com.samsung.hs20settings, calleePkgName: com.samsung.hs20settings
+,08-17 15:50:50.883  1015  1486 D ActivityManager: retrieveServiceLocked(): component = com.samsung.hs20settings/com.samsung.hs20settings.WifiHs20UtilityService; callingUser = 0; userId(target) = -2
+,08-17 15:50:50.883  1015  1486 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:50.883  1015  1486 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:50.883  1015  1486 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.hs20settings, destAppInfo.processName = com.samsung.hs20settings
+,08-17 15:50:50.893  3608  3608 I Hs20UtilService: Starting #17
+,08-17 15:50:50.893  3608  3625 I Hs20UtilService: Message received 5011
+,08-17 15:50:50.893  6468  6468 D SecurityLogAgent: KnoxConfiguration : Current State = 1
+08-17 15:50:50.893  6468  6468 D SecurityLogAgent: KnoxConfiguration : Current State Mapping Found 
+08-17 15:50:50.893  6468  6468 D SecurityLogAgent: StateMachine : Current State = 1
+08-17 15:50:50.893  6468  6468 D SecurityLogAgent: StateMachine : Changed Current State = 1
+,08-17 15:50:51.003   355   355 I SecureStorage: [INFO]: SPID(0x00000004)Secure Storage Daemon finished processing with result: 0
+,08-17 15:50:51.013  6992  6992 I SecureStorage: [INFO]: SPID(0x00000004)Processing data has been completed,
+,08-17 15:50:51.083  6992  6992 I wpa_supplicant: Ctrl_iface: loading cred from phone
+,08-17 15:50:51.083  6992  6992 I SecureStorage: [INFO]: SPID(0x00000004)Checking if this device supports Secure Storage
+,08-17 15:50:51.093  6992  6992 I SecureStorage: [INFO]: SPID(0x00000004)This device supports Secure Storage,
+08-17 15:50:51.093   355   355 I SecureStorage: [INFO]: SPID(0x00000004)Credentials: uid 1010, gid 1010, pid 6992
+08-17 15:50:51.093   355   355 I SecureStorage: [INFO]: SPID(0x00000004)Received function mask & code: 0x0000010C
+08-17 15:50:51.093  6992  6992 I SecureStorage: [INFO]: SPID(0x00000004)SS Daemon is running
+,08-17 15:50:51.093  6992  6992 I wpa_supplicant: ssSupport state is = 1
+08-17 15:50:51.093  6992  6992 I wpa_supplicant: [set_default_callid]: set_default_callid simnumber = 0,default_callid = 0
+08-17 15:50:51.093  6992  6992 E wpa_supplicant: getIMSI cannot open /data/misc/radio/kmem: No such file or directory
+08-17 15:50:51.093  6992  6992 E wpa_supplicant: SIM READ ERROR,
+08-17 15:50:51.093  6992  6992 I wpa_supplicant: [set_default_callid]: set_default_callid simnumber = 0,default_callid = 0
+08-17 15:50:51.093  6992  6992 E wpa_supplicant: getIMSI cannot open /data/misc/radio/kmem: No such file or directory
+08-17 15:50:51.093  6992  6992 E wpa_supplicant: SIM READ ERROR
+08-17 15:50:51.093  6992  6992 I wpa_supplicant: Blacklist: Clear (all) ,
+08-17 15:50:51.093  6992  6992 I wpa_supplicant: wpa_default_ap_write_once
+08-17 15:50:51.093  6992  6992 I wpa_supplicant: There is no /data/misc/wifi/default_ap.check. Start copy default ap
+08-17 15:50:51.093  6992  6992 I wpa_supplicant: [set_default_callid]: set_default_callid simnumber = 0,default_callid = 0,
+08-17 15:50:51.093  6992  6992 E wpa_supplicant: getSavedIMSI cannot open /data/misc/wifi/.kmem: No such file or directory
+08-17 15:50:51.093  6992  6992 I wpa_supplicant: [set_default_callid]: set_default_callid simnumber = 0,default_callid = 0
+,08-17 15:50:51.093  6992  6992 E wpa_supplicant: getIMSI cannot open /data/misc/radio/kmem: No such file or directory
+08-17 15:50:51.093  6992  6992 I wpa_supplicant: rfkill: Cannot open RFKILL control device
+,08-17 15:50:51.093  1015  1042 D Tethering: interfaceLinkStateChanged wlan0, false,
+08-17 15:50:51.093  1015  1042 I Nat464Xlat: interfaceLinkStateChanged wlan0, false
+08-17 15:50:51.093  1015  1042 D Tethering: interfaceStatusChanged wlan0, false
+,08-17 15:50:51.193  6992  6992 I wpa_supplicant: wlan0: Setting scan request: 0 sec 100000 usec,
+,08-17 15:50:51.323  6992  6992 I wpa_supplicant: wlan0: State: DISCONNECTED -> DISCONNECTED
+,08-17 15:50:51.323  6992  6992 I SecureStorage: [INFO]: SPID(0x00000004)Checking if this device supports Secure Storage
+,08-17 15:50:51.333  6992  6992 I SecureStorage: [INFO]: SPID(0x00000004)This device supports Secure Storage
+,08-17 15:50:51.333   355   355 I SecureStorage: [INFO]: SPID(0x00000004)Credentials: uid 1010, gid 1010, pid 6992
+08-17 15:50:51.333   355   355 I SecureStorage: [INFO]: SPID(0x00000004)Received function mask & code: 0x0000010C
+08-17 15:50:51.333  6992  6992 I SecureStorage: [INFO]: SPID(0x00000004)SS Daemon is running
+08-17 15:50:51.333  6992  6992 I wpa_supplicant: ssSupport state is = 1
+08-17 15:50:51.333  6992  6992 I wpa_supplicant: Ctrl_iface: loading cred from phone
+,08-17 15:50:51.333  6992  6992 I SecureStorage: [INFO]: SPID(0x00000004)Checking if this device supports Secure Storage
+,08-17 15:50:51.353  6992  6992 I SecureStorage: [INFO]: SPID(0x00000004)This device supports Secure Storage,
+08-17 15:50:51.353   355   355 I SecureStorage: [INFO]: SPID(0x00000004)Credentials: uid 1010, gid 1010, pid 6992
+08-17 15:50:51.353   355   355 I SecureStorage: [INFO]: SPID(0x00000004)Received function mask & code: 0x0000010C,
+08-17 15:50:51.353  6992  6992 I SecureStorage: [INFO]: SPID(0x00000004)SS Daemon is running
+08-17 15:50:51.353  6992  6992 I wpa_supplicant: ssSupport state is = 1,
+08-17 15:50:51.353  6992  6992 I wpa_supplicant: [set_default_callid]: set_default_callid simnumber = 0,default_callid = 0
+08-17 15:50:51.353  6992  6992 E wpa_supplicant: getIMSI cannot open /data/misc/radio/kmem: No such file or directory
+08-17 15:50:51.353  6992  6992 E wpa_supplicant: SIM READ ERROR
+08-17 15:50:51.353  6992  6992 I wpa_supplicant: wpa_default_ap_write_once
+,08-17 15:50:51.353  6992  6992 I wpa_supplicant: There is no /data/misc/wifi/default_ap.check. Start copy default ap
+,08-17 15:50:51.353  6992  6992 I wpa_supplicant: rfkill: Cannot open RFKILL control device
+08-17 15:50:51.363  1015  1042 I Nat464Xlat: interfaceLinkStateChanged p2p0, false
+08-17 15:50:51.363  1015  1042 D Tethering: interfaceLinkStateChanged p2p0, false,
+,08-17 15:50:51.363  1015  1042 D Tethering: interfaceStatusChanged p2p0, false
+08-17 15:50:51.363  1015  1042 D Tethering: interfaceLinkStateChanged p2p0, false
+08-17 15:50:51.363  1015  1042 I Nat464Xlat: interfaceLinkStateChanged p2p0, false,
+08-17 15:50:51.363  1015  1042 D Tethering: interfaceStatusChanged p2p0, false
+,08-17 15:50:51.403  6992  6992 I wpa_supplicant: p2p0: State: DISCONNECTED -> INACTIVE,
+08-17 15:50:51.403  6992  6992 I wpa_supplicant: CTRL-EVENT-STATE-CHANGE id=-1 state=2 BSSID=00.00.00 SSID=
+,08-17 15:50:51.463  6992  6992 I wpa_supplicant: p2p0: State: INACTIVE -> DISCONNECTED
+,08-17 15:50:51.463  6992  6992 I wpa_supplicant: CTRL-EVENT-STATE-CHANGE id=-1 state=0 BSSID=00.00.00 SSID=
+08-17 15:50:51.463  6992  6992 I wpa_supplicant: Skip scan - bUseNetwork false
+,08-17 15:50:51.473  1015  1126 E WifiStateMachine: skipWifiStateBroadcast:false, LastBroadcastedWifiState:2
+,08-17 15:50:51.473  1015  1126 D WifiNative-wlan0: callSECApiBoolean - ID [21]
+,08-17 15:50:51.473  6992  6992 I wpa_supplicant: HOTSPOT20_ENABLE called
+08-17 15:50:51.473  6992  6992 I wpa_supplicant: [set_default_callid]: set_default_callid simnumber = 0,default_callid = 0
+08-17 15:50:51.473  6992  6992 E wpa_supplicant: getIMSI cannot open /data/misc/radio/kmem: No such file or directory
+08-17 15:50:51.473  6992  6992 E wpa_supplicant: SIM READ ERROR
+08-17 15:50:51.473  6992  6992 I wpa_supplicant: Blacklist: Clear (all) 
+,08-17 15:50:51.493  6992  6992 I wpa_supplicant: wlan0: Setting scan request: 0 sec 0 usec
+,08-17 15:50:51.503  6992  6992 I wpa_supplicant: Skip scan - bUseNetwork false
+08-17 15:50:51.503  1015  1126 D WifiNative-wlan0: callSECApiInt - ID [210]
+,08-17 15:50:51.503  1015  1126 D WifiConfigStore: Loading config and enabling all networks 
+,08-17 15:50:51.503  1174  1174 D StatusBar.NetworkController: refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f020561/com.android.systemui:drawable/stat_sys_wifi_signal_0 mQSWifiIconId=0x7f020157/com.android.systemui:drawable/ic_qs_wifi_no_network mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+08-17 15:50:51.503  1174  1174 D STATUSBAR-WifiQuickSettingButton: onWifiSignalChanged enabled=true enabledDesc:null
+08-17 15:50:51.503  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:51.503  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:51.503  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:51.503  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,08-17 15:50:51.503  1174  1174 D STATUSBAR-WifiQuickSettingButton: onReceive : android.net.wifi.WIFI_STATE_CHANGED
+08-17 15:50:51.513  1174  1174 D STATUSBAR-WifiQuickSettingButton: Wifi onReceive(3)
+,08-17 15:50:51.513  1174  1721 D STATUSBAR-QSTileView: onStateChanged: Wi-Fi
+,08-17 15:50:51.513  1174  1174 D HotspotTile: onReceive : android.net.wifi.WIFI_STATE_CHANGED
+,08-17 15:50:51.513  1174  1174 D HotspotTile: onReceive : 3, 0
+,08-17 15:50:51.523  1015  1126 E WifiConfigStore: Not a HS20
+08-17 15:50:51.523  1317  1317 D WifiCredService: Action received :android.net.wifi.WIFI_STATE_CHANGED
+,08-17 15:50:51.523  1015  1126 E WifiConfigStore: Error parsing configuration: java.io.FileNotFoundException: /data/misc/wifi/ipconfig.txt: open failed: ENOENT (No such file or directory)
+08-17 15:50:51.523  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: State changed:
+08-17 15:50:51.523  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:51.523  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:51.523  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: true
+08-17 15:50:51.523  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: true
+08-17 15:50:51.523  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: null
+08-17 15:50:51.523  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: false,
+08-17 15:50:51.523  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: false
+,08-17 15:50:51.523  1015  1126 D WifiNative-wlan0: callSECApiInt - ID [65]
+,08-17 15:50:51.533  6195  6195 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: ON, Bluetooth: ON, Wi-Fi: ON, cellular: DO_NOT_CARE, BSSID name: null
+,08-17 15:50:51.533  1015  1474 D ActivityManager: startService callerProcessName:com.samsung.hs20settings, calleePkgName: com.samsung.hs20settings
+,08-17 15:50:51.533  1015  1126 D WifiNative-wlan0: callSECApiBoolean - ID [13]
+08-17 15:50:51.533  6992  6992 I wpa_supplicant: USE_NETWORK : USE_NETWORK ON
+08-17 15:50:51.533  6992  6992 I wpa_supplicant: wlan0: Setting scan request: 8 sec 0 usec
+,08-17 15:50:51.533  1015  1474 D ActivityManager: retrieveServiceLocked(): component = com.samsung.hs20settings/com.samsung.hs20settings.WifiHs20UtilityService; callingUser = 0; userId(target) = -2
+08-17 15:50:51.533  6992  6992 I wpa_supplicant: reset timer : RESET_TIMER 0
+08-17 15:50:51.533  6992  6992 I wpa_supplicant: P2P: Current p2p state = IDLE
+08-17 15:50:51.533  6992  6992 I wpa_supplicant: wlan0: State: DISCONNECTED -> SCANNING
+08-17 15:50:51.533  6992  6992 I wpa_supplicant: CTRL-EVENT-STATE-CHANGE id=-1 state=3 BSSID=00.00.00 SSID=
+08-17 15:50:51.533  6992  6992 I wpa_supplicant: First Scan Start
+08-17 15:50:51.533  6992  6992 I wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+08-17 15:50:51.533  1015  1474 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:51.533  1015  1474 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:51.533  1015  1474 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.hs20settings, destAppInfo.processName = com.samsung.hs20settings
+08-17 15:50:51.533  3608  3608 I Hs20UtilService: Starting #18
+08-17 15:50:51.533  1015  1126 D WifiNative-wlan0: Setting external_sim to 1
+08-17 15:50:51.543  3608  3625 I Hs20UtilService: Message received 5011
+08-17 15:50:51.543  1015  1126 D WifiStateMachine: Setting OUI to DA-A1-19
+08-17 15:50:51.543  1015  1126 I WifiNative-HAL: startHal
+08-17 15:50:51.543  1015  1126 E wifi    : getStaticLongField sWifiHalHandle 0x9ca2288c
+08-17 15:50:51.543  1015  1126 I WifiNative-HAL: Could not start hal
+08-17 15:50:51.543  6410  6410 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+08-17 15:50:51.543  1015  1126 E WifiNative-wlan0: do suspend true
+08-17 15:50:51.543  6468  6468 D SecurityLogAgent: KnoxConfiguration : Current State = 1
+08-17 15:50:51.543  1015  1125 D WifiP2pService: P2pDisabledState{ what=131203 }
+08-17 15:50:51.543  1015  1126 E WifiStateMachine: skipWifiStateBroadcast:false, LastBroadcastedWifiState:3
+08-17 15:50:51.543  1015  1015 D WifiScanningService: SCAN_AVAILABLE : 3
+08-17 15:50:51.553   278  1014 D CommandListener: Setting iface cfg
+08-17 15:50:51.553  1015  1015 D RttService: SCAN_AVAILABLE : 3
+08-17 15:50:51.553  1015  1149 D WifiScanningService: DefaultState got{ when=0 what=160006 target=com.android.internal.util.StateMachine$SmHandler }
+08-17 15:50:51.553   278  1014 D CommandListener: Trying to bring up p2p0
+08-17 15:50:51.553  1015  1149 I WifiNative-HAL: startHal
+08-17 15:50:51.553  1015  1149 E wifi    : getStaticLongField sWifiHalHandle 0x9dcd29bc
+08-17 15:50:51.553  1015  1125 D WifiP2pService: P2pEnablingState
+08-17 15:50:51.553  1015  1149 I WifiNative-HAL: Could not start hal
+08-17 15:50:51.553  1015  1149 E WifiScanningService: could not start HAL
+08-17 15:50:51.553  1015  1150 D RttService: DefaultState got{ when=0 what=160512 target=com.android.internal.util.StateMachine$SmHandler }
+08-17 15:50:51.553  1015  1125 D WifiMonitor: startMonitoring(p2p0) with mConnected = true
+08-17 15:50:51.553  6468  6468 D SecurityLogAgent: KnoxConfiguration : Current State Mapping Found 
+08-17 15:50:51.553  6468  6468 D SecurityLogAgent: StateMachine : Current State = 1
+08-17 15:50:51.553  6468  6468 D SecurityLogAgent: StateMachine : Changed Current State = 1
+08-17 15:50:51.553  1015  1126 E WifiStateMachine: DriverStatedState::CMD_SEC_STRING_API - inner msg [207]
+08-17 15:50:51.553  1015  1126 D WifiNative-wlan0: callSECStringApiVoid - ID [215]
+08-17 15:50:51.553  1015  1126 E WifiNative-wlan0: invaild command id : 215
+08-17 15:50:51.553  1015  1126 E WifiStateMachine: DriverStatedState::CMD_SEC_STRING_API - inner msg [207]
+08-17 15:50:51.553  1015  1126 D WifiNative-wlan0: callSECStringApiVoid - ID [215]
+08-17 15:50:51.553  1015  1126 E WifiNative-wlan0: invaild command id : 215
+08-17 15:50:51.553  1015  1125 D WifiP2pService: P2pEnablingState{ what=147457 }
+08-17 15:50:51.553  6992  6992 I wpa_supplicant: wlan0: CTRL-EVENT-REGDOM-CHANGE init=USER type=COUNTRY alpha2=PL
+08-17 15:50:51.553  1015  1125 D WifiP2pService: P2p socket connection successful
+08-17 15:50:51.553  1015  1125 D WifiP2pService: P2pEnabledState
+08-17 15:50:51.553  6992  6992 I wpa_supplicant: p2p0: CTRL-EVENT-REGDOM-CHANGE init=USER type=COUNTRY alpha2=PL
+08-17 15:50:51.563  6992  6992 I wpa_supplicant: wlan0: CTRL-EVENT-REGDOM-CHANGE init=USER type=UNKNOWN
+08-17 15:50:51.563  1015  1125 D WifiP2pService: sending p2p connection changed broadcast: DISCONNECTED
+08-17 15:50:51.563  1015  1128 E ConnectivityService: updateNetworkInfo()
+08-17 15:50:51.563  1015  1015 E WifiStateMachine: BroadcastReceiver : WIFI_P2P_STATE_CHANGED_ACTION is : android.net.wifi.p2p.STATE_CHANGED
+08-17 15:50:51.563  1015  1045 D WifiDisplayController: Received WIFI_P2P_STATE_CHANGED_ACTION: enabled=true
+08-17 15:50:51.563  1015  1126 D SecContentProvider2: uri = 20 selection = getPromptCredentialsEnabled
+08-17 15:50:51.563  1015  1045 D WifiDisplayController: updateScanState() mScanRequested = false, mWfdEnabled = false, mDiscoverPeersInProgress = false
+08-17 15:50:51.563  1015  1126 D SecContentProvider2: mCursor = null
+08-17 15:50:51.563  1015  1045 D WifiDisplayController: disconnect
+08-17 15:50:51.563  1015  1045 D WifiDisplayController: updateConnection
+08-17 15:50:51.563  1015  1045 D WifiDisplayController: updateScanState() mScanRequested = false, mWfdEnabled = false, mDiscoverPeersInProgress = false
+08-17 15:50:51.563  1015  1045 D WifiDisplayAdapter: getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=2, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo: Client/Owner: Client GroupId:  Passphrase:  SessionId: 0 IP Address: , connectedState=-1, networkQoS=0}
+08-17 15:50:51.563  1174  1174 D AllShareCastTile: action: android.hardware.display.action.WIFI_DISPLAY_STATUS_CHANGED
+08-17 15:50:51.563  1015  1478 D WifiDisplayAdapter: getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=2, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo: Client/Owner: Client GroupId:  Passphrase:  SessionId: 0 IP Address: , connectedState=-1, networkQoS=0}
+08-17 15:50:51.563  1174  1174 D AllShareCastTile: wifi display status changed! scanstate : 0, ActiveDisplayState : 0
+08-17 15:50:51.573  1015  1126 D SecContentProvider2: uri = 20 selection = getPromptCredentialsEnabled
+08-17 15:50:51.573  1015  1126 D SecContentProvider2: mCursor = null
+08-17 15:50:51.573  1015  1045 D WifiDisplayController: Received WIFI_P2P_CONNECTION_CHANGED_ACTION: networkInfo=[type: WIFI_P2P[] - WIFI_P2P, state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+08-17 15:50:51.573  1015  1045 D WifiDisplayAdapter: onP2pDisconnected
+08-17 15:50:51.573  1015  1045 D IpRemoteDisplayController: disconnectWfdBridgeServer
+08-17 15:50:51.573  1015  1125 D WifiNative-p2p0: p2pGetDeviceAddress
+08-17 15:50:51.573  1015  1045 D IpRemoteDisplayController: WfdBridgeServer is already null
+08-17 15:50:51.573  1015  1125 D WifiNative-p2p0: p2pGetDeviceAddress returning 7e:f9:0e:37:96:ac
+08-17 15:50:51.573  1317  1317 D NearbySettings: MountReceiver.onReceive - ACTION: android.net.wifi.p2p.CONNECTION_STATE_CHANGE
+08-17 15:50:51.573  1317  1317 V NearbySettings: DMSUtil.isNetworkConnected - flag-null, state-null
+08-17 15:50:51.583  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - WIFI: DISCONNECTED
+08-17 15:50:51.583  1015  1125 D WifiP2pService: DeviceAddress: 7e:96:ac
+08-17 15:50:51.583  1015  1045 D WifiDisplayController: Received WIFI_P2P_THIS_DEVICE_CHANGED_ACTION: mThisDevice= Device: A5-1
+08-17 15:50:51.583  1015  1045 D WifiDisplayController:  deviceAddress: 7e:f9:0e:37:96:ac
+08-17 15:50:51.583  1015  1045 D WifiDisplayController:  primary type: 10-0050F204-5
+08-17 15:50:51.583  1015  1045 D WifiDisplayController:  secondary type: null
+08-17 15:50:51.583  1015  1045 D WifiDisplayController:  wps: 0
+08-17 15:50:51.583  1015  1045 D WifiDisplayController:  grpcapab: 0
+08-17 15:50:51.583  1015  1045 D WifiDisplayController:  devcapab: 0
+08-17 15:50:51.583  1015  1045 D WifiDisplayController:  status: 3
+08-17 15:50:51.583  1015  1045 D WifiDisplayController:  wfdInfo: null
+08-17 15:50:51.583  1015  1045 D WifiDisplayController:  groupownerAddress: null
+08-17 15:50:51.583  1015  1045 D WifiDisplayController:  GOdeviceName: null
+08-17 15:50:51.583  1015  1045 D WifiDisplayController:  interfaceAddress: 
+08-17 15:50:51.583  1015  1045 D WifiDisplayController:  SConnectInfo : null
+08-17 15:50:51.583  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - P2P: DISCONNECTED
+08-17 15:50:51.583  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - WIFI-false, Hotspot-false, P2P-false, Eth-false
+08-17 15:50:51.583  1317  1317 I NearbySettings: MountReceiver.onReceive - Set preference state off
+08-17 15:50:51.583  1317  3049 V NearbySettings: MountReceiver.mPrefHandler - 7002
+08-17 15:50:51.583  6435  6435 D FileShare-Client: ClientBroadcastReceiver.onReceive - action android.net.wifi.p2p.CONNECTION_STATE_CHANGE // null
+08-17 15:50:51.583  6435  6435 D FileShare-Client: ClientBroadcastReceiver.onReceive - disconnected
+08-17 15:50:51.583  6435  6435 D FileShare-Client: Outbound.stopDelayTimer - 
+08-17 15:50:51.593  6450  6450 D FileShare-Server: ServerBroadcastReceiver.onReceive - action android.net.wifi.p2p.CONNECTION_STATE_CHANGE // null
+,08-17 15:50:51.603  1015  1125 D WifiP2pService: sending p2p persistent groups changed broadcast
+,08-17 15:50:51.603  1015  1125 D WifiP2pService: InactiveState
+,08-17 15:50:51.603  1015  1125 D WifiP2pService: InactiveState{ what=143376 }
+,08-17 15:50:51.603  1015  1125 D WifiP2pService: P2pEnabledState{ what=143376 }
+,08-17 15:50:51.603  6992  6992 I wpa_supplicant: p2p0: CTRL-EVENT-REGDOM-CHANGE init=USER type=COUNTRY alpha2=PL,
+,08-17 15:50:51.603  1015  1125 D WifiP2pService: InactiveState{ what=143376 }
+,08-17 15:50:51.603  1015  1125 D WifiP2pService: P2pEnabledState{ what=143376 },
+,08-17 15:50:51.713  1015  1042 D Tethering: interfaceLinkStateChanged p2p0, false,
+08-17 15:50:51.713  1015  1042 I Nat464Xlat: interfaceLinkStateChanged p2p0, false
+08-17 15:50:51.713  1015  1042 D Tethering: interfaceStatusChanged p2p0, false
+,08-17 15:50:51.753   288   288 E SMD     : DCD OFF
+,08-17 15:50:51.833  1015  3213 D BatteryService: !@BatteryListener : batteryPropertiesChanged!
+,08-17 15:50:51.833  1015  3213 D BatteryService: level:95, scale:100, status:2, health:2, present:true, voltage: 4195, temperature: 287, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303736, invalid charger:0
+08-17 15:50:51.833  1015  3213 D BatteryService: online:4, current avg:0, charge type:1, power sharing:false, high voltage charger:false, capacity:230000, current_now:0
+08-17 15:50:51.833  1015  3213 D BatteryService: stay LED for charging
+08-17 15:50:51.833  1015  1015 D BatteryService: Sending ACTION_BATTERY_CHANGED.
+,08-17 15:50:51.833  1015  1015 I MotionRecognitionService: Plugged
+08-17 15:50:51.833  1015  1015 I MotionRecognitionService: mGripSensorEnabled= false
+,08-17 15:50:51.843  1174  1174 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED,
+,08-17 15:50:51.843  1417  1417 V EmergencyMode: [EmergencyStateReceiver] onReceive : android.intent.action.BATTERY_CHANGED,
+,08-17 15:50:51.843  1174  1174 D KeyguardUpdateMonitor: handleBatteryUpdate
+08-17 15:50:51.843  1417  1417 V EmergencyMode: [EmergencyStateReceiver] ACTION_BATTERY_CHANGED mBatteryLevelForLogging = 95
+,08-17 15:50:51.853  6884  6884 V HeadsetService: HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+,08-17 15:50:51.853  6884  6930 D HeadsetStateMachine: Disconnected process message: 10
+,08-17 15:50:51.863  1174  1174 D BatteryMeterView: ACTION_BATTERY_CHANGED : level:95 status:2 health:2
+,08-17 15:50:51.863  1174  1174 D BatteryMeterView: ACTION_BATTERY_CHANGED : level:95 status:2 health:2
+,08-17 15:50:51.863  1174  1174 D BatteryMeterView: ACTION_BATTERY_CHANGED : level:95 status:2 health:2
+,08-17 15:50:52.333  6195  6247 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: State changed:
+08-17 15:50:52.333  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:52.333  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:52.333  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: true
+08-17 15:50:52.333  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: true
+08-17 15:50:52.333  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: null
+08-17 15:50:52.333  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: false
+08-17 15:50:52.333  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: false
+,08-17 15:50:52.333  6195  6247 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: ON, Bluetooth: ON, Wi-Fi: ON, cellular: DO_NOT_CARE, BSSID name: null
+,08-17 15:50:52.333  6195  6247 D io.jxcore.node.LifeCycleMonitor: onActivityCreated: Bundle[{}]
+,08-17 15:50:52.343  6195  6247 D io.jxcore.node.LifeCycleMonitor: onActivityResumed
+,08-17 15:50:52.343  6195  6247 D io.jxcore.node.LifeCycleMonitor: onActivitySaveInstanceState: com.test.thalitest.MainActivity@1b5e9b35 Bundle[{}]
+,08-17 15:50:52.343  6195  6247 I io.jxcore.node.LifeCycleMonitor: start: OK
+,08-17 15:50:52.343  6195  6247 I io.jxcore.node.LifeCycleMonitor: stop: OK
+,08-17 15:50:52.343  6195  6247 D io.jxcore.node.LifeCycleMonitor: onActivityStarted
+,08-17 15:50:52.343  6195  6247 D io.jxcore.node.LifeCycleMonitor: onActivityStopped
+,08-17 15:50:52.343  6195  6247 D io.jxcore.node.LifeCycleMonitor: onActivityDestroyed
+,08-17 15:50:52.353  6195  6247 D io.jxcore.node.LifeCycleMonitor: onActivityPaused
+,08-17 15:50:52.353  6195  6247 I System.out: Running OutgoingSocketThread
+,08-17 15:50:52.353  6195  7001 D io.jxcore.node.OutgoingSocketThread: Entering thread (ID: 1167)
+,08-17 15:50:52.363  6195  7001 D io.jxcore.node.OutgoingSocketThread: Server socket local port: 42239
+,08-17 15:50:52.363  6195  7001 I io.jxcore.node.OutgoingSocketThread: Now accepting connections...
+,08-17 15:50:52.753  6992  6992 I wpa_supplicant: nl80211: Received scan results (15 BSSes),
+08-17 15:50:52.753  6992  6992 I wpa_supplicant: wlan0: Setting scan request: 8 sec 0 usec
+08-17 15:50:52.753  6992  6992 I wpa_supplicant: Trying to associate with SSID '4E47373030'
+08-17 15:50:52.753  6992  6992 I wpa_supplicant: Trying to associate with  'G700',
+08-17 15:50:52.753  6992  6992 I wpa_supplicant: wlan0: State: SCANNING -> ASSOCIATING
+08-17 15:50:52.753  6992  6992 I wpa_supplicant: CTRL-EVENT-STATE-CHANGE id=0 state=5 BSSID=00.00.00 SSID=4E47373030
+08-17 15:50:52.753  1015  6998 D WifiMonitor: didn't find BSSID Trying to associate with SSID 'NG700'
+,08-17 15:50:52.773  1015  1126 D SecContentProvider2: uri = 20 selection = getPromptCredentialsEnabled
+08-17 15:50:52.773  1015  1126 D SecContentProvider2: mCursor = null
+,08-17 15:50:52.883  6992  6992 E wpa_supplicant: Cmd 35605 not handled
+,08-17 15:50:52.883  6992  6992 I wpa_supplicant: wlan0: RX EAPOL from f4:f2:6d:22:99:3e
+08-17 15:50:52.883  6992  6992 I wpa_supplicant: wlan0: Not associated - Delay processing of received EAPOL frame (state=ASSOCIATING bssid=00:00:00:00:00:00)
+08-17 15:50:52.883  6992  6992 I wpa_supplicant: wlan0: State: ASSOCIATING -> ASSOCIATED
+08-17 15:50:52.883  1015  1042 I Nat464Xlat: interfaceLinkStateChanged wlan0, false
+08-17 15:50:52.883  1015  1042 D Tethering: interfaceLinkStateChanged wlan0, false
+08-17 15:50:52.883  1015  1042 D Tethering: interfaceStatusChanged wlan0, false
+08-17 15:50:52.883  6992  6992 I wpa_supplicant: CTRL-EVENT-STATE-CHANGE id=0 state=6 BSSID=00.00.00 SSID=4E47373030
+08-17 15:50:52.883  6992  6992 I wpa_supplicant: Associated with F4.99.3E
+08-17 15:50:52.883  6992  6992 I wpa_supplicant: wlan0: RX EAPOL from f4:f2:6d:22:99:3e
+08-17 15:50:52.883  6992  6992 I wpa_supplicant: wlan0: State: ASSOCIATED -> 4WAY_HANDSHAKE
+08-17 15:50:52.883  6992  6992 I wpa_supplicant: CTRL-EVENT-STATE-CHANGE id=0 state=7 BSSID=F4.99.3E SSID=4E47373030
+,08-17 15:50:52.883  1015  1042 I Nat464Xlat: interfaceLinkStateChanged wlan0, false
+,08-17 15:50:52.883  1015  1042 D Tethering: interfaceLinkStateChanged wlan0, false
+,08-17 15:50:52.883  1015  1042 D Tethering: interfaceStatusChanged wlan0, false
+,08-17 15:50:52.883  1015  1042 I Nat464Xlat: interfaceLinkStateChanged wlan0, false
+,08-17 15:50:52.883  1015  1042 D Tethering: interfaceLinkStateChanged wlan0, false,
+08-17 15:50:52.883  1015  1042 D Tethering: interfaceStatusChanged wlan0, false
+,08-17 15:50:52.893  1015  1042 D Tethering: interfaceLinkStateChanged wlan0, true
+08-17 15:50:52.893  1015  1042 I Nat464Xlat: interfaceLinkStateChanged wlan0, true
+08-17 15:50:52.893  1015  1042 D Tethering: interfaceStatusChanged wlan0, true
+08-17 15:50:52.893  6992  6992 I wpa_supplicant: wlan0: RX EAPOL from f4:f2:6d:22:99:3e
+08-17 15:50:52.893  6992  6992 I wpa_supplicant: wlan0: State: 4WAY_HANDSHAKE -> 4WAY_HANDSHAKE
+08-17 15:50:52.893  6992  6992 I wpa_supplicant: wlan0: State: 4WAY_HANDSHAKE -> GROUP_HANDSHAKE
+,08-17 15:50:52.893  6992  6992 I wpa_supplicant: CTRL-EVENT-STATE-CHANGE id=0 state=8 BSSID=F4.99.3E SSID=4E47373030,
+08-17 15:50:52.893  6992  6992 I wpa_supplicant: wlan0: WPA: Key negotiation completed with f4:f2:6d:22:99:3e [PTK=CCMP GTK=CCMP]
+08-17 15:50:52.893  1015  1130 E Tethering: No numeric data
+08-17 15:50:52.893  6992  6992 I wpa_supplicant: wlan0: State: GROUP_HANDSHAKE -> COMPLETED
+08-17 15:50:52.893  6992  6992 I wpa_supplicant: CTRL-EVENT-CONNECTED - Connection to F4.99.3E completed (auth) [id=0 id_str=]
+08-17 15:50:52.893  1015  1130 D Tethering: sendTetherStateChangedBroadcast 1, 0, 0
+08-17 15:50:52.893  6992  6992 I wpa_supplicant: Blacklist: Clear (temp) 
+08-17 15:50:52.893  1015  1042 I Nat464Xlat: interfaceLinkStateChanged wlan0, true
+08-17 15:50:52.893  1015  1130 D Tethering: clearTetheredNotification()
+08-17 15:50:52.893  6992  6992 I wpa_supplicant: CTRL-EVENT-STATE-CHANGE id=0 state=9 BSSID=F4.99.3E SSID=4E47373030
+08-17 15:50:52.893  1015  1126 D SecContentProvider2: uri = 20 selection = getPromptCredentialsEnabled
+08-17 15:50:52.893  1015  1126 D SecContentProvider2: mCursor = null
+08-17 15:50:52.903  1015  1042 D Tethering: interfaceLinkStateChanged wlan0, true
+,08-17 15:50:52.903  1015  1042 D Tethering: interfaceStatusChanged wlan0, true
+08-17 15:50:52.903  1015  1123 V NetworkStats: performPollLocked(flags=0x1),
+08-17 15:50:52.903  1015  1123 D NtpTrustedTime: currentTimeMillis() cache hit
+,08-17 15:50:52.903  1015  1123 D NetworkStatsFactory: UpdateStatsForKnox updated
+08-17 15:50:52.903  1015  1123 D NetworkStatsFactory: UpdateStatsForKnox main else ---
+,08-17 15:50:52.903  1174  1174 D HotspotTile: onReceive : android.net.conn.TETHER_STATE_CHANGED
+08-17 15:50:52.903  1174  1174 D HotspotTile: updateTetherState():false, false
+,08-17 15:50:52.903  1015  1126 D WifiNative-wlan0: callSECApiVoid - ID [50]
+,08-17 15:50:52.913  1015  1123 V NetworkStats: performPollLocked() took 9ms
+,08-17 15:50:52.913  1015  1123 D NtpTrustedTime: currentTimeMillis() cache hit
+,08-17 15:50:52.913  1015  1126 E WifiConfigStore: setLastSelectedConfiguration -1
+,08-17 15:50:52.913  1015  1126 D ConnectivityService: registerNetworkAgent NetworkAgentInfo{ ni{[type: WIFI[] - WIFI, state: CONNECTING/CONNECTING, reason: (unspecified), extra: "NG700", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]}  network{null}  lp{{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,4525824,524288,1048576,4525824}}  nc{[ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps]}  Score{60} validated{false} created{false} explicitlySelected{false} },
+,08-17 15:50:52.913  1015  1128 D ConnectivityService: hsengiv:checkWhatTypeOfNetwork and the value is false,
+08-17 15:50:52.913  1015  1128 D ConnectivityService: NetworkAgentInfo [WIFI () - 503] EVENT_NETWORK_INFO_CHANGED, going from null to CONNECTING, reason = null, [ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps]
+,08-17 15:50:52.913  1015  1128 E ConnectivityService: updateNetworkInfo()
+,08-17 15:50:52.923  1174  1174 D StatusBar.NetworkController: refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f020561/com.android.systemui:drawable/stat_sys_wifi_signal_0 mQSWifiIconId=0x7f020157/com.android.systemui:drawable/ic_qs_wifi_no_network mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+,08-17 15:50:52.923  1174  1174 D STATUSBAR-WifiQuickSettingButton: onWifiSignalChanged enabled=true enabledDesc:null
+08-17 15:50:52.923  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,08-17 15:50:52.923  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:52.923  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:52.923  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,08-17 15:50:52.923  1015  1126 E WifiConfigStore: saveWifiConfigBSSID Setting BSSID for "NG700"WPA_PSK to any
+08-17 15:50:52.923  1015  1218 D ActivityManager: startService callerProcessName:com.samsung.hs20settings, calleePkgName: com.samsung.hs20settings
+08-17 15:50:52.923  1015  1218 D ActivityManager: retrieveServiceLocked(): component = com.samsung.hs20settings/com.samsung.hs20settings.WifiHs20UtilityService; callingUser = 0; userId(target) = -2
+,08-17 15:50:52.923  1015  1218 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:52.933  1015  1218 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+,08-17 15:50:52.933  1015  1218 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.hs20settings, destAppInfo.processName = com.samsung.hs20settings
+,08-17 15:50:52.933  3608  3608 I Hs20UtilService: Starting #19
+,08-17 15:50:52.933  3608  3625 I Hs20UtilService: Message received 5007
+08-17 15:50:52.933  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+08-17 15:50:52.933  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+,08-17 15:50:52.943  1317  1317 D NearbySettings: MountReceiver.onReceive - ACTION: android.net.wifi.STATE_CHANGE
+,08-17 15:50:52.943  1015  1126 E WifiConfigStore: saveWifiConfigBSSID Setting BSSID for "NG700"WPA_PSK to any
+,08-17 15:50:52.943  1317  1317 V NearbySettings: DMSUtil.isNetworkConnected - flag-null, state-null
+,08-17 15:50:52.943  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - WIFI: DISCONNECTED
+08-17 15:50:52.943  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - P2P: DISCONNECTED
+,08-17 15:50:52.943  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - WIFI-false, Hotspot-false, P2P-false, Eth-false
+08-17 15:50:52.943  1317  1317 I NearbySettings: MountReceiver.onReceive - Set preference state off
+08-17 15:50:52.943  1317  3049 V NearbySettings: MountReceiver.mPrefHandler - 7002
+,08-17 15:50:52.953   278  1014 D CommandListener: Setting iface cfg
+,08-17 15:50:52.953  1015  1126 E WifiStateMachine: Start Dhcp Watchdog 2
+,08-17 15:50:52.963  1015  1126 D SecContentProvider2: uri = 20 selection = getPromptCredentialsEnabled
+,08-17 15:50:52.963  1015  1126 D SecContentProvider2: mCursor = null
+,08-17 15:50:52.963  1015  1126 D SecContentProvider2: uri = 20 selection = getPromptCredentialsEnabled
+,08-17 15:50:52.963  1015  1126 D SecContentProvider2: mCursor = null
+,08-17 15:50:52.983  1174  1174 D StatusBar.NetworkController: refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f020561/com.android.systemui:drawable/stat_sys_wifi_signal_0 mQSWifiIconId=0x7f020157/com.android.systemui:drawable/ic_qs_wifi_no_network mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+,08-17 15:50:52.983  1174  1174 D STATUSBAR-WifiQuickSettingButton: onWifiSignalChanged enabled=true enabledDesc:null
+,08-17 15:50:52.983  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,08-17 15:50:52.983  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,08-17 15:50:52.983  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,08-17 15:50:52.983  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,08-17 15:50:52.993  1015  1126 E WifiNative-wlan0: do suspend false
+,08-17 15:50:52.993  1015  1126 D SecContentProvider2: uri = 20 selection = getPromptCredentialsEnabled
+08-17 15:50:52.993  1015  1126 D SecContentProvider2: mCursor = null
+,08-17 15:50:52.993  1015  1125 D WifiP2pService: InactiveState{ what=143375 }
+,08-17 15:50:52.993  1015  1125 D WifiP2pService: P2pEnabledState{ what=143375 }
+,08-17 15:50:53.203  7005  7005 E dhcpcd  : fopen `/system/etc/dhcpcd/dhcpcd.conf': No such file or directory
+,08-17 15:50:53.213  7005  7005 I dhcpcd  : version 5.5.6 starting
+,08-17 15:50:53.213  7005  7005 E dhcpcd  : fopen `/system/etc/dhcpcd/dhcpcd.conf': No such file or directory,
+,08-17 15:50:53.273  7005  7005 I dhcpcd  : wlan0: sending IPv6 Router Solicitation,
+08-17 15:50:53.273  7005  7005 E dhcpcd  : wlan0: sendmsg: Cannot assign requested address
+08-17 15:50:53.273  7005  7005 I dhcpcd  : if(wlan0) info get Success. (MAC : F4.99.3E)
+08-17 15:50:53.273  7005  7005 I dhcpcd  : bssid match,
+,08-17 15:50:53.273  7005  7005 I dhcpcd  : wlan0: rebinding lease of 192.168.1.111
+,08-17 15:50:53.333  7005  7005 I dhcpcd  : wlan0: acknowledged 192.168.1.111 from 192.168.1.1
+,08-17 15:50:53.353  6195  6247 I io.jxcore.node.OutgoingSocketThread: close (thread ID: 1168)
+08-17 15:50:53.353  6195  6247 I io.jxcore.node.OutgoingSocketThread: close: Complete (thread ID: 1168)
+,08-17 15:50:53.363  6195  6247 I io.jxcore.node.SocketThreadBase: close: Complete (thread ID: 1173),
+08-17 15:50:53.363  6195  6247 V io.jxcore.node.SocketThreadBase: close: Closing the localhost socket...
+08-17 15:50:53.363  6195  6247 I io.jxcore.node.SocketThreadBase: close: Complete (thread ID: 1174),
+08-17 15:50:53.363  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: load: Already loaded
+08-17 15:50:53.363  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@38dd2715 added. We now have 2 listener(s)
+,08-17 15:50:53.363  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.AbstractBluetoothConnectivityAgent: verifyIdentityString: One or more of the following values are invalid: Peer name: "<no peer name>", Bluetooth MAC address: "7C:F9:0E:37:96:AB"
+,08-17 15:50:53.373  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: BluetoothConnector: Bluetooth name: Thali_Bluetooth, service record UUID: fa87c0d0-afac-11de-8a39-0800200c9a66
+,08-17 15:50:53.373  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: setIdentityString: 
+,08-17 15:50:53.373  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: load: Already loaded
+,08-17 15:50:53.373  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@27503a2a added. We now have 9 listener(s)
+,08-17 15:50:53.373  6195  6247 D org.thaliproject.p2p.btconnectorlib.utils.PeerModel: addListener: New listener added - the number of listeners is now 1
+,08-17 15:50:53.373  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: setDiscoveryMode: Discovery mode BLE is supported
+,08-17 15:50:53.373  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: bind: Binding a new listener
+,08-17 15:50:53.383  6195  6247 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: FORCED notification:
+08-17 15:50:53.383  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:53.383  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:53.383  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: true
+08-17 15:50:53.383  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: true
+08-17 15:50:53.383  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: null
+08-17 15:50:53.383  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: false
+08-17 15:50:53.383  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: false
+,08-17 15:50:53.383  6195  6247 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: ON, Bluetooth: ON, Wi-Fi: ON, cellular: DO_NOT_CARE, BSSID name: null,
+08-17 15:50:53.383  6195  6247 D io.jxcore.node.ConnectivityMonitor: start: OK
+,08-17 15:50:53.383  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: load: Already loaded
+08-17 15:50:53.383  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@195535b8 added. We now have 3 listener(s)
+,08-17 15:50:53.383  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes,
+,08-17 15:50:53.393  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:53.393  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.AbstractBluetoothConnectivityAgent: verifyIdentityString: One or more of the following values are invalid: Peer name: "<no peer name>", Bluetooth MAC address: "7C:F9:0E:37:96:AB",
+08-17 15:50:53.393  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: BluetoothConnector: Bluetooth name: Thali_Bluetooth, service record UUID: fa87c0d0-afac-11de-8a39-0800200c9a66
+08-17 15:50:53.393  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: setIdentityString: ,
+08-17 15:50:53.393  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: load: Already loaded
+,08-17 15:50:53.393  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@3f61f91 added. We now have 10 listener(s)
+08-17 15:50:53.393  6195  6247 D org.thaliproject.p2p.btconnectorlib.utils.PeerModel: addListener: New listener added - the number of listeners is now 1
+,08-17 15:50:53.393  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections,
+08-17 15:50:53.393  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:53.393  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: The current state already matches the desired outcome of this operation, skipping...
+,08-17 15:50:53.393  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:53.393  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed,
+08-17 15:50:53.393  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 2 listener(s) left
+08-17 15:50:53.393  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: shutdown: Shutting down...
+08-17 15:50:53.393  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@38dd2715 removed from the list
+,08-17 15:50:53.393  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:53.393  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@27503a2a removed from the list
+08-17 15:50:53.393  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+,08-17 15:50:53.393  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:53.393  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:53.393  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:53.393  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+,08-17 15:50:53.393  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:53.393  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+,08-17 15:50:53.393  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@27503a2a not in the list
+08-17 15:50:53.393  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+,08-17 15:50:53.393  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:53.393  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+,08-17 15:50:53.393  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:53.393  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:53.393  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@3f61f91 removed from the list
+,08-17 15:50:53.393  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:53.393  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:53.393  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+,08-17 15:50:53.393  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: shutdown: Shutting down...
+08-17 15:50:53.393  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@195535b8 removed from the list
+08-17 15:50:53.393  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: load: Already loaded
+08-17 15:50:53.393  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@288fcef6 added. We now have 2 listener(s)
+,08-17 15:50:53.403  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.AbstractBluetoothConnectivityAgent: verifyIdentityString: One or more of the following values are invalid: Peer name: "<no peer name>", Bluetooth MAC address: "7C:F9:0E:37:96:AB"
+,08-17 15:50:53.403  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: BluetoothConnector: Bluetooth name: Thali_Bluetooth, service record UUID: fa87c0d0-afac-11de-8a39-0800200c9a66
+08-17 15:50:53.403  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: setIdentityString: 
+08-17 15:50:53.403  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: load: Already loaded
+08-17 15:50:53.403  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@1e8e42f7 added. We now have 9 listener(s)
+,08-17 15:50:53.403  6195  6247 D org.thaliproject.p2p.btconnectorlib.utils.PeerModel: addListener: New listener added - the number of listeners is now 1
+08-17 15:50:53.403  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: setDiscoveryMode: Discovery mode BLE is supported
+08-17 15:50:53.403  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: bind: Binding a new listener
+,08-17 15:50:53.403  6195  6247 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: FORCED notification:
+08-17 15:50:53.403  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:53.403  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:53.403  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: true
+08-17 15:50:53.403  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: true
+08-17 15:50:53.403  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: null
+08-17 15:50:53.403  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: false
+08-17 15:50:53.403  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: false
+,08-17 15:50:53.413  7005  7005 I dhcpcd  : wlan0: leased 192.168.1.111 for 172800 seconds
+,08-17 15:50:53.413  6195  6247 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: ON, Bluetooth: ON, Wi-Fi: ON, cellular: DO_NOT_CARE, BSSID name: null
+08-17 15:50:53.413  6195  6247 D io.jxcore.node.ConnectivityMonitor: start: OK
+08-17 15:50:53.413  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: load: Already loaded
+08-17 15:50:53.413  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@3ecc23cd added. We now have 3 listener(s)
+,08-17 15:50:53.413  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.AbstractBluetoothConnectivityAgent: verifyIdentityString: One or more of the following values are invalid: Peer name: "<no peer name>", Bluetooth MAC address: "7C:F9:0E:37:96:AB"
+08-17 15:50:53.413  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: BluetoothConnector: Bluetooth name: Thali_Bluetooth, service record UUID: fa87c0d0-afac-11de-8a39-0800200c9a66
+08-17 15:50:53.413  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: setIdentityString: 
+08-17 15:50:53.413  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: load: Already loaded
+08-17 15:50:53.413  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2d61e482 added. We now have 10 listener(s)
+08-17 15:50:53.413  6195  6247 D org.thaliproject.p2p.btconnectorlib.utils.PeerModel: addListener: New listener added - the number of listeners is now 1
+08-17 15:50:53.413  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Start operation: Should affect listening to advertisements only
+08-17 15:50:53.413  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: Executing: Start operation: Should affect listening to advertisements only
+08-17 15:50:53.413  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: Discovery mode: BLE, start discovery: true, start advertiser: false
+08-17 15:50:53.413  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: bind: Binding a new listener
+08-17 15:50:53.413  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.wifi.WifiDirectManager: bind: Binding a new listener
+,08-17 15:50:53.423  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:53.423  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManager: getBlePeerDiscovererInstanceAndCheckBluetoothMacAddress: Constructing...
+08-17 15:50:53.423  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:53.423  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleAdvertiser: setAdvertiseSettings: Mode: 2, Tx power level: 3, timeout: 0, is connectable: false
+,08-17 15:50:53.433  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: setScanSettings: Mode: 2, report delay in milliseconds: 500, scan result type: 0
+,08-17 15:50:53.433  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: startScanner: Starting...
+08-17 15:50:53.433  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoveryUtils: createScanFilter: No service UUID, use manufacturer ID: true
+08-17 15:50:53.433  6195  6247 V org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoveryUtils: createScanFilter: BluetoothLeScanFilter [mDeviceName=null, mDeviceAddress=null, mUuid=null, mUuidMask=null, mServiceDataUuid=null, mServiceData=null, mServiceDataMask=null, mManufacturerId=7413, mManufacturerData=null, mManufacturerDataMask=null]
+,08-17 15:50:53.443  6884  6971 D BtGatt.GattService: registerClient() - UUID=1c8d2422-5e61-4ce8-914f-231f2d0bd2b7,
+,08-17 15:50:53.483  6884  6925 D BtGatt.GattService: onClientRegistered() - UUID=1c8d2422-5e61-4ce8-914f-231f2d0bd2b7, clientIf=6
+,08-17 15:50:53.483  6195  6203 D BluetoothLeScanner: onClientRegistered() - status=0 clientIf=6,
+,08-17 15:50:53.483  6884  6965 D BtGatt.GattService: start scan with filters
+,08-17 15:50:53.493  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: setState: State changed from NOT_STARTED to RUNNING
+08-17 15:50:53.493  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: onIsScannerStartedChanged: true
+08-17 15:50:53.493  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: updateState: State changed from [NOT_STARTED] to [SCANNING]
+08-17 15:50:53.493  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: onBlePeerDiscovererStateChanged: [NOT_STARTED] -> [SCANNING]
+,08-17 15:50:53.493  6884  6929 D BtGatt.ScanManager: handling starting scan
+,08-17 15:50:53.493  6884  6929 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@9aa4f4b
+,08-17 15:50:53.493  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: updateState: State: RUNNING_BLE, is discovering: true, is advertising: false
+08-17 15:50:53.493  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: startBlePeerDiscoverer: OK
+,08-17 15:50:53.493  6195  6195 I io.jxcore.node.ConnectionHelper: onDiscoveryManagerStateChanged: State: RUNNING_BLE, is discovering: true, is advertising: false
+,08-17 15:50:53.493  6884  6925 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=6, status=0, action=1
+08-17 15:50:53.493  6884  6925 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+08-17 15:50:53.493  6884  6929 D BtGatt.ScanManager: allow scan with filters
+,08-17 15:50:53.493  6884  6929 D BtGatt.ScanManager: client filter size is = 1available filters are = 13
+08-17 15:50:53.503  6884  6929 D BtGatt.ScanManager: set filter index= 3 for clientIf= 6
+08-17 15:50:53.503  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: OK
+08-17 15:50:53.503  6884  6925 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=6, status=0, action=0, availableSpace=15
+08-17 15:50:53.503  6884  6925 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+08-17 15:50:53.503  6884  6929 D BtGatt.ScanManager: Starting BLE batch scan
+08-17 15:50:53.503  6884  6929 D BtGatt.ScanManager: configuring batch scan storage, appIf 6
+08-17 15:50:53.503  6195  6247 W io.jxcore.node.StartStopOperationHandler: executeStartOperation: Cancelling a pending operation
+08-17 15:50:53.503  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: RUNNING_BLE, is discovering: true, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:53.503  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: Executing: Stop operation: Should start/stop everything
+08-17 15:50:53.503  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:53.503  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 3 listener(s) left
+08-17 15:50:53.503  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: cancelAllConnectionAttempts
+08-17 15:50:53.503  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stop: Stopping peer discovery...
+08-17 15:50:53.503  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopForRestart
+08-17 15:50:53.503  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.BluetoothMacAddressResolutionHelper: stopProvideBluetoothMacAddressMode
+08-17 15:50:53.503  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: stopScannerAndAdvertiser
+08-17 15:50:53.503  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: stopScanner: Stopping...
+,08-17 15:50:53.503  6884  6974 D BtGatt.GattService: stopScan() - queue size =1
+,08-17 15:50:53.503  6884  6893 D BtGatt.GattService: unregisterClient() - clientIf=6
+,08-17 15:50:53.513  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: stop: Stopped
+,08-17 15:50:53.513  6884  6925 D BtGatt.GattService: onBatchScanStorageConfigured() - clientIf=6, status=0
+08-17 15:50:53.513  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: setState: State changed from RUNNING to NOT_STARTED
+08-17 15:50:53.513  6884  6925 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+08-17 15:50:53.513  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: onIsScannerStartedChanged: false
+,08-17 15:50:53.513  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: updateState: State changed from [SCANNING] to [NOT_STARTED]
+08-17 15:50:53.513  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: onBlePeerDiscovererStateChanged: [SCANNING] -> [NOT_STARTED]
+,08-17 15:50:53.513  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: updateState: State: NOT_STARTED, is discovering: false, is advertising: false
+,08-17 15:50:53.513  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleAdvertiser: stop: Stopped
+,08-17 15:50:53.513  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopBlePeerDiscoverer: Stopped
+08-17 15:50:53.513  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.wifi.WifiDirectManager: release: No more listeners, de-initializing...
+,08-17 15:50:53.513  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 2 listener(s) left
+,08-17 15:50:53.513  6884  6925 D BtGatt.GattService: onBatchScanStartStopped() - clientIf=6, status=0, startStopAction=1
+,08-17 15:50:53.513  6884  6925 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+,08-17 15:50:53.523  6195  6195 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: Discovery mode: BLE, start discovery: false, start advertiser: false
+08-17 15:50:53.523  6195  6195 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: Discovery mode: BLE, start discovery: false, start advertiser: false
+08-17 15:50:53.523  6195  6195 I io.jxcore.node.ConnectionHelper: onDiscoveryManagerStateChanged: State: NOT_STARTED, is discovering: false, is advertising: false
+,08-17 15:50:53.523  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+08-17 15:50:53.523  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:53.523  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: The current state already matches the desired outcome of this operation, skipping...
+08-17 15:50:53.523  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:53.523  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:53.523  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 2 listener(s) left
+08-17 15:50:53.523  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: shutdown: Shutting down...
+08-17 15:50:53.523  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@288fcef6 removed from the list
+08-17 15:50:53.523  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:53.523  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@1e8e42f7 removed from the list
+08-17 15:50:53.523  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+08-17 15:50:53.523  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+,08-17 15:50:53.523  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:53.523  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+,08-17 15:50:53.533  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:53.533  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:53.533  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:53.533  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@1e8e42f7 not in the list
+08-17 15:50:53.533  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:53.533  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+,08-17 15:50:53.543  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery,
+08-17 15:50:53.543  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:53.543  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:53.543  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@2d61e482 removed from the list
+08-17 15:50:53.543  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:53.543  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+,08-17 15:50:53.543  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:53.543  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: shutdown: Shutting down...
+08-17 15:50:53.543  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@3ecc23cd removed from the list
+08-17 15:50:53.543  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: load: Already loaded
+08-17 15:50:53.543  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@214dc6ce added. We now have 2 listener(s)
+,08-17 15:50:53.543  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.AbstractBluetoothConnectivityAgent: verifyIdentityString: One or more of the following values are invalid: Peer name: "<no peer name>", Bluetooth MAC address: "7C:F9:0E:37:96:AB"
+,08-17 15:50:53.543  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: BluetoothConnector: Bluetooth name: Thali_Bluetooth, service record UUID: fa87c0d0-afac-11de-8a39-0800200c9a66
+08-17 15:50:53.543  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: setIdentityString: 
+08-17 15:50:53.543  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: load: Already loaded
+08-17 15:50:53.543  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@320499ef added. We now have 9 listener(s)
+08-17 15:50:53.543  6195  6247 D org.thaliproject.p2p.btconnectorlib.utils.PeerModel: addListener: New listener added - the number of listeners is now 1
+,08-17 15:50:53.543  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: setDiscoveryMode: Discovery mode BLE is supported
+,08-17 15:50:53.553  6884  6929 D BtGatt.ScanManager: 1. app : com.android.bluetooth 2. Action : LESC 3. Callng app : com.test.thalitest 4. Count : 42
+,08-17 15:50:53.553  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: bind: Binding a new listener
+,08-17 15:50:53.553  6884  6929 D BtGatt.ScanManager: filter size is 1
+08-17 15:50:53.553  6884  6929 D BtGatt.ScanManager: delete FilterIndex - 3
+,08-17 15:50:53.563  6884  6925 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=6, status=0, action=1, availableSpace=16
+08-17 15:50:53.563  6884  6925 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+08-17 15:50:53.563  6884  6929 D BtGatt.ScanManager: stopping BLe Batch
+,08-17 15:50:53.563  6195  6247 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: FORCED notification:
+08-17 15:50:53.563  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:53.563  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:53.563  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: true
+08-17 15:50:53.563  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: true
+08-17 15:50:53.563  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: null
+08-17 15:50:53.563  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: false
+08-17 15:50:53.563  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: false
+,08-17 15:50:53.563  6884  6925 D BtGatt.GattService: onBatchScanStartStopped() - clientIf=6, status=0, startStopAction=0
+,08-17 15:50:53.563  6884  6925 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+,08-17 15:50:53.563  6884  6929 D BtGatt.ScanManager: flushPendingBatchResults - clientIf = 6
+,08-17 15:50:53.563  6884  6925 D BtGatt.GattService: onBatchScanReports() - clientIf=6, status=0, reportType=2, numRecords=0
+08-17 15:50:53.563  6884  6925 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+,08-17 15:50:53.573  6195  6247 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: ON, Bluetooth: ON, Wi-Fi: ON, cellular: DO_NOT_CARE, BSSID name: null
+08-17 15:50:53.573  6195  6247 D io.jxcore.node.ConnectivityMonitor: start: OK
+,08-17 15:50:53.573  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: load: Already loaded
+08-17 15:50:53.573  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@2396ff85 added. We now have 3 listener(s)
+,08-17 15:50:53.573  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:53.583  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:53.583  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.AbstractBluetoothConnectivityAgent: verifyIdentityString: One or more of the following values are invalid: Peer name: "<no peer name>", Bluetooth MAC address: "7C:F9:0E:37:96:AB"
+,08-17 15:50:53.583  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: BluetoothConnector: Bluetooth name: Thali_Bluetooth, service record UUID: fa87c0d0-afac-11de-8a39-0800200c9a66
+08-17 15:50:53.583  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: setIdentityString: 
+08-17 15:50:53.583  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: load: Already loaded
+08-17 15:50:53.583  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@f0381da added. We now have 10 listener(s)
+,08-17 15:50:53.583  6195  6247 D org.thaliproject.p2p.btconnectorlib.utils.PeerModel: addListener: New listener added - the number of listeners is now 1
+08-17 15:50:53.583  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Start operation: Should affect listening to advertisements only
+08-17 15:50:53.583  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Start operation: Should affect listening to advertisements only
+08-17 15:50:53.583  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: Executing: Start operation: Should affect listening to advertisements only
+,08-17 15:50:53.583  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: Discovery mode: BLE, start discovery: true, start advertiser: false
+08-17 15:50:53.583  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: bind: Binding a new listener
+08-17 15:50:53.583  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.wifi.WifiDirectManager: bind: Binding a new listener
+,08-17 15:50:53.583  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManager: getBlePeerDiscovererInstanceAndCheckBluetoothMacAddress: Constructing...,
+,08-17 15:50:53.603  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleAdvertiser: setAdvertiseSettings: Mode: 2, Tx power level: 3, timeout: 0, is connectable: false
+08-17 15:50:53.603  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: setScanSettings: Mode: 2, report delay in milliseconds: 500, scan result type: 0
+,08-17 15:50:53.603  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: startScanner: Starting...,
+08-17 15:50:53.603  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoveryUtils: createScanFilter: No service UUID, use manufacturer ID: true
+08-17 15:50:53.603  6195  6247 V org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoveryUtils: createScanFilter: BluetoothLeScanFilter [mDeviceName=null, mDeviceAddress=null, mUuid=null, mUuidMask=null, mServiceDataUuid=null, mServiceData=null, mServiceDataMask=null, mManufacturerId=7413, mManufacturerData=null, mManufacturerDataMask=null],
+,08-17 15:50:53.613  6884  6972 D BtGatt.GattService: registerClient() - UUID=cc501c99-6bcc-43d2-9746-dda526a9d377
+,08-17 15:50:53.653  6884  6925 D BtGatt.GattService: onClientRegistered() - UUID=cc501c99-6bcc-43d2-9746-dda526a9d377, clientIf=6
+,08-17 15:50:53.653  6195  6203 D BluetoothLeScanner: onClientRegistered() - status=0 clientIf=6,
+08-17 15:50:53.653  6884  6893 D BtGatt.GattService: start scan with filters
+08-17 15:50:53.653  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: setState: State changed from NOT_STARTED to RUNNING,
+08-17 15:50:53.653  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: onIsScannerStartedChanged: true
+08-17 15:50:53.653  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: updateState: State changed from [NOT_STARTED] to [SCANNING],
+08-17 15:50:53.653  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: onBlePeerDiscovererStateChanged: [NOT_STARTED] -> [SCANNING]
+,08-17 15:50:53.663  6884  6929 D BtGatt.ScanManager: handling starting scan
+,08-17 15:50:53.663  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: updateState: State: RUNNING_BLE, is discovering: true, is advertising: false
+08-17 15:50:53.663  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: startBlePeerDiscoverer: OK
+08-17 15:50:53.663  6195  6195 I io.jxcore.node.ConnectionHelper: onDiscoveryManagerStateChanged: State: RUNNING_BLE, is discovering: true, is advertising: false
+,08-17 15:50:53.663  6884  6925 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=6, status=0, action=1
+08-17 15:50:53.663  6884  6925 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+08-17 15:50:53.663  6884  6929 D BtGatt.ScanManager: allow scan with filters,
+08-17 15:50:53.663  6884  6929 D BtGatt.ScanManager: client filter size is = 1available filters are = 13
+08-17 15:50:53.663  6884  6929 D BtGatt.ScanManager: set filter index= 4 for clientIf= 6
+08-17 15:50:53.663  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: OK
+,08-17 15:50:53.663  6884  6925 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=6, status=0, action=0, availableSpace=15,
+08-17 15:50:53.663  6884  6925 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+08-17 15:50:53.663  6884  6929 D BtGatt.ScanManager: Starting BLE batch scan
+08-17 15:50:53.663  6884  6929 D BtGatt.ScanManager: configuring batch scan storage, appIf 6
+,08-17 15:50:53.663  6884  6925 D BtGatt.GattService: onBatchScanStorageConfigured() - clientIf=6, status=0
+,08-17 15:50:53.663  6884  6925 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+,08-17 15:50:53.673  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: RUNNING_BLE, is discovering: true, is advertising: false - Start operation: Should affect listening to advertisements only
+,08-17 15:50:53.673  6195  6247 D io.jxcore.node.StartStopOperationHandler: checkCurrentOperationStatus: Operation successfully executed
+08-17 15:50:53.673  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+08-17 15:50:53.673  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:53.673  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: The current state already matches the desired outcome of this operation, skipping...
+08-17 15:50:53.673  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:53.673  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:53.673  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 3 listener(s) left
+08-17 15:50:53.673  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: shutdown: Shutting down...
+08-17 15:50:53.673  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@214dc6ce removed from the list
+08-17 15:50:53.673  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:53.673  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@320499ef removed from the list
+08-17 15:50:53.673  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+08-17 15:50:53.673  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 2 listener(s) left
+,08-17 15:50:53.673  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.wifi.WifiDirectManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:53.673  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.wifi.WifiDirectManager: release: 1 listener(s) left
+08-17 15:50:53.673  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:53.673  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 2 listener(s) left
+,08-17 15:50:53.673  6884  6925 D BtGatt.GattService: onBatchScanStartStopped() - clientIf=6, status=0, startStopAction=1
+,08-17 15:50:53.673  6884  6925 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+,08-17 15:50:53.673  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:53.673  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:53.673  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:53.673  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@320499ef not in the list
+08-17 15:50:53.673  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stop: Stopping peer discovery...
+08-17 15:50:53.673  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopForRestart
+08-17 15:50:53.673  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.BluetoothMacAddressResolutionHelper: stopProvideBluetoothMacAddressMode
+08-17 15:50:53.673  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: stopScannerAndAdvertiser
+08-17 15:50:53.673  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: stopScanner: Stopping...
+,08-17 15:50:53.673  6884  6974 D BtGatt.GattService: stopScan() - queue size =1
+,08-17 15:50:53.683  6884  6965 D BtGatt.GattService: unregisterClient() - clientIf=6
+,08-17 15:50:53.683  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: stop: Stopped
+,08-17 15:50:53.683  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: setState: State changed from RUNNING to NOT_STARTED
+08-17 15:50:53.683  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: onIsScannerStartedChanged: false
+08-17 15:50:53.683  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: updateState: State changed from [SCANNING] to [NOT_STARTED]
+08-17 15:50:53.683  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: onBlePeerDiscovererStateChanged: [SCANNING] -> [NOT_STARTED]
+,08-17 15:50:53.683  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: updateState: State: NOT_STARTED, is discovering: false, is advertising: false
+,08-17 15:50:53.683  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleAdvertiser: stop: Stopped
+,08-17 15:50:53.683  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopBlePeerDiscoverer: Stopped,
+08-17 15:50:53.683  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.wifi.WifiDirectManager: release: No more listeners, de-initializing...
+08-17 15:50:53.683  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+,08-17 15:50:53.693  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:53.693  6884  6929 D BtGatt.ScanManager: 1. app : com.android.bluetooth 2. Action : LESC 3. Callng app : com.test.thalitest 4. Count : 43
+08-17 15:50:53.693  6195  6195 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: Discovery mode: BLE, start discovery: false, start advertiser: false
+08-17 15:50:53.693  6195  6195 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: Discovery mode: BLE, start discovery: false, start advertiser: false
+,08-17 15:50:53.693  6195  6195 I io.jxcore.node.ConnectionHelper: onDiscoveryManagerStateChanged: State: NOT_STARTED, is discovering: false, is advertising: false
+08-17 15:50:53.693  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:53.693  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:53.693  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@f0381da removed from the list,
+08-17 15:50:53.693  6884  6929 D BtGatt.ScanManager: filter size is 1
+08-17 15:50:53.693  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:53.693  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+,08-17 15:50:53.693  6884  6929 D BtGatt.ScanManager: delete FilterIndex - 4
+08-17 15:50:53.693  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:53.693  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: shutdown: Shutting down...
+08-17 15:50:53.693  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@2396ff85 removed from the list
+08-17 15:50:53.693  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: load: Already loaded
+08-17 15:50:53.693  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@a27e1a6 added. We now have 2 listener(s)
+,08-17 15:50:53.693  6884  6925 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=6, status=0, action=1, availableSpace=16
+08-17 15:50:53.693  6884  6925 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+08-17 15:50:53.693  6884  6929 D BtGatt.ScanManager: stopping BLe Batch
+,08-17 15:50:53.693  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.AbstractBluetoothConnectivityAgent: verifyIdentityString: One or more of the following values are invalid: Peer name: "<no peer name>", Bluetooth MAC address: "7C:F9:0E:37:96:AB",
+,08-17 15:50:53.693  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: BluetoothConnector: Bluetooth name: Thali_Bluetooth, service record UUID: fa87c0d0-afac-11de-8a39-0800200c9a66
+,08-17 15:50:53.693  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: setIdentityString: 
+08-17 15:50:53.693  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: load: Already loaded
+08-17 15:50:53.693  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@261fd7e7 added. We now have 9 listener(s)
+08-17 15:50:53.693  6195  6247 D org.thaliproject.p2p.btconnectorlib.utils.PeerModel: addListener: New listener added - the number of listeners is now 1
+,08-17 15:50:53.693  6884  6925 D BtGatt.GattService: onBatchScanStartStopped() - clientIf=6, status=0, startStopAction=0
+08-17 15:50:53.693  6884  6925 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+08-17 15:50:53.693  6884  6929 D BtGatt.ScanManager: flushPendingBatchResults - clientIf = 6
+08-17 15:50:53.693  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: setDiscoveryMode: Discovery mode BLE is supported
+08-17 15:50:53.693  6884  6925 D BtGatt.GattService: onBatchScanReports() - clientIf=6, status=0, reportType=2, numRecords=0
+,08-17 15:50:53.693  6884  6925 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+,08-17 15:50:53.703  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: bind: Binding a new listener
+,08-17 15:50:53.703  6195  6247 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: FORCED notification:
+08-17 15:50:53.703  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:53.703  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:53.703  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: true
+08-17 15:50:53.703  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: true
+08-17 15:50:53.703  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: null
+08-17 15:50:53.703  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: false
+08-17 15:50:53.703  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: false
+,08-17 15:50:53.703  6195  6247 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: ON, Bluetooth: ON, Wi-Fi: ON, cellular: DO_NOT_CARE, BSSID name: null,
+08-17 15:50:53.703  6195  6247 D io.jxcore.node.ConnectivityMonitor: start: OK
+08-17 15:50:53.703  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: load: Already loaded
+,08-17 15:50:53.703  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@cfa9a3d added. We now have 3 listener(s)
+,08-17 15:50:53.713  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:53.713  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+,08-17 15:50:53.713  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.AbstractBluetoothConnectivityAgent: verifyIdentityString: One or more of the following values are invalid: Peer name: "<no peer name>", Bluetooth MAC address: "7C:F9:0E:37:96:AB"
+,08-17 15:50:53.713  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: BluetoothConnector: Bluetooth name: Thali_Bluetooth, service record UUID: fa87c0d0-afac-11de-8a39-0800200c9a66
+08-17 15:50:53.713  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: setIdentityString: 
+08-17 15:50:53.713  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: load: Already loaded
+,08-17 15:50:53.713  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@29e07232 added. We now have 10 listener(s)
+08-17 15:50:53.713  6195  6247 D org.thaliproject.p2p.btconnectorlib.utils.PeerModel: addListener: New listener added - the number of listeners is now 1
+08-17 15:50:53.713  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Start operation: Should affect listening to advertisements only
+,08-17 15:50:53.713  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: Executing: Start operation: Should affect listening to advertisements only,
+08-17 15:50:53.713  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: Discovery mode: BLE, start discovery: true, start advertiser: false
+08-17 15:50:53.713  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: bind: Binding a new listener
+,08-17 15:50:53.713  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.wifi.WifiDirectManager: bind: Binding a new listener
+,08-17 15:50:53.713  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManager: getBlePeerDiscovererInstanceAndCheckBluetoothMacAddress: Constructing...
+,08-17 15:50:53.723  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleAdvertiser: setAdvertiseSettings: Mode: 2, Tx power level: 3, timeout: 0, is connectable: false
+,08-17 15:50:53.723  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: setScanSettings: Mode: 2, report delay in milliseconds: 500, scan result type: 0
+,08-17 15:50:53.723  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: startScanner: Starting...
+08-17 15:50:53.723  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoveryUtils: createScanFilter: No service UUID, use manufacturer ID: true
+08-17 15:50:53.723  6195  6247 V org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoveryUtils: createScanFilter: BluetoothLeScanFilter [mDeviceName=null, mDeviceAddress=null, mUuid=null, mUuidMask=null, mServiceDataUuid=null, mServiceData=null, mServiceDataMask=null, mManufacturerId=7413, mManufacturerData=null, mManufacturerDataMask=null]
+,08-17 15:50:53.723  6884  6892 D BtGatt.GattService: registerClient() - UUID=f1bc7123-e075-4ee0-a102-2817270d055b
+,08-17 15:50:53.773  6884  6925 D BtGatt.GattService: onClientRegistered() - UUID=f1bc7123-e075-4ee0-a102-2817270d055b, clientIf=6
+,08-17 15:50:53.773  6195  6204 D BluetoothLeScanner: onClientRegistered() - status=0 clientIf=6
+,08-17 15:50:53.773  6884  6893 D BtGatt.GattService: start scan with filters
+,08-17 15:50:53.773  6884  6929 D BtGatt.ScanManager: handling starting scan
+,08-17 15:50:53.773  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: setState: State changed from NOT_STARTED to RUNNING
+,08-17 15:50:53.773  6884  6925 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=6, status=0, action=1
+,08-17 15:50:53.773  6884  6925 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+,08-17 15:50:53.773  6884  6929 D BtGatt.ScanManager: allow scan with filters
+,08-17 15:50:53.773  6884  6929 D BtGatt.ScanManager: client filter size is = 1available filters are = 13
+,08-17 15:50:53.783  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: onIsScannerStartedChanged: true
+08-17 15:50:53.783  6884  6929 D BtGatt.ScanManager: set filter index= 5 for clientIf= 6
+08-17 15:50:53.783  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: updateState: State changed from [NOT_STARTED] to [SCANNING]
+,08-17 15:50:53.783  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: onBlePeerDiscovererStateChanged: [NOT_STARTED] -> [SCANNING]
+,08-17 15:50:53.783  6884  6925 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=6, status=0, action=0, availableSpace=15
+,08-17 15:50:53.783  6884  6925 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+,08-17 15:50:53.783  6884  6929 D BtGatt.ScanManager: Starting BLE batch scan
+,08-17 15:50:53.783  6884  6929 D BtGatt.ScanManager: configuring batch scan storage, appIf 6,
+,08-17 15:50:53.783  6884  6925 D BtGatt.GattService: onBatchScanStorageConfigured() - clientIf=6, status=0
+,08-17 15:50:53.793  6884  6925 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0,
+08-17 15:50:53.793  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: updateState: State: RUNNING_BLE, is discovering: true, is advertising: false
+08-17 15:50:53.793  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: startBlePeerDiscoverer: OK
+,08-17 15:50:53.793  6195  6195 I io.jxcore.node.ConnectionHelper: onDiscoveryManagerStateChanged: State: RUNNING_BLE, is discovering: true, is advertising: false
+,08-17 15:50:53.793  6884  6925 D BtGatt.GattService: onBatchScanStartStopped() - clientIf=6, status=0, startStopAction=1
+,08-17 15:50:53.793  6884  6925 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+,08-17 15:50:53.793  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: OK
+,08-17 15:50:53.803  1015  1126 E WifiNative-wlan0: do suspend true
+,08-17 15:50:53.813  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+08-17 15:50:53.813  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:53.813  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: The current state already matches the desired outcome of this operation, skipping...
+08-17 15:50:53.813  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:53.813  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:53.813  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 3 listener(s) left
+08-17 15:50:53.813  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: shutdown: Shutting down...
+08-17 15:50:53.813  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@a27e1a6 removed from the list
+08-17 15:50:53.813  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:53.813  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@261fd7e7 removed from the list
+08-17 15:50:53.813  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+08-17 15:50:53.813  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 2 listener(s) left
+08-17 15:50:53.813  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.wifi.WifiDirectManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:53.813  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.wifi.WifiDirectManager: release: 1 listener(s) left
+08-17 15:50:53.813  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:53.813  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 2 listener(s) left
+,08-17 15:50:53.813  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising,
+08-17 15:50:53.813  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:53.813  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+,08-17 15:50:53.813  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@261fd7e7 not in the list
+08-17 15:50:53.813  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stop: Stopping peer discovery...
+,08-17 15:50:53.813  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopForRestart
+08-17 15:50:53.813  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.BluetoothMacAddressResolutionHelper: stopProvideBluetoothMacAddressMode
+08-17 15:50:53.813  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: stopScannerAndAdvertiser
+,08-17 15:50:53.813  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: stopScanner: Stopping...
+08-17 15:50:53.813  6884  6892 D BtGatt.GattService: stopScan() - queue size =1,
+,08-17 15:50:53.813  6884  6893 D BtGatt.GattService: unregisterClient() - clientIf=6
+,08-17 15:50:53.823  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: stop: Stopped
+,08-17 15:50:53.823  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleScanner: setState: State changed from RUNNING to NOT_STARTED
+08-17 15:50:53.823  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: onIsScannerStartedChanged: false
+08-17 15:50:53.823  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BlePeerDiscoverer: updateState: State changed from [SCANNING] to [NOT_STARTED]
+,08-17 15:50:53.823  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: onBlePeerDiscovererStateChanged: [SCANNING] -> [NOT_STARTED]
+,08-17 15:50:53.823  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: updateState: State: NOT_STARTED, is discovering: false, is advertising: false
+,08-17 15:50:53.823  6884  6929 D BtGatt.ScanManager: 1. app : com.android.bluetooth 2. Action : LESC 3. Callng app : com.test.thalitest 4. Count : 44
+,08-17 15:50:53.823  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.le.BleAdvertiser: stop: Stopped
+,08-17 15:50:53.823  6884  6929 D BtGatt.ScanManager: filter size is 1
+08-17 15:50:53.823  6884  6929 D BtGatt.ScanManager: delete FilterIndex - 5
+08-17 15:50:53.823  6195  6247 D org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopBlePeerDiscoverer: Stopped
+08-17 15:50:53.823  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.wifi.WifiDirectManager: release: No more listeners, de-initializing...
+,08-17 15:50:53.823  1015  1125 D WifiP2pService: InactiveState{ what=143375 }
+,08-17 15:50:53.823  1015  1126 E WifiStateMachine: WifiStateMachine: handleSuccessfulIpConfiguration and no scan results"NG700"WPA_PSK
+08-17 15:50:53.823  1015  1126 E WifiStateMachine: VerifyingLinkState enter
+,08-17 15:50:53.823  1015  1125 D WifiP2pService: P2pEnabledState{ what=143375 }
+,08-17 15:50:53.833  1174  1174 D StatusBar.NetworkController: refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f020561/com.android.systemui:drawable/stat_sys_wifi_signal_0 mQSWifiIconId=0x7f020157/com.android.systemui:drawable/ic_qs_wifi_no_network mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+,08-17 15:50:53.833  1174  1174 D STATUSBAR-WifiQuickSettingButton: onWifiSignalChanged enabled=true enabledDesc:null
+08-17 15:50:53.833  6884  6925 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=6, status=0, action=1, availableSpace=16
+08-17 15:50:53.833  6884  6925 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+08-17 15:50:53.833  6884  6929 D BtGatt.ScanManager: stopping BLe Batch
+,08-17 15:50:53.833  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left,
+08-17 15:50:53.833  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:53.833  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false),
+08-17 15:50:53.833  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false),
+,08-17 15:50:53.833  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:53.843  1015  1128 D ConnectivityService: Adding iface wlan0 to network 503
+08-17 15:50:53.833  1015  1126 D WifiNative-wlan0: callSECApiInt - ID [210]
+08-17 15:50:53.833  1015  1128 E ConnectivityService: updateNetworkInfo()
+08-17 15:50:53.843  6884  6925 D BtGatt.GattService: onBatchScanStartStopped() - clientIf=6, status=0, startStopAction=0
+08-17 15:50:53.843  1015  1128 D ConnectivityService: updateLinkProperties: newLp = {InterfaceName: wlan0 LinkAddresses: [192.168.1.111/24,]  Routes: [fe80::/64 -> :: wlan0,192.168.1.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.1.1 wlan0,] DnsAddresses: [192.168.1.1,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,4525824,524288,1048576,4525824}, oldLp = null
+08-17 15:50:53.843  6884  6925 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+,08-17 15:50:53.843  6884  6929 D BtGatt.ScanManager: flushPendingBatchResults - clientIf = 6,
+08-17 15:50:53.843  6195  6195 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: Discovery mode: BLE, start discovery: false, start advertiser: false
+,08-17 15:50:53.843  6195  6195 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: start: Discovery mode: BLE, start discovery: false, start advertiser: false
+08-17 15:50:53.843  6195  6195 I io.jxcore.node.ConnectionHelper: onDiscoveryManagerStateChanged: State: NOT_STARTED, is discovering: false, is advertising: false
+08-17 15:50:53.843  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:53.843  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:53.843  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:53.843  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@29e07232 removed from the list
+08-17 15:50:53.843  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:53.843  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:53.843  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:53.843  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: shutdown: Shutting down...
+08-17 15:50:53.843  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@cfa9a3d removed from the list
+08-17 15:50:53.843  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: load: Already loaded
+08-17 15:50:53.843  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@201f7f7e added. We now have 2 listener(s)
+,08-17 15:50:53.843  6884  6925 D BtGatt.GattService: onBatchScanReports() - clientIf=6, status=0, reportType=2, numRecords=0
+08-17 15:50:53.843  6884  6925 D BtGatt.ScanManager: callback done for clientIf - 6 status - 0
+,08-17 15:50:53.853  1015  1143 D WifiWatchdogStateMachine: updateDnsLinkProperty: enter
+,08-17 15:50:53.853  1015  1143 D WifiWatchdogStateMachine.DnsPinger: setCurrentLinkProperties: lp={InterfaceName: wlan0 LinkAddresses: [192.168.1.111/24,]  Routes: [fe80::/64 -> :: wlan0,192.168.1.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.1.1 wlan0,] DnsAddresses: [192.168.1.1,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,4525824,524288,1048576,4525824}
+08-17 15:50:53.853  1015  1143 D WifiWatchdogStateMachine.DnsResolver: setCurrentLinkProperties: lp={InterfaceName: wlan0 LinkAddresses: [192.168.1.111/24,]  Routes: [fe80::/64 -> :: wlan0,192.168.1.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.1.1 wlan0,] DnsAddresses: [192.168.1.1,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,4525824,524288,1048576,4525824}
+08-17 15:50:53.853  1015  1143 D WifiWatchdogStateMachine.SingDnsChecker: setCurrentLinkProperties: lp={InterfaceName: wlan0 LinkAddresses: [192.168.1.111/24,]  Routes: [fe80::/64 -> :: wlan0,192.168.1.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.1.1 wlan0,] DnsAddresses: [192.168.1.1,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,4525824,524288,1048576,4525824}
+08-17 15:50:53.853  1015  1143 D WifiWatchdogStateMachine.CaptivePortalDnsResolver: setCurrentLinkProperties: lp={InterfaceName: wlan0 LinkAddresses: [192.168.1.111/24,]  Routes: [fe80::/64 -> :: wlan0,192.168.1.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.1.1 wlan0,] DnsAddresses: [192.168.1.1,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,4525824,524288,1048576,4525824}
+,08-17 15:50:53.853  1174  1174 D StatusBar.NetworkController: refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f020561/com.android.systemui:drawable/stat_sys_wifi_signal_0 mQSWifiIconId=0x7f020157/com.android.systemui:drawable/ic_qs_wifi_no_network mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+08-17 15:50:53.853  1174  1174 D STATUSBAR-WifiQuickSettingButton: onWifiSignalChanged enabled=true enabledDesc:null
+,08-17 15:50:53.853  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:53.853  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:53.853  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:53.853  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,08-17 15:50:53.863  1015  1503 W ActivityManager: userId = 0, bbcId = -10000,
+08-17 15:50:53.863  1015  1503 D ActivityManager: startService callerProcessName:com.samsung.hs20settings, calleePkgName: com.samsung.hs20settings
+08-17 15:50:53.863  1015  1503 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:53.863  1015  1503 D ActivityManager: retrieveServiceLocked(): component = com.samsung.hs20settings/com.samsung.hs20settings.WifiHs20UtilityService; callingUser = 0; userId(target) = -2
+,08-17 15:50:53.863  1015  1503 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.hs20settings, destAppInfo.processName = com.samsung.hs20settings
+08-17 15:50:53.863  1015  1128 D ConnectivityService: Adding Route [fe80::/64 -> :: wlan0] to network 503
+,08-17 15:50:53.873  3608  3608 I Hs20UtilService: Starting #20
+,08-17 15:50:53.873  1015  1128 D ConnectivityService: Adding Route [192.168.1.0/24 -> 0.0.0.0 wlan0] to network 503
+,08-17 15:50:53.873  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.AbstractBluetoothConnectivityAgent: verifyIdentityString: One or more of the following values are invalid: Peer name: "<no peer name>", Bluetooth MAC address: "7C:F9:0E:37:96:AB"
+08-17 15:50:53.873  1015  1128 D ConnectivityService: Adding Route [0.0.0.0/0 -> 192.168.1.1 wlan0] to network. 503
+08-17 15:50:53.873  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: BluetoothConnector: Bluetooth name: Thali_Bluetooth, service record UUID: fa87c0d0-afac-11de-8a39-0800200c9a66
+08-17 15:50:53.873  1015  1128 E ConnectivityService: Unexpected mtu value: 0, wlan0
+08-17 15:50:53.873  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: setIdentityString: 
+08-17 15:50:53.873  1015  1128 D ConnectivityService: Setting Dns servers for network 503 to [/192.168.1.1]
+08-17 15:50:53.873  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: load: Already loaded
+08-17 15:50:53.873  1015  1128 D ConnectivityService: LTETest block dns file not exists
+08-17 15:50:53.873  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@1fb5dcdf added. We now have 9 listener(s)
+08-17 15:50:53.873  6195  6247 D org.thaliproject.p2p.btconnectorlib.utils.PeerModel: addListener: New listener added - the number of listeners is now 1
+08-17 15:50:53.873  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: setDiscoveryMode: Discovery mode BLE is supported
+08-17 15:50:53.873  1317  1317 D NearbySettings: MountReceiver.onReceive - ACTION: android.net.wifi.STATE_CHANGE
+08-17 15:50:53.873  1317  1317 I NearbySettings: MountReceiver.onReceive - Keep current state
+,08-17 15:50:53.873  3608  3625 I Hs20UtilService: Message received 5007
+08-17 15:50:53.873  1015  1126 E WifiStateMachine: VerifyingLinkState GOOD_LINK_DETECTED: transition to (new) connected (old)captive portal check
+,08-17 15:50:53.883  1015  1128 D ConnectivityService: notifyType IP_CHANGED for NetworkAgentInfo [WIFI () - 503]
+,08-17 15:50:53.883  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: bind: Binding a new listener
+,08-17 15:50:53.893  1015  1128 E ConnectivityService: updateNetworkInfo()
+,08-17 15:50:53.893  1015  1128 E ConnectivityService: updateNetworkInfo()
+,08-17 15:50:53.893  1015  1128 D ConnectivityService: NetworkAgentInfo [WIFI () - 503] EVENT_NETWORK_INFO_CHANGED, going from CONNECTING to CONNECTED, reason = null, [ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps]
+08-17 15:50:53.893  1015  1128 D ConnectivityService: notifyType PRECHECK for NetworkAgentInfo [WIFI () - 503]
+08-17 15:50:53.893  1015  1128 D ConnectivityService: rematching NetworkAgentInfo [WIFI () - 503]
+08-17 15:50:53.893  1015  7003 D NetworkMonitorNetworkAgentInfo [WIFI () - null]: DefaultState{ when=-1ms what=532481 target=com.android.internal.util.StateMachine$SmHandler }
+08-17 15:50:53.893  1015  7003 D NetworkMonitorNetworkAgentInfo [WIFI () - null]: Connected
+,08-17 15:50:53.893  1015  7003 D NetworkMonitorNetworkAgentInfo [WIFI () - null]: EvaluatingState{ when=0 what=532486 arg1=1 target=com.android.internal.util.StateMachine$SmHandler }
+08-17 15:50:53.893  1015  7003 D NetworkMonitorNetworkAgentInfo [WIFI () - null]: Checking http://connectivitycheck.android.com/generate_204 on "NG700"
+,08-17 15:50:53.893  1015  7003 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+,08-17 15:50:53.893   278  1010 D EnterpriseController: uids 1000
+08-17 15:50:53.893   278  1010 D EnterpriseController: mIsMarkChainAdded is 18 mIsBlockChainAdded is 252 netId is 0
+08-17 15:50:53.893   278  1010 D Netd    : getNetworkForDns: using netid 503 for uid 1000
+,08-17 15:50:53.893  1015  1015 I WifiTrafficPoller: evaluateTrafficStatsPolling
+,08-17 15:50:53.903  1015  1128 D ConnectivityService:    accepting network in place of null,
+,08-17 15:50:53.903  1015  1125 D WIFI_P2P: evalRequest evalRequest  = NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] n.requested= false
+08-17 15:50:53.903  1456  1456 D TelephonyNetworkFactory: evalRequest evalRequest  = NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] n.requested= true
+,08-17 15:50:53.903  1456  1456 D TelephonyNetworkFactory: Cellular releasing Network for NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+08-17 15:50:53.903  1015  1128 E CSLegacyTypeTracker: add() : Adding agent NetworkAgentInfo{ ni{[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "NG700", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]}  network{503}  lp{{InterfaceName: wlan0 LinkAddresses: [192.168.1.111/24,]  Routes: [fe80::/64 -> :: wlan0,192.168.1.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.1.1 wlan0,] DnsAddresses: [192.168.1.1,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,4525824,524288,1048576,4525824}}  nc{[ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps]}  Score{60} validated{false} created{true} explicitlySelected{false} } for legacy network type 1,
+08-17 15:50:53.903  1015  1128 D CSLegacyTypeTracker: Sending connected broadcast for type 1 NetworkAgentInfo [WIFI () - 503] isDefaultNetwork=true
+08-17 15:50:53.903  1015  1128 D ConnectivityService: sendStickyBroadcast: action=android.net.conn.CONNECTIVITY_CHANGE_IMMEDIATE,
+,08-17 15:50:53.903  6195  6247 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: FORCED notification:
+08-17 15:50:53.903  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:53.903  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:53.903  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: true
+08-17 15:50:53.903  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: true
+08-17 15:50:53.903  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: null
+08-17 15:50:53.903  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: false
+08-17 15:50:53.903  6195  6247 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: false
+,08-17 15:50:53.913  6195  6247 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: ON, Bluetooth: ON, Wi-Fi: ON, cellular: DO_NOT_CARE, BSSID name: null
+08-17 15:50:53.913  6195  6247 D io.jxcore.node.ConnectivityMonitor: start: OK
+08-17 15:50:53.913  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: load: Already loaded
+08-17 15:50:53.913  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@3f6fd3f5 added. We now have 3 listener(s)
+,08-17 15:50:53.913  1174  1174 D StatusBar.NetworkController: refreshViews connected={ } level=0 combinedSignalIconId=0x0/(null) mobileLabel=No service wifiLabel= emergencyOnly=false combinedLabel= mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f020561/com.android.systemui:drawable/stat_sys_wifi_signal_0 mQSWifiIconId=0x7f020157/com.android.systemui:drawable/ic_qs_wifi_no_network mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+08-17 15:50:53.913  1174  1174 D STATUSBAR-WifiQuickSettingButton: onWifiSignalChanged enabled=true enabledDesc:null
+08-17 15:50:53.913  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:53.913  1015  1015 I WifiTrafficPoller: evaluateTrafficStatsPolling
+08-17 15:50:53.913  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:53.913  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:53.913  1015  1015 I WifiTrafficPoller: mBoosterFLAG : 0
+08-17 15:50:53.913  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:53.913  1015  1015 I WifiTrafficPoller: current booster mode : FullMode
+,08-17 15:50:53.913  1015  1126 D WIFI    : evalRequest evalRequest  = NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] n.requested= true
+,08-17 15:50:53.913  1015  1015 D WifiNative-wlan0: callSECApiVoid - ID [212]
+,08-17 15:50:53.923  1174  1174 D StatusBar.NetworkController: refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+08-17 15:50:53.923  1174  1174 D STATUSBAR-WifiQuickSettingButton: onWifiSignalChanged enabled=true enabledDesc:"NG700"
+08-17 15:50:53.923  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,08-17 15:50:53.923  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,08-17 15:50:53.923  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:53.923  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,08-17 15:50:53.933  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.AbstractBluetoothConnectivityAgent: verifyIdentityString: One or more of the following values are invalid: Peer name: "<no peer name>", Bluetooth MAC address: "7C:F9:0E:37:96:AB"
+08-17 15:50:53.933  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: BluetoothConnector: Bluetooth name: Thali_Bluetooth, service record UUID: fa87c0d0-afac-11de-8a39-0800200c9a66
+08-17 15:50:53.933  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: setIdentityString: 
+08-17 15:50:53.933  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: load: Already loaded
+08-17 15:50:53.933  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: addListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@39b0158a added. We now have 10 listener(s)
+08-17 15:50:53.933  6195  6247 D org.thaliproject.p2p.btconnectorlib.utils.PeerModel: addListener: New listener added - the number of listeners is now 1
+,08-17 15:50:53.933  6195  6247 I io.jxcore.node.ConnectionHelper: stop: Stopping all activities and killing connections
+08-17 15:50:53.933  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: false, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:53.933  6195  6247 V io.jxcore.node.StartStopOperationHandler: executeCurrentOperation: The current state already matches the desired outcome of this operation, skipping...
+08-17 15:50:53.933  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:53.933  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:53.933  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 2 listener(s) left
+08-17 15:50:53.933  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: shutdown: Shutting down...,
+08-17 15:50:53.933  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@201f7f7e removed from the list
+08-17 15:50:53.933  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:53.933  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@1fb5dcdf removed from the list
+,08-17 15:50:53.933  1015  1015 D Tethering: Tethering got CONNECTIVITY_ACTION_IMMEDIATE,
+08-17 15:50:53.933  1015  1130 D Tethering: MasterInitialState.processMessage what=3
+08-17 15:50:53.933  1015  1128 D ConnectivityService: Switching to new default network: NetworkAgentInfo{ ni{[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "NG700", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]}  network{503}  lp{{InterfaceName: wlan0 LinkAddresses: [192.168.1.111/24,]  Routes: [fe80::/64 -> :: wlan0,192.168.1.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.1.1 wlan0,] DnsAddresses: [192.168.1.1,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,4525824,524288,1048576,4525824}}  nc{[ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps]}  Score{60} validated{false} created{true} explicitlySelected{false} }
+,08-17 15:50:53.943  1015  1128 D ConnectivityService: notifyType AVAILABLE for NetworkAgentInfo [WIFI () - 503]
+,08-17 15:50:53.943  1015  1044 D EntConnectivity: Not allowed due to - mEnabled false - primarySimSlot false
+,08-17 15:50:53.943  1015  1123 V NetworkStats: updateIfacesLocked()
+08-17 15:50:53.943  1015  1123 D NtpTrustedTime: currentTimeMillis() cache hit
+08-17 15:50:53.943  1015  1123 V NetworkStats: performPollLocked(flags=0x1)
+,08-17 15:50:53.943  1015  1123 D NetworkStatsFactory: UpdateStatsForKnox updated
+,08-17 15:50:53.943  1015  1123 D NetworkStatsFactory: UpdateStatsForKnox main else ---
+,08-17 15:50:53.943  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: State changed:
+08-17 15:50:53.943  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:53.943  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:53.943  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: true
+08-17 15:50:53.943  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: true
+08-17 15:50:53.943  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: f4:f2:6d:22:99:3e
+08-17 15:50:53.943  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: true
+08-17 15:50:53.943  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: true
+08-17 15:50:53.943  1174  1708 D ConnectivityManager.CallbackHandler: CM callback handler got msg 524290
+08-17 15:50:53.943  1015  1502 D ActivityManager: startService callerProcessName:com.samsung.hs20settings, calleePkgName: com.samsung.hs20settings
+08-17 15:50:53.943  1015  1502 D ActivityManager: retrieveServiceLocked(): component = com.samsung.hs20settings/com.samsung.hs20settings.WifiHs20UtilityService; callingUser = 0; userId(target) = -2
+,08-17 15:50:53.943  1015  1123 V NetworkStats: performPollLocked() took 5ms
+08-17 15:50:53.943  1015  1123 D NtpTrustedTime: currentTimeMillis() cache hit
+,08-17 15:50:53.943  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+,08-17 15:50:53.953  1174  1174 D StatusBar.NetworkController: EthernetConnected: false
+,08-17 15:50:53.953  6195  6195 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: ON, Bluetooth: ON, Wi-Fi: ON, cellular: DO_NOT_CARE, BSSID name: f4:f2:6d:22:99:3e
+08-17 15:50:53.953  1174  1174 D StatusBar.NetworkController: getUpdateDataNetType(): 0
+,08-17 15:50:53.953  6195  6247 D io.jxcore.node.ConnectivityMonitor: stop
+08-17 15:50:53.953  1174  1174 D StatusBar.NetworkController: getUpdateDataNetType(): mDataTypeBrand = LTE
+08-17 15:50:53.953  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:53.953  1174  1174 D StatusBar.NetworkController: updateDataNetType()
+08-17 15:50:53.953  1174  1174 D StatusBar.NetworkController: NoService, mRoamingIconId = 0
+08-17 15:50:53.953  1174  1174 E StatusBar.NetworkController: updateLTEICONDataNetType:0
+08-17 15:50:53.953  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+08-17 15:50:53.953  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+08-17 15:50:53.953  3823  6256 D ConnectivityManager.CallbackHandler: CM callback handler got msg 524290
+,08-17 15:50:53.953  1015  1502 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:53.953  1015  1502 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:53.953  1015  1502 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.hs20settings, destAppInfo.processName = com.samsung.hs20settings
+08-17 15:50:53.953  1015  1124 V NetworkStats: advisePersistThreshold() given 9223372036854775, clamped to 2097152
+08-17 15:50:53.953  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+,08-17 15:50:53.953  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+,08-17 15:50:53.953  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:53.953  3608  3608 I Hs20UtilService: Starting #21
+08-17 15:50:53.953  3608  3625 I Hs20UtilService: Message received 5007
+,08-17 15:50:53.953  1174  1174 D StatusBar.NetworkController: updateDataIcon, mDataDirectionIconId = (null) mDataConnected = false
+,08-17 15:50:53.953  1174  1174 D StatusBar.NetworkController: updateTelephonySignalStrength: hasService=false ss=SignalStrength: 99 99 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 -1 2147483647 0x0 gsm|lte
+,08-17 15:50:53.953  1174  1174 D StatusBar.NetworkController: updateTelephonySignalStrength, No signal level. mPhoneSignalIconId = com.android.systemui:drawable/tw_stat_sys_signal_null mDataSignalIconId = com.android.systemui:drawable/tw_stat_sys_signal_null mQSPhoneSignalIconId = com.android.systemui:drawable/ic_qs_signal_no_signal mContentDescriptionPhoneSignal = No phone signal
+08-17 15:50:53.953  1174  1174 D StatusBar.NetworkController: refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth
+08-17 15:50:53.953  1174  1174 D STATUSBAR-WifiQuickSettingButton: onWifiSignalChanged enabled=true enabledDesc:"NG700"
+08-17 15:50:53.953  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:53.953  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:53.953  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:53.953  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:53.953  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+08-17 15:50:53.953  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+08-17 15:50:53.963  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: No relevant state changes
+08-17 15:50:53.963  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:53.963  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:53.963  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:53.963  6195  6247 E org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@1fb5dcdf not in the list
+08-17 15:50:53.963  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:53.963  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:53.963  1317  1317 D NearbySettings: MountReceiver.onReceive - ACTION: android.net.wifi.STATE_CHANGE
+08-17 15:50:53.963  1317  1317 V NearbySettings: DMSUtil.isNetworkConnected - flag-null, state-null
+,08-17 15:50:53.963  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopDiscovery
+08-17 15:50:53.963  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: stopAdvertising
+08-17 15:50:53.963  6195  6247 I org.thaliproject.p2p.btconnectorlib.DiscoveryManager: dispose
+08-17 15:50:53.963  6195  6247 V org.thaliproject.p2p.btconnectorlib.DiscoveryManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.DiscoveryManager@39b0158a removed from the list
+08-17 15:50:53.963  6195  6247 I org.thaliproject.p2p.btconnectorlib.ConnectionManager: dispose
+08-17 15:50:53.963  6195  6247 W org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: The given listener does not exist in the list - probably already removed
+08-17 15:50:53.963  6195  6247 D org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothManager: release: 1 listener(s) left
+08-17 15:50:53.963  6195  6247 I org.thaliproject.p2p.btconnectorlib.internal.bluetooth.BluetoothConnector: shutdown: Shutting down...
+08-17 15:50:53.963  6195  6247 V org.thaliproject.p2p.btconnectorlib.ConnectionManagerSettings: removeListener: Listener org.thaliproject.p2p.btconnectorlib.ConnectionManager@3f6fd3f5 removed from the list
+08-17 15:50:53.963  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: NOT_STARTED, is discovering: true, is advertising: true - Start operation: Should start/stop everything
+08-17 15:50:53.963  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: NOT_STARTED, discovery: RUNNING_BLE, is discovering: false, is advertising: true - Start operation: Should start/stop everything
+08-17 15:50:53.963  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: RUNNING, discovery: RUNNING_BLE, is discovering: true, is advertising: false - Start operation: Should start/stop everything
+08-17 15:50:53.963  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: RUNNING, discovery: RUNNING_BLE, is discovering: false, is advertising: false - Start operation: Should affect listening to advertisements only
+08-17 15:50:53.963  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: RUNNING, discovery: RUNNING_BLE, is discovering: true, is advertising: false - Stop operation: Should affect listening to advertisements only
+08-17 15:50:53.963  6195  6247 V io.jxcore.node.StartStopOperation: isTargetState: Connectivity: RUNNING, discovery: RUNNING_BLE, is discovering: true, is advertising: false - Stop operation: Should start/stop everything
+08-17 15:50:53.963  6195  7043 D io.jxcore.node.StreamCopyingThread: Entering thread (ID: 1181, name: My test thread name)
+08-17 15:50:53.963  6195  7043 D io.jxcore.node.StreamCopyingThread: The end of the input stream has been reached (thread ID: 1181, thread name: My test thread name)
+08-17 15:50:53.963  6195  7043 D io.jxcore.node.StreamCopyingThread: Exiting thread (ID: 1181, name: My test thread name), during the lifetime of the thread the total number of bytes read was 122 and the total number of bytes written 122
+08-17 15:50:53.973  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - WIFI: CONNECTED
+08-17 15:50:53.973  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - P2P: DISCONNECTED
+08-17 15:50:53.973  1317  1317 I NearbySettings: DMSUtil.isNetworkConnected - WIFI-true, Hotspot-false, P2P-false, Eth-false
+08-17 15:50:53.973  1317  1317 I NearbySettings: MountReceiver.onReceive - Keep current state
+08-17 15:50:53.973  6195  7044 D io.jxcore.node.StreamCopyingThread: Entering thread (ID: 1183, name: My test thread name)
+08-17 15:50:53.973  6195  7044 D io.jxcore.node.StreamCopyingThread: The end of the input stream has been reached (thread ID: 1183, thread name: My test thread name)
+08-17 15:50:53.973  6195  7044 D io.jxcore.node.StreamCopyingThread: Exiting thread (ID: 1183, name: My test thread name), during the lifetime of the thread the total number of bytes read was 122 and the total number of bytes written 122
+08-17 15:50:53.973  6195  6247 D com.test.thalitest.ThaliTestRunner: Total number of executed tests: 80
+08-17 15:50:53.973  6195  6247 D com.test.thalitest.ThaliTestRunner: Number of passed tests: 80
+08-17 15:50:53.973  6195  6247 D com.test.thalitest.ThaliTestRunner: Number of failed tests:  0
+08-17 15:50:53.973  6195  6247 D com.test.thalitest.ThaliTestRunner: Number of ignored tests: 0
+08-17 15:50:53.973  6195  6247 D com.test.thalitest.ThaliTestRunner: Total duration: 23399 ms
+08-17 15:50:53.973  6195  6247 I jxcore-log: Total number of executed tests:  80
+08-17 15:50:53.973  6195  6247 I jxcore-log: 
+08-17 15:50:53.973  6195  6247 I jxcore-log: Number of passed tests:  80
+08-17 15:50:53.973  6195  6247 I jxcore-log: 
+08-17 15:50:53.973  6195  6247 I jxcore-log: Number of failed tests:  0
+08-17 15:50:53.973  6195  6247 I jxcore-log: 
+08-17 15:50:53.973  6195  6247 I jxcore-log: Number of ignored tests:  0
+08-17 15:50:53.973  6195  6247 I jxcore-log: 
+08-17 15:50:53.973  6195  6247 I jxcore-log: Total duration:  23399
+08-17 15:50:53.973  6195  6247 I jxcore-log: 
+08-17 15:50:53.973  6195  6247 I jxcore-log: ****TEST_LOGGER:[PROCESS_ON_EXIT_SUCCESS]****
+08-17 15:50:53.973  6195  6247 I jxcore-log: 
+08-17 15:50:53.983  1015  3214 D ActivityManager: startService callerProcessName:com.samsung.hs20settings, calleePkgName: com.samsung.hs20settings
+08-17 15:50:53.983  1015  3214 D ActivityManager: retrieveServiceLocked(): component = com.samsung.hs20settings/com.samsung.hs20settings.WifiHs20UtilityService; callingUser = 0; userId(target) = -2
+08-17 15:50:53.983  1015  3214 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:53.983  1015  3214 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:53.983  1015  3214 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.hs20settings, destAppInfo.processName = com.samsung.hs20settings
+08-17 15:50:53.983  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"on","bluetooth":"on","wifi":"on","cellular":"doNotCare","bssidName":"f4:f2:6d:22:99:3e"}
+08-17 15:50:53.983  6195  6247 I jxcore-log: 
+08-17 15:50:53.983  3608  3608 I Hs20UtilService: Starting #22
+08-17 15:50:53.983  3608  3625 I Hs20UtilService: Message received 5007
+08-17 15:50:53.983  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"on","bluetooth":"on","wifi":"on","cellular":"doNotCare","bssidName":"f4:f2:6d:22:99:3e"}
+08-17 15:50:53.983  6195  6247 I jxcore-log: 
+08-17 15:50:53.983  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"on","bluetooth":"on","wifi":"on","cellular":"doNotCare","bssidName":"f4:f2:6d:22:99:3e"}
+08-17 15:50:53.983  6195  6247 I jxcore-log: 
+,08-17 15:50:53.993  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"on","bluetooth":"on","wifi":"on","cellular":"doNotCare","bssidName":"f4:f2:6d:22:99:3e"}
+08-17 15:50:53.993  6195  6247 I jxcore-log: 
+08-17 15:50:53.993  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"on","bluetooth":"on","wifi":"on","cellular":"doNotCare","bssidName":"f4:f2:6d:22:99:3e"}
+08-17 15:50:53.993  6195  6247 I jxcore-log: 
+08-17 15:50:53.993  6195  6195 I chromium: [INFO:CONSOLE(74)] "UIApp is all set and ready!", source: file:///android_asset/www/js/thali_main.js (74)
+08-17 15:50:53.993  1015  7003 I System.out: KnoxVpnUidStorageknoxVpnSupported API value returned is false
+08-17 15:50:53.993  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"off","bluetooth":"off","wifi":"on","cellular":"doNotCare","bssidName":"f4:f2:6d:22:99:3e"}
+08-17 15:50:53.993  6195  6247 I jxcore-log: 
+08-17 15:50:53.993  1317  1317 D NearbySettings: MountReceiver.onReceive - ACTION: android.net.wifi.STATE_CHANGE
+08-17 15:50:53.993  1317  1317 I NearbySettings: MountReceiver.onReceive - Keep current state
+08-17 15:50:53.993  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"off","bluetooth":"off","wifi":"on","cellular":"doNotCare","bssidName":"f4:f2:6d:22:99:3e"}
+08-17 15:50:53.993  6195  6247 I jxcore-log: 
+08-17 15:50:53.993  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+08-17 15:50:53.993  6195  6247 I jxcore-log: 
+08-17 15:50:53.993  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"off","bluetooth":"off","wifi":"off","cellular":"doNotCare"}
+08-17 15:50:53.993  6195  6247 I jxcore-log: 
+08-17 15:50:53.993  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"off","bluetooth":"off","wifi":"off","cellular":"doNotCare"}
+08-17 15:50:53.993  6195  6247 I jxcore-log: 
+08-17 15:50:54.003  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"off","bluetooth":"off","wifi":"on","cellular":"doNotCare"}
+08-17 15:50:54.003  6195  6247 I jxcore-log: 
+08-17 15:50:54.003  1015  1027 D WifiStateMachine: SEC_COMMAND_ID_GET_FWS_OPEN_AP_CHECK : 0
+08-17 15:50:54.003  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"off","bluetooth":"off","wifi":"on","cellular":"doNotCare"}
+08-17 15:50:54.003  6195  6247 I jxcore-log: 
+08-17 15:50:54.003  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"off","bluetooth":"off","wifi":"off","cellular":"doNotCare"}
+08-17 15:50:54.003  6195  6247 I jxcore-log: 
+,08-17 15:50:54.003  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"off","bluetooth":"off","wifi":"off","cellular":"doNotCare"}
+08-17 15:50:54.003  6195  6247 I jxcore-log: 
+08-17 15:50:54.003  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"on","bluetooth":"on","wifi":"off","cellular":"doNotCare"}
+08-17 15:50:54.003  6195  6247 I jxcore-log: 
+08-17 15:50:54.003  1015  1485 D SecContentProvider2: uri = 15 selection = getToastGravityEnabledState
+08-17 15:50:54.003  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"on","bluetooth":"on","wifi":"off","cellular":"doNotCare"}
+08-17 15:50:54.003  6195  6247 I jxcore-log: 
+08-17 15:50:54.003  1015  1485 D SecContentProvider2: mCursor = null
+08-17 15:50:54.003  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"off","bluetooth":"off","wifi":"off","cellular":"doNotCare"}
+08-17 15:50:54.003  6195  6247 I jxcore-log: 
+08-17 15:50:54.003  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"off","bluetooth":"off","wifi":"off","cellular":"doNotCare"}
+08-17 15:50:54.003  6195  6247 I jxcore-log: 
+08-17 15:50:54.003  1015  1474 D SecContentProvider2: uri = 15 selection = getToastGravity
+08-17 15:50:54.003  1015  1474 D SecContentProvider2: mCursor = null
+08-17 15:50:54.003  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"on","bluetooth":"on","wifi":"off","cellular":"doNotCare"}
+08-17 15:50:54.003  6195  6247 I jxcore-log: 
+08-17 15:50:54.003  1015  3215 D SecContentProvider2: uri = 15 selection = getToastGravityXOffset
+08-17 15:50:54.003  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"on","bluetooth":"on","wifi":"off","cellular":"doNotCare"}
+08-17 15:50:54.003  6195  6247 I jxcore-log: 
+08-17 15:50:54.003  1015  3215 D SecContentProvider2: mCursor = null
+08-17 15:50:54.003  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"on","bluetooth":"on","wifi":"on","cellular":"doNotCare"}
+08-17 15:50:54.003  6195  6247 I jxcore-log: 
+08-17 15:50:54.003  1015  1503 D SecContentProvider2: uri = 15 selection = getToastGravityYOffset
+08-17 15:50:54.003  1015  1503 D SecContentProvider2: mCursor = null
+08-17 15:50:54.003  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"on","bluetooth":"on","wifi":"on","cellular":"doNotCare"}
+08-17 15:50:54.003  6195  6247 I jxcore-log: 
+08-17 15:50:54.003  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"on","bluetooth":"on","wifi":"on","cellular":"doNotCare"}
+08-17 15:50:54.003  6195  6247 I jxcore-log: 
+08-17 15:50:54.003  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"on","bluetooth":"on","wifi":"on","cellular":"doNotCare"}
+08-17 15:50:54.003  6195  6247 I jxcore-log: 
+,08-17 15:50:54.013  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"on","bluetooth":"on","wifi":"on","cellular":"doNotCare"}
+08-17 15:50:54.013  6195  6247 I jxcore-log: 
+08-17 15:50:54.013  1015  3213 D SecContentProvider2: uri = 15 selection = getToastEnabledState
+08-17 15:50:54.013  1015  3213 D SecContentProvider2: mCursor = null
+08-17 15:50:54.013  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"on","bluetooth":"on","wifi":"on","cellular":"doNotCare"}
+08-17 15:50:54.013  6195  6247 I jxcore-log: 
+08-17 15:50:54.013  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"on","bluetooth":"on","wifi":"on","cellular":"doNotCare","bssidName":"f4:f2:6d:22:99:3e"}
+08-17 15:50:54.013  6195  6247 I jxcore-log: 
+,08-17 15:50:54.013  1015  3214 D SecContentProvider2: uri = 15 selection = getToastShowPackageNameState
+08-17 15:50:54.013  1015  3214 D SecContentProvider2: mCursor = null
+08-17 15:50:54.013  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"on","bluetooth":"on","wifi":"on","cellular":"doNotCare"}
+08-17 15:50:54.013  6195  6247 I jxcore-log: 
+,08-17 15:50:54.023  6195  6195 V io.jxcore.node.ConnectionHelper: Notifying discovery manager state change: is discovering: false, is advertising: false
+,08-17 15:50:54.023  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+08-17 15:50:54.023  6195  6247 I jxcore-log: 
+,08-17 15:50:54.033   258   258 I SurfaceFlinger: id=15 createSurf (1x1),1 flag=4, Uoast
+,08-17 15:50:54.043  1015  1027 D PowerManagerService: [api] acquire WakeLock flags=0x2000000a tag=WindowManager uid=1000 pid=1015
+,08-17 15:50:54.053  1015  7003 D NetworkMonitorNetworkAgentInfo [WIFI () - null]: isCaptivePortal: ret=204 headers={null=[HTTP/1.1 204 No Content], Content-Length=[0], Date=[Wed, 17 Aug 2016 13:50:54 GMT], X-Android-Received-Millis=[1471441854060], X-Android-Response-Source=[NETWORK 204], X-Android-Sent-Millis=[1471441854028]}
+,08-17 15:50:54.053  1015  7003 D NetworkMonitorNetworkAgentInfo [WIFI () - null]: Don't send network conditions - lacking user consent.
+08-17 15:50:54.053  1015  7003 D NetworkMonitorNetworkAgentInfo [WIFI () - null]: Validated
+08-17 15:50:54.053  1015  1128 D ConnectivityService: Validated NetworkAgentInfo [WIFI () - 503]
+08-17 15:50:54.053  1015  1128 D ConnectivityService: rematching NetworkAgentInfo [WIFI () - 503]
+08-17 15:50:54.053  1015  1128 D ConnectivityService: Network NetworkAgentInfo [WIFI () - 503] was already satisfying request 1. No change.
+08-17 15:50:54.053  1015  1128 D ConnectivityService: notifyType AVAILABLE for NetworkAgentInfo [WIFI () - 503]
+,08-17 15:50:54.053  1174  1708 D ConnectivityManager.CallbackHandler: CM callback handler got msg 524290
+08-17 15:50:54.053  1015  1128 D ConnectivityService: sendStickyBroadcast: action=android.net.conn.INET_CONDITION_ACTION
+08-17 15:50:54.053  3823  6256 D ConnectivityManager.CallbackHandler: CM callback handler got msg 524290
+,08-17 15:50:54.053  1174  1174 D SRIB_DCS: log_dcs ThreadedRenderer::initialize entered! 
+,08-17 15:50:54.083  1174  1174 D StatusBar.NetworkController: EthernetConnected: false
+,08-17 15:50:54.083  1174  1174 D StatusBar.NetworkController: getUpdateDataNetType(): 0
+,08-17 15:50:54.083  1174  1174 D StatusBar.NetworkController: getUpdateDataNetType(): mDataTypeBrand = LTE
+,08-17 15:50:54.083  1174  1174 D StatusBar.NetworkController: updateDataNetType(),
+,08-17 15:50:54.083  1174  1174 D StatusBar.NetworkController: NoService, mRoamingIconId = 0,
+08-17 15:50:54.083  1174  1174 E StatusBar.NetworkController: updateLTEICONDataNetType:0,
+,08-17 15:50:54.083  1174  1174 D StatusBar.NetworkController: updateDataIcon, mDataDirectionIconId = (null) mDataConnected = false,
+08-17 15:50:54.083  1174  1174 D StatusBar.NetworkController: updateTelephonySignalStrength: hasService=false ss=SignalStrength: 99 99 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 -1 2147483647 0x0 gsm|lte,
+08-17 15:50:54.083  1174  1174 D StatusBar.NetworkController: updateTelephonySignalStrength, No signal level. mPhoneSignalIconId = com.android.systemui:drawable/tw_stat_sys_signal_null mDataSignalIconId = com.android.systemui:drawable/tw_stat_sys_signal_null mQSPhoneSignalIconId = com.android.systemui:drawable/ic_qs_signal_no_signal mContentDescriptionPhoneSignal = No phone signal,
+,08-17 15:50:54.083  1174  1174 D StatusBar.NetworkController: refreshViews connected={ wifi } level=0 combinedSignalIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mobileLabel= wifiLabel="NG700" emergencyOnly=false combinedLabel="NG700" mAirplaneMode=true mDataActivity=0 mPhoneSignalIconId=0x0/(null) mQSPhoneSignalIconId=0x0/(null) mDataDirectionIconId=0x0/(null) mDataSignalIconId=0x0/(null) mDataTypeIconId=0x0/(null) mQSDataTypeIconId=0x0/(null) mNoSimIconId=0x0/(null) mWifiIconId=0x7f02056d/com.android.systemui:drawable/stat_sys_wifi_signal_4 mQSWifiIconId=0x7f02014f/com.android.systemui:drawable/ic_qs_wifi_4 mWifiActivityIconId=0x7f02053a/com.android.systemui:drawable/stat_sys_signal_no_inout mBluetoothTetherIconId=0x7f02054a/com.android.systemui:drawable/stat_sys_tether_bluetooth,
+08-17 15:50:54.083  1174  1174 D STATUSBAR-WifiQuickSettingButton: onWifiSignalChanged enabled=true enabledDesc:"NG700"
+,08-17 15:50:54.093  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,08-17 15:50:54.093  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+08-17 15:50:54.093  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false)
+,08-17 15:50:54.093  1174  1174 D StatusBar.NetworkController: refreshNwBoosterIndicator - setNWBoosterIndicators(false),
+,08-17 15:50:54.193  6195  6195 V io.jxcore.node.ConnectionHelper: Notifying discovery manager state change: is discovering: false, is advertising: false,
+08-17 15:50:54.193  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
+08-17 15:50:54.193  6195  6247 I jxcore-log: 
+,08-17 15:50:54.273  7045  7045 D AndroidRuntime: ,
+08-17 15:50:54.273  7045  7045 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+,08-17 15:50:54.283  7045  7045 D AndroidRuntime: CheckJNI is OFF,
+,08-17 15:50:54.283  7045  7045 D AndroidRuntime: readGMSProperty: start
+08-17 15:50:54.283  7045  7045 D AndroidRuntime: readGMSProperty: already setted!!,
+08-17 15:50:54.283  7045  7045 D AndroidRuntime: propertySet: couldn't set property (it is from app)
+08-17 15:50:54.283  7045  7045 D AndroidRuntime: readGMSProperty: could not set the property(default)!!
+,08-17 15:50:54.283  7045  7045 D AndroidRuntime: readGMSProperty: end
+08-17 15:50:54.283  7045  7045 D AndroidRuntime: addProductProperty: start
+,08-17 15:50:54.333  1015  2729 D SSRM:n  : SIOP:: AP = 330,
+,08-17 15:50:54.343  6195  6195 V io.jxcore.node.ConnectionHelper: Notifying discovery manager state change: is discovering: false, is advertising: false
+08-17 15:50:54.343  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false},
+08-17 15:50:54.343  6195  6247 I jxcore-log: 
+,08-17 15:50:54.433  1015  1128 D ConnectivityService: sendStickyBroadcast: action=android.net.conn.CONNECTIVITY_CHANGE,
+,08-17 15:50:54.453  7045  7045 E AffinityControl: AffinityControl: registerfunction enter
+,08-17 15:50:54.463  1015  1039 D GpsLocationProvider: receive broadcast intent, action: android.net.conn.CONNECTIVITY_CHANGE
+,08-17 15:50:54.483  3177  3177 I DBG_DM  : [llllIlIIIllllIIlIlll(88/llIIIIlllllIIllIIllI)] WiFi Network is connected
+,08-17 15:50:54.483  6195  6195 V io.jxcore.node.ConnectivityMonitor: updateConnectivityInfo: State changed:
+08-17 15:50:54.483  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi Direct supported: true
+08-17 15:50:54.483  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth LE multiple advertisement supported: SUPPORTED
+08-17 15:50:54.483  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Wi-Fi enabled: true
+08-17 15:50:54.483  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is Bluetooth enabled: true
+08-17 15:50:54.483  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - BSSID name: f4:f2:6d:22:99:3e
+08-17 15:50:54.483  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - is connected/connecting to active network: true
+08-17 15:50:54.483  6195  6195 V io.jxcore.node.ConnectivityMonitor:     - active network type is Wi-Fi: true
+,08-17 15:50:54.483  7045  7045 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+08-17 15:50:54.483  6517  6517 I NetworkMonitor: type=WIFI subType= reason=null isConnected=true
+,08-17 15:50:54.493  6195  6195 D io.jxcore.node.JXcoreExtension: notifyNetworkChanged: BLE: ON, Bluetooth: ON, Wi-Fi: ON, cellular: DO_NOT_CARE, BSSID name: f4:f2:6d:22:99:3e
+08-17 15:50:54.493  6195  6247 I jxcore-log: DEBUG thaliMobileNativeWrapper: networkChanged: {"bluetoothLowEnergy":"on","bluetooth":"on","wifi":"on","cellular":"doNotCare","bssidName":"f4:f2:6d:22:99:3e"}
+08-17 15:50:54.493  6195  6247 I jxcore-log: 
+,08-17 15:50:54.493  6500  6500 I PCWCLIENTTRACE_PushUtil: SPPPushClient is installed : true
+08-17 15:50:54.493  6500  6500 I PCWCLIENTTRACE_PushUtil: sales region : global
+08-17 15:50:54.493  6500  6500 I PCWCLIENTTRACE_PushUtil: getPushTypeList : [SPP, GCM]
+08-17 15:50:54.493  6500  6500 I PCWCLIENTTRACE_SYSTEMReceiver: [onReceive] - android.net.conn.CONNECTIVITY_CHANGE
+,08-17 15:50:54.503  1015  1027 I splitIntent: Split this intent : android.net.conn.CONNECTIVITY_CHANGE, mSplitNum[0]=8, mSplitNum[1]=17, mSplitNum[2]=25, mBgSplitQueueNum=3 divideNum= 8 r.nextReceiver= 1 receivers.size=33
+08-17 15:50:54.503  1015  1027 I splitIntent: finish to split intent : android.net.conn.CONNECTIVITY_CHANGE !! Enqueue -> schedule it!!
+,08-17 15:50:54.503  1015  1502 D PackageManager: START PACKAGE DELETE: observer{308253123}
+08-17 15:50:54.503  1015  1502 D PackageManager: pkg{<packageName>}
+08-17 15:50:54.503  1015  1502 D PackageManager: user{0}
+08-17 15:50:54.503  1015  1502 D PackageManager: caller{2000}
+08-17 15:50:54.503  1015  1502 D PackageManager: flags{2}
+08-17 15:50:54.503  1015  1502 D PersonaManagerService: isFromApprovedUnInstaller: uid, userId, appid : 2000 0 2000
+08-17 15:50:54.503  1015  1502 D PersonaManagerService: isFromApprovedUnInstaller: isApproved : true
+08-17 15:50:54.503  1015  1502 D PersonaManagerService: isFromApprovedUnInstaller: isApproved before exit: true
+08-17 15:50:54.503  1015  1502 D PackageManager: deletePackageAsUser- pkg:com.test.thalitest, userId:0, flag2
+08-17 15:50:54.503  1015  1502 D PackageManager: deletePackageAsUser- pkg:com.test.thalitest, userId:0, flag2
+,08-17 15:50:54.503  1015  1054 D PackageManager: [MSG] DELETE_PACKAGE_AS_USER
+08-17 15:50:54.503  1015  1054 D PackageManagerService: deletePackage- pkg:com.test.thalitest, edmuserId:0
+08-17 15:50:54.503  1015  1054 D PackageManagerService: deletePackage- pkg:com.test.thalitest, edmuserId:-1
+08-17 15:50:54.503  1015  1054 D ApplicationPolicy: getApplicationUninstallationEnabled
+08-17 15:50:54.503  1015  1054 D ApplicationPolicy: getApplicationUninstallationEnabled :  enabled true
+,08-17 15:50:54.513  1015  1054 D PackageManager: !@killApplicatoin: 10155, uninstall pkg
+,08-17 15:50:54.513  6517  6517 V MusicLeanback: onReceive: Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.google.android.music/.leanback.notifications.LeanbackRecommendationsService$LeanbackRecommendationReceiver (has extras) }
+,08-17 15:50:54.513  1726  1726 D accuweather: [KK AccuPhone]>>> WCW:32 [0:0] action : androidnetconnCONNECTIVITY_CHANGE
+,08-17 15:50:54.543  1015  1040 I ActivityManager: Force stopping com.test.thalitest appid=10155 user=-1: uninstall pkg
+,08-17 15:50:54.543  1015  1040 I ActivityManager: Killing 6195:com.test.thalitest/u0a155 (adj 0): stop com.test.thalitest cause uninstall pkg
+,08-17 15:50:54.643  1015  1040 I ActivityManager:   Force finishing activity ActivityRecord{1af87a50 u0 com.test.thalitest/.MainActivity t128}
+,08-17 15:50:54.653  1015  1478 I WindowState: WIN DEATH: Window{f4f60b0 u0 com.test.thalitest/com.test.thalitest.MainActivity}
+,08-17 15:50:54.653   258   443 I SurfaceFlinger: id=14 Removed NainActivit (6/9)
+,08-17 15:50:54.653  1015  1040 W ActivityManager: mDVFSHelper.acquire()
+08-17 15:50:54.653   258   721 I SurfaceFlinger: id=14 Removed NainActivit (-2/9)
+,08-17 15:50:54.653  1015  1218 D RCPManagerService: exchangeData() failure , invalid userId
+,08-17 15:50:54.653  1015  1478 D InputDispatcher: Focus left window: 6195
+,08-17 15:50:54.663  1015  1502 D RCPManagerService: exchangeData() failure , invalid userId
+,08-17 15:50:54.673  1015  1045 D PointerIcon: setMouseIconStyle1 pointerType: 1001iconType:101 flag:0
+08-17 15:50:54.673  1015  1045 D PointerIcon: setMouseCustomIcon IconType is same.101,
+,08-17 15:50:54.693  1015  1040 D InputDispatcher: Focused application released
+08-17 15:50:54.693  1726  1726 D accuweather: [KK AccuPhone]>>> U:4106 [0:0] getPWC : surface = 0, remote = 1
+,08-17 15:50:54.693  1726  1726 D accuweather: [KK AccuPhone]>>> U:4284 [0:0] Store PWC = 1
+08-17 15:50:54.693  1726  1726 D accuweather: [KK AccuPhone]>>> U:4158 [0:0] addPWC = 1
+,08-17 15:50:54.693  1726  1726 D accuweather: [KK AccuPhone]>>> UIM:306 [0:0]  action:androidnetconnCONNECTIVITY_CHANGE
+,08-17 15:50:54.703  1015  1054 I ActivityManager: Force stopping com.test.thalitest appid=10155 user=0: pkg removed
+,08-17 15:50:54.703  6526  6526 I FOTA_Client: [com.sec.android.fotaclient.FotaRegisterReceiver(102/onReceive)] Already device registered...
+,08-17 15:50:54.703  1295  1882 D daemonapp: [MSC_Daemon]>>> WCP:1254 [0:0] cp update : count : 1, pt : 5
+,08-17 15:50:54.713  1015  1054 W ActivityManager: CustomStartingWindow se packge removed so remove capture also
+,08-17 15:50:54.753  5671  5671 I art     : Explicit concurrent mark sweep GC freed 2068(118KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 6MB/11MB, paused 686us total 27.333ms
+,08-17 15:50:54.753   288   288 E SMD     : DCD OFF
+,08-17 15:50:54.763  1015  1097 I InputReader: Reconfiguring input devices.  changes=0x00000010
+,08-17 15:50:54.773  1834  1834 E SamsungIME: mOCRHelper is null
+,08-17 15:50:54.793  3823  3823 I art     : Explicit concurrent mark sweep GC freed 22743(1382KB) AllocSpace objects, 3(48KB) LOS objects, 40% free, 15MB/26MB, paused 1.435ms total 88.797ms
+,08-17 15:50:54.793  1726  1726 D accuweather: [KK AccuPhone]>>> U:4250 [0:0] Store PWC succeed
+,08-17 15:50:54.803  1443  1443 D PersonaManager: isKioskContainerExistOnDevice
+,08-17 15:50:54.803  3823  3835 W SQLiteConnectionPool: A SQLiteConnection object for database '+data+data+com_google_android_gms+databases+networkstatistics_sqlite' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+,08-17 15:50:54.813  1443  1443 D RegisteredServicesCache: empty dynamic service
+,08-17 15:50:54.823  1015  1123 V NetworkStats: removeUidsLocked() for UIDs [10155]
+,08-17 15:50:54.823  1015  1123 D NtpTrustedTime: currentTimeMillis() cache hit
+,08-17 15:50:54.823  1015  1123 V NetworkStats: performPollLocked(flags=0x3)
+,08-17 15:50:54.823  1015  1123 D NetworkStatsFactory: UpdateStatsForKnox updated
+,08-17 15:50:54.823  1015  1123 D NetworkStatsFactory: UpdateStatsForKnox main else ---
+,08-17 15:50:54.833  1015  1123 D NtpTrustedTime: currentTimeMillis() cache hit
+08-17 15:50:54.833  1015  1123 V NetworkStats: performPollLocked() took 11ms
+,08-17 15:50:54.843  1443  1443 D RegisteredComponentCache: Collect Tech packages for Knox
+,08-17 15:50:54.843  1443  1443 D PersonaManager: isKioskContainerExistOnDevice
+,08-17 15:50:54.873  1015  1485 I art     : Explicit concurrent mark sweep GC freed 85416(5MB) AllocSpace objects, 12(192KB) LOS objects, 33% free, 28MB/42MB, paused 4.662ms total 192.386ms
+,08-17 15:50:54.873  1015  1485 D SecContentProvider2: uri = 11 selection = getMyKnoxAdmin
+08-17 15:50:54.873  1015  1485 D SecContentProvider2: mCursor = null
+08-17 15:50:54.873  1015  1054 I art     : WaitForGcToComplete blocked for 61.706ms for cause Explicit
+,08-17 15:50:54.873  1932  2105 W GeofencerStateMachine: Ignoring removeGeofence because network location is disabled.
+,08-17 15:50:54.883  1726  1726 D accuweather: [KK AccuPhone]>>> WC:30 [0:0] action : androidnetconnCONNECTIVITY_CHANGE
+,08-17 15:50:54.883  6468  6468 D SecurityLogAgent: KnoxConfiguration : Current State = 1
+08-17 15:50:54.883  6468  6468 D SecurityLogAgent: KnoxConfiguration : Current State Mapping Found 
+08-17 15:50:54.883  6468  6468 D SecurityLogAgent: StateMachine : Current State = 1
+,08-17 15:50:54.883  3177  3177 I DBG_DM  : [com.wssyncmldm.ui.XUIInstallConfirmActivity(428/onResume)] 
+,08-17 15:50:54.893  6526  6526 I FOTA_Client: [com.sec.android.fotaclient.FotaUpdaterReceiver(93/onReceive)] Auto update settings is activated
+,08-17 15:50:54.903  1726  1726 D accuweather: [KK AccuPhone]>>> UIMEM:104 [0:0] The widget does not exist in idle!!
+,08-17 15:50:54.903  6468  6468 D SecurityLogAgent: StateMachine : Changed Current State = 1
+,08-17 15:50:54.903  6526  6526 I FOTA_Client: [IlIlIIllllIllIIIIIll(81/llllIIIllIlIIIIllllI)] Polling time is vaild
+08-17 15:50:54.903  1015  1039 D EnterpriseDeviceManagerService: Package has changed for user 0
+,08-17 15:50:54.903  1015  1039 D EnterpriseDeviceManagerService: Admin package name: com.google.android.gms
+,08-17 15:50:54.903  3177  3177 I DBG_DM  : [com.wssyncmldm.db.file.XDB(5416/IlIlllIlllllIlIllllI)] Get Postpone Count : 3
+,08-17 15:50:54.903  6526  6526 W FOTA_Client: [lIllIlIIlIIlllllIIll(98/llllIIIllIlIIIIllllI)] No file exists in Directory
+,08-17 15:50:54.913  3177  3177 I DBG_DM  : [com.wssyncmldm.db.file.XDB(5138/lIIIIIIIlllllllIIlll)] Get Priority : 0
+,08-17 15:50:54.923  3177  3177 I DBG_DM  : [com.wssyncmldm.db.file.XDB(5438/llIIlIIlIllIllIlllII)] Get Postpone Max Count : 0
+,08-17 15:50:54.923  3177  3177 I DBG_DM  : [com.wssyncmldm.ui.XUIInstallConfirmActivity(438/onResume)] Postpone Count : 3
+,08-17 15:50:54.933  3177  3177 I DBG_DM  : [com.wssyncmldm.db.file.XDB(5479/llIlIIIIlllIlllllIll)] Download Postpone status : 0
+,08-17 15:50:54.943  1015  1128 D ConnectivityService: NetTransition Wakelock (NetworkAgentInfo [WIFI () - 502] cleared because we found a replacement network
+,08-17 15:50:54.943  3177  3177 I DBG_DM  : [com.wssyncmldm.XDMService(649/lllIlIlIIIllIIlIllIl)] Idle Screen : true
+,08-17 15:50:54.943  1015  1315 D ActivityManager: startService callerProcessName:com.google.android.gms, calleePkgName: com.google.android.gms
+,08-17 15:50:54.943  1015  1315 D ActivityManager: retrieveServiceLocked(): component = com.google.android.gms/com.google.android.gms.gcm.GcmService; callingUser = 0; userId(target) = 0
+,08-17 15:50:54.943  1015  1315 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:54.953  1015  1315 W ActivityManager: NORMAL SET : dst_category = 701, src_allowCategory = 0,701-1023
+08-17 15:50:54.953  1015  1315 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.google.android.gms, destAppInfo.processName = com.google.android.gms
+,08-17 15:50:54.953  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+,08-17 15:50:54.953  1015  1124 D NtpTrustedTime: currentTimeMillis() cache hit
+,08-17 15:50:54.953  1015  1039 W TextServicesManagerService: no available spell checker services found
+,08-17 15:50:54.963  3628  3628 I KLMS-2.5.183: : KLMSAbstractReciever(): onReceive(): Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.samsung.klmsagent/.listner.MainReciver (has extras) } | timestamp: Wed Aug 17 15:50:54 GMT+02:00 2016
+,08-17 15:50:54.963  3177  3177 I DBG_DM  : [com.wssyncmldm.ui.lIlIIlIlIlIllllllIII(330/llIIIIlllllIIllIIllI)] NotificationID : 4 / Notification IndicatorState : 7
+,08-17 15:50:54.973   278  1010 D EnterpriseController: uids 10012
+08-17 15:50:54.973   278  1010 D EnterpriseController: mIsMarkChainAdded is 18 mIsBlockChainAdded is 252 netId is 0
+08-17 15:50:54.973   278  1010 D Netd    : getNetworkForDns: using netid 503 for uid 10012
+,08-17 15:50:54.973  1015  1474 D ActivityManager: startService callerProcessName:com.samsung.klmsagent, calleePkgName: com.samsung.klmsagent
+,08-17 15:50:54.973  1015  1474 D ActivityManager: retrieveServiceLocked(): component = com.samsung.klmsagent/com.samsung.klmsagent.services.KLMSIntentService; callingUser = 0; userId(target) = 0
+,08-17 15:50:54.983  3823  3823 I iu.Environment: update connectivity state; isNetworkMetered? false, isRoaming? false, isBackgroundDataAllowed? true*
+,08-17 15:50:54.983  1015  1474 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:54.983  1015  1474 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:54.983  1015  1474 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.klmsagent, destAppInfo.processName = com.samsung.klmsagent
+,08-17 15:50:54.983  3823  4575 I iu.UploadsManager: num queued entries: 0
+,08-17 15:50:54.983  3628  3628 I KLMS-2.5.183: : KLMSAbstractReciever(): onReceive().END.
+,08-17 15:50:55.003  3177  3177 I DBG_DM  : [com.wssyncmldm.db.file.XDB(5138/lIIIIIIIlllllllIIlll)] Get Priority : 0
+,08-17 15:50:55.003  1015  1015 D RCPManagerService: PackageReceiver onReceive()
+,08-17 15:50:55.003  1015  1015 I HarmonyEASService: onReceive : android.intent.action.PACKAGE_REMOVED for 0
+,08-17 15:50:55.003  3823  4575 I iu.UploadsManager: num updated entries: 0
+,08-17 15:50:55.003  3823  4575 I iu.SyncManager: NEXT; no task
+,08-17 15:50:55.003  3628  3628 I KLMS-2.5.183: : KLMSIntentService(): onCreate()
+,08-17 15:50:55.003  1015  1015 D KnoxMUMContainerPolicy: mPackageReceiver : action - android.intent.action.PACKAGE_REMOVED
+,08-17 15:50:55.003  1015  1015 I OTPFW   : PackageRemovalReceiver::onReceive Enter
+,08-17 15:50:55.003  1015  1015 D OTPFW   : OtpDbHelper::getInstance New instance created
+,08-17 15:50:55.013  1015  1015 D OTPFW   : DBIntegrity::getInstance - New instance created
+,08-17 15:50:55.013  1015  1015 D OTPFW   : PackageRemovalReceiver::onReceive deleting token for Pkg = com.test.thalitest uid = 10155 container id = 0
+,08-17 15:50:55.013  1015  1039 W Resources: Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+,08-17 15:50:55.013  1015  1015 I OTPFW   : ProvisionData::getAllEntries Enter
+,08-17 15:50:55.013  1015  1015 E OTPFW   : ProvisionData::getAllEntries Table is empty
+,08-17 15:50:55.023  3628  3628 I KLMS-2.5.183: : KLMSSystemProperties(): getBoolean(): ro.product_ship = true
+,08-17 15:50:55.023  1015  1218 D ActivityManager: startService callerProcessName:com.samsung.android.app.galaxyfinder, calleePkgName: com.samsung.android.app.galaxyfinder
+08-17 15:50:55.023  1015  1218 D ActivityManager: retrieveServiceLocked(): component = com.samsung.android.app.galaxyfinder/com.samsung.android.app.galaxyfinder.tag.LocationTagReadyService; callingUser = 0; userId(target) = 0
+,08-17 15:50:55.023  1015  1218 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:55.023  1015  1218 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:55.023  1015  1218 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.android.app.galaxyfinder, destAppInfo.processName = com.samsung.android.app.galaxyfinder
+,08-17 15:50:55.023  1015  1076 D ApplicationPolicy: isStatusBarNotificationAllowedAsUser: packageName = com.wssyncmldm,userId = 0
+,08-17 15:50:55.023  1015  1076 V ApplicationPolicy: isApplicationStateBlocked userId 0 pkgname com.wssyncmldm
+,08-17 15:50:55.033  1015  1039 W Resources: Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+08-17 15:50:55.033  1015  1015 D BackupManagerService: Received broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.test.thalitest flg=0x4000010 (has extras) }
+,08-17 15:50:55.033  1015  1015 D JobSchedulerService: Receieved: android.intent.action.PACKAGE_REMOVED
+08-17 15:50:55.033  1015  1015 V EnterpriseBillingPolicy: packageModificationReceiver - onreceive - start - android.intent.action.PACKAGE_REMOVED
+08-17 15:50:55.033  1015  1015 V EnterpriseBillingPolicy: uID is 10155
+08-17 15:50:55.033  1015  1015 V EnterpriseBillingPolicy: Removed Packageuid is0
+08-17 15:50:55.033  1015  1015 V EnterpriseBillingPolicyStorage: getProfileForApplication - enter
+,08-17 15:50:55.033  1015  1015 V EnterpriseBillingPolicyStorage: getProfileForApplication - exit null : containerId = 0
+08-17 15:50:55.033  1015  1015 V EnterpriseBillingPolicy: packageModificationReceiver - onreceive - personal application - profile null
+08-17 15:50:55.033  1015  1015 V EnterpriseBillingPolicy: packageModificationReceiver - onreceive - might be a vpn vendor package 
+08-17 15:50:55.033  1015  1015 V EnterpriseBillingPolicyStorage: getBillingProfileForVpnEngine - start - com.test.thalitest
+,08-17 15:50:55.033  3628  3628 I KLMS-2.5.183: : KLMSUtility(): isTestMode(): product_ship: true | testApk: false
+,08-17 15:50:55.033  1015  1015 V EnterpriseBillingPolicyStorage: getBillingProfileForVpnEngine - end - null
+,08-17 15:50:55.033  1015  1039 W Resources: Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+,08-17 15:50:55.033  3177  3177 I DBG_DM  : [com.wssyncmldm.db.file.XDB(5416/IlIlllIlllllIlIllllI)] Get Postpone Count : 3
+,08-17 15:50:55.043  3177  3177 I DBG_DM  : [com.wssyncmldm.db.file.XDB(5058/IIlllIlIIlIllIlllIll)] Get Force status : 0
+,08-17 15:50:55.043  3628  7060 I KLMS-2.5.183: : KLMSIntentService(): onHandleIntent().START: Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.samsung.klmsagent/.services.KLMSIntentService (has extras) }
+,08-17 15:50:55.053  1015  1015 V ApplicationPolicy: isApplicationStateBlocked userId 0 pkgname com.test.thalitest
+,08-17 15:50:55.053  3628  7060 I KLMS-2.5.183: : KLMSIntentService(): NETWORK_STATE_CHANGED_ACTION
+,08-17 15:50:55.053  1015  2729 D SSRM:bc : MSG_TYPE_APP_REMOVED::
+,08-17 15:50:55.053  3177  3177 I DBG_DM  : [com.wssyncmldm.db.file.XDB(5438/llIIlIIlIllIllIlllII)] Get Postpone Max Count : 0
+,08-17 15:50:55.053  1015  1015 V EnterpriseBillingPolicy: packageModificationReceiver - onreceive - start - android.intent.action.PACKAGE_FULLY_REMOVED
+08-17 15:50:55.053  3177  3177 I DBG_DM  : [com.wssyncmldm.ui.XUIInstallConfirmActivity(532/llIIIIlllllIIllIIllI)] Check Force Install : false
+08-17 15:50:55.053  1015  1015 V EnterpriseBillingPolicy: uID is 10155
+08-17 15:50:55.053  1015  1015 V EnterpriseBillingPolicy: Removed Packageuid is0
+08-17 15:50:55.053  1015  1015 V EnterpriseBillingPolicyStorage: getProfileForApplication - enter
+,08-17 15:50:55.063  1015  1015 V EnterpriseBillingPolicyStorage: getProfileForApplication - exit null : containerId = 0
+08-17 15:50:55.063  1015  1015 V EnterpriseBillingPolicy: packageModificationReceiver - onreceive - personal application - profile null
+08-17 15:50:55.063  1015  1015 V EnterpriseBillingPolicy: packageModificationReceiver - onreceive - might be a vpn vendor package 
+08-17 15:50:55.063  1015  1015 V EnterpriseBillingPolicyStorage: getBillingProfileForVpnEngine - start - com.test.thalitest
+,08-17 15:50:55.063  1015  1015 V EnterpriseBillingPolicyStorage: getBillingProfileForVpnEngine - end - null
+,08-17 15:50:55.063  3177  3177 I DBG_DM  : [llIIlIIlIllIllIlllII(329/IllIlIIIIlIIlIIIllIl)] 
+,08-17 15:50:55.063  3177  3177 I DBG_DM  : [llIIlIIlIllIllIlllII(335/IllIlIIIIlIIlIIIllIl)] InternalEncrypted : [false]
+,08-17 15:50:55.063  3628  7060 I KLMS-2.5.183: : KLMSUtility(): isNetworkAvailable() - WIFI : true| MOBILE : false| ETHERNET : false
+,08-17 15:50:55.073  1015  1015 V AlarmManagerEXT: com.test.thalitest(10155) is removed.
+,08-17 15:50:55.073  5914  5914 D WaitQueueForNetworkActivate: notifyNetworkActivated
+,08-17 15:50:55.073  3628  7060 I KLMS-2.5.183: : StateImplV2(): networkChangeListener().START
+,08-17 15:50:55.083  3628  7060 I KLMS-2.5.183: : NetworkChangeOperations(): uploadRequestLog().START 
+,08-17 15:50:55.083  1015  1028 D ActivityManager: post active user change for 0 fullscreen true record.isFloatingActivity() false
+,08-17 15:50:55.083  1015  1028 D KnoxTimeoutHandler: postActiveUserChange for user 0
+08-17 15:50:55.083  1015  1028 I KnoxTimeoutHandler: postActiveUserChange, showWhenLocked: false
+,08-17 15:50:55.083  3177  3177 I DBG_DM  : [com.wssyncmldm.ui.XUIInstallConfirmActivity(420/onPause)] 
+,08-17 15:50:55.083  1015  1160 D TaskPersister: removeObsoleteFile: deleting file=128_task.xml
+,08-17 15:50:55.083  1015  1160 D TaskPersister: removeObsoleteFile: deleting file=127_task.xml
+,08-17 15:50:55.093  6709  6709 I DIAGMON_AGENT: [lllIIIIlIIlIlllIlIIl(39/llIIIIlllllIIllIIllI)] Receive broadcast: android.net.conn.CONNECTIVITY_CHANGE
+,08-17 15:50:55.093   258   258 I SurfaceFlinger: id=16 createSurf (720x1280),1 flag=404, YUIInstallC
+08-17 15:50:55.093  6709  6709 I DIAGMON_AGENT: [lllIIIIlIIlIlllIlIIl(40/llIIIIlllllIIllIIllI)] Receive broadcast:
+08-17 15:50:55.093  6709  6709 I DIAGMON_AGENT: ./extraInfo: "NG700"
+,08-17 15:50:55.093  6709  6709 I DIAGMON_AGENT: [lllIIIIlIIlIlllIlIIl(54/llIIIIlllllIIllIIllI)] Running with RegistrationReceiver
+,08-17 15:50:55.093  1015  1043 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams
+,08-17 15:50:55.093  3628  7060 I KLMS-2.5.183: : NetworkChangeOperations(): uploadRequestLog().END 
+,08-17 15:50:55.103  1015  1027 D InputDispatcher: Focus entered window: 3177
+,08-17 15:50:55.103  1015  1045 D PointerIcon: setMouseIconStyle1 pointerType: 1001iconType:101 flag:0
+,08-17 15:50:55.103  3177  3177 D SRIB_DCS: log_dcs ThreadedRenderer::initialize entered! 
+,08-17 15:50:55.103  1015  1045 D PointerIcon: setMouseCustomIcon IconType is same.101
+,08-17 15:50:55.113  1932  7058 I qtaguid : Tagging socket 57 with tag 1000040700000000{268436487,0} for uid -1, pid: 1932, getuid(): 10012
+,08-17 15:50:55.113  3628  7060 I KLMS-2.5.183: : StateImplV2(): networkChangeListener().END
+,08-17 15:50:55.113  1015  1015 W NotificationService: Pray mode not found android.content.pm.PackageManager$NameNotFoundException: Application package com.sec.android.settings.praymodewidget not found
+,08-17 15:50:55.113  3177  3177 V ActivityThread: updateVisibility : ActivityRecord{35c199b9 token=android.os.BinderProxy@1632eac4 {com.wssyncmldm/com.wssyncmldm.ui.XUIInstallConfirmActivity}} show : true
+,08-17 15:50:55.123  1015  1027 D InputMethodManagerService: windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+,08-17 15:50:55.133  3628  3628 I KLMS-2.5.183: : KLMSIntentService(): onDestroy()
+,08-17 15:50:55.133  1015  7068 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1698 com.android.server.InputMethodManagerService$6.run:2762 java.lang.Thread.run:818 <bottom of call stack> <bottom of call stack> 
+,08-17 15:50:55.133  1015  1027 W InputMethodManagerService: Got RemoteException sending setActive(false) notification to pid 6195 uid 10155
+,08-17 15:50:55.133  1015  1015 D KnoxTimeoutHandler: handleActiveUserChange for user 0
+,08-17 15:50:55.133  1015  1015 D PersonaManagerService: getPersonasForUser(): returning null!
+,08-17 15:50:55.133  1015  2925 D SecContentProvider2: uri = 11 selection = getMyKnoxAdmin
+08-17 15:50:55.133  1015  2925 D SecContentProvider2: mCursor = null
+,08-17 15:50:55.143  1174  1174 D PanelView: There is/are notification(s) 
+,08-17 15:50:55.153  6763  6763 D QuickConnect: PeriphStartReceiver.onReceive - android.net.conn.CONNECTIVITY_CHANGE
+,08-17 15:50:55.153  6763  6763 I QuickConnect: PeriphStartReceiver.onReceive - USER_OWNER care CONNECTIVITY_ACTION. run P service
+,08-17 15:50:55.153  6763  6763 I QuickConnect: PeriphStartReceiver.onReceive - no need to start
+08-17 15:50:55.153  1174  1174 D StatusBar: ----- contentsUnchanged : true, bigContentsUnchanged - true, headsUpContentsUnchanged - true , publicUnchanged true
+,08-17 15:50:55.153  1174  1174 D PersonaManager: isKioskContainerExistOnDevice
+08-17 15:50:55.153  1174  1174 D PersonaManager: isKioskContainerExistOnDevice
+,08-17 15:50:55.153  1174  1174 D PanelView: There is/are notification(s) 
+08-17 15:50:55.153  1174  1174 D PanelView: kidsfalse mQsExpansionEnabled:true
+,08-17 15:50:55.163  1174  1174 D PersonaManager: isKioskContainerExistOnDevice
+,08-17 15:50:55.163  1174  1174 D PanelView: There is/are notification(s) 
+08-17 15:50:55.163  1174  1174 D PanelView: kidsfalse mQsExpansionEnabled:true
+,08-17 15:50:55.163  1834  1834 D SamsungIME: onStartInput: No inputType, No imeOption, isInputViewShown = false, isExtractViewShown = false, isShowInputRequested = false, isConfigChanged = false
+,08-17 15:50:55.173  3177  3177 I Timeline: Timeline: Activity_idle id: android.os.BinderProxy@1632eac4 time:149612
+,08-17 15:50:55.193  1015  1045 W ActivityManager: mDVFSHelper.release()
+,08-17 15:50:55.203  1015  1039 W ResourceType: Failure getting entry for 0x7f07007b (t=6 e=123) (error -75)
+08-17 15:50:55.203  1015  1045 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{28607467 u0 com.wssyncmldm/.ui.XUIInstallConfirmActivity t127} time:149640
+,08-17 15:50:55.203  1015  1039 W Resources: Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+,08-17 15:50:55.203  1015  1039 W Resources: Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+,08-17 15:50:55.203  3235  7075 I DBG_POLICYDM: [com.sec.android.fota.common.Network(88/isWiFiNetworkConnected)] WiFi Network is connected
+,08-17 15:50:55.203  3235  7075 I DBG_POLICYDM: [com.policydm.XDMService(481/isNetworkChanged)] a previous network is 0, current network is 2
+,08-17 15:50:55.213  1015  1039 W Resources: Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+08-17 15:50:55.213  3235  7075 E DBG_POLICYDM: [com.policydm.XDMService(483/isNetworkChanged)] network changed.... 
+,08-17 15:50:55.213  6621  6621 E SPPClientService: [[SystemStateMoniter]] SystemStateMonitorService : noConnect? : false
+,08-17 15:50:55.213  1015  1039 W ResourcesManager: Asset path '/system/framework/sechardware.jar' does not exist or contains no resources.
+08-17 15:50:55.213  1015  1039 W ResourcesManager: Asset path '/system/framework/com.google.android.maps.jar' does not exist or contains no resources.
+08-17 15:50:55.213  1015  1039 W ResourcesManager: Asset path '/system/framework/twframework.jar' does not exist or contains no resources.
+,08-17 15:50:55.213  1015  1039 W Resources: Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+,08-17 15:50:55.213  6024  6024 I SA      : [OR] onReceive log=[SA = 2.1.0240 V = 21 HWD = 1280X720 2.0 dpi = 320  SIZE = 2 LOCALE = en_US CSC = XEO MCC = 0 MNC 0 T = user DEVICE = a5ulte P = a5ultexx I = LRX22G M = SM-A500FU OKLEFT false DIS LRX22G.A500FUXXU1BOJ6 PSS = 4.978878039476607  ]
+,08-17 15:50:55.223  6024  6024 I SA      : [OR] onReceive Intent=[ conn.CONNECTIVITY_CHANGE. networkInfo:[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "NG700", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false] networkType:1 inetCondition:0 extraInfo:? isDefault:true ]
+08-17 15:50:55.223  6024  6024 I SA      : [OR] == ACTION_CONNECTIVITY_CHANGE ==
+,08-17 15:50:55.233  1174  1174 D PanelView: mClearAll.setVisibility - mIsFullyOpened : false isShade : true mHasNotification : true mIsUpwardFling : false mQsFullyExpanded : true isShadeLocked : false mClearAllVisible : false
+,08-17 15:50:55.233  6024  6024 I SA      : [TPMU]  strSIMState 	:SIM_STATE_ABSENT
+08-17 15:50:55.233  6024  6024 I SA      : [OR] == isSIMCardReady false ==
+,08-17 15:50:55.233  6024  6024 I SA      : [SCU] == networkStateCheck == true
+,08-17 15:50:55.243  6024  6024 I SA      : [DM] getCountryCodeFromCSC : PL
+08-17 15:50:55.243  6024  6024 I SA      : isChinaCountryCode : false
+08-17 15:50:55.243  6024  6024 I SA      : [SCU] is ChinestModel Data Restricted   : false
+08-17 15:50:55.243  6024  6024 I SA      : [OR] == networkStateCheck true ==
+,08-17 15:50:55.243  6024  6024 I SA      : [OR] GetMyCountryZoneTask
+,08-17 15:50:55.243  6024  6024 I SA      : [OR] onReceive END
+,08-17 15:50:55.243  3235  7075 I DBG_POLICYDM: [com.policydm.XDMBroadcastReceiver(277/xdmExecResumeCase)] 
+,08-17 15:50:55.243  1228  1228 V DownloadManager: onReceive intent + android.net.conn.CONNECTIVITY_CHANGE
+,08-17 15:50:55.253  3235  7075 I DBG_POLICYDM: [com.policydm.db.XDBFile(61/xdbFileExists)] doesn't exist target file: /data/security/sepolicy
+,08-17 15:50:55.253  3235  7075 I DBG_POLICYDM: [com.policydm.db.XDBFile(61/xdbFileExists)] doesn't exist target file: /data/security/seapp_contexts
+,08-17 15:50:55.253  3235  7075 I DBG_POLICYDM: [com.policydm.db.XDBFile(61/xdbFileExists)] doesn't exist target file: /data/security/property_contexts
+,08-17 15:50:55.253  6024  7076 I SA      : [SRS] prepareGetMyCountryZone
+,08-17 15:50:55.253  1015  1039 W Resources: Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+,08-17 15:50:55.263  1015  1478 D ActivityManager: startService callerProcessName:com.android.providers.media, calleePkgName: com.android.providers.downloads
+08-17 15:50:55.263  1015  1478 D ActivityManager: retrieveServiceLocked(): component = com.android.providers.downloads/com.android.providers.downloads.DownloadService; callingUser = 0; userId(target) = 0
+,08-17 15:50:55.263  1015  1039 W Resources: Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+,08-17 15:50:55.263  1015  1478 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:55.263  1015  1478 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:55.263  1015  1478 W ActivityManager: NORMAL SET : srcAppInfo.processName = android.process.media, destAppInfo.processName = android.process.media
+,08-17 15:50:55.263  1015  1039 W Resources: Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+08-17 15:50:55.263  1015  1039 W Resources: Converting to string: TypedValue{t=0x12/d=0x0 a=-1}
+,08-17 15:50:55.263  1015  1039 W Resources: Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+,08-17 15:50:55.273  1015  1039 W Resources: Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+08-17 15:50:55.273  1015  1039 W Resources: Converting to string: TypedValue{t=0x12/d=0x0 a=-1}
+,08-17 15:50:55.273  3235  7075 I DBG_POLICYDM: [com.policydm.db.XDBFile(61/xdbFileExists)] doesn't exist target file: /data/security/file_contexts
+,08-17 15:50:55.273  3235  7075 I DBG_POLICYDM: [com.policydm.db.XDBFile(61/xdbFileExists)] doesn't exist target file: /data/security/service_contexts
+,08-17 15:50:55.273  1015  1039 W Resources: Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+08-17 15:50:55.273  1015  1039 W Resources: Converting to string: TypedValue{t=0x12/d=0x0 a=-1}
+,08-17 15:50:55.273  1015  1039 W Resources: Converting to string: TypedValue{t=0x12/d=0xffffffff a=-1}
+,08-17 15:50:55.273  3235  7075 I DBG_POLICYDM: [com.policydm.db.XDBFile(61/xdbFileExists)] doesn't exist target file: /data/security/mac_permissions.xml
+,08-17 15:50:55.283  1015  1039 D UsbSettingsManager: clearDefaults: com.test.thalitest
+,08-17 15:50:55.283  1015  1039 I CrashAnrDetector: onPackageRemoved : com.test.thalitest
+,08-17 15:50:55.283  6024  7076 I SA      : [TPMU]  strSIMState 	:SIM_STATE_ABSENT
+,08-17 15:50:55.283  6024  7076 I SA      : [SSP] query invoked
+,08-17 15:50:55.293  3235  7075 I DBG_POLICYDM: [com.policydm.XDMBroadcastReceiver(294/xdmExecResumeCase)] Start resumecase for INIT
+,08-17 15:50:55.303  1015  1474 D SecContentProvider2: uri = 15 selection = getAppBlockDownloadState
+,08-17 15:50:55.303  1015  1474 D SecContentProvider2: mCursor = null
+,08-17 15:50:55.313  6024  7076 I SA      : [TPMU] GetMccFromDB : null
+,08-17 15:50:55.313  6024  7076 I SA      : [SCU] getMccFromPreferece mcc = 260
+08-17 15:50:55.313  6024  7076 I SA      : [LBE] isSupportCheckDomainRegion : false
+08-17 15:50:55.313  6024  7076 I SA      : [TPM] isNoProxy(default) : true
+,08-17 15:50:55.313  3235  7075 E DBG_POLICYDM: [com.policydm.db.XDBSpdAdp(35/xdbGetSpdDeviceRegister)] Device is Registered
+,08-17 15:50:55.323  6024  7076 E File    : fail readDirectory() errno=2
+,08-17 15:50:55.333  3235  7075 I DBG_POLICYDM: [com.sec.android.fota.common.Network(88/isWiFiNetworkConnected)] WiFi Network is connected
+,08-17 15:50:55.333  1015  1054 I art     : Explicit concurrent mark sweep GC freed 26618(2MB) AllocSpace objects, 6(96KB) LOS objects, 33% free, 28MB/42MB, paused 4.101ms total 464.674ms
+,08-17 15:50:55.373  1015  1054 D PackageManager: delete codoeFile: 
+,08-17 15:50:55.383  1015  1054 D AASAuninstall: userId = 0, info.removedAppID = 10155, info.uid = 10155, packageName = com.test.thalitest
+08-17 15:50:55.383  1015  1054 I AASA_removePackage: UID=10155 Target=com.test.thalitest
+,08-17 15:50:55.383  1015  1054 D PackageManager: result of delete: 1{308253123}
+,08-17 15:50:55.393  7045  7045 D AndroidRuntime: Shutting down VM
+,08-17 15:50:55.413  1015  1054 D PackageManager: [MSG] START_CLEANING_PACKAGE packageName{com.test.thalitest}
+08-17 15:50:55.413  1015  1054 D PackageManager: userId{-1}
+08-17 15:50:55.413  1015  1054 D PackageManager: andCode{true}
+,08-17 15:50:55.413  1015  1054 D ActivityManager: retrieveServiceLocked(): component = com.android.defcontainer/com.android.defcontainer.DefaultContainerService; callingUser = 0; userId(target) = 0
+,08-17 15:50:55.413  1015  3214 D ActivityManager: startService callerProcessName:com.sec.android.app.samsungapps, calleePkgName: com.sec.android.app.samsungapps
+,08-17 15:50:55.413  1015  3214 D ActivityManager: retrieveServiceLocked(): component = com.sec.android.app.samsungapps/com.sec.android.app.samsungapps.autoupdateservice.AutoUpdateService; callingUser = 0; userId(target) = 0
+,08-17 15:50:55.413  1015  3214 W ActivityManager: userId = 0, bbcId = -10000
+,08-17 15:50:55.413  1015  3214 W ActivityManager: NORMAL SET : dst_category = 1023, src_allowCategory = 0,701-1023
+08-17 15:50:55.413  1015  3214 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.sec.android.app.samsungapps, destAppInfo.processName = com.sec.android.app.samsungapps
+,08-17 15:50:55.423  1015  1040 I splitIntent: Queue : backgroundsplit_2 intent android.net.conn.CONNECTIVITY_CHANGE is finished at BG and BG split queue. set mSplitStart and mBgSplitQueueOnlyRun false.
+08-17 15:50:55.423  5914  5914 D hcjo    : AutoUpdateManager:IDLE:AutoUpdateManager::execute : false false true state: IDLE
+,08-17 15:50:55.433  5914  5914 D hcjo    : AutoUpdateManager:INITCHECK:AutoUpdateManager::checkInitialize
+,08-17 15:50:55.433  5914  5914 D InitializeManagerStateMachine: execute::IDLE:EXECUTE
+,08-17 15:50:55.433  5914  5914 D InitializeManagerStateMachine: exit::IDLE
+08-17 15:50:55.433  5914  5914 D InitializeManagerStateMachine: entry::NETWORK_CHECK
+,08-17 15:50:55.443  5914  5914 D InitializeManagerStateMachine: execute::NETWORK_CHECK:NETWORK_STATE_OK
+08-17 15:50:55.443  5914  5914 D InitializeManagerStateMachine: exit::NETWORK_CHECK
+08-17 15:50:55.443  5914  5914 D InitializeManagerStateMachine: entry::CHECK_COUNTRY_INFO
+08-17 15:50:55.443  5914  5914 D InitializeManagerStateMachine: execute::CHECK_COUNTRY_INFO:COUNTRY_INFO_OK
+08-17 15:50:55.443  5914  5914 D InitializeManagerStateMachine: exit::CHECK_COUNTRY_INFO
+08-17 15:50:55.443  5914  5914 D InitializeManagerStateMachine: entry::SUCCESS
+08-17 15:50:55.443  5914  5914 D hcjo    : AutoUpdateManager:INITCHECK:onInitializeSuccess
+,08-17 15:50:55.443  3628  3628 I KLMS-2.5.183: : KLMSAbstractReciever(): onReceive(): Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.test.thalitest flg=0x4000010 cmp=com.samsung.klmsagent/.listner.MainReciver (has extras) } | timestamp: Wed Aug 17 15:50:55 GMT+02:00 2016
+,08-17 15:50:55.443  1015  1502 D ActivityManager: startService callerProcessName:com.samsung.klmsagent, calleePkgName: com.samsung.klmsagent
+,08-17 15:50:55.443  1015  1502 D ActivityManager: retrieveServiceLocked(): component = com.samsung.klmsagent/com.samsung.klmsagent.services.KLMSIntentService; callingUser = 0; userId(target) = 0
+,08-17 15:50:55.443  1015  1502 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:55.443  1015  1502 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:55.443  1015  1502 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.samsung.klmsagent, destAppInfo.processName = com.samsung.klmsagent
+,08-17 15:50:55.453  5914  5914 D hcjo    : AutoUpdateTriggerManager:IDLE:notifyNextTime
+08-17 15:50:55.453  5914  5914 D hcjo    : AutoUpdateManager:UPD_CHECK_TIMING:onNoUpdateTime
+,08-17 15:50:55.453  3628  3628 I KLMS-2.5.183: : KLMSAbstractReciever(): onReceive().END.
+,08-17 15:50:55.453  5914  5914 D InitializeManagerStateMachine: exit::SUCCESS
+08-17 15:50:55.453  5914  5914 D InitializeManagerStateMachine: entry::IDLE
+,08-17 15:50:55.453  1015  1028 I splitIntent: Split this intent : android.intent.action.PACKAGE_REMOVED, mSplitNum[0]=12, mSplitNum[1]=21, mSplitNum[2]=34, mBgSplitQueueNum=3 divideNum= 10 r.nextReceiver= 1 receivers.size=44
+,08-17 15:50:55.453  1015  1028 I splitIntent: finish to split intent : android.intent.action.PACKAGE_REMOVED !! Enqueue -> schedule it!!
+,08-17 15:50:55.453  1015  1028 D ActivityManager: startProcessLocked calleePkgName: com.sec.esdk.elm, hostingType: broadcast
+,08-17 15:50:55.453  1015  1028 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:55.453  1015  1028 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:55.453  1015  1028 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:55.453  1015  1028 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:55.473  7084  7084 E Zygote  : MountEmulatedStorage()
+08-17 15:50:55.473  7084  7084 E Zygote  : v2
+08-17 15:50:55.473  7084  7084 I libpersona: KNOX_SDCARD checking this for 10094
+08-17 15:50:55.473  7084  7084 I libpersona: KNOX_SDCARD not a persona
+08-17 15:50:55.473  3628  3628 I KLMS-2.5.183: : KLMSIntentService(): onCreate()
+,08-17 15:50:55.473  7084  7084 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51,
+,08-17 15:50:55.473  3628  3628 I KLMS-2.5.183: : KLMSSystemProperties(): getBoolean(): ro.product_ship = true
+,08-17 15:50:55.473  7084  7084 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+,08-17 15:50:55.473  3628  3628 I KLMS-2.5.183: : KLMSUtility(): isTestMode(): product_ship: true | testApk: false
+,08-17 15:50:55.473  7084  7084 E SELinux : [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,08-17 15:50:55.483  3628  7083 I KLMS-2.5.183: : KLMSIntentService(): onHandleIntent().START: Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.test.thalitest flg=0x4000010 cmp=com.samsung.klmsagent/.services.KLMSIntentService (has extras) }
+,08-17 15:50:55.483  3628  7083 I KLMS-2.5.183: : KLMSIntentService(): PACKAGE_REMOVED
+08-17 15:50:55.483  1015  1028 I ActivityManager: Start proc com.sec.esdk.elm for broadcast com.sec.esdk.elm/.receiver.MainReceiver: pid=7084 uid=10094 gids={50094, 9997, 3003} abi=armeabi-v7a
+,08-17 15:50:55.483  1015  1040 D ActivityManager: startProcessLocked calleePkgName: com.sec.android.gallery3d, hostingType: broadcast
+,08-17 15:50:55.483  3628  7083 I KLMS-2.5.183: : KLMSIntentService(): listeningToPackageRemoved().START
+08-17 15:50:55.483  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:55.483  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:55.483  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:55.483  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:55.503  3628  7083 I KLMS-2.5.183: : KLMSIntentService(): REPLACING: false | pkgName: com.test.thalitest,
+,08-17 15:50:55.503  7097  7097 E Zygote  : MountEmulatedStorage()
+08-17 15:50:55.503  7097  7097 E Zygote  : v2
+08-17 15:50:55.503  7097  7097 I libpersona: KNOX_SDCARD checking this for 10044
+08-17 15:50:55.503  7097  7097 I libpersona: KNOX_SDCARD not a persona
+,08-17 15:50:55.503  7097  7097 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+,08-17 15:50:55.503  7097  7097 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+08-17 15:50:55.503  1015  1040 I ActivityManager: Start proc com.sec.android.gallery3d for broadcast com.sec.android.gallery3d/.app.PackagesMonitor: pid=7097 uid=10044 gids={50044, 9997, 3003, 1028, 1015, 1023, 3002} abi=armeabi-v7a
+,08-17 15:50:55.503  7097  7097 E SELinux : [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,08-17 15:50:55.523  1015  1040 D ActivityManager: startProcessLocked calleePkgName: com.sec.android.app.themechooser, hostingType: broadcast
+,08-17 15:50:55.523  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:55.523  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:55.523  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:55.523  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:55.523  7084  7084 D TimaKeyStoreProvider: TimaSignature is unavailable
+,08-17 15:50:55.523  7084  7084 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:55.533  7113  7113 E Zygote  : MountEmulatedStorage()
+08-17 15:50:55.533  7113  7113 E Zygote  : v2
+08-17 15:50:55.533  7113  7113 I libpersona: KNOX_SDCARD checking this for 10149
+08-17 15:50:55.533  7113  7113 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+08-17 15:50:55.533  7113  7113 I libpersona: KNOX_SDCARD not a persona
+08-17 15:50:55.533  7113  7113 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+08-17 15:50:55.543  1015  1040 I ActivityManager: Start proc com.sec.android.app.themechooser for broadcast com.sec.android.app.themechooser/.CustomBroadCastReceiver: pid=7113 uid=10149 gids={50149, 9997, 3003, 1028, 1015} abi=armeabi-v7a,
+,08-17 15:50:55.543  7113  7113 E SELinux : [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL,
+,08-17 15:50:55.553  7097  7097 D TimaKeyStoreProvider: TimaSignature is unavailable
+08-17 15:50:55.553  7097  7097 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:55.573  7113  7113 D TimaKeyStoreProvider: TimaSignature is unavailable
+,08-17 15:50:55.573  7113  7113 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:55.573  3628  7083 I KLMS-2.5.183: : KLMSIntentService(): Notification App List is Null. Remove Notification.
+,08-17 15:50:55.593  6903  7107 E SQLiteLog: (284) automatic index on crash_info_summary(package_name_touched)
+,08-17 15:50:55.593  7097  7097 W ResourcesManager: Asset path '/system/framework/sechardware.jar' does not exist or contains no resources.
+,08-17 15:50:55.593  7097  7097 W ResourcesManager: Asset path '/system/framework/com.google.android.maps.jar' does not exist or contains no resources.
+08-17 15:50:55.593  7097  7097 W ResourcesManager: Asset path '/system/framework/multiwindow.jar' does not exist or contains no resources.
+08-17 15:50:55.593  7097  7097 W ResourcesManager: Asset path '/system/framework/twframework.jar' does not exist or contains no resources.
+08-17 15:50:55.593  7097  7097 W ResourcesManager: Asset path '/system/framework/secimaging.jar' does not exist or contains no resources.
+08-17 15:50:55.593  7097  7097 W ResourcesManager: Asset path '/system/framework/com.google.android.media.effects.jar' does not exist or contains no resources.
+08-17 15:50:55.593  7097  7097 W ResourcesManager: Asset path '/system/framework/allshare.jar' does not exist or contains no resources.
+08-17 15:50:55.593  7097  7097 W ResourcesManager: Asset path '/system/framework/secvision.jar' does not exist or contains no resources.
+,08-17 15:50:55.603  7045  7045 W art     : ConditionVariable::~ConditionVariable for GC request condition variable called with 1 waiters.
+,08-17 15:50:55.613  3628  7083 I KLMS-2.5.183: : KLMSValidator(): IsPackageExistInDevice().Not Exsit: com.test.thalitest,
+,08-17 15:50:55.613  3628  7083 I KLMS-2.5.183: : KLMSIntentService(): listeningToPackageRemoved().END
+,08-17 15:50:55.613  3628  3628 I KLMS-2.5.183: : KLMSIntentService(): onDestroy()
+,08-17 15:50:55.623  7084  7084 D elm:15183: ELMAbstractReceiver.onReceive() : Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.test.thalitest flg=0x4000010 cmp=com.sec.esdk.elm/.receiver.MainReceiver (has extras) }
+,08-17 15:50:55.623  7084  7084 D elm:15183: ELMEngine.ELMEngine( context ).
+,08-17 15:50:55.623  7084  7084 D elm:15183: MDMBridge.setEnterpriseBridge()
+,08-17 15:50:55.633  1015  1076 D ActivityManager: startService callerProcessName:com.sec.esdk.elm, calleePkgName: com.sec.esdk.elm
+,08-17 15:50:55.633  1015  1076 D ActivityManager: retrieveServiceLocked(): component = com.sec.esdk.elm/com.sec.esdk.elm.service.ElmAgentService; callingUser = 0; userId(target) = 0
+,08-17 15:50:55.633  1015  1076 W ActivityManager: userId = 0, bbcId = -10000
+08-17 15:50:55.633  1015  1076 W ActivityManager: NORMAL SET : dst_category = 0, src_allowCategory = 0,2-1023
+08-17 15:50:55.633  1015  1076 W ActivityManager: NORMAL SET : srcAppInfo.processName = com.sec.esdk.elm, destAppInfo.processName = com.sec.esdk.elm
+,08-17 15:50:55.633  7113  7113 D ThemeInfoUtil: getCurrentFestivalName is [null]
+,08-17 15:50:55.633  7113  7113 D ThemeInfoUtil: isCurrentFestival = false
+,08-17 15:50:55.633  1015  1027 D ActivityManager: startProcessLocked calleePkgName: com.samsung.android.provider.shootingmodeprovider, hostingType: broadcast
+,08-17 15:50:55.633  7084  7084 D elm:15183: ELMAbstractReceiver : Receive Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.test.thalitest flg=0x4000010 cmp=com.sec.esdk.elm/.service.ElmAgentService (has extras) } END.
+,08-17 15:50:55.633  1015  1027 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:55.633  1015  1027 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:55.633  1015  1027 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:55.643  1015  1027 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:55.653  6903  6903 I art     : Explicit concurrent mark sweep GC freed 767(55KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 6MB/9MB, paused 1.114ms total 51.955ms,
+08-17 15:50:55.653  7084  7084 D elm:15183: ElmAgentService : onCreate()
+,08-17 15:50:55.653  7131  7131 E Zygote  : MountEmulatedStorage()
+08-17 15:50:55.653  7131  7131 I libpersona: KNOX_SDCARD checking this for 10152
+08-17 15:50:55.653  7131  7131 E Zygote  : v2
+08-17 15:50:55.653  7131  7131 I libpersona: KNOX_SDCARD not a persona
+08-17 15:50:55.653  7084  7130 D elm:15183: ElmAgentService : onHandleIntent() Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.test.thalitest flg=0x4000010 cmp=com.sec.esdk.elm/.service.ElmAgentService (has extras) }
+08-17 15:50:55.653  7084  7130 D elm:15183: MainReceiver.listeningToPackageRemoved()
+08-17 15:50:55.653  7084  7130 D elm:15183: MDMBridge.getInstance()
+08-17 15:50:55.653  7084  7130 D elm:15183: MDMBridge.getAllLicenseInfoFromSDK()
+,08-17 15:50:55.653  7131  7131 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+,08-17 15:50:55.663  7084  7130 D elm:15183: MDMBridge.getAllLicenseInfoFromSDK()
+08-17 15:50:55.663  1015  1027 I ActivityManager: Start proc com.samsung.android.provider.shootingmodeprovider for broadcast com.samsung.android.provider.shootingmodeprovider/com.samsung.android.app.shootingmodeinstaller.PackageIntentReceiver: pid=7131 uid=10152 gids={50152, 9997, 1023} abi=armeabi-v7a
+08-17 15:50:55.663  7131  7131 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+08-17 15:50:55.663  7131  7131 E SELinux : [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,08-17 15:50:55.673  3340  3340 D AASAservice-UpdateReceiver: AASAUpdateReceiver: android.intent.action.PACKAGE_REMOVED, package = com.test.thalitest, uid = -1
+,08-17 15:50:55.673  3340  3340 W System.err: android.content.pm.PackageManager$NameNotFoundException: com.test.thalitest
+08-17 15:50:55.673  3340  3340 W System.err: 	at android.app.ApplicationPackageManager.getApplicationInfo(ApplicationPackageManager.java:332)
+08-17 15:50:55.673  3340  3340 W System.err: 	at com.samsung.aasaservice.AASAUpdateReceiver.onReceive(AASAUpdateReceiver.java:33)
+08-17 15:50:55.673  3340  3340 W System.err: 	at android.app.ActivityThread.handleReceiver(ActivityThread.java:3125)
+08-17 15:50:55.673  3340  3340 W System.err: 	at android.app.ActivityThread.access$1800(ActivityThread.java:181)
+08-17 15:50:55.673  3340  3340 W System.err: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1559)
+08-17 15:50:55.673  3340  3340 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-17 15:50:55.673  3340  3340 W System.err: 	at android.os.Looper.loop(Looper.java:145)
+08-17 15:50:55.673  3340  3340 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:6145)
+08-17 15:50:55.673  3340  3340 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+08-17 15:50:55.673  3340  3340 W System.err: 	at java.lang.reflect.Method.invoke(Method.java:372)
+08-17 15:50:55.673  3340  3340 W System.err: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1399)
+08-17 15:50:55.673  3340  3340 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1194)
+,08-17 15:50:55.683  5942  6660 D BadgeProvider: sendNotify entered. [uri] : content://com.sec.badge/apps
+08-17 15:50:55.683  1487  1487 D Launcher.Model: reloadBadges entered.
+08-17 15:50:55.683  5942  6660 D BadgeProvider: sendNotify, [notify] : null
+08-17 15:50:55.683  5942  6660 D BadgeProvider: update, [uri] : content://com.sec.badge/apps
+08-17 15:50:55.683  5942  6660 D BadgeProvider: update, [BadgeCount] : badgecount=0
+08-17 15:50:55.683  5942  6660 D BadgeProvider: update, [UpdateCount] : 1
+,08-17 15:50:55.693  6500  6500 I PCWCLIENTTRACE_PushUtil: SPPPushClient is installed : true
+08-17 15:50:55.693  6500  6500 I PCWCLIENTTRACE_PushUtil: sales region : global
+08-17 15:50:55.693  6500  6500 I PCWCLIENTTRACE_PushUtil: getPushTypeList : [SPP, GCM]
+08-17 15:50:55.693  6500  6500 I PCWCLIENTTRACE_SYSTEMReceiver: [onReceive] - android.intent.action.PACKAGE_REMOVED
+,08-17 15:50:55.693  1015  1315 D ActivityManager: startProcessLocked calleePkgName: com.samsung.android.app.galaxyfinder, hostingType: broadcast
+,08-17 15:50:55.693  7131  7131 D TimaKeyStoreProvider: TimaSignature is unavailable
+,08-17 15:50:55.693  7131  7131 D ActivityThread: Added TimaKeyStore provider
+08-17 15:50:55.693  1015  1315 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:55.693  1015  1315 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:55.693  1015  1315 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:55.693  1015  1315 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:55.713  7151  7151 E Zygote  : MountEmulatedStorage()
+08-17 15:50:55.713  7151  7151 I libpersona: KNOX_SDCARD checking this for 10032
+08-17 15:50:55.713  7151  7151 E Zygote  : v2
+08-17 15:50:55.713  7151  7151 I libpersona: KNOX_SDCARD not a persona
+,08-17 15:50:55.723  7151  7151 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+08-17 15:50:55.723  1015  1315 I ActivityManager: Start proc com.samsung.android.app.galaxyfinder for broadcast com.samsung.android.app.galaxyfinder/.ApplicationStatusReceiver: pid=7151 uid=10032 gids={50032, 9997, 1028, 1015, 3003, 3002} abi=armeabi-v7a
+08-17 15:50:55.723  7151  7151 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+08-17 15:50:55.723  7151  7151 E SELinux : [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,08-17 15:50:55.733  7084  7084 D elm:15183: ElmAgentService : onDestroy().
+,08-17 15:50:55.733  1015  3215 D ActivityManager: startProcessLocked calleePkgName: com.samsung.android.app.assistantmenu, hostingType: broadcast
+,08-17 15:50:55.733  1015  3215 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:55.733  1015  3215 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:55.733  1015  3215 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:55.733  1015  3215 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:55.743  1015  3215 I ActivityManager: Start proc com.samsung.android.app.assistantmenu for broadcast com.samsung.android.app.assistantmenu/.AssistantMenuReceiver: pid=7165 uid=1000 gids={41000, 9997, 3002, 3001, 3003, 1028, 1015, 1007, 1023, 2001, 1024, 1001, 1021, 3004, 3005, 1000, 3009, 1010} abi=armeabi-v7a
+,08-17 15:50:55.753  7165  7165 E Zygote  : MountEmulatedStorage()
+08-17 15:50:55.753  7165  7165 I libpersona: KNOX_SDCARD checking this for 1000
+08-17 15:50:55.753  7165  7165 E Zygote  : v2
+08-17 15:50:55.753  7165  7165 I libpersona: KNOX_SDCARD not a persona
+08-17 15:50:55.753  7165  7165 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+,08-17 15:50:55.753  7165  7165 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+,08-17 15:50:55.753  7165  7165 E SELinux : [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,08-17 15:50:55.753  7151  7151 D TimaKeyStoreProvider: TimaSignature is unavailable
+08-17 15:50:55.763  7151  7151 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:55.763  1015  1027 I ActivityManager: Killing 6132:com.google.android.gms:car/u0a12 (adj 15): empty #31
+,08-17 15:50:55.783  7165  7165 D TimaKeyStoreProvider: TimaSignature is unavailable
+,08-17 15:50:55.783  7131  7131 E SQLiteLog: (28) failed to open "/data/data/com.samsung.android.provider.shootingmodeprovider/databases/shootingmodemanager.db" with flag (131138) and mode_t (0) due to error (30)
+08-17 15:50:55.783  7165  7165 D ActivityThread: Added TimaKeyStore provider
+,08-17 15:50:55.783  7131  7131 E SQLiteDatabase: Failed to open database '/data/data/com.samsung.android.provider.shootingmodeprovider/databases/shootingmodemanager.db'.
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: android.database.sqlite.SQLiteException: not an error (code 0): Could not open the database in read/write mode.
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:318)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:228)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:512)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:206)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:178)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:908)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:878)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:699)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java:1519)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at android.content.ContextWrapper.openOrCreateDatabase(ContextWrapper.java:282)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:223)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at android.database.sqlite.SQLiteOpenHelper.getWritableDatabase(SQLiteOpenHelper.java:163)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at com.samsung.android.provider.shootingmodeprovider.ShootingModeProvider.initializeSQLiteStatements(ShootingModeProvider.java:277)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at com.samsung.android.provider.shootingmodeprovider.ShootingModeProvider.onCreate(ShootingModeProvider.java:240)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:1729)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:1698)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at android.app.ActivityThread.installProvider(ActivityThread.java:5702)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:5297)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5237)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at android.app.ActivityThread.access$1600(ActivityThread.java:181)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1543)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at android.os.Looper.loop(Looper.java:145)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at android.app.ActivityThread.main(ActivityThread.java:6145)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at java.lang.reflect.Method.invoke(Native Method)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at java.lang.reflect.Method.invoke(Method.java:372)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1399)
+08-17 15:50:55.783  7131  7131 E SQLiteDatabase: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1194)
+08-17 15:50:55.783  7131  7131 D AndroidRuntime: Shutting down, VM
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: FATAL EXCEPTION: main
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: Process: com.samsung.android.provider.shootingmodeprovider, PID: 7131
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: java.lang.RuntimeException: Unable to get provider com.samsung.android.provider.shootingmodeprovider.ShootingModeProvider: android.database.sqlite.SQLiteException: not an error (code 0): Could not open the database in read/write mode.
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:5705)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:5297)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: ,	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5237)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at android.app.ActivityThread.access$1600(ActivityThread.java:181)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1543)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:145)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6145)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Method.java:372),
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1399)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1194)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: Caused by: android.database.sqlite.SQLiteException: not an error (code 0): Could not open the database in read/write mode.
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:318)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:228)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:512)
+,08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:206)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:178)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:908)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:878)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:699)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java:1519)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at android.content.ContextWrapper.openOrCreateDatabase(ContextWrapper.java:282)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:223)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at android.database.sqlite.SQLiteOpenHelper.getWritableDatabase(SQLiteOpenHelper.java:163)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at com.samsung.android.provider.shootingmodeprovider.ShootingModeProvider.initializeSQLiteStatements(ShootingModeProvider.java:277)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at com.samsung.android.provider.shootingmodeprovider.ShootingModeProvider.onCreate(ShootingModeProvider.java:240)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:1729)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:1698)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:5702)
+08-17 15:50:55.783  7131  7131 E AndroidRuntime: 	... 11 more
+,08-17 15:50:55.793  1015  1503 V ApplicationPolicy: isApplicationStateBlocked userId 0 pkgname com.samsung.android.provider.shootingmodeprovider
+,08-17 15:50:55.813  1015  7182 E DropBoxManagerService: Can't write: system_app_crash
+08-17 15:50:55.813  1015  7182 E DropBoxManagerService: java.io.FileNotFoundException: /data/system/dropbox/drop199.tmp: open failed: EROFS (Read-only file system)
+08-17 15:50:55.813  1015  7182 E DropBoxManagerService: 	at libcore.io.IoBridge.open(IoBridge.java:456)
+08-17 15:50:55.813  1015  7182 E DropBoxManagerService: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:87)
+08-17 15:50:55.813  1015  7182 E DropBoxManagerService: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:72)
+08-17 15:50:55.813  1015  7182 E DropBoxManagerService: 	at com.android.server.DropBoxManagerService.add(DropBoxManagerService.java:211)
+08-17 15:50:55.813  1015  7182 E DropBoxManagerService: 	at android.os.DropBoxManager.addText(DropBoxManager.java:269)
+08-17 15:50:55.813  1015  7182 E DropBoxManagerService: 	at com.android.server.am.ActivityManagerService$24.run(ActivityManagerService.java:15777)
+08-17 15:50:55.813  1015  7182 E DropBoxManagerService: Caused by: android.system.ErrnoException: open failed: EROFS (Read-only file system)
+08-17 15:50:55.813  1015  7182 E DropBoxManagerService: 	at libcore.io.Posix.open(Native Method)
+08-17 15:50:55.813  1015  7182 E DropBoxManagerService: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+08-17 15:50:55.813  1015  7182 E DropBoxManagerService: 	at libcore.io.IoBridge.open(IoBridge.java:442)
+08-17 15:50:55.813  1015  7182 E DropBoxManagerService: 	... 5 more
+,08-17 15:50:55.823  1015  1040 D ActivityManager: startProcessLocked calleePkgName: com.sec.android.widgetapp.tapandpay, hostingType: broadcast
+,08-17 15:50:55.823  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:55.823  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:55.823  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0
+08-17 15:50:55.823  1015  1040 E ActivityManager: checkUser: useridlist=null, currentuser=0
+,08-17 15:50:55.833  7097  7097 D NearbySource: Nearby Source Create!
+,08-17 15:50:55.833  7097  7097 D NearbyContext: Nearby Context Create!
+,08-17 15:50:55.853  7183  7183 E Zygote  : MountEmulatedStorage(),
+08-17 15:50:55.853  7183  7183 I libpersona: KNOX_SDCARD checking this for 10156
+08-17 15:50:55.853  7183  7183 E Zygote  : v2
+,08-17 15:50:55.853  7183  7183 I libpersona: KNOX_SDCARD not a persona
+08-17 15:50:55.863  7183  7183 I SELinux : Function: selinux_compare_spd_ram, SPD-policy is existed. and_ver=SEPF_SM-A500FU_5.0.2-1 ver=51
+08-17 15:50:55.863  1015  1040 I ActivityManager: Start proc com.sec.android.widgetapp.tapandpay for broadcast com.sec.android.widgetapp.tapandpay/.TapandpayAppWidgetProvider: pid=7183 uid=10156 gids={50156, 9997} abi=armeabi-v7a
+08-17 15:50:55.863  7131  7131 I Process : Sending signal. PID: 7131 SIG: 9
+08-17 15:50:55.863  7183  7183 I SELinux : Function: selinux_compare_spd_ram , priority [1] , priority version is VE=SEPF_SM-A500FU_5.0.2-1_0051
+08-17 15:50:55.863  7183  7183 E SELinux : [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+,08-17 15:50:55.863  1015  1218 D PersonaManager: isKioskContainerExistOnDevice
+,08-17 15:50:55.873   255   255 E lowmemorykiller: Error writing /proc/7131/oom_score_adj; errno=22
+,08-17 15:50:55.873  1015  1218 I ActivityManager: Killing 5589:com.android.vending/u0a28 (adj 15): empty #31
+
+```
