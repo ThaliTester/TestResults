@@ -1,0 +1,104 @@
+#### Test 82883341c6b3d90 Logs
+
+#### Test Server Logs
+```
+
+ 
+Run IS script aborted
+ 
+One or more Android tests are failed.
+ [0m
+
+```
+
+
+Logs for system : 
+```
+
+android : Error: Command failed: Error: Command failed: Android testing process has failed
+ [0m
+
+
+TIMEOUT REACHED!
+```
+###Android Logs
+####Node name: thali01
+Console output:
+```
+
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+STOP log received from  0be0c6c6 Test has  SUCCEEDED
+Device test finished on 0be0c6c6 
+TIMEOUT REACHED. KILLING the APPS
+Error! Unexpected exit on device ZX1G429CRK app:com.test.thalitest code:0 
+child process exited with code 0 on device ZX1G429CRK 
+Android task is completed. [FAILED]
+```
+[motorola-Nexus 6](https://github.com/ThaliTester/TestResults/blob/82883341c6b3d90_PR_for_CI_tests__DO_NOT_MERGE_mlesnic/thali01_motorola-Nexus 6.md)
+
+[samsung-SM-G900F](https://github.com/ThaliTester/TestResults/blob/82883341c6b3d90_PR_for_CI_tests__DO_NOT_MERGE_mlesnic/thali01_samsung-SM-G900F.md)
+
+####Node name: thali02
+Console output:
+```
+STOP log received from  LGD7228ee9cf5b Test has  SUCCEEDED
+STOP log received from  LGD855a6933058 Test has  SUCCEEDED
+Device test finished on LGD855a6933058 
+Device test finished on LGD7228ee9cf5b 
+Android task is completed. [SUCCESS]
+```
+[LGE-LG-D722](https://github.com/ThaliTester/TestResults/blob/82883341c6b3d90_PR_for_CI_tests__DO_NOT_MERGE_mlesnic/thali02_LGE-LG-D722.md)
+
+[LGE-LG-D855](https://github.com/ThaliTester/TestResults/blob/82883341c6b3d90_PR_for_CI_tests__DO_NOT_MERGE_mlesnic/thali02_LGE-LG-D855.md)
+
+####Node name: thali03
+Console output:
+```
+STOP log received from  7970f88c Test has  SUCCEEDED
+Device test finished on 7970f88c 
+TIMEOUT REACHED. KILLING the APPS
+Error! Unexpected exit on device f56ad48d app:com.test.thalitest code:null 
+child process exited with code null on device f56ad48d 
+Android task is completed. [FAILED]
+```
+[samsung-SM-A500FU](https://github.com/ThaliTester/TestResults/blob/82883341c6b3d90_PR_for_CI_tests__DO_NOT_MERGE_mlesnic/thali03_samsung-SM-A500FU.md)
+
+[samsung-SM-A300FU](https://github.com/ThaliTester/TestResults/blob/82883341c6b3d90_PR_for_CI_tests__DO_NOT_MERGE_mlesnic/thali03_samsung-SM-A300FU.md)
+
+####Node name: thali04
+Console output:
+```
+STOP log received from  HT54GYJ03048 Test has  SUCCEEDED
+Device test finished on HT54GYJ03048 
+TIMEOUT REACHED. KILLING the APPS
+Error! Unexpected exit on device 4325e43f app:com.test.thalitest code:null 
+child process exited with code null on device 4325e43f 
+Android task is completed. [FAILED]
+```
+[samsung-SM-A300FU](https://github.com/ThaliTester/TestResults/blob/82883341c6b3d90_PR_for_CI_tests__DO_NOT_MERGE_mlesnic/thali04_samsung-SM-A300FU.md)
+
+[HTC-HTC One M9](https://github.com/ThaliTester/TestResults/blob/82883341c6b3d90_PR_for_CI_tests__DO_NOT_MERGE_mlesnic/thali04_HTC-HTC One M9.md)
+
+####Node name: thali06
+Console output:
+```
+
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+```
+####Node name: thali07
+Console output:
+```
+
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+TIMEOUT REACHED. KILLING the APPS
+Error! Unexpected exit on device ce061606e320561102 app:com.test.thalitest code:0 
+child process exited with code 0 on device ce061606e320561102 
+Android task is completed. [FAILED]
+```
+[samsung-SM-G935F](https://github.com/ThaliTester/TestResults/blob/82883341c6b3d90_PR_for_CI_tests__DO_NOT_MERGE_mlesnic/thali07_samsung-SM-G935F.md)
+
+
+
+
