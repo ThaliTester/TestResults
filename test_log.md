@@ -1,0 +1,109 @@
+#### Test 82642184ea62b6e Logs
+
+#### Test Server Logs
+```
+IS Running:
+Running 'jx install'
+Skipping the log for NPM since the exitCode was 0
+> jx index.js {"devices":{"android":10}}
+2016-08-30T21:14:12.085Z - info: Require 0 ios devices
+
+2016-08-30T21:14:12.104Z - info: Require 10 android devices
+
+2016-08-30T21:14:12.160Z - info: listening on *:3000
+
+
+ 
+Run IS script aborted
+ 
+One or more Android tests are failed.
+ [0m
+
+```
+
+
+Logs for system : 
+```
+
+android : Error: Command failed: Error: Command failed: Android testing process has failed
+ [0m
+
+
+```
+###Android Logs
+####Node name: thali01
+Console output:
+```
+
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+STOP log received from  ZX1G429CRK Test has  FAILED
+STOP log received from  0be0c6c6 Test has  FAILED
+Device test finished on ZX1G429CRK 
+Device test finished on 0be0c6c6 
+Android task is completed. [FAILED]
+```
+[motorola-Nexus 6](https://github.com/ThaliTester/TestResults/blob/82642184ea62b6e_The_replacement_for_vNext_yarong_417_1__vNext_yarong_780___vNext_yarong_812_yaronyg/thali01_motorola-Nexus 6.md)
+
+[samsung-SM-G900F](https://github.com/ThaliTester/TestResults/blob/82642184ea62b6e_The_replacement_for_vNext_yarong_417_1__vNext_yarong_780___vNext_yarong_812_yaronyg/thali01_samsung-SM-G900F.md)
+
+####Node name: thali02
+Console output:
+```
+STOP log received from  LGD855a6933058 Test has  FAILED
+Device test finished on LGD855a6933058 
+STOP log received from  LGD7228ee9cf5b Test has  FAILED
+Device test finished on LGD7228ee9cf5b 
+Android task is completed. [FAILED]
+```
+[LGE-LG-D722](https://github.com/ThaliTester/TestResults/blob/82642184ea62b6e_The_replacement_for_vNext_yarong_417_1__vNext_yarong_780___vNext_yarong_812_yaronyg/thali02_LGE-LG-D722.md)
+
+[LGE-LG-D855](https://github.com/ThaliTester/TestResults/blob/82642184ea62b6e_The_replacement_for_vNext_yarong_417_1__vNext_yarong_780___vNext_yarong_812_yaronyg/thali02_LGE-LG-D855.md)
+
+####Node name: thali03
+Console output:
+```
+STOP log received from  f56ad48d Test has  FAILED
+Device test finished on f56ad48d 
+STOP log received from  7970f88c Test has  FAILED
+Device test finished on 7970f88c 
+Android task is completed. [FAILED]
+```
+[samsung-SM-A500FU](https://github.com/ThaliTester/TestResults/blob/82642184ea62b6e_The_replacement_for_vNext_yarong_417_1__vNext_yarong_780___vNext_yarong_812_yaronyg/thali03_samsung-SM-A500FU.md)
+
+[samsung-SM-A300FU](https://github.com/ThaliTester/TestResults/blob/82642184ea62b6e_The_replacement_for_vNext_yarong_417_1__vNext_yarong_780___vNext_yarong_812_yaronyg/thali03_samsung-SM-A300FU.md)
+
+####Node name: thali04
+Console output:
+```
+STOP log received from  4325e43f Test has  FAILED
+STOP log received from  HT54GYJ03048 Test has  FAILED
+Device test finished on 4325e43f 
+Device test finished on HT54GYJ03048 
+Android task is completed. [FAILED]
+```
+[samsung-SM-A300FU](https://github.com/ThaliTester/TestResults/blob/82642184ea62b6e_The_replacement_for_vNext_yarong_417_1__vNext_yarong_780___vNext_yarong_812_yaronyg/thali04_samsung-SM-A300FU.md)
+
+[HTC-HTC One M9](https://github.com/ThaliTester/TestResults/blob/82642184ea62b6e_The_replacement_for_vNext_yarong_417_1__vNext_yarong_780___vNext_yarong_812_yaronyg/thali04_HTC-HTC One M9.md)
+
+####Node name: thali05
+Console output:
+```
+
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+STOP log received from  ce061606e320561102 Test has  FAILED
+Device test finished on ce061606e320561102 
+STOP log received from  e8c09bab Test has  FAILED
+Device test finished on e8c09bab 
+Android task is completed. [FAILED]
+```
+[samsung-SM-T719](https://github.com/ThaliTester/TestResults/blob/82642184ea62b6e_The_replacement_for_vNext_yarong_417_1__vNext_yarong_780___vNext_yarong_812_yaronyg/thali05_samsung-SM-T719.md)
+
+[samsung-SM-G935F](https://github.com/ThaliTester/TestResults/blob/82642184ea62b6e_The_replacement_for_vNext_yarong_417_1__vNext_yarong_780___vNext_yarong_812_yaronyg/thali05_samsung-SM-G935F.md)
+
+
+
+
