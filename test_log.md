@@ -6,119 +6,59 @@ IS Running:
 Running 'jx install'
 Skipping the log for NPM since the exitCode was 0
 > jx index.js {"devices":{"android":3}}
-2016-09-15T12:19:00.577Z - info: Require 0 ios devices
+2016-09-16T10:39:34.117Z - info: Require 0 ios devices
 
-2016-09-15T12:19:00.602Z - info: Require 3 android devices
+2016-09-16T10:39:34.135Z - info: Require 3 android devices
 
-2016-09-15T12:19:00.659Z - info: listening on *:3000
+2016-09-16T10:39:34.193Z - info: listening on *:3000
 
-2016-09-15T12:20:50.646Z - debug: Device presented: samsung-SM-G935F (c946f904-a3dc-4f40-b288-c4aae68ab52c) - android 6.0.1
+2016-09-16T10:41:18.179Z - debug: Device presented: samsung-SM-G935F (2f0a46aa-d2a8-4b8a-af95-6661c013f693) - android 6.0.1
 
-2016-09-15T12:24:11.001Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
+2016-09-16T10:41:18.869Z - debug: Device presented: samsung-SM-G930F (e7e0c5bf-237d-4692-bd50-bd26070ace66) - android 6.0.1
 
-2016-09-15T12:24:11.068Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
+2016-09-16T10:41:35.858Z - debug: Device presented: Huawei-Nexus 6P (d25bf352-afe3-4545-b37f-82765062e0e2) - android 6.0.1
 
-2016-09-15T12:24:11.075Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
+2016-09-16T10:41:35.860Z - info: All 3 android devices are present
 
-2016-09-15T12:24:11.108Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
+2016-09-16T10:41:35.867Z - info: Starting unit test run on 3 android devices
 
-2016-09-15T12:24:11.110Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
+2016-09-16T10:41:36.806Z - info: Running on android test: 1. calling createNativeListener directly rejects
 
-2016-09-15T12:24:11.140Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
+2016-09-16T10:41:38.701Z - info: Running on android test: 2. emits incomingConnectionState
 
-2016-09-15T12:24:11.143Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
+2016-09-16T10:41:40.854Z - info: Running on android test: 3. emits routerPortConnectionFailed
 
-2016-09-15T12:24:11.184Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
+2016-09-16T10:41:42.632Z - info: Running on android test: 4. native server connections all up
 
-2016-09-15T12:24:11.187Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
+2016-09-16T10:41:44.478Z - info: Running on android test: 5. native server - closing incoming stream cleans outgoing socket
 
-2016-09-15T12:24:11.198Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
+2016-09-16T10:41:46.380Z - info: Running on android test: 6. native server - closing incoming connection cleans outgoing socket
 
-2016-09-15T12:24:11.199Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
+2016-09-16T10:41:48.224Z - info: Running on android test: 7. native server - closing outgoing socket cleans associated mux stream
 
-2016-09-15T12:24:11.221Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
+2016-09-16T10:41:51.001Z - info: Running on android test: 8. native server - closing the whole server cleans everything up
 
-2016-09-15T12:24:11.222Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
+2016-09-16T10:41:52.493Z - info: Running on android test: 9. native server - we can get a ton of connections and data through and still clean up the server completely
 
-2016-09-15T12:24:11.243Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
+2016-09-16T10:41:54.389Z - info: Running on android test: 10. native server - simulate mux failure, make sure everything is cleaned up
 
-2016-09-15T12:24:11.244Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
+2016-09-16T10:41:56.224Z - info: Running on android test: 11. native server - timing out the incoming connection cleans everything up
 
-2016-09-15T12:24:11.269Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
+2016-09-16T10:41:57.760Z - info: Running on android test: 12. Coordinated seq test
 
-2016-09-15T12:24:11.270Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
+2016-09-16T10:41:58.703Z - info: Socket to device samsung-SM-G935F disconnected: transport close
 
-2016-09-15T12:24:11.296Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
+2016-09-16T10:41:59.488Z - info: Socket to device samsung-SM-G930F disconnected: transport close
 
-2016-09-15T12:24:11.297Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
+2016-09-16T10:43:52.605Z - debug: Device presented: samsung-SM-G935F (6ef5f299-6ab7-47f5-8221-b5ab004361cf) - android 6.0.1
 
-2016-09-15T12:24:11.329Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
+2016-09-16T10:43:53.216Z - debug: Device presented: samsung-SM-G930F (ab1a60fc-0173-40be-9662-dbe4b5065f52) - android 6.0.1
 
-2016-09-15T12:24:11.330Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
+2016-09-16T11:03:08.430Z - info: Socket to device Huawei-Nexus 6P disconnected: transport close
 
-2016-09-15T12:24:11.360Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
+2016-09-16T11:03:09.867Z - info: Socket to device samsung-SM-G935F disconnected: transport close
 
-2016-09-15T12:24:11.361Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
-
-2016-09-15T12:24:11.384Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
-
-2016-09-15T12:24:11.385Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
-
-2016-09-15T12:24:11.419Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
-
-2016-09-15T12:24:11.420Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
-
-2016-09-15T12:24:11.446Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
-
-2016-09-15T12:24:11.447Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
-
-2016-09-15T12:24:11.476Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
-
-2016-09-15T12:24:11.479Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
-
-2016-09-15T12:24:11.491Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
-
-2016-09-15T12:24:11.492Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
-
-2016-09-15T12:24:11.545Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
-
-2016-09-15T12:24:11.546Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
-
-2016-09-15T12:24:11.587Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
-
-2016-09-15T12:24:11.588Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
-
-2016-09-15T12:24:11.630Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
-
-2016-09-15T12:24:11.631Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
-
-2016-09-15T12:24:11.681Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
-
-2016-09-15T12:24:11.682Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
-
-2016-09-15T12:24:11.840Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
-
-2016-09-15T12:24:11.841Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
-
-2016-09-15T12:24:11.848Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
-
-2016-09-15T12:24:11.849Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
-
-2016-09-15T12:24:11.869Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
-
-2016-09-15T12:24:11.870Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
-
-2016-09-15T12:24:11.904Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
-
-2016-09-15T12:24:11.905Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
-
-2016-09-15T12:24:11.943Z - debug: Device presented: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718) - android 6.0.1
-
-2016-09-15T12:24:11.944Z - info: Updating existing device: samsung-SM-G930F (59d56ae4-29d9-4ac1-ad58-8943f178c718)
-
-2016-09-15T12:42:29.644Z - info: Socket to device samsung-SM-G935F disconnected: transport close
-
-2016-09-15T12:42:31.066Z - info: Socket to device samsung-SM-G930F disconnected: transport close
+2016-09-16T11:03:11.230Z - info: Socket to device samsung-SM-G930F disconnected: transport close
 
 
  
@@ -133,7 +73,36 @@ One or more Android tests are failed.
 Logs for system : 
 ```
 
-android : Error: Command failed: Error: Command failed: Android testing process has failed
+android : Error: Command failed: Error: Command failed: 
+Trying to deploy app to android: ENU7N16516000107
+
+Deploying to android ENU7N16516000107
+
+App was succesfully deployed to ENU7N16516000107
+
+Trying to deploy app to android: ce061606e320561102
+
+Deploying to android ce061606e320561102
+
+App was succesfully deployed to ce061606e320561102
+
+Trying to deploy app to android: ce0616068b9f212302
+
+Deploying to android ce0616068b9f212302
+
+App was succesfully deployed to ce0616068b9f212302
+
+Trying to start application ThaliTest on ENU7N16516000107
+
+Trying to start application ThaliTest on ce061606e320561102
+
+Trying to start application ThaliTest on ce0616068b9f212302
+TIMEOUT REACHED. KILLING the APPS
+child process exited with code 0
+child process exited with code 0
+child process exited with code 0
+Android task is completed.
+Android testing process has failed
  [0m
 
 
@@ -143,19 +112,43 @@ android : Error: Command failed: Error: Command failed: Android testing process 
 Console output:
 ```
 
-Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+Trying to deploy app to android: ENU7N16516000107
 
 Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
 
+Deploying to android ENU7N16516000107
+
+App was succesfully deployed to ENU7N16516000107
+
+Trying to deploy app to android: ce061606e320561102
+
 Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+
+Deploying to android ce061606e320561102
+
+App was succesfully deployed to ce061606e320561102
+
+Trying to deploy app to android: ce0616068b9f212302
+
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+
+Deploying to android ce0616068b9f212302
+
+App was succesfully deployed to ce0616068b9f212302
+
+Trying to start application ThaliTest on ENU7N16516000107
+
+Trying to start application ThaliTest on ce061606e320561102
+
+Trying to start application ThaliTest on ce0616068b9f212302
 TIMEOUT REACHED. KILLING the APPS
 Error! Unexpected exit on device ENU7N16516000107 app:com.test.thalitest code:0 
-child process exited with code 0 on device ENU7N16516000107 
+child process exited with code 0
 Error! Unexpected exit on device ce061606e320561102 app:com.test.thalitest code:0 
-child process exited with code 0 on device ce061606e320561102 
+child process exited with code 0
 Error! Unexpected exit on device ce0616068b9f212302 app:com.test.thalitest code:0 
-child process exited with code 0 on device ce0616068b9f212302 
-Android task is completed. [FAILED]
+child process exited with code 0
+Android task is completed.
 ```
 [Huawei-Nexus 6P](https://github.com/ThaliTester/TestResults/blob/85202518dd4c7ab__1031_DO_NOT_MERGE_Excluded__bad__test_files_artemjackson/thali04_Huawei-Nexus 6P.md)
 
