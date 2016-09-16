@@ -6,11 +6,11 @@ IS Running:
 Running 'jx install'
 Skipping the log for NPM since the exitCode was 0
 > jx index.js {"devices":{"ios":4,"android":3}}
-2016-09-15T14:30:38.138Z - info: Require 4 ios devices
+2016-09-16T08:03:22.355Z - info: Require 4 ios devices
 
-2016-09-15T14:30:38.158Z - info: Require 3 android devices
+2016-09-16T08:03:22.373Z - info: Require 3 android devices
 
-2016-09-15T14:30:38.216Z - info: listening on *:3000
+2016-09-16T08:03:22.432Z - info: listening on *:3000
 
 
  
@@ -46,18 +46,36 @@ android : No Error
 Console output:
 ```
 
-Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+Deploying app to android: ENU7N16516000107
 
 Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
 
+Deploying to android ENU7N16516000107
+
+Deploying app to android: ce061606e320561102
+
 Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
-STOP log received from  ce0616068b9f212302 Test has  SUCCEEDED
-STOP log received from  ce061606e320561102 Test has  SUCCEEDED
-Device test finished on ce0616068b9f212302 
+
+Deploying to android ce061606e320561102
+
+Deploying app to android: ce0616068b9f212302
+
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+
+Deploying to android ce0616068b9f212302
+
+Trying to start application ThaliTest on ENU7N16516000107
+
+Trying to start application ThaliTest on ce061606e320561102
+
+Trying to start application ThaliTest on ce0616068b9f212302
+STOP log received from 
+STOP log received from 
 Device test finished on ce061606e320561102 
-STOP log received from  ENU7N16516000107 Test has  SUCCEEDED
+Device test finished on ce0616068b9f212302 
+STOP log received from 
 Device test finished on ENU7N16516000107 
-Android task is completed. [SUCCESS]
+Android task is completed.
 ```
 [Huawei-Nexus 6P](https://github.com/ThaliTester/TestResults/blob/83627337176b608_Upgraded_tests__977_mlesnic/thali04_Huawei-Nexus 6P.md)
 
