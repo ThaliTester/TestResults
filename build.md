@@ -9,9 +9,6 @@
 ```
 Already up-to-date.
 
-From https://github.com/thaliproject/Thali_CordovaPlugin
-   2b31b5a..c21238e  vNext_artemjackson_914 -> origin/vNext_artemjackson_914
- * [new branch]      vNext_mlesnic_777_tests -> origin/vNext_mlesnic_777_tests
 
 ```
 
@@ -34,12 +31,13 @@ do so (now or later) by using -b with the checkout command again. Example:
   git checkout -b <new-branch-name>
 
 HEAD is now at 94da9fb... Fixed module name
+bash: shell_session_update: command not found
 
 ```
 
 ```
 Cordova version:
-6.1.0
+6.3.1
 
 > bufferutil@1.1.0 install /Users/thali/Github/Thali_CordovaPlugin/test/TestServer/node_modules/bufferutil
 > "/usr/local/bin/jx" /Users/thali/.jx/npm/node_modules/node-gyp/bin/node-gyp.js rebuild
@@ -57,8 +55,8 @@ Target arch x64
 thali-test-server@0.0.1 /Users/thali/Github/Thali_CordovaPlugin/test/TestServer
 ├─┬ express@4.13.3 
 │ ├─┬ accepts@1.2.13 
-│ │ ├─┬ mime-types@2.1.11 
-│ │ │ └── mime-db@1.23.0 
+│ │ ├─┬ mime-types@2.1.12 
+│ │ │ └── mime-db@1.24.0 
 │ │ └── negotiator@0.5.3 
 │ ├── array-flatten@1.1.1 
 │ ├── content-disposition@0.5.0 
@@ -87,7 +85,7 @@ thali-test-server@0.0.1 /Users/thali/Github/Thali_CordovaPlugin/test/TestServer
 │ ├─┬ send@0.13.0 
 │ │ ├── destroy@1.0.3 
 │ │ ├─┬ http-errors@1.3.1 
-│ │ │ └── inherits@2.0.1 
+│ │ │ └── inherits@2.0.3 
 │ │ ├── mime@1.3.4 
 │ │ └── statuses@1.2.1 
 │ ├─┬ serve-static@1.10.3 
@@ -100,12 +98,12 @@ thali-test-server@0.0.1 /Users/thali/Github/Thali_CordovaPlugin/test/TestServer
 │ ├── utils-merge@1.0.0 
 │ └── vary@1.0.1 
 ├─┬ fs-extra-promise@0.2.0 
-│ ├── bluebird@2.10.2 
+│ ├── bluebird@2.11.0 
 │ └─┬ fs-extra@0.21.0 
-│   ├── graceful-fs@4.1.6 
-│   ├── jsonfile@2.3.1 
+│   ├── graceful-fs@4.1.9 
+│   ├── jsonfile@2.4.0 
 │   └─┬ rimraf@2.5.4 
-│     └─┬ glob@7.0.6 
+│     └─┬ glob@7.1.0 
 │       ├── fs.realpath@1.0.0 
 │       ├─┬ inflight@1.0.5 
 │       │ └── wrappy@1.0.2 
@@ -113,8 +111,8 @@ thali-test-server@0.0.1 /Users/thali/Github/Thali_CordovaPlugin/test/TestServer
 │       │ └─┬ brace-expansion@1.1.6 
 │       │   ├── balanced-match@0.4.2 
 │       │   └── concat-map@0.0.1 
-│       ├── once@1.3.3 
-│       └── path-is-absolute@1.0.0 
+│       ├── once@1.4.0 
+│       └── path-is-absolute@1.0.1 
 ├─┬ lie@3.0.4 
 │ ├─┬ es3ify@0.2.2 
 │ │ ├── esprima@2.7.3 
@@ -313,8 +311,9 @@ thali@2.1.0 /Users/thali/Github/Thali_CordovaPlugin/thali
 │ │ │ │ │ │ └─┬ brace-expansion@1.1.6 
 │ │ │ │ │ │   ├── balanced-match@0.4.2 
 │ │ │ │ │ │   └── concat-map@0.0.1 
-│ │ │ │ │ └── path-is-absolute@1.0.0 
-│ │ │ │ ├── graceful-fs@4.1.6 
+│ │ │ │ │ ├── once@1.4.0 
+│ │ │ │ │ └── path-is-absolute@1.0.1 
+│ │ │ │ ├── graceful-fs@4.1.9 
 │ │ │ │ ├─┬ mkdirp@0.5.1 
 │ │ │ │ │ └── minimist@0.0.8 
 │ │ │ │ └── q@1.4.1 
@@ -348,7 +347,7 @@ thali@2.1.0 /Users/thali/Github/Thali_CordovaPlugin/thali
 │ │ ├─┬ readable-stream@2.1.5 
 │ │ │ └── isarray@1.0.0 
 │ │ └── stream-shift@1.0.0 
-│ ├── inherits@2.0.1 
+│ ├── inherits@2.0.3 
 │ ├─┬ readable-stream@2.1.5 
 │ │ ├── buffer-shims@1.0.0 
 │ │ ├── core-util-is@1.0.2 
@@ -371,9 +370,9 @@ thali@2.1.0 /Users/thali/Github/Thali_CordovaPlugin/thali
 │ ├── extend@3.0.0 
 │ ├─┬ form-data@1.0.1 
 │ │ └─┬ async@2.0.1 
-│ │   └── lodash@4.15.0 
+│ │   └── lodash@4.16.3 
 │ ├─┬ har-validator@1.8.0 
-│ │ ├── bluebird@2.10.2 
+│ │ ├── bluebird@2.11.0 
 │ │ ├─┬ chalk@1.1.3 
 │ │ │ ├── ansi-styles@2.2.1 
 │ │ │ ├─┬ has-ansi@2.0.0 
@@ -382,11 +381,11 @@ thali@2.1.0 /Users/thali/Github/Thali_CordovaPlugin/thali
 │ │ │ └── supports-color@2.0.0 
 │ │ ├─┬ commander@2.9.0 
 │ │ │ └── graceful-readlink@1.0.1 
-│ │ └─┬ is-my-json-valid@2.13.1 
+│ │ └─┬ is-my-json-valid@2.15.0 
 │ │   ├── generate-function@2.0.0 
 │ │   ├─┬ generate-object-property@1.2.0 
 │ │   │ └── is-property@1.0.2 
-│ │   └── jsonpointer@2.0.0 
+│ │   └── jsonpointer@4.0.0 
 │ ├─┬ hawk@3.1.3 
 │ │ ├── boom@2.10.1 
 │ │ ├── cryptiles@2.0.5 
@@ -398,8 +397,8 @@ thali@2.1.0 /Users/thali/Github/Thali_CordovaPlugin/thali
 │ │ └── ctype@0.5.3 
 │ ├── isstream@0.1.2 
 │ ├── json-stringify-safe@5.0.1 
-│ ├─┬ mime-types@2.1.11 
-│ │ └── mime-db@1.23.0 
+│ ├─┬ mime-types@2.1.12 
+│ │ └── mime-db@1.24.0 
 │ ├── oauth-sign@0.8.2 
 │ ├── qs@5.1.0 
 │ ├── stringstream@0.0.5 
@@ -427,12 +426,12 @@ We believe we are in a clone of the GitHub Repo so we will not install Cordova d
 /usr/local/lib/node_modules/thali -> /Users/thali/Github/Thali_CordovaPlugin/thali
 install@0.0.1 /Users/thali/Github/Thali_CordovaPlugin/thali/install
 ├─┬ fs-extra-promise@0.2.0 
-│ ├── bluebird@2.10.2 
+│ ├── bluebird@2.11.0 
 │ └─┬ fs-extra@0.21.0 
-│   ├── graceful-fs@4.1.6 
-│   ├── jsonfile@2.3.1 
+│   ├── graceful-fs@4.1.9 
+│   ├── jsonfile@2.4.0 
 │   └─┬ rimraf@2.5.4 
-│     └─┬ glob@7.0.6 
+│     └─┬ glob@7.1.0 
 │       ├── fs.realpath@1.0.0 
 │       ├─┬ inflight@1.0.5 
 │       │ └── wrappy@1.0.2 
@@ -440,8 +439,8 @@ install@0.0.1 /Users/thali/Github/Thali_CordovaPlugin/thali/install
 │       │ └─┬ brace-expansion@1.1.6 
 │       │   ├── balanced-match@0.4.2 
 │       │   └── concat-map@0.0.1 
-│       ├── once@1.3.3 
-│       └── path-is-absolute@1.0.0 
+│       ├── once@1.4.0 
+│       └── path-is-absolute@1.0.1 
 ├─┬ jxc@1.0.14 
 │ └─┬ jxtools@0.0.4  (git+https://github.com/ktrzeciaknubisa/jxtools.git#644cf31ea259cb65a97e5c3ed5ea1236dba298a3)
 │   ├── adm-zip@0.4.7 
@@ -491,7 +490,7 @@ install@0.0.1 /Users/thali/Github/Thali_CordovaPlugin/thali/install
 │ ├── forever-agent@0.6.1 
 │ ├─┬ form-data@1.0.1 
 │ │ └─┬ async@2.0.1 
-│ │   └── lodash@4.15.0 
+│ │   └── lodash@4.16.3 
 │ ├─┬ har-validator@1.8.0 
 │ │ ├─┬ chalk@1.1.3 
 │ │ │ ├── ansi-styles@2.2.1 
@@ -502,11 +501,11 @@ install@0.0.1 /Users/thali/Github/Thali_CordovaPlugin/thali/install
 │ │ │ └── supports-color@2.0.0 
 │ │ ├─┬ commander@2.9.0 
 │ │ │ └── graceful-readlink@1.0.1 
-│ │ └─┬ is-my-json-valid@2.13.1 
+│ │ └─┬ is-my-json-valid@2.15.0 
 │ │   ├── generate-function@2.0.0 
 │ │   ├─┬ generate-object-property@1.2.0 
 │ │   │ └── is-property@1.0.2 
-│ │   └── jsonpointer@2.0.0 
+│ │   └── jsonpointer@4.0.0 
 │ ├─┬ hawk@3.1.3 
 │ │ ├── boom@2.10.1 
 │ │ ├── cryptiles@2.0.5 
@@ -518,8 +517,8 @@ install@0.0.1 /Users/thali/Github/Thali_CordovaPlugin/thali/install
 │ │ └── ctype@0.5.3 
 │ ├── isstream@0.1.2 
 │ ├── json-stringify-safe@5.0.1 
-│ ├─┬ mime-types@2.1.11 
-│ │ └── mime-db@1.23.0 
+│ ├─┬ mime-types@2.1.12 
+│ │ └── mime-db@1.24.0 
 │ ├── node-uuid@1.4.7 
 │ ├── oauth-sign@0.8.2 
 │ ├── qs@5.1.0 
@@ -532,9 +531,9 @@ install@0.0.1 /Users/thali/Github/Thali_CordovaPlugin/thali/install
   │ └─┬ chainsaw@0.1.0 
   │   └── traverse@0.3.9 
   ├─┬ fstream@0.1.31 
-  │ ├─┬ graceful-fs@3.0.10 
-  │ │ └── natives@1.0.2 
-  │ ├── inherits@2.0.1 
+  │ ├─┬ graceful-fs@3.0.11 
+  │ │ └── natives@1.1.0 
+  │ ├── inherits@2.0.3 
   │ └─┬ mkdirp@0.5.1 
   │   └── minimist@0.0.8 
   ├── match-stream@0.0.2 
@@ -545,7 +544,7 @@ install@0.0.1 /Users/thali/Github/Thali_CordovaPlugin/thali/install
   │ ├── core-util-is@1.0.2 
   │ ├── isarray@0.0.1 
   │ └── string_decoder@0.10.31 
-  └── setimmediate@1.0.4 
+  └── setimmediate@1.0.5 
 
 /Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/node_modules/thali -> /usr/local/lib/node_modules/thali -> /Users/thali/Github/Thali_CordovaPlugin/thali
 
@@ -759,8 +758,8 @@ thali-cordova-plugin-jxcore@1.0.0 /Users/thali/Github/Thali_CordovaPlugin/test/w
 │ │ │   ├─┬ indent-string@1.2.2 
 │ │ │   │ ├── get-stdin@4.0.1 
 │ │ │   │ └─┬ repeating@1.1.3 
-│ │ │   │   └─┬ is-finite@1.0.1 
-│ │ │   │     └── number-is-nan@1.0.0 
+│ │ │   │   └─┬ is-finite@1.0.2 
+│ │ │   │     └── number-is-nan@1.0.1 
 │ │ │   └── object-assign@1.0.0 
 │ │ ├─┬ couchdb-calculate-session-id@1.1.0 
 │ │ │ └── aproba@1.0.4 
@@ -790,7 +789,7 @@ thali-cordova-plugin-jxcore@1.0.0 /Users/thali/Github/Thali_CordovaPlugin/test/w
 │ │ │ │ │ └── localstorage-memory@1.0.2 
 │ │ │ │ └── tiny-queue@0.2.0 
 │ │ │ ├─┬ memdown@1.1.2 
-│ │ │ │ ├── abstract-leveldown@2.6.0 
+│ │ │ │ ├── abstract-leveldown@2.6.1 
 │ │ │ │ ├── functional-red-black-tree@1.0.1 
 │ │ │ │ └── ltgt@1.0.2 
 │ │ │ ├── pouchdb-collections@1.0.1 
@@ -806,11 +805,11 @@ thali-cordova-plugin-jxcore@1.0.0 /Users/thali/Github/Thali_CordovaPlugin/test/w
 │ │ │ │ │   └── pinkie@2.0.4 
 │ │ │ │ ├─┬ http-signature@1.1.1 
 │ │ │ │ │ ├── assert-plus@0.2.0 
-│ │ │ │ │ ├─┬ jsprim@1.3.0 
+│ │ │ │ │ ├─┬ jsprim@1.3.1 
 │ │ │ │ │ │ ├── extsprintf@1.0.2 
-│ │ │ │ │ │ ├── json-schema@0.2.2 
+│ │ │ │ │ │ ├── json-schema@0.2.3 
 │ │ │ │ │ │ └── verror@1.3.6 
-│ │ │ │ │ └─┬ sshpk@1.9.2 
+│ │ │ │ │ └─┬ sshpk@1.10.1 
 │ │ │ │ │   ├── asn1@0.2.3 
 │ │ │ │ │   ├── assert-plus@1.0.0 
 │ │ │ │ │   ├─┬ dashdash@1.14.0 
@@ -885,7 +884,7 @@ thali-cordova-plugin-jxcore@1.0.0 /Users/thali/Github/Thali_CordovaPlugin/test/w
 │ │   ├── bluebird@1.2.4 
 │ │   └── lie@2.7.7 
 │ ├─┬ pouchdb-size@1.2.2 
-│ │ ├── bluebird@2.10.2 
+│ │ ├── bluebird@2.11.0 
 │ │ └─┬ get-folder-size@0.1.1 
 │ │   ├── async@0.9.2 
 │ │   └── minimist@0.1.0 
@@ -902,11 +901,6 @@ thali-cordova-plugin-jxcore@1.0.0 /Users/thali/Github/Thali_CordovaPlugin/test/w
 │ ├── pouchdb-vhost@1.0.2 
 │ └── pouchdb-wrappers@1.3.6 
 ├── forever-agent@0.6.1 
-├─┬ fs-extra-promise@0.4.0
-│ └─┬ fs-extra@0.30.0
-│   └─┬ rimraf@2.5.4
-│     └─┬ glob@7.0.6
-│       └── inherits@2.0.1 
 ├── inherits@2.0.1 
 ├── is-property@1.0.2 
 ├── js-extend@1.0.1 
@@ -918,18 +912,14 @@ thali-cordova-plugin-jxcore@1.0.0 /Users/thali/Github/Thali_CordovaPlugin/test/w
 │ ├─┬ es3ify@0.2.2
 │ │ └─┬ jstransform@11.0.3
 │ │   └─┬ commoner@0.10.4
-│ │     └─┬ glob@5.0.15 
-│ │       └── inherits@2.0.1 
-│ ├─┬ inline-process-browser@1.0.0
-│ │ └─┬ through2@0.6.5
-│ │   └─┬ readable-stream@1.0.34
-│ │     └── inherits@2.0.1 
+│ │     └── glob@5.0.15 
 │ └── unreachable-branch-transform@0.3.0 
 ├── long@3.0.3 
 ├── minimist@1.2.0 
 ├─┬ multiplex@6.7.0 
 │ ├─┬ duplexify@3.4.5 
-│ │ ├── end-of-stream@1.0.0 
+│ │ ├─┬ end-of-stream@1.0.0 
+│ │ │ └── once@1.3.3 
 │ │ ├─┬ readable-stream@2.1.5 
 │ │ │ └── isarray@1.0.0 
 │ │ └── stream-shift@1.0.0 
@@ -976,7 +966,7 @@ thali-cordova-plugin-jxcore@1.0.0 /Users/thali/Github/Thali_CordovaPlugin/test/w
 │ │ │ ├── nan@2.3.5 
 │ │ │ └─┬ prebuild@4.2.2 
 │ │ │   ├── async@1.5.2 
-│ │ │   ├── expand-template@1.0.2 
+│ │ │   ├── expand-template@1.0.3 
 │ │ │   ├─┬ ghreleases@1.0.5 
 │ │ │   │ ├── after@0.8.2 
 │ │ │   │ ├── ghrepos@2.0.0 
@@ -1004,7 +994,7 @@ thali-cordova-plugin-jxcore@1.0.0 /Users/thali/Github/Thali_CordovaPlugin/test/w
 │ │ │   │ │       └── es6-iterator@2.0.0 
 │ │ │   │ ├─┬ tar@2.2.1 
 │ │ │   │ │ └── block-stream@0.0.9 
-│ │ │   │ └─┬ which@1.2.10 
+│ │ │   │ └─┬ which@1.2.11 
 │ │ │   │   └── isexe@1.1.2 
 │ │ │   ├── node-ninja@1.0.2 
 │ │ │   ├── noop-logger@0.1.1 
@@ -1019,15 +1009,16 @@ thali-cordova-plugin-jxcore@1.0.0 /Users/thali/Github/Thali_CordovaPlugin/test/w
 │ │ │   │   ├── lodash.pad@4.5.1 
 │ │ │   │   ├── lodash.padend@4.6.1 
 │ │ │   │   └── lodash.padstart@4.6.1 
-│ │ │   ├── os-homedir@1.0.1 
+│ │ │   ├── os-homedir@1.0.2 
 │ │ │   ├─┬ pump@1.0.1 
-│ │ │   │ └── end-of-stream@1.1.0 
+│ │ │   │ └─┬ end-of-stream@1.1.0 
+│ │ │   │   └── once@1.3.3 
 │ │ │   ├─┬ rc@1.1.6 
 │ │ │   │ ├── deep-extend@0.4.1 
 │ │ │   │ ├── ini@1.3.4 
 │ │ │   │ └── strip-json-comments@1.0.4 
 │ │ │   ├─┬ simple-get@1.4.3 
-│ │ │   │ └── unzip-response@1.0.0 
+│ │ │   │ └── unzip-response@1.0.1 
 │ │ │   ├── tar-fs@1.13.2 
 │ │ │   └─┬ tar-stream@1.5.2 
 │ │ │     └─┬ readable-stream@2.1.5 
@@ -1077,13 +1068,13 @@ thali-cordova-plugin-jxcore@1.0.0 /Users/thali/Github/Thali_CordovaPlugin/test/w
 │ ├── extend@3.0.0 
 │ ├─┬ form-data@1.0.1 
 │ │ └─┬ async@2.0.1 
-│ │   └── lodash@4.15.0 
+│ │   └── lodash@4.16.3 
 │ ├─┬ har-validator@1.8.0 
-│ │ ├── bluebird@2.10.2 
-│ │ └─┬ is-my-json-valid@2.13.1 
+│ │ ├── bluebird@2.11.0 
+│ │ └─┬ is-my-json-valid@2.15.0 
 │ │   ├── generate-function@2.0.0 
 │ │   ├── generate-object-property@1.2.0 
-│ │   └── jsonpointer@2.0.0 
+│ │   └── jsonpointer@4.0.0 
 │ ├─┬ hawk@3.1.3 
 │ │ ├── boom@2.10.1 
 │ │ ├── cryptiles@2.0.5 
@@ -1095,15 +1086,15 @@ thali-cordova-plugin-jxcore@1.0.0 /Users/thali/Github/Thali_CordovaPlugin/test/w
 │ │ └── ctype@0.5.3 
 │ ├── isstream@0.1.2 
 │ ├── json-stringify-safe@5.0.1 
-│ ├─┬ mime-types@2.1.11 
-│ │ └── mime-db@1.23.0 
+│ ├─┬ mime-types@2.1.12 
+│ │ └── mime-db@1.24.0 
 │ ├── oauth-sign@0.8.2 
 │ ├── qs@5.1.0 
 │ ├── stringstream@0.0.5 
 │ ├── tough-cookie@2.2.2 
 │ └── tunnel-agent@0.4.3 
 ├─┬ request-promise@0.4.3 
-│ ├── bluebird@2.10.2 
+│ ├── bluebird@2.11.0 
 │ ├─┬ chalk@1.1.3 
 │ │ ├── ansi-styles@2.2.1 
 │ │ ├── escape-string-regexp@1.0.5 
@@ -1169,7 +1160,7 @@ thali-cordova-plugin-jxcore@1.0.0 /Users/thali/Github/Thali_CordovaPlugin/test/w
 │   ├── readable-stream@1.0.27-1 
 │   └── reduce-component@1.0.1 
 ├─┬ supertest-as-promised@2.0.2 
-│ └── bluebird@2.10.2 
+│ └── bluebird@2.11.0 
 ├─┬ tape@4.0.0 
 │ ├── defined@0.0.0 
 │ ├─┬ glob@5.0.15 
@@ -1245,11 +1236,11 @@ thali-cordova-plugin-jxcore@1.0.0 /Users/thali/Github/Thali_CordovaPlugin/test/w
 │ ├── long@3.0.3 
 │ ├─┬ multiplex@6.7.0 
 │ │ ├─┬ duplexify@3.4.5 
-│ │ │ ├── end-of-stream@1.0.0 
+│ │ │ ├─┬ end-of-stream@1.0.0 
+│ │ │ │ └── once@1.3.3 
 │ │ │ ├─┬ readable-stream@2.1.5 
 │ │ │ │ └── isarray@1.0.0 
 │ │ │ └── stream-shift@1.0.0 
-│ │ ├── inherits@2.0.1 
 │ │ ├─┬ readable-stream@2.1.5 
 │ │ │ ├── buffer-shims@1.0.0 
 │ │ │ ├── isarray@1.0.0 
@@ -1269,20 +1260,20 @@ thali-cordova-plugin-jxcore@1.0.0 /Users/thali/Github/Thali_CordovaPlugin/test/w
 │ │ ├── extend@3.0.0 
 │ │ ├─┬ form-data@1.0.1 
 │ │ │ └─┬ async@2.0.1 
-│ │ │   └── lodash@4.15.0 
+│ │ │   └── lodash@4.16.3 
 │ │ ├─┬ har-validator@1.8.0 
-│ │ │ ├── bluebird@2.10.2 
+│ │ │ ├── bluebird@2.11.0 
 │ │ │ ├─┬ chalk@1.1.3 
 │ │ │ │ ├── ansi-styles@2.2.1 
 │ │ │ │ ├─┬ has-ansi@2.0.0 
 │ │ │ │ │ └── ansi-regex@2.0.0 
 │ │ │ │ ├── strip-ansi@3.0.1 
 │ │ │ │ └── supports-color@2.0.0 
-│ │ │ └─┬ is-my-json-valid@2.13.1 
+│ │ │ └─┬ is-my-json-valid@2.15.0 
 │ │ │   ├── generate-function@2.0.0 
 │ │ │   ├─┬ generate-object-property@1.2.0 
 │ │ │   │ └── is-property@1.0.2 
-│ │ │   └── jsonpointer@2.0.0 
+│ │ │   └── jsonpointer@4.0.0 
 │ │ ├─┬ hawk@3.1.3 
 │ │ │ ├── boom@2.10.1 
 │ │ │ ├── cryptiles@2.0.5 
@@ -1294,15 +1285,15 @@ thali-cordova-plugin-jxcore@1.0.0 /Users/thali/Github/Thali_CordovaPlugin/test/w
 │ │ │ └── ctype@0.5.3 
 │ │ ├── isstream@0.1.2 
 │ │ ├── json-stringify-safe@5.0.1 
-│ │ ├─┬ mime-types@2.1.11 
-│ │ │ └── mime-db@1.23.0 
+│ │ ├─┬ mime-types@2.1.12 
+│ │ │ └── mime-db@1.24.0 
 │ │ ├── oauth-sign@0.8.2 
 │ │ ├── qs@5.1.0 
 │ │ ├── stringstream@0.0.5 
 │ │ └── tunnel-agent@0.4.3 
 │ └── urlsafe-base64@1.0.0 
 ├─┬ tmp@0.0.28 
-│ └── os-tmpdir@1.0.1 
+│ └── os-tmpdir@1.0.2 
 ├── urlsafe-base64@1.0.0 
 └── uuid@2.0.0 
 
@@ -1348,13 +1339,13 @@ TAP version 13
 # setup
 # calling createNativeListener directly rejects
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49939
+DEBUG createNativeListener: listening 49963
 ok 1 Should throw
 # teardown
 # setup
 # emits incomingConnectionState
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49941
+DEBUG createNativeListener: listening 49965
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
@@ -1365,7 +1356,7 @@ ok 3 final connection state should be DISCONNECTED
 # setup
 # emits routerPortConnectionFailed
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49944
+DEBUG createNativeListener: listening 49968
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
@@ -1382,7 +1373,7 @@ DEBUG createNativeListener: incoming socket close
 # setup
 # native server connections all up
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49948
+DEBUG createNativeListener: listening 49972
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
@@ -1403,7 +1394,7 @@ DEBUG createNativeListener: incoming socket close
 # setup
 # native server - closing incoming stream cleans outgoing socket
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49953
+DEBUG createNativeListener: listening 49977
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
@@ -1418,7 +1409,7 @@ DEBUG createNativeListener: incoming socket close
 # setup
 # native server - closing incoming connection cleans outgoing socket
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49957
+DEBUG createNativeListener: listening 49981
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
@@ -1433,7 +1424,7 @@ ok 16 incoming is cleaned up
 # setup
 # native server - closing outgoing socket cleans associated mux stream
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49961
+DEBUG createNativeListener: listening 49985
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
@@ -1449,7 +1440,7 @@ DEBUG createNativeListener: incoming socket close
 # setup
 # native server - closing the whole server cleans everything up
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49965
+DEBUG createNativeListener: listening 49989
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
@@ -1470,7 +1461,7 @@ DEBUG createNativeListener: incoming socket close
 # setup
 # native server - we can get a ton of connections and data through and still clean up the server completely
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 49969
+DEBUG createNativeListener: listening 49993
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
@@ -1648,7 +1639,7 @@ DEBUG createNativeListener: incoming socket close
 # setup
 # native server - simulate mux failure, make sure everything is cleaned up
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50021
+DEBUG createNativeListener: listening 50045
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
@@ -1668,7 +1659,7 @@ ok 37 The mux stream should be closed
 # setup
 # native server - timing out the incoming connection cleans everything up
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50025
+DEBUG createNativeListener: listening 50049
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
@@ -1689,17 +1680,17 @@ ok 44 The mux stream should be closed
 # setup
 # calling createPeerListener without calling start produces error
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50030
+DEBUG createNativeListener: listening 50054
 # teardown
 # setup
 # calling createPeerListener after calling stop produces error
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50033
+DEBUG createNativeListener: listening 50057
 # teardown
 # setup
 # can call createPeerListener (pleaseConnect === false)
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50036
+DEBUG createNativeListener: listening 50060
 DEBUG createPeerListener: createPeerListener creating new server
 DEBUG createPeerListener: pleaseConnect= false
 ok 45 port must be in range
@@ -1707,7 +1698,7 @@ ok 45 port must be in range
 # setup
 # calling createPeerListener (pleaseConnect === true) with unknown peer is error
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50040
+DEBUG createNativeListener: listening 50064
 DEBUG createPeerListener: createPeerListener creating new server
 DEBUG createPeerListener: pleaseConnect= true
 DEBUG createPeerListener: first connection
@@ -1721,7 +1712,7 @@ DEBUG createPeerListener: pleaseConnect= false
 # setup
 # calling createPeerListener twice with same peerIdentifier should return the same port
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50045
+DEBUG createNativeListener: listening 50069
 DEBUG createPeerListener: createPeerListener creating new server
 DEBUG createPeerListener: pleaseConnect= false
 ok 47 port values should be the same
@@ -1729,7 +1720,7 @@ ok 47 port values should be the same
 # setup
 # createPeerListener - closing connection to native listener closes everything and triggers new listener
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50049
+DEBUG createNativeListener: listening 50073
 DEBUG createPeerListener: createPeerListener creating new server
 DEBUG createPeerListener: pleaseConnect= false
 DEBUG createPeerListener: first connection
@@ -1751,7 +1742,7 @@ DEBUG createNativeListener: stream close:
 # setup
 # createPeerListener - closing mux closes listener and triggers a new listener
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50058
+DEBUG createNativeListener: listening 50082
 DEBUG createPeerListener: createPeerListener creating new server
 DEBUG createPeerListener: pleaseConnect= false
 DEBUG createPeerListener: first connection
@@ -1777,7 +1768,7 @@ DEBUG createNativeListener: creating native server
 ok 54 Can call startUpdateAdvertisingAndListening without error
 ok 55 Can call startListeningForAdvertisements without error
 DEBUG createPeerListener: createPeerListener creating new server
-DEBUG createNativeListener: listening 50067
+DEBUG createNativeListener: listening 50091
 DEBUG createPeerListener: pleaseConnect= true
 DEBUG createPeerListener: first connection
 DEBUG createPeerListener: forward connection
@@ -1793,7 +1784,7 @@ DEBUG createNativeListener: creating native server
 ok 57 Can call startUpdateAdvertisingAndListening without error
 ok 58 Can call startListeningForAdvertisements without error
 DEBUG createPeerListener: createPeerListener creating new server
-DEBUG createNativeListener: listening 50073
+DEBUG createNativeListener: listening 50097
 DEBUG createPeerListener: pleaseConnect= false
 ok 59 peerPort should not be nativePort
 DEBUG createPeerListener: first connection
@@ -1812,7 +1803,7 @@ DEBUG createNativeListener: creating native server
 ok 62 Can call startUpdateAdvertisingAndListening without error
 ok 63 Can call startListeningForAdvertisements without error
 DEBUG createPeerListener: createPeerListener creating new server
-DEBUG createNativeListener: listening 50080
+DEBUG createNativeListener: listening 50104
 DEBUG createPeerListener: pleaseConnect= true
 DEBUG createPeerListener: first connection
 DEBUG createPeerListener: forward connection
@@ -1825,7 +1816,7 @@ DEBUG createNativeListener: creating native server
 ok 66 Can call startUpdateAdvertisingAndListening without error
 ok 67 Can call startListeningForAdvertisements without error
 DEBUG createPeerListener: createPeerListener creating new server
-DEBUG createNativeListener: listening 50085
+DEBUG createNativeListener: listening 50109
 DEBUG createPeerListener: pleaseConnect= false
 ok 68 peerPort != nativePort
 DEBUG createPeerListener: first connection
@@ -1835,7 +1826,7 @@ ok 69 Should not get unexpected connection
 # setup
 # peerListener - forwardConnection, pleaseConnect === false - with native server and data transfer
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50091
+DEBUG createNativeListener: listening 50115
 DEBUG createPeerListener: createPeerListener creating new server
 DEBUG createPeerListener: pleaseConnect= false
 DEBUG createPeerListener: first connection
@@ -1859,7 +1850,7 @@ DEBUG createNativeListener: creating native server
 ok 72 Can call startUpdateAdvertisingAndListening without error
 ok 73 Can call startListeningForAdvertisements without error
 DEBUG createPeerListener: createPeerListener creating new server
-DEBUG createNativeListener: listening 50098
+DEBUG createNativeListener: listening 50122
 DEBUG createPeerListener: pleaseConnect= false
 ok 74 Second call to existing peerListener returns existing port
 # teardown
@@ -1869,7 +1860,7 @@ DEBUG createNativeListener: creating native server
 ok 75 Can call startUpdateAdvertisingAndListening without error
 ok 76 Can call startListeningForAdvertisements without error
 DEBUG createPeerListener: createPeerListener creating new server
-DEBUG createNativeListener: listening 50102
+DEBUG createNativeListener: listening 50126
 DEBUG createPeerListener: pleaseConnect= true
 DEBUG createPeerListener: first connection
 WARN createPeerListener: 
@@ -1886,12 +1877,12 @@ DEBUG createNativeListener: creating native server
 ok 79 Can call startUpdateAdvertisingAndListening without error
 ok 80 Can call startListeningForAdvertisements without error
 DEBUG createPeerListener: createPeerListener creating new server
-DEBUG createNativeListener: listening 50107
+DEBUG createNativeListener: listening 50131
 DEBUG createPeerListener: pleaseConnect= true
 DEBUG createPeerListener: first connection
 DEBUG createPeerListener: forward connection
-ok 81 promise should resolve
-ok 82 Should get spontaneous connection
+ok 81 Should get spontaneous connection
+ok 82 promise should resolve
 # teardown
 # setup
 # peerListener - reverseConnection, pleaseConnect === true
@@ -1899,7 +1890,7 @@ DEBUG createNativeListener: creating native server
 ok 83 Can call startUpdateAdvertisingAndListening without error
 ok 84 Can call startListeningForAdvertisements without error
 DEBUG createPeerListener: createPeerListener creating new server
-DEBUG createNativeListener: listening 50112
+DEBUG createNativeListener: listening 50136
 DEBUG createPeerListener: pleaseConnect= true
 DEBUG createPeerListener: first connection
 WARN createPeerListener: was expecting a forward connection to be made
@@ -1914,7 +1905,7 @@ DEBUG createNativeListener: creating native server
 ok 86 Can call startUpdateAdvertisingAndListening without error
 ok 87 Can call startListeningForAdvertisements without error
 DEBUG createPeerListener: createPeerListener creating new server
-DEBUG createNativeListener: listening 50117
+DEBUG createNativeListener: listening 50141
 DEBUG createPeerListener: pleaseConnect= false
 ok 88 peerPort should not be nativePort
 DEBUG createPeerListener: first connection
@@ -1936,15 +1927,15 @@ DEBUG createNativeListener: creating native server
 ok 91 Can call startUpdateAdvertisingAndListening without error
 ok 92 Can call startListeningForAdvertisements without error
 DEBUG createPeerListener: createPeerListener creating new server
-DEBUG createNativeListener: listening 50123
+DEBUG createNativeListener: listening 50147
 DEBUG createPeerListener: pleaseConnect= false
 DEBUG createPeerListener: first connection
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
-DEBUG createPeerListener: looking up mux for client port:  50126
+DEBUG createPeerListener: looking up mux for client port:  50150
 DEBUG createPeerListener: reverse connection
-DEBUG createPeerListener: looking up mux for client port:  50126
+DEBUG createPeerListener: looking up mux for client port:  50150
 ok 93 sent and received should be the same
 # teardown
 DEBUG createNativeListener: mux close
@@ -1955,15 +1946,15 @@ DEBUG createNativeListener: creating native server
 ok 94 Can call startUpdateAdvertisingAndListening without error
 ok 95 Can call startListeningForAdvertisements without error
 DEBUG createPeerListener: createPeerListener creating new server
-DEBUG createNativeListener: listening 50129
+DEBUG createNativeListener: listening 50153
 DEBUG createPeerListener: pleaseConnect= false
 DEBUG createPeerListener: first connection
-DEBUG createPeerListener: looking up mux for client port:  50132
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
+DEBUG createPeerListener: looking up mux for client port:  50156
 DEBUG createPeerListener: reverse connection
-DEBUG createPeerListener: looking up mux for client port:  50132
+DEBUG createPeerListener: looking up mux for client port:  50156
 DEBUG createNativeListener: new stream: 
 DEBUG createNativeListener: new outgoing socket
 DEBUG createNativeListener: 
@@ -1975,47 +1966,47 @@ DEBUG createNativeListener: incoming socket close
 # setup
 # createPeerListener - ask for new peer when we are at maximum and make sure we remove the right existing listener
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50136
+DEBUG createNativeListener: listening 50160
 # teardown
 # setup
 # createPeerListener - ask for a new peer when we are not at maximum peers and make sure we do not remove any existing listeners
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50139
+DEBUG createNativeListener: listening 50163
 # teardown
 # setup
 # createPeerListener - pleaseConnect = false - test timeout
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50142
+DEBUG createNativeListener: listening 50166
 # teardown
 # setup
 # createPeerListener - pleaseConnect = true - test timeout
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50145
+DEBUG createNativeListener: listening 50169
 # teardown
 # setup
 # createPeerListener - forward connection - wrong serverPort
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50148
+DEBUG createNativeListener: listening 50172
 # teardown
 # setup
 # createPeerListener - forward connection - wrong clientPort
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50151
+DEBUG createNativeListener: listening 50175
 # teardown
 # setup
 # createPeerListener - please connect = false, multiple connections out
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50154
+DEBUG createNativeListener: listening 50178
 # teardown
 # setup
 # createPeerListener - please connect = false, multiple bi-directional connections
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50157
+DEBUG createNativeListener: listening 50181
 # teardown
 # setup
 # createPeerListener - multiple parallel calls
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50160
+DEBUG createNativeListener: listening 50184
 # teardown
 # setup
 # #_doImmediateSeqUpdate - server is not there
@@ -2181,7 +2172,7 @@ ok 167 error should be null
 # setup
 # should be able to call #stopListeningForAdvertisements many times
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50237
+DEBUG createNativeListener: listening 50261
 ok 168 error should be null
 ok 169 error should be null
 ok 170 error should be null
@@ -2192,7 +2183,7 @@ ok 173 error should be null
 # setup
 # should be able to call #startListeningForAdvertisements many times
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50239
+DEBUG createNativeListener: listening 50263
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
 ok 174 error should be null
 ok 175 error should be null
@@ -2206,7 +2197,7 @@ ok 179 error should be null
 # setup
 # should be able to call #startUpdateAdvertisingAndListening many times
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50241
+DEBUG createNativeListener: listening 50265
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
 ok 180 error should be null
 ok 181 error should be null
@@ -2220,7 +2211,7 @@ ok 185 error should be null
 # setup
 # should be able to call #stopAdvertisingAndListening many times
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50246
+DEBUG createNativeListener: listening 50270
 ok 186 error should be null
 ok 187 error should be null
 ok 188 error should be null
@@ -2231,7 +2222,7 @@ ok 191 error should be null
 # setup
 # #start should fail if called twice in a row
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50248
+DEBUG createNativeListener: listening 50272
 ok 192 first call should succeed
 ok 193 first call should succeed
 ok 194 specific error should be returned
@@ -2241,7 +2232,7 @@ ok 196 error should be null
 # setup
 # does not emit duplicate discoveryAdvertisingStateUpdate
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50250
+DEBUG createNativeListener: listening 50274
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":true}
 ok 197 called only once
@@ -2274,7 +2265,7 @@ ERROR thaliMobileNativeWrapper: Unable to use the given router: TypeError: Route
 not ok 209 host address should match
   ---
     operator: equal
-    expected: '36d162e8'
+    expected: '2a6c23d1'
     actual:   undefined
     at: EventEmitter.availabilityChangedHandler (/Users/thali/Github/Thali_CordovaPlugin/test/www/jxcore/bv_tests/testThaliMobile.js:248:9)
   ...
@@ -2306,7 +2297,7 @@ ok 214 error should be null
 # setup
 # network changes emitted correctly
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50255
+DEBUG createNativeListener: listening 50279
 DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"off","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
 ok 215 wifi is off
 DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"on","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
@@ -2325,7 +2316,7 @@ ok 221 error should be null
 # setup
 # calls correct starts when network changes
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50257
+DEBUG createNativeListener: listening 50281
 DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"off","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
 ok 222 specific error expected
@@ -2346,7 +2337,7 @@ ok 227 error should be null
 # setup
 # peer is marked unavailable if port number changes
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50262
+DEBUG createNativeListener: listening 50286
 ok 228 peer should have a non-empty identifier
 not ok 229 peer should have a non-empty host address
   ---
@@ -2444,7 +2435,7 @@ ok 248 error should be null
 # setup
 # when network connection is lost a peer should be marked unavailable
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50264
+DEBUG createNativeListener: listening 50288
 INFO testUtils: Toggling radios to: false
 DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"on","bluetooth":"off","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
 DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"off","bluetooth":"off","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
@@ -2557,7 +2548,7 @@ ok 287 must be stopped
 # setup
 # should be able to call #stopListeningForAdvertisements many times
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50270
+DEBUG createNativeListener: listening 50294
 ok 288 no errors
 ok 289 still no errors
 DEBUG thaliMobileNativeWrapper: Method peerAvailabilityChanged registered to native
@@ -2570,7 +2561,7 @@ ok 290 must be stopped
 # setup
 # should be able to call #startListeningForAdvertisements many times
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50272
+DEBUG createNativeListener: listening 50296
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
 ok 291 no errors
 ok 292 still no errors
@@ -2585,7 +2576,7 @@ ok 293 must be stopped
 # setup
 # should be able to call #startUpdateAdvertisingAndListening many times
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50274
+DEBUG createNativeListener: listening 50298
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
 ok 294 no errors
 DEBUG thaliMobileNativeWrapper: Method peerAvailabilityChanged registered to native
@@ -2600,7 +2591,7 @@ ok 296 must be stopped
 # setup
 # should be able to call #stopAdvertisingAndListening many times
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50278
+DEBUG createNativeListener: listening 50302
 ok 297 no errors
 ok 298 still no errors
 DEBUG thaliMobileNativeWrapper: Method peerAvailabilityChanged registered to native
@@ -2634,21 +2625,21 @@ ok 303 must be stopped
 # setup
 # all services are stopped when we call stop
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50280
+DEBUG createNativeListener: listening 50304
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":true}
-DEBUG thaliMobileNativeWrapper: Method peerAvailabilityChanged registered to native
-ok 304 connection to servers manager should succeed after starting
 DEBUG createNativeListener: new incoming socket
 DEBUG createNativeListener: creating incoming mux
 DEBUG createNativeListener: new mux
-DEBUG thaliMobileNativeWrapper: Method discoveryAdvertisingStateUpdateNonTCP registered to native
+ok 304 connection to servers manager should succeed after starting
+DEBUG thaliMobileNativeWrapper: Method peerAvailabilityChanged registered to native
 ok 305 connection to router server should succeed after starting
-DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"on","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
+DEBUG thaliMobileNativeWrapper: Method discoveryAdvertisingStateUpdateNonTCP registered to native
 DEBUG createNativeListener: incoming socket close
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
 ok 306 is stopped after calling stop
+DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"on","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
 DEBUG thaliMobileNativeWrapper: Method networkChanged registered to native
 DEBUG thaliMobileNativeWrapper: Method incomingConnectionToPortNumberFailed registered to native
 ok 307 connection to servers manager should fail after stopping
@@ -2688,8 +2679,8 @@ ok 315 must be stopped
 # setup
 # thaliMobileNativeWrapper is stopped when routerPortConnectionFailed is received
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50288
-INFO thaliMobileNativeWrapper: routerPortConnectionFailed - {"routerPort":50287,"error":{}}
+DEBUG createNativeListener: listening 50312
+INFO thaliMobileNativeWrapper: routerPortConnectionFailed - {"routerPort":50311,"error":{}}
 ok 316 failure reason is as expected
 ok 317 error description is as expected
 ok 318 must be stopped
@@ -2703,7 +2694,7 @@ ok 319 must be stopped
 # setup
 # We repeat failedConnection event when we get it from thaliTcpServersManager
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50290
+DEBUG createNativeListener: listening 50314
 ok 320 peerIdentifier matches
 ok 321 error description matches
 DEBUG thaliMobileNativeWrapper: Method peerAvailabilityChanged registered to native
@@ -2716,12 +2707,12 @@ ok 322 must be stopped
 # setup
 # can do HTTP requests between peers without coordinator
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50292
+DEBUG createNativeListener: listening 50316
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":true}
 DEBUG createPeerListener: createPeerListener creating new server
 DEBUG createPeerListener: pleaseConnect= false
-DEBUG testUtils: We got a peer {"peerIdentifier":"foo","portNumber":50295,"hostAddress":"127.0.0.1"}
+DEBUG testUtils: We got a peer {"peerIdentifier":"foo","portNumber":50319,"hostAddress":"127.0.0.1"}
 WARN testUtils: Retry count for getSamePeerWithRetry is 1
 DEBUG createPeerListener: first connection
 DEBUG thaliMobileNativeWrapper: Method peerAvailabilityChanged registered to native
@@ -2758,7 +2749,7 @@ DEBUG thaliMobileNativeWrapper: Method incomingConnectionToPortNumberFailed regi
 # setup
 # peer changes handled from a queue
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50303
+DEBUG createNativeListener: listening 50327
 DEBUG createPeerListener: createPeerListener creating new server
 DEBUG createPeerListener: pleaseConnect= false
 DEBUG createPeerListener: createPeerListener creating new server
@@ -2790,7 +2781,7 @@ ok 329 must be stopped
 # setup
 # relaying discoveryAdvertisingStateUpdateNonTCP
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50315
+DEBUG createNativeListener: listening 50339
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":true}
 ok 330 discovery is active
 ok 331 advertising is active
@@ -2804,9 +2795,9 @@ ok 332 must be stopped
 # setup
 # thaliMobileNativeWrapper is stopped when incomingConnectionToPortNumberFailed is received
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50317
+DEBUG createNativeListener: listening 50341
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
-INFO thaliMobileNativeWrapper: incomingConnectionToPortNumberFailed: 50317
+INFO thaliMobileNativeWrapper: incomingConnectionToPortNumberFailed: 50341
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":false}
 ok 333 right error reason
 ok 334 Stop should be fine
@@ -2822,7 +2813,7 @@ ok 337 must be stopped
 # setup
 # we successfully receive and replay discoveryAdvertisingStateUpdate
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50321
+DEBUG createNativeListener: listening 50345
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":true,"advertisingActive":false}
 ok 338 discoveryActive matches
 ok 339 advertisingActive matches
@@ -2830,7 +2821,7 @@ DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discove
 ok 340 discoveryActive matches
 ok 341 advertisingActive matches
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50323
+DEBUG createNativeListener: listening 50347
 DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discoveryActive":false,"advertisingActive":true}
 ok 342 discoveryActive matches
 ok 343 advertisingActive matches
@@ -2838,7 +2829,7 @@ DEBUG thaliMobileNativeWrapper: discoveryAdvertisingStateUpdateNonTCP: {"discove
 ok 344 discoveryActive matches
 ok 345 advertisingActive matches
 DEBUG createNativeListener: creating native server
-DEBUG createNativeListener: listening 50327
+DEBUG createNativeListener: listening 50351
 DEBUG thaliMobileNativeWrapper: Method peerAvailabilityChanged registered to native
 DEBUG thaliMobileNativeWrapper: Method discoveryAdvertisingStateUpdateNonTCP registered to native
 DEBUG thaliMobileNativeWrapper: networkChanged: {"wifi":"on","bluetooth":"on","bluetoothLowEnergy":"doNotCare","cellular":"doNotCare"}
@@ -3050,66 +3041,66 @@ TypeError: Cannot read property 'peerDictionary' of undefined
 build aborted
  [0m
 
-npm http request GET http://192.168.1.100:4873/winston
-npm http request GET http://192.168.1.100:4873/socket.io
-npm http request GET http://192.168.1.100:4873/lie
 npm http request GET http://192.168.1.100:4873/fs-extra-promise
 npm http request GET http://192.168.1.100:4873/express
+npm http request GET http://192.168.1.100:4873/lie
+npm http request GET http://192.168.1.100:4873/socket.io
+npm http request GET http://192.168.1.100:4873/winston
+npm http 200 http://192.168.1.100:4873/lie
 npm http 200 http://192.168.1.100:4873/winston
 npm http 200 http://192.168.1.100:4873/socket.io
-npm http 200 http://192.168.1.100:4873/fs-extra-promise
-npm http 200 http://192.168.1.100:4873/lie
 npm http 200 http://192.168.1.100:4873/express
+npm http 200 http://192.168.1.100:4873/fs-extra-promise
+npm http request GET http://192.168.1.100:4873/debug
+npm http request GET http://192.168.1.100:4873/cookie
+npm http request GET http://192.168.1.100:4873/depd
+npm http request GET http://192.168.1.100:4873/cookie-signature
 npm http request GET http://192.168.1.100:4873/content-type
 npm http request GET http://192.168.1.100:4873/content-disposition
 npm http request GET http://192.168.1.100:4873/accepts
 npm http request GET http://192.168.1.100:4873/array-flatten
-npm http request GET http://192.168.1.100:4873/debug
-npm http request GET http://192.168.1.100:4873/depd
-npm http request GET http://192.168.1.100:4873/cookie-signature
-npm http request GET http://192.168.1.100:4873/cookie
+npm http request GET http://192.168.1.100:4873/escape-html
 npm http request GET http://192.168.1.100:4873/methods
+npm http request GET http://192.168.1.100:4873/on-finished
+npm http request GET http://192.168.1.100:4873/fresh
 npm http request GET http://192.168.1.100:4873/merge-descriptors
 npm http request GET http://192.168.1.100:4873/finalhandler
-npm http request GET http://192.168.1.100:4873/fresh
 npm http request GET http://192.168.1.100:4873/etag
-npm http request GET http://192.168.1.100:4873/escape-html
-npm http request GET http://192.168.1.100:4873/range-parser
-npm http request GET http://192.168.1.100:4873/parseurl
-npm http request GET http://192.168.1.100:4873/on-finished
-npm http request GET http://192.168.1.100:4873/type-is
-npm http request GET http://192.168.1.100:4873/proxy-addr
-npm http request GET http://192.168.1.100:4873/utils-merge
-npm http request GET http://192.168.1.100:4873/vary
-npm http request GET http://192.168.1.100:4873/send
-npm http request GET http://192.168.1.100:4873/qs
 npm http request GET http://192.168.1.100:4873/path-to-regexp
+npm http request GET http://192.168.1.100:4873/proxy-addr
+npm http request GET http://192.168.1.100:4873/parseurl
+npm http request GET http://192.168.1.100:4873/qs
+npm http request GET http://192.168.1.100:4873/range-parser
+npm http request GET http://192.168.1.100:4873/utils-merge
 npm http request GET http://192.168.1.100:4873/serve-static
-npm http 200 http://192.168.1.100:4873/content-type
-npm http 200 http://192.168.1.100:4873/content-disposition
-npm http 200 http://192.168.1.100:4873/array-flatten
+npm http request GET http://192.168.1.100:4873/send
+npm http request GET http://192.168.1.100:4873/vary
+npm http request GET http://192.168.1.100:4873/type-is
 npm http 200 http://192.168.1.100:4873/debug
-npm http 200 http://192.168.1.100:4873/accepts
+npm http 200 http://192.168.1.100:4873/cookie
+npm http 200 http://192.168.1.100:4873/content-type
 npm http 200 http://192.168.1.100:4873/cookie-signature
 npm http 200 http://192.168.1.100:4873/depd
-npm http 200 http://192.168.1.100:4873/merge-descriptors
-npm http 200 http://192.168.1.100:4873/cookie
-npm http 200 http://192.168.1.100:4873/methods
-npm http 200 http://192.168.1.100:4873/fresh
-npm http 200 http://192.168.1.100:4873/finalhandler
+npm http 200 http://192.168.1.100:4873/content-disposition
+npm http 200 http://192.168.1.100:4873/accepts
+npm http 200 http://192.168.1.100:4873/array-flatten
 npm http 200 http://192.168.1.100:4873/escape-html
-npm http 200 http://192.168.1.100:4873/etag
-npm http 200 http://192.168.1.100:4873/range-parser
-npm http 200 http://192.168.1.100:4873/parseurl
+npm http 200 http://192.168.1.100:4873/methods
 npm http 200 http://192.168.1.100:4873/on-finished
+npm http 200 http://192.168.1.100:4873/fresh
+npm http 200 http://192.168.1.100:4873/merge-descriptors
+npm http 200 http://192.168.1.100:4873/etag
+npm http 200 http://192.168.1.100:4873/finalhandler
 npm http 200 http://192.168.1.100:4873/proxy-addr
-npm http 200 http://192.168.1.100:4873/type-is
-npm http 200 http://192.168.1.100:4873/utils-merge
-npm http 200 http://192.168.1.100:4873/vary
-npm http 200 http://192.168.1.100:4873/send
-npm http 200 http://192.168.1.100:4873/qs
-npm http 200 http://192.168.1.100:4873/serve-static
+npm http 200 http://192.168.1.100:4873/parseurl
 npm http 200 http://192.168.1.100:4873/path-to-regexp
+npm http 200 http://192.168.1.100:4873/range-parser
+npm http 200 http://192.168.1.100:4873/qs
+npm http 200 http://192.168.1.100:4873/utils-merge
+npm http 200 http://192.168.1.100:4873/serve-static
+npm http 200 http://192.168.1.100:4873/send
+npm http 200 http://192.168.1.100:4873/vary
+npm http 200 http://192.168.1.100:4873/type-is
 npm http request GET http://192.168.1.100:4873/mime-types
 npm http request GET http://192.168.1.100:4873/negotiator
 npm http 200 http://192.168.1.100:4873/negotiator
@@ -3130,10 +3121,10 @@ npm http request GET http://192.168.1.100:4873/mime
 npm http request GET http://192.168.1.100:4873/http-errors
 npm http request GET http://192.168.1.100:4873/destroy
 npm http request GET http://192.168.1.100:4873/statuses
-npm http 200 http://192.168.1.100:4873/http-errors
-npm http 200 http://192.168.1.100:4873/statuses
-npm http 200 http://192.168.1.100:4873/mime
 npm http 200 http://192.168.1.100:4873/destroy
+npm http 200 http://192.168.1.100:4873/mime
+npm http 200 http://192.168.1.100:4873/statuses
+npm http 200 http://192.168.1.100:4873/http-errors
 npm http request GET http://192.168.1.100:4873/inherits
 npm http 200 http://192.168.1.100:4873/inherits
 npm http request GET http://192.168.1.100:4873/media-typer
@@ -3142,76 +3133,74 @@ npm http request GET http://192.168.1.100:4873/fs-extra
 npm http request GET http://192.168.1.100:4873/bluebird
 npm http 200 http://192.168.1.100:4873/fs-extra
 npm http 200 http://192.168.1.100:4873/bluebird
-npm http request GET http://192.168.1.100:4873/jsonfile
 npm http request GET http://192.168.1.100:4873/graceful-fs
+npm http request GET http://192.168.1.100:4873/jsonfile
 npm http request GET http://192.168.1.100:4873/rimraf
-npm http 200 http://192.168.1.100:4873/rimraf
 npm http 200 http://192.168.1.100:4873/jsonfile
 npm http 200 http://192.168.1.100:4873/graceful-fs
-npm http fetch GET http://192.168.1.100:4873/graceful-fs/-/graceful-fs-4.1.6.tgz
-npm http fetch 200 http://192.168.1.100:4873/graceful-fs/-/graceful-fs-4.1.6.tgz
+npm http fetch GET http://192.168.1.100:4873/graceful-fs/-/graceful-fs-4.1.9.tgz
+npm http fetch 200 http://192.168.1.100:4873/graceful-fs/-/graceful-fs-4.1.9.tgz
+npm http 200 http://192.168.1.100:4873/rimraf
 npm http request GET http://192.168.1.100:4873/glob
 npm http 200 http://192.168.1.100:4873/glob
-npm http fetch GET http://192.168.1.100:4873/glob/-/glob-7.0.6.tgz
-npm http fetch 200 http://192.168.1.100:4873/glob/-/glob-7.0.6.tgz
-npm http request GET http://192.168.1.100:4873/path-is-absolute
-npm http request GET http://192.168.1.100:4873/once
 npm http request GET http://192.168.1.100:4873/inflight
 npm http request GET http://192.168.1.100:4873/fs.realpath
 npm http request GET http://192.168.1.100:4873/minimatch
-npm http 200 http://192.168.1.100:4873/path-is-absolute
-npm http 200 http://192.168.1.100:4873/once
+npm http request GET http://192.168.1.100:4873/once
+npm http request GET http://192.168.1.100:4873/path-is-absolute
 npm http 200 http://192.168.1.100:4873/inflight
 npm http 200 http://192.168.1.100:4873/fs.realpath
+npm http 200 http://192.168.1.100:4873/once
+npm http 200 http://192.168.1.100:4873/path-is-absolute
 npm http 200 http://192.168.1.100:4873/minimatch
+npm http fetch GET http://192.168.1.100:4873/path-is-absolute/-/path-is-absolute-1.0.1.tgz
+npm http fetch 200 http://192.168.1.100:4873/path-is-absolute/-/path-is-absolute-1.0.1.tgz
 npm http request GET http://192.168.1.100:4873/wrappy
 npm http 200 http://192.168.1.100:4873/wrappy
 npm http request GET http://192.168.1.100:4873/brace-expansion
 npm http 200 http://192.168.1.100:4873/brace-expansion
-npm http request GET http://192.168.1.100:4873/balanced-match
 npm http request GET http://192.168.1.100:4873/concat-map
+npm http request GET http://192.168.1.100:4873/balanced-match
 npm http 200 http://192.168.1.100:4873/concat-map
 npm http 200 http://192.168.1.100:4873/balanced-match
 npm http request GET http://192.168.1.100:4873/es3ify
+npm http request GET http://192.168.1.100:4873/unreachable-branch-transform
 npm http request GET http://192.168.1.100:4873/inline-process-browser
 npm http request GET http://192.168.1.100:4873/immediate
-npm http request GET http://192.168.1.100:4873/unreachable-branch-transform
 npm http 200 http://192.168.1.100:4873/es3ify
+npm http 200 http://192.168.1.100:4873/unreachable-branch-transform
 npm http 200 http://192.168.1.100:4873/inline-process-browser
 npm http 200 http://192.168.1.100:4873/immediate
-npm http 200 http://192.168.1.100:4873/unreachable-branch-transform
 npm http request GET http://192.168.1.100:4873/through
 npm http request GET http://192.168.1.100:4873/jstransform
 npm http request GET http://192.168.1.100:4873/esprima
+npm http 200 http://192.168.1.100:4873/esprima
 npm http 200 http://192.168.1.100:4873/through
 npm http 200 http://192.168.1.100:4873/jstransform
-npm http 200 http://192.168.1.100:4873/esprima
-npm http fetch GET http://192.168.1.100:4873/esprima/-/esprima-2.7.3.tgz
-npm http fetch 200 http://192.168.1.100:4873/esprima/-/esprima-2.7.3.tgz
 npm http request GET http://192.168.1.100:4873/base62
-npm http request GET http://192.168.1.100:4873/object-assign
-npm http request GET http://192.168.1.100:4873/esprima-fb
 npm http request GET http://192.168.1.100:4873/commoner
+npm http request GET http://192.168.1.100:4873/object-assign
 npm http request GET http://192.168.1.100:4873/source-map
-npm http 200 http://192.168.1.100:4873/esprima-fb
-npm http 200 http://192.168.1.100:4873/base62
-npm http 200 http://192.168.1.100:4873/object-assign
+npm http request GET http://192.168.1.100:4873/esprima-fb
 npm http 200 http://192.168.1.100:4873/commoner
+npm http 200 http://192.168.1.100:4873/base62
+npm http 200 http://192.168.1.100:4873/esprima-fb
+npm http 200 http://192.168.1.100:4873/object-assign
 npm http 200 http://192.168.1.100:4873/source-map
-npm http request GET http://192.168.1.100:4873/q
-npm http request GET http://192.168.1.100:4873/private
-npm http request GET http://192.168.1.100:4873/iconv-lite
-npm http request GET http://192.168.1.100:4873/mkdirp
 npm http request GET http://192.168.1.100:4873/detective
 npm http request GET http://192.168.1.100:4873/commander
+npm http request GET http://192.168.1.100:4873/mkdirp
+npm http request GET http://192.168.1.100:4873/iconv-lite
+npm http request GET http://192.168.1.100:4873/private
+npm http request GET http://192.168.1.100:4873/q
 npm http request GET http://192.168.1.100:4873/recast
+npm http 200 http://192.168.1.100:4873/detective
 npm http 200 http://192.168.1.100:4873/private
 npm http 200 http://192.168.1.100:4873/mkdirp
+npm http 200 http://192.168.1.100:4873/commander
 npm http 200 http://192.168.1.100:4873/iconv-lite
 npm http 200 http://192.168.1.100:4873/q
-npm http 200 http://192.168.1.100:4873/commander
 npm http 200 http://192.168.1.100:4873/recast
-npm http 200 http://192.168.1.100:4873/detective
 npm http request GET http://192.168.1.100:4873/graceful-readlink
 npm http 200 http://192.168.1.100:4873/graceful-readlink
 npm http request GET http://192.168.1.100:4873/defined
@@ -3234,50 +3223,50 @@ npm http request GET http://192.168.1.100:4873/object-keys
 npm http 200 http://192.168.1.100:4873/foreach
 npm http 200 http://192.168.1.100:4873/isarray
 npm http 200 http://192.168.1.100:4873/object-keys
-npm http request GET http://192.168.1.100:4873/readable-stream
 npm http request GET http://192.168.1.100:4873/xtend
-npm http 200 http://192.168.1.100:4873/readable-stream
+npm http request GET http://192.168.1.100:4873/readable-stream
 npm http 200 http://192.168.1.100:4873/xtend
-npm http request GET http://192.168.1.100:4873/core-util-is
+npm http 200 http://192.168.1.100:4873/readable-stream
 npm http request GET http://192.168.1.100:4873/string_decoder
+npm http request GET http://192.168.1.100:4873/core-util-is
 npm http 200 http://192.168.1.100:4873/core-util-is
 npm http 200 http://192.168.1.100:4873/string_decoder
 npm http request GET http://192.168.1.100:4873/esmangle-evaluator
 npm http 200 http://192.168.1.100:4873/esmangle-evaluator
-npm http request GET http://192.168.1.100:4873/has-binary-data
-npm http request GET http://192.168.1.100:4873/socket.io-adapter
 npm http request GET http://192.168.1.100:4873/socket.io-parser
-npm http request GET http://192.168.1.100:4873/engine.io
+npm http request GET http://192.168.1.100:4873/socket.io-adapter
 npm http request GET http://192.168.1.100:4873/socket.io-client
+npm http request GET http://192.168.1.100:4873/engine.io
+npm http request GET http://192.168.1.100:4873/has-binary-data
 npm http 200 http://192.168.1.100:4873/socket.io-adapter
-npm http 200 http://192.168.1.100:4873/socket.io-parser
-npm http 200 http://192.168.1.100:4873/engine.io
-npm http 200 http://192.168.1.100:4873/socket.io-client
 npm http 200 http://192.168.1.100:4873/has-binary-data
-npm http request GET http://192.168.1.100:4873/engine.io-parser
+npm http 200 http://192.168.1.100:4873/socket.io-parser
+npm http 200 http://192.168.1.100:4873/socket.io-client
+npm http 200 http://192.168.1.100:4873/engine.io
 npm http request GET http://192.168.1.100:4873/base64id
+npm http request GET http://192.168.1.100:4873/engine.io-parser
 npm http request GET http://192.168.1.100:4873/ws
 npm http 200 http://192.168.1.100:4873/engine.io-parser
-npm http 200 http://192.168.1.100:4873/ws
 npm http 200 http://192.168.1.100:4873/base64id
+npm http 200 http://192.168.1.100:4873/ws
 npm http request GET http://192.168.1.100:4873/after
 npm http request GET http://192.168.1.100:4873/arraybuffer.slice
-npm http request GET http://192.168.1.100:4873/blob
 npm http request GET http://192.168.1.100:4873/base64-arraybuffer
-npm http request GET http://192.168.1.100:4873/utf8
+npm http request GET http://192.168.1.100:4873/blob
 npm http request GET http://192.168.1.100:4873/has-binary
+npm http request GET http://192.168.1.100:4873/utf8
 npm http 200 http://192.168.1.100:4873/after
 npm http 200 http://192.168.1.100:4873/arraybuffer.slice
-npm http 200 http://192.168.1.100:4873/base64-arraybuffer
-npm http 200 http://192.168.1.100:4873/utf8
 npm http 200 http://192.168.1.100:4873/blob
+npm http 200 http://192.168.1.100:4873/base64-arraybuffer
 npm http 200 http://192.168.1.100:4873/has-binary
+npm http 200 http://192.168.1.100:4873/utf8
 npm http request GET http://192.168.1.100:4873/options
 npm http request GET http://192.168.1.100:4873/ultron
 npm http request GET http://192.168.1.100:4873/bufferutil
 npm http request GET http://192.168.1.100:4873/utf-8-validate
-npm http 200 http://192.168.1.100:4873/ultron
 npm http 200 http://192.168.1.100:4873/options
+npm http 200 http://192.168.1.100:4873/ultron
 npm http 200 http://192.168.1.100:4873/utf-8-validate
 npm http 200 http://192.168.1.100:4873/bufferutil
 npm http request GET http://192.168.1.100:4873/bindings
@@ -3287,32 +3276,34 @@ npm http 200 http://192.168.1.100:4873/nan
 npm http request GET http://192.168.1.100:4873/json3
 npm http request GET http://192.168.1.100:4873/component-emitter
 npm http request GET http://192.168.1.100:4873/benchmark
-npm http 200 http://192.168.1.100:4873/component-emitter
-npm http 200 http://192.168.1.100:4873/benchmark
 npm http 200 http://192.168.1.100:4873/json3
-npm http request GET http://192.168.1.100:4873/backo2
-npm http request GET http://192.168.1.100:4873/to-array
-npm http request GET http://192.168.1.100:4873/parseuri
-npm http request GET http://192.168.1.100:4873/indexof
-npm http request GET http://192.168.1.100:4873/object-component
-npm http request GET http://192.168.1.100:4873/component-bind
+npm http 200 http://192.168.1.100:4873/benchmark
+npm http 200 http://192.168.1.100:4873/component-emitter
 npm http request GET http://192.168.1.100:4873/engine.io-client
-npm http 200 http://192.168.1.100:4873/backo2
+npm http request GET http://192.168.1.100:4873/component-bind
+npm http request GET http://192.168.1.100:4873/object-component
+npm http request GET http://192.168.1.100:4873/indexof
+npm http request GET http://192.168.1.100:4873/parseuri
+npm http request GET http://192.168.1.100:4873/to-array
+npm http request GET http://192.168.1.100:4873/backo2
 npm http 200 http://192.168.1.100:4873/indexof
-npm http 200 http://192.168.1.100:4873/to-array
+npm http 200 http://192.168.1.100:4873/engine.io-client
 npm http 200 http://192.168.1.100:4873/object-component
 npm http 200 http://192.168.1.100:4873/parseuri
 npm http 200 http://192.168.1.100:4873/component-bind
-npm http 200 http://192.168.1.100:4873/engine.io-client
+npm http 200 http://192.168.1.100:4873/to-array
+npm http 200 http://192.168.1.100:4873/backo2
 npm http request GET http://192.168.1.100:4873/component-inherit
-npm http request GET http://192.168.1.100:4873/has-cors
 npm http request GET http://192.168.1.100:4873/parsejson
 npm http request GET http://192.168.1.100:4873/parseqs
+npm http request GET http://192.168.1.100:4873/debug
+npm http request GET http://192.168.1.100:4873/has-cors
 npm http fetch GET https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
 npm http 200 http://192.168.1.100:4873/component-inherit
-npm http 200 http://192.168.1.100:4873/has-cors
 npm http 200 http://192.168.1.100:4873/parseqs
 npm http 200 http://192.168.1.100:4873/parsejson
+npm http 304 http://192.168.1.100:4873/debug
+npm http 200 http://192.168.1.100:4873/has-cors
 npm http fetch 200 https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
 npm http request GET http://192.168.1.100:4873/ms
 npm http 304 http://192.168.1.100:4873/ms
@@ -3322,30 +3313,28 @@ npm http request GET http://192.168.1.100:4873/better-assert
 npm http 200 http://192.168.1.100:4873/better-assert
 npm http request GET http://192.168.1.100:4873/callsite
 npm http 200 http://192.168.1.100:4873/callsite
-npm http request GET http://192.168.1.100:4873/debug
-npm http 304 http://192.168.1.100:4873/debug
-npm http request GET http://192.168.1.100:4873/cycle
 npm http request GET http://192.168.1.100:4873/eyes
-npm http request GET http://192.168.1.100:4873/colors
-npm http request GET http://192.168.1.100:4873/async
-npm http request GET http://192.168.1.100:4873/pkginfo
 npm http request GET http://192.168.1.100:4873/isstream
+npm http request GET http://192.168.1.100:4873/cycle
+npm http request GET http://192.168.1.100:4873/colors
+npm http request GET http://192.168.1.100:4873/pkginfo
+npm http request GET http://192.168.1.100:4873/async
 npm http request GET http://192.168.1.100:4873/stack-trace
+npm http 200 http://192.168.1.100:4873/isstream
+npm http 200 http://192.168.1.100:4873/eyes
 npm http 200 http://192.168.1.100:4873/cycle
 npm http 200 http://192.168.1.100:4873/pkginfo
-npm http 200 http://192.168.1.100:4873/eyes
 npm http 200 http://192.168.1.100:4873/colors
-npm http 200 http://192.168.1.100:4873/async
-npm http 200 http://192.168.1.100:4873/isstream
 npm http 200 http://192.168.1.100:4873/stack-trace
+npm http 200 http://192.168.1.100:4873/async
 npm http request GET http://192.168.1.100:4873/node-uuid
 npm http request GET http://192.168.1.100:4873/tape
 npm http 200 http://192.168.1.100:4873/node-uuid
 npm http 200 http://192.168.1.100:4873/tape
 npm http request GET http://192.168.1.100:4873/jsonify
 npm http request GET http://192.168.1.100:4873/deep-equal
-npm http 200 http://192.168.1.100:4873/jsonify
 npm http 200 http://192.168.1.100:4873/deep-equal
+npm http 200 http://192.168.1.100:4873/jsonify
 gyp JXcore NODE-GYP Using node-gyp bundled in npm coming from JXcore
 In file included from ../src/bufferutil.cc:10:
 In file included from /Users/thali/.node-gyp/jxb311/src/node_buffer.h:8:
@@ -3371,656 +3360,67 @@ npm WARN EPACKAGEJSON thali-test-server@0.0.1 No license field.
 npm http request GET http://192.168.1.100:4873/express
 npm http request GET http://192.168.1.100:4873/body-parser
 npm http request GET http://192.168.1.100:4873/forever-agent
-npm http request GET http://192.168.1.100:4873/lie
+npm http request GET http://192.168.1.100:4873/ip
 npm http request GET http://192.168.1.100:4873/javascript-state-machine
 npm http request GET http://192.168.1.100:4873/node-uuid
-npm http request GET http://192.168.1.100:4873/ip
+npm http request GET http://192.168.1.100:4873/lie
+npm http request GET http://192.168.1.100:4873/winston
 npm http request GET http://192.168.1.100:4873/long
 npm http request GET http://192.168.1.100:4873/multiplex
-npm http request GET http://192.168.1.100:4873/salti
-npm http request GET http://192.168.1.100:4873/urlsafe-base64
 npm http request GET http://192.168.1.100:4873/request
-npm http request GET http://192.168.1.100:4873/winston
-npm http 304 http://192.168.1.100:4873/lie
-npm http 304 http://192.168.1.100:4873/node-uuid
-npm http 304 http://192.168.1.100:4873/express
+npm http request GET http://192.168.1.100:4873/urlsafe-base64
+npm http request GET http://192.168.1.100:4873/salti
 npm http 200 http://192.168.1.100:4873/forever-agent
 npm http 200 http://192.168.1.100:4873/ip
-npm http 200 http://192.168.1.100:4873/body-parser
+npm http 304 http://192.168.1.100:4873/express
 npm http 200 http://192.168.1.100:4873/javascript-state-machine
-npm http 200 http://192.168.1.100:4873/long
-npm http 200 http://192.168.1.100:4873/urlsafe-base64
-npm http 200 http://192.168.1.100:4873/request
+npm http 200 http://192.168.1.100:4873/body-parser
+npm http 304 http://192.168.1.100:4873/node-uuid
 npm http 304 http://192.168.1.100:4873/winston
+npm http 200 http://192.168.1.100:4873/lie
+npm http 200 http://192.168.1.100:4873/long
 npm http 200 http://192.168.1.100:4873/multiplex
-npm http 304 http://192.168.1.100:4873/salti
+npm http 200 http://192.168.1.100:4873/salti
+npm http 200 http://192.168.1.100:4873/request
+npm http 200 http://192.168.1.100:4873/urlsafe-base64
 npm http request GET http://192.168.1.100:4873/content-type
 npm http request GET http://192.168.1.100:4873/debug
 npm http request GET http://192.168.1.100:4873/depd
 npm http request GET http://192.168.1.100:4873/http-errors
 npm http request GET http://192.168.1.100:4873/iconv-lite
-npm http request GET http://192.168.1.100:4873/on-finished
 npm http request GET http://192.168.1.100:4873/bytes
+npm http request GET http://192.168.1.100:4873/on-finished
 npm http request GET http://192.168.1.100:4873/qs
 npm http request GET http://192.168.1.100:4873/type-is
 npm http request GET http://192.168.1.100:4873/raw-body
+npm http 304 http://192.168.1.100:4873/depd
+npm http 304 http://192.168.1.100:4873/http-errors
 npm http 304 http://192.168.1.100:4873/iconv-lite
 npm http 304 http://192.168.1.100:4873/debug
-npm http 304 http://192.168.1.100:4873/depd
-npm http 304 http://192.168.1.100:4873/on-finished
-npm http 304 http://192.168.1.100:4873/http-errors
+npm http 304 http://192.168.1.100:4873/type-is
 npm http 200 http://192.168.1.100:4873/content-type
+npm http 304 http://192.168.1.100:4873/on-finished
 npm http 200 http://192.168.1.100:4873/bytes
 npm http 304 http://192.168.1.100:4873/qs
 npm http 200 http://192.168.1.100:4873/raw-body
-npm http 304 http://192.168.1.100:4873/type-is
 npm http request GET http://192.168.1.100:4873/ms
 npm http 304 http://192.168.1.100:4873/ms
 npm http request GET http://192.168.1.100:4873/inherits
 npm http request GET http://192.168.1.100:4873/statuses
-npm http 304 http://192.168.1.100:4873/statuses
 npm http 304 http://192.168.1.100:4873/inherits
+npm http 304 http://192.168.1.100:4873/statuses
 npm http request GET http://192.168.1.100:4873/ee-first
-npm http 304 http://192.168.1.100:4873/ee-first
+npm http 200 http://192.168.1.100:4873/ee-first
 npm http request GET http://192.168.1.100:4873/unpipe
 npm http 304 http://192.168.1.100:4873/unpipe
 npm http request GET http://192.168.1.100:4873/media-typer
 npm http request GET http://192.168.1.100:4873/mime-types
-npm http 304 http://192.168.1.100:4873/mime-types
 npm http 304 http://192.168.1.100:4873/media-typer
+npm http 304 http://192.168.1.100:4873/mime-types
 npm http request GET http://192.168.1.100:4873/mime-db
 npm http 304 http://192.168.1.100:4873/mime-db
 npm http request GET http://192.168.1.100:4873/accepts
 npm http request GET http://192.168.1.100:4873/array-flatten
-npm http request GET http://192.168.1.100:4873/content-disposition
-npm http request GET http://192.168.1.100:4873/cookie
-npm http request GET http://192.168.1.100:4873/cookie-signature
-npm http request GET http://192.168.1.100:4873/escape-html
-npm http request GET http://192.168.1.100:4873/etag
-npm http request GET http://192.168.1.100:4873/finalhandler
-npm http request GET http://192.168.1.100:4873/fresh
-npm http request GET http://192.168.1.100:4873/merge-descriptors
-npm http request GET http://192.168.1.100:4873/methods
-npm http request GET http://192.168.1.100:4873/parseurl
-npm http request GET http://192.168.1.100:4873/path-to-regexp
-npm http request GET http://192.168.1.100:4873/proxy-addr
-npm http request GET http://192.168.1.100:4873/range-parser
-npm http request GET http://192.168.1.100:4873/send
-npm http request GET http://192.168.1.100:4873/serve-static
-npm http request GET http://192.168.1.100:4873/utils-merge
-npm http request GET http://192.168.1.100:4873/vary
-npm http 304 http://192.168.1.100:4873/content-disposition
-npm http 304 http://192.168.1.100:4873/cookie-signature
-npm http 304 http://192.168.1.100:4873/cookie
-npm http 304 http://192.168.1.100:4873/array-flatten
-npm http 200 http://192.168.1.100:4873/accepts
-npm http 304 http://192.168.1.100:4873/escape-html
-npm http 304 http://192.168.1.100:4873/methods
-npm http 304 http://192.168.1.100:4873/etag
-npm http 304 http://192.168.1.100:4873/finalhandler
-npm http 304 http://192.168.1.100:4873/path-to-regexp
-npm http 304 http://192.168.1.100:4873/fresh
-npm http 200 http://192.168.1.100:4873/merge-descriptors
-npm http 304 http://192.168.1.100:4873/parseurl
-npm http 304 http://192.168.1.100:4873/utils-merge
-npm http 304 http://192.168.1.100:4873/send
-npm http 304 http://192.168.1.100:4873/proxy-addr
-npm http 304 http://192.168.1.100:4873/range-parser
-npm http 200 http://192.168.1.100:4873/serve-static
-npm http 304 http://192.168.1.100:4873/vary
-npm http request GET http://192.168.1.100:4873/negotiator
-npm http 304 http://192.168.1.100:4873/negotiator
-npm http request GET http://192.168.1.100:4873/forwarded
-npm http request GET http://192.168.1.100:4873/ipaddr.js
-npm http 304 http://192.168.1.100:4873/forwarded
-npm http 304 http://192.168.1.100:4873/ipaddr.js
-npm http request GET http://192.168.1.100:4873/destroy
-npm http request GET http://192.168.1.100:4873/mime
-npm http 304 http://192.168.1.100:4873/destroy
-npm http 200 http://192.168.1.100:4873/mime
-npm http request GET http://192.168.1.100:4873/es3ify
-npm http request GET http://192.168.1.100:4873/immediate
-npm http request GET http://192.168.1.100:4873/inline-process-browser
-npm http request GET http://192.168.1.100:4873/unreachable-branch-transform
-npm http 304 http://192.168.1.100:4873/es3ify
-npm http 304 http://192.168.1.100:4873/inline-process-browser
-npm http 304 http://192.168.1.100:4873/unreachable-branch-transform
-npm http 200 http://192.168.1.100:4873/immediate
-npm http request GET http://192.168.1.100:4873/esprima
-npm http request GET http://192.168.1.100:4873/jstransform
-npm http request GET http://192.168.1.100:4873/through
-npm http 304 http://192.168.1.100:4873/esprima
-npm http 200 http://192.168.1.100:4873/jstransform
-npm http 304 http://192.168.1.100:4873/through
-npm http request GET http://192.168.1.100:4873/base62
-npm http request GET http://192.168.1.100:4873/commoner
-npm http request GET http://192.168.1.100:4873/esprima-fb
-npm http request GET http://192.168.1.100:4873/object-assign
-npm http request GET http://192.168.1.100:4873/source-map
-npm http 304 http://192.168.1.100:4873/commoner
-npm http 304 http://192.168.1.100:4873/object-assign
-npm http 200 http://192.168.1.100:4873/base62
-npm http 304 http://192.168.1.100:4873/source-map
-npm http 200 http://192.168.1.100:4873/esprima-fb
-npm http request GET http://192.168.1.100:4873/commander
-npm http request GET http://192.168.1.100:4873/detective
-npm http request GET http://192.168.1.100:4873/graceful-fs
-npm http request GET http://192.168.1.100:4873/glob
-npm http request GET http://192.168.1.100:4873/mkdirp
-npm http request GET http://192.168.1.100:4873/private
-npm http request GET http://192.168.1.100:4873/q
-npm http request GET http://192.168.1.100:4873/recast
-npm http 304 http://192.168.1.100:4873/detective
-npm http 304 http://192.168.1.100:4873/graceful-fs
-npm http 304 http://192.168.1.100:4873/q
-npm http 304 http://192.168.1.100:4873/recast
-npm http 304 http://192.168.1.100:4873/commander
-npm http 304 http://192.168.1.100:4873/mkdirp
-npm http 200 http://192.168.1.100:4873/private
-npm http 200 http://192.168.1.100:4873/glob
-npm http request GET http://192.168.1.100:4873/graceful-readlink
-npm http 304 http://192.168.1.100:4873/graceful-readlink
-npm http request GET http://192.168.1.100:4873/acorn
-npm http request GET http://192.168.1.100:4873/defined
-npm http 304 http://192.168.1.100:4873/acorn
-npm http 304 http://192.168.1.100:4873/defined
-npm http request GET http://192.168.1.100:4873/inflight
-npm http request GET http://192.168.1.100:4873/minimatch
-npm http request GET http://192.168.1.100:4873/once
-npm http request GET http://192.168.1.100:4873/path-is-absolute
-npm http 304 http://192.168.1.100:4873/inflight
-npm http 304 http://192.168.1.100:4873/minimatch
-npm http 304 http://192.168.1.100:4873/once
-npm http 304 http://192.168.1.100:4873/path-is-absolute
-npm http request GET http://192.168.1.100:4873/wrappy
-npm http 304 http://192.168.1.100:4873/wrappy
-npm http request GET http://192.168.1.100:4873/brace-expansion
-npm http 304 http://192.168.1.100:4873/brace-expansion
-npm http request GET http://192.168.1.100:4873/balanced-match
-npm http request GET http://192.168.1.100:4873/concat-map
-npm http 304 http://192.168.1.100:4873/concat-map
-npm http 304 http://192.168.1.100:4873/balanced-match
-npm http request GET http://192.168.1.100:4873/minimist
-npm http 304 http://192.168.1.100:4873/minimist
-npm http request GET http://192.168.1.100:4873/ast-types
-npm http 200 http://192.168.1.100:4873/ast-types
-npm http request GET http://192.168.1.100:4873/amdefine
-npm http 304 http://192.168.1.100:4873/amdefine
-npm http request GET http://192.168.1.100:4873/falafel
-npm http request GET http://192.168.1.100:4873/through2
-npm http 304 http://192.168.1.100:4873/falafel
-npm http 304 http://192.168.1.100:4873/through2
-npm http request GET http://192.168.1.100:4873/foreach
-npm http request GET http://192.168.1.100:4873/isarray
-npm http request GET http://192.168.1.100:4873/object-keys
-npm http 304 http://192.168.1.100:4873/isarray
-npm http 304 http://192.168.1.100:4873/object-keys
-npm http 304 http://192.168.1.100:4873/foreach
-npm http request GET http://192.168.1.100:4873/readable-stream
-npm http request GET http://192.168.1.100:4873/xtend
-npm http 304 http://192.168.1.100:4873/xtend
-npm http 304 http://192.168.1.100:4873/readable-stream
-npm http request GET http://192.168.1.100:4873/core-util-is
-npm http request GET http://192.168.1.100:4873/string_decoder
-npm http 304 http://192.168.1.100:4873/string_decoder
-npm http 304 http://192.168.1.100:4873/core-util-is
-npm http request GET http://192.168.1.100:4873/esmangle-evaluator
-npm http 304 http://192.168.1.100:4873/esmangle-evaluator
-npm http request GET http://192.168.1.100:4873/varint
-npm http request GET http://192.168.1.100:4873/duplexify
-npm http fetch GET http://192.168.1.100:4873/readable-stream/-/readable-stream-2.1.5.tgz
-npm http fetch 200 http://192.168.1.100:4873/readable-stream/-/readable-stream-2.1.5.tgz
-npm http 200 http://192.168.1.100:4873/duplexify
-npm http 200 http://192.168.1.100:4873/varint
-npm http request GET http://192.168.1.100:4873/end-of-stream
-npm http request GET http://192.168.1.100:4873/stream-shift
-npm http 200 http://192.168.1.100:4873/end-of-stream
-npm http 200 http://192.168.1.100:4873/stream-shift
-npm http request GET http://192.168.1.100:4873/buffer-shims
-npm http request GET http://192.168.1.100:4873/process-nextick-args
-npm http request GET http://192.168.1.100:4873/util-deprecate
-npm http 200 http://192.168.1.100:4873/buffer-shims
-npm http 200 http://192.168.1.100:4873/util-deprecate
-npm http 200 http://192.168.1.100:4873/process-nextick-args
-npm http request GET http://192.168.1.100:4873/bl
-npm http request GET http://192.168.1.100:4873/caseless
-npm http request GET http://192.168.1.100:4873/extend
-npm http request GET http://192.168.1.100:4873/http-signature
-npm http request GET http://192.168.1.100:4873/oauth-sign
-npm http request GET http://192.168.1.100:4873/tough-cookie
-npm http request GET http://192.168.1.100:4873/stringstream
-npm http request GET http://192.168.1.100:4873/combined-stream
-npm http request GET http://192.168.1.100:4873/isstream
-npm http request GET http://192.168.1.100:4873/aws-sign2
-npm http request GET http://192.168.1.100:4873/hawk
-npm http request GET http://192.168.1.100:4873/tunnel-agent
-npm http request GET http://192.168.1.100:4873/json-stringify-safe
-npm http request GET http://192.168.1.100:4873/form-data
-npm http request GET http://192.168.1.100:4873/har-validator
-npm http 200 http://192.168.1.100:4873/oauth-sign
-npm http 200 http://192.168.1.100:4873/caseless
-npm http 200 http://192.168.1.100:4873/http-signature
-npm http 200 http://192.168.1.100:4873/extend
-npm http 200 http://192.168.1.100:4873/bl
-npm http 304 http://192.168.1.100:4873/isstream
-npm http 200 http://192.168.1.100:4873/combined-stream
-npm http 200 http://192.168.1.100:4873/aws-sign2
-npm http 200 http://192.168.1.100:4873/stringstream
-npm http 200 http://192.168.1.100:4873/tough-cookie
-npm http 200 http://192.168.1.100:4873/hawk
-npm http 200 http://192.168.1.100:4873/tunnel-agent
-npm http 200 http://192.168.1.100:4873/har-validator
-npm http 200 http://192.168.1.100:4873/json-stringify-safe
-npm http 200 http://192.168.1.100:4873/form-data
-npm http fetch GET http://192.168.1.100:4873/form-data/-/form-data-1.0.1.tgz
-npm http fetch 200 http://192.168.1.100:4873/form-data/-/form-data-1.0.1.tgz
-npm http request GET http://192.168.1.100:4873/delayed-stream
-npm http 200 http://192.168.1.100:4873/delayed-stream
-npm http request GET http://192.168.1.100:4873/async
-npm http 304 http://192.168.1.100:4873/async
-npm http fetch GET http://192.168.1.100:4873/async/-/async-2.0.1.tgz
-npm http fetch 200 http://192.168.1.100:4873/async/-/async-2.0.1.tgz
-npm http request GET http://192.168.1.100:4873/lodash
-npm http 200 http://192.168.1.100:4873/lodash
-npm http fetch GET http://192.168.1.100:4873/lodash/-/lodash-4.15.0.tgz
-npm http fetch 200 http://192.168.1.100:4873/lodash/-/lodash-4.15.0.tgz
-npm http request GET http://192.168.1.100:4873/bluebird
-npm http request GET http://192.168.1.100:4873/chalk
-npm http request GET http://192.168.1.100:4873/is-my-json-valid
-npm http 200 http://192.168.1.100:4873/is-my-json-valid
-npm http 200 http://192.168.1.100:4873/chalk
-npm http 304 http://192.168.1.100:4873/bluebird
-npm http request GET http://192.168.1.100:4873/ansi-styles
-npm http request GET http://192.168.1.100:4873/escape-string-regexp
-npm http request GET http://192.168.1.100:4873/has-ansi
-npm http request GET http://192.168.1.100:4873/strip-ansi
-npm http request GET http://192.168.1.100:4873/supports-color
-npm http 200 http://192.168.1.100:4873/ansi-styles
-npm http 200 http://192.168.1.100:4873/strip-ansi
-npm http 200 http://192.168.1.100:4873/escape-string-regexp
-npm http 200 http://192.168.1.100:4873/supports-color
-npm http 200 http://192.168.1.100:4873/has-ansi
-npm http request GET http://192.168.1.100:4873/ansi-regex
-npm http 200 http://192.168.1.100:4873/ansi-regex
-npm http request GET http://192.168.1.100:4873/generate-object-property
-npm http request GET http://192.168.1.100:4873/generate-function
-npm http request GET http://192.168.1.100:4873/jsonpointer
-npm http 200 http://192.168.1.100:4873/generate-object-property
-npm http 200 http://192.168.1.100:4873/generate-function
-npm http 200 http://192.168.1.100:4873/jsonpointer
-npm http request GET http://192.168.1.100:4873/is-property
-npm http 200 http://192.168.1.100:4873/is-property
-npm http request GET http://192.168.1.100:4873/sntp
-npm http request GET http://192.168.1.100:4873/cryptiles
-npm http request GET http://192.168.1.100:4873/hoek
-npm http request GET http://192.168.1.100:4873/boom
-npm http 200 http://192.168.1.100:4873/cryptiles
-npm http 200 http://192.168.1.100:4873/boom
-npm http 200 http://192.168.1.100:4873/sntp
-npm http 200 http://192.168.1.100:4873/hoek
-npm http request GET http://192.168.1.100:4873/assert-plus
-npm http request GET http://192.168.1.100:4873/asn1
-npm http request GET http://192.168.1.100:4873/ctype
-npm http 200 http://192.168.1.100:4873/ctype
-npm http 200 http://192.168.1.100:4873/assert-plus
-npm http 200 http://192.168.1.100:4873/asn1
-npm http request GET http://192.168.1.100:4873/colors
-npm http request GET http://192.168.1.100:4873/cycle
-npm http request GET http://192.168.1.100:4873/eyes
-npm http request GET http://192.168.1.100:4873/pkginfo
-npm http request GET http://192.168.1.100:4873/stack-trace
-npm http 304 http://192.168.1.100:4873/eyes
-npm http 304 http://192.168.1.100:4873/stack-trace
-npm http 304 http://192.168.1.100:4873/cycle
-npm http 304 http://192.168.1.100:4873/colors
-npm http 304 http://192.168.1.100:4873/pkginfo
-npm http request GET http://192.168.1.100:4873/jsdoc
-npm http 200 http://192.168.1.100:4873/jsdoc
-npm http request GET http://192.168.1.100:4873/catharsis
-npm http request GET http://192.168.1.100:4873/marked
-npm http request GET http://192.168.1.100:4873/js2xmlparser
-npm http request GET http://192.168.1.100:4873/requizzle
-npm http request GET http://192.168.1.100:4873/strip-json-comments
-npm http request GET http://192.168.1.100:4873/wrench
-npm http request GET http://192.168.1.100:4873/underscore
-npm http fetch GET https://github.com/hegemonic/taffydb/tarball/7d100bcee0e997ee4977e273cdce60bd8933050e
-npm http 200 http://192.168.1.100:4873/js2xmlparser
-npm http 200 http://192.168.1.100:4873/marked
-npm http 200 http://192.168.1.100:4873/catharsis
-npm http 200 http://192.168.1.100:4873/requizzle
-npm http 200 http://192.168.1.100:4873/strip-json-comments
-npm http 200 http://192.168.1.100:4873/wrench
-npm WARN deprecated wrench@1.5.9: wrench.js is deprecated! You should check out fs-extra (https://github.com/jprichardson/node-fs-extra) for any operations you were using wrench for. Thanks for all the usage over the years.
-npm http 200 http://192.168.1.100:4873/underscore
-npm http fetch 200 https://github.com/hegemonic/taffydb/tarball/7d100bcee0e997ee4977e273cdce60bd8933050e
-npm http request GET http://192.168.1.100:4873/underscore-contrib
-npm http 200 http://192.168.1.100:4873/underscore-contrib
-npm WARN prefer global marked@0.3.6 should be installed with -g
-npm http request GET http://192.168.1.100:4873/fs-extra-promise
-npm http request GET http://192.168.1.100:4873/lie
-npm http request GET http://192.168.1.100:4873/request
-npm http request GET http://192.168.1.100:4873/jxc
-npm http request GET http://192.168.1.100:4873/unzip
-npm http 304 http://192.168.1.100:4873/fs-extra-promise
-npm http 304 http://192.168.1.100:4873/lie
-npm http 304 http://192.168.1.100:4873/request
-npm http 200 http://192.168.1.100:4873/unzip
-npm http 200 http://192.168.1.100:4873/jxc
-npm http request GET http://192.168.1.100:4873/fs-extra
-npm http request GET http://192.168.1.100:4873/bluebird
-npm http 304 http://192.168.1.100:4873/fs-extra
-npm http 304 http://192.168.1.100:4873/bluebird
-npm http request GET http://192.168.1.100:4873/graceful-fs
-npm http request GET http://192.168.1.100:4873/jsonfile
-npm http request GET http://192.168.1.100:4873/rimraf
-npm http 304 http://192.168.1.100:4873/graceful-fs
-npm http 304 http://192.168.1.100:4873/jsonfile
-npm http 304 http://192.168.1.100:4873/rimraf
-npm http request GET http://192.168.1.100:4873/glob
-npm http 304 http://192.168.1.100:4873/glob
-npm http request GET http://192.168.1.100:4873/fs.realpath
-npm http request GET http://192.168.1.100:4873/inflight
-npm http request GET http://192.168.1.100:4873/inherits
-npm http request GET http://192.168.1.100:4873/once
-npm http request GET http://192.168.1.100:4873/minimatch
-npm http request GET http://192.168.1.100:4873/path-is-absolute
-npm http 304 http://192.168.1.100:4873/fs.realpath
-npm http 304 http://192.168.1.100:4873/inflight
-npm http 304 http://192.168.1.100:4873/minimatch
-npm http 304 http://192.168.1.100:4873/inherits
-npm http 304 http://192.168.1.100:4873/once
-npm http 304 http://192.168.1.100:4873/path-is-absolute
-npm http request GET http://192.168.1.100:4873/wrappy
-npm http 304 http://192.168.1.100:4873/wrappy
-npm http request GET http://192.168.1.100:4873/brace-expansion
-npm http 304 http://192.168.1.100:4873/brace-expansion
-npm http request GET http://192.168.1.100:4873/balanced-match
-npm http request GET http://192.168.1.100:4873/concat-map
-npm http 304 http://192.168.1.100:4873/balanced-match
-npm http 304 http://192.168.1.100:4873/concat-map
-npm http request GET http://192.168.1.100:4873/progress
-npm http request GET http://192.168.1.100:4873/adm-zip
-npm http 200 http://192.168.1.100:4873/progress
-npm http 200 http://192.168.1.100:4873/adm-zip
-npm http request GET http://192.168.1.100:4873/es3ify
-npm http request GET http://192.168.1.100:4873/immediate
-npm http request GET http://192.168.1.100:4873/inline-process-browser
-npm http request GET http://192.168.1.100:4873/unreachable-branch-transform
-npm http 304 http://192.168.1.100:4873/es3ify
-npm http 304 http://192.168.1.100:4873/immediate
-npm http 304 http://192.168.1.100:4873/inline-process-browser
-npm http 304 http://192.168.1.100:4873/unreachable-branch-transform
-npm http request GET http://192.168.1.100:4873/esprima
-npm http request GET http://192.168.1.100:4873/jstransform
-npm http request GET http://192.168.1.100:4873/through
-npm http 304 http://192.168.1.100:4873/esprima
-npm http 304 http://192.168.1.100:4873/jstransform
-npm http 304 http://192.168.1.100:4873/through
-npm http request GET http://192.168.1.100:4873/base62
-npm http request GET http://192.168.1.100:4873/commoner
-npm http request GET http://192.168.1.100:4873/esprima-fb
-npm http request GET http://192.168.1.100:4873/object-assign
-npm http request GET http://192.168.1.100:4873/source-map
-npm http 304 http://192.168.1.100:4873/base62
-npm http 304 http://192.168.1.100:4873/commoner
-npm http 304 http://192.168.1.100:4873/esprima-fb
-npm http 304 http://192.168.1.100:4873/object-assign
-npm http 304 http://192.168.1.100:4873/source-map
-npm http request GET http://192.168.1.100:4873/commander
-npm http request GET http://192.168.1.100:4873/detective
-npm http request GET http://192.168.1.100:4873/iconv-lite
-npm http request GET http://192.168.1.100:4873/mkdirp
-npm http request GET http://192.168.1.100:4873/private
-npm http request GET http://192.168.1.100:4873/q
-npm http request GET http://192.168.1.100:4873/recast
-npm http 304 http://192.168.1.100:4873/detective
-npm http 304 http://192.168.1.100:4873/iconv-lite
-npm http 304 http://192.168.1.100:4873/private
-npm http 304 http://192.168.1.100:4873/q
-npm http 304 http://192.168.1.100:4873/recast
-npm http 304 http://192.168.1.100:4873/commander
-npm http 200 http://192.168.1.100:4873/mkdirp
-npm http request GET http://192.168.1.100:4873/graceful-readlink
-npm http 304 http://192.168.1.100:4873/graceful-readlink
-npm http request GET http://192.168.1.100:4873/acorn
-npm http request GET http://192.168.1.100:4873/defined
-npm http 304 http://192.168.1.100:4873/acorn
-npm http 304 http://192.168.1.100:4873/defined
-npm http request GET http://192.168.1.100:4873/minimist
-npm http 304 http://192.168.1.100:4873/minimist
-npm http request GET http://192.168.1.100:4873/ast-types
-npm http 304 http://192.168.1.100:4873/ast-types
-npm http request GET http://192.168.1.100:4873/amdefine
-npm http 304 http://192.168.1.100:4873/amdefine
-npm http request GET http://192.168.1.100:4873/falafel
-npm http request GET http://192.168.1.100:4873/through2
-npm http 304 http://192.168.1.100:4873/falafel
-npm http 304 http://192.168.1.100:4873/through2
-npm http request GET http://192.168.1.100:4873/foreach
-npm http request GET http://192.168.1.100:4873/isarray
-npm http request GET http://192.168.1.100:4873/object-keys
-npm http 304 http://192.168.1.100:4873/isarray
-npm http 304 http://192.168.1.100:4873/object-keys
-npm http 304 http://192.168.1.100:4873/foreach
-npm http request GET http://192.168.1.100:4873/readable-stream
-npm http request GET http://192.168.1.100:4873/xtend
-npm http 304 http://192.168.1.100:4873/xtend
-npm http 304 http://192.168.1.100:4873/readable-stream
-npm http request GET http://192.168.1.100:4873/string_decoder
-npm http request GET http://192.168.1.100:4873/core-util-is
-npm http 304 http://192.168.1.100:4873/string_decoder
-npm http 304 http://192.168.1.100:4873/core-util-is
-npm http request GET http://192.168.1.100:4873/esmangle-evaluator
-npm http 304 http://192.168.1.100:4873/esmangle-evaluator
-npm http request GET http://192.168.1.100:4873/bl
-npm http request GET http://192.168.1.100:4873/caseless
-npm http request GET http://192.168.1.100:4873/extend
-npm http request GET http://192.168.1.100:4873/forever-agent
-npm http request GET http://192.168.1.100:4873/form-data
-npm http request GET http://192.168.1.100:4873/json-stringify-safe
-npm http request GET http://192.168.1.100:4873/mime-types
-npm http request GET http://192.168.1.100:4873/node-uuid
-npm http request GET http://192.168.1.100:4873/qs
-npm http request GET http://192.168.1.100:4873/tunnel-agent
-npm http request GET http://192.168.1.100:4873/tough-cookie
-npm http request GET http://192.168.1.100:4873/http-signature
-npm http request GET http://192.168.1.100:4873/oauth-sign
-npm http request GET http://192.168.1.100:4873/hawk
-npm http request GET http://192.168.1.100:4873/aws-sign2
-npm http request GET http://192.168.1.100:4873/stringstream
-npm http request GET http://192.168.1.100:4873/combined-stream
-npm http request GET http://192.168.1.100:4873/isstream
-npm http request GET http://192.168.1.100:4873/har-validator
-npm http 304 http://192.168.1.100:4873/forever-agent
-npm http 304 http://192.168.1.100:4873/bl
-npm http 304 http://192.168.1.100:4873/extend
-npm http 304 http://192.168.1.100:4873/caseless
-npm http 304 http://192.168.1.100:4873/form-data
-npm http 304 http://192.168.1.100:4873/json-stringify-safe
-npm http 304 http://192.168.1.100:4873/mime-types
-npm http 304 http://192.168.1.100:4873/node-uuid
-npm http 304 http://192.168.1.100:4873/oauth-sign
-npm http 304 http://192.168.1.100:4873/qs
-npm http 304 http://192.168.1.100:4873/http-signature
-npm http 304 http://192.168.1.100:4873/tough-cookie
-npm http 304 http://192.168.1.100:4873/tunnel-agent
-npm http 304 http://192.168.1.100:4873/isstream
-npm http 304 http://192.168.1.100:4873/hawk
-npm http 304 http://192.168.1.100:4873/aws-sign2
-npm http 304 http://192.168.1.100:4873/stringstream
-npm http 304 http://192.168.1.100:4873/combined-stream
-npm http 304 http://192.168.1.100:4873/har-validator
-npm http request GET http://192.168.1.100:4873/process-nextick-args
-npm http request GET http://192.168.1.100:4873/util-deprecate
-npm http 304 http://192.168.1.100:4873/process-nextick-args
-npm http 304 http://192.168.1.100:4873/util-deprecate
-npm http request GET http://192.168.1.100:4873/delayed-stream
-npm http 304 http://192.168.1.100:4873/delayed-stream
-npm http request GET http://192.168.1.100:4873/async
-npm http 304 http://192.168.1.100:4873/async
-npm http request GET http://192.168.1.100:4873/lodash
-npm http 304 http://192.168.1.100:4873/lodash
-npm http request GET http://192.168.1.100:4873/mime-db
-npm http 304 http://192.168.1.100:4873/mime-db
-npm http request GET http://192.168.1.100:4873/is-my-json-valid
-npm http request GET http://192.168.1.100:4873/chalk
-npm http 304 http://192.168.1.100:4873/chalk
-npm http 304 http://192.168.1.100:4873/is-my-json-valid
-npm http request GET http://192.168.1.100:4873/ansi-styles
-npm http request GET http://192.168.1.100:4873/escape-string-regexp
-npm http request GET http://192.168.1.100:4873/has-ansi
-npm http request GET http://192.168.1.100:4873/strip-ansi
-npm http request GET http://192.168.1.100:4873/supports-color
-npm http 304 http://192.168.1.100:4873/escape-string-regexp
-npm http 304 http://192.168.1.100:4873/has-ansi
-npm http 304 http://192.168.1.100:4873/ansi-styles
-npm http 200 http://192.168.1.100:4873/strip-ansi
-npm http 304 http://192.168.1.100:4873/supports-color
-npm http request GET http://192.168.1.100:4873/ansi-regex
-npm http 304 http://192.168.1.100:4873/ansi-regex
-npm http request GET http://192.168.1.100:4873/generate-function
-npm http request GET http://192.168.1.100:4873/generate-object-property
-npm http request GET http://192.168.1.100:4873/jsonpointer
-npm http 304 http://192.168.1.100:4873/generate-function
-npm http 304 http://192.168.1.100:4873/generate-object-property
-npm http 304 http://192.168.1.100:4873/jsonpointer
-npm http request GET http://192.168.1.100:4873/is-property
-npm http 304 http://192.168.1.100:4873/is-property
-npm http request GET http://192.168.1.100:4873/hoek
-npm http request GET http://192.168.1.100:4873/sntp
-npm http request GET http://192.168.1.100:4873/cryptiles
-npm http request GET http://192.168.1.100:4873/boom
-npm http 304 http://192.168.1.100:4873/sntp
-npm http 304 http://192.168.1.100:4873/hoek
-npm http 304 http://192.168.1.100:4873/cryptiles
-npm http 304 http://192.168.1.100:4873/boom
-npm http request GET http://192.168.1.100:4873/assert-plus
-npm http request GET http://192.168.1.100:4873/asn1
-npm http request GET http://192.168.1.100:4873/ctype
-npm http 304 http://192.168.1.100:4873/asn1
-npm http 304 http://192.168.1.100:4873/assert-plus
-npm http 200 http://192.168.1.100:4873/ctype
-npm http request GET http://192.168.1.100:4873/binary
-npm http request GET http://192.168.1.100:4873/pullstream
-npm http request GET http://192.168.1.100:4873/fstream
-npm http request GET http://192.168.1.100:4873/setimmediate
-npm http request GET http://192.168.1.100:4873/match-stream
-npm http 200 http://192.168.1.100:4873/match-stream
-npm http 200 http://192.168.1.100:4873/setimmediate
-npm http 200 http://192.168.1.100:4873/fstream
-npm http 200 http://192.168.1.100:4873/pullstream
-npm http 200 http://192.168.1.100:4873/binary
-npm http request GET http://192.168.1.100:4873/chainsaw
-npm http request GET http://192.168.1.100:4873/buffers
-npm http 200 http://192.168.1.100:4873/chainsaw
-npm http 200 http://192.168.1.100:4873/buffers
-npm http request GET http://192.168.1.100:4873/traverse
-npm http 200 http://192.168.1.100:4873/traverse
-npm http fetch GET http://192.168.1.100:4873/graceful-fs/-/graceful-fs-3.0.10.tgz
-npm http fetch 200 http://192.168.1.100:4873/graceful-fs/-/graceful-fs-3.0.10.tgz
-npm http request GET http://192.168.1.100:4873/natives
-npm http 200 http://192.168.1.100:4873/natives
-npm http fetch GET http://192.168.1.100:4873/natives/-/natives-1.0.2.tgz
-npm http fetch 200 http://192.168.1.100:4873/natives/-/natives-1.0.2.tgz
-npm http request GET http://192.168.1.100:4873/slice-stream
-npm http request GET http://192.168.1.100:4873/over
-npm http 200 http://192.168.1.100:4873/over
-npm http 200 http://192.168.1.100:4873/slice-stream
-npm WARN EPACKAGEJSON install@0.0.1 No repository field.
-npm http request GET http://192.168.1.100:4873/balanced-match
-npm http request GET http://192.168.1.100:4873/body-parser
-npm http request GET http://192.168.1.100:4873/concat-map
-npm http request GET http://192.168.1.100:4873/express
-npm http request GET http://192.168.1.100:4873/forever-agent
-npm http request GET http://192.168.1.100:4873/inherits
-npm http request GET http://192.168.1.100:4873/bn.js
-npm http request GET http://192.168.1.100:4873/is-property
-npm http request GET http://192.168.1.100:4873/express-pouchdb
-npm http request GET http://192.168.1.100:4873/js-extend
-npm http request GET http://192.168.1.100:4873/long
-npm http request GET http://192.168.1.100:4873/leveldown-mobile
-npm http request GET http://192.168.1.100:4873/multiplex
-npm http request GET http://192.168.1.100:4873/node-uuid
-npm http request GET http://192.168.1.100:4873/request
-npm http request GET http://192.168.1.100:4873/pouchdb-node
-npm http request GET http://192.168.1.100:4873/request-promise
-npm http request GET http://192.168.1.100:4873/randomstring
-npm http request GET http://192.168.1.100:4873/proxyquire
-npm http request GET http://192.168.1.100:4873/nock
-npm http request GET http://192.168.1.100:4873/sinon
-npm http request GET http://192.168.1.100:4873/socket.io-client
-npm http request GET http://192.168.1.100:4873/tape
-npm http request GET http://192.168.1.100:4873/supertest-as-promised
-npm http request GET http://192.168.1.100:4873/supertest
-npm http request GET http://192.168.1.100:4873/urlsafe-base64
-npm http request GET http://192.168.1.100:4873/tape-catch
-npm http request GET http://192.168.1.100:4873/tmp
-npm http request GET http://192.168.1.100:4873/uuid
-npm http 304 http://192.168.1.100:4873/forever-agent
-npm http 304 http://192.168.1.100:4873/body-parser
-npm http 304 http://192.168.1.100:4873/balanced-match
-npm http 304 http://192.168.1.100:4873/concat-map
-npm http 304 http://192.168.1.100:4873/inherits
-npm http 304 http://192.168.1.100:4873/is-property
-npm http 304 http://192.168.1.100:4873/long
-npm http 200 http://192.168.1.100:4873/bn.js
-npm http 200 http://192.168.1.100:4873/express-pouchdb
-npm http 304 http://192.168.1.100:4873/node-uuid
-npm http 200 http://192.168.1.100:4873/js-extend
-npm http 200 http://192.168.1.100:4873/express
-npm http 304 http://192.168.1.100:4873/request
-npm http 200 http://192.168.1.100:4873/pouchdb-node
-npm http 304 http://192.168.1.100:4873/multiplex
-npm http 200 http://192.168.1.100:4873/request-promise
-npm http 200 http://192.168.1.100:4873/randomstring
-npm http 200 http://192.168.1.100:4873/proxyquire
-npm http 304 http://192.168.1.100:4873/socket.io-client
-npm http 304 http://192.168.1.100:4873/tape
-npm http 200 http://192.168.1.100:4873/supertest
-npm http 200 http://192.168.1.100:4873/supertest-as-promised
-npm http 304 http://192.168.1.100:4873/leveldown-mobile
-npm http 200 http://192.168.1.100:4873/sinon
-npm http 200 http://192.168.1.100:4873/tmp
-npm http 200 http://192.168.1.100:4873/uuid
-npm http 304 http://192.168.1.100:4873/urlsafe-base64
-npm http 200 http://192.168.1.100:4873/nock
-npm http 200 http://192.168.1.100:4873/tape-catch
-npm http request GET http://192.168.1.100:4873/bytes
-npm http request GET http://192.168.1.100:4873/content-type
-npm http request GET http://192.168.1.100:4873/debug
-npm http request GET http://192.168.1.100:4873/depd
-npm http request GET http://192.168.1.100:4873/http-errors
-npm http request GET http://192.168.1.100:4873/iconv-lite
-npm http request GET http://192.168.1.100:4873/on-finished
-npm http request GET http://192.168.1.100:4873/qs
-npm http request GET http://192.168.1.100:4873/raw-body
-npm http request GET http://192.168.1.100:4873/type-is
-npm http 304 http://192.168.1.100:4873/content-type
-npm http 304 http://192.168.1.100:4873/iconv-lite
-npm http 304 http://192.168.1.100:4873/depd
-npm http 304 http://192.168.1.100:4873/bytes
-npm http 304 http://192.168.1.100:4873/http-errors
-npm http 304 http://192.168.1.100:4873/on-finished
-npm http 304 http://192.168.1.100:4873/debug
-npm http 304 http://192.168.1.100:4873/qs
-npm http 304 http://192.168.1.100:4873/type-is
-npm http 304 http://192.168.1.100:4873/raw-body
-npm http request GET http://192.168.1.100:4873/ms
-npm http 304 http://192.168.1.100:4873/ms
-npm http request GET http://192.168.1.100:4873/statuses
-npm http 304 http://192.168.1.100:4873/statuses
-npm http request GET http://192.168.1.100:4873/ee-first
-npm http 304 http://192.168.1.100:4873/ee-first
-npm http request GET http://192.168.1.100:4873/unpipe
-npm http 304 http://192.168.1.100:4873/unpipe
-npm http request GET http://192.168.1.100:4873/media-typer
-npm http request GET http://192.168.1.100:4873/mime-types
-npm http 304 http://192.168.1.100:4873/mime-types
-npm http 304 http://192.168.1.100:4873/media-typer
-npm http request GET http://192.168.1.100:4873/mime-db
-npm http 304 http://192.168.1.100:4873/mime-db
-npm http request GET http://192.168.1.100:4873/array-flatten
-npm http request GET http://192.168.1.100:4873/accepts
 npm http request GET http://192.168.1.100:4873/content-disposition
 npm http request GET http://192.168.1.100:4873/cookie
 npm http request GET http://192.168.1.100:4873/cookie-signature
@@ -4040,23 +3440,610 @@ npm http request GET http://192.168.1.100:4873/utils-merge
 npm http request GET http://192.168.1.100:4873/vary
 npm http 304 http://192.168.1.100:4873/accepts
 npm http 304 http://192.168.1.100:4873/array-flatten
-npm http 304 http://192.168.1.100:4873/cookie
 npm http 304 http://192.168.1.100:4873/cookie-signature
 npm http 304 http://192.168.1.100:4873/content-disposition
-npm http 200 http://192.168.1.100:4873/escape-html
+npm http 304 http://192.168.1.100:4873/escape-html
+npm http 304 http://192.168.1.100:4873/finalhandler
+npm http 304 http://192.168.1.100:4873/fresh
 npm http 304 http://192.168.1.100:4873/merge-descriptors
-npm http 304 http://192.168.1.100:4873/methods
+npm http 200 http://192.168.1.100:4873/cookie
 npm http 304 http://192.168.1.100:4873/path-to-regexp
 npm http 304 http://192.168.1.100:4873/etag
-npm http 304 http://192.168.1.100:4873/finalhandler
 npm http 304 http://192.168.1.100:4873/parseurl
-npm http 304 http://192.168.1.100:4873/serve-static
-npm http 304 http://192.168.1.100:4873/fresh
-npm http 304 http://192.168.1.100:4873/utils-merge
-npm http 304 http://192.168.1.100:4873/proxy-addr
+npm http 304 http://192.168.1.100:4873/methods
+npm http 200 http://192.168.1.100:4873/proxy-addr
 npm http 304 http://192.168.1.100:4873/range-parser
+npm http 304 http://192.168.1.100:4873/serve-static
 npm http 304 http://192.168.1.100:4873/send
+npm http 304 http://192.168.1.100:4873/utils-merge
+npm http 200 http://192.168.1.100:4873/vary
+npm http request GET http://192.168.1.100:4873/negotiator
+npm http 304 http://192.168.1.100:4873/negotiator
+npm http request GET http://192.168.1.100:4873/forwarded
+npm http request GET http://192.168.1.100:4873/ipaddr.js
+npm http 304 http://192.168.1.100:4873/forwarded
+npm http 304 http://192.168.1.100:4873/ipaddr.js
+npm http request GET http://192.168.1.100:4873/destroy
+npm http request GET http://192.168.1.100:4873/mime
+npm http 304 http://192.168.1.100:4873/destroy
+npm http 200 http://192.168.1.100:4873/mime
+npm http request GET http://192.168.1.100:4873/es3ify
+npm http request GET http://192.168.1.100:4873/immediate
+npm http request GET http://192.168.1.100:4873/inline-process-browser
+npm http request GET http://192.168.1.100:4873/unreachable-branch-transform
+npm http 304 http://192.168.1.100:4873/immediate
+npm http 200 http://192.168.1.100:4873/inline-process-browser
+npm http 200 http://192.168.1.100:4873/es3ify
+npm http 200 http://192.168.1.100:4873/unreachable-branch-transform
+npm http request GET http://192.168.1.100:4873/esprima
+npm http request GET http://192.168.1.100:4873/jstransform
+npm http request GET http://192.168.1.100:4873/through
+npm http 304 http://192.168.1.100:4873/jstransform
+npm http 304 http://192.168.1.100:4873/through
+npm http 304 http://192.168.1.100:4873/esprima
+npm http request GET http://192.168.1.100:4873/commoner
+npm http request GET http://192.168.1.100:4873/base62
+npm http request GET http://192.168.1.100:4873/esprima-fb
+npm http request GET http://192.168.1.100:4873/object-assign
+npm http request GET http://192.168.1.100:4873/source-map
+npm http 304 http://192.168.1.100:4873/object-assign
+npm http 304 http://192.168.1.100:4873/source-map
+npm http 304 http://192.168.1.100:4873/base62
+npm http 304 http://192.168.1.100:4873/commoner
+npm http 304 http://192.168.1.100:4873/esprima-fb
+npm http request GET http://192.168.1.100:4873/commander
+npm http request GET http://192.168.1.100:4873/detective
+npm http request GET http://192.168.1.100:4873/graceful-fs
+npm http request GET http://192.168.1.100:4873/mkdirp
+npm http request GET http://192.168.1.100:4873/glob
+npm http request GET http://192.168.1.100:4873/private
+npm http request GET http://192.168.1.100:4873/q
+npm http request GET http://192.168.1.100:4873/recast
+npm http 304 http://192.168.1.100:4873/commander
+npm http 304 http://192.168.1.100:4873/graceful-fs
+npm http 304 http://192.168.1.100:4873/detective
+npm http 304 http://192.168.1.100:4873/mkdirp
+npm http 304 http://192.168.1.100:4873/q
+npm http 304 http://192.168.1.100:4873/private
+npm http 304 http://192.168.1.100:4873/glob
+npm http 304 http://192.168.1.100:4873/recast
+npm http request GET http://192.168.1.100:4873/graceful-readlink
+npm http 304 http://192.168.1.100:4873/graceful-readlink
+npm http request GET http://192.168.1.100:4873/acorn
+npm http request GET http://192.168.1.100:4873/defined
+npm http 304 http://192.168.1.100:4873/acorn
+npm http 304 http://192.168.1.100:4873/defined
+npm http request GET http://192.168.1.100:4873/inflight
+npm http request GET http://192.168.1.100:4873/minimatch
+npm http request GET http://192.168.1.100:4873/once
+npm http request GET http://192.168.1.100:4873/path-is-absolute
+npm http 304 http://192.168.1.100:4873/inflight
+npm http 304 http://192.168.1.100:4873/minimatch
+npm http 304 http://192.168.1.100:4873/path-is-absolute
+npm http 200 http://192.168.1.100:4873/once
+npm http request GET http://192.168.1.100:4873/wrappy
+npm http 304 http://192.168.1.100:4873/wrappy
+npm http request GET http://192.168.1.100:4873/brace-expansion
+npm http 304 http://192.168.1.100:4873/brace-expansion
+npm http request GET http://192.168.1.100:4873/balanced-match
+npm http request GET http://192.168.1.100:4873/concat-map
+npm http 304 http://192.168.1.100:4873/concat-map
+npm http 304 http://192.168.1.100:4873/balanced-match
+npm http request GET http://192.168.1.100:4873/minimist
+npm http 304 http://192.168.1.100:4873/minimist
+npm http request GET http://192.168.1.100:4873/ast-types
+npm http 304 http://192.168.1.100:4873/ast-types
+npm http request GET http://192.168.1.100:4873/amdefine
+npm http 304 http://192.168.1.100:4873/amdefine
+npm http request GET http://192.168.1.100:4873/falafel
+npm http request GET http://192.168.1.100:4873/through2
+npm http 304 http://192.168.1.100:4873/falafel
+npm http 304 http://192.168.1.100:4873/through2
+npm http request GET http://192.168.1.100:4873/isarray
+npm http request GET http://192.168.1.100:4873/foreach
+npm http request GET http://192.168.1.100:4873/object-keys
+npm http 304 http://192.168.1.100:4873/isarray
+npm http 304 http://192.168.1.100:4873/foreach
+npm http 304 http://192.168.1.100:4873/object-keys
+npm http request GET http://192.168.1.100:4873/xtend
+npm http request GET http://192.168.1.100:4873/readable-stream
+npm http 304 http://192.168.1.100:4873/xtend
+npm http 304 http://192.168.1.100:4873/readable-stream
+npm http request GET http://192.168.1.100:4873/core-util-is
+npm http request GET http://192.168.1.100:4873/string_decoder
+npm http 304 http://192.168.1.100:4873/string_decoder
+npm http 304 http://192.168.1.100:4873/core-util-is
+npm http request GET http://192.168.1.100:4873/esmangle-evaluator
+npm http 304 http://192.168.1.100:4873/esmangle-evaluator
+npm http request GET http://192.168.1.100:4873/duplexify
+npm http request GET http://192.168.1.100:4873/varint
+npm http 200 http://192.168.1.100:4873/duplexify
+npm http 200 http://192.168.1.100:4873/varint
+npm http request GET http://192.168.1.100:4873/end-of-stream
+npm http request GET http://192.168.1.100:4873/stream-shift
+npm http 200 http://192.168.1.100:4873/stream-shift
+npm http 200 http://192.168.1.100:4873/end-of-stream
+npm http request GET http://192.168.1.100:4873/process-nextick-args
+npm http request GET http://192.168.1.100:4873/buffer-shims
+npm http request GET http://192.168.1.100:4873/util-deprecate
+npm http 200 http://192.168.1.100:4873/buffer-shims
+npm http 200 http://192.168.1.100:4873/process-nextick-args
+npm http 200 http://192.168.1.100:4873/util-deprecate
+npm http request GET http://192.168.1.100:4873/bl
+npm http request GET http://192.168.1.100:4873/caseless
+npm http request GET http://192.168.1.100:4873/extend
+npm http request GET http://192.168.1.100:4873/form-data
+npm http request GET http://192.168.1.100:4873/oauth-sign
+npm http request GET http://192.168.1.100:4873/http-signature
+npm http request GET http://192.168.1.100:4873/tunnel-agent
+npm http request GET http://192.168.1.100:4873/json-stringify-safe
+npm http request GET http://192.168.1.100:4873/tough-cookie
+npm http request GET http://192.168.1.100:4873/stringstream
+npm http request GET http://192.168.1.100:4873/aws-sign2
+npm http request GET http://192.168.1.100:4873/hawk
+npm http request GET http://192.168.1.100:4873/combined-stream
+npm http request GET http://192.168.1.100:4873/isstream
+npm http request GET http://192.168.1.100:4873/har-validator
+npm http 200 http://192.168.1.100:4873/caseless
+npm http 200 http://192.168.1.100:4873/oauth-sign
+npm http 200 http://192.168.1.100:4873/form-data
+npm http 200 http://192.168.1.100:4873/extend
+npm http 200 http://192.168.1.100:4873/bl
+npm http 200 http://192.168.1.100:4873/http-signature
+npm http 200 http://192.168.1.100:4873/json-stringify-safe
+npm http 200 http://192.168.1.100:4873/stringstream
+npm http 200 http://192.168.1.100:4873/tunnel-agent
+npm http 200 http://192.168.1.100:4873/tough-cookie
+npm http 304 http://192.168.1.100:4873/isstream
+npm http 200 http://192.168.1.100:4873/aws-sign2
+npm http 200 http://192.168.1.100:4873/combined-stream
+npm http 200 http://192.168.1.100:4873/hawk
+npm http 200 http://192.168.1.100:4873/har-validator
+npm http request GET http://192.168.1.100:4873/delayed-stream
+npm http 200 http://192.168.1.100:4873/delayed-stream
+npm http request GET http://192.168.1.100:4873/async
+npm http 304 http://192.168.1.100:4873/async
+npm http request GET http://192.168.1.100:4873/lodash
+npm http 200 http://192.168.1.100:4873/lodash
+npm http fetch GET http://192.168.1.100:4873/lodash/-/lodash-4.16.3.tgz
+npm http fetch 200 http://192.168.1.100:4873/lodash/-/lodash-4.16.3.tgz
+npm http request GET http://192.168.1.100:4873/bluebird
+npm http request GET http://192.168.1.100:4873/is-my-json-valid
+npm http request GET http://192.168.1.100:4873/chalk
+npm http 304 http://192.168.1.100:4873/bluebird
+npm http 200 http://192.168.1.100:4873/chalk
+npm http 200 http://192.168.1.100:4873/is-my-json-valid
+npm http fetch GET http://192.168.1.100:4873/is-my-json-valid/-/is-my-json-valid-2.15.0.tgz
+npm http fetch 200 http://192.168.1.100:4873/is-my-json-valid/-/is-my-json-valid-2.15.0.tgz
+npm http request GET http://192.168.1.100:4873/has-ansi
+npm http request GET http://192.168.1.100:4873/escape-string-regexp
+npm http request GET http://192.168.1.100:4873/ansi-styles
+npm http request GET http://192.168.1.100:4873/strip-ansi
+npm http request GET http://192.168.1.100:4873/supports-color
+npm http 200 http://192.168.1.100:4873/has-ansi
+npm http 200 http://192.168.1.100:4873/ansi-styles
+npm http 200 http://192.168.1.100:4873/strip-ansi
+npm http 200 http://192.168.1.100:4873/supports-color
+npm http 200 http://192.168.1.100:4873/escape-string-regexp
+npm http request GET http://192.168.1.100:4873/ansi-regex
+npm http 200 http://192.168.1.100:4873/ansi-regex
+npm http request GET http://192.168.1.100:4873/generate-function
+npm http request GET http://192.168.1.100:4873/generate-object-property
+npm http request GET http://192.168.1.100:4873/jsonpointer
+npm http 200 http://192.168.1.100:4873/generate-function
+npm http 200 http://192.168.1.100:4873/generate-object-property
+npm http 200 http://192.168.1.100:4873/jsonpointer
+npm http fetch GET http://192.168.1.100:4873/jsonpointer/-/jsonpointer-4.0.0.tgz
+npm http fetch 200 http://192.168.1.100:4873/jsonpointer/-/jsonpointer-4.0.0.tgz
+npm http request GET http://192.168.1.100:4873/is-property
+npm http 200 http://192.168.1.100:4873/is-property
+npm http request GET http://192.168.1.100:4873/hoek
+npm http request GET http://192.168.1.100:4873/boom
+npm http request GET http://192.168.1.100:4873/cryptiles
+npm http request GET http://192.168.1.100:4873/sntp
+npm http 200 http://192.168.1.100:4873/boom
+npm http 200 http://192.168.1.100:4873/cryptiles
+npm http 200 http://192.168.1.100:4873/sntp
+npm http 200 http://192.168.1.100:4873/hoek
+npm http request GET http://192.168.1.100:4873/assert-plus
+npm http request GET http://192.168.1.100:4873/ctype
+npm http request GET http://192.168.1.100:4873/asn1
+npm http 200 http://192.168.1.100:4873/ctype
+npm http 200 http://192.168.1.100:4873/asn1
+npm http 200 http://192.168.1.100:4873/assert-plus
+npm http request GET http://192.168.1.100:4873/colors
+npm http request GET http://192.168.1.100:4873/cycle
+npm http request GET http://192.168.1.100:4873/eyes
+npm http request GET http://192.168.1.100:4873/pkginfo
+npm http request GET http://192.168.1.100:4873/stack-trace
+npm http 304 http://192.168.1.100:4873/colors
+npm http 200 http://192.168.1.100:4873/cycle
+npm http 304 http://192.168.1.100:4873/pkginfo
+npm http 304 http://192.168.1.100:4873/stack-trace
+npm http 304 http://192.168.1.100:4873/eyes
+npm http request GET http://192.168.1.100:4873/jsdoc
+npm http 200 http://192.168.1.100:4873/jsdoc
+npm http request GET http://192.168.1.100:4873/catharsis
+npm http request GET http://192.168.1.100:4873/js2xmlparser
+npm http request GET http://192.168.1.100:4873/strip-json-comments
+npm http request GET http://192.168.1.100:4873/marked
+npm http request GET http://192.168.1.100:4873/requizzle
+npm http request GET http://192.168.1.100:4873/underscore
+npm http request GET http://192.168.1.100:4873/wrench
+npm http fetch GET https://github.com/hegemonic/taffydb/tarball/7d100bcee0e997ee4977e273cdce60bd8933050e
+npm http 200 http://192.168.1.100:4873/js2xmlparser
+npm http 200 http://192.168.1.100:4873/strip-json-comments
+npm http 200 http://192.168.1.100:4873/requizzle
+npm http 200 http://192.168.1.100:4873/marked
+npm http 200 http://192.168.1.100:4873/underscore
+npm http 200 http://192.168.1.100:4873/wrench
+npm WARN deprecated wrench@1.5.9: wrench.js is deprecated! You should check out fs-extra (https://github.com/jprichardson/node-fs-extra) for any operations you were using wrench for. Thanks for all the usage over the years.
+npm http 200 http://192.168.1.100:4873/catharsis
+npm http fetch 200 https://github.com/hegemonic/taffydb/tarball/7d100bcee0e997ee4977e273cdce60bd8933050e
+npm http request GET http://192.168.1.100:4873/underscore-contrib
+npm http 200 http://192.168.1.100:4873/underscore-contrib
+npm WARN prefer global marked@0.3.6 should be installed with -g
+npm http request GET http://192.168.1.100:4873/fs-extra-promise
+npm http request GET http://192.168.1.100:4873/lie
+npm http request GET http://192.168.1.100:4873/request
+npm http request GET http://192.168.1.100:4873/jxc
+npm http request GET http://192.168.1.100:4873/unzip
+npm http 304 http://192.168.1.100:4873/lie
+npm http 304 http://192.168.1.100:4873/request
+npm http 304 http://192.168.1.100:4873/fs-extra-promise
+npm http 200 http://192.168.1.100:4873/unzip
+npm http 200 http://192.168.1.100:4873/jxc
+npm http request GET http://192.168.1.100:4873/fs-extra
+npm http request GET http://192.168.1.100:4873/bluebird
+npm http 304 http://192.168.1.100:4873/bluebird
+npm http 304 http://192.168.1.100:4873/fs-extra
+npm http request GET http://192.168.1.100:4873/graceful-fs
+npm http request GET http://192.168.1.100:4873/jsonfile
+npm http request GET http://192.168.1.100:4873/rimraf
+npm http 304 http://192.168.1.100:4873/graceful-fs
+npm http 304 http://192.168.1.100:4873/rimraf
+npm http 304 http://192.168.1.100:4873/jsonfile
+npm http request GET http://192.168.1.100:4873/glob
+npm http 304 http://192.168.1.100:4873/glob
+npm http request GET http://192.168.1.100:4873/fs.realpath
+npm http request GET http://192.168.1.100:4873/inflight
+npm http request GET http://192.168.1.100:4873/inherits
+npm http request GET http://192.168.1.100:4873/minimatch
+npm http request GET http://192.168.1.100:4873/once
+npm http request GET http://192.168.1.100:4873/path-is-absolute
+npm http 304 http://192.168.1.100:4873/once
+npm http 304 http://192.168.1.100:4873/fs.realpath
+npm http 304 http://192.168.1.100:4873/inherits
+npm http 304 http://192.168.1.100:4873/inflight
+npm http 304 http://192.168.1.100:4873/minimatch
+npm http 304 http://192.168.1.100:4873/path-is-absolute
+npm http request GET http://192.168.1.100:4873/wrappy
+npm http 304 http://192.168.1.100:4873/wrappy
+npm http request GET http://192.168.1.100:4873/brace-expansion
+npm http 304 http://192.168.1.100:4873/brace-expansion
+npm http request GET http://192.168.1.100:4873/balanced-match
+npm http request GET http://192.168.1.100:4873/concat-map
+npm http 304 http://192.168.1.100:4873/concat-map
+npm http 304 http://192.168.1.100:4873/balanced-match
+npm http request GET http://192.168.1.100:4873/progress
+npm http request GET http://192.168.1.100:4873/adm-zip
+npm http 200 http://192.168.1.100:4873/adm-zip
+npm http 200 http://192.168.1.100:4873/progress
+npm http request GET http://192.168.1.100:4873/es3ify
+npm http request GET http://192.168.1.100:4873/immediate
+npm http request GET http://192.168.1.100:4873/inline-process-browser
+npm http request GET http://192.168.1.100:4873/unreachable-branch-transform
+npm http 304 http://192.168.1.100:4873/es3ify
+npm http 304 http://192.168.1.100:4873/inline-process-browser
+npm http 304 http://192.168.1.100:4873/unreachable-branch-transform
+npm http 200 http://192.168.1.100:4873/immediate
+npm http request GET http://192.168.1.100:4873/esprima
+npm http request GET http://192.168.1.100:4873/jstransform
+npm http request GET http://192.168.1.100:4873/through
+npm http 304 http://192.168.1.100:4873/jstransform
+npm http 304 http://192.168.1.100:4873/esprima
+npm http 304 http://192.168.1.100:4873/through
+npm http request GET http://192.168.1.100:4873/commoner
+npm http request GET http://192.168.1.100:4873/base62
+npm http request GET http://192.168.1.100:4873/esprima-fb
+npm http request GET http://192.168.1.100:4873/object-assign
+npm http request GET http://192.168.1.100:4873/source-map
+npm http 304 http://192.168.1.100:4873/object-assign
+npm http 304 http://192.168.1.100:4873/source-map
+npm http 304 http://192.168.1.100:4873/esprima-fb
+npm http 304 http://192.168.1.100:4873/commoner
+npm http 304 http://192.168.1.100:4873/base62
+npm http request GET http://192.168.1.100:4873/commander
+npm http request GET http://192.168.1.100:4873/detective
+npm http request GET http://192.168.1.100:4873/iconv-lite
+npm http request GET http://192.168.1.100:4873/mkdirp
+npm http request GET http://192.168.1.100:4873/private
+npm http request GET http://192.168.1.100:4873/q
+npm http request GET http://192.168.1.100:4873/recast
+npm http 304 http://192.168.1.100:4873/commander
+npm http 304 http://192.168.1.100:4873/iconv-lite
+npm http 304 http://192.168.1.100:4873/detective
+npm http 200 http://192.168.1.100:4873/mkdirp
+npm http 304 http://192.168.1.100:4873/private
+npm http 304 http://192.168.1.100:4873/q
+npm http 304 http://192.168.1.100:4873/recast
+npm http request GET http://192.168.1.100:4873/graceful-readlink
+npm http 304 http://192.168.1.100:4873/graceful-readlink
+npm http request GET http://192.168.1.100:4873/defined
+npm http request GET http://192.168.1.100:4873/acorn
+npm http 304 http://192.168.1.100:4873/defined
+npm http 304 http://192.168.1.100:4873/acorn
+npm http request GET http://192.168.1.100:4873/minimist
+npm http 304 http://192.168.1.100:4873/minimist
+npm http request GET http://192.168.1.100:4873/ast-types
+npm http 304 http://192.168.1.100:4873/ast-types
+npm http request GET http://192.168.1.100:4873/amdefine
+npm http 304 http://192.168.1.100:4873/amdefine
+npm http request GET http://192.168.1.100:4873/falafel
+npm http request GET http://192.168.1.100:4873/through2
+npm http 304 http://192.168.1.100:4873/falafel
+npm http 304 http://192.168.1.100:4873/through2
+npm http request GET http://192.168.1.100:4873/foreach
+npm http request GET http://192.168.1.100:4873/isarray
+npm http request GET http://192.168.1.100:4873/object-keys
+npm http 304 http://192.168.1.100:4873/foreach
+npm http 304 http://192.168.1.100:4873/isarray
+npm http 304 http://192.168.1.100:4873/object-keys
+npm http request GET http://192.168.1.100:4873/readable-stream
+npm http request GET http://192.168.1.100:4873/xtend
+npm http 304 http://192.168.1.100:4873/readable-stream
+npm http 304 http://192.168.1.100:4873/xtend
+npm http request GET http://192.168.1.100:4873/core-util-is
+npm http request GET http://192.168.1.100:4873/string_decoder
+npm http 304 http://192.168.1.100:4873/core-util-is
+npm http 304 http://192.168.1.100:4873/string_decoder
+npm http request GET http://192.168.1.100:4873/esmangle-evaluator
+npm http 304 http://192.168.1.100:4873/esmangle-evaluator
+npm http request GET http://192.168.1.100:4873/bl
+npm http request GET http://192.168.1.100:4873/caseless
+npm http request GET http://192.168.1.100:4873/extend
+npm http request GET http://192.168.1.100:4873/forever-agent
+npm http request GET http://192.168.1.100:4873/form-data
+npm http request GET http://192.168.1.100:4873/json-stringify-safe
+npm http request GET http://192.168.1.100:4873/mime-types
+npm http request GET http://192.168.1.100:4873/node-uuid
+npm http request GET http://192.168.1.100:4873/qs
+npm http request GET http://192.168.1.100:4873/tunnel-agent
+npm http request GET http://192.168.1.100:4873/tough-cookie
+npm http request GET http://192.168.1.100:4873/http-signature
+npm http request GET http://192.168.1.100:4873/oauth-sign
+npm http request GET http://192.168.1.100:4873/hawk
+npm http request GET http://192.168.1.100:4873/aws-sign2
+npm http request GET http://192.168.1.100:4873/stringstream
+npm http request GET http://192.168.1.100:4873/combined-stream
+npm http request GET http://192.168.1.100:4873/isstream
+npm http request GET http://192.168.1.100:4873/har-validator
+npm http 304 http://192.168.1.100:4873/forever-agent
+npm http 200 http://192.168.1.100:4873/bl
+npm http 304 http://192.168.1.100:4873/caseless
+npm http 304 http://192.168.1.100:4873/extend
+npm http 304 http://192.168.1.100:4873/mime-types
+npm http 200 http://192.168.1.100:4873/form-data
+npm http 304 http://192.168.1.100:4873/json-stringify-safe
+npm http 304 http://192.168.1.100:4873/tunnel-agent
+npm http 304 http://192.168.1.100:4873/qs
+npm http 304 http://192.168.1.100:4873/node-uuid
+npm http 304 http://192.168.1.100:4873/tough-cookie
+npm http 304 http://192.168.1.100:4873/http-signature
+npm http 304 http://192.168.1.100:4873/combined-stream
+npm http 304 http://192.168.1.100:4873/oauth-sign
+npm http 304 http://192.168.1.100:4873/hawk
+npm http 304 http://192.168.1.100:4873/aws-sign2
+npm http 304 http://192.168.1.100:4873/stringstream
+npm http 304 http://192.168.1.100:4873/isstream
+npm http 304 http://192.168.1.100:4873/har-validator
+npm http request GET http://192.168.1.100:4873/process-nextick-args
+npm http request GET http://192.168.1.100:4873/util-deprecate
+npm http 304 http://192.168.1.100:4873/process-nextick-args
+npm http 304 http://192.168.1.100:4873/util-deprecate
+npm http request GET http://192.168.1.100:4873/delayed-stream
+npm http 304 http://192.168.1.100:4873/delayed-stream
+npm http request GET http://192.168.1.100:4873/async
+npm http 304 http://192.168.1.100:4873/async
+npm http request GET http://192.168.1.100:4873/lodash
+npm http 200 http://192.168.1.100:4873/lodash
+npm http request GET http://192.168.1.100:4873/mime-db
+npm http 304 http://192.168.1.100:4873/mime-db
+npm http request GET http://192.168.1.100:4873/chalk
+npm http request GET http://192.168.1.100:4873/is-my-json-valid
+npm http 304 http://192.168.1.100:4873/is-my-json-valid
+npm http 200 http://192.168.1.100:4873/chalk
+npm http request GET http://192.168.1.100:4873/ansi-styles
+npm http request GET http://192.168.1.100:4873/has-ansi
+npm http request GET http://192.168.1.100:4873/escape-string-regexp
+npm http request GET http://192.168.1.100:4873/strip-ansi
+npm http request GET http://192.168.1.100:4873/supports-color
+npm http 304 http://192.168.1.100:4873/escape-string-regexp
+npm http 304 http://192.168.1.100:4873/ansi-styles
+npm http 304 http://192.168.1.100:4873/has-ansi
+npm http 304 http://192.168.1.100:4873/strip-ansi
+npm http 304 http://192.168.1.100:4873/supports-color
+npm http request GET http://192.168.1.100:4873/ansi-regex
+npm http 304 http://192.168.1.100:4873/ansi-regex
+npm http request GET http://192.168.1.100:4873/generate-function
+npm http request GET http://192.168.1.100:4873/generate-object-property
+npm http request GET http://192.168.1.100:4873/jsonpointer
+npm http 304 http://192.168.1.100:4873/generate-object-property
+npm http 304 http://192.168.1.100:4873/generate-function
+npm http 304 http://192.168.1.100:4873/jsonpointer
+npm http request GET http://192.168.1.100:4873/is-property
+npm http 304 http://192.168.1.100:4873/is-property
+npm http request GET http://192.168.1.100:4873/hoek
+npm http request GET http://192.168.1.100:4873/boom
+npm http request GET http://192.168.1.100:4873/cryptiles
+npm http request GET http://192.168.1.100:4873/sntp
+npm http 304 http://192.168.1.100:4873/hoek
+npm http 304 http://192.168.1.100:4873/sntp
+npm http 304 http://192.168.1.100:4873/cryptiles
+npm http 304 http://192.168.1.100:4873/boom
+npm http request GET http://192.168.1.100:4873/assert-plus
+npm http request GET http://192.168.1.100:4873/asn1
+npm http request GET http://192.168.1.100:4873/ctype
+npm http 304 http://192.168.1.100:4873/assert-plus
+npm http 200 http://192.168.1.100:4873/asn1
+npm http 304 http://192.168.1.100:4873/ctype
+npm http request GET http://192.168.1.100:4873/binary
+npm http request GET http://192.168.1.100:4873/setimmediate
+npm http request GET http://192.168.1.100:4873/match-stream
+npm http request GET http://192.168.1.100:4873/fstream
+npm http request GET http://192.168.1.100:4873/pullstream
+npm http 200 http://192.168.1.100:4873/setimmediate
+npm http 200 http://192.168.1.100:4873/binary
+npm http 200 http://192.168.1.100:4873/pullstream
+npm http 200 http://192.168.1.100:4873/match-stream
+npm http 200 http://192.168.1.100:4873/fstream
+npm http request GET http://192.168.1.100:4873/chainsaw
+npm http request GET http://192.168.1.100:4873/buffers
+npm http 200 http://192.168.1.100:4873/chainsaw
+npm http 200 http://192.168.1.100:4873/buffers
+npm http request GET http://192.168.1.100:4873/traverse
+npm http 200 http://192.168.1.100:4873/traverse
+npm http request GET http://192.168.1.100:4873/natives
+npm http 200 http://192.168.1.100:4873/natives
+npm http request GET http://192.168.1.100:4873/over
+npm http request GET http://192.168.1.100:4873/slice-stream
+npm http 200 http://192.168.1.100:4873/over
+npm http 200 http://192.168.1.100:4873/slice-stream
+npm WARN EPACKAGEJSON install@0.0.1 No repository field.
+npm http request GET http://192.168.1.100:4873/balanced-match
+npm http request GET http://192.168.1.100:4873/body-parser
+npm http request GET http://192.168.1.100:4873/concat-map
+npm http request GET http://192.168.1.100:4873/express
+npm http request GET http://192.168.1.100:4873/bn.js
+npm http request GET http://192.168.1.100:4873/forever-agent
+npm http request GET http://192.168.1.100:4873/inherits
+npm http request GET http://192.168.1.100:4873/is-property
+npm http request GET http://192.168.1.100:4873/express-pouchdb
+npm http request GET http://192.168.1.100:4873/long
+npm http request GET http://192.168.1.100:4873/js-extend
+npm http request GET http://192.168.1.100:4873/multiplex
+npm http request GET http://192.168.1.100:4873/node-uuid
+npm http request GET http://192.168.1.100:4873/request
+npm http request GET http://192.168.1.100:4873/socket.io-client
+npm http request GET http://192.168.1.100:4873/pouchdb-node
+npm http request GET http://192.168.1.100:4873/leveldown-mobile
+npm http request GET http://192.168.1.100:4873/tape
+npm http request GET http://192.168.1.100:4873/randomstring
+npm http request GET http://192.168.1.100:4873/proxyquire
+npm http request GET http://192.168.1.100:4873/urlsafe-base64
+npm http request GET http://192.168.1.100:4873/request-promise
+npm http request GET http://192.168.1.100:4873/nock
+npm http request GET http://192.168.1.100:4873/sinon
+npm http request GET http://192.168.1.100:4873/supertest-as-promised
+npm http request GET http://192.168.1.100:4873/tape-catch
+npm http request GET http://192.168.1.100:4873/supertest
+npm http request GET http://192.168.1.100:4873/uuid
+npm http request GET http://192.168.1.100:4873/tmp
+npm http 304 http://192.168.1.100:4873/concat-map
+npm http 304 http://192.168.1.100:4873/balanced-match
+npm http 304 http://192.168.1.100:4873/body-parser
+npm http 304 http://192.168.1.100:4873/express
+npm http 304 http://192.168.1.100:4873/forever-agent
+npm http 304 http://192.168.1.100:4873/long
+npm http 304 http://192.168.1.100:4873/inherits
+npm http 200 http://192.168.1.100:4873/bn.js
+npm http 304 http://192.168.1.100:4873/is-property
+npm http 304 http://192.168.1.100:4873/socket.io-client
+npm http 200 http://192.168.1.100:4873/express-pouchdb
+npm http 304 http://192.168.1.100:4873/node-uuid
+npm http 200 http://192.168.1.100:4873/pouchdb-node
+npm http 304 http://192.168.1.100:4873/multiplex
+npm http fetch GET http://192.168.1.100:4873/express-pouchdb/-/express-pouchdb-1.0.5-thali.tgz
+npm http fetch GET http://192.168.1.100:4873/pouchdb-node/-/pouchdb-node-5.5.0-prerelease.tgz
+npm http 304 http://192.168.1.100:4873/request
+npm http 304 http://192.168.1.100:4873/tape
+npm http 200 http://192.168.1.100:4873/randomstring
+npm http 200 http://192.168.1.100:4873/proxyquire
+npm http 304 http://192.168.1.100:4873/leveldown-mobile
+npm http 304 http://192.168.1.100:4873/urlsafe-base64
+npm http 200 http://192.168.1.100:4873/request-promise
+npm http 200 http://192.168.1.100:4873/sinon
+npm http 200 http://192.168.1.100:4873/nock
+npm http 200 http://192.168.1.100:4873/js-extend
+npm http fetch 200 http://192.168.1.100:4873/express-pouchdb/-/express-pouchdb-1.0.5-thali.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-node/-/pouchdb-node-5.5.0-prerelease.tgz
+npm http 200 http://192.168.1.100:4873/supertest-as-promised
+npm http 200 http://192.168.1.100:4873/tape-catch
+npm http 200 http://192.168.1.100:4873/supertest
+npm http 200 http://192.168.1.100:4873/uuid
+npm http 200 http://192.168.1.100:4873/tmp
+npm http request GET http://192.168.1.100:4873/bytes
+npm http request GET http://192.168.1.100:4873/content-type
+npm http request GET http://192.168.1.100:4873/debug
+npm http request GET http://192.168.1.100:4873/depd
+npm http request GET http://192.168.1.100:4873/http-errors
+npm http request GET http://192.168.1.100:4873/iconv-lite
+npm http request GET http://192.168.1.100:4873/on-finished
+npm http request GET http://192.168.1.100:4873/qs
+npm http request GET http://192.168.1.100:4873/raw-body
+npm http request GET http://192.168.1.100:4873/type-is
+npm http 304 http://192.168.1.100:4873/content-type
+npm http 304 http://192.168.1.100:4873/depd
+npm http 304 http://192.168.1.100:4873/http-errors
+npm http 304 http://192.168.1.100:4873/iconv-lite
+npm http 304 http://192.168.1.100:4873/raw-body
+npm http 304 http://192.168.1.100:4873/type-is
+npm http 304 http://192.168.1.100:4873/bytes
+npm http 304 http://192.168.1.100:4873/qs
+npm http 304 http://192.168.1.100:4873/debug
+npm http 304 http://192.168.1.100:4873/on-finished
+npm http request GET http://192.168.1.100:4873/ms
+npm http 304 http://192.168.1.100:4873/ms
+npm http request GET http://192.168.1.100:4873/statuses
+npm http 304 http://192.168.1.100:4873/statuses
+npm http request GET http://192.168.1.100:4873/ee-first
+npm http 304 http://192.168.1.100:4873/ee-first
+npm http request GET http://192.168.1.100:4873/unpipe
+npm http 304 http://192.168.1.100:4873/unpipe
+npm http request GET http://192.168.1.100:4873/media-typer
+npm http request GET http://192.168.1.100:4873/mime-types
+npm http 304 http://192.168.1.100:4873/media-typer
+npm http 304 http://192.168.1.100:4873/mime-types
+npm http request GET http://192.168.1.100:4873/mime-db
+npm http 304 http://192.168.1.100:4873/mime-db
+npm http request GET http://192.168.1.100:4873/accepts
+npm http request GET http://192.168.1.100:4873/array-flatten
+npm http request GET http://192.168.1.100:4873/content-disposition
+npm http request GET http://192.168.1.100:4873/cookie
+npm http request GET http://192.168.1.100:4873/cookie-signature
+npm http request GET http://192.168.1.100:4873/escape-html
+npm http request GET http://192.168.1.100:4873/etag
+npm http request GET http://192.168.1.100:4873/finalhandler
+npm http request GET http://192.168.1.100:4873/fresh
+npm http request GET http://192.168.1.100:4873/merge-descriptors
+npm http request GET http://192.168.1.100:4873/methods
+npm http request GET http://192.168.1.100:4873/parseurl
+npm http request GET http://192.168.1.100:4873/path-to-regexp
+npm http request GET http://192.168.1.100:4873/proxy-addr
+npm http request GET http://192.168.1.100:4873/range-parser
+npm http request GET http://192.168.1.100:4873/send
+npm http request GET http://192.168.1.100:4873/serve-static
+npm http request GET http://192.168.1.100:4873/utils-merge
+npm http request GET http://192.168.1.100:4873/vary
+npm http 304 http://192.168.1.100:4873/cookie
+npm http 304 http://192.168.1.100:4873/escape-html
+npm http 304 http://192.168.1.100:4873/cookie-signature
+npm http 304 http://192.168.1.100:4873/accepts
+npm http 304 http://192.168.1.100:4873/array-flatten
+npm http 304 http://192.168.1.100:4873/content-disposition
+npm http 304 http://192.168.1.100:4873/finalhandler
+npm http 304 http://192.168.1.100:4873/fresh
+npm http 304 http://192.168.1.100:4873/merge-descriptors
+npm http 304 http://192.168.1.100:4873/etag
+npm http 304 http://192.168.1.100:4873/path-to-regexp
+npm http 304 http://192.168.1.100:4873/proxy-addr
+npm http 304 http://192.168.1.100:4873/methods
+npm http 304 http://192.168.1.100:4873/parseurl
+npm http 304 http://192.168.1.100:4873/range-parser
 npm http 304 http://192.168.1.100:4873/vary
+npm http 304 http://192.168.1.100:4873/send
+npm http 304 http://192.168.1.100:4873/serve-static
+npm http 304 http://192.168.1.100:4873/utils-merge
 npm http request GET http://192.168.1.100:4873/negotiator
 npm http 200 http://192.168.1.100:4873/negotiator
 npm http request GET http://192.168.1.100:4873/forwarded
@@ -4065,48 +4052,48 @@ npm http 304 http://192.168.1.100:4873/forwarded
 npm http 304 http://192.168.1.100:4873/ipaddr.js
 npm http request GET http://192.168.1.100:4873/destroy
 npm http request GET http://192.168.1.100:4873/mime
-npm http 304 http://192.168.1.100:4873/destroy
 npm http 304 http://192.168.1.100:4873/mime
-npm http request GET http://192.168.1.100:4873/bluebird
+npm http 304 http://192.168.1.100:4873/destroy
 npm http request GET http://192.168.1.100:4873/basic-auth
-npm http request GET http://192.168.1.100:4873/cookie-parser
+npm http request GET http://192.168.1.100:4873/bluebird
 npm http request GET http://192.168.1.100:4873/extend
+npm http request GET http://192.168.1.100:4873/cookie-parser
 npm http request GET http://192.168.1.100:4873/compression
-npm http request GET http://192.168.1.100:4873/header-case-normalizer
-npm http request GET http://192.168.1.100:4873/pouchdb-find
 npm http request GET http://192.168.1.100:4873/multiparty
-npm http request GET http://192.168.1.100:4873/pouchdb-auth
 npm http request GET http://192.168.1.100:4873/pouchdb-all-dbs
-npm http request GET http://192.168.1.100:4873/pouchdb-list
-npm http request GET http://192.168.1.100:4873/pouchdb-replicator
-npm http request GET http://192.168.1.100:4873/pouchdb-rewrite
+npm http request GET http://192.168.1.100:4873/header-case-normalizer
 npm http request GET http://192.168.1.100:4873/pouchdb-security
 npm http request GET http://192.168.1.100:4873/pouchdb-show
 npm http request GET http://192.168.1.100:4873/pouchdb-size
-npm http request GET http://192.168.1.100:4873/pouchdb-update
+npm http request GET http://192.168.1.100:4873/pouchdb-replicator
+npm http request GET http://192.168.1.100:4873/pouchdb-auth
+npm http request GET http://192.168.1.100:4873/pouchdb-rewrite
+npm http request GET http://192.168.1.100:4873/pouchdb-list
+npm http request GET http://192.168.1.100:4873/pouchdb-find
 npm http request GET http://192.168.1.100:4873/pouchdb-validation
+npm http request GET http://192.168.1.100:4873/pouchdb-update
 npm http request GET http://192.168.1.100:4873/pouchdb-vhost
 npm http request GET http://192.168.1.100:4873/pouchdb-wrappers
+npm http 200 http://192.168.1.100:4873/basic-auth
 npm http 304 http://192.168.1.100:4873/bluebird
 npm http 304 http://192.168.1.100:4873/extend
-npm http 200 http://192.168.1.100:4873/basic-auth
 npm http 200 http://192.168.1.100:4873/cookie-parser
 npm http 200 http://192.168.1.100:4873/compression
 npm http 200 http://192.168.1.100:4873/multiparty
 npm http 200 http://192.168.1.100:4873/header-case-normalizer
-npm http 200 http://192.168.1.100:4873/pouchdb-find
-npm http 200 http://192.168.1.100:4873/pouchdb-all-dbs
-npm http 200 http://192.168.1.100:4873/pouchdb-security
-npm http 200 http://192.168.1.100:4873/pouchdb-auth
-npm http 200 http://192.168.1.100:4873/pouchdb-list
-npm http 200 http://192.168.1.100:4873/pouchdb-replicator
-npm http 200 http://192.168.1.100:4873/pouchdb-rewrite
-npm http 200 http://192.168.1.100:4873/pouchdb-update
-npm http 200 http://192.168.1.100:4873/pouchdb-size
 npm http 200 http://192.168.1.100:4873/pouchdb-show
-npm http 200 http://192.168.1.100:4873/pouchdb-vhost
-npm http 200 http://192.168.1.100:4873/pouchdb-wrappers
+npm http 200 http://192.168.1.100:4873/pouchdb-all-dbs
+npm http 200 http://192.168.1.100:4873/pouchdb-size
+npm http 200 http://192.168.1.100:4873/pouchdb-auth
+npm http 200 http://192.168.1.100:4873/pouchdb-security
+npm http 200 http://192.168.1.100:4873/pouchdb-replicator
+npm http 200 http://192.168.1.100:4873/pouchdb-list
+npm http 200 http://192.168.1.100:4873/pouchdb-rewrite
+npm http 200 http://192.168.1.100:4873/pouchdb-find
+npm http 200 http://192.168.1.100:4873/pouchdb-update
 npm http 200 http://192.168.1.100:4873/pouchdb-validation
+npm http 200 http://192.168.1.100:4873/pouchdb-wrappers
+npm http 200 http://192.168.1.100:4873/pouchdb-vhost
 npm http request GET http://192.168.1.100:4873/setprototypeof
 npm http 200 http://192.168.1.100:4873/setprototypeof
 npm http request GET http://192.168.1.100:4873/on-headers
@@ -4115,42 +4102,42 @@ npm http 200 http://192.168.1.100:4873/on-headers
 npm http 200 http://192.168.1.100:4873/compressible
 npm http request GET http://192.168.1.100:4873/readable-stream
 npm http request GET http://192.168.1.100:4873/stream-counter
-npm http 304 http://192.168.1.100:4873/readable-stream
 npm http 200 http://192.168.1.100:4873/stream-counter
+npm http 200 http://192.168.1.100:4873/readable-stream
 npm http request GET http://192.168.1.100:4873/es3ify
-npm http request GET http://192.168.1.100:4873/argsarray
 npm http request GET http://192.168.1.100:4873/pouchdb-promise
+npm http request GET http://192.168.1.100:4873/argsarray
 npm http request GET http://192.168.1.100:4873/tiny-queue
 npm http 304 http://192.168.1.100:4873/es3ify
+npm http 200 http://192.168.1.100:4873/tiny-queue
 npm http 200 http://192.168.1.100:4873/pouchdb-promise
 npm http 200 http://192.168.1.100:4873/argsarray
-npm http 200 http://192.168.1.100:4873/tiny-queue
-npm http request GET http://192.168.1.100:4873/esprima-fb
 npm http request GET http://192.168.1.100:4873/jstransform
-npm http 304 http://192.168.1.100:4873/esprima-fb
+npm http request GET http://192.168.1.100:4873/esprima-fb
 npm http 304 http://192.168.1.100:4873/jstransform
+npm http 304 http://192.168.1.100:4873/esprima-fb
 npm http request GET http://192.168.1.100:4873/base62
 npm http request GET http://192.168.1.100:4873/source-map
-npm http 304 http://192.168.1.100:4873/base62
 npm http 304 http://192.168.1.100:4873/source-map
+npm http 304 http://192.168.1.100:4873/base62
 npm http request GET http://192.168.1.100:4873/base64url
 npm http request GET http://192.168.1.100:4873/couchdb-calculate-session-id
 npm http request GET http://192.168.1.100:4873/crypto-lite
 npm http request GET http://192.168.1.100:4873/pouchdb-bulkdocs-wrapper
-npm http request GET http://192.168.1.100:4873/pouchdb-plugin-error
 npm http request GET http://192.168.1.100:4873/pouchdb
+npm http request GET http://192.168.1.100:4873/pouchdb-plugin-error
 npm http request GET http://192.168.1.100:4873/pouchdb-req-http-query
+npm http request GET http://192.168.1.100:4873/pouchdb-system-db
 npm http request GET http://192.168.1.100:4873/secure-random
 npm http request GET http://192.168.1.100:4873/promise-nodify
-npm http request GET http://192.168.1.100:4873/pouchdb-system-db
 npm http 200 http://192.168.1.100:4873/base64url
-npm http 200 http://192.168.1.100:4873/couchdb-calculate-session-id
+npm http 200 http://192.168.1.100:4873/pouchdb
 npm http 200 http://192.168.1.100:4873/pouchdb-bulkdocs-wrapper
-npm http 200 http://192.168.1.100:4873/pouchdb-plugin-error
+npm http 200 http://192.168.1.100:4873/couchdb-calculate-session-id
 npm http 200 http://192.168.1.100:4873/crypto-lite
+npm http 200 http://192.168.1.100:4873/pouchdb-plugin-error
 npm http 200 http://192.168.1.100:4873/pouchdb-req-http-query
 npm http 200 http://192.168.1.100:4873/promise-nodify
-npm http 200 http://192.168.1.100:4873/pouchdb
 npm http 200 http://192.168.1.100:4873/pouchdb-system-db
 npm http 200 http://192.168.1.100:4873/secure-random
 npm http request GET http://192.168.1.100:4873/concat-stream
@@ -4163,54 +4150,54 @@ npm http request GET http://192.168.1.100:4873/object-assign
 npm http request GET http://192.168.1.100:4873/camelcase-keys
 npm http request GET http://192.168.1.100:4873/indent-string
 npm http 304 http://192.168.1.100:4873/object-assign
-npm http 200 http://192.168.1.100:4873/indent-string
 npm http 200 http://192.168.1.100:4873/camelcase-keys
-npm http request GET http://192.168.1.100:4873/camelcase
+npm http 200 http://192.168.1.100:4873/indent-string
 npm http request GET http://192.168.1.100:4873/map-obj
+npm http request GET http://192.168.1.100:4873/camelcase
 npm http 200 http://192.168.1.100:4873/map-obj
 npm http 200 http://192.168.1.100:4873/camelcase
-npm http request GET http://192.168.1.100:4873/repeating
 npm http request GET http://192.168.1.100:4873/get-stdin
+npm http request GET http://192.168.1.100:4873/repeating
 npm http 200 http://192.168.1.100:4873/repeating
 npm http 200 http://192.168.1.100:4873/get-stdin
 npm http request GET http://192.168.1.100:4873/is-finite
 npm http 200 http://192.168.1.100:4873/is-finite
+npm http fetch GET http://192.168.1.100:4873/is-finite/-/is-finite-1.0.2.tgz
+npm http fetch 200 http://192.168.1.100:4873/is-finite/-/is-finite-1.0.2.tgz
 npm http request GET http://192.168.1.100:4873/number-is-nan
 npm http 200 http://192.168.1.100:4873/number-is-nan
+npm http fetch GET http://192.168.1.100:4873/number-is-nan/-/number-is-nan-1.0.1.tgz
+npm http fetch 200 http://192.168.1.100:4873/number-is-nan/-/number-is-nan-1.0.1.tgz
 npm http request GET http://192.168.1.100:4873/aproba
 npm http 200 http://192.168.1.100:4873/aproba
-npm http request GET http://192.168.1.100:4873/fruitdown
 npm http request GET http://192.168.1.100:4873/double-ended-queue
-npm http request GET http://192.168.1.100:4873/level-write-stream
 npm http request GET http://192.168.1.100:4873/es6-promise-pool
+npm http request GET http://192.168.1.100:4873/fruitdown
+npm http request GET http://192.168.1.100:4873/level-write-stream
+npm http request GET http://192.168.1.100:4873/memdown
 npm http request GET http://192.168.1.100:4873/levelup
 npm http request GET http://192.168.1.100:4873/localstorage-down
-npm http request GET http://192.168.1.100:4873/through2
-npm http request GET http://192.168.1.100:4873/js-extend
-npm http request GET http://192.168.1.100:4873/vuvuzela
-npm http request GET http://192.168.1.100:4873/spark-md5
-npm http request GET http://192.168.1.100:4873/sublevel-pouchdb
-npm http request GET http://192.168.1.100:4873/scope-eval
-npm http request GET http://192.168.1.100:4873/pouchdb-collections
 npm http request GET http://192.168.1.100:4873/pouchdb-collate
-npm http request GET http://192.168.1.100:4873/memdown
-npm http request GET http://192.168.1.100:4873/request
+npm http request GET http://192.168.1.100:4873/pouchdb-collections
+npm http request GET http://192.168.1.100:4873/scope-eval
+npm http request GET http://192.168.1.100:4873/spark-md5
+npm http request GET http://192.168.1.100:4873/through2
+npm http request GET http://192.168.1.100:4873/sublevel-pouchdb
+npm http request GET http://192.168.1.100:4873/vuvuzela
 npm http 200 http://192.168.1.100:4873/double-ended-queue
-npm http 200 http://192.168.1.100:4873/levelup
-npm http 200 http://192.168.1.100:4873/es6-promise-pool
 npm http 200 http://192.168.1.100:4873/fruitdown
-npm http 304 http://192.168.1.100:4873/through2
-npm http 304 http://192.168.1.100:4873/js-extend
-npm http 200 http://192.168.1.100:4873/spark-md5
-npm http 200 http://192.168.1.100:4873/vuvuzela
-npm http 200 http://192.168.1.100:4873/scope-eval
-npm http 200 http://192.168.1.100:4873/level-write-stream
-npm http 200 http://192.168.1.100:4873/pouchdb-collections
-npm http 200 http://192.168.1.100:4873/localstorage-down
+npm http 200 http://192.168.1.100:4873/es6-promise-pool
 npm http 200 http://192.168.1.100:4873/memdown
-npm http 304 http://192.168.1.100:4873/request
-npm http 200 http://192.168.1.100:4873/sublevel-pouchdb
+npm http 200 http://192.168.1.100:4873/levelup
+npm http 200 http://192.168.1.100:4873/localstorage-down
+npm http 200 http://192.168.1.100:4873/pouchdb-collections
 npm http 200 http://192.168.1.100:4873/pouchdb-collate
+npm http 200 http://192.168.1.100:4873/scope-eval
+npm http 304 http://192.168.1.100:4873/through2
+npm http 200 http://192.168.1.100:4873/spark-md5
+npm http 200 http://192.168.1.100:4873/sublevel-pouchdb
+npm http 200 http://192.168.1.100:4873/level-write-stream
+npm http 200 http://192.168.1.100:4873/vuvuzela
 npm http request GET http://192.168.1.100:4873/d64
 npm http request GET http://192.168.1.100:4873/abstract-leveldown
 npm http 200 http://192.168.1.100:4873/abstract-leveldown
@@ -4221,28 +4208,30 @@ npm http request GET http://192.168.1.100:4873/end-stream
 npm http 200 http://192.168.1.100:4873/end-stream
 npm http request GET http://192.168.1.100:4873/write-stream
 npm http 200 http://192.168.1.100:4873/write-stream
+npm http request GET http://192.168.1.100:4873/deferred-leveldown
+npm http request GET http://192.168.1.100:4873/level-codec
+npm http request GET http://192.168.1.100:4873/level-errors
 npm http request GET http://192.168.1.100:4873/level-iterator-stream
 npm http request GET http://192.168.1.100:4873/prr
-npm http request GET http://192.168.1.100:4873/level-codec
-npm http request GET http://192.168.1.100:4873/deferred-leveldown
-npm http request GET http://192.168.1.100:4873/level-errors
 npm http request GET http://192.168.1.100:4873/semver
 npm http 200 http://192.168.1.100:4873/prr
-npm http 200 http://192.168.1.100:4873/level-errors
-npm http 200 http://192.168.1.100:4873/level-iterator-stream
+npm http 200 http://192.168.1.100:4873/deferred-leveldown
 npm http 200 http://192.168.1.100:4873/semver
 npm http 200 http://192.168.1.100:4873/level-codec
-npm http 200 http://192.168.1.100:4873/deferred-leveldown
+npm http 200 http://192.168.1.100:4873/level-iterator-stream
+npm http 200 http://192.168.1.100:4873/level-errors
 npm http request GET http://192.168.1.100:4873/errno
 npm http 200 http://192.168.1.100:4873/errno
 npm http request GET http://192.168.1.100:4873/humble-localstorage
 npm http 200 http://192.168.1.100:4873/humble-localstorage
-npm http request GET http://192.168.1.100:4873/has-localstorage
 npm http request GET http://192.168.1.100:4873/localstorage-memory
-npm http 200 http://192.168.1.100:4873/localstorage-memory
+npm http request GET http://192.168.1.100:4873/has-localstorage
 npm http 200 http://192.168.1.100:4873/has-localstorage
-npm http request GET http://192.168.1.100:4873/functional-red-black-tree
+npm http 200 http://192.168.1.100:4873/localstorage-memory
 npm http request GET http://192.168.1.100:4873/ltgt
+npm http request GET http://192.168.1.100:4873/functional-red-black-tree
+npm http fetch GET http://192.168.1.100:4873/abstract-leveldown/-/abstract-leveldown-2.6.1.tgz
+npm http fetch 200 http://192.168.1.100:4873/abstract-leveldown/-/abstract-leveldown-2.6.1.tgz
 npm http 200 http://192.168.1.100:4873/ltgt
 npm http 200 http://192.168.1.100:4873/functional-red-black-tree
 npm http request GET http://192.168.1.100:4873/aws-sign2
@@ -4253,43 +4242,39 @@ npm http request GET http://192.168.1.100:4873/form-data
 npm http request GET http://192.168.1.100:4873/har-validator
 npm http request GET http://192.168.1.100:4873/hawk
 npm http request GET http://192.168.1.100:4873/http-signature
-npm http request GET http://192.168.1.100:4873/is-typedarray
-npm http request GET http://192.168.1.100:4873/aws4
 npm http request GET http://192.168.1.100:4873/isstream
 npm http request GET http://192.168.1.100:4873/json-stringify-safe
-npm http request GET http://192.168.1.100:4873/oauth-sign
+npm http request GET http://192.168.1.100:4873/is-typedarray
 npm http request GET http://192.168.1.100:4873/stringstream
-npm http request GET http://192.168.1.100:4873/tough-cookie
+npm http request GET http://192.168.1.100:4873/aws4
 npm http request GET http://192.168.1.100:4873/tunnel-agent
-npm http request GET http://192.168.1.100:4873/extend
+npm http request GET http://192.168.1.100:4873/tough-cookie
+npm http request GET http://192.168.1.100:4873/oauth-sign
 npm http request GET http://192.168.1.100:4873/qs
 npm http 304 http://192.168.1.100:4873/bl
 npm http 304 http://192.168.1.100:4873/combined-stream
+npm http 304 http://192.168.1.100:4873/form-data
 npm http 304 http://192.168.1.100:4873/aws-sign2
-npm http 200 http://192.168.1.100:4873/caseless
-npm http 200 http://192.168.1.100:4873/form-data
+npm http 304 http://192.168.1.100:4873/caseless
 npm http 304 http://192.168.1.100:4873/har-validator
-npm http 304 http://192.168.1.100:4873/http-signature
 npm http 304 http://192.168.1.100:4873/hawk
-npm http 200 http://192.168.1.100:4873/is-typedarray
+npm http 304 http://192.168.1.100:4873/http-signature
 npm http 304 http://192.168.1.100:4873/isstream
-npm http 304 http://192.168.1.100:4873/oauth-sign
-npm http 200 http://192.168.1.100:4873/aws4
 npm http 304 http://192.168.1.100:4873/json-stringify-safe
 npm http 304 http://192.168.1.100:4873/stringstream
+npm http 200 http://192.168.1.100:4873/is-typedarray
+npm http 200 http://192.168.1.100:4873/aws4
 npm http 304 http://192.168.1.100:4873/tunnel-agent
 npm http 304 http://192.168.1.100:4873/tough-cookie
-npm http 304 http://192.168.1.100:4873/extend
 npm WARN deprecated tough-cookie@2.2.2: ReDoS vulnerability parsing Set-Cookie https://nodesecurity.io/advisories/130
+npm http 304 http://192.168.1.100:4873/oauth-sign
 npm http 304 http://192.168.1.100:4873/qs
-npm http request GET http://192.168.1.100:4873/readable-stream
-npm http 304 http://192.168.1.100:4873/readable-stream
 npm http request GET http://192.168.1.100:4873/isarray
 npm http request GET http://192.168.1.100:4873/process-nextick-args
 npm http request GET http://192.168.1.100:4873/util-deprecate
 npm http 304 http://192.168.1.100:4873/process-nextick-args
-npm http 304 http://192.168.1.100:4873/isarray
 npm http 304 http://192.168.1.100:4873/util-deprecate
+npm http 304 http://192.168.1.100:4873/isarray
 npm http request GET http://192.168.1.100:4873/delayed-stream
 npm http 304 http://192.168.1.100:4873/delayed-stream
 npm http request GET http://192.168.1.100:4873/async
@@ -4300,25 +4285,25 @@ npm http request GET http://192.168.1.100:4873/chalk
 npm http request GET http://192.168.1.100:4873/is-my-json-valid
 npm http request GET http://192.168.1.100:4873/pinkie-promise
 npm http 304 http://192.168.1.100:4873/chalk
+npm http 304 http://192.168.1.100:4873/is-my-json-valid
 npm http 200 http://192.168.1.100:4873/pinkie-promise
-npm http 200 http://192.168.1.100:4873/is-my-json-valid
 npm http request GET http://192.168.1.100:4873/ansi-styles
 npm http request GET http://192.168.1.100:4873/escape-string-regexp
 npm http request GET http://192.168.1.100:4873/has-ansi
 npm http request GET http://192.168.1.100:4873/strip-ansi
 npm http request GET http://192.168.1.100:4873/supports-color
 npm http 304 http://192.168.1.100:4873/escape-string-regexp
-npm http 304 http://192.168.1.100:4873/has-ansi
-npm http 304 http://192.168.1.100:4873/strip-ansi
-npm http 304 http://192.168.1.100:4873/supports-color
 npm http 304 http://192.168.1.100:4873/ansi-styles
+npm http 304 http://192.168.1.100:4873/has-ansi
+npm http 304 http://192.168.1.100:4873/supports-color
+npm http 304 http://192.168.1.100:4873/strip-ansi
 npm http request GET http://192.168.1.100:4873/ansi-regex
 npm http 304 http://192.168.1.100:4873/ansi-regex
-npm http request GET http://192.168.1.100:4873/generate-object-property
 npm http request GET http://192.168.1.100:4873/generate-function
+npm http request GET http://192.168.1.100:4873/generate-object-property
 npm http request GET http://192.168.1.100:4873/jsonpointer
-npm http 304 http://192.168.1.100:4873/generate-function
 npm http 304 http://192.168.1.100:4873/generate-object-property
+npm http 304 http://192.168.1.100:4873/generate-function
 npm http 304 http://192.168.1.100:4873/jsonpointer
 npm http request GET http://192.168.1.100:4873/pinkie
 npm http 200 http://192.168.1.100:4873/pinkie
@@ -4328,27 +4313,31 @@ npm http request GET http://192.168.1.100:4873/cryptiles
 npm http request GET http://192.168.1.100:4873/sntp
 npm http 304 http://192.168.1.100:4873/hoek
 npm http 304 http://192.168.1.100:4873/sntp
+npm http 304 http://192.168.1.100:4873/cryptiles
 npm http 304 http://192.168.1.100:4873/boom
-npm http 200 http://192.168.1.100:4873/cryptiles
 npm http request GET http://192.168.1.100:4873/assert-plus
 npm http request GET http://192.168.1.100:4873/jsprim
 npm http request GET http://192.168.1.100:4873/sshpk
 npm http 304 http://192.168.1.100:4873/assert-plus
 npm http 200 http://192.168.1.100:4873/jsprim
 npm http 200 http://192.168.1.100:4873/sshpk
+npm http fetch GET http://192.168.1.100:4873/sshpk/-/sshpk-1.10.1.tgz
+npm http fetch 200 http://192.168.1.100:4873/sshpk/-/sshpk-1.10.1.tgz
 npm http request GET http://192.168.1.100:4873/extsprintf
 npm http request GET http://192.168.1.100:4873/json-schema
 npm http request GET http://192.168.1.100:4873/verror
 npm http 200 http://192.168.1.100:4873/json-schema
-npm http 200 http://192.168.1.100:4873/verror
 npm http 200 http://192.168.1.100:4873/extsprintf
+npm http 200 http://192.168.1.100:4873/verror
 npm http request GET http://192.168.1.100:4873/asn1
 npm http request GET http://192.168.1.100:4873/getpass
 npm http request GET http://192.168.1.100:4873/dashdash
 npm http 304 http://192.168.1.100:4873/asn1
 npm http 200 http://192.168.1.100:4873/getpass
 npm http 200 http://192.168.1.100:4873/dashdash
+npm http request GET http://192.168.1.100:4873/readable-stream
 npm http request GET http://192.168.1.100:4873/pull-stream
+npm http 304 http://192.168.1.100:4873/readable-stream
 npm http 200 http://192.168.1.100:4873/pull-stream
 npm http request GET http://192.168.1.100:4873/pull-core
 npm http 200 http://192.168.1.100:4873/pull-core
@@ -4364,25 +4353,27 @@ npm http request GET http://192.168.1.100:4873/xmlhttprequest
 npm http 200 http://192.168.1.100:4873/xmlhttprequest
 npm http request GET http://192.168.1.100:4873/pouchdb-changeslike-wrapper
 npm http 200 http://192.168.1.100:4873/pouchdb-changeslike-wrapper
-npm http request GET http://192.168.1.100:4873/couchdb-objects
 npm http request GET http://192.168.1.100:4873/couchdb-eval
+npm http request GET http://192.168.1.100:4873/couchdb-objects
 npm http request GET http://192.168.1.100:4873/random-uuid-v4
-npm http 200 http://192.168.1.100:4873/random-uuid-v4
 npm http 200 http://192.168.1.100:4873/couchdb-eval
+npm http 200 http://192.168.1.100:4873/random-uuid-v4
 npm http 200 http://192.168.1.100:4873/couchdb-objects
 npm http request GET http://192.168.1.100:4873/is-empty
 npm http 200 http://192.168.1.100:4873/is-empty
-npm http request GET http://192.168.1.100:4873/spark-md5
 npm http request GET http://192.168.1.100:4873/is-array
 npm http request GET http://192.168.1.100:4873/pouchdb-extend
 npm http request GET http://192.168.1.100:4873/pouchdb-upsert
+npm http request GET http://192.168.1.100:4873/spark-md5
 npm http 304 http://192.168.1.100:4873/spark-md5
 npm http 200 http://192.168.1.100:4873/pouchdb-upsert
 npm http 200 http://192.168.1.100:4873/is-array
 npm http 200 http://192.168.1.100:4873/pouchdb-extend
 npm http request GET http://192.168.1.100:4873/unreachable-branch-transform
 npm http 304 http://192.168.1.100:4873/unreachable-branch-transform
+npm http request GET http://192.168.1.100:4873/extend
 npm http request GET http://192.168.1.100:4873/couchdb-render
+npm http 304 http://192.168.1.100:4873/extend
 npm http 200 http://192.168.1.100:4873/couchdb-render
 npm http request GET http://192.168.1.100:4873/couchdb-resp-completer
 npm http 200 http://192.168.1.100:4873/couchdb-resp-completer
@@ -4394,9 +4385,7 @@ npm http request GET http://192.168.1.100:4873/pouchdb-route
 npm http 200 http://192.168.1.100:4873/pouchdb-route
 npm http request GET http://192.168.1.100:4873/get-folder-size
 npm http 200 http://192.168.1.100:4873/get-folder-size
-npm http request GET http://192.168.1.100:4873/async
 npm http request GET http://192.168.1.100:4873/minimist
-npm http 304 http://192.168.1.100:4873/async
 npm http 304 http://192.168.1.100:4873/minimist
 npm http request GET http://192.168.1.100:4873/bindings
 npm http request GET http://192.168.1.100:4873/abstract-leveldown
@@ -4404,34 +4393,34 @@ npm http request GET http://192.168.1.100:4873/fast-future
 npm http 304 http://192.168.1.100:4873/abstract-leveldown
 npm http 304 http://192.168.1.100:4873/bindings
 npm http 200 http://192.168.1.100:4873/fast-future
-npm http request GET http://192.168.1.100:4873/duplexify
 npm http request GET http://192.168.1.100:4873/varint
-npm http request GET http://192.168.1.100:4873/readable-stream
-npm http 304 http://192.168.1.100:4873/readable-stream
-npm http 304 http://192.168.1.100:4873/duplexify
+npm http request GET http://192.168.1.100:4873/duplexify
 npm http 304 http://192.168.1.100:4873/varint
+npm http 304 http://192.168.1.100:4873/duplexify
 npm http request GET http://192.168.1.100:4873/end-of-stream
 npm http request GET http://192.168.1.100:4873/stream-shift
 npm http 304 http://192.168.1.100:4873/stream-shift
 npm http 304 http://192.168.1.100:4873/end-of-stream
+npm http request GET http://192.168.1.100:4873/once
+npm http 304 http://192.168.1.100:4873/once
 npm http request GET http://192.168.1.100:4873/buffer-shims
-npm http 200 http://192.168.1.100:4873/buffer-shims
-npm http request GET http://192.168.1.100:4873/propagate
+npm http 304 http://192.168.1.100:4873/buffer-shims
 npm http request GET http://192.168.1.100:4873/deep-equal
 npm http request GET http://192.168.1.100:4873/debug
 npm http request GET http://192.168.1.100:4873/lodash
+npm http request GET http://192.168.1.100:4873/propagate
 npm http request GET http://192.168.1.100:4873/chai
-npm http 304 http://192.168.1.100:4873/deep-equal
-npm http 304 http://192.168.1.100:4873/debug
-npm http 200 http://192.168.1.100:4873/chai
 npm http 304 http://192.168.1.100:4873/lodash
 npm WARN deprecated lodash@2.4.1: lodash@<3.0.0 is no longer maintained. Upgrade to lodash@^4.0.0.
+npm http 304 http://192.168.1.100:4873/debug
+npm http 304 http://192.168.1.100:4873/deep-equal
 npm http 200 http://192.168.1.100:4873/propagate
-npm http request GET http://192.168.1.100:4873/deep-eql
+npm http 200 http://192.168.1.100:4873/chai
 npm http request GET http://192.168.1.100:4873/assertion-error
+npm http request GET http://192.168.1.100:4873/deep-eql
 npm http request GET http://192.168.1.100:4873/type-detect
-npm http 200 http://192.168.1.100:4873/assertion-error
 npm http 200 http://192.168.1.100:4873/deep-eql
+npm http 200 http://192.168.1.100:4873/assertion-error
 npm http 200 http://192.168.1.100:4873/type-detect
 npm http request GET http://192.168.1.100:4873/ms
 npm http 304 http://192.168.1.100:4873/ms
@@ -4439,40 +4428,60 @@ npm http request GET http://192.168.1.100:4873/ip
 npm http 304 http://192.168.1.100:4873/ip
 npm http request GET http://192.168.1.100:4873/pouchdb-adapter-http
 npm http request GET http://192.168.1.100:4873/pouchdb-adapter-leveldb
-npm http request GET http://192.168.1.100:4873/pouchdb-replication
 npm http request GET http://192.168.1.100:4873/pouchdb-core
 npm http request GET http://192.168.1.100:4873/pouchdb-mapreduce
-npm http 200 http://192.168.1.100:4873/pouchdb-adapter-leveldb
-npm http 200 http://192.168.1.100:4873/pouchdb-mapreduce
+npm http request GET http://192.168.1.100:4873/pouchdb-replication
 npm http 200 http://192.168.1.100:4873/pouchdb-core
+npm http fetch GET http://192.168.1.100:4873/pouchdb-core/-/pouchdb-core-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-core/-/pouchdb-core-5.5.0-prerelease.tgz
 npm http 200 http://192.168.1.100:4873/pouchdb-replication
+npm http fetch GET http://192.168.1.100:4873/pouchdb-replication/-/pouchdb-replication-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-replication/-/pouchdb-replication-5.5.0-prerelease.tgz
+npm http 200 http://192.168.1.100:4873/pouchdb-mapreduce
+npm http fetch GET http://192.168.1.100:4873/pouchdb-mapreduce/-/pouchdb-mapreduce-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-mapreduce/-/pouchdb-mapreduce-5.5.0-prerelease.tgz
 npm http 200 http://192.168.1.100:4873/pouchdb-adapter-http
-npm http request GET http://192.168.1.100:4873/pouchdb-promise
-npm http request GET http://192.168.1.100:4873/pouchdb-utils
+npm http fetch GET http://192.168.1.100:4873/pouchdb-adapter-http/-/pouchdb-adapter-http-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-adapter-http/-/pouchdb-adapter-http-5.5.0-prerelease.tgz
+npm http 200 http://192.168.1.100:4873/pouchdb-adapter-leveldb
+npm http fetch GET http://192.168.1.100:4873/pouchdb-adapter-leveldb/-/pouchdb-adapter-leveldb-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-adapter-leveldb/-/pouchdb-adapter-leveldb-5.5.0-prerelease.tgz
+npm http request GET http://192.168.1.100:4873/pouchdb-ajax
 npm http request GET http://192.168.1.100:4873/pouchdb-binary-utils
 npm http request GET http://192.168.1.100:4873/pouchdb-errors
-npm http request GET http://192.168.1.100:4873/pouchdb-ajax
 npm http request GET http://192.168.1.100:4873/pouchdb-md5
-npm http 304 http://192.168.1.100:4873/pouchdb-promise
-npm http 200 http://192.168.1.100:4873/pouchdb-utils
-npm http 200 http://192.168.1.100:4873/pouchdb-binary-utils
-npm http 200 http://192.168.1.100:4873/pouchdb-md5
+npm http request GET http://192.168.1.100:4873/pouchdb-utils
+npm http fetch GET http://192.168.1.100:4873/pouchdb-promise/-/pouchdb-promise-5.5.0-prerelease.tgz
 npm http 200 http://192.168.1.100:4873/pouchdb-errors
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-promise/-/pouchdb-promise-5.5.0-prerelease.tgz
 npm http 200 http://192.168.1.100:4873/pouchdb-ajax
+npm http 200 http://192.168.1.100:4873/pouchdb-md5
+npm http fetch GET http://192.168.1.100:4873/pouchdb-errors/-/pouchdb-errors-5.5.0-prerelease.tgz
+npm http fetch GET http://192.168.1.100:4873/pouchdb-ajax/-/pouchdb-ajax-5.5.0-prerelease.tgz
+npm http fetch GET http://192.168.1.100:4873/pouchdb-md5/-/pouchdb-md5-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-errors/-/pouchdb-errors-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-ajax/-/pouchdb-ajax-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-md5/-/pouchdb-md5-5.5.0-prerelease.tgz
+npm http 200 http://192.168.1.100:4873/pouchdb-utils
+npm http fetch GET http://192.168.1.100:4873/pouchdb-utils/-/pouchdb-utils-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-utils/-/pouchdb-utils-5.5.0-prerelease.tgz
+npm http 200 http://192.168.1.100:4873/pouchdb-binary-utils
+npm http fetch GET http://192.168.1.100:4873/pouchdb-binary-utils/-/pouchdb-binary-utils-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-binary-utils/-/pouchdb-binary-utils-5.5.0-prerelease.tgz
 npm http request GET http://192.168.1.100:4873/request
-npm http 200 http://192.168.1.100:4873/request
-npm http fetch GET http://192.168.1.100:4873/request/-/request-2.72.0.tgz
-npm http fetch 200 http://192.168.1.100:4873/request/-/request-2.72.0.tgz
+npm http 304 http://192.168.1.100:4873/request
 npm http request GET http://192.168.1.100:4873/pouchdb-collections
 npm http 304 http://192.168.1.100:4873/pouchdb-collections
-npm http request GET http://192.168.1.100:4873/extend
+npm http fetch GET http://192.168.1.100:4873/pouchdb-collections/-/pouchdb-collections-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-collections/-/pouchdb-collections-5.5.0-prerelease.tgz
 npm http request GET http://192.168.1.100:4873/qs
-npm http 304 http://192.168.1.100:4873/extend
 npm http 304 http://192.168.1.100:4873/qs
 npm http request GET http://192.168.1.100:4873/pouchdb-adapter-leveldb-core
 npm http request GET http://192.168.1.100:4873/leveldown
-npm http 200 http://192.168.1.100:4873/pouchdb-adapter-leveldb-core
 npm http 200 http://192.168.1.100:4873/leveldown
+npm http 200 http://192.168.1.100:4873/pouchdb-adapter-leveldb-core
+npm http fetch GET http://192.168.1.100:4873/pouchdb-adapter-leveldb-core/-/pouchdb-adapter-leveldb-core-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-adapter-leveldb-core/-/pouchdb-adapter-leveldb-core-5.5.0-prerelease.tgz
 npm http request GET http://192.168.1.100:4873/nan
 npm http request GET http://192.168.1.100:4873/prebuild
 npm http 304 http://192.168.1.100:4873/nan
@@ -4480,31 +4489,37 @@ npm http 200 http://192.168.1.100:4873/prebuild
 npm http request GET http://192.168.1.100:4873/expand-template
 npm http request GET http://192.168.1.100:4873/ghreleases
 npm http request GET http://192.168.1.100:4873/github-from-package
-npm http request GET http://192.168.1.100:4873/node-ninja
-npm http request GET http://192.168.1.100:4873/os-homedir
-npm http request GET http://192.168.1.100:4873/npmlog
-npm http request GET http://192.168.1.100:4873/pump
 npm http request GET http://192.168.1.100:4873/node-gyp
+npm http request GET http://192.168.1.100:4873/node-ninja
 npm http request GET http://192.168.1.100:4873/noop-logger
-npm http request GET http://192.168.1.100:4873/tar-fs
+npm http request GET http://192.168.1.100:4873/npmlog
+npm http request GET http://192.168.1.100:4873/async
+npm http request GET http://192.168.1.100:4873/os-homedir
+npm http request GET http://192.168.1.100:4873/pump
 npm http request GET http://192.168.1.100:4873/rc
-npm http request GET http://192.168.1.100:4873/tar-stream
 npm http request GET http://192.168.1.100:4873/simple-get
+npm http request GET http://192.168.1.100:4873/tar-fs
+npm http request GET http://192.168.1.100:4873/tar-stream
 npm http 200 http://192.168.1.100:4873/github-from-package
-npm http 200 http://192.168.1.100:4873/expand-template
 npm http 200 http://192.168.1.100:4873/ghreleases
-npm http 200 http://192.168.1.100:4873/os-homedir
 npm http 200 http://192.168.1.100:4873/node-ninja
-npm http 200 http://192.168.1.100:4873/pump
-npm http 200 http://192.168.1.100:4873/npmlog
-npm http 200 http://192.168.1.100:4873/tar-fs
-npm http 200 http://192.168.1.100:4873/noop-logger
 npm http 200 http://192.168.1.100:4873/node-gyp
+npm http 200 http://192.168.1.100:4873/noop-logger
+npm http 304 http://192.168.1.100:4873/async
+npm http 200 http://192.168.1.100:4873/npmlog
+npm http 200 http://192.168.1.100:4873/os-homedir
+npm http fetch GET http://192.168.1.100:4873/os-homedir/-/os-homedir-1.0.2.tgz
+npm http 200 http://192.168.1.100:4873/expand-template
+npm http fetch GET http://192.168.1.100:4873/expand-template/-/expand-template-1.0.3.tgz
+npm http 200 http://192.168.1.100:4873/pump
+npm http 200 http://192.168.1.100:4873/rc
+npm http fetch 200 http://192.168.1.100:4873/expand-template/-/expand-template-1.0.3.tgz
+npm http 200 http://192.168.1.100:4873/tar-fs
 npm http fetch GET http://192.168.1.100:4873/tar-fs/-/tar-fs-1.13.2.tgz
 npm http fetch 200 http://192.168.1.100:4873/tar-fs/-/tar-fs-1.13.2.tgz
 npm http 200 http://192.168.1.100:4873/tar-stream
+npm http fetch 200 http://192.168.1.100:4873/os-homedir/-/os-homedir-1.0.2.tgz
 npm http 200 http://192.168.1.100:4873/simple-get
-npm http 200 http://192.168.1.100:4873/rc
 npm http request GET http://192.168.1.100:4873/after
 npm http request GET http://192.168.1.100:4873/ghrepos
 npm http request GET http://192.168.1.100:4873/ghutils
@@ -4512,9 +4527,9 @@ npm http request GET http://192.168.1.100:4873/simple-mime
 npm http request GET http://192.168.1.100:4873/url-template
 npm http 304 http://192.168.1.100:4873/after
 npm http fetch GET http://192.168.1.100:4873/after/-/after-0.8.2.tgz
+npm http 200 http://192.168.1.100:4873/url-template
 npm http fetch 200 http://192.168.1.100:4873/after/-/after-0.8.2.tgz
 npm http 200 http://192.168.1.100:4873/ghutils
-npm http 200 http://192.168.1.100:4873/url-template
 npm http 200 http://192.168.1.100:4873/simple-mime
 npm http 200 http://192.168.1.100:4873/ghrepos
 npm http request GET http://192.168.1.100:4873/jsonist
@@ -4523,46 +4538,52 @@ npm http request GET http://192.168.1.100:4873/bl
 npm http request GET http://192.168.1.100:4873/hyperquest
 npm http 304 http://192.168.1.100:4873/bl
 npm http 200 http://192.168.1.100:4873/hyperquest
+npm http request GET http://192.168.1.100:4873/readable-stream
+npm http 304 http://192.168.1.100:4873/readable-stream
 npm http request GET http://192.168.1.100:4873/duplexer2
 npm http 200 http://192.168.1.100:4873/duplexer2
 npm http request GET http://192.168.1.100:4873/fstream
 npm http request GET http://192.168.1.100:4873/nopt
-npm http request GET http://192.168.1.100:4873/osenv
 npm http request GET http://192.168.1.100:4873/path-array
+npm http request GET http://192.168.1.100:4873/osenv
 npm http request GET http://192.168.1.100:4873/tar
 npm http request GET http://192.168.1.100:4873/which
 npm http 304 http://192.168.1.100:4873/fstream
+npm http 200 http://192.168.1.100:4873/tar
 npm http 200 http://192.168.1.100:4873/path-array
 npm http 200 http://192.168.1.100:4873/osenv
 npm http 200 http://192.168.1.100:4873/nopt
-npm http 200 http://192.168.1.100:4873/tar
 npm http 200 http://192.168.1.100:4873/which
+npm http fetch GET http://192.168.1.100:4873/which/-/which-1.2.11.tgz
+npm http fetch 200 http://192.168.1.100:4873/which/-/which-1.2.11.tgz
 npm http request GET http://192.168.1.100:4873/abbrev
-npm http 200 http://192.168.1.100:4873/abbrev
+npm http 304 http://192.168.1.100:4873/abbrev
+npm http request GET http://192.168.1.100:4873/ansi
 npm http request GET http://192.168.1.100:4873/are-we-there-yet
 npm http request GET http://192.168.1.100:4873/gauge
-npm http request GET http://192.168.1.100:4873/ansi
+npm http 304 http://192.168.1.100:4873/ansi
 npm http 200 http://192.168.1.100:4873/are-we-there-yet
-npm http 200 http://192.168.1.100:4873/ansi
 npm http 200 http://192.168.1.100:4873/gauge
 npm http request GET http://192.168.1.100:4873/delegates
 npm http 200 http://192.168.1.100:4873/delegates
-npm http request GET http://192.168.1.100:4873/has-unicode
 npm http request GET http://192.168.1.100:4873/lodash.pad
+npm http request GET http://192.168.1.100:4873/has-unicode
 npm http request GET http://192.168.1.100:4873/lodash.padend
 npm http request GET http://192.168.1.100:4873/lodash.padstart
+npm http 200 http://192.168.1.100:4873/lodash.pad
 npm http 200 http://192.168.1.100:4873/has-unicode
 npm http 200 http://192.168.1.100:4873/lodash.padend
 npm http 200 http://192.168.1.100:4873/lodash.padstart
-npm http 200 http://192.168.1.100:4873/lodash.pad
+npm http fetch GET http://192.168.1.100:4873/lodash.pad/-/lodash.pad-4.5.1.tgz
+npm http fetch 200 http://192.168.1.100:4873/lodash.pad/-/lodash.pad-4.5.1.tgz
 npm http fetch GET http://192.168.1.100:4873/lodash.padend/-/lodash.padend-4.6.1.tgz
 npm http fetch GET http://192.168.1.100:4873/lodash.padstart/-/lodash.padstart-4.6.1.tgz
-npm http fetch GET http://192.168.1.100:4873/lodash.pad/-/lodash.pad-4.5.1.tgz
-npm http fetch 200 http://192.168.1.100:4873/lodash.padstart/-/lodash.padstart-4.6.1.tgz
 npm http fetch 200 http://192.168.1.100:4873/lodash.padend/-/lodash.padend-4.6.1.tgz
-npm http fetch 200 http://192.168.1.100:4873/lodash.pad/-/lodash.pad-4.5.1.tgz
+npm http fetch 200 http://192.168.1.100:4873/lodash.padstart/-/lodash.padstart-4.6.1.tgz
 npm http request GET http://192.168.1.100:4873/os-tmpdir
 npm http 200 http://192.168.1.100:4873/os-tmpdir
+npm http fetch GET http://192.168.1.100:4873/os-tmpdir/-/os-tmpdir-1.0.2.tgz
+npm http fetch 200 http://192.168.1.100:4873/os-tmpdir/-/os-tmpdir-1.0.2.tgz
 npm http request GET http://192.168.1.100:4873/array-index
 npm http 200 http://192.168.1.100:4873/array-index
 npm http request GET http://192.168.1.100:4873/es6-symbol
@@ -4573,26 +4594,26 @@ npm http 200 http://192.168.1.100:4873/d
 npm http 200 http://192.168.1.100:4873/es5-ext
 npm http request GET http://192.168.1.100:4873/es6-iterator
 npm http 200 http://192.168.1.100:4873/es6-iterator
+npm http request GET http://192.168.1.100:4873/extend
 npm http request GET http://192.168.1.100:4873/http-signature
 npm http request GET http://192.168.1.100:4873/aws-sign2
 npm http request GET http://192.168.1.100:4873/har-validator
-npm http 304 http://192.168.1.100:4873/har-validator
 npm http 304 http://192.168.1.100:4873/http-signature
 npm http 304 http://192.168.1.100:4873/aws-sign2
+npm http 304 http://192.168.1.100:4873/extend
+npm http 304 http://192.168.1.100:4873/har-validator
 npm http request GET http://192.168.1.100:4873/bluebird
 npm http 304 http://192.168.1.100:4873/bluebird
 npm http request GET http://192.168.1.100:4873/ctype
 npm http request GET http://192.168.1.100:4873/assert-plus
 npm http request GET http://192.168.1.100:4873/asn1
+npm http 304 http://192.168.1.100:4873/asn1
 npm http 304 http://192.168.1.100:4873/ctype
 npm http 304 http://192.168.1.100:4873/assert-plus
-npm http 304 http://192.168.1.100:4873/asn1
 npm http request GET http://192.168.1.100:4873/block-stream
 npm http 200 http://192.168.1.100:4873/block-stream
 npm http request GET http://192.168.1.100:4873/isexe
 npm http 200 http://192.168.1.100:4873/isexe
-npm http request GET http://192.168.1.100:4873/end-of-stream
-npm http 200 http://192.168.1.100:4873/end-of-stream
 npm http request GET http://192.168.1.100:4873/strip-json-comments
 npm http request GET http://192.168.1.100:4873/deep-extend
 npm http request GET http://192.168.1.100:4873/ini
@@ -4602,46 +4623,58 @@ npm http 200 http://192.168.1.100:4873/deep-extend
 npm WARN engine deep-extend@0.4.1: wanted: {"node":">=0.12.0","iojs":">=1.0.0"} (current: {"node":"0.10.40","npm":"3.3.12"})
 npm http request GET http://192.168.1.100:4873/unzip-response
 npm http 200 http://192.168.1.100:4873/unzip-response
-npm http request GET http://192.168.1.100:4873/readable-stream
-npm http 304 http://192.168.1.100:4873/readable-stream
-npm http request GET http://192.168.1.100:4873/sublevel-pouchdb
+npm http fetch GET http://192.168.1.100:4873/unzip-response/-/unzip-response-1.0.1.tgz
+npm http fetch 200 http://192.168.1.100:4873/unzip-response/-/unzip-response-1.0.1.tgz
+npm http request GET http://192.168.1.100:4873/pouchdb-adapter-utils
+npm http request GET http://192.168.1.100:4873/pouchdb-promise
 npm http request GET http://192.168.1.100:4873/pouchdb-merge
 npm http request GET http://192.168.1.100:4873/pouchdb-json
-npm http request GET http://192.168.1.100:4873/pouchdb-adapter-utils
-npm http 200 http://192.168.1.100:4873/pouchdb-merge
-npm http 200 http://192.168.1.100:4873/pouchdb-adapter-utils
-npm http 200 http://192.168.1.100:4873/pouchdb-json
-npm http 304 http://192.168.1.100:4873/sublevel-pouchdb
-npm http request GET http://192.168.1.100:4873/ltgt
-npm http 200 http://192.168.1.100:4873/ltgt
-npm http fetch GET http://192.168.1.100:4873/ltgt/-/ltgt-2.1.2.tgz
-npm http fetch 200 http://192.168.1.100:4873/ltgt/-/ltgt-2.1.2.tgz
-npm http request GET http://192.168.1.100:4873/pouchdb-promise
+npm http request GET http://192.168.1.100:4873/sublevel-pouchdb
 npm http 304 http://192.168.1.100:4873/pouchdb-promise
+npm http 304 http://192.168.1.100:4873/sublevel-pouchdb
+npm http fetch GET http://192.168.1.100:4873/sublevel-pouchdb/-/sublevel-pouchdb-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/sublevel-pouchdb/-/sublevel-pouchdb-5.5.0-prerelease.tgz
+npm http 200 http://192.168.1.100:4873/pouchdb-json
+npm http 200 http://192.168.1.100:4873/pouchdb-adapter-utils
+npm http fetch GET http://192.168.1.100:4873/pouchdb-json/-/pouchdb-json-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-json/-/pouchdb-json-5.5.0-prerelease.tgz
+npm http fetch GET http://192.168.1.100:4873/pouchdb-adapter-utils/-/pouchdb-adapter-utils-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-adapter-utils/-/pouchdb-adapter-utils-5.5.0-prerelease.tgz
+npm http 200 http://192.168.1.100:4873/pouchdb-merge
+npm http fetch GET http://192.168.1.100:4873/pouchdb-merge/-/pouchdb-merge-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-merge/-/pouchdb-merge-5.5.0-prerelease.tgz
+npm http request GET http://192.168.1.100:4873/ltgt
+npm http 304 http://192.168.1.100:4873/ltgt
 npm http request GET http://192.168.1.100:4873/pouchdb-mapreduce-utils
 npm http 200 http://192.168.1.100:4873/pouchdb-mapreduce-utils
+npm http fetch GET http://192.168.1.100:4873/pouchdb-mapreduce-utils/-/pouchdb-mapreduce-utils-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-mapreduce-utils/-/pouchdb-mapreduce-utils-5.5.0-prerelease.tgz
 npm http request GET http://192.168.1.100:4873/pouchdb-checkpointer
 npm http request GET http://192.168.1.100:4873/pouchdb-generate-replication-id
-npm http 200 http://192.168.1.100:4873/pouchdb-generate-replication-id
 npm http 200 http://192.168.1.100:4873/pouchdb-checkpointer
+npm http fetch GET http://192.168.1.100:4873/pouchdb-checkpointer/-/pouchdb-checkpointer-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-checkpointer/-/pouchdb-checkpointer-5.5.0-prerelease.tgz
+npm http 200 http://192.168.1.100:4873/pouchdb-generate-replication-id
+npm http fetch GET http://192.168.1.100:4873/pouchdb-generate-replication-id/-/pouchdb-generate-replication-id-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-generate-replication-id/-/pouchdb-generate-replication-id-5.5.0-prerelease.tgz
 npm http request GET http://192.168.1.100:4873/module-not-found-error
 npm http request GET http://192.168.1.100:4873/fill-keys
-npm http 200 http://192.168.1.100:4873/fill-keys
 npm http 200 http://192.168.1.100:4873/module-not-found-error
+npm http 200 http://192.168.1.100:4873/fill-keys
 npm http request GET http://192.168.1.100:4873/is-object
 npm http 200 http://192.168.1.100:4873/is-object
 npm http request GET http://192.168.1.100:4873/array-uniq
 npm http 200 http://192.168.1.100:4873/array-uniq
 npm http request GET http://192.168.1.100:4873/lodash
 npm http 304 http://192.168.1.100:4873/lodash
+npm http request GET http://192.168.1.100:4873/formatio
+npm http request GET http://192.168.1.100:4873/util
 npm http request GET http://192.168.1.100:4873/samsam
 npm http request GET http://192.168.1.100:4873/lolex
-npm http request GET http://192.168.1.100:4873/util
-npm http request GET http://192.168.1.100:4873/formatio
+npm http 200 http://192.168.1.100:4873/samsam
+npm http 200 http://192.168.1.100:4873/formatio
 npm http 200 http://192.168.1.100:4873/lolex
 npm http 200 http://192.168.1.100:4873/util
-npm http 200 http://192.168.1.100:4873/formatio
-npm http 200 http://192.168.1.100:4873/samsam
 npm http request GET http://192.168.1.100:4873/engine.io-client
 npm http request GET http://192.168.1.100:4873/component-bind
 npm http request GET http://192.168.1.100:4873/component-emitter
@@ -4654,18 +4687,16 @@ npm http request GET http://192.168.1.100:4873/to-array
 npm http request GET http://192.168.1.100:4873/backo2
 npm http request GET http://192.168.1.100:4873/debug
 npm http 304 http://192.168.1.100:4873/engine.io-client
-npm http 304 http://192.168.1.100:4873/object-component
-npm http 304 http://192.168.1.100:4873/component-emitter
+npm http 304 http://192.168.1.100:4873/component-bind
 npm http 304 http://192.168.1.100:4873/socket.io-parser
-npm http 200 http://192.168.1.100:4873/component-bind
-npm http 304 http://192.168.1.100:4873/has-binary
-npm http 304 http://192.168.1.100:4873/parseuri
-npm http 304 http://192.168.1.100:4873/to-array
+npm http 304 http://192.168.1.100:4873/object-component
+npm http 200 http://192.168.1.100:4873/component-emitter
 npm http 304 http://192.168.1.100:4873/indexof
-npm http 200 http://192.168.1.100:4873/backo2
-npm http 200 http://192.168.1.100:4873/debug
-npm http fetch GET http://192.168.1.100:4873/debug/-/debug-0.7.4.tgz
-npm http fetch 200 http://192.168.1.100:4873/debug/-/debug-0.7.4.tgz
+npm http 304 http://192.168.1.100:4873/parseuri
+npm http 200 http://192.168.1.100:4873/has-binary
+npm http 304 http://192.168.1.100:4873/backo2
+npm http 304 http://192.168.1.100:4873/to-array
+npm http 304 http://192.168.1.100:4873/debug
 npm http request GET http://192.168.1.100:4873/component-inherit
 npm http request GET http://192.168.1.100:4873/engine.io-parser
 npm http request GET http://192.168.1.100:4873/has-cors
@@ -4673,12 +4704,12 @@ npm http request GET http://192.168.1.100:4873/parsejson
 npm http request GET http://192.168.1.100:4873/parseqs
 npm http request GET http://192.168.1.100:4873/ws
 npm http fetch GET https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
-npm http 304 http://192.168.1.100:4873/has-cors
 npm http 304 http://192.168.1.100:4873/component-inherit
+npm http 304 http://192.168.1.100:4873/has-cors
 npm http 304 http://192.168.1.100:4873/parsejson
 npm http 200 http://192.168.1.100:4873/engine.io-parser
 npm http 304 http://192.168.1.100:4873/parseqs
-npm http 304 http://192.168.1.100:4873/ws
+npm http 200 http://192.168.1.100:4873/ws
 npm http fetch 200 https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
 npm http request GET http://192.168.1.100:4873/ms
 npm http 304 http://192.168.1.100:4873/ms
@@ -4687,46 +4718,46 @@ npm http request GET http://192.168.1.100:4873/base64-arraybuffer
 npm http request GET http://192.168.1.100:4873/blob
 npm http request GET http://192.168.1.100:4873/utf8
 npm http request GET http://192.168.1.100:4873/after
-npm http 304 http://192.168.1.100:4873/arraybuffer.slice
-npm http 304 http://192.168.1.100:4873/blob
 npm http 304 http://192.168.1.100:4873/base64-arraybuffer
-npm http 304 http://192.168.1.100:4873/utf8
+npm http 304 http://192.168.1.100:4873/blob
 npm http 304 http://192.168.1.100:4873/after
+npm http 304 http://192.168.1.100:4873/utf8
+npm http 200 http://192.168.1.100:4873/arraybuffer.slice
 npm http fetch GET https://github.com/component/global/archive/v2.0.1.tar.gz
 npm http fetch 200 https://github.com/component/global/archive/v2.0.1.tar.gz
 npm http request GET http://192.168.1.100:4873/better-assert
-npm http 304 http://192.168.1.100:4873/better-assert
+npm http 200 http://192.168.1.100:4873/better-assert
 npm http request GET http://192.168.1.100:4873/callsite
 npm http 304 http://192.168.1.100:4873/callsite
 npm http request GET http://192.168.1.100:4873/options
 npm http request GET http://192.168.1.100:4873/ultron
-npm http 304 http://192.168.1.100:4873/ultron
 npm http 304 http://192.168.1.100:4873/options
+npm http 304 http://192.168.1.100:4873/ultron
 npm http request GET http://192.168.1.100:4873/json3
 npm http request GET http://192.168.1.100:4873/benchmark
-npm http 304 http://192.168.1.100:4873/benchmark
 npm http 304 http://192.168.1.100:4873/json3
+npm http 304 http://192.168.1.100:4873/benchmark
 npm http request GET http://192.168.1.100:4873/superagent
 npm http 200 http://192.168.1.100:4873/superagent
 npm http request GET http://192.168.1.100:4873/qs
 npm http request GET http://192.168.1.100:4873/methods
-npm http request GET http://192.168.1.100:4873/extend
 npm http request GET http://192.168.1.100:4873/form-data
+npm http request GET http://192.168.1.100:4873/readable-stream
+npm http request GET http://192.168.1.100:4873/formidable
 npm http request GET http://192.168.1.100:4873/reduce-component
 npm http request GET http://192.168.1.100:4873/cookiejar
-npm http request GET http://192.168.1.100:4873/formidable
 npm http 304 http://192.168.1.100:4873/form-data
-npm http 304 http://192.168.1.100:4873/qs
-npm http 304 http://192.168.1.100:4873/extend
+npm http 304 http://192.168.1.100:4873/readable-stream
 npm http 304 http://192.168.1.100:4873/methods
+npm http 304 http://192.168.1.100:4873/qs
 npm http 200 http://192.168.1.100:4873/reduce-component
-npm http 200 http://192.168.1.100:4873/cookiejar
 npm http 200 http://192.168.1.100:4873/formidable
-npm http request GET http://192.168.1.100:4873/async
+npm http 200 http://192.168.1.100:4873/cookiejar
 npm http request GET http://192.168.1.100:4873/combined-stream
+npm http request GET http://192.168.1.100:4873/async
 npm http request GET http://192.168.1.100:4873/mime-types
-npm http 304 http://192.168.1.100:4873/async
 npm http 304 http://192.168.1.100:4873/combined-stream
+npm http 304 http://192.168.1.100:4873/async
 npm http 304 http://192.168.1.100:4873/mime-types
 npm http request GET http://192.168.1.100:4873/delayed-stream
 npm http 304 http://192.168.1.100:4873/delayed-stream
@@ -4736,12 +4767,12 @@ npm http request GET http://192.168.1.100:4873/bluebird
 npm http 304 http://192.168.1.100:4873/bluebird
 npm http request GET http://192.168.1.100:4873/defined
 npm http request GET http://192.168.1.100:4873/glob
-npm http request GET http://192.168.1.100:4873/object-inspect
 npm http request GET http://192.168.1.100:4873/resumer
-npm http 304 http://192.168.1.100:4873/glob
+npm http request GET http://192.168.1.100:4873/object-inspect
 npm http 304 http://192.168.1.100:4873/defined
-npm http 200 http://192.168.1.100:4873/object-inspect
+npm http 304 http://192.168.1.100:4873/glob
 npm http 200 http://192.168.1.100:4873/resumer
+npm http 200 http://192.168.1.100:4873/object-inspect
 npm WARN prefer global node-ninja@1.0.2 should be installed with -g
 npm WARN prefer global node-gyp@3.4.0 should be installed with -g
 gyp JXcore NODE-GYP Using node-gyp bundled in npm coming from JXcore
@@ -5858,69 +5889,70 @@ Trace: [TypeError: Cannot read property 'peerDictionary' of undefined]
     at nextTick (/Users/thali/Github/Thali_CordovaPlugin/thali/node_modules/immediate/lib/index.js:61:18)
     at process._tickCallback (node.js:917:13)
 npm ERR! Test failed.  See above for more details.
+bash: shell_session_update: command not found
 
 ```
 
-Error: Command failed: npm http request GET http://192.168.1.100:4873/winston
-npm http request GET http://192.168.1.100:4873/socket.io
-npm http request GET http://192.168.1.100:4873/lie
-npm http request GET http://192.168.1.100:4873/fs-extra-promise
+Error: Command failed: npm http request GET http://192.168.1.100:4873/fs-extra-promise
 npm http request GET http://192.168.1.100:4873/express
+npm http request GET http://192.168.1.100:4873/lie
+npm http request GET http://192.168.1.100:4873/socket.io
+npm http request GET http://192.168.1.100:4873/winston
+npm http 200 http://192.168.1.100:4873/lie
 npm http 200 http://192.168.1.100:4873/winston
 npm http 200 http://192.168.1.100:4873/socket.io
-npm http 200 http://192.168.1.100:4873/fs-extra-promise
-npm http 200 http://192.168.1.100:4873/lie
 npm http 200 http://192.168.1.100:4873/express
+npm http 200 http://192.168.1.100:4873/fs-extra-promise
+npm http request GET http://192.168.1.100:4873/debug
+npm http request GET http://192.168.1.100:4873/cookie
+npm http request GET http://192.168.1.100:4873/depd
+npm http request GET http://192.168.1.100:4873/cookie-signature
 npm http request GET http://192.168.1.100:4873/content-type
 npm http request GET http://192.168.1.100:4873/content-disposition
 npm http request GET http://192.168.1.100:4873/accepts
 npm http request GET http://192.168.1.100:4873/array-flatten
-npm http request GET http://192.168.1.100:4873/debug
-npm http request GET http://192.168.1.100:4873/depd
-npm http request GET http://192.168.1.100:4873/cookie-signature
-npm http request GET http://192.168.1.100:4873/cookie
+npm http request GET http://192.168.1.100:4873/escape-html
 npm http request GET http://192.168.1.100:4873/methods
+npm http request GET http://192.168.1.100:4873/on-finished
+npm http request GET http://192.168.1.100:4873/fresh
 npm http request GET http://192.168.1.100:4873/merge-descriptors
 npm http request GET http://192.168.1.100:4873/finalhandler
-npm http request GET http://192.168.1.100:4873/fresh
 npm http request GET http://192.168.1.100:4873/etag
-npm http request GET http://192.168.1.100:4873/escape-html
-npm http request GET http://192.168.1.100:4873/range-parser
-npm http request GET http://192.168.1.100:4873/parseurl
-npm http request GET http://192.168.1.100:4873/on-finished
-npm http request GET http://192.168.1.100:4873/type-is
-npm http request GET http://192.168.1.100:4873/proxy-addr
-npm http request GET http://192.168.1.100:4873/utils-merge
-npm http request GET http://192.168.1.100:4873/vary
-npm http request GET http://192.168.1.100:4873/send
-npm http request GET http://192.168.1.100:4873/qs
 npm http request GET http://192.168.1.100:4873/path-to-regexp
+npm http request GET http://192.168.1.100:4873/proxy-addr
+npm http request GET http://192.168.1.100:4873/parseurl
+npm http request GET http://192.168.1.100:4873/qs
+npm http request GET http://192.168.1.100:4873/range-parser
+npm http request GET http://192.168.1.100:4873/utils-merge
 npm http request GET http://192.168.1.100:4873/serve-static
-npm http 200 http://192.168.1.100:4873/content-type
-npm http 200 http://192.168.1.100:4873/content-disposition
-npm http 200 http://192.168.1.100:4873/array-flatten
+npm http request GET http://192.168.1.100:4873/send
+npm http request GET http://192.168.1.100:4873/vary
+npm http request GET http://192.168.1.100:4873/type-is
 npm http 200 http://192.168.1.100:4873/debug
-npm http 200 http://192.168.1.100:4873/accepts
+npm http 200 http://192.168.1.100:4873/cookie
+npm http 200 http://192.168.1.100:4873/content-type
 npm http 200 http://192.168.1.100:4873/cookie-signature
 npm http 200 http://192.168.1.100:4873/depd
-npm http 200 http://192.168.1.100:4873/merge-descriptors
-npm http 200 http://192.168.1.100:4873/cookie
-npm http 200 http://192.168.1.100:4873/methods
-npm http 200 http://192.168.1.100:4873/fresh
-npm http 200 http://192.168.1.100:4873/finalhandler
+npm http 200 http://192.168.1.100:4873/content-disposition
+npm http 200 http://192.168.1.100:4873/accepts
+npm http 200 http://192.168.1.100:4873/array-flatten
 npm http 200 http://192.168.1.100:4873/escape-html
-npm http 200 http://192.168.1.100:4873/etag
-npm http 200 http://192.168.1.100:4873/range-parser
-npm http 200 http://192.168.1.100:4873/parseurl
+npm http 200 http://192.168.1.100:4873/methods
 npm http 200 http://192.168.1.100:4873/on-finished
+npm http 200 http://192.168.1.100:4873/fresh
+npm http 200 http://192.168.1.100:4873/merge-descriptors
+npm http 200 http://192.168.1.100:4873/etag
+npm http 200 http://192.168.1.100:4873/finalhandler
 npm http 200 http://192.168.1.100:4873/proxy-addr
-npm http 200 http://192.168.1.100:4873/type-is
-npm http 200 http://192.168.1.100:4873/utils-merge
-npm http 200 http://192.168.1.100:4873/vary
-npm http 200 http://192.168.1.100:4873/send
-npm http 200 http://192.168.1.100:4873/qs
-npm http 200 http://192.168.1.100:4873/serve-static
+npm http 200 http://192.168.1.100:4873/parseurl
 npm http 200 http://192.168.1.100:4873/path-to-regexp
+npm http 200 http://192.168.1.100:4873/range-parser
+npm http 200 http://192.168.1.100:4873/qs
+npm http 200 http://192.168.1.100:4873/utils-merge
+npm http 200 http://192.168.1.100:4873/serve-static
+npm http 200 http://192.168.1.100:4873/send
+npm http 200 http://192.168.1.100:4873/vary
+npm http 200 http://192.168.1.100:4873/type-is
 npm http request GET http://192.168.1.100:4873/mime-types
 npm http request GET http://192.168.1.100:4873/negotiator
 npm http 200 http://192.168.1.100:4873/negotiator
@@ -5941,10 +5973,10 @@ npm http request GET http://192.168.1.100:4873/mime
 npm http request GET http://192.168.1.100:4873/http-errors
 npm http request GET http://192.168.1.100:4873/destroy
 npm http request GET http://192.168.1.100:4873/statuses
-npm http 200 http://192.168.1.100:4873/http-errors
-npm http 200 http://192.168.1.100:4873/statuses
-npm http 200 http://192.168.1.100:4873/mime
 npm http 200 http://192.168.1.100:4873/destroy
+npm http 200 http://192.168.1.100:4873/mime
+npm http 200 http://192.168.1.100:4873/statuses
+npm http 200 http://192.168.1.100:4873/http-errors
 npm http request GET http://192.168.1.100:4873/inherits
 npm http 200 http://192.168.1.100:4873/inherits
 npm http request GET http://192.168.1.100:4873/media-typer
@@ -5953,76 +5985,74 @@ npm http request GET http://192.168.1.100:4873/fs-extra
 npm http request GET http://192.168.1.100:4873/bluebird
 npm http 200 http://192.168.1.100:4873/fs-extra
 npm http 200 http://192.168.1.100:4873/bluebird
-npm http request GET http://192.168.1.100:4873/jsonfile
 npm http request GET http://192.168.1.100:4873/graceful-fs
+npm http request GET http://192.168.1.100:4873/jsonfile
 npm http request GET http://192.168.1.100:4873/rimraf
-npm http 200 http://192.168.1.100:4873/rimraf
 npm http 200 http://192.168.1.100:4873/jsonfile
 npm http 200 http://192.168.1.100:4873/graceful-fs
-npm http fetch GET http://192.168.1.100:4873/graceful-fs/-/graceful-fs-4.1.6.tgz
-npm http fetch 200 http://192.168.1.100:4873/graceful-fs/-/graceful-fs-4.1.6.tgz
+npm http fetch GET http://192.168.1.100:4873/graceful-fs/-/graceful-fs-4.1.9.tgz
+npm http fetch 200 http://192.168.1.100:4873/graceful-fs/-/graceful-fs-4.1.9.tgz
+npm http 200 http://192.168.1.100:4873/rimraf
 npm http request GET http://192.168.1.100:4873/glob
 npm http 200 http://192.168.1.100:4873/glob
-npm http fetch GET http://192.168.1.100:4873/glob/-/glob-7.0.6.tgz
-npm http fetch 200 http://192.168.1.100:4873/glob/-/glob-7.0.6.tgz
-npm http request GET http://192.168.1.100:4873/path-is-absolute
-npm http request GET http://192.168.1.100:4873/once
 npm http request GET http://192.168.1.100:4873/inflight
 npm http request GET http://192.168.1.100:4873/fs.realpath
 npm http request GET http://192.168.1.100:4873/minimatch
-npm http 200 http://192.168.1.100:4873/path-is-absolute
-npm http 200 http://192.168.1.100:4873/once
+npm http request GET http://192.168.1.100:4873/once
+npm http request GET http://192.168.1.100:4873/path-is-absolute
 npm http 200 http://192.168.1.100:4873/inflight
 npm http 200 http://192.168.1.100:4873/fs.realpath
+npm http 200 http://192.168.1.100:4873/once
+npm http 200 http://192.168.1.100:4873/path-is-absolute
 npm http 200 http://192.168.1.100:4873/minimatch
+npm http fetch GET http://192.168.1.100:4873/path-is-absolute/-/path-is-absolute-1.0.1.tgz
+npm http fetch 200 http://192.168.1.100:4873/path-is-absolute/-/path-is-absolute-1.0.1.tgz
 npm http request GET http://192.168.1.100:4873/wrappy
 npm http 200 http://192.168.1.100:4873/wrappy
 npm http request GET http://192.168.1.100:4873/brace-expansion
 npm http 200 http://192.168.1.100:4873/brace-expansion
-npm http request GET http://192.168.1.100:4873/balanced-match
 npm http request GET http://192.168.1.100:4873/concat-map
+npm http request GET http://192.168.1.100:4873/balanced-match
 npm http 200 http://192.168.1.100:4873/concat-map
 npm http 200 http://192.168.1.100:4873/balanced-match
 npm http request GET http://192.168.1.100:4873/es3ify
+npm http request GET http://192.168.1.100:4873/unreachable-branch-transform
 npm http request GET http://192.168.1.100:4873/inline-process-browser
 npm http request GET http://192.168.1.100:4873/immediate
-npm http request GET http://192.168.1.100:4873/unreachable-branch-transform
 npm http 200 http://192.168.1.100:4873/es3ify
+npm http 200 http://192.168.1.100:4873/unreachable-branch-transform
 npm http 200 http://192.168.1.100:4873/inline-process-browser
 npm http 200 http://192.168.1.100:4873/immediate
-npm http 200 http://192.168.1.100:4873/unreachable-branch-transform
 npm http request GET http://192.168.1.100:4873/through
 npm http request GET http://192.168.1.100:4873/jstransform
 npm http request GET http://192.168.1.100:4873/esprima
+npm http 200 http://192.168.1.100:4873/esprima
 npm http 200 http://192.168.1.100:4873/through
 npm http 200 http://192.168.1.100:4873/jstransform
-npm http 200 http://192.168.1.100:4873/esprima
-npm http fetch GET http://192.168.1.100:4873/esprima/-/esprima-2.7.3.tgz
-npm http fetch 200 http://192.168.1.100:4873/esprima/-/esprima-2.7.3.tgz
 npm http request GET http://192.168.1.100:4873/base62
-npm http request GET http://192.168.1.100:4873/object-assign
-npm http request GET http://192.168.1.100:4873/esprima-fb
 npm http request GET http://192.168.1.100:4873/commoner
+npm http request GET http://192.168.1.100:4873/object-assign
 npm http request GET http://192.168.1.100:4873/source-map
-npm http 200 http://192.168.1.100:4873/esprima-fb
-npm http 200 http://192.168.1.100:4873/base62
-npm http 200 http://192.168.1.100:4873/object-assign
+npm http request GET http://192.168.1.100:4873/esprima-fb
 npm http 200 http://192.168.1.100:4873/commoner
+npm http 200 http://192.168.1.100:4873/base62
+npm http 200 http://192.168.1.100:4873/esprima-fb
+npm http 200 http://192.168.1.100:4873/object-assign
 npm http 200 http://192.168.1.100:4873/source-map
-npm http request GET http://192.168.1.100:4873/q
-npm http request GET http://192.168.1.100:4873/private
-npm http request GET http://192.168.1.100:4873/iconv-lite
-npm http request GET http://192.168.1.100:4873/mkdirp
 npm http request GET http://192.168.1.100:4873/detective
 npm http request GET http://192.168.1.100:4873/commander
+npm http request GET http://192.168.1.100:4873/mkdirp
+npm http request GET http://192.168.1.100:4873/iconv-lite
+npm http request GET http://192.168.1.100:4873/private
+npm http request GET http://192.168.1.100:4873/q
 npm http request GET http://192.168.1.100:4873/recast
+npm http 200 http://192.168.1.100:4873/detective
 npm http 200 http://192.168.1.100:4873/private
 npm http 200 http://192.168.1.100:4873/mkdirp
+npm http 200 http://192.168.1.100:4873/commander
 npm http 200 http://192.168.1.100:4873/iconv-lite
 npm http 200 http://192.168.1.100:4873/q
-npm http 200 http://192.168.1.100:4873/commander
 npm http 200 http://192.168.1.100:4873/recast
-npm http 200 http://192.168.1.100:4873/detective
 npm http request GET http://192.168.1.100:4873/graceful-readlink
 npm http 200 http://192.168.1.100:4873/graceful-readlink
 npm http request GET http://192.168.1.100:4873/defined
@@ -6045,50 +6075,50 @@ npm http request GET http://192.168.1.100:4873/object-keys
 npm http 200 http://192.168.1.100:4873/foreach
 npm http 200 http://192.168.1.100:4873/isarray
 npm http 200 http://192.168.1.100:4873/object-keys
-npm http request GET http://192.168.1.100:4873/readable-stream
 npm http request GET http://192.168.1.100:4873/xtend
-npm http 200 http://192.168.1.100:4873/readable-stream
+npm http request GET http://192.168.1.100:4873/readable-stream
 npm http 200 http://192.168.1.100:4873/xtend
-npm http request GET http://192.168.1.100:4873/core-util-is
+npm http 200 http://192.168.1.100:4873/readable-stream
 npm http request GET http://192.168.1.100:4873/string_decoder
+npm http request GET http://192.168.1.100:4873/core-util-is
 npm http 200 http://192.168.1.100:4873/core-util-is
 npm http 200 http://192.168.1.100:4873/string_decoder
 npm http request GET http://192.168.1.100:4873/esmangle-evaluator
 npm http 200 http://192.168.1.100:4873/esmangle-evaluator
-npm http request GET http://192.168.1.100:4873/has-binary-data
-npm http request GET http://192.168.1.100:4873/socket.io-adapter
 npm http request GET http://192.168.1.100:4873/socket.io-parser
-npm http request GET http://192.168.1.100:4873/engine.io
+npm http request GET http://192.168.1.100:4873/socket.io-adapter
 npm http request GET http://192.168.1.100:4873/socket.io-client
+npm http request GET http://192.168.1.100:4873/engine.io
+npm http request GET http://192.168.1.100:4873/has-binary-data
 npm http 200 http://192.168.1.100:4873/socket.io-adapter
-npm http 200 http://192.168.1.100:4873/socket.io-parser
-npm http 200 http://192.168.1.100:4873/engine.io
-npm http 200 http://192.168.1.100:4873/socket.io-client
 npm http 200 http://192.168.1.100:4873/has-binary-data
-npm http request GET http://192.168.1.100:4873/engine.io-parser
+npm http 200 http://192.168.1.100:4873/socket.io-parser
+npm http 200 http://192.168.1.100:4873/socket.io-client
+npm http 200 http://192.168.1.100:4873/engine.io
 npm http request GET http://192.168.1.100:4873/base64id
+npm http request GET http://192.168.1.100:4873/engine.io-parser
 npm http request GET http://192.168.1.100:4873/ws
 npm http 200 http://192.168.1.100:4873/engine.io-parser
-npm http 200 http://192.168.1.100:4873/ws
 npm http 200 http://192.168.1.100:4873/base64id
+npm http 200 http://192.168.1.100:4873/ws
 npm http request GET http://192.168.1.100:4873/after
 npm http request GET http://192.168.1.100:4873/arraybuffer.slice
-npm http request GET http://192.168.1.100:4873/blob
 npm http request GET http://192.168.1.100:4873/base64-arraybuffer
-npm http request GET http://192.168.1.100:4873/utf8
+npm http request GET http://192.168.1.100:4873/blob
 npm http request GET http://192.168.1.100:4873/has-binary
+npm http request GET http://192.168.1.100:4873/utf8
 npm http 200 http://192.168.1.100:4873/after
 npm http 200 http://192.168.1.100:4873/arraybuffer.slice
-npm http 200 http://192.168.1.100:4873/base64-arraybuffer
-npm http 200 http://192.168.1.100:4873/utf8
 npm http 200 http://192.168.1.100:4873/blob
+npm http 200 http://192.168.1.100:4873/base64-arraybuffer
 npm http 200 http://192.168.1.100:4873/has-binary
+npm http 200 http://192.168.1.100:4873/utf8
 npm http request GET http://192.168.1.100:4873/options
 npm http request GET http://192.168.1.100:4873/ultron
 npm http request GET http://192.168.1.100:4873/bufferutil
 npm http request GET http://192.168.1.100:4873/utf-8-validate
-npm http 200 http://192.168.1.100:4873/ultron
 npm http 200 http://192.168.1.100:4873/options
+npm http 200 http://192.168.1.100:4873/ultron
 npm http 200 http://192.168.1.100:4873/utf-8-validate
 npm http 200 http://192.168.1.100:4873/bufferutil
 npm http request GET http://192.168.1.100:4873/bindings
@@ -6098,32 +6128,34 @@ npm http 200 http://192.168.1.100:4873/nan
 npm http request GET http://192.168.1.100:4873/json3
 npm http request GET http://192.168.1.100:4873/component-emitter
 npm http request GET http://192.168.1.100:4873/benchmark
-npm http 200 http://192.168.1.100:4873/component-emitter
-npm http 200 http://192.168.1.100:4873/benchmark
 npm http 200 http://192.168.1.100:4873/json3
-npm http request GET http://192.168.1.100:4873/backo2
-npm http request GET http://192.168.1.100:4873/to-array
-npm http request GET http://192.168.1.100:4873/parseuri
-npm http request GET http://192.168.1.100:4873/indexof
-npm http request GET http://192.168.1.100:4873/object-component
-npm http request GET http://192.168.1.100:4873/component-bind
+npm http 200 http://192.168.1.100:4873/benchmark
+npm http 200 http://192.168.1.100:4873/component-emitter
 npm http request GET http://192.168.1.100:4873/engine.io-client
-npm http 200 http://192.168.1.100:4873/backo2
+npm http request GET http://192.168.1.100:4873/component-bind
+npm http request GET http://192.168.1.100:4873/object-component
+npm http request GET http://192.168.1.100:4873/indexof
+npm http request GET http://192.168.1.100:4873/parseuri
+npm http request GET http://192.168.1.100:4873/to-array
+npm http request GET http://192.168.1.100:4873/backo2
 npm http 200 http://192.168.1.100:4873/indexof
-npm http 200 http://192.168.1.100:4873/to-array
+npm http 200 http://192.168.1.100:4873/engine.io-client
 npm http 200 http://192.168.1.100:4873/object-component
 npm http 200 http://192.168.1.100:4873/parseuri
 npm http 200 http://192.168.1.100:4873/component-bind
-npm http 200 http://192.168.1.100:4873/engine.io-client
+npm http 200 http://192.168.1.100:4873/to-array
+npm http 200 http://192.168.1.100:4873/backo2
 npm http request GET http://192.168.1.100:4873/component-inherit
-npm http request GET http://192.168.1.100:4873/has-cors
 npm http request GET http://192.168.1.100:4873/parsejson
 npm http request GET http://192.168.1.100:4873/parseqs
+npm http request GET http://192.168.1.100:4873/debug
+npm http request GET http://192.168.1.100:4873/has-cors
 npm http fetch GET https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
 npm http 200 http://192.168.1.100:4873/component-inherit
-npm http 200 http://192.168.1.100:4873/has-cors
 npm http 200 http://192.168.1.100:4873/parseqs
 npm http 200 http://192.168.1.100:4873/parsejson
+npm http 304 http://192.168.1.100:4873/debug
+npm http 200 http://192.168.1.100:4873/has-cors
 npm http fetch 200 https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
 npm http request GET http://192.168.1.100:4873/ms
 npm http 304 http://192.168.1.100:4873/ms
@@ -6133,30 +6165,28 @@ npm http request GET http://192.168.1.100:4873/better-assert
 npm http 200 http://192.168.1.100:4873/better-assert
 npm http request GET http://192.168.1.100:4873/callsite
 npm http 200 http://192.168.1.100:4873/callsite
-npm http request GET http://192.168.1.100:4873/debug
-npm http 304 http://192.168.1.100:4873/debug
-npm http request GET http://192.168.1.100:4873/cycle
 npm http request GET http://192.168.1.100:4873/eyes
-npm http request GET http://192.168.1.100:4873/colors
-npm http request GET http://192.168.1.100:4873/async
-npm http request GET http://192.168.1.100:4873/pkginfo
 npm http request GET http://192.168.1.100:4873/isstream
+npm http request GET http://192.168.1.100:4873/cycle
+npm http request GET http://192.168.1.100:4873/colors
+npm http request GET http://192.168.1.100:4873/pkginfo
+npm http request GET http://192.168.1.100:4873/async
 npm http request GET http://192.168.1.100:4873/stack-trace
+npm http 200 http://192.168.1.100:4873/isstream
+npm http 200 http://192.168.1.100:4873/eyes
 npm http 200 http://192.168.1.100:4873/cycle
 npm http 200 http://192.168.1.100:4873/pkginfo
-npm http 200 http://192.168.1.100:4873/eyes
 npm http 200 http://192.168.1.100:4873/colors
-npm http 200 http://192.168.1.100:4873/async
-npm http 200 http://192.168.1.100:4873/isstream
 npm http 200 http://192.168.1.100:4873/stack-trace
+npm http 200 http://192.168.1.100:4873/async
 npm http request GET http://192.168.1.100:4873/node-uuid
 npm http request GET http://192.168.1.100:4873/tape
 npm http 200 http://192.168.1.100:4873/node-uuid
 npm http 200 http://192.168.1.100:4873/tape
 npm http request GET http://192.168.1.100:4873/jsonify
 npm http request GET http://192.168.1.100:4873/deep-equal
-npm http 200 http://192.168.1.100:4873/jsonify
 npm http 200 http://192.168.1.100:4873/deep-equal
+npm http 200 http://192.168.1.100:4873/jsonify
 gyp JXcore NODE-GYP Using node-gyp bundled in npm coming from JXcore
 In file included from ../src/bufferutil.cc:10:
 In file included from /Users/thali/.node-gyp/jxb311/src/node_buffer.h:8:
@@ -6182,656 +6212,67 @@ npm WARN EPACKAGEJSON thali-test-server@0.0.1 No license field.
 npm http request GET http://192.168.1.100:4873/express
 npm http request GET http://192.168.1.100:4873/body-parser
 npm http request GET http://192.168.1.100:4873/forever-agent
-npm http request GET http://192.168.1.100:4873/lie
+npm http request GET http://192.168.1.100:4873/ip
 npm http request GET http://192.168.1.100:4873/javascript-state-machine
 npm http request GET http://192.168.1.100:4873/node-uuid
-npm http request GET http://192.168.1.100:4873/ip
+npm http request GET http://192.168.1.100:4873/lie
+npm http request GET http://192.168.1.100:4873/winston
 npm http request GET http://192.168.1.100:4873/long
 npm http request GET http://192.168.1.100:4873/multiplex
-npm http request GET http://192.168.1.100:4873/salti
-npm http request GET http://192.168.1.100:4873/urlsafe-base64
 npm http request GET http://192.168.1.100:4873/request
-npm http request GET http://192.168.1.100:4873/winston
-npm http 304 http://192.168.1.100:4873/lie
-npm http 304 http://192.168.1.100:4873/node-uuid
-npm http 304 http://192.168.1.100:4873/express
+npm http request GET http://192.168.1.100:4873/urlsafe-base64
+npm http request GET http://192.168.1.100:4873/salti
 npm http 200 http://192.168.1.100:4873/forever-agent
 npm http 200 http://192.168.1.100:4873/ip
-npm http 200 http://192.168.1.100:4873/body-parser
+npm http 304 http://192.168.1.100:4873/express
 npm http 200 http://192.168.1.100:4873/javascript-state-machine
-npm http 200 http://192.168.1.100:4873/long
-npm http 200 http://192.168.1.100:4873/urlsafe-base64
-npm http 200 http://192.168.1.100:4873/request
+npm http 200 http://192.168.1.100:4873/body-parser
+npm http 304 http://192.168.1.100:4873/node-uuid
 npm http 304 http://192.168.1.100:4873/winston
+npm http 200 http://192.168.1.100:4873/lie
+npm http 200 http://192.168.1.100:4873/long
 npm http 200 http://192.168.1.100:4873/multiplex
-npm http 304 http://192.168.1.100:4873/salti
+npm http 200 http://192.168.1.100:4873/salti
+npm http 200 http://192.168.1.100:4873/request
+npm http 200 http://192.168.1.100:4873/urlsafe-base64
 npm http request GET http://192.168.1.100:4873/content-type
 npm http request GET http://192.168.1.100:4873/debug
 npm http request GET http://192.168.1.100:4873/depd
 npm http request GET http://192.168.1.100:4873/http-errors
 npm http request GET http://192.168.1.100:4873/iconv-lite
-npm http request GET http://192.168.1.100:4873/on-finished
 npm http request GET http://192.168.1.100:4873/bytes
+npm http request GET http://192.168.1.100:4873/on-finished
 npm http request GET http://192.168.1.100:4873/qs
 npm http request GET http://192.168.1.100:4873/type-is
 npm http request GET http://192.168.1.100:4873/raw-body
+npm http 304 http://192.168.1.100:4873/depd
+npm http 304 http://192.168.1.100:4873/http-errors
 npm http 304 http://192.168.1.100:4873/iconv-lite
 npm http 304 http://192.168.1.100:4873/debug
-npm http 304 http://192.168.1.100:4873/depd
-npm http 304 http://192.168.1.100:4873/on-finished
-npm http 304 http://192.168.1.100:4873/http-errors
+npm http 304 http://192.168.1.100:4873/type-is
 npm http 200 http://192.168.1.100:4873/content-type
+npm http 304 http://192.168.1.100:4873/on-finished
 npm http 200 http://192.168.1.100:4873/bytes
 npm http 304 http://192.168.1.100:4873/qs
 npm http 200 http://192.168.1.100:4873/raw-body
-npm http 304 http://192.168.1.100:4873/type-is
 npm http request GET http://192.168.1.100:4873/ms
 npm http 304 http://192.168.1.100:4873/ms
 npm http request GET http://192.168.1.100:4873/inherits
 npm http request GET http://192.168.1.100:4873/statuses
-npm http 304 http://192.168.1.100:4873/statuses
 npm http 304 http://192.168.1.100:4873/inherits
+npm http 304 http://192.168.1.100:4873/statuses
 npm http request GET http://192.168.1.100:4873/ee-first
-npm http 304 http://192.168.1.100:4873/ee-first
+npm http 200 http://192.168.1.100:4873/ee-first
 npm http request GET http://192.168.1.100:4873/unpipe
 npm http 304 http://192.168.1.100:4873/unpipe
 npm http request GET http://192.168.1.100:4873/media-typer
 npm http request GET http://192.168.1.100:4873/mime-types
-npm http 304 http://192.168.1.100:4873/mime-types
 npm http 304 http://192.168.1.100:4873/media-typer
+npm http 304 http://192.168.1.100:4873/mime-types
 npm http request GET http://192.168.1.100:4873/mime-db
 npm http 304 http://192.168.1.100:4873/mime-db
 npm http request GET http://192.168.1.100:4873/accepts
 npm http request GET http://192.168.1.100:4873/array-flatten
-npm http request GET http://192.168.1.100:4873/content-disposition
-npm http request GET http://192.168.1.100:4873/cookie
-npm http request GET http://192.168.1.100:4873/cookie-signature
-npm http request GET http://192.168.1.100:4873/escape-html
-npm http request GET http://192.168.1.100:4873/etag
-npm http request GET http://192.168.1.100:4873/finalhandler
-npm http request GET http://192.168.1.100:4873/fresh
-npm http request GET http://192.168.1.100:4873/merge-descriptors
-npm http request GET http://192.168.1.100:4873/methods
-npm http request GET http://192.168.1.100:4873/parseurl
-npm http request GET http://192.168.1.100:4873/path-to-regexp
-npm http request GET http://192.168.1.100:4873/proxy-addr
-npm http request GET http://192.168.1.100:4873/range-parser
-npm http request GET http://192.168.1.100:4873/send
-npm http request GET http://192.168.1.100:4873/serve-static
-npm http request GET http://192.168.1.100:4873/utils-merge
-npm http request GET http://192.168.1.100:4873/vary
-npm http 304 http://192.168.1.100:4873/content-disposition
-npm http 304 http://192.168.1.100:4873/cookie-signature
-npm http 304 http://192.168.1.100:4873/cookie
-npm http 304 http://192.168.1.100:4873/array-flatten
-npm http 200 http://192.168.1.100:4873/accepts
-npm http 304 http://192.168.1.100:4873/escape-html
-npm http 304 http://192.168.1.100:4873/methods
-npm http 304 http://192.168.1.100:4873/etag
-npm http 304 http://192.168.1.100:4873/finalhandler
-npm http 304 http://192.168.1.100:4873/path-to-regexp
-npm http 304 http://192.168.1.100:4873/fresh
-npm http 200 http://192.168.1.100:4873/merge-descriptors
-npm http 304 http://192.168.1.100:4873/parseurl
-npm http 304 http://192.168.1.100:4873/utils-merge
-npm http 304 http://192.168.1.100:4873/send
-npm http 304 http://192.168.1.100:4873/proxy-addr
-npm http 304 http://192.168.1.100:4873/range-parser
-npm http 200 http://192.168.1.100:4873/serve-static
-npm http 304 http://192.168.1.100:4873/vary
-npm http request GET http://192.168.1.100:4873/negotiator
-npm http 304 http://192.168.1.100:4873/negotiator
-npm http request GET http://192.168.1.100:4873/forwarded
-npm http request GET http://192.168.1.100:4873/ipaddr.js
-npm http 304 http://192.168.1.100:4873/forwarded
-npm http 304 http://192.168.1.100:4873/ipaddr.js
-npm http request GET http://192.168.1.100:4873/destroy
-npm http request GET http://192.168.1.100:4873/mime
-npm http 304 http://192.168.1.100:4873/destroy
-npm http 200 http://192.168.1.100:4873/mime
-npm http request GET http://192.168.1.100:4873/es3ify
-npm http request GET http://192.168.1.100:4873/immediate
-npm http request GET http://192.168.1.100:4873/inline-process-browser
-npm http request GET http://192.168.1.100:4873/unreachable-branch-transform
-npm http 304 http://192.168.1.100:4873/es3ify
-npm http 304 http://192.168.1.100:4873/inline-process-browser
-npm http 304 http://192.168.1.100:4873/unreachable-branch-transform
-npm http 200 http://192.168.1.100:4873/immediate
-npm http request GET http://192.168.1.100:4873/esprima
-npm http request GET http://192.168.1.100:4873/jstransform
-npm http request GET http://192.168.1.100:4873/through
-npm http 304 http://192.168.1.100:4873/esprima
-npm http 200 http://192.168.1.100:4873/jstransform
-npm http 304 http://192.168.1.100:4873/through
-npm http request GET http://192.168.1.100:4873/base62
-npm http request GET http://192.168.1.100:4873/commoner
-npm http request GET http://192.168.1.100:4873/esprima-fb
-npm http request GET http://192.168.1.100:4873/object-assign
-npm http request GET http://192.168.1.100:4873/source-map
-npm http 304 http://192.168.1.100:4873/commoner
-npm http 304 http://192.168.1.100:4873/object-assign
-npm http 200 http://192.168.1.100:4873/base62
-npm http 304 http://192.168.1.100:4873/source-map
-npm http 200 http://192.168.1.100:4873/esprima-fb
-npm http request GET http://192.168.1.100:4873/commander
-npm http request GET http://192.168.1.100:4873/detective
-npm http request GET http://192.168.1.100:4873/graceful-fs
-npm http request GET http://192.168.1.100:4873/glob
-npm http request GET http://192.168.1.100:4873/mkdirp
-npm http request GET http://192.168.1.100:4873/private
-npm http request GET http://192.168.1.100:4873/q
-npm http request GET http://192.168.1.100:4873/recast
-npm http 304 http://192.168.1.100:4873/detective
-npm http 304 http://192.168.1.100:4873/graceful-fs
-npm http 304 http://192.168.1.100:4873/q
-npm http 304 http://192.168.1.100:4873/recast
-npm http 304 http://192.168.1.100:4873/commander
-npm http 304 http://192.168.1.100:4873/mkdirp
-npm http 200 http://192.168.1.100:4873/private
-npm http 200 http://192.168.1.100:4873/glob
-npm http request GET http://192.168.1.100:4873/graceful-readlink
-npm http 304 http://192.168.1.100:4873/graceful-readlink
-npm http request GET http://192.168.1.100:4873/acorn
-npm http request GET http://192.168.1.100:4873/defined
-npm http 304 http://192.168.1.100:4873/acorn
-npm http 304 http://192.168.1.100:4873/defined
-npm http request GET http://192.168.1.100:4873/inflight
-npm http request GET http://192.168.1.100:4873/minimatch
-npm http request GET http://192.168.1.100:4873/once
-npm http request GET http://192.168.1.100:4873/path-is-absolute
-npm http 304 http://192.168.1.100:4873/inflight
-npm http 304 http://192.168.1.100:4873/minimatch
-npm http 304 http://192.168.1.100:4873/once
-npm http 304 http://192.168.1.100:4873/path-is-absolute
-npm http request GET http://192.168.1.100:4873/wrappy
-npm http 304 http://192.168.1.100:4873/wrappy
-npm http request GET http://192.168.1.100:4873/brace-expansion
-npm http 304 http://192.168.1.100:4873/brace-expansion
-npm http request GET http://192.168.1.100:4873/balanced-match
-npm http request GET http://192.168.1.100:4873/concat-map
-npm http 304 http://192.168.1.100:4873/concat-map
-npm http 304 http://192.168.1.100:4873/balanced-match
-npm http request GET http://192.168.1.100:4873/minimist
-npm http 304 http://192.168.1.100:4873/minimist
-npm http request GET http://192.168.1.100:4873/ast-types
-npm http 200 http://192.168.1.100:4873/ast-types
-npm http request GET http://192.168.1.100:4873/amdefine
-npm http 304 http://192.168.1.100:4873/amdefine
-npm http request GET http://192.168.1.100:4873/falafel
-npm http request GET http://192.168.1.100:4873/through2
-npm http 304 http://192.168.1.100:4873/falafel
-npm http 304 http://192.168.1.100:4873/through2
-npm http request GET http://192.168.1.100:4873/foreach
-npm http request GET http://192.168.1.100:4873/isarray
-npm http request GET http://192.168.1.100:4873/object-keys
-npm http 304 http://192.168.1.100:4873/isarray
-npm http 304 http://192.168.1.100:4873/object-keys
-npm http 304 http://192.168.1.100:4873/foreach
-npm http request GET http://192.168.1.100:4873/readable-stream
-npm http request GET http://192.168.1.100:4873/xtend
-npm http 304 http://192.168.1.100:4873/xtend
-npm http 304 http://192.168.1.100:4873/readable-stream
-npm http request GET http://192.168.1.100:4873/core-util-is
-npm http request GET http://192.168.1.100:4873/string_decoder
-npm http 304 http://192.168.1.100:4873/string_decoder
-npm http 304 http://192.168.1.100:4873/core-util-is
-npm http request GET http://192.168.1.100:4873/esmangle-evaluator
-npm http 304 http://192.168.1.100:4873/esmangle-evaluator
-npm http request GET http://192.168.1.100:4873/varint
-npm http request GET http://192.168.1.100:4873/duplexify
-npm http fetch GET http://192.168.1.100:4873/readable-stream/-/readable-stream-2.1.5.tgz
-npm http fetch 200 http://192.168.1.100:4873/readable-stream/-/readable-stream-2.1.5.tgz
-npm http 200 http://192.168.1.100:4873/duplexify
-npm http 200 http://192.168.1.100:4873/varint
-npm http request GET http://192.168.1.100:4873/end-of-stream
-npm http request GET http://192.168.1.100:4873/stream-shift
-npm http 200 http://192.168.1.100:4873/end-of-stream
-npm http 200 http://192.168.1.100:4873/stream-shift
-npm http request GET http://192.168.1.100:4873/buffer-shims
-npm http request GET http://192.168.1.100:4873/process-nextick-args
-npm http request GET http://192.168.1.100:4873/util-deprecate
-npm http 200 http://192.168.1.100:4873/buffer-shims
-npm http 200 http://192.168.1.100:4873/util-deprecate
-npm http 200 http://192.168.1.100:4873/process-nextick-args
-npm http request GET http://192.168.1.100:4873/bl
-npm http request GET http://192.168.1.100:4873/caseless
-npm http request GET http://192.168.1.100:4873/extend
-npm http request GET http://192.168.1.100:4873/http-signature
-npm http request GET http://192.168.1.100:4873/oauth-sign
-npm http request GET http://192.168.1.100:4873/tough-cookie
-npm http request GET http://192.168.1.100:4873/stringstream
-npm http request GET http://192.168.1.100:4873/combined-stream
-npm http request GET http://192.168.1.100:4873/isstream
-npm http request GET http://192.168.1.100:4873/aws-sign2
-npm http request GET http://192.168.1.100:4873/hawk
-npm http request GET http://192.168.1.100:4873/tunnel-agent
-npm http request GET http://192.168.1.100:4873/json-stringify-safe
-npm http request GET http://192.168.1.100:4873/form-data
-npm http request GET http://192.168.1.100:4873/har-validator
-npm http 200 http://192.168.1.100:4873/oauth-sign
-npm http 200 http://192.168.1.100:4873/caseless
-npm http 200 http://192.168.1.100:4873/http-signature
-npm http 200 http://192.168.1.100:4873/extend
-npm http 200 http://192.168.1.100:4873/bl
-npm http 304 http://192.168.1.100:4873/isstream
-npm http 200 http://192.168.1.100:4873/combined-stream
-npm http 200 http://192.168.1.100:4873/aws-sign2
-npm http 200 http://192.168.1.100:4873/stringstream
-npm http 200 http://192.168.1.100:4873/tough-cookie
-npm http 200 http://192.168.1.100:4873/hawk
-npm http 200 http://192.168.1.100:4873/tunnel-agent
-npm http 200 http://192.168.1.100:4873/har-validator
-npm http 200 http://192.168.1.100:4873/json-stringify-safe
-npm http 200 http://192.168.1.100:4873/form-data
-npm http fetch GET http://192.168.1.100:4873/form-data/-/form-data-1.0.1.tgz
-npm http fetch 200 http://192.168.1.100:4873/form-data/-/form-data-1.0.1.tgz
-npm http request GET http://192.168.1.100:4873/delayed-stream
-npm http 200 http://192.168.1.100:4873/delayed-stream
-npm http request GET http://192.168.1.100:4873/async
-npm http 304 http://192.168.1.100:4873/async
-npm http fetch GET http://192.168.1.100:4873/async/-/async-2.0.1.tgz
-npm http fetch 200 http://192.168.1.100:4873/async/-/async-2.0.1.tgz
-npm http request GET http://192.168.1.100:4873/lodash
-npm http 200 http://192.168.1.100:4873/lodash
-npm http fetch GET http://192.168.1.100:4873/lodash/-/lodash-4.15.0.tgz
-npm http fetch 200 http://192.168.1.100:4873/lodash/-/lodash-4.15.0.tgz
-npm http request GET http://192.168.1.100:4873/bluebird
-npm http request GET http://192.168.1.100:4873/chalk
-npm http request GET http://192.168.1.100:4873/is-my-json-valid
-npm http 200 http://192.168.1.100:4873/is-my-json-valid
-npm http 200 http://192.168.1.100:4873/chalk
-npm http 304 http://192.168.1.100:4873/bluebird
-npm http request GET http://192.168.1.100:4873/ansi-styles
-npm http request GET http://192.168.1.100:4873/escape-string-regexp
-npm http request GET http://192.168.1.100:4873/has-ansi
-npm http request GET http://192.168.1.100:4873/strip-ansi
-npm http request GET http://192.168.1.100:4873/supports-color
-npm http 200 http://192.168.1.100:4873/ansi-styles
-npm http 200 http://192.168.1.100:4873/strip-ansi
-npm http 200 http://192.168.1.100:4873/escape-string-regexp
-npm http 200 http://192.168.1.100:4873/supports-color
-npm http 200 http://192.168.1.100:4873/has-ansi
-npm http request GET http://192.168.1.100:4873/ansi-regex
-npm http 200 http://192.168.1.100:4873/ansi-regex
-npm http request GET http://192.168.1.100:4873/generate-object-property
-npm http request GET http://192.168.1.100:4873/generate-function
-npm http request GET http://192.168.1.100:4873/jsonpointer
-npm http 200 http://192.168.1.100:4873/generate-object-property
-npm http 200 http://192.168.1.100:4873/generate-function
-npm http 200 http://192.168.1.100:4873/jsonpointer
-npm http request GET http://192.168.1.100:4873/is-property
-npm http 200 http://192.168.1.100:4873/is-property
-npm http request GET http://192.168.1.100:4873/sntp
-npm http request GET http://192.168.1.100:4873/cryptiles
-npm http request GET http://192.168.1.100:4873/hoek
-npm http request GET http://192.168.1.100:4873/boom
-npm http 200 http://192.168.1.100:4873/cryptiles
-npm http 200 http://192.168.1.100:4873/boom
-npm http 200 http://192.168.1.100:4873/sntp
-npm http 200 http://192.168.1.100:4873/hoek
-npm http request GET http://192.168.1.100:4873/assert-plus
-npm http request GET http://192.168.1.100:4873/asn1
-npm http request GET http://192.168.1.100:4873/ctype
-npm http 200 http://192.168.1.100:4873/ctype
-npm http 200 http://192.168.1.100:4873/assert-plus
-npm http 200 http://192.168.1.100:4873/asn1
-npm http request GET http://192.168.1.100:4873/colors
-npm http request GET http://192.168.1.100:4873/cycle
-npm http request GET http://192.168.1.100:4873/eyes
-npm http request GET http://192.168.1.100:4873/pkginfo
-npm http request GET http://192.168.1.100:4873/stack-trace
-npm http 304 http://192.168.1.100:4873/eyes
-npm http 304 http://192.168.1.100:4873/stack-trace
-npm http 304 http://192.168.1.100:4873/cycle
-npm http 304 http://192.168.1.100:4873/colors
-npm http 304 http://192.168.1.100:4873/pkginfo
-npm http request GET http://192.168.1.100:4873/jsdoc
-npm http 200 http://192.168.1.100:4873/jsdoc
-npm http request GET http://192.168.1.100:4873/catharsis
-npm http request GET http://192.168.1.100:4873/marked
-npm http request GET http://192.168.1.100:4873/js2xmlparser
-npm http request GET http://192.168.1.100:4873/requizzle
-npm http request GET http://192.168.1.100:4873/strip-json-comments
-npm http request GET http://192.168.1.100:4873/wrench
-npm http request GET http://192.168.1.100:4873/underscore
-npm http fetch GET https://github.com/hegemonic/taffydb/tarball/7d100bcee0e997ee4977e273cdce60bd8933050e
-npm http 200 http://192.168.1.100:4873/js2xmlparser
-npm http 200 http://192.168.1.100:4873/marked
-npm http 200 http://192.168.1.100:4873/catharsis
-npm http 200 http://192.168.1.100:4873/requizzle
-npm http 200 http://192.168.1.100:4873/strip-json-comments
-npm http 200 http://192.168.1.100:4873/wrench
-npm WARN deprecated wrench@1.5.9: wrench.js is deprecated! You should check out fs-extra (https://github.com/jprichardson/node-fs-extra) for any operations you were using wrench for. Thanks for all the usage over the years.
-npm http 200 http://192.168.1.100:4873/underscore
-npm http fetch 200 https://github.com/hegemonic/taffydb/tarball/7d100bcee0e997ee4977e273cdce60bd8933050e
-npm http request GET http://192.168.1.100:4873/underscore-contrib
-npm http 200 http://192.168.1.100:4873/underscore-contrib
-npm WARN prefer global marked@0.3.6 should be installed with -g
-npm http request GET http://192.168.1.100:4873/fs-extra-promise
-npm http request GET http://192.168.1.100:4873/lie
-npm http request GET http://192.168.1.100:4873/request
-npm http request GET http://192.168.1.100:4873/jxc
-npm http request GET http://192.168.1.100:4873/unzip
-npm http 304 http://192.168.1.100:4873/fs-extra-promise
-npm http 304 http://192.168.1.100:4873/lie
-npm http 304 http://192.168.1.100:4873/request
-npm http 200 http://192.168.1.100:4873/unzip
-npm http 200 http://192.168.1.100:4873/jxc
-npm http request GET http://192.168.1.100:4873/fs-extra
-npm http request GET http://192.168.1.100:4873/bluebird
-npm http 304 http://192.168.1.100:4873/fs-extra
-npm http 304 http://192.168.1.100:4873/bluebird
-npm http request GET http://192.168.1.100:4873/graceful-fs
-npm http request GET http://192.168.1.100:4873/jsonfile
-npm http request GET http://192.168.1.100:4873/rimraf
-npm http 304 http://192.168.1.100:4873/graceful-fs
-npm http 304 http://192.168.1.100:4873/jsonfile
-npm http 304 http://192.168.1.100:4873/rimraf
-npm http request GET http://192.168.1.100:4873/glob
-npm http 304 http://192.168.1.100:4873/glob
-npm http request GET http://192.168.1.100:4873/fs.realpath
-npm http request GET http://192.168.1.100:4873/inflight
-npm http request GET http://192.168.1.100:4873/inherits
-npm http request GET http://192.168.1.100:4873/once
-npm http request GET http://192.168.1.100:4873/minimatch
-npm http request GET http://192.168.1.100:4873/path-is-absolute
-npm http 304 http://192.168.1.100:4873/fs.realpath
-npm http 304 http://192.168.1.100:4873/inflight
-npm http 304 http://192.168.1.100:4873/minimatch
-npm http 304 http://192.168.1.100:4873/inherits
-npm http 304 http://192.168.1.100:4873/once
-npm http 304 http://192.168.1.100:4873/path-is-absolute
-npm http request GET http://192.168.1.100:4873/wrappy
-npm http 304 http://192.168.1.100:4873/wrappy
-npm http request GET http://192.168.1.100:4873/brace-expansion
-npm http 304 http://192.168.1.100:4873/brace-expansion
-npm http request GET http://192.168.1.100:4873/balanced-match
-npm http request GET http://192.168.1.100:4873/concat-map
-npm http 304 http://192.168.1.100:4873/balanced-match
-npm http 304 http://192.168.1.100:4873/concat-map
-npm http request GET http://192.168.1.100:4873/progress
-npm http request GET http://192.168.1.100:4873/adm-zip
-npm http 200 http://192.168.1.100:4873/progress
-npm http 200 http://192.168.1.100:4873/adm-zip
-npm http request GET http://192.168.1.100:4873/es3ify
-npm http request GET http://192.168.1.100:4873/immediate
-npm http request GET http://192.168.1.100:4873/inline-process-browser
-npm http request GET http://192.168.1.100:4873/unreachable-branch-transform
-npm http 304 http://192.168.1.100:4873/es3ify
-npm http 304 http://192.168.1.100:4873/immediate
-npm http 304 http://192.168.1.100:4873/inline-process-browser
-npm http 304 http://192.168.1.100:4873/unreachable-branch-transform
-npm http request GET http://192.168.1.100:4873/esprima
-npm http request GET http://192.168.1.100:4873/jstransform
-npm http request GET http://192.168.1.100:4873/through
-npm http 304 http://192.168.1.100:4873/esprima
-npm http 304 http://192.168.1.100:4873/jstransform
-npm http 304 http://192.168.1.100:4873/through
-npm http request GET http://192.168.1.100:4873/base62
-npm http request GET http://192.168.1.100:4873/commoner
-npm http request GET http://192.168.1.100:4873/esprima-fb
-npm http request GET http://192.168.1.100:4873/object-assign
-npm http request GET http://192.168.1.100:4873/source-map
-npm http 304 http://192.168.1.100:4873/base62
-npm http 304 http://192.168.1.100:4873/commoner
-npm http 304 http://192.168.1.100:4873/esprima-fb
-npm http 304 http://192.168.1.100:4873/object-assign
-npm http 304 http://192.168.1.100:4873/source-map
-npm http request GET http://192.168.1.100:4873/commander
-npm http request GET http://192.168.1.100:4873/detective
-npm http request GET http://192.168.1.100:4873/iconv-lite
-npm http request GET http://192.168.1.100:4873/mkdirp
-npm http request GET http://192.168.1.100:4873/private
-npm http request GET http://192.168.1.100:4873/q
-npm http request GET http://192.168.1.100:4873/recast
-npm http 304 http://192.168.1.100:4873/detective
-npm http 304 http://192.168.1.100:4873/iconv-lite
-npm http 304 http://192.168.1.100:4873/private
-npm http 304 http://192.168.1.100:4873/q
-npm http 304 http://192.168.1.100:4873/recast
-npm http 304 http://192.168.1.100:4873/commander
-npm http 200 http://192.168.1.100:4873/mkdirp
-npm http request GET http://192.168.1.100:4873/graceful-readlink
-npm http 304 http://192.168.1.100:4873/graceful-readlink
-npm http request GET http://192.168.1.100:4873/acorn
-npm http request GET http://192.168.1.100:4873/defined
-npm http 304 http://192.168.1.100:4873/acorn
-npm http 304 http://192.168.1.100:4873/defined
-npm http request GET http://192.168.1.100:4873/minimist
-npm http 304 http://192.168.1.100:4873/minimist
-npm http request GET http://192.168.1.100:4873/ast-types
-npm http 304 http://192.168.1.100:4873/ast-types
-npm http request GET http://192.168.1.100:4873/amdefine
-npm http 304 http://192.168.1.100:4873/amdefine
-npm http request GET http://192.168.1.100:4873/falafel
-npm http request GET http://192.168.1.100:4873/through2
-npm http 304 http://192.168.1.100:4873/falafel
-npm http 304 http://192.168.1.100:4873/through2
-npm http request GET http://192.168.1.100:4873/foreach
-npm http request GET http://192.168.1.100:4873/isarray
-npm http request GET http://192.168.1.100:4873/object-keys
-npm http 304 http://192.168.1.100:4873/isarray
-npm http 304 http://192.168.1.100:4873/object-keys
-npm http 304 http://192.168.1.100:4873/foreach
-npm http request GET http://192.168.1.100:4873/readable-stream
-npm http request GET http://192.168.1.100:4873/xtend
-npm http 304 http://192.168.1.100:4873/xtend
-npm http 304 http://192.168.1.100:4873/readable-stream
-npm http request GET http://192.168.1.100:4873/string_decoder
-npm http request GET http://192.168.1.100:4873/core-util-is
-npm http 304 http://192.168.1.100:4873/string_decoder
-npm http 304 http://192.168.1.100:4873/core-util-is
-npm http request GET http://192.168.1.100:4873/esmangle-evaluator
-npm http 304 http://192.168.1.100:4873/esmangle-evaluator
-npm http request GET http://192.168.1.100:4873/bl
-npm http request GET http://192.168.1.100:4873/caseless
-npm http request GET http://192.168.1.100:4873/extend
-npm http request GET http://192.168.1.100:4873/forever-agent
-npm http request GET http://192.168.1.100:4873/form-data
-npm http request GET http://192.168.1.100:4873/json-stringify-safe
-npm http request GET http://192.168.1.100:4873/mime-types
-npm http request GET http://192.168.1.100:4873/node-uuid
-npm http request GET http://192.168.1.100:4873/qs
-npm http request GET http://192.168.1.100:4873/tunnel-agent
-npm http request GET http://192.168.1.100:4873/tough-cookie
-npm http request GET http://192.168.1.100:4873/http-signature
-npm http request GET http://192.168.1.100:4873/oauth-sign
-npm http request GET http://192.168.1.100:4873/hawk
-npm http request GET http://192.168.1.100:4873/aws-sign2
-npm http request GET http://192.168.1.100:4873/stringstream
-npm http request GET http://192.168.1.100:4873/combined-stream
-npm http request GET http://192.168.1.100:4873/isstream
-npm http request GET http://192.168.1.100:4873/har-validator
-npm http 304 http://192.168.1.100:4873/forever-agent
-npm http 304 http://192.168.1.100:4873/bl
-npm http 304 http://192.168.1.100:4873/extend
-npm http 304 http://192.168.1.100:4873/caseless
-npm http 304 http://192.168.1.100:4873/form-data
-npm http 304 http://192.168.1.100:4873/json-stringify-safe
-npm http 304 http://192.168.1.100:4873/mime-types
-npm http 304 http://192.168.1.100:4873/node-uuid
-npm http 304 http://192.168.1.100:4873/oauth-sign
-npm http 304 http://192.168.1.100:4873/qs
-npm http 304 http://192.168.1.100:4873/http-signature
-npm http 304 http://192.168.1.100:4873/tough-cookie
-npm http 304 http://192.168.1.100:4873/tunnel-agent
-npm http 304 http://192.168.1.100:4873/isstream
-npm http 304 http://192.168.1.100:4873/hawk
-npm http 304 http://192.168.1.100:4873/aws-sign2
-npm http 304 http://192.168.1.100:4873/stringstream
-npm http 304 http://192.168.1.100:4873/combined-stream
-npm http 304 http://192.168.1.100:4873/har-validator
-npm http request GET http://192.168.1.100:4873/process-nextick-args
-npm http request GET http://192.168.1.100:4873/util-deprecate
-npm http 304 http://192.168.1.100:4873/process-nextick-args
-npm http 304 http://192.168.1.100:4873/util-deprecate
-npm http request GET http://192.168.1.100:4873/delayed-stream
-npm http 304 http://192.168.1.100:4873/delayed-stream
-npm http request GET http://192.168.1.100:4873/async
-npm http 304 http://192.168.1.100:4873/async
-npm http request GET http://192.168.1.100:4873/lodash
-npm http 304 http://192.168.1.100:4873/lodash
-npm http request GET http://192.168.1.100:4873/mime-db
-npm http 304 http://192.168.1.100:4873/mime-db
-npm http request GET http://192.168.1.100:4873/is-my-json-valid
-npm http request GET http://192.168.1.100:4873/chalk
-npm http 304 http://192.168.1.100:4873/chalk
-npm http 304 http://192.168.1.100:4873/is-my-json-valid
-npm http request GET http://192.168.1.100:4873/ansi-styles
-npm http request GET http://192.168.1.100:4873/escape-string-regexp
-npm http request GET http://192.168.1.100:4873/has-ansi
-npm http request GET http://192.168.1.100:4873/strip-ansi
-npm http request GET http://192.168.1.100:4873/supports-color
-npm http 304 http://192.168.1.100:4873/escape-string-regexp
-npm http 304 http://192.168.1.100:4873/has-ansi
-npm http 304 http://192.168.1.100:4873/ansi-styles
-npm http 200 http://192.168.1.100:4873/strip-ansi
-npm http 304 http://192.168.1.100:4873/supports-color
-npm http request GET http://192.168.1.100:4873/ansi-regex
-npm http 304 http://192.168.1.100:4873/ansi-regex
-npm http request GET http://192.168.1.100:4873/generate-function
-npm http request GET http://192.168.1.100:4873/generate-object-property
-npm http request GET http://192.168.1.100:4873/jsonpointer
-npm http 304 http://192.168.1.100:4873/generate-function
-npm http 304 http://192.168.1.100:4873/generate-object-property
-npm http 304 http://192.168.1.100:4873/jsonpointer
-npm http request GET http://192.168.1.100:4873/is-property
-npm http 304 http://192.168.1.100:4873/is-property
-npm http request GET http://192.168.1.100:4873/hoek
-npm http request GET http://192.168.1.100:4873/sntp
-npm http request GET http://192.168.1.100:4873/cryptiles
-npm http request GET http://192.168.1.100:4873/boom
-npm http 304 http://192.168.1.100:4873/sntp
-npm http 304 http://192.168.1.100:4873/hoek
-npm http 304 http://192.168.1.100:4873/cryptiles
-npm http 304 http://192.168.1.100:4873/boom
-npm http request GET http://192.168.1.100:4873/assert-plus
-npm http request GET http://192.168.1.100:4873/asn1
-npm http request GET http://192.168.1.100:4873/ctype
-npm http 304 http://192.168.1.100:4873/asn1
-npm http 304 http://192.168.1.100:4873/assert-plus
-npm http 200 http://192.168.1.100:4873/ctype
-npm http request GET http://192.168.1.100:4873/binary
-npm http request GET http://192.168.1.100:4873/pullstream
-npm http request GET http://192.168.1.100:4873/fstream
-npm http request GET http://192.168.1.100:4873/setimmediate
-npm http request GET http://192.168.1.100:4873/match-stream
-npm http 200 http://192.168.1.100:4873/match-stream
-npm http 200 http://192.168.1.100:4873/setimmediate
-npm http 200 http://192.168.1.100:4873/fstream
-npm http 200 http://192.168.1.100:4873/pullstream
-npm http 200 http://192.168.1.100:4873/binary
-npm http request GET http://192.168.1.100:4873/chainsaw
-npm http request GET http://192.168.1.100:4873/buffers
-npm http 200 http://192.168.1.100:4873/chainsaw
-npm http 200 http://192.168.1.100:4873/buffers
-npm http request GET http://192.168.1.100:4873/traverse
-npm http 200 http://192.168.1.100:4873/traverse
-npm http fetch GET http://192.168.1.100:4873/graceful-fs/-/graceful-fs-3.0.10.tgz
-npm http fetch 200 http://192.168.1.100:4873/graceful-fs/-/graceful-fs-3.0.10.tgz
-npm http request GET http://192.168.1.100:4873/natives
-npm http 200 http://192.168.1.100:4873/natives
-npm http fetch GET http://192.168.1.100:4873/natives/-/natives-1.0.2.tgz
-npm http fetch 200 http://192.168.1.100:4873/natives/-/natives-1.0.2.tgz
-npm http request GET http://192.168.1.100:4873/slice-stream
-npm http request GET http://192.168.1.100:4873/over
-npm http 200 http://192.168.1.100:4873/over
-npm http 200 http://192.168.1.100:4873/slice-stream
-npm WARN EPACKAGEJSON install@0.0.1 No repository field.
-npm http request GET http://192.168.1.100:4873/balanced-match
-npm http request GET http://192.168.1.100:4873/body-parser
-npm http request GET http://192.168.1.100:4873/concat-map
-npm http request GET http://192.168.1.100:4873/express
-npm http request GET http://192.168.1.100:4873/forever-agent
-npm http request GET http://192.168.1.100:4873/inherits
-npm http request GET http://192.168.1.100:4873/bn.js
-npm http request GET http://192.168.1.100:4873/is-property
-npm http request GET http://192.168.1.100:4873/express-pouchdb
-npm http request GET http://192.168.1.100:4873/js-extend
-npm http request GET http://192.168.1.100:4873/long
-npm http request GET http://192.168.1.100:4873/leveldown-mobile
-npm http request GET http://192.168.1.100:4873/multiplex
-npm http request GET http://192.168.1.100:4873/node-uuid
-npm http request GET http://192.168.1.100:4873/request
-npm http request GET http://192.168.1.100:4873/pouchdb-node
-npm http request GET http://192.168.1.100:4873/request-promise
-npm http request GET http://192.168.1.100:4873/randomstring
-npm http request GET http://192.168.1.100:4873/proxyquire
-npm http request GET http://192.168.1.100:4873/nock
-npm http request GET http://192.168.1.100:4873/sinon
-npm http request GET http://192.168.1.100:4873/socket.io-client
-npm http request GET http://192.168.1.100:4873/tape
-npm http request GET http://192.168.1.100:4873/supertest-as-promised
-npm http request GET http://192.168.1.100:4873/supertest
-npm http request GET http://192.168.1.100:4873/urlsafe-base64
-npm http request GET http://192.168.1.100:4873/tape-catch
-npm http request GET http://192.168.1.100:4873/tmp
-npm http request GET http://192.168.1.100:4873/uuid
-npm http 304 http://192.168.1.100:4873/forever-agent
-npm http 304 http://192.168.1.100:4873/body-parser
-npm http 304 http://192.168.1.100:4873/balanced-match
-npm http 304 http://192.168.1.100:4873/concat-map
-npm http 304 http://192.168.1.100:4873/inherits
-npm http 304 http://192.168.1.100:4873/is-property
-npm http 304 http://192.168.1.100:4873/long
-npm http 200 http://192.168.1.100:4873/bn.js
-npm http 200 http://192.168.1.100:4873/express-pouchdb
-npm http 304 http://192.168.1.100:4873/node-uuid
-npm http 200 http://192.168.1.100:4873/js-extend
-npm http 200 http://192.168.1.100:4873/express
-npm http 304 http://192.168.1.100:4873/request
-npm http 200 http://192.168.1.100:4873/pouchdb-node
-npm http 304 http://192.168.1.100:4873/multiplex
-npm http 200 http://192.168.1.100:4873/request-promise
-npm http 200 http://192.168.1.100:4873/randomstring
-npm http 200 http://192.168.1.100:4873/proxyquire
-npm http 304 http://192.168.1.100:4873/socket.io-client
-npm http 304 http://192.168.1.100:4873/tape
-npm http 200 http://192.168.1.100:4873/supertest
-npm http 200 http://192.168.1.100:4873/supertest-as-promised
-npm http 304 http://192.168.1.100:4873/leveldown-mobile
-npm http 200 http://192.168.1.100:4873/sinon
-npm http 200 http://192.168.1.100:4873/tmp
-npm http 200 http://192.168.1.100:4873/uuid
-npm http 304 http://192.168.1.100:4873/urlsafe-base64
-npm http 200 http://192.168.1.100:4873/nock
-npm http 200 http://192.168.1.100:4873/tape-catch
-npm http request GET http://192.168.1.100:4873/bytes
-npm http request GET http://192.168.1.100:4873/content-type
-npm http request GET http://192.168.1.100:4873/debug
-npm http request GET http://192.168.1.100:4873/depd
-npm http request GET http://192.168.1.100:4873/http-errors
-npm http request GET http://192.168.1.100:4873/iconv-lite
-npm http request GET http://192.168.1.100:4873/on-finished
-npm http request GET http://192.168.1.100:4873/qs
-npm http request GET http://192.168.1.100:4873/raw-body
-npm http request GET http://192.168.1.100:4873/type-is
-npm http 304 http://192.168.1.100:4873/content-type
-npm http 304 http://192.168.1.100:4873/iconv-lite
-npm http 304 http://192.168.1.100:4873/depd
-npm http 304 http://192.168.1.100:4873/bytes
-npm http 304 http://192.168.1.100:4873/http-errors
-npm http 304 http://192.168.1.100:4873/on-finished
-npm http 304 http://192.168.1.100:4873/debug
-npm http 304 http://192.168.1.100:4873/qs
-npm http 304 http://192.168.1.100:4873/type-is
-npm http 304 http://192.168.1.100:4873/raw-body
-npm http request GET http://192.168.1.100:4873/ms
-npm http 304 http://192.168.1.100:4873/ms
-npm http request GET http://192.168.1.100:4873/statuses
-npm http 304 http://192.168.1.100:4873/statuses
-npm http request GET http://192.168.1.100:4873/ee-first
-npm http 304 http://192.168.1.100:4873/ee-first
-npm http request GET http://192.168.1.100:4873/unpipe
-npm http 304 http://192.168.1.100:4873/unpipe
-npm http request GET http://192.168.1.100:4873/media-typer
-npm http request GET http://192.168.1.100:4873/mime-types
-npm http 304 http://192.168.1.100:4873/mime-types
-npm http 304 http://192.168.1.100:4873/media-typer
-npm http request GET http://192.168.1.100:4873/mime-db
-npm http 304 http://192.168.1.100:4873/mime-db
-npm http request GET http://192.168.1.100:4873/array-flatten
-npm http request GET http://192.168.1.100:4873/accepts
 npm http request GET http://192.168.1.100:4873/content-disposition
 npm http request GET http://192.168.1.100:4873/cookie
 npm http request GET http://192.168.1.100:4873/cookie-signature
@@ -6851,23 +6292,610 @@ npm http request GET http://192.168.1.100:4873/utils-merge
 npm http request GET http://192.168.1.100:4873/vary
 npm http 304 http://192.168.1.100:4873/accepts
 npm http 304 http://192.168.1.100:4873/array-flatten
-npm http 304 http://192.168.1.100:4873/cookie
 npm http 304 http://192.168.1.100:4873/cookie-signature
 npm http 304 http://192.168.1.100:4873/content-disposition
-npm http 200 http://192.168.1.100:4873/escape-html
+npm http 304 http://192.168.1.100:4873/escape-html
+npm http 304 http://192.168.1.100:4873/finalhandler
+npm http 304 http://192.168.1.100:4873/fresh
 npm http 304 http://192.168.1.100:4873/merge-descriptors
-npm http 304 http://192.168.1.100:4873/methods
+npm http 200 http://192.168.1.100:4873/cookie
 npm http 304 http://192.168.1.100:4873/path-to-regexp
 npm http 304 http://192.168.1.100:4873/etag
-npm http 304 http://192.168.1.100:4873/finalhandler
 npm http 304 http://192.168.1.100:4873/parseurl
-npm http 304 http://192.168.1.100:4873/serve-static
-npm http 304 http://192.168.1.100:4873/fresh
-npm http 304 http://192.168.1.100:4873/utils-merge
-npm http 304 http://192.168.1.100:4873/proxy-addr
+npm http 304 http://192.168.1.100:4873/methods
+npm http 200 http://192.168.1.100:4873/proxy-addr
 npm http 304 http://192.168.1.100:4873/range-parser
+npm http 304 http://192.168.1.100:4873/serve-static
 npm http 304 http://192.168.1.100:4873/send
+npm http 304 http://192.168.1.100:4873/utils-merge
+npm http 200 http://192.168.1.100:4873/vary
+npm http request GET http://192.168.1.100:4873/negotiator
+npm http 304 http://192.168.1.100:4873/negotiator
+npm http request GET http://192.168.1.100:4873/forwarded
+npm http request GET http://192.168.1.100:4873/ipaddr.js
+npm http 304 http://192.168.1.100:4873/forwarded
+npm http 304 http://192.168.1.100:4873/ipaddr.js
+npm http request GET http://192.168.1.100:4873/destroy
+npm http request GET http://192.168.1.100:4873/mime
+npm http 304 http://192.168.1.100:4873/destroy
+npm http 200 http://192.168.1.100:4873/mime
+npm http request GET http://192.168.1.100:4873/es3ify
+npm http request GET http://192.168.1.100:4873/immediate
+npm http request GET http://192.168.1.100:4873/inline-process-browser
+npm http request GET http://192.168.1.100:4873/unreachable-branch-transform
+npm http 304 http://192.168.1.100:4873/immediate
+npm http 200 http://192.168.1.100:4873/inline-process-browser
+npm http 200 http://192.168.1.100:4873/es3ify
+npm http 200 http://192.168.1.100:4873/unreachable-branch-transform
+npm http request GET http://192.168.1.100:4873/esprima
+npm http request GET http://192.168.1.100:4873/jstransform
+npm http request GET http://192.168.1.100:4873/through
+npm http 304 http://192.168.1.100:4873/jstransform
+npm http 304 http://192.168.1.100:4873/through
+npm http 304 http://192.168.1.100:4873/esprima
+npm http request GET http://192.168.1.100:4873/commoner
+npm http request GET http://192.168.1.100:4873/base62
+npm http request GET http://192.168.1.100:4873/esprima-fb
+npm http request GET http://192.168.1.100:4873/object-assign
+npm http request GET http://192.168.1.100:4873/source-map
+npm http 304 http://192.168.1.100:4873/object-assign
+npm http 304 http://192.168.1.100:4873/source-map
+npm http 304 http://192.168.1.100:4873/base62
+npm http 304 http://192.168.1.100:4873/commoner
+npm http 304 http://192.168.1.100:4873/esprima-fb
+npm http request GET http://192.168.1.100:4873/commander
+npm http request GET http://192.168.1.100:4873/detective
+npm http request GET http://192.168.1.100:4873/graceful-fs
+npm http request GET http://192.168.1.100:4873/mkdirp
+npm http request GET http://192.168.1.100:4873/glob
+npm http request GET http://192.168.1.100:4873/private
+npm http request GET http://192.168.1.100:4873/q
+npm http request GET http://192.168.1.100:4873/recast
+npm http 304 http://192.168.1.100:4873/commander
+npm http 304 http://192.168.1.100:4873/graceful-fs
+npm http 304 http://192.168.1.100:4873/detective
+npm http 304 http://192.168.1.100:4873/mkdirp
+npm http 304 http://192.168.1.100:4873/q
+npm http 304 http://192.168.1.100:4873/private
+npm http 304 http://192.168.1.100:4873/glob
+npm http 304 http://192.168.1.100:4873/recast
+npm http request GET http://192.168.1.100:4873/graceful-readlink
+npm http 304 http://192.168.1.100:4873/graceful-readlink
+npm http request GET http://192.168.1.100:4873/acorn
+npm http request GET http://192.168.1.100:4873/defined
+npm http 304 http://192.168.1.100:4873/acorn
+npm http 304 http://192.168.1.100:4873/defined
+npm http request GET http://192.168.1.100:4873/inflight
+npm http request GET http://192.168.1.100:4873/minimatch
+npm http request GET http://192.168.1.100:4873/once
+npm http request GET http://192.168.1.100:4873/path-is-absolute
+npm http 304 http://192.168.1.100:4873/inflight
+npm http 304 http://192.168.1.100:4873/minimatch
+npm http 304 http://192.168.1.100:4873/path-is-absolute
+npm http 200 http://192.168.1.100:4873/once
+npm http request GET http://192.168.1.100:4873/wrappy
+npm http 304 http://192.168.1.100:4873/wrappy
+npm http request GET http://192.168.1.100:4873/brace-expansion
+npm http 304 http://192.168.1.100:4873/brace-expansion
+npm http request GET http://192.168.1.100:4873/balanced-match
+npm http request GET http://192.168.1.100:4873/concat-map
+npm http 304 http://192.168.1.100:4873/concat-map
+npm http 304 http://192.168.1.100:4873/balanced-match
+npm http request GET http://192.168.1.100:4873/minimist
+npm http 304 http://192.168.1.100:4873/minimist
+npm http request GET http://192.168.1.100:4873/ast-types
+npm http 304 http://192.168.1.100:4873/ast-types
+npm http request GET http://192.168.1.100:4873/amdefine
+npm http 304 http://192.168.1.100:4873/amdefine
+npm http request GET http://192.168.1.100:4873/falafel
+npm http request GET http://192.168.1.100:4873/through2
+npm http 304 http://192.168.1.100:4873/falafel
+npm http 304 http://192.168.1.100:4873/through2
+npm http request GET http://192.168.1.100:4873/isarray
+npm http request GET http://192.168.1.100:4873/foreach
+npm http request GET http://192.168.1.100:4873/object-keys
+npm http 304 http://192.168.1.100:4873/isarray
+npm http 304 http://192.168.1.100:4873/foreach
+npm http 304 http://192.168.1.100:4873/object-keys
+npm http request GET http://192.168.1.100:4873/xtend
+npm http request GET http://192.168.1.100:4873/readable-stream
+npm http 304 http://192.168.1.100:4873/xtend
+npm http 304 http://192.168.1.100:4873/readable-stream
+npm http request GET http://192.168.1.100:4873/core-util-is
+npm http request GET http://192.168.1.100:4873/string_decoder
+npm http 304 http://192.168.1.100:4873/string_decoder
+npm http 304 http://192.168.1.100:4873/core-util-is
+npm http request GET http://192.168.1.100:4873/esmangle-evaluator
+npm http 304 http://192.168.1.100:4873/esmangle-evaluator
+npm http request GET http://192.168.1.100:4873/duplexify
+npm http request GET http://192.168.1.100:4873/varint
+npm http 200 http://192.168.1.100:4873/duplexify
+npm http 200 http://192.168.1.100:4873/varint
+npm http request GET http://192.168.1.100:4873/end-of-stream
+npm http request GET http://192.168.1.100:4873/stream-shift
+npm http 200 http://192.168.1.100:4873/stream-shift
+npm http 200 http://192.168.1.100:4873/end-of-stream
+npm http request GET http://192.168.1.100:4873/process-nextick-args
+npm http request GET http://192.168.1.100:4873/buffer-shims
+npm http request GET http://192.168.1.100:4873/util-deprecate
+npm http 200 http://192.168.1.100:4873/buffer-shims
+npm http 200 http://192.168.1.100:4873/process-nextick-args
+npm http 200 http://192.168.1.100:4873/util-deprecate
+npm http request GET http://192.168.1.100:4873/bl
+npm http request GET http://192.168.1.100:4873/caseless
+npm http request GET http://192.168.1.100:4873/extend
+npm http request GET http://192.168.1.100:4873/form-data
+npm http request GET http://192.168.1.100:4873/oauth-sign
+npm http request GET http://192.168.1.100:4873/http-signature
+npm http request GET http://192.168.1.100:4873/tunnel-agent
+npm http request GET http://192.168.1.100:4873/json-stringify-safe
+npm http request GET http://192.168.1.100:4873/tough-cookie
+npm http request GET http://192.168.1.100:4873/stringstream
+npm http request GET http://192.168.1.100:4873/aws-sign2
+npm http request GET http://192.168.1.100:4873/hawk
+npm http request GET http://192.168.1.100:4873/combined-stream
+npm http request GET http://192.168.1.100:4873/isstream
+npm http request GET http://192.168.1.100:4873/har-validator
+npm http 200 http://192.168.1.100:4873/caseless
+npm http 200 http://192.168.1.100:4873/oauth-sign
+npm http 200 http://192.168.1.100:4873/form-data
+npm http 200 http://192.168.1.100:4873/extend
+npm http 200 http://192.168.1.100:4873/bl
+npm http 200 http://192.168.1.100:4873/http-signature
+npm http 200 http://192.168.1.100:4873/json-stringify-safe
+npm http 200 http://192.168.1.100:4873/stringstream
+npm http 200 http://192.168.1.100:4873/tunnel-agent
+npm http 200 http://192.168.1.100:4873/tough-cookie
+npm http 304 http://192.168.1.100:4873/isstream
+npm http 200 http://192.168.1.100:4873/aws-sign2
+npm http 200 http://192.168.1.100:4873/combined-stream
+npm http 200 http://192.168.1.100:4873/hawk
+npm http 200 http://192.168.1.100:4873/har-validator
+npm http request GET http://192.168.1.100:4873/delayed-stream
+npm http 200 http://192.168.1.100:4873/delayed-stream
+npm http request GET http://192.168.1.100:4873/async
+npm http 304 http://192.168.1.100:4873/async
+npm http request GET http://192.168.1.100:4873/lodash
+npm http 200 http://192.168.1.100:4873/lodash
+npm http fetch GET http://192.168.1.100:4873/lodash/-/lodash-4.16.3.tgz
+npm http fetch 200 http://192.168.1.100:4873/lodash/-/lodash-4.16.3.tgz
+npm http request GET http://192.168.1.100:4873/bluebird
+npm http request GET http://192.168.1.100:4873/is-my-json-valid
+npm http request GET http://192.168.1.100:4873/chalk
+npm http 304 http://192.168.1.100:4873/bluebird
+npm http 200 http://192.168.1.100:4873/chalk
+npm http 200 http://192.168.1.100:4873/is-my-json-valid
+npm http fetch GET http://192.168.1.100:4873/is-my-json-valid/-/is-my-json-valid-2.15.0.tgz
+npm http fetch 200 http://192.168.1.100:4873/is-my-json-valid/-/is-my-json-valid-2.15.0.tgz
+npm http request GET http://192.168.1.100:4873/has-ansi
+npm http request GET http://192.168.1.100:4873/escape-string-regexp
+npm http request GET http://192.168.1.100:4873/ansi-styles
+npm http request GET http://192.168.1.100:4873/strip-ansi
+npm http request GET http://192.168.1.100:4873/supports-color
+npm http 200 http://192.168.1.100:4873/has-ansi
+npm http 200 http://192.168.1.100:4873/ansi-styles
+npm http 200 http://192.168.1.100:4873/strip-ansi
+npm http 200 http://192.168.1.100:4873/supports-color
+npm http 200 http://192.168.1.100:4873/escape-string-regexp
+npm http request GET http://192.168.1.100:4873/ansi-regex
+npm http 200 http://192.168.1.100:4873/ansi-regex
+npm http request GET http://192.168.1.100:4873/generate-function
+npm http request GET http://192.168.1.100:4873/generate-object-property
+npm http request GET http://192.168.1.100:4873/jsonpointer
+npm http 200 http://192.168.1.100:4873/generate-function
+npm http 200 http://192.168.1.100:4873/generate-object-property
+npm http 200 http://192.168.1.100:4873/jsonpointer
+npm http fetch GET http://192.168.1.100:4873/jsonpointer/-/jsonpointer-4.0.0.tgz
+npm http fetch 200 http://192.168.1.100:4873/jsonpointer/-/jsonpointer-4.0.0.tgz
+npm http request GET http://192.168.1.100:4873/is-property
+npm http 200 http://192.168.1.100:4873/is-property
+npm http request GET http://192.168.1.100:4873/hoek
+npm http request GET http://192.168.1.100:4873/boom
+npm http request GET http://192.168.1.100:4873/cryptiles
+npm http request GET http://192.168.1.100:4873/sntp
+npm http 200 http://192.168.1.100:4873/boom
+npm http 200 http://192.168.1.100:4873/cryptiles
+npm http 200 http://192.168.1.100:4873/sntp
+npm http 200 http://192.168.1.100:4873/hoek
+npm http request GET http://192.168.1.100:4873/assert-plus
+npm http request GET http://192.168.1.100:4873/ctype
+npm http request GET http://192.168.1.100:4873/asn1
+npm http 200 http://192.168.1.100:4873/ctype
+npm http 200 http://192.168.1.100:4873/asn1
+npm http 200 http://192.168.1.100:4873/assert-plus
+npm http request GET http://192.168.1.100:4873/colors
+npm http request GET http://192.168.1.100:4873/cycle
+npm http request GET http://192.168.1.100:4873/eyes
+npm http request GET http://192.168.1.100:4873/pkginfo
+npm http request GET http://192.168.1.100:4873/stack-trace
+npm http 304 http://192.168.1.100:4873/colors
+npm http 200 http://192.168.1.100:4873/cycle
+npm http 304 http://192.168.1.100:4873/pkginfo
+npm http 304 http://192.168.1.100:4873/stack-trace
+npm http 304 http://192.168.1.100:4873/eyes
+npm http request GET http://192.168.1.100:4873/jsdoc
+npm http 200 http://192.168.1.100:4873/jsdoc
+npm http request GET http://192.168.1.100:4873/catharsis
+npm http request GET http://192.168.1.100:4873/js2xmlparser
+npm http request GET http://192.168.1.100:4873/strip-json-comments
+npm http request GET http://192.168.1.100:4873/marked
+npm http request GET http://192.168.1.100:4873/requizzle
+npm http request GET http://192.168.1.100:4873/underscore
+npm http request GET http://192.168.1.100:4873/wrench
+npm http fetch GET https://github.com/hegemonic/taffydb/tarball/7d100bcee0e997ee4977e273cdce60bd8933050e
+npm http 200 http://192.168.1.100:4873/js2xmlparser
+npm http 200 http://192.168.1.100:4873/strip-json-comments
+npm http 200 http://192.168.1.100:4873/requizzle
+npm http 200 http://192.168.1.100:4873/marked
+npm http 200 http://192.168.1.100:4873/underscore
+npm http 200 http://192.168.1.100:4873/wrench
+npm WARN deprecated wrench@1.5.9: wrench.js is deprecated! You should check out fs-extra (https://github.com/jprichardson/node-fs-extra) for any operations you were using wrench for. Thanks for all the usage over the years.
+npm http 200 http://192.168.1.100:4873/catharsis
+npm http fetch 200 https://github.com/hegemonic/taffydb/tarball/7d100bcee0e997ee4977e273cdce60bd8933050e
+npm http request GET http://192.168.1.100:4873/underscore-contrib
+npm http 200 http://192.168.1.100:4873/underscore-contrib
+npm WARN prefer global marked@0.3.6 should be installed with -g
+npm http request GET http://192.168.1.100:4873/fs-extra-promise
+npm http request GET http://192.168.1.100:4873/lie
+npm http request GET http://192.168.1.100:4873/request
+npm http request GET http://192.168.1.100:4873/jxc
+npm http request GET http://192.168.1.100:4873/unzip
+npm http 304 http://192.168.1.100:4873/lie
+npm http 304 http://192.168.1.100:4873/request
+npm http 304 http://192.168.1.100:4873/fs-extra-promise
+npm http 200 http://192.168.1.100:4873/unzip
+npm http 200 http://192.168.1.100:4873/jxc
+npm http request GET http://192.168.1.100:4873/fs-extra
+npm http request GET http://192.168.1.100:4873/bluebird
+npm http 304 http://192.168.1.100:4873/bluebird
+npm http 304 http://192.168.1.100:4873/fs-extra
+npm http request GET http://192.168.1.100:4873/graceful-fs
+npm http request GET http://192.168.1.100:4873/jsonfile
+npm http request GET http://192.168.1.100:4873/rimraf
+npm http 304 http://192.168.1.100:4873/graceful-fs
+npm http 304 http://192.168.1.100:4873/rimraf
+npm http 304 http://192.168.1.100:4873/jsonfile
+npm http request GET http://192.168.1.100:4873/glob
+npm http 304 http://192.168.1.100:4873/glob
+npm http request GET http://192.168.1.100:4873/fs.realpath
+npm http request GET http://192.168.1.100:4873/inflight
+npm http request GET http://192.168.1.100:4873/inherits
+npm http request GET http://192.168.1.100:4873/minimatch
+npm http request GET http://192.168.1.100:4873/once
+npm http request GET http://192.168.1.100:4873/path-is-absolute
+npm http 304 http://192.168.1.100:4873/once
+npm http 304 http://192.168.1.100:4873/fs.realpath
+npm http 304 http://192.168.1.100:4873/inherits
+npm http 304 http://192.168.1.100:4873/inflight
+npm http 304 http://192.168.1.100:4873/minimatch
+npm http 304 http://192.168.1.100:4873/path-is-absolute
+npm http request GET http://192.168.1.100:4873/wrappy
+npm http 304 http://192.168.1.100:4873/wrappy
+npm http request GET http://192.168.1.100:4873/brace-expansion
+npm http 304 http://192.168.1.100:4873/brace-expansion
+npm http request GET http://192.168.1.100:4873/balanced-match
+npm http request GET http://192.168.1.100:4873/concat-map
+npm http 304 http://192.168.1.100:4873/concat-map
+npm http 304 http://192.168.1.100:4873/balanced-match
+npm http request GET http://192.168.1.100:4873/progress
+npm http request GET http://192.168.1.100:4873/adm-zip
+npm http 200 http://192.168.1.100:4873/adm-zip
+npm http 200 http://192.168.1.100:4873/progress
+npm http request GET http://192.168.1.100:4873/es3ify
+npm http request GET http://192.168.1.100:4873/immediate
+npm http request GET http://192.168.1.100:4873/inline-process-browser
+npm http request GET http://192.168.1.100:4873/unreachable-branch-transform
+npm http 304 http://192.168.1.100:4873/es3ify
+npm http 304 http://192.168.1.100:4873/inline-process-browser
+npm http 304 http://192.168.1.100:4873/unreachable-branch-transform
+npm http 200 http://192.168.1.100:4873/immediate
+npm http request GET http://192.168.1.100:4873/esprima
+npm http request GET http://192.168.1.100:4873/jstransform
+npm http request GET http://192.168.1.100:4873/through
+npm http 304 http://192.168.1.100:4873/jstransform
+npm http 304 http://192.168.1.100:4873/esprima
+npm http 304 http://192.168.1.100:4873/through
+npm http request GET http://192.168.1.100:4873/commoner
+npm http request GET http://192.168.1.100:4873/base62
+npm http request GET http://192.168.1.100:4873/esprima-fb
+npm http request GET http://192.168.1.100:4873/object-assign
+npm http request GET http://192.168.1.100:4873/source-map
+npm http 304 http://192.168.1.100:4873/object-assign
+npm http 304 http://192.168.1.100:4873/source-map
+npm http 304 http://192.168.1.100:4873/esprima-fb
+npm http 304 http://192.168.1.100:4873/commoner
+npm http 304 http://192.168.1.100:4873/base62
+npm http request GET http://192.168.1.100:4873/commander
+npm http request GET http://192.168.1.100:4873/detective
+npm http request GET http://192.168.1.100:4873/iconv-lite
+npm http request GET http://192.168.1.100:4873/mkdirp
+npm http request GET http://192.168.1.100:4873/private
+npm http request GET http://192.168.1.100:4873/q
+npm http request GET http://192.168.1.100:4873/recast
+npm http 304 http://192.168.1.100:4873/commander
+npm http 304 http://192.168.1.100:4873/iconv-lite
+npm http 304 http://192.168.1.100:4873/detective
+npm http 200 http://192.168.1.100:4873/mkdirp
+npm http 304 http://192.168.1.100:4873/private
+npm http 304 http://192.168.1.100:4873/q
+npm http 304 http://192.168.1.100:4873/recast
+npm http request GET http://192.168.1.100:4873/graceful-readlink
+npm http 304 http://192.168.1.100:4873/graceful-readlink
+npm http request GET http://192.168.1.100:4873/defined
+npm http request GET http://192.168.1.100:4873/acorn
+npm http 304 http://192.168.1.100:4873/defined
+npm http 304 http://192.168.1.100:4873/acorn
+npm http request GET http://192.168.1.100:4873/minimist
+npm http 304 http://192.168.1.100:4873/minimist
+npm http request GET http://192.168.1.100:4873/ast-types
+npm http 304 http://192.168.1.100:4873/ast-types
+npm http request GET http://192.168.1.100:4873/amdefine
+npm http 304 http://192.168.1.100:4873/amdefine
+npm http request GET http://192.168.1.100:4873/falafel
+npm http request GET http://192.168.1.100:4873/through2
+npm http 304 http://192.168.1.100:4873/falafel
+npm http 304 http://192.168.1.100:4873/through2
+npm http request GET http://192.168.1.100:4873/foreach
+npm http request GET http://192.168.1.100:4873/isarray
+npm http request GET http://192.168.1.100:4873/object-keys
+npm http 304 http://192.168.1.100:4873/foreach
+npm http 304 http://192.168.1.100:4873/isarray
+npm http 304 http://192.168.1.100:4873/object-keys
+npm http request GET http://192.168.1.100:4873/readable-stream
+npm http request GET http://192.168.1.100:4873/xtend
+npm http 304 http://192.168.1.100:4873/readable-stream
+npm http 304 http://192.168.1.100:4873/xtend
+npm http request GET http://192.168.1.100:4873/core-util-is
+npm http request GET http://192.168.1.100:4873/string_decoder
+npm http 304 http://192.168.1.100:4873/core-util-is
+npm http 304 http://192.168.1.100:4873/string_decoder
+npm http request GET http://192.168.1.100:4873/esmangle-evaluator
+npm http 304 http://192.168.1.100:4873/esmangle-evaluator
+npm http request GET http://192.168.1.100:4873/bl
+npm http request GET http://192.168.1.100:4873/caseless
+npm http request GET http://192.168.1.100:4873/extend
+npm http request GET http://192.168.1.100:4873/forever-agent
+npm http request GET http://192.168.1.100:4873/form-data
+npm http request GET http://192.168.1.100:4873/json-stringify-safe
+npm http request GET http://192.168.1.100:4873/mime-types
+npm http request GET http://192.168.1.100:4873/node-uuid
+npm http request GET http://192.168.1.100:4873/qs
+npm http request GET http://192.168.1.100:4873/tunnel-agent
+npm http request GET http://192.168.1.100:4873/tough-cookie
+npm http request GET http://192.168.1.100:4873/http-signature
+npm http request GET http://192.168.1.100:4873/oauth-sign
+npm http request GET http://192.168.1.100:4873/hawk
+npm http request GET http://192.168.1.100:4873/aws-sign2
+npm http request GET http://192.168.1.100:4873/stringstream
+npm http request GET http://192.168.1.100:4873/combined-stream
+npm http request GET http://192.168.1.100:4873/isstream
+npm http request GET http://192.168.1.100:4873/har-validator
+npm http 304 http://192.168.1.100:4873/forever-agent
+npm http 200 http://192.168.1.100:4873/bl
+npm http 304 http://192.168.1.100:4873/caseless
+npm http 304 http://192.168.1.100:4873/extend
+npm http 304 http://192.168.1.100:4873/mime-types
+npm http 200 http://192.168.1.100:4873/form-data
+npm http 304 http://192.168.1.100:4873/json-stringify-safe
+npm http 304 http://192.168.1.100:4873/tunnel-agent
+npm http 304 http://192.168.1.100:4873/qs
+npm http 304 http://192.168.1.100:4873/node-uuid
+npm http 304 http://192.168.1.100:4873/tough-cookie
+npm http 304 http://192.168.1.100:4873/http-signature
+npm http 304 http://192.168.1.100:4873/combined-stream
+npm http 304 http://192.168.1.100:4873/oauth-sign
+npm http 304 http://192.168.1.100:4873/hawk
+npm http 304 http://192.168.1.100:4873/aws-sign2
+npm http 304 http://192.168.1.100:4873/stringstream
+npm http 304 http://192.168.1.100:4873/isstream
+npm http 304 http://192.168.1.100:4873/har-validator
+npm http request GET http://192.168.1.100:4873/process-nextick-args
+npm http request GET http://192.168.1.100:4873/util-deprecate
+npm http 304 http://192.168.1.100:4873/process-nextick-args
+npm http 304 http://192.168.1.100:4873/util-deprecate
+npm http request GET http://192.168.1.100:4873/delayed-stream
+npm http 304 http://192.168.1.100:4873/delayed-stream
+npm http request GET http://192.168.1.100:4873/async
+npm http 304 http://192.168.1.100:4873/async
+npm http request GET http://192.168.1.100:4873/lodash
+npm http 200 http://192.168.1.100:4873/lodash
+npm http request GET http://192.168.1.100:4873/mime-db
+npm http 304 http://192.168.1.100:4873/mime-db
+npm http request GET http://192.168.1.100:4873/chalk
+npm http request GET http://192.168.1.100:4873/is-my-json-valid
+npm http 304 http://192.168.1.100:4873/is-my-json-valid
+npm http 200 http://192.168.1.100:4873/chalk
+npm http request GET http://192.168.1.100:4873/ansi-styles
+npm http request GET http://192.168.1.100:4873/has-ansi
+npm http request GET http://192.168.1.100:4873/escape-string-regexp
+npm http request GET http://192.168.1.100:4873/strip-ansi
+npm http request GET http://192.168.1.100:4873/supports-color
+npm http 304 http://192.168.1.100:4873/escape-string-regexp
+npm http 304 http://192.168.1.100:4873/ansi-styles
+npm http 304 http://192.168.1.100:4873/has-ansi
+npm http 304 http://192.168.1.100:4873/strip-ansi
+npm http 304 http://192.168.1.100:4873/supports-color
+npm http request GET http://192.168.1.100:4873/ansi-regex
+npm http 304 http://192.168.1.100:4873/ansi-regex
+npm http request GET http://192.168.1.100:4873/generate-function
+npm http request GET http://192.168.1.100:4873/generate-object-property
+npm http request GET http://192.168.1.100:4873/jsonpointer
+npm http 304 http://192.168.1.100:4873/generate-object-property
+npm http 304 http://192.168.1.100:4873/generate-function
+npm http 304 http://192.168.1.100:4873/jsonpointer
+npm http request GET http://192.168.1.100:4873/is-property
+npm http 304 http://192.168.1.100:4873/is-property
+npm http request GET http://192.168.1.100:4873/hoek
+npm http request GET http://192.168.1.100:4873/boom
+npm http request GET http://192.168.1.100:4873/cryptiles
+npm http request GET http://192.168.1.100:4873/sntp
+npm http 304 http://192.168.1.100:4873/hoek
+npm http 304 http://192.168.1.100:4873/sntp
+npm http 304 http://192.168.1.100:4873/cryptiles
+npm http 304 http://192.168.1.100:4873/boom
+npm http request GET http://192.168.1.100:4873/assert-plus
+npm http request GET http://192.168.1.100:4873/asn1
+npm http request GET http://192.168.1.100:4873/ctype
+npm http 304 http://192.168.1.100:4873/assert-plus
+npm http 200 http://192.168.1.100:4873/asn1
+npm http 304 http://192.168.1.100:4873/ctype
+npm http request GET http://192.168.1.100:4873/binary
+npm http request GET http://192.168.1.100:4873/setimmediate
+npm http request GET http://192.168.1.100:4873/match-stream
+npm http request GET http://192.168.1.100:4873/fstream
+npm http request GET http://192.168.1.100:4873/pullstream
+npm http 200 http://192.168.1.100:4873/setimmediate
+npm http 200 http://192.168.1.100:4873/binary
+npm http 200 http://192.168.1.100:4873/pullstream
+npm http 200 http://192.168.1.100:4873/match-stream
+npm http 200 http://192.168.1.100:4873/fstream
+npm http request GET http://192.168.1.100:4873/chainsaw
+npm http request GET http://192.168.1.100:4873/buffers
+npm http 200 http://192.168.1.100:4873/chainsaw
+npm http 200 http://192.168.1.100:4873/buffers
+npm http request GET http://192.168.1.100:4873/traverse
+npm http 200 http://192.168.1.100:4873/traverse
+npm http request GET http://192.168.1.100:4873/natives
+npm http 200 http://192.168.1.100:4873/natives
+npm http request GET http://192.168.1.100:4873/over
+npm http request GET http://192.168.1.100:4873/slice-stream
+npm http 200 http://192.168.1.100:4873/over
+npm http 200 http://192.168.1.100:4873/slice-stream
+npm WARN EPACKAGEJSON install@0.0.1 No repository field.
+npm http request GET http://192.168.1.100:4873/balanced-match
+npm http request GET http://192.168.1.100:4873/body-parser
+npm http request GET http://192.168.1.100:4873/concat-map
+npm http request GET http://192.168.1.100:4873/express
+npm http request GET http://192.168.1.100:4873/bn.js
+npm http request GET http://192.168.1.100:4873/forever-agent
+npm http request GET http://192.168.1.100:4873/inherits
+npm http request GET http://192.168.1.100:4873/is-property
+npm http request GET http://192.168.1.100:4873/express-pouchdb
+npm http request GET http://192.168.1.100:4873/long
+npm http request GET http://192.168.1.100:4873/js-extend
+npm http request GET http://192.168.1.100:4873/multiplex
+npm http request GET http://192.168.1.100:4873/node-uuid
+npm http request GET http://192.168.1.100:4873/request
+npm http request GET http://192.168.1.100:4873/socket.io-client
+npm http request GET http://192.168.1.100:4873/pouchdb-node
+npm http request GET http://192.168.1.100:4873/leveldown-mobile
+npm http request GET http://192.168.1.100:4873/tape
+npm http request GET http://192.168.1.100:4873/randomstring
+npm http request GET http://192.168.1.100:4873/proxyquire
+npm http request GET http://192.168.1.100:4873/urlsafe-base64
+npm http request GET http://192.168.1.100:4873/request-promise
+npm http request GET http://192.168.1.100:4873/nock
+npm http request GET http://192.168.1.100:4873/sinon
+npm http request GET http://192.168.1.100:4873/supertest-as-promised
+npm http request GET http://192.168.1.100:4873/tape-catch
+npm http request GET http://192.168.1.100:4873/supertest
+npm http request GET http://192.168.1.100:4873/uuid
+npm http request GET http://192.168.1.100:4873/tmp
+npm http 304 http://192.168.1.100:4873/concat-map
+npm http 304 http://192.168.1.100:4873/balanced-match
+npm http 304 http://192.168.1.100:4873/body-parser
+npm http 304 http://192.168.1.100:4873/express
+npm http 304 http://192.168.1.100:4873/forever-agent
+npm http 304 http://192.168.1.100:4873/long
+npm http 304 http://192.168.1.100:4873/inherits
+npm http 200 http://192.168.1.100:4873/bn.js
+npm http 304 http://192.168.1.100:4873/is-property
+npm http 304 http://192.168.1.100:4873/socket.io-client
+npm http 200 http://192.168.1.100:4873/express-pouchdb
+npm http 304 http://192.168.1.100:4873/node-uuid
+npm http 200 http://192.168.1.100:4873/pouchdb-node
+npm http 304 http://192.168.1.100:4873/multiplex
+npm http fetch GET http://192.168.1.100:4873/express-pouchdb/-/express-pouchdb-1.0.5-thali.tgz
+npm http fetch GET http://192.168.1.100:4873/pouchdb-node/-/pouchdb-node-5.5.0-prerelease.tgz
+npm http 304 http://192.168.1.100:4873/request
+npm http 304 http://192.168.1.100:4873/tape
+npm http 200 http://192.168.1.100:4873/randomstring
+npm http 200 http://192.168.1.100:4873/proxyquire
+npm http 304 http://192.168.1.100:4873/leveldown-mobile
+npm http 304 http://192.168.1.100:4873/urlsafe-base64
+npm http 200 http://192.168.1.100:4873/request-promise
+npm http 200 http://192.168.1.100:4873/sinon
+npm http 200 http://192.168.1.100:4873/nock
+npm http 200 http://192.168.1.100:4873/js-extend
+npm http fetch 200 http://192.168.1.100:4873/express-pouchdb/-/express-pouchdb-1.0.5-thali.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-node/-/pouchdb-node-5.5.0-prerelease.tgz
+npm http 200 http://192.168.1.100:4873/supertest-as-promised
+npm http 200 http://192.168.1.100:4873/tape-catch
+npm http 200 http://192.168.1.100:4873/supertest
+npm http 200 http://192.168.1.100:4873/uuid
+npm http 200 http://192.168.1.100:4873/tmp
+npm http request GET http://192.168.1.100:4873/bytes
+npm http request GET http://192.168.1.100:4873/content-type
+npm http request GET http://192.168.1.100:4873/debug
+npm http request GET http://192.168.1.100:4873/depd
+npm http request GET http://192.168.1.100:4873/http-errors
+npm http request GET http://192.168.1.100:4873/iconv-lite
+npm http request GET http://192.168.1.100:4873/on-finished
+npm http request GET http://192.168.1.100:4873/qs
+npm http request GET http://192.168.1.100:4873/raw-body
+npm http request GET http://192.168.1.100:4873/type-is
+npm http 304 http://192.168.1.100:4873/content-type
+npm http 304 http://192.168.1.100:4873/depd
+npm http 304 http://192.168.1.100:4873/http-errors
+npm http 304 http://192.168.1.100:4873/iconv-lite
+npm http 304 http://192.168.1.100:4873/raw-body
+npm http 304 http://192.168.1.100:4873/type-is
+npm http 304 http://192.168.1.100:4873/bytes
+npm http 304 http://192.168.1.100:4873/qs
+npm http 304 http://192.168.1.100:4873/debug
+npm http 304 http://192.168.1.100:4873/on-finished
+npm http request GET http://192.168.1.100:4873/ms
+npm http 304 http://192.168.1.100:4873/ms
+npm http request GET http://192.168.1.100:4873/statuses
+npm http 304 http://192.168.1.100:4873/statuses
+npm http request GET http://192.168.1.100:4873/ee-first
+npm http 304 http://192.168.1.100:4873/ee-first
+npm http request GET http://192.168.1.100:4873/unpipe
+npm http 304 http://192.168.1.100:4873/unpipe
+npm http request GET http://192.168.1.100:4873/media-typer
+npm http request GET http://192.168.1.100:4873/mime-types
+npm http 304 http://192.168.1.100:4873/media-typer
+npm http 304 http://192.168.1.100:4873/mime-types
+npm http request GET http://192.168.1.100:4873/mime-db
+npm http 304 http://192.168.1.100:4873/mime-db
+npm http request GET http://192.168.1.100:4873/accepts
+npm http request GET http://192.168.1.100:4873/array-flatten
+npm http request GET http://192.168.1.100:4873/content-disposition
+npm http request GET http://192.168.1.100:4873/cookie
+npm http request GET http://192.168.1.100:4873/cookie-signature
+npm http request GET http://192.168.1.100:4873/escape-html
+npm http request GET http://192.168.1.100:4873/etag
+npm http request GET http://192.168.1.100:4873/finalhandler
+npm http request GET http://192.168.1.100:4873/fresh
+npm http request GET http://192.168.1.100:4873/merge-descriptors
+npm http request GET http://192.168.1.100:4873/methods
+npm http request GET http://192.168.1.100:4873/parseurl
+npm http request GET http://192.168.1.100:4873/path-to-regexp
+npm http request GET http://192.168.1.100:4873/proxy-addr
+npm http request GET http://192.168.1.100:4873/range-parser
+npm http request GET http://192.168.1.100:4873/send
+npm http request GET http://192.168.1.100:4873/serve-static
+npm http request GET http://192.168.1.100:4873/utils-merge
+npm http request GET http://192.168.1.100:4873/vary
+npm http 304 http://192.168.1.100:4873/cookie
+npm http 304 http://192.168.1.100:4873/escape-html
+npm http 304 http://192.168.1.100:4873/cookie-signature
+npm http 304 http://192.168.1.100:4873/accepts
+npm http 304 http://192.168.1.100:4873/array-flatten
+npm http 304 http://192.168.1.100:4873/content-disposition
+npm http 304 http://192.168.1.100:4873/finalhandler
+npm http 304 http://192.168.1.100:4873/fresh
+npm http 304 http://192.168.1.100:4873/merge-descriptors
+npm http 304 http://192.168.1.100:4873/etag
+npm http 304 http://192.168.1.100:4873/path-to-regexp
+npm http 304 http://192.168.1.100:4873/proxy-addr
+npm http 304 http://192.168.1.100:4873/methods
+npm http 304 http://192.168.1.100:4873/parseurl
+npm http 304 http://192.168.1.100:4873/range-parser
 npm http 304 http://192.168.1.100:4873/vary
+npm http 304 http://192.168.1.100:4873/send
+npm http 304 http://192.168.1.100:4873/serve-static
+npm http 304 http://192.168.1.100:4873/utils-merge
 npm http request GET http://192.168.1.100:4873/negotiator
 npm http 200 http://192.168.1.100:4873/negotiator
 npm http request GET http://192.168.1.100:4873/forwarded
@@ -6876,48 +6904,48 @@ npm http 304 http://192.168.1.100:4873/forwarded
 npm http 304 http://192.168.1.100:4873/ipaddr.js
 npm http request GET http://192.168.1.100:4873/destroy
 npm http request GET http://192.168.1.100:4873/mime
-npm http 304 http://192.168.1.100:4873/destroy
 npm http 304 http://192.168.1.100:4873/mime
-npm http request GET http://192.168.1.100:4873/bluebird
+npm http 304 http://192.168.1.100:4873/destroy
 npm http request GET http://192.168.1.100:4873/basic-auth
-npm http request GET http://192.168.1.100:4873/cookie-parser
+npm http request GET http://192.168.1.100:4873/bluebird
 npm http request GET http://192.168.1.100:4873/extend
+npm http request GET http://192.168.1.100:4873/cookie-parser
 npm http request GET http://192.168.1.100:4873/compression
-npm http request GET http://192.168.1.100:4873/header-case-normalizer
-npm http request GET http://192.168.1.100:4873/pouchdb-find
 npm http request GET http://192.168.1.100:4873/multiparty
-npm http request GET http://192.168.1.100:4873/pouchdb-auth
 npm http request GET http://192.168.1.100:4873/pouchdb-all-dbs
-npm http request GET http://192.168.1.100:4873/pouchdb-list
-npm http request GET http://192.168.1.100:4873/pouchdb-replicator
-npm http request GET http://192.168.1.100:4873/pouchdb-rewrite
+npm http request GET http://192.168.1.100:4873/header-case-normalizer
 npm http request GET http://192.168.1.100:4873/pouchdb-security
 npm http request GET http://192.168.1.100:4873/pouchdb-show
 npm http request GET http://192.168.1.100:4873/pouchdb-size
-npm http request GET http://192.168.1.100:4873/pouchdb-update
+npm http request GET http://192.168.1.100:4873/pouchdb-replicator
+npm http request GET http://192.168.1.100:4873/pouchdb-auth
+npm http request GET http://192.168.1.100:4873/pouchdb-rewrite
+npm http request GET http://192.168.1.100:4873/pouchdb-list
+npm http request GET http://192.168.1.100:4873/pouchdb-find
 npm http request GET http://192.168.1.100:4873/pouchdb-validation
+npm http request GET http://192.168.1.100:4873/pouchdb-update
 npm http request GET http://192.168.1.100:4873/pouchdb-vhost
 npm http request GET http://192.168.1.100:4873/pouchdb-wrappers
+npm http 200 http://192.168.1.100:4873/basic-auth
 npm http 304 http://192.168.1.100:4873/bluebird
 npm http 304 http://192.168.1.100:4873/extend
-npm http 200 http://192.168.1.100:4873/basic-auth
 npm http 200 http://192.168.1.100:4873/cookie-parser
 npm http 200 http://192.168.1.100:4873/compression
 npm http 200 http://192.168.1.100:4873/multiparty
 npm http 200 http://192.168.1.100:4873/header-case-normalizer
-npm http 200 http://192.168.1.100:4873/pouchdb-find
-npm http 200 http://192.168.1.100:4873/pouchdb-all-dbs
-npm http 200 http://192.168.1.100:4873/pouchdb-security
-npm http 200 http://192.168.1.100:4873/pouchdb-auth
-npm http 200 http://192.168.1.100:4873/pouchdb-list
-npm http 200 http://192.168.1.100:4873/pouchdb-replicator
-npm http 200 http://192.168.1.100:4873/pouchdb-rewrite
-npm http 200 http://192.168.1.100:4873/pouchdb-update
-npm http 200 http://192.168.1.100:4873/pouchdb-size
 npm http 200 http://192.168.1.100:4873/pouchdb-show
-npm http 200 http://192.168.1.100:4873/pouchdb-vhost
-npm http 200 http://192.168.1.100:4873/pouchdb-wrappers
+npm http 200 http://192.168.1.100:4873/pouchdb-all-dbs
+npm http 200 http://192.168.1.100:4873/pouchdb-size
+npm http 200 http://192.168.1.100:4873/pouchdb-auth
+npm http 200 http://192.168.1.100:4873/pouchdb-security
+npm http 200 http://192.168.1.100:4873/pouchdb-replicator
+npm http 200 http://192.168.1.100:4873/pouchdb-list
+npm http 200 http://192.168.1.100:4873/pouchdb-rewrite
+npm http 200 http://192.168.1.100:4873/pouchdb-find
+npm http 200 http://192.168.1.100:4873/pouchdb-update
 npm http 200 http://192.168.1.100:4873/pouchdb-validation
+npm http 200 http://192.168.1.100:4873/pouchdb-wrappers
+npm http 200 http://192.168.1.100:4873/pouchdb-vhost
 npm http request GET http://192.168.1.100:4873/setprototypeof
 npm http 200 http://192.168.1.100:4873/setprototypeof
 npm http request GET http://192.168.1.100:4873/on-headers
@@ -6926,42 +6954,42 @@ npm http 200 http://192.168.1.100:4873/on-headers
 npm http 200 http://192.168.1.100:4873/compressible
 npm http request GET http://192.168.1.100:4873/readable-stream
 npm http request GET http://192.168.1.100:4873/stream-counter
-npm http 304 http://192.168.1.100:4873/readable-stream
 npm http 200 http://192.168.1.100:4873/stream-counter
+npm http 200 http://192.168.1.100:4873/readable-stream
 npm http request GET http://192.168.1.100:4873/es3ify
-npm http request GET http://192.168.1.100:4873/argsarray
 npm http request GET http://192.168.1.100:4873/pouchdb-promise
+npm http request GET http://192.168.1.100:4873/argsarray
 npm http request GET http://192.168.1.100:4873/tiny-queue
 npm http 304 http://192.168.1.100:4873/es3ify
+npm http 200 http://192.168.1.100:4873/tiny-queue
 npm http 200 http://192.168.1.100:4873/pouchdb-promise
 npm http 200 http://192.168.1.100:4873/argsarray
-npm http 200 http://192.168.1.100:4873/tiny-queue
-npm http request GET http://192.168.1.100:4873/esprima-fb
 npm http request GET http://192.168.1.100:4873/jstransform
-npm http 304 http://192.168.1.100:4873/esprima-fb
+npm http request GET http://192.168.1.100:4873/esprima-fb
 npm http 304 http://192.168.1.100:4873/jstransform
+npm http 304 http://192.168.1.100:4873/esprima-fb
 npm http request GET http://192.168.1.100:4873/base62
 npm http request GET http://192.168.1.100:4873/source-map
-npm http 304 http://192.168.1.100:4873/base62
 npm http 304 http://192.168.1.100:4873/source-map
+npm http 304 http://192.168.1.100:4873/base62
 npm http request GET http://192.168.1.100:4873/base64url
 npm http request GET http://192.168.1.100:4873/couchdb-calculate-session-id
 npm http request GET http://192.168.1.100:4873/crypto-lite
 npm http request GET http://192.168.1.100:4873/pouchdb-bulkdocs-wrapper
-npm http request GET http://192.168.1.100:4873/pouchdb-plugin-error
 npm http request GET http://192.168.1.100:4873/pouchdb
+npm http request GET http://192.168.1.100:4873/pouchdb-plugin-error
 npm http request GET http://192.168.1.100:4873/pouchdb-req-http-query
+npm http request GET http://192.168.1.100:4873/pouchdb-system-db
 npm http request GET http://192.168.1.100:4873/secure-random
 npm http request GET http://192.168.1.100:4873/promise-nodify
-npm http request GET http://192.168.1.100:4873/pouchdb-system-db
 npm http 200 http://192.168.1.100:4873/base64url
-npm http 200 http://192.168.1.100:4873/couchdb-calculate-session-id
+npm http 200 http://192.168.1.100:4873/pouchdb
 npm http 200 http://192.168.1.100:4873/pouchdb-bulkdocs-wrapper
-npm http 200 http://192.168.1.100:4873/pouchdb-plugin-error
+npm http 200 http://192.168.1.100:4873/couchdb-calculate-session-id
 npm http 200 http://192.168.1.100:4873/crypto-lite
+npm http 200 http://192.168.1.100:4873/pouchdb-plugin-error
 npm http 200 http://192.168.1.100:4873/pouchdb-req-http-query
 npm http 200 http://192.168.1.100:4873/promise-nodify
-npm http 200 http://192.168.1.100:4873/pouchdb
 npm http 200 http://192.168.1.100:4873/pouchdb-system-db
 npm http 200 http://192.168.1.100:4873/secure-random
 npm http request GET http://192.168.1.100:4873/concat-stream
@@ -6974,54 +7002,54 @@ npm http request GET http://192.168.1.100:4873/object-assign
 npm http request GET http://192.168.1.100:4873/camelcase-keys
 npm http request GET http://192.168.1.100:4873/indent-string
 npm http 304 http://192.168.1.100:4873/object-assign
-npm http 200 http://192.168.1.100:4873/indent-string
 npm http 200 http://192.168.1.100:4873/camelcase-keys
-npm http request GET http://192.168.1.100:4873/camelcase
+npm http 200 http://192.168.1.100:4873/indent-string
 npm http request GET http://192.168.1.100:4873/map-obj
+npm http request GET http://192.168.1.100:4873/camelcase
 npm http 200 http://192.168.1.100:4873/map-obj
 npm http 200 http://192.168.1.100:4873/camelcase
-npm http request GET http://192.168.1.100:4873/repeating
 npm http request GET http://192.168.1.100:4873/get-stdin
+npm http request GET http://192.168.1.100:4873/repeating
 npm http 200 http://192.168.1.100:4873/repeating
 npm http 200 http://192.168.1.100:4873/get-stdin
 npm http request GET http://192.168.1.100:4873/is-finite
 npm http 200 http://192.168.1.100:4873/is-finite
+npm http fetch GET http://192.168.1.100:4873/is-finite/-/is-finite-1.0.2.tgz
+npm http fetch 200 http://192.168.1.100:4873/is-finite/-/is-finite-1.0.2.tgz
 npm http request GET http://192.168.1.100:4873/number-is-nan
 npm http 200 http://192.168.1.100:4873/number-is-nan
+npm http fetch GET http://192.168.1.100:4873/number-is-nan/-/number-is-nan-1.0.1.tgz
+npm http fetch 200 http://192.168.1.100:4873/number-is-nan/-/number-is-nan-1.0.1.tgz
 npm http request GET http://192.168.1.100:4873/aproba
 npm http 200 http://192.168.1.100:4873/aproba
-npm http request GET http://192.168.1.100:4873/fruitdown
 npm http request GET http://192.168.1.100:4873/double-ended-queue
-npm http request GET http://192.168.1.100:4873/level-write-stream
 npm http request GET http://192.168.1.100:4873/es6-promise-pool
+npm http request GET http://192.168.1.100:4873/fruitdown
+npm http request GET http://192.168.1.100:4873/level-write-stream
+npm http request GET http://192.168.1.100:4873/memdown
 npm http request GET http://192.168.1.100:4873/levelup
 npm http request GET http://192.168.1.100:4873/localstorage-down
-npm http request GET http://192.168.1.100:4873/through2
-npm http request GET http://192.168.1.100:4873/js-extend
-npm http request GET http://192.168.1.100:4873/vuvuzela
-npm http request GET http://192.168.1.100:4873/spark-md5
-npm http request GET http://192.168.1.100:4873/sublevel-pouchdb
-npm http request GET http://192.168.1.100:4873/scope-eval
-npm http request GET http://192.168.1.100:4873/pouchdb-collections
 npm http request GET http://192.168.1.100:4873/pouchdb-collate
-npm http request GET http://192.168.1.100:4873/memdown
-npm http request GET http://192.168.1.100:4873/request
+npm http request GET http://192.168.1.100:4873/pouchdb-collections
+npm http request GET http://192.168.1.100:4873/scope-eval
+npm http request GET http://192.168.1.100:4873/spark-md5
+npm http request GET http://192.168.1.100:4873/through2
+npm http request GET http://192.168.1.100:4873/sublevel-pouchdb
+npm http request GET http://192.168.1.100:4873/vuvuzela
 npm http 200 http://192.168.1.100:4873/double-ended-queue
-npm http 200 http://192.168.1.100:4873/levelup
-npm http 200 http://192.168.1.100:4873/es6-promise-pool
 npm http 200 http://192.168.1.100:4873/fruitdown
-npm http 304 http://192.168.1.100:4873/through2
-npm http 304 http://192.168.1.100:4873/js-extend
-npm http 200 http://192.168.1.100:4873/spark-md5
-npm http 200 http://192.168.1.100:4873/vuvuzela
-npm http 200 http://192.168.1.100:4873/scope-eval
-npm http 200 http://192.168.1.100:4873/level-write-stream
-npm http 200 http://192.168.1.100:4873/pouchdb-collections
-npm http 200 http://192.168.1.100:4873/localstorage-down
+npm http 200 http://192.168.1.100:4873/es6-promise-pool
 npm http 200 http://192.168.1.100:4873/memdown
-npm http 304 http://192.168.1.100:4873/request
-npm http 200 http://192.168.1.100:4873/sublevel-pouchdb
+npm http 200 http://192.168.1.100:4873/levelup
+npm http 200 http://192.168.1.100:4873/localstorage-down
+npm http 200 http://192.168.1.100:4873/pouchdb-collections
 npm http 200 http://192.168.1.100:4873/pouchdb-collate
+npm http 200 http://192.168.1.100:4873/scope-eval
+npm http 304 http://192.168.1.100:4873/through2
+npm http 200 http://192.168.1.100:4873/spark-md5
+npm http 200 http://192.168.1.100:4873/sublevel-pouchdb
+npm http 200 http://192.168.1.100:4873/level-write-stream
+npm http 200 http://192.168.1.100:4873/vuvuzela
 npm http request GET http://192.168.1.100:4873/d64
 npm http request GET http://192.168.1.100:4873/abstract-leveldown
 npm http 200 http://192.168.1.100:4873/abstract-leveldown
@@ -7032,28 +7060,30 @@ npm http request GET http://192.168.1.100:4873/end-stream
 npm http 200 http://192.168.1.100:4873/end-stream
 npm http request GET http://192.168.1.100:4873/write-stream
 npm http 200 http://192.168.1.100:4873/write-stream
+npm http request GET http://192.168.1.100:4873/deferred-leveldown
+npm http request GET http://192.168.1.100:4873/level-codec
+npm http request GET http://192.168.1.100:4873/level-errors
 npm http request GET http://192.168.1.100:4873/level-iterator-stream
 npm http request GET http://192.168.1.100:4873/prr
-npm http request GET http://192.168.1.100:4873/level-codec
-npm http request GET http://192.168.1.100:4873/deferred-leveldown
-npm http request GET http://192.168.1.100:4873/level-errors
 npm http request GET http://192.168.1.100:4873/semver
 npm http 200 http://192.168.1.100:4873/prr
-npm http 200 http://192.168.1.100:4873/level-errors
-npm http 200 http://192.168.1.100:4873/level-iterator-stream
+npm http 200 http://192.168.1.100:4873/deferred-leveldown
 npm http 200 http://192.168.1.100:4873/semver
 npm http 200 http://192.168.1.100:4873/level-codec
-npm http 200 http://192.168.1.100:4873/deferred-leveldown
+npm http 200 http://192.168.1.100:4873/level-iterator-stream
+npm http 200 http://192.168.1.100:4873/level-errors
 npm http request GET http://192.168.1.100:4873/errno
 npm http 200 http://192.168.1.100:4873/errno
 npm http request GET http://192.168.1.100:4873/humble-localstorage
 npm http 200 http://192.168.1.100:4873/humble-localstorage
-npm http request GET http://192.168.1.100:4873/has-localstorage
 npm http request GET http://192.168.1.100:4873/localstorage-memory
-npm http 200 http://192.168.1.100:4873/localstorage-memory
+npm http request GET http://192.168.1.100:4873/has-localstorage
 npm http 200 http://192.168.1.100:4873/has-localstorage
-npm http request GET http://192.168.1.100:4873/functional-red-black-tree
+npm http 200 http://192.168.1.100:4873/localstorage-memory
 npm http request GET http://192.168.1.100:4873/ltgt
+npm http request GET http://192.168.1.100:4873/functional-red-black-tree
+npm http fetch GET http://192.168.1.100:4873/abstract-leveldown/-/abstract-leveldown-2.6.1.tgz
+npm http fetch 200 http://192.168.1.100:4873/abstract-leveldown/-/abstract-leveldown-2.6.1.tgz
 npm http 200 http://192.168.1.100:4873/ltgt
 npm http 200 http://192.168.1.100:4873/functional-red-black-tree
 npm http request GET http://192.168.1.100:4873/aws-sign2
@@ -7064,43 +7094,39 @@ npm http request GET http://192.168.1.100:4873/form-data
 npm http request GET http://192.168.1.100:4873/har-validator
 npm http request GET http://192.168.1.100:4873/hawk
 npm http request GET http://192.168.1.100:4873/http-signature
-npm http request GET http://192.168.1.100:4873/is-typedarray
-npm http request GET http://192.168.1.100:4873/aws4
 npm http request GET http://192.168.1.100:4873/isstream
 npm http request GET http://192.168.1.100:4873/json-stringify-safe
-npm http request GET http://192.168.1.100:4873/oauth-sign
+npm http request GET http://192.168.1.100:4873/is-typedarray
 npm http request GET http://192.168.1.100:4873/stringstream
-npm http request GET http://192.168.1.100:4873/tough-cookie
+npm http request GET http://192.168.1.100:4873/aws4
 npm http request GET http://192.168.1.100:4873/tunnel-agent
-npm http request GET http://192.168.1.100:4873/extend
+npm http request GET http://192.168.1.100:4873/tough-cookie
+npm http request GET http://192.168.1.100:4873/oauth-sign
 npm http request GET http://192.168.1.100:4873/qs
 npm http 304 http://192.168.1.100:4873/bl
 npm http 304 http://192.168.1.100:4873/combined-stream
+npm http 304 http://192.168.1.100:4873/form-data
 npm http 304 http://192.168.1.100:4873/aws-sign2
-npm http 200 http://192.168.1.100:4873/caseless
-npm http 200 http://192.168.1.100:4873/form-data
+npm http 304 http://192.168.1.100:4873/caseless
 npm http 304 http://192.168.1.100:4873/har-validator
-npm http 304 http://192.168.1.100:4873/http-signature
 npm http 304 http://192.168.1.100:4873/hawk
-npm http 200 http://192.168.1.100:4873/is-typedarray
+npm http 304 http://192.168.1.100:4873/http-signature
 npm http 304 http://192.168.1.100:4873/isstream
-npm http 304 http://192.168.1.100:4873/oauth-sign
-npm http 200 http://192.168.1.100:4873/aws4
 npm http 304 http://192.168.1.100:4873/json-stringify-safe
 npm http 304 http://192.168.1.100:4873/stringstream
+npm http 200 http://192.168.1.100:4873/is-typedarray
+npm http 200 http://192.168.1.100:4873/aws4
 npm http 304 http://192.168.1.100:4873/tunnel-agent
 npm http 304 http://192.168.1.100:4873/tough-cookie
-npm http 304 http://192.168.1.100:4873/extend
 npm WARN deprecated tough-cookie@2.2.2: ReDoS vulnerability parsing Set-Cookie https://nodesecurity.io/advisories/130
+npm http 304 http://192.168.1.100:4873/oauth-sign
 npm http 304 http://192.168.1.100:4873/qs
-npm http request GET http://192.168.1.100:4873/readable-stream
-npm http 304 http://192.168.1.100:4873/readable-stream
 npm http request GET http://192.168.1.100:4873/isarray
 npm http request GET http://192.168.1.100:4873/process-nextick-args
 npm http request GET http://192.168.1.100:4873/util-deprecate
 npm http 304 http://192.168.1.100:4873/process-nextick-args
-npm http 304 http://192.168.1.100:4873/isarray
 npm http 304 http://192.168.1.100:4873/util-deprecate
+npm http 304 http://192.168.1.100:4873/isarray
 npm http request GET http://192.168.1.100:4873/delayed-stream
 npm http 304 http://192.168.1.100:4873/delayed-stream
 npm http request GET http://192.168.1.100:4873/async
@@ -7111,25 +7137,25 @@ npm http request GET http://192.168.1.100:4873/chalk
 npm http request GET http://192.168.1.100:4873/is-my-json-valid
 npm http request GET http://192.168.1.100:4873/pinkie-promise
 npm http 304 http://192.168.1.100:4873/chalk
+npm http 304 http://192.168.1.100:4873/is-my-json-valid
 npm http 200 http://192.168.1.100:4873/pinkie-promise
-npm http 200 http://192.168.1.100:4873/is-my-json-valid
 npm http request GET http://192.168.1.100:4873/ansi-styles
 npm http request GET http://192.168.1.100:4873/escape-string-regexp
 npm http request GET http://192.168.1.100:4873/has-ansi
 npm http request GET http://192.168.1.100:4873/strip-ansi
 npm http request GET http://192.168.1.100:4873/supports-color
 npm http 304 http://192.168.1.100:4873/escape-string-regexp
-npm http 304 http://192.168.1.100:4873/has-ansi
-npm http 304 http://192.168.1.100:4873/strip-ansi
-npm http 304 http://192.168.1.100:4873/supports-color
 npm http 304 http://192.168.1.100:4873/ansi-styles
+npm http 304 http://192.168.1.100:4873/has-ansi
+npm http 304 http://192.168.1.100:4873/supports-color
+npm http 304 http://192.168.1.100:4873/strip-ansi
 npm http request GET http://192.168.1.100:4873/ansi-regex
 npm http 304 http://192.168.1.100:4873/ansi-regex
-npm http request GET http://192.168.1.100:4873/generate-object-property
 npm http request GET http://192.168.1.100:4873/generate-function
+npm http request GET http://192.168.1.100:4873/generate-object-property
 npm http request GET http://192.168.1.100:4873/jsonpointer
-npm http 304 http://192.168.1.100:4873/generate-function
 npm http 304 http://192.168.1.100:4873/generate-object-property
+npm http 304 http://192.168.1.100:4873/generate-function
 npm http 304 http://192.168.1.100:4873/jsonpointer
 npm http request GET http://192.168.1.100:4873/pinkie
 npm http 200 http://192.168.1.100:4873/pinkie
@@ -7139,27 +7165,31 @@ npm http request GET http://192.168.1.100:4873/cryptiles
 npm http request GET http://192.168.1.100:4873/sntp
 npm http 304 http://192.168.1.100:4873/hoek
 npm http 304 http://192.168.1.100:4873/sntp
+npm http 304 http://192.168.1.100:4873/cryptiles
 npm http 304 http://192.168.1.100:4873/boom
-npm http 200 http://192.168.1.100:4873/cryptiles
 npm http request GET http://192.168.1.100:4873/assert-plus
 npm http request GET http://192.168.1.100:4873/jsprim
 npm http request GET http://192.168.1.100:4873/sshpk
 npm http 304 http://192.168.1.100:4873/assert-plus
 npm http 200 http://192.168.1.100:4873/jsprim
 npm http 200 http://192.168.1.100:4873/sshpk
+npm http fetch GET http://192.168.1.100:4873/sshpk/-/sshpk-1.10.1.tgz
+npm http fetch 200 http://192.168.1.100:4873/sshpk/-/sshpk-1.10.1.tgz
 npm http request GET http://192.168.1.100:4873/extsprintf
 npm http request GET http://192.168.1.100:4873/json-schema
 npm http request GET http://192.168.1.100:4873/verror
 npm http 200 http://192.168.1.100:4873/json-schema
-npm http 200 http://192.168.1.100:4873/verror
 npm http 200 http://192.168.1.100:4873/extsprintf
+npm http 200 http://192.168.1.100:4873/verror
 npm http request GET http://192.168.1.100:4873/asn1
 npm http request GET http://192.168.1.100:4873/getpass
 npm http request GET http://192.168.1.100:4873/dashdash
 npm http 304 http://192.168.1.100:4873/asn1
 npm http 200 http://192.168.1.100:4873/getpass
 npm http 200 http://192.168.1.100:4873/dashdash
+npm http request GET http://192.168.1.100:4873/readable-stream
 npm http request GET http://192.168.1.100:4873/pull-stream
+npm http 304 http://192.168.1.100:4873/readable-stream
 npm http 200 http://192.168.1.100:4873/pull-stream
 npm http request GET http://192.168.1.100:4873/pull-core
 npm http 200 http://192.168.1.100:4873/pull-core
@@ -7175,25 +7205,27 @@ npm http request GET http://192.168.1.100:4873/xmlhttprequest
 npm http 200 http://192.168.1.100:4873/xmlhttprequest
 npm http request GET http://192.168.1.100:4873/pouchdb-changeslike-wrapper
 npm http 200 http://192.168.1.100:4873/pouchdb-changeslike-wrapper
-npm http request GET http://192.168.1.100:4873/couchdb-objects
 npm http request GET http://192.168.1.100:4873/couchdb-eval
+npm http request GET http://192.168.1.100:4873/couchdb-objects
 npm http request GET http://192.168.1.100:4873/random-uuid-v4
-npm http 200 http://192.168.1.100:4873/random-uuid-v4
 npm http 200 http://192.168.1.100:4873/couchdb-eval
+npm http 200 http://192.168.1.100:4873/random-uuid-v4
 npm http 200 http://192.168.1.100:4873/couchdb-objects
 npm http request GET http://192.168.1.100:4873/is-empty
 npm http 200 http://192.168.1.100:4873/is-empty
-npm http request GET http://192.168.1.100:4873/spark-md5
 npm http request GET http://192.168.1.100:4873/is-array
 npm http request GET http://192.168.1.100:4873/pouchdb-extend
 npm http request GET http://192.168.1.100:4873/pouchdb-upsert
+npm http request GET http://192.168.1.100:4873/spark-md5
 npm http 304 http://192.168.1.100:4873/spark-md5
 npm http 200 http://192.168.1.100:4873/pouchdb-upsert
 npm http 200 http://192.168.1.100:4873/is-array
 npm http 200 http://192.168.1.100:4873/pouchdb-extend
 npm http request GET http://192.168.1.100:4873/unreachable-branch-transform
 npm http 304 http://192.168.1.100:4873/unreachable-branch-transform
+npm http request GET http://192.168.1.100:4873/extend
 npm http request GET http://192.168.1.100:4873/couchdb-render
+npm http 304 http://192.168.1.100:4873/extend
 npm http 200 http://192.168.1.100:4873/couchdb-render
 npm http request GET http://192.168.1.100:4873/couchdb-resp-completer
 npm http 200 http://192.168.1.100:4873/couchdb-resp-completer
@@ -7205,9 +7237,7 @@ npm http request GET http://192.168.1.100:4873/pouchdb-route
 npm http 200 http://192.168.1.100:4873/pouchdb-route
 npm http request GET http://192.168.1.100:4873/get-folder-size
 npm http 200 http://192.168.1.100:4873/get-folder-size
-npm http request GET http://192.168.1.100:4873/async
 npm http request GET http://192.168.1.100:4873/minimist
-npm http 304 http://192.168.1.100:4873/async
 npm http 304 http://192.168.1.100:4873/minimist
 npm http request GET http://192.168.1.100:4873/bindings
 npm http request GET http://192.168.1.100:4873/abstract-leveldown
@@ -7215,34 +7245,34 @@ npm http request GET http://192.168.1.100:4873/fast-future
 npm http 304 http://192.168.1.100:4873/abstract-leveldown
 npm http 304 http://192.168.1.100:4873/bindings
 npm http 200 http://192.168.1.100:4873/fast-future
-npm http request GET http://192.168.1.100:4873/duplexify
 npm http request GET http://192.168.1.100:4873/varint
-npm http request GET http://192.168.1.100:4873/readable-stream
-npm http 304 http://192.168.1.100:4873/readable-stream
-npm http 304 http://192.168.1.100:4873/duplexify
+npm http request GET http://192.168.1.100:4873/duplexify
 npm http 304 http://192.168.1.100:4873/varint
+npm http 304 http://192.168.1.100:4873/duplexify
 npm http request GET http://192.168.1.100:4873/end-of-stream
 npm http request GET http://192.168.1.100:4873/stream-shift
 npm http 304 http://192.168.1.100:4873/stream-shift
 npm http 304 http://192.168.1.100:4873/end-of-stream
+npm http request GET http://192.168.1.100:4873/once
+npm http 304 http://192.168.1.100:4873/once
 npm http request GET http://192.168.1.100:4873/buffer-shims
-npm http 200 http://192.168.1.100:4873/buffer-shims
-npm http request GET http://192.168.1.100:4873/propagate
+npm http 304 http://192.168.1.100:4873/buffer-shims
 npm http request GET http://192.168.1.100:4873/deep-equal
 npm http request GET http://192.168.1.100:4873/debug
 npm http request GET http://192.168.1.100:4873/lodash
+npm http request GET http://192.168.1.100:4873/propagate
 npm http request GET http://192.168.1.100:4873/chai
-npm http 304 http://192.168.1.100:4873/deep-equal
-npm http 304 http://192.168.1.100:4873/debug
-npm http 200 http://192.168.1.100:4873/chai
 npm http 304 http://192.168.1.100:4873/lodash
 npm WARN deprecated lodash@2.4.1: lodash@<3.0.0 is no longer maintained. Upgrade to lodash@^4.0.0.
+npm http 304 http://192.168.1.100:4873/debug
+npm http 304 http://192.168.1.100:4873/deep-equal
 npm http 200 http://192.168.1.100:4873/propagate
-npm http request GET http://192.168.1.100:4873/deep-eql
+npm http 200 http://192.168.1.100:4873/chai
 npm http request GET http://192.168.1.100:4873/assertion-error
+npm http request GET http://192.168.1.100:4873/deep-eql
 npm http request GET http://192.168.1.100:4873/type-detect
-npm http 200 http://192.168.1.100:4873/assertion-error
 npm http 200 http://192.168.1.100:4873/deep-eql
+npm http 200 http://192.168.1.100:4873/assertion-error
 npm http 200 http://192.168.1.100:4873/type-detect
 npm http request GET http://192.168.1.100:4873/ms
 npm http 304 http://192.168.1.100:4873/ms
@@ -7250,40 +7280,60 @@ npm http request GET http://192.168.1.100:4873/ip
 npm http 304 http://192.168.1.100:4873/ip
 npm http request GET http://192.168.1.100:4873/pouchdb-adapter-http
 npm http request GET http://192.168.1.100:4873/pouchdb-adapter-leveldb
-npm http request GET http://192.168.1.100:4873/pouchdb-replication
 npm http request GET http://192.168.1.100:4873/pouchdb-core
 npm http request GET http://192.168.1.100:4873/pouchdb-mapreduce
-npm http 200 http://192.168.1.100:4873/pouchdb-adapter-leveldb
-npm http 200 http://192.168.1.100:4873/pouchdb-mapreduce
+npm http request GET http://192.168.1.100:4873/pouchdb-replication
 npm http 200 http://192.168.1.100:4873/pouchdb-core
+npm http fetch GET http://192.168.1.100:4873/pouchdb-core/-/pouchdb-core-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-core/-/pouchdb-core-5.5.0-prerelease.tgz
 npm http 200 http://192.168.1.100:4873/pouchdb-replication
+npm http fetch GET http://192.168.1.100:4873/pouchdb-replication/-/pouchdb-replication-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-replication/-/pouchdb-replication-5.5.0-prerelease.tgz
+npm http 200 http://192.168.1.100:4873/pouchdb-mapreduce
+npm http fetch GET http://192.168.1.100:4873/pouchdb-mapreduce/-/pouchdb-mapreduce-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-mapreduce/-/pouchdb-mapreduce-5.5.0-prerelease.tgz
 npm http 200 http://192.168.1.100:4873/pouchdb-adapter-http
-npm http request GET http://192.168.1.100:4873/pouchdb-promise
-npm http request GET http://192.168.1.100:4873/pouchdb-utils
+npm http fetch GET http://192.168.1.100:4873/pouchdb-adapter-http/-/pouchdb-adapter-http-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-adapter-http/-/pouchdb-adapter-http-5.5.0-prerelease.tgz
+npm http 200 http://192.168.1.100:4873/pouchdb-adapter-leveldb
+npm http fetch GET http://192.168.1.100:4873/pouchdb-adapter-leveldb/-/pouchdb-adapter-leveldb-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-adapter-leveldb/-/pouchdb-adapter-leveldb-5.5.0-prerelease.tgz
+npm http request GET http://192.168.1.100:4873/pouchdb-ajax
 npm http request GET http://192.168.1.100:4873/pouchdb-binary-utils
 npm http request GET http://192.168.1.100:4873/pouchdb-errors
-npm http request GET http://192.168.1.100:4873/pouchdb-ajax
 npm http request GET http://192.168.1.100:4873/pouchdb-md5
-npm http 304 http://192.168.1.100:4873/pouchdb-promise
-npm http 200 http://192.168.1.100:4873/pouchdb-utils
-npm http 200 http://192.168.1.100:4873/pouchdb-binary-utils
-npm http 200 http://192.168.1.100:4873/pouchdb-md5
+npm http request GET http://192.168.1.100:4873/pouchdb-utils
+npm http fetch GET http://192.168.1.100:4873/pouchdb-promise/-/pouchdb-promise-5.5.0-prerelease.tgz
 npm http 200 http://192.168.1.100:4873/pouchdb-errors
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-promise/-/pouchdb-promise-5.5.0-prerelease.tgz
 npm http 200 http://192.168.1.100:4873/pouchdb-ajax
+npm http 200 http://192.168.1.100:4873/pouchdb-md5
+npm http fetch GET http://192.168.1.100:4873/pouchdb-errors/-/pouchdb-errors-5.5.0-prerelease.tgz
+npm http fetch GET http://192.168.1.100:4873/pouchdb-ajax/-/pouchdb-ajax-5.5.0-prerelease.tgz
+npm http fetch GET http://192.168.1.100:4873/pouchdb-md5/-/pouchdb-md5-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-errors/-/pouchdb-errors-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-ajax/-/pouchdb-ajax-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-md5/-/pouchdb-md5-5.5.0-prerelease.tgz
+npm http 200 http://192.168.1.100:4873/pouchdb-utils
+npm http fetch GET http://192.168.1.100:4873/pouchdb-utils/-/pouchdb-utils-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-utils/-/pouchdb-utils-5.5.0-prerelease.tgz
+npm http 200 http://192.168.1.100:4873/pouchdb-binary-utils
+npm http fetch GET http://192.168.1.100:4873/pouchdb-binary-utils/-/pouchdb-binary-utils-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-binary-utils/-/pouchdb-binary-utils-5.5.0-prerelease.tgz
 npm http request GET http://192.168.1.100:4873/request
-npm http 200 http://192.168.1.100:4873/request
-npm http fetch GET http://192.168.1.100:4873/request/-/request-2.72.0.tgz
-npm http fetch 200 http://192.168.1.100:4873/request/-/request-2.72.0.tgz
+npm http 304 http://192.168.1.100:4873/request
 npm http request GET http://192.168.1.100:4873/pouchdb-collections
 npm http 304 http://192.168.1.100:4873/pouchdb-collections
-npm http request GET http://192.168.1.100:4873/extend
+npm http fetch GET http://192.168.1.100:4873/pouchdb-collections/-/pouchdb-collections-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-collections/-/pouchdb-collections-5.5.0-prerelease.tgz
 npm http request GET http://192.168.1.100:4873/qs
-npm http 304 http://192.168.1.100:4873/extend
 npm http 304 http://192.168.1.100:4873/qs
 npm http request GET http://192.168.1.100:4873/pouchdb-adapter-leveldb-core
 npm http request GET http://192.168.1.100:4873/leveldown
-npm http 200 http://192.168.1.100:4873/pouchdb-adapter-leveldb-core
 npm http 200 http://192.168.1.100:4873/leveldown
+npm http 200 http://192.168.1.100:4873/pouchdb-adapter-leveldb-core
+npm http fetch GET http://192.168.1.100:4873/pouchdb-adapter-leveldb-core/-/pouchdb-adapter-leveldb-core-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-adapter-leveldb-core/-/pouchdb-adapter-leveldb-core-5.5.0-prerelease.tgz
 npm http request GET http://192.168.1.100:4873/nan
 npm http request GET http://192.168.1.100:4873/prebuild
 npm http 304 http://192.168.1.100:4873/nan
@@ -7291,31 +7341,37 @@ npm http 200 http://192.168.1.100:4873/prebuild
 npm http request GET http://192.168.1.100:4873/expand-template
 npm http request GET http://192.168.1.100:4873/ghreleases
 npm http request GET http://192.168.1.100:4873/github-from-package
-npm http request GET http://192.168.1.100:4873/node-ninja
-npm http request GET http://192.168.1.100:4873/os-homedir
-npm http request GET http://192.168.1.100:4873/npmlog
-npm http request GET http://192.168.1.100:4873/pump
 npm http request GET http://192.168.1.100:4873/node-gyp
+npm http request GET http://192.168.1.100:4873/node-ninja
 npm http request GET http://192.168.1.100:4873/noop-logger
-npm http request GET http://192.168.1.100:4873/tar-fs
+npm http request GET http://192.168.1.100:4873/npmlog
+npm http request GET http://192.168.1.100:4873/async
+npm http request GET http://192.168.1.100:4873/os-homedir
+npm http request GET http://192.168.1.100:4873/pump
 npm http request GET http://192.168.1.100:4873/rc
-npm http request GET http://192.168.1.100:4873/tar-stream
 npm http request GET http://192.168.1.100:4873/simple-get
+npm http request GET http://192.168.1.100:4873/tar-fs
+npm http request GET http://192.168.1.100:4873/tar-stream
 npm http 200 http://192.168.1.100:4873/github-from-package
-npm http 200 http://192.168.1.100:4873/expand-template
 npm http 200 http://192.168.1.100:4873/ghreleases
-npm http 200 http://192.168.1.100:4873/os-homedir
 npm http 200 http://192.168.1.100:4873/node-ninja
-npm http 200 http://192.168.1.100:4873/pump
-npm http 200 http://192.168.1.100:4873/npmlog
-npm http 200 http://192.168.1.100:4873/tar-fs
-npm http 200 http://192.168.1.100:4873/noop-logger
 npm http 200 http://192.168.1.100:4873/node-gyp
+npm http 200 http://192.168.1.100:4873/noop-logger
+npm http 304 http://192.168.1.100:4873/async
+npm http 200 http://192.168.1.100:4873/npmlog
+npm http 200 http://192.168.1.100:4873/os-homedir
+npm http fetch GET http://192.168.1.100:4873/os-homedir/-/os-homedir-1.0.2.tgz
+npm http 200 http://192.168.1.100:4873/expand-template
+npm http fetch GET http://192.168.1.100:4873/expand-template/-/expand-template-1.0.3.tgz
+npm http 200 http://192.168.1.100:4873/pump
+npm http 200 http://192.168.1.100:4873/rc
+npm http fetch 200 http://192.168.1.100:4873/expand-template/-/expand-template-1.0.3.tgz
+npm http 200 http://192.168.1.100:4873/tar-fs
 npm http fetch GET http://192.168.1.100:4873/tar-fs/-/tar-fs-1.13.2.tgz
 npm http fetch 200 http://192.168.1.100:4873/tar-fs/-/tar-fs-1.13.2.tgz
 npm http 200 http://192.168.1.100:4873/tar-stream
+npm http fetch 200 http://192.168.1.100:4873/os-homedir/-/os-homedir-1.0.2.tgz
 npm http 200 http://192.168.1.100:4873/simple-get
-npm http 200 http://192.168.1.100:4873/rc
 npm http request GET http://192.168.1.100:4873/after
 npm http request GET http://192.168.1.100:4873/ghrepos
 npm http request GET http://192.168.1.100:4873/ghutils
@@ -7323,9 +7379,9 @@ npm http request GET http://192.168.1.100:4873/simple-mime
 npm http request GET http://192.168.1.100:4873/url-template
 npm http 304 http://192.168.1.100:4873/after
 npm http fetch GET http://192.168.1.100:4873/after/-/after-0.8.2.tgz
+npm http 200 http://192.168.1.100:4873/url-template
 npm http fetch 200 http://192.168.1.100:4873/after/-/after-0.8.2.tgz
 npm http 200 http://192.168.1.100:4873/ghutils
-npm http 200 http://192.168.1.100:4873/url-template
 npm http 200 http://192.168.1.100:4873/simple-mime
 npm http 200 http://192.168.1.100:4873/ghrepos
 npm http request GET http://192.168.1.100:4873/jsonist
@@ -7334,46 +7390,52 @@ npm http request GET http://192.168.1.100:4873/bl
 npm http request GET http://192.168.1.100:4873/hyperquest
 npm http 304 http://192.168.1.100:4873/bl
 npm http 200 http://192.168.1.100:4873/hyperquest
+npm http request GET http://192.168.1.100:4873/readable-stream
+npm http 304 http://192.168.1.100:4873/readable-stream
 npm http request GET http://192.168.1.100:4873/duplexer2
 npm http 200 http://192.168.1.100:4873/duplexer2
 npm http request GET http://192.168.1.100:4873/fstream
 npm http request GET http://192.168.1.100:4873/nopt
-npm http request GET http://192.168.1.100:4873/osenv
 npm http request GET http://192.168.1.100:4873/path-array
+npm http request GET http://192.168.1.100:4873/osenv
 npm http request GET http://192.168.1.100:4873/tar
 npm http request GET http://192.168.1.100:4873/which
 npm http 304 http://192.168.1.100:4873/fstream
+npm http 200 http://192.168.1.100:4873/tar
 npm http 200 http://192.168.1.100:4873/path-array
 npm http 200 http://192.168.1.100:4873/osenv
 npm http 200 http://192.168.1.100:4873/nopt
-npm http 200 http://192.168.1.100:4873/tar
 npm http 200 http://192.168.1.100:4873/which
+npm http fetch GET http://192.168.1.100:4873/which/-/which-1.2.11.tgz
+npm http fetch 200 http://192.168.1.100:4873/which/-/which-1.2.11.tgz
 npm http request GET http://192.168.1.100:4873/abbrev
-npm http 200 http://192.168.1.100:4873/abbrev
+npm http 304 http://192.168.1.100:4873/abbrev
+npm http request GET http://192.168.1.100:4873/ansi
 npm http request GET http://192.168.1.100:4873/are-we-there-yet
 npm http request GET http://192.168.1.100:4873/gauge
-npm http request GET http://192.168.1.100:4873/ansi
+npm http 304 http://192.168.1.100:4873/ansi
 npm http 200 http://192.168.1.100:4873/are-we-there-yet
-npm http 200 http://192.168.1.100:4873/ansi
 npm http 200 http://192.168.1.100:4873/gauge
 npm http request GET http://192.168.1.100:4873/delegates
 npm http 200 http://192.168.1.100:4873/delegates
-npm http request GET http://192.168.1.100:4873/has-unicode
 npm http request GET http://192.168.1.100:4873/lodash.pad
+npm http request GET http://192.168.1.100:4873/has-unicode
 npm http request GET http://192.168.1.100:4873/lodash.padend
 npm http request GET http://192.168.1.100:4873/lodash.padstart
+npm http 200 http://192.168.1.100:4873/lodash.pad
 npm http 200 http://192.168.1.100:4873/has-unicode
 npm http 200 http://192.168.1.100:4873/lodash.padend
 npm http 200 http://192.168.1.100:4873/lodash.padstart
-npm http 200 http://192.168.1.100:4873/lodash.pad
+npm http fetch GET http://192.168.1.100:4873/lodash.pad/-/lodash.pad-4.5.1.tgz
+npm http fetch 200 http://192.168.1.100:4873/lodash.pad/-/lodash.pad-4.5.1.tgz
 npm http fetch GET http://192.168.1.100:4873/lodash.padend/-/lodash.padend-4.6.1.tgz
 npm http fetch GET http://192.168.1.100:4873/lodash.padstart/-/lodash.padstart-4.6.1.tgz
-npm http fetch GET http://192.168.1.100:4873/lodash.pad/-/lodash.pad-4.5.1.tgz
-npm http fetch 200 http://192.168.1.100:4873/lodash.padstart/-/lodash.padstart-4.6.1.tgz
 npm http fetch 200 http://192.168.1.100:4873/lodash.padend/-/lodash.padend-4.6.1.tgz
-npm http fetch 200 http://192.168.1.100:4873/lodash.pad/-/lodash.pad-4.5.1.tgz
+npm http fetch 200 http://192.168.1.100:4873/lodash.padstart/-/lodash.padstart-4.6.1.tgz
 npm http request GET http://192.168.1.100:4873/os-tmpdir
 npm http 200 http://192.168.1.100:4873/os-tmpdir
+npm http fetch GET http://192.168.1.100:4873/os-tmpdir/-/os-tmpdir-1.0.2.tgz
+npm http fetch 200 http://192.168.1.100:4873/os-tmpdir/-/os-tmpdir-1.0.2.tgz
 npm http request GET http://192.168.1.100:4873/array-index
 npm http 200 http://192.168.1.100:4873/array-index
 npm http request GET http://192.168.1.100:4873/es6-symbol
@@ -7384,26 +7446,26 @@ npm http 200 http://192.168.1.100:4873/d
 npm http 200 http://192.168.1.100:4873/es5-ext
 npm http request GET http://192.168.1.100:4873/es6-iterator
 npm http 200 http://192.168.1.100:4873/es6-iterator
+npm http request GET http://192.168.1.100:4873/extend
 npm http request GET http://192.168.1.100:4873/http-signature
 npm http request GET http://192.168.1.100:4873/aws-sign2
 npm http request GET http://192.168.1.100:4873/har-validator
-npm http 304 http://192.168.1.100:4873/har-validator
 npm http 304 http://192.168.1.100:4873/http-signature
 npm http 304 http://192.168.1.100:4873/aws-sign2
+npm http 304 http://192.168.1.100:4873/extend
+npm http 304 http://192.168.1.100:4873/har-validator
 npm http request GET http://192.168.1.100:4873/bluebird
 npm http 304 http://192.168.1.100:4873/bluebird
 npm http request GET http://192.168.1.100:4873/ctype
 npm http request GET http://192.168.1.100:4873/assert-plus
 npm http request GET http://192.168.1.100:4873/asn1
+npm http 304 http://192.168.1.100:4873/asn1
 npm http 304 http://192.168.1.100:4873/ctype
 npm http 304 http://192.168.1.100:4873/assert-plus
-npm http 304 http://192.168.1.100:4873/asn1
 npm http request GET http://192.168.1.100:4873/block-stream
 npm http 200 http://192.168.1.100:4873/block-stream
 npm http request GET http://192.168.1.100:4873/isexe
 npm http 200 http://192.168.1.100:4873/isexe
-npm http request GET http://192.168.1.100:4873/end-of-stream
-npm http 200 http://192.168.1.100:4873/end-of-stream
 npm http request GET http://192.168.1.100:4873/strip-json-comments
 npm http request GET http://192.168.1.100:4873/deep-extend
 npm http request GET http://192.168.1.100:4873/ini
@@ -7413,46 +7475,58 @@ npm http 200 http://192.168.1.100:4873/deep-extend
 npm WARN engine deep-extend@0.4.1: wanted: {"node":">=0.12.0","iojs":">=1.0.0"} (current: {"node":"0.10.40","npm":"3.3.12"})
 npm http request GET http://192.168.1.100:4873/unzip-response
 npm http 200 http://192.168.1.100:4873/unzip-response
-npm http request GET http://192.168.1.100:4873/readable-stream
-npm http 304 http://192.168.1.100:4873/readable-stream
-npm http request GET http://192.168.1.100:4873/sublevel-pouchdb
+npm http fetch GET http://192.168.1.100:4873/unzip-response/-/unzip-response-1.0.1.tgz
+npm http fetch 200 http://192.168.1.100:4873/unzip-response/-/unzip-response-1.0.1.tgz
+npm http request GET http://192.168.1.100:4873/pouchdb-adapter-utils
+npm http request GET http://192.168.1.100:4873/pouchdb-promise
 npm http request GET http://192.168.1.100:4873/pouchdb-merge
 npm http request GET http://192.168.1.100:4873/pouchdb-json
-npm http request GET http://192.168.1.100:4873/pouchdb-adapter-utils
-npm http 200 http://192.168.1.100:4873/pouchdb-merge
-npm http 200 http://192.168.1.100:4873/pouchdb-adapter-utils
-npm http 200 http://192.168.1.100:4873/pouchdb-json
-npm http 304 http://192.168.1.100:4873/sublevel-pouchdb
-npm http request GET http://192.168.1.100:4873/ltgt
-npm http 200 http://192.168.1.100:4873/ltgt
-npm http fetch GET http://192.168.1.100:4873/ltgt/-/ltgt-2.1.2.tgz
-npm http fetch 200 http://192.168.1.100:4873/ltgt/-/ltgt-2.1.2.tgz
-npm http request GET http://192.168.1.100:4873/pouchdb-promise
+npm http request GET http://192.168.1.100:4873/sublevel-pouchdb
 npm http 304 http://192.168.1.100:4873/pouchdb-promise
+npm http 304 http://192.168.1.100:4873/sublevel-pouchdb
+npm http fetch GET http://192.168.1.100:4873/sublevel-pouchdb/-/sublevel-pouchdb-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/sublevel-pouchdb/-/sublevel-pouchdb-5.5.0-prerelease.tgz
+npm http 200 http://192.168.1.100:4873/pouchdb-json
+npm http 200 http://192.168.1.100:4873/pouchdb-adapter-utils
+npm http fetch GET http://192.168.1.100:4873/pouchdb-json/-/pouchdb-json-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-json/-/pouchdb-json-5.5.0-prerelease.tgz
+npm http fetch GET http://192.168.1.100:4873/pouchdb-adapter-utils/-/pouchdb-adapter-utils-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-adapter-utils/-/pouchdb-adapter-utils-5.5.0-prerelease.tgz
+npm http 200 http://192.168.1.100:4873/pouchdb-merge
+npm http fetch GET http://192.168.1.100:4873/pouchdb-merge/-/pouchdb-merge-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-merge/-/pouchdb-merge-5.5.0-prerelease.tgz
+npm http request GET http://192.168.1.100:4873/ltgt
+npm http 304 http://192.168.1.100:4873/ltgt
 npm http request GET http://192.168.1.100:4873/pouchdb-mapreduce-utils
 npm http 200 http://192.168.1.100:4873/pouchdb-mapreduce-utils
+npm http fetch GET http://192.168.1.100:4873/pouchdb-mapreduce-utils/-/pouchdb-mapreduce-utils-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-mapreduce-utils/-/pouchdb-mapreduce-utils-5.5.0-prerelease.tgz
 npm http request GET http://192.168.1.100:4873/pouchdb-checkpointer
 npm http request GET http://192.168.1.100:4873/pouchdb-generate-replication-id
-npm http 200 http://192.168.1.100:4873/pouchdb-generate-replication-id
 npm http 200 http://192.168.1.100:4873/pouchdb-checkpointer
+npm http fetch GET http://192.168.1.100:4873/pouchdb-checkpointer/-/pouchdb-checkpointer-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-checkpointer/-/pouchdb-checkpointer-5.5.0-prerelease.tgz
+npm http 200 http://192.168.1.100:4873/pouchdb-generate-replication-id
+npm http fetch GET http://192.168.1.100:4873/pouchdb-generate-replication-id/-/pouchdb-generate-replication-id-5.5.0-prerelease.tgz
+npm http fetch 200 http://192.168.1.100:4873/pouchdb-generate-replication-id/-/pouchdb-generate-replication-id-5.5.0-prerelease.tgz
 npm http request GET http://192.168.1.100:4873/module-not-found-error
 npm http request GET http://192.168.1.100:4873/fill-keys
-npm http 200 http://192.168.1.100:4873/fill-keys
 npm http 200 http://192.168.1.100:4873/module-not-found-error
+npm http 200 http://192.168.1.100:4873/fill-keys
 npm http request GET http://192.168.1.100:4873/is-object
 npm http 200 http://192.168.1.100:4873/is-object
 npm http request GET http://192.168.1.100:4873/array-uniq
 npm http 200 http://192.168.1.100:4873/array-uniq
 npm http request GET http://192.168.1.100:4873/lodash
 npm http 304 http://192.168.1.100:4873/lodash
+npm http request GET http://192.168.1.100:4873/formatio
+npm http request GET http://192.168.1.100:4873/util
 npm http request GET http://192.168.1.100:4873/samsam
 npm http request GET http://192.168.1.100:4873/lolex
-npm http request GET http://192.168.1.100:4873/util
-npm http request GET http://192.168.1.100:4873/formatio
+npm http 200 http://192.168.1.100:4873/samsam
+npm http 200 http://192.168.1.100:4873/formatio
 npm http 200 http://192.168.1.100:4873/lolex
 npm http 200 http://192.168.1.100:4873/util
-npm http 200 http://192.168.1.100:4873/formatio
-npm http 200 http://192.168.1.100:4873/samsam
 npm http request GET http://192.168.1.100:4873/engine.io-client
 npm http request GET http://192.168.1.100:4873/component-bind
 npm http request GET http://192.168.1.100:4873/component-emitter
@@ -7465,18 +7539,16 @@ npm http request GET http://192.168.1.100:4873/to-array
 npm http request GET http://192.168.1.100:4873/backo2
 npm http request GET http://192.168.1.100:4873/debug
 npm http 304 http://192.168.1.100:4873/engine.io-client
-npm http 304 http://192.168.1.100:4873/object-component
-npm http 304 http://192.168.1.100:4873/component-emitter
+npm http 304 http://192.168.1.100:4873/component-bind
 npm http 304 http://192.168.1.100:4873/socket.io-parser
-npm http 200 http://192.168.1.100:4873/component-bind
-npm http 304 http://192.168.1.100:4873/has-binary
-npm http 304 http://192.168.1.100:4873/parseuri
-npm http 304 http://192.168.1.100:4873/to-array
+npm http 304 http://192.168.1.100:4873/object-component
+npm http 200 http://192.168.1.100:4873/component-emitter
 npm http 304 http://192.168.1.100:4873/indexof
-npm http 200 http://192.168.1.100:4873/backo2
-npm http 200 http://192.168.1.100:4873/debug
-npm http fetch GET http://192.168.1.100:4873/debug/-/debug-0.7.4.tgz
-npm http fetch 200 http://192.168.1.100:4873/debug/-/debug-0.7.4.tgz
+npm http 304 http://192.168.1.100:4873/parseuri
+npm http 200 http://192.168.1.100:4873/has-binary
+npm http 304 http://192.168.1.100:4873/backo2
+npm http 304 http://192.168.1.100:4873/to-array
+npm http 304 http://192.168.1.100:4873/debug
 npm http request GET http://192.168.1.100:4873/component-inherit
 npm http request GET http://192.168.1.100:4873/engine.io-parser
 npm http request GET http://192.168.1.100:4873/has-cors
@@ -7484,12 +7556,12 @@ npm http request GET http://192.168.1.100:4873/parsejson
 npm http request GET http://192.168.1.100:4873/parseqs
 npm http request GET http://192.168.1.100:4873/ws
 npm http fetch GET https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
-npm http 304 http://192.168.1.100:4873/has-cors
 npm http 304 http://192.168.1.100:4873/component-inherit
+npm http 304 http://192.168.1.100:4873/has-cors
 npm http 304 http://192.168.1.100:4873/parsejson
 npm http 200 http://192.168.1.100:4873/engine.io-parser
 npm http 304 http://192.168.1.100:4873/parseqs
-npm http 304 http://192.168.1.100:4873/ws
+npm http 200 http://192.168.1.100:4873/ws
 npm http fetch 200 https://github.com/rase-/node-XMLHttpRequest/archive/a6b6f2.tar.gz
 npm http request GET http://192.168.1.100:4873/ms
 npm http 304 http://192.168.1.100:4873/ms
@@ -7498,46 +7570,46 @@ npm http request GET http://192.168.1.100:4873/base64-arraybuffer
 npm http request GET http://192.168.1.100:4873/blob
 npm http request GET http://192.168.1.100:4873/utf8
 npm http request GET http://192.168.1.100:4873/after
-npm http 304 http://192.168.1.100:4873/arraybuffer.slice
-npm http 304 http://192.168.1.100:4873/blob
 npm http 304 http://192.168.1.100:4873/base64-arraybuffer
-npm http 304 http://192.168.1.100:4873/utf8
+npm http 304 http://192.168.1.100:4873/blob
 npm http 304 http://192.168.1.100:4873/after
+npm http 304 http://192.168.1.100:4873/utf8
+npm http 200 http://192.168.1.100:4873/arraybuffer.slice
 npm http fetch GET https://github.com/component/global/archive/v2.0.1.tar.gz
 npm http fetch 200 https://github.com/component/global/archive/v2.0.1.tar.gz
 npm http request GET http://192.168.1.100:4873/better-assert
-npm http 304 http://192.168.1.100:4873/better-assert
+npm http 200 http://192.168.1.100:4873/better-assert
 npm http request GET http://192.168.1.100:4873/callsite
 npm http 304 http://192.168.1.100:4873/callsite
 npm http request GET http://192.168.1.100:4873/options
 npm http request GET http://192.168.1.100:4873/ultron
-npm http 304 http://192.168.1.100:4873/ultron
 npm http 304 http://192.168.1.100:4873/options
+npm http 304 http://192.168.1.100:4873/ultron
 npm http request GET http://192.168.1.100:4873/json3
 npm http request GET http://192.168.1.100:4873/benchmark
-npm http 304 http://192.168.1.100:4873/benchmark
 npm http 304 http://192.168.1.100:4873/json3
+npm http 304 http://192.168.1.100:4873/benchmark
 npm http request GET http://192.168.1.100:4873/superagent
 npm http 200 http://192.168.1.100:4873/superagent
 npm http request GET http://192.168.1.100:4873/qs
 npm http request GET http://192.168.1.100:4873/methods
-npm http request GET http://192.168.1.100:4873/extend
 npm http request GET http://192.168.1.100:4873/form-data
+npm http request GET http://192.168.1.100:4873/readable-stream
+npm http request GET http://192.168.1.100:4873/formidable
 npm http request GET http://192.168.1.100:4873/reduce-component
 npm http request GET http://192.168.1.100:4873/cookiejar
-npm http request GET http://192.168.1.100:4873/formidable
 npm http 304 http://192.168.1.100:4873/form-data
-npm http 304 http://192.168.1.100:4873/qs
-npm http 304 http://192.168.1.100:4873/extend
+npm http 304 http://192.168.1.100:4873/readable-stream
 npm http 304 http://192.168.1.100:4873/methods
+npm http 304 http://192.168.1.100:4873/qs
 npm http 200 http://192.168.1.100:4873/reduce-component
-npm http 200 http://192.168.1.100:4873/cookiejar
 npm http 200 http://192.168.1.100:4873/formidable
-npm http request GET http://192.168.1.100:4873/async
+npm http 200 http://192.168.1.100:4873/cookiejar
 npm http request GET http://192.168.1.100:4873/combined-stream
+npm http request GET http://192.168.1.100:4873/async
 npm http request GET http://192.168.1.100:4873/mime-types
-npm http 304 http://192.168.1.100:4873/async
 npm http 304 http://192.168.1.100:4873/combined-stream
+npm http 304 http://192.168.1.100:4873/async
 npm http 304 http://192.168.1.100:4873/mime-types
 npm http request GET http://192.168.1.100:4873/delayed-stream
 npm http 304 http://192.168.1.100:4873/delayed-stream
@@ -7547,12 +7619,12 @@ npm http request GET http://192.168.1.100:4873/bluebird
 npm http 304 http://192.168.1.100:4873/bluebird
 npm http request GET http://192.168.1.100:4873/defined
 npm http request GET http://192.168.1.100:4873/glob
-npm http request GET http://192.168.1.100:4873/object-inspect
 npm http request GET http://192.168.1.100:4873/resumer
-npm http 304 http://192.168.1.100:4873/glob
+npm http request GET http://192.168.1.100:4873/object-inspect
 npm http 304 http://192.168.1.100:4873/defined
-npm http 200 http://192.168.1.100:4873/object-inspect
+npm http 304 http://192.168.1.100:4873/glob
 npm http 200 http://192.168.1.100:4873/resumer
+npm http 200 http://192.168.1.100:4873/object-inspect
 npm WARN prefer global node-ninja@1.0.2 should be installed with -g
 npm WARN prefer global node-gyp@3.4.0 should be installed with -g
 gyp JXcore NODE-GYP Using node-gyp bundled in npm coming from JXcore
@@ -8669,3 +8741,4 @@ Trace: [TypeError: Cannot read property 'peerDictionary' of undefined]
     at nextTick (/Users/thali/Github/Thali_CordovaPlugin/thali/node_modules/immediate/lib/index.js:61:18)
     at process._tickCallback (node.js:917:13)
 npm ERR! Test failed.  See above for more details.
+bash: shell_session_update: command not found
