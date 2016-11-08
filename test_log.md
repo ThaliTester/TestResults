@@ -5,20 +5,20 @@
 IS Running:
 Running 'jx install'
 Skipping the log for NPM since the exitCode was 0
-> jx index.js {"devices":{"ios":4,"android":3}}
-2016-11-04 13:48:18 - INFO HttpServer: 'listening on *:3000'
+> jx index.js {"devices":{"ios":3,"android":3}}
+2016-11-08 18:54:52 - INFO HttpServer: 'listening on *:3000'
 
-2016-11-04 13:49:20 - DEBUG HttpServer: 'device presented, name: 'samsung-SM-G935F', uuid: '620626f1-c720-48e6-baca-60ac8f368a6b', platformName: 'android', type: 'unittest', hasRequiredHardware: 'true', nativeUTFailed: 'true''
+2016-11-08 18:55:55 - DEBUG HttpServer: 'device presented, name: 'samsung-SM-G935F', uuid: '626a0619-b937-4a3d-a89c-648f901b0962', platformName: 'android', type: 'unittest', hasRequiredHardware: 'true', nativeUTFailed: 'true''
 
-2016-11-04 13:49:20 - INFO TestFramework: 'disqualifying device on which native tests failed, name: 'samsung-SM-G935F''
+2016-11-08 18:55:55 - INFO TestFramework: 'disqualifying device on which native tests failed, name: 'samsung-SM-G935F''
 
-2016-11-04 13:49:21 - INFO HttpServer: 'Socket to device name: 'samsung-SM-G935F' disconnected, reason: 'client namespace disconnect''
+2016-11-08 18:55:55 - INFO HttpServer: 'Socket to device name: 'samsung-SM-G935F' disconnected, reason: 'client namespace disconnect''
 
-2016-11-04 13:49:23 - DEBUG HttpServer: 'device presented, name: 'Huawei-Nexus 6P', uuid: 'e2f6a8af-80f3-4e0a-9f9c-ae002dfe233e', platformName: 'android', type: 'unittest', hasRequiredHardware: 'true', nativeUTFailed: 'true''
+2016-11-08 18:55:58 - DEBUG HttpServer: 'device presented, name: 'Huawei-Nexus 6P', uuid: '84bdf91b-338e-47ff-8f5f-2b37956986f4', platformName: 'android', type: 'unittest', hasRequiredHardware: 'true', nativeUTFailed: 'true''
 
-2016-11-04 13:49:23 - INFO TestFramework: 'disqualifying device on which native tests failed, name: 'Huawei-Nexus 6P''
+2016-11-08 18:55:58 - INFO TestFramework: 'disqualifying device on which native tests failed, name: 'Huawei-Nexus 6P''
 
-2016-11-04 13:49:23 - INFO HttpServer: 'Socket to device name: 'Huawei-Nexus 6P' disconnected, reason: 'client namespace disconnect''
+2016-11-08 18:55:58 - INFO HttpServer: 'Socket to device name: 'Huawei-Nexus 6P' disconnected, reason: 'client namespace disconnect''
 
 
  
@@ -109,8 +109,6 @@ Android task is completed. [FAILED]
 
 
 ###iOS Logs
-[Iphone6-1](https://github.com/ThaliTester/TestResults/blob/92339050883a779_DO_NOT_MERGE_chapko/iOS_Iphone6-1.md)
-
 [Iphone6-2](https://github.com/ThaliTester/TestResults/blob/92339050883a779_DO_NOT_MERGE_chapko/iOS_Iphone6-2.md)
 
 [Iphone5s-1](https://github.com/ThaliTester/TestResults/blob/92339050883a779_DO_NOT_MERGE_chapko/iOS_Iphone5s-1.md)
