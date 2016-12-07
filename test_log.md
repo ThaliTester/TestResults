@@ -5,18 +5,18 @@
 Error: Command failed: IS Running:
 Running 'jx install'
 Skipping the log for NPM since the exitCode was 0
-> jx index.js {"devices":{"ios":2,"android":3}}
-2016-12-06 12:45:25 - INFO HttpServer: 'listening on *:3000'
+> jx index.js {"devices":{"ios":5,"android":3}}
+2016-12-07 11:08:55 - INFO HttpServer: 'listening on *:3000'
 
-2016-12-06 12:46:18 - DEBUG HttpServer: 'device presented, name: 'samsung-SM-G930F', uuid: '3abe0b78-e637-4359-89ce-88e9c0c439fb', platformName: 'android', type: 'unittest', hasRequiredHardware: 'true', nativeUTFailed: 'false''
+2016-12-07 11:09:49 - DEBUG HttpServer: 'device presented, name: 'samsung-SM-G930F', uuid: '7e64006f-7712-4ef3-aa55-262db11ee575', platformName: 'android', type: 'unittest', hasRequiredHardware: 'true', nativeUTFailed: 'false''
 
-2016-12-06 12:46:18 - DEBUG TestFramework: 'device added, name: 'samsung-SM-G930F''
+2016-12-07 11:09:49 - DEBUG TestFramework: 'device added, name: 'samsung-SM-G930F''
 
-2016-12-06 12:50:25 - ERROR TestServerProcess: 'uncaught exception, error: 'Error: timeout exceed', stack: 'Error: timeout exceed
+2016-12-07 11:13:55 - ERROR TestServerProcess: 'uncaught exception, error: 'Error: timeout exceed', stack: 'Error: timeout exceed
     at null._onTimeout (/home/pi/Test/server_96524298ae159c7/test/TestServer/index.js:45:9)
     at Timer.listOnTimeout [as ontimeout] (timers.js:120:15)''
 
-2016-12-06 12:50:25 - INFO HttpServer: 'Socket to device name: 'samsung-SM-G930F' disconnected, reason: 'undefined''
+2016-12-07 11:13:55 - INFO HttpServer: 'Socket to device name: 'samsung-SM-G930F' disconnected, reason: 'undefined''
 
 
  
@@ -38,12 +38,11 @@ android : Error: Command failed: Error: Command failed: Android testing process 
 TIMEOUT REACHED!
 
 ios : Error: Command failed: true
-6/12/2016@13:42:12 Getting the list of iOS devices 
-6/12/2016@13:42:13 Deploying iOS test app 
-6/12/2016@13:42:13 uninstalling the application 
-6/12/2016@13:42:13 installing the application 
-6/12/2016@14:05:31 ios: child process exited with code null on device 605a17dff1a0ba7f312ea7b076f5923e29d8b1fe 
-6/12/2016@14:05:31 ios: child process exited with code null on device 00b2e2c1b30013159b62125fe7f097bdcc055c10 
+7/12/2016@12:05:37 Getting the list of iOS devices 
+7/12/2016@12:05:38 Deploying iOS test app 
+7/12/2016@12:05:38 uninstalling the application 
+7/12/2016@12:05:39 installing the application 
+7/12/2016@12:28:57 ios: child process exited with code null on device bffa901fefdea07f59339a6737776943349f5077 
 true
 
 ```
@@ -64,10 +63,8 @@ Starting application ThaliTest on ce061606e320561102
 
 App was succesfully started on ce061606e320561102
 
-STOP log received from ce061606e320561102
-Test has FAILED
-
-Device test finished on ce061606e320561102 
+Error! Unexpected exit on device ce061606e320561102 app:com.test.thalitest code:null 
+Child process exited with code null on device ce061606e320561102
 Android task is completed. [FAILED]
 ```
 [samsung-SM-G935F](https://github.com/ThaliTester/TestResults/blob/96524298ae159c7_change_devices_tests_network_type_from_Wi-Fi_to_Native_larryonoff/thali05_samsung-SM-G935F.md)
@@ -88,10 +85,8 @@ Starting application ThaliTest on ce061606c181d71003
 
 App was succesfully started on ce061606c181d71003
 
-STOP log received from ce061606c181d71003
-Test has FAILED
-
-Device test finished on ce061606c181d71003 
+Error! Unexpected exit on device ce061606c181d71003 app:com.test.thalitest code:null 
+Child process exited with code null on device ce061606c181d71003
 Android task is completed. [FAILED]
 ```
 [samsung-SM-G930F](https://github.com/ThaliTester/TestResults/blob/96524298ae159c7_change_devices_tests_network_type_from_Wi-Fi_to_Native_larryonoff/thali06_samsung-SM-G930F.md)
@@ -112,17 +107,25 @@ Starting application ThaliTest on ce0616068b9f212302
 
 App was succesfully started on ce0616068b9f212302
 
-Error! Unexpected exit on device ce0616068b9f212302 app:com.test.thalitest code:null 
-Child process exited with code null on device ce0616068b9f212302
+STOP log received from ce0616068b9f212302
+Test has FAILED
+
+Device test finished on ce0616068b9f212302 
 Android task is completed. [FAILED]
 ```
 [samsung-SM-G930F](https://github.com/ThaliTester/TestResults/blob/96524298ae159c7_change_devices_tests_network_type_from_Wi-Fi_to_Native_larryonoff/thali07_samsung-SM-G930F.md)
 
 
 ###iOS Logs
-[Iphone5s-1](https://github.com/ThaliTester/TestResults/blob/96524298ae159c7_change_devices_tests_network_type_from_Wi-Fi_to_Native_larryonoff/iOS_Iphone5s-1.md)
+[ipad-mini-mfts](https://github.com/ThaliTester/TestResults/blob/96524298ae159c7_change_devices_tests_network_type_from_Wi-Fi_to_Native_larryonoff/iOS_ipad-mini-mfts.md)
 
-[IpadAir2-1](https://github.com/ThaliTester/TestResults/blob/96524298ae159c7_change_devices_tests_network_type_from_Wi-Fi_to_Native_larryonoff/iOS_IpadAir2-1.md)
+[ipad-air-2-1](https://github.com/ThaliTester/TestResults/blob/96524298ae159c7_change_devices_tests_network_type_from_Wi-Fi_to_Native_larryonoff/iOS_ipad-air-2-1.md)
+
+[iphone-5s-1](https://github.com/ThaliTester/TestResults/blob/96524298ae159c7_change_devices_tests_network_type_from_Wi-Fi_to_Native_larryonoff/iOS_iphone-5s-1.md)
+
+[iphone-6-2](https://github.com/ThaliTester/TestResults/blob/96524298ae159c7_change_devices_tests_network_type_from_Wi-Fi_to_Native_larryonoff/iOS_iphone-6-2.md)
+
+[iphone-5s-mfts](https://github.com/ThaliTester/TestResults/blob/96524298ae159c7_change_devices_tests_network_type_from_Wi-Fi_to_Native_larryonoff/iOS_iphone-5s-mfts.md)
 
 [server](https://github.com/ThaliTester/TestResults/blob/96524298ae159c7_change_devices_tests_network_type_from_Wi-Fi_to_Native_larryonoff/iOS_server.md)
 
