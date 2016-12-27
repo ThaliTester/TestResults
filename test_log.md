@@ -1,0 +1,159 @@
+#### Test 99435972548f19d Logs
+
+#### Test Server Logs
+```
+Error: Command failed: index.js failed [ 1 ]
+IS Running:
+Running 'jx install'
+Skipping the log for NPM since the exitCode was 0
+> jx index.js {"devices":{"ios":5,"android":3}}
+2016-12-27 12:50:03 - INFO HttpServer: 'listening on *:3000'
+
+2016-12-27 12:50:10 - DEBUG HttpServer: 'device presented, name: 'samsung-SM-G930F', uuid: '9617a69f-5c75-41b7-ad01-a1197049f73e', platformName: 'android', type: 'unittest', hasRequiredHardware: 'true', nativeUTFailed: 'false''
+
+2016-12-27 12:50:10 - DEBUG TestFramework: 'device added, name: 'samsung-SM-G930F''
+
+2016-12-27 12:50:34 - DEBUG HttpServer: 'device presented, name: 'samsung-SM-G935F', uuid: '4c459e13-69e1-41d4-b034-7384270c5a40', platformName: 'android', type: 'unittest', hasRequiredHardware: 'true', nativeUTFailed: 'false''
+
+2016-12-27 12:50:34 - DEBUG TestFramework: 'device added, name: 'samsung-SM-G935F''
+
+2016-12-27 12:51:54 - DEBUG HttpServer: 'device presented, name: 'samsung-SM-G930F', uuid: '3aae9b1c-889b-42d7-aed0-8260bf5c6050', platformName: 'android', type: 'unittest', hasRequiredHardware: 'true', nativeUTFailed: 'true''
+
+2016-12-27 12:51:54 - INFO TestFramework: 'disqualifying device on which native tests failed, name: 'samsung-SM-G930F''
+
+2016-12-27 12:51:54 - INFO HttpServer: 'Socket to device name: 'samsung-SM-G930F' disconnected, reason: 'client namespace disconnect''
+
+2016-12-27 12:55:03 - ERROR TestServerProcess: 'uncaught exception, error: 'Error: timeout exceed', stack: 'Error: timeout exceed
+    at null._onTimeout (/home/pi/Test/server_99435972548f19d/test/TestServer/index.js:45:9)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:120:15)''
+
+2016-12-27 12:55:03 - INFO HttpServer: 'Socket to device name: 'samsung-SM-G930F' disconnected, reason: 'undefined''
+
+2016-12-27 12:55:03 - INFO HttpServer: 'Socket to device name: 'samsung-SM-G935F' disconnected, reason: 'undefined''
+
+[0;31merror: command 'sudo jx ______.js all' failed with code 1, file 'bash' on line 30[0m
+One or more Android tests are failed.
+ [0m
+index.js failed [ 1 ]
+
+```
+
+
+Logs for system : 
+```
+
+android : Error: Command failed: Error: Command failed: Android testing process has failed
+ [0m
+
+
+TIMEOUT REACHED!
+
+ios : Error: Command failed: true
+27/12/2016@13:46:53 Getting the list of iOS devices 
+27/12/2016@13:46:54 ios: device name: ipad-air-2-1 , device identifier:  605a17dff1a0ba7f312ea7b076f5923e29d8b1fe
+27/12/2016@13:46:54 ios: device name: iphone-5s-mfts , device identifier:  bffa901fefdea07f59339a6737776943349f5077
+27/12/2016@13:46:54 ios: device name: iphone-6-2 , device identifier:  7ed231f0829a4ace34162e6c18308bcd995bc25a
+27/12/2016@13:46:54 ios: device name: ipad-mini-mfts , device identifier:  83aab4e7f1dde3becec287ac4c44362439d2595b
+27/12/2016@13:46:54 ios: device name: iphone-5s-1 , device identifier:  00b2e2c1b30013159b62125fe7f097bdcc055c10
+27/12/2016@13:46:54 Deploying iOS test app 
+27/12/2016@13:46:54 uninstalling the application 
+27/12/2016@13:46:55 installing the application 
+27/12/2016@14:10:13 ios: child process exited with code null on device 7ed231f0829a4ace34162e6c18308bcd995bc25a 
+27/12/2016@14:10:13 ios: child process exited with code null on device 605a17dff1a0ba7f312ea7b076f5923e29d8b1fe 
+true
+
+```
+###Android Logs
+####Node name: thali02
+Console output:
+```
+Stopping app on  ce0616068b9f212302
+Uninstalling app on  ce0616068b9f212302
+
+All devices are ready!
+
+Deploying to ce0616068b9f212302
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+App was succesfully deployed to ce0616068b9f212302
+
+Starting application ThaliTest on ce0616068b9f212302
+
+App was succesfully started on ce0616068b9f212302
+
+STOP log received from ce0616068b9f212302
+Test has FAILED
+
+Device test finished on ce0616068b9f212302 
+Android task is completed. [FAILED]
+```
+[samsung-SM-G930F](https://github.com/ThaliTester/TestResults/blob/99435972548f19d_Fix__module_not_found__error_during_build_chapko/thali02_samsung-SM-G930F.md)
+
+####Node name: thali03
+Console output:
+```
+Stopping app on  ce061606c181d71003
+Uninstalling app on  ce061606c181d71003
+
+All devices are ready!
+
+Deploying to ce061606c181d71003
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+Deploying to ce061606c181d71003
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+App was succesfully deployed to ce061606c181d71003
+
+Starting application ThaliTest on ce061606c181d71003
+
+App was succesfully started on ce061606c181d71003
+
+STOP log received from ce061606c181d71003
+Test has FAILED
+
+Device test finished on ce061606c181d71003 
+Android task is completed. [FAILED]
+```
+[samsung-SM-G930F](https://github.com/ThaliTester/TestResults/blob/99435972548f19d_Fix__module_not_found__error_during_build_chapko/thali03_samsung-SM-G930F.md)
+
+####Node name: thali04
+Console output:
+```
+Stopping app on  ce061606e320561102
+Uninstalling app on  ce061606e320561102
+
+All devices are ready!
+
+Deploying to ce061606e320561102
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+Deploying to ce061606e320561102
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+App was succesfully deployed to ce061606e320561102
+
+Starting application ThaliTest on ce061606e320561102
+
+App was succesfully started on ce061606e320561102
+
+STOP log received from ce061606e320561102
+Test has FAILED
+
+Device test finished on ce061606e320561102 
+Android task is completed. [FAILED]
+```
+[samsung-SM-G935F](https://github.com/ThaliTester/TestResults/blob/99435972548f19d_Fix__module_not_found__error_during_build_chapko/thali04_samsung-SM-G935F.md)
+
+
+###iOS Logs
+[ipad-air-2-1](https://github.com/ThaliTester/TestResults/blob/99435972548f19d_Fix__module_not_found__error_during_build_chapko/iOS_ipad-air-2-1.md)
+
+[iphone-5s-mfts](https://github.com/ThaliTester/TestResults/blob/99435972548f19d_Fix__module_not_found__error_during_build_chapko/iOS_iphone-5s-mfts.md)
+
+[iphone-6-2](https://github.com/ThaliTester/TestResults/blob/99435972548f19d_Fix__module_not_found__error_during_build_chapko/iOS_iphone-6-2.md)
+
+[ipad-mini-mfts](https://github.com/ThaliTester/TestResults/blob/99435972548f19d_Fix__module_not_found__error_during_build_chapko/iOS_ipad-mini-mfts.md)
+
+[iphone-5s-1](https://github.com/ThaliTester/TestResults/blob/99435972548f19d_Fix__module_not_found__error_during_build_chapko/iOS_iphone-5s-1.md)
+
+[server](https://github.com/ThaliTester/TestResults/blob/99435972548f19d_Fix__module_not_found__error_during_build_chapko/iOS_server.md)
+
+
+
+
