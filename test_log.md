@@ -1,0 +1,153 @@
+#### Test 9965213169fe96d Logs
+
+#### Test Server Logs
+```
+Error: Command failed: index.js failed [ 1 ]
+IS Running:
+Running 'jx install'
+Skipping the log for NPM since the exitCode was 0
+> jx index.js {"devices":{"ios":5,"android":3}}
+2016-12-29 13:38:23 - INFO HttpServer: 'listening on *:3000'
+
+2016-12-29 13:38:51 - DEBUG HttpServer: 'device presented, name: 'samsung-SM-G930F', uuid: '2bf1ae97-71d6-42a7-9462-e44831a10237', platformName: 'android', type: 'unittest', hasRequiredHardware: 'true', nativeUTFailed: 'true''
+
+2016-12-29 13:38:51 - INFO TestFramework: 'disqualifying device on which native tests failed, name: 'samsung-SM-G930F''
+
+2016-12-29 13:38:51 - INFO HttpServer: 'Socket to device name: 'samsung-SM-G930F' disconnected, reason: 'client namespace disconnect''
+
+2016-12-29 13:39:38 - DEBUG HttpServer: 'device presented, name: 'samsung-SM-G930F', uuid: '29bf5ecf-f2d5-4a55-b719-4c1e97bad210', platformName: 'android', type: 'unittest', hasRequiredHardware: 'true', nativeUTFailed: 'false''
+
+2016-12-29 13:39:38 - DEBUG TestFramework: 'device added, name: 'samsung-SM-G930F''
+
+2016-12-29 13:43:23 - ERROR TestServerProcess: 'uncaught exception, error: 'Error: timeout exceed', stack: 'Error: timeout exceed
+    at null._onTimeout (/home/pi/Test/server_9965213169fe96d/test/TestServer/index.js:45:9)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:120:15)''
+
+2016-12-29 13:43:23 - INFO HttpServer: 'Socket to device name: 'samsung-SM-G930F' disconnected, reason: 'undefined''
+
+[0;31merror: command 'sudo jx ______.js all' failed with code 1, file 'bash' on line 30[0m
+One or more Android tests are failed.
+ [0m
+index.js failed [ 1 ]
+
+```
+
+
+Logs for system : 
+```
+
+android : Error: Command failed: Error: Command failed: Android testing process has failed
+ [0m
+
+
+TIMEOUT REACHED!
+
+ios : Error: Command failed: true
+29/12/2016@14:35:18 Getting the list of iOS devices 
+29/12/2016@14:35:19 ios: device name: ipad-air-2-1 , device identifier:  605a17dff1a0ba7f312ea7b076f5923e29d8b1fe
+29/12/2016@14:35:19 ios: device name: iphone-5s-mfts , device identifier:  bffa901fefdea07f59339a6737776943349f5077
+29/12/2016@14:35:19 ios: device name: iphone-6-2 , device identifier:  7ed231f0829a4ace34162e6c18308bcd995bc25a
+29/12/2016@14:35:19 ios: device name: ipad-mini-mfts , device identifier:  83aab4e7f1dde3becec287ac4c44362439d2595b
+29/12/2016@14:35:19 ios: device name: iphone-5s-1 , device identifier:  00b2e2c1b30013159b62125fe7f097bdcc055c10
+29/12/2016@14:35:19 Deploying iOS test app 
+29/12/2016@14:35:19 uninstalling the application 
+29/12/2016@14:35:20 installing the application 
+29/12/2016@14:38:33 ios: child process exited with code 254 on device 605a17dff1a0ba7f312ea7b076f5923e29d8b1fe 
+29/12/2016@14:58:38 ios: child process exited with code null on device 7ed231f0829a4ace34162e6c18308bcd995bc25a 
+true
+
+```
+###Android Logs
+####Node name: thali02
+Console output:
+```
+Stopping app on  ce0616068b9f212302
+Uninstalling app on  ce0616068b9f212302
+
+All devices are ready!
+
+Deploying to ce0616068b9f212302
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+App was succesfully deployed to ce0616068b9f212302
+
+Starting application ThaliTest on ce0616068b9f212302
+
+App was succesfully started on ce0616068b9f212302
+
+STOP log received from ce0616068b9f212302
+Test has FAILED
+
+Device test finished on ce0616068b9f212302 
+Android task is completed. [FAILED]
+```
+[samsung-SM-G930F](https://github.com/ThaliTester/TestResults/blob/9965213169fe96d_Add_test_for_bad_parameters_in_multiConnect__edit_wifiBasedNativeMock_squid48/thali02_samsung-SM-G930F.md)
+
+####Node name: thali03
+Console output:
+```
+Stopping app on  ce061606c181d71003
+Uninstalling app on  ce061606c181d71003
+
+All devices are ready!
+
+Deploying to ce061606c181d71003
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+Deploying to ce061606c181d71003
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+App was succesfully deployed to ce061606c181d71003
+
+Starting application ThaliTest on ce061606c181d71003
+
+App was succesfully started on ce061606c181d71003
+
+STOP log received from ce061606c181d71003
+Test has FAILED
+
+Device test finished on ce061606c181d71003 
+Android task is completed. [FAILED]
+```
+[samsung-SM-G930F](https://github.com/ThaliTester/TestResults/blob/9965213169fe96d_Add_test_for_bad_parameters_in_multiConnect__edit_wifiBasedNativeMock_squid48/thali03_samsung-SM-G930F.md)
+
+####Node name: thali04
+Console output:
+```
+Stopping app on  ce061606e320561102
+Uninstalling app on  ce061606e320561102
+
+All devices are ready!
+
+Deploying to ce061606e320561102
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+Deploying to ce061606e320561102
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+App was succesfully deployed to ce061606e320561102
+
+Starting application ThaliTest on ce061606e320561102
+
+App was succesfully started on ce061606e320561102
+
+STOP log received from ce061606e320561102
+Test has FAILED
+
+Device test finished on ce061606e320561102 
+Android task is completed. [FAILED]
+```
+[samsung-SM-G935F](https://github.com/ThaliTester/TestResults/blob/9965213169fe96d_Add_test_for_bad_parameters_in_multiConnect__edit_wifiBasedNativeMock_squid48/thali04_samsung-SM-G935F.md)
+
+
+###iOS Logs
+[ipad-air-2-1](https://github.com/ThaliTester/TestResults/blob/9965213169fe96d_Add_test_for_bad_parameters_in_multiConnect__edit_wifiBasedNativeMock_squid48/iOS_ipad-air-2-1.md)
+
+[iphone-5s-mfts](https://github.com/ThaliTester/TestResults/blob/9965213169fe96d_Add_test_for_bad_parameters_in_multiConnect__edit_wifiBasedNativeMock_squid48/iOS_iphone-5s-mfts.md)
+
+[iphone-6-2](https://github.com/ThaliTester/TestResults/blob/9965213169fe96d_Add_test_for_bad_parameters_in_multiConnect__edit_wifiBasedNativeMock_squid48/iOS_iphone-6-2.md)
+
+[ipad-mini-mfts](https://github.com/ThaliTester/TestResults/blob/9965213169fe96d_Add_test_for_bad_parameters_in_multiConnect__edit_wifiBasedNativeMock_squid48/iOS_ipad-mini-mfts.md)
+
+[iphone-5s-1](https://github.com/ThaliTester/TestResults/blob/9965213169fe96d_Add_test_for_bad_parameters_in_multiConnect__edit_wifiBasedNativeMock_squid48/iOS_iphone-5s-1.md)
+
+[server](https://github.com/ThaliTester/TestResults/blob/9965213169fe96d_Add_test_for_bad_parameters_in_multiConnect__edit_wifiBasedNativeMock_squid48/iOS_server.md)
+
+
+
+
