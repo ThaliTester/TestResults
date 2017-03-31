@@ -1,0 +1,87 @@
+#### Test 113657308ae914df Logs
+
+#### Test Server Logs
+```
+Enter ____.js
+Targets defined
+http required
+Creating internal server
+Got request
+URL:  [ 'nodes', '2' ]
+Got request
+URL:  [ 'cancel', '1' ]
+Got request
+URL:  [ 'cancel', '1' ]
+Enter checkIt
+[0;31merror: command 'sudo jx ______.js all' failed with code 1, file 'bash' on line 30[0m
+One or more Android tests are failed.
+ [0m
+
+```
+
+
+Logs for system : 
+```
+
+android : No Error
+
+ios : false
+```
+
+
+###Android Logs
+####Node name: thali03
+Console output:
+```
+Stopping app on  ce061606e320561102
+Uninstalling app on  ce061606e320561102
+
+All devices are ready!
+
+Deploying to ce061606e320561102
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+deploy command: adb -s ce061606e320561102 install -r /home/pi/test/builder/builds/113657308ae914df/build_android/android_0_113657308ae914df.apk&& adb -s ce061606e320561102 shell pm list packages&& adb -s ce061606e320561102 shell pm grant com.rockwellautomation.thalitest android.permission.ACCESS_COARSE_LOCATION
+Deploying to ce061606e320561102
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+deploy command: adb -s ce061606e320561102 install -r /home/pi/test/builder/builds/113657308ae914df/build_android/android_0_113657308ae914df.apk&& adb -s ce061606e320561102 shell pm list packages&& adb -s ce061606e320561102 shell pm grant com.rockwellautomation.thalitest android.permission.ACCESS_COARSE_LOCATION
+Deploying to ce061606e320561102
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+deploy command: adb -s ce061606e320561102 install -r /home/pi/test/builder/builds/113657308ae914df/build_android/android_0_113657308ae914df.apk&& adb -s ce061606e320561102 shell pm list packages&& adb -s ce061606e320561102 shell pm grant com.rockwellautomation.thalitest android.permission.ACCESS_COARSE_LOCATION
+
+
+Test on this node has failed but the reason wasn't the test application itself.
+ Cancelling the test result on this node.
+ Error: problem deploying Android apk(/home/pi/test/builder/builds/113657308ae914df/build_android/android_0_113657308ae914df.apk) to device ce061606e320561102
+```
+####Node name: thali04
+Console output:
+```
+Stopping app on  ce0616068b9f212302
+Uninstalling app on  ce0616068b9f212302
+
+All devices are ready!
+
+Deploying to ce0616068b9f212302
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+deploy command: adb -s ce0616068b9f212302 install -r /home/pi/test/builder/builds/113657308ae914df/build_android/android_0_113657308ae914df.apk&& adb -s ce0616068b9f212302 shell pm list packages&& adb -s ce0616068b9f212302 shell pm grant com.rockwellautomation.thalitest android.permission.ACCESS_COARSE_LOCATION
+Deploying to ce0616068b9f212302
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+deploy command: adb -s ce0616068b9f212302 install -r /home/pi/test/builder/builds/113657308ae914df/build_android/android_0_113657308ae914df.apk&& adb -s ce0616068b9f212302 shell pm list packages&& adb -s ce0616068b9f212302 shell pm grant com.rockwellautomation.thalitest android.permission.ACCESS_COARSE_LOCATION
+Deploying to ce0616068b9f212302
+Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
+deploy command: adb -s ce0616068b9f212302 install -r /home/pi/test/builder/builds/113657308ae914df/build_android/android_0_113657308ae914df.apk&& adb -s ce0616068b9f212302 shell pm list packages&& adb -s ce0616068b9f212302 shell pm grant com.rockwellautomation.thalitest android.permission.ACCESS_COARSE_LOCATION
+
+
+Test on this node has failed but the reason wasn't the test application itself.
+ Cancelling the test result on this node.
+ Error: problem deploying Android apk(/home/pi/test/builder/builds/113657308ae914df/build_android/android_0_113657308ae914df.apk) to device ce0616068b9f212302
+```
+
+###iOS Logs
+[iphone-5s-1](https://github.com/ThaliTester/TestResults/blob/113657308ae914df_Update_compile_sdk_version_to_25_evabishchevich/iOS_iphone-5s-1.md)
+
+[iphone-5s-mfts](https://github.com/ThaliTester/TestResults/blob/113657308ae914df_Update_compile_sdk_version_to_25_evabishchevich/iOS_iphone-5s-mfts.md)
+
+[ipad-air-2-1](https://github.com/ThaliTester/TestResults/blob/113657308ae914df_Update_compile_sdk_version_to_25_evabishchevich/iOS_ipad-air-2-1.md)
+
+
