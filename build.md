@@ -7,18 +7,8 @@
 ```
 
 ```
-Updating 6f5597b..522dfbe
-Fast-forward
- test/www/jxcore/bv_tests/testThaliMobileNative.js |   38 +++++++++++++++------
- 1 file changed, 28 insertions(+), 10 deletions(-)
+Already up-to-date.
 
-From https://github.com/thaliproject/Thali_CordovaPlugin
-   6f5597b..522dfbe  master     -> origin/master
-   d8e38b6..49fde15  master_fix_ios_replication -> origin/master_fix_ios_replication
-   afb2157..622e8c5  master_jareksl_ci_test -> origin/master_jareksl_ci_test
- * [new branch]      master_mlesnic_1928 -> origin/master_mlesnic_1928
- * [new branch]      master_mlesnic_1930 -> origin/master_mlesnic_1930
-   442c28e..84d0363  master_mlesnic_iOS_workaround -> origin/master_mlesnic_iOS_workaround
 
 ```
 
