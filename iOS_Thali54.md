@@ -5,6 +5,6 @@
 [100%] Installed package /Users/thali/Github/CI/builder/builds/113351851fe156cf/build_ios/ThaliTest.app
 ,------ Debug phase ------
 ,Starting debug of iPhone SE 'Thali54' (5f598c405d20d04b836dd4c89356e94737c1c2d2) connected through USB...
-,2017-07-11 14:15:32.817 ios-deploy[10219:791410] [ !! ] Unable to locate DeviceSupport directory. This probably means you don't have Xcode installed, you will need to launch the app manually and logging output will not be shown!
+,2017-07-11 15:26:31.564 ios-deploy[11059:809891] [ !! ] Unable to locate DeveloperDiskImage.dmg. This probably means you don't have Xcode installed, you will need to launch the app manually and logging output will not be shown!
 
 ```
