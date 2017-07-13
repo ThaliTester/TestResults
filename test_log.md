@@ -13,8 +13,8 @@ Logs for system :
 ```
 
 ios : Error: Command failed: true
-13/7/2017@14:46:59 Getting the list of iOS devices 
-13/7/2017@14:47:00 Error: ios-deploy { [Error: Command failed: ] killed: false, code: 253, signal: null } [....] Waiting up to 1 seconds for iOS device to be connected
+13/7/2017@16:01:36 Getting the list of iOS devices 
+13/7/2017@16:01:37 Error: ios-deploy { [Error: Command failed: ] killed: false, code: 253, signal: null } [....] Waiting up to 1 seconds for iOS device to be connected
   
 true
 
@@ -62,8 +62,6 @@ Uninstalling app on  ce0616068b9f212302
 
 All devices are ready!
 
-Deploying to ce0616068b9f212302
-Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
 Deploying to ce0616068b9f212302
 Marshmallow device. Granting ACCESS_COARSE_LOCATION permission.
 App was succesfully deployed to ce0616068b9f212302
