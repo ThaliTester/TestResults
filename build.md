@@ -9,8 +9,6 @@
 ```
 Already up-to-date.
 
-From https://github.com/thaliproject/Thali_CordovaPlugin
-   30e646f..520d16b  master_jareksl_ci_test -> origin/master_jareksl_ci_test
 
 ```
 
@@ -955,26 +953,27 @@ Build version 8E3004b
 
 
 npm
- 
-http request GET http://192.168.1.100:4873/child-process-promise
+ http
+ request GET http://192.168.1.100:4873/child-process-promise
 
 npm 
 http request GET http://192.168.1.100:4873/end-with
 
-npm
- http request GET http://192.168.1.100:4873/findit
+npm 
+http request GET http://192.168.1.100:4873/findit
 
 npm 
 http request GET http://192.168.1.100:4873/bluebird
 
-npm
- http request GET http://192.168.1.100:4873/randomstring
+npm 
+http request GET http://192.168.1.100:4873/randomstring
 
 npm
  http request GET http://192.168.1.100:4873/node-uuid
 
-npm 
-http request GET http://192.168.1.100:4873/fs-extra-promise
+npm
+ http request
+ GET http://192.168.1.100:4873/fs-extra-promise
 
 npm 
 http request GET http://192.168.1.100:4873/jxc
@@ -985,8 +984,7 @@ http request GET http://192.168.1.100:4873/lie
 npm
  
 http
- 
-request GET http://192.168.1.100:4873/unzip
+ request GET http://192.168.1.100:4873/unzip
 
 npm 
 http 
@@ -1001,62 +999,58 @@ http
  http://192.168.1.100:4873/bluebird
 
 npm 
-http 304 http://192.168.1.100:4873/node-uuid
+http 304 http://192.168.1.100:4873/end-with
 
 npm 
-http 304 http://192.168.1.100:4873/unzip
+http 304 http://192.168.1.100:4873/child-process-promise
 
-npm 
-http 304 http://192.168.1.100:4873/lie
+npm
+ http 304 http://192.168.1.100:4873/findit
 
 npm
  
 http
- 304 http://192.168.1.100:4873/findit
+ 
+304 http://192.168.1.100:4873/fs-extra-promise
 
 npm 
-http 304 http://192.168.1.100:4873/child-process-promise
+http 304 http://192.168.1.100:4873/node-uuid
+
+npm 
+http 304 http://192.168.1.100:4873/lie
 
 npm 
 http 304 http://192.168.1.100:4873/randomstring
 
 npm
- http
- 
-304 http://192.168.1.100:4873/request
-
-npm
- http 304 http://192.168.1.100:4873/fs-extra-promise
+ http 304 http://192.168.1.100:4873/unzip
 
 npm
  
 http
  
-304
- http://192.168.1.100:4873/jxc
-
-npm
- http 304
- http://192.168.1.100:4873/end-with
+304 http://192.168.1.100:4873/jxc
 
 npm 
-http request GET http://192.168.1.100:4873/q
+http 304
+ http://192.168.1.100:4873/request
+
+npm
+ http request GET http://192.168.1.100:4873/q
 
 npm 
 http 304 http://192.168.1.100:4873/q
 
-npm
- http request GET http://192.168.1.100:4873/fs-extra
+npm 
+http request GET http://192.168.1.100:4873/fs-extra
 
-npm http
- 304 http://192.168.1.100:4873/fs-extra
+npm http 304 http://192.168.1.100:4873/fs-extra
 
 npm 
 http request GET http://192.168.1.100:4873/graceful-fs
 
 npm
- http
- request GET http://192.168.1.100:4873/jsonfile
+ http request GET http://192.168.1.100:4873/jsonfile
 
 npm 
 http request GET http://192.168.1.100:4873/rimraf
@@ -1064,526 +1058,518 @@ http request GET http://192.168.1.100:4873/rimraf
 npm 
 http 304 http://192.168.1.100:4873/graceful-fs
 
-npm 
-http 304 http://192.168.1.100:4873/jsonfile
+npm http
+ 304 http://192.168.1.100:4873/jsonfile
 
-npm http 304 http://192.168.1.100:4873/rimraf
+npm 
+http 304 http://192.168.1.100:4873/rimraf
 
 npm 
 http request GET http://192.168.1.100:4873/glob
+
+npm http 304 http://192.168.1.100:4873/glob
+
+npm 
+http 
+request GET http://192.168.1.100:4873/fs.realpath
+
+npm http request GET http://192.168.1.100:4873/inflight
+
+npm http
+ request GET http://192.168.1.100:4873/inherits
+
+npm 
+http request GET http://192.168.1.100:4873/minimatch
+
+npm http request GET http://192.168.1.100:4873/once
+
+npm
+ http request GET http://192.168.1.100:4873/path-is-absolute
+
+npm http 
+304 http://192.168.1.100:4873/inflight
+
+npm 
+http 304 http://192.168.1.100:4873/fs.realpath
+
+npm 
+http 304 http://192.168.1.100:4873/minimatch
+
+npm 
+http 304 http://192.168.1.100:4873/inherits
+
+npm 
+http 304 http://192.168.1.100:4873/once
+
+npm
+ http 304 http://192.168.1.100:4873/path-is-absolute
 
 npm
  
 http
  
-304 http://192.168.1.100:4873/glob
+request
+ GET http://192.168.1.100:4873/wrappy
 
 npm 
-http 
-request
- GET http://192.168.1.100:4873/fs.realpath
+http 304 http://192.168.1.100:4873/wrappy
 
-npm http
- request GET http://192.168.1.100:4873/inflight
+npm 
+http request GET http://192.168.1.100:4873/brace-expansion
+
+npm 
+http 304 http://192.168.1.100:4873/brace-expansion
+
+npm 
+http request GET http://192.168.1.100:4873/balanced-match
 
 npm
- http
- 
-request GET http://192.168.1.100:4873/inherits
+ http request GET http://192.168.1.100:4873/concat-map
 
 npm 
-http 
-request
- GET http://192.168.1.100:4873/minimatch
+http 304 http://192.168.1.100:4873/concat-map
+
+npm http 
+304 http://192.168.1.100:4873/balanced-match
+
+npm 
+http request GET http://192.168.1.100:4873/adm-zip
+
+npm 
+http request GET http://192.168.1.100:4873/progress
 
 npm
- http request GET http://192.168.1.100:4873/once
+ http 304 http://192.168.1.100:4873/adm-zip
+
+npm http 
+304 http://192.168.1.100:4873/progress
 
 npm 
-http request GET http://192.168.1.100:4873/path-is-absolute
+http request GET http://192.168.1.100:4873/immediate
 
 npm http
- 304 http://192.168.1.100:4873/fs.realpath
+ 304 http://192.168.1.100:4873/immediate
+
+npm http
+ request GET http://192.168.1.100:4873/array-uniq
 
 npm 
-http 304 http://192.168.1.100:4873/inflight
+http 304 http://192.168.1.100:4873/array-uniq
 
 npm http
- 304
- http://192.168.1.100:4873/inherits
+ request GET http://192.168.1.100:4873/aws-sign2
+
+npm http request GET http://192.168.1.100:4873/aws4
+
+npm http request GET http://192.168.1.100:4873/bl
+npm http request GET http://192.168.1.100:4873/caseless
+
+npm http
+ request GET http://192.168.1.100:4873/combined-stream
+
+npm http 
+request GET http://192.168.1.100:4873/extend
+
+npm http
+ request GET http://192.168.1.100:4873/forever-agent
+
+npm http request GET http://192.168.1.100:4873/form-data
+
+npm http request GET http://192.168.1.100:4873/har-validator
+
+npm http request GET http://192.168.1.100:4873/hawk
+
+npm http request
+ GET http://192.168.1.100:4873/http-signature
+
+npm http request GET http://192.168.1.100:4873/is-typedarray
+
+npm 
+http request GET http://192.168.1.100:4873/isstream
+
+npm 
+http request GET http://192.168.1.100:4873/json-stringify-safe
+
+npm http request GET http://192.168.1.100:4873/mime-types
+
+npm http 
+request GET http://192.168.1.100:4873/oauth-sign
+
+npm http
+ request GET http://192.168.1.100:4873/stringstream
+
+npm http request GET http://192.168.1.100:4873/tough-cookie
+
+npm http request GET http://192.168.1.100:4873/qs
+
+npm http 
+request GET http://192.168.1.100:4873/tunnel-agent
+
+npm http
+ 304 http://192.168.1.100:4873/aws-sign2
+
+npm http
+ 304 http://192.168.1.100:4873/bl
+
+npm 
+http 304 http://192.168.1.100:4873/caseless
+
+npm http 304
+ http://192.168.1.100:4873/aws4
+
+npm http 304 http://192.168.1.100:4873/combined-stream
+
+npm 
+http 304 http://192.168.1.100:4873/forever-agent
+
+npm 
+http 304 http://192.168.1.100:4873/extend
+
+npm
+ http 304 http://192.168.1.100:4873/form-data
+
+npm 
+http 304 http://192.168.1.100:4873/har-validator
+
+npm http 
+304 http://192.168.1.100:4873/hawk
+
+npm http 
+304 http://192.168.1.100:4873/http-signature
+
+npm 
+http 304
+ http://192.168.1.100:4873/is-typedarray
+
+npm http
+ 304 http://192.168.1.100:4873/json-stringify-safe
+
+npm 
+http 304 http://192.168.1.100:4873/mime-types
+
+npm 
+http 304 http://192.168.1.100:4873/isstream
 
 npm
  
 http
  
 304
- http://192.168.1.100:4873/path-is-absolute
+ http://192.168.1.100:4873/oauth-sign
 
 npm 
-http 304 http://192.168.1.100:4873/minimatch
-
-npm 
-http 304 http://192.168.1.100:4873/once
+http 304 http://192.168.1.100:4873/stringstream
 
 npm http
- request GET http://192.168.1.100:4873/wrappy
-
-npm http 304 http://192.168.1.100:4873/wrappy
+ 304 http://192.168.1.100:4873/tough-cookie
 
 npm 
-http request GET http://192.168.1.100:4873/brace-expansion
+http 304 http://192.168.1.100:4873/tunnel-agent
 
-npm http 304
- http://192.168.1.100:4873/brace-expansion
+npm 
+http 304 http://192.168.1.100:4873/qs
 
-npm http request GET http://192.168.1.100:4873/balanced-match
+npm http fetch GET http://192.168.1.100:4873/forever-agent/-/forever-agent-0.6.1.tgz
 
 npm http
- request GET http://192.168.1.100:4873/concat-map
-
-npm http 304 http://192.168.1.100:4873/balanced-match
-
-npm 
-http 304 http://192.168.1.100:4873/concat-map
-
-npm http request GET http://192.168.1.100:4873/adm-zip
-
-npm http 
-request GET http://192.168.1.100:4873/progress
-
-npm http 304 http://192.168.1.100:4873/adm-zip
-
-npm http
- 304 http://192.168.1.100:4873/progress
-
-npm http request GET http://192.168.1.100:4873/immediate
-
-npm http 304
- http://192.168.1.100:4873/immediate
-
-npm http
- 
-request GET http://192.168.1.100:4873/array-uniq
-
-npm http 304 http://192.168.1.100:4873/array-uniq
-
-npm 
-http request GET http://192.168.1.100:4873/aws-sign2
-
-npm 
-http request GET http://192.168.1.100:4873/aws4
+ fetch 200 http://192.168.1.100:4873/forever-agent/-/forever-agent-0.6.1.tgz
 
 npm http request
- GET http://192.168.1.100:4873/bl
-
-npm 
-http request GET http://192.168.1.100:4873/caseless
-
-npm 
-http request GET http://192.168.1.100:4873/combined-stream
-
-npm http
- request GET http://192.168.1.100:4873/extend
-
-npm http 
-request GET http://192.168.1.100:4873/forever-agent
-
-npm
- http request GET http://192.168.1.100:4873/form-data
-
-npm http request
- GET http://192.168.1.100:4873/har-validator
-
-npm http request GET http://192.168.1.100:4873/hawk
-
-npm
- http request GET http://192.168.1.100:4873/is-typedarray
-
-npm
- http request GET http://192.168.1.100:4873/isstream
-
-npm
- http request GET http://192.168.1.100:4873/json-stringify-safe
-
-npm
- http request GET http://192.168.1.100:4873/http-signature
-
-npm 
-http request GET http://192.168.1.100:4873/oauth-sign
-
-npm
- http request GET http://192.168.1.100:4873/mime-types
-
-npm 
-http request GET http://192.168.1.100:4873/stringstream
-
-npm
- http request GET http://192.168.1.100:4873/qs
-
-npm http request
- GET http://192.168.1.100:4873/tunnel-agent
-
-npm
- http request GET http://192.168.1.100:4873/tough-cookie
-
-npm http
- 304 http://192.168.1.100:4873/caseless
-
-npm http 
-304 http://192.168.1.100:4873/bl
-
-npm http 304 http://192.168.1.100:4873/aws-sign2
-
-npm http 304 http://192.168.1.100:4873/combined-stream
-
-npm http 304 http://192.168.1.100:4873/extend
-
-npm http
- 304 http://192.168.1.100:4873/form-data
-
-npm http
- 304 http://192.168.1.100:4873/har-validator
-
-npm http 304 http://192.168.1.100:4873/hawk
-
-npm http
- 304 http://192.168.1.100:4873/json-stringify-safe
-
-npm http 304 http://192.168.1.100:4873/mime-types
-
-npm http 304 http://192.168.1.100:4873/isstream
-
-npm http 304 http://192.168.1.100:4873/http-signature
-
-npm http
- 304 http://192.168.1.100:4873/stringstream
-
-npm http 
-304 http://192.168.1.100:4873/qs
-
-npm http 
-304 http://192.168.1.100:4873/tunnel-agent
-
-npm 
-http 304 http://192.168.1.100:4873/oauth-sign
-
-npm
- http 304
- http://192.168.1.100:4873/tough-cookie
-
-npm http 304 http://192.168.1.100:4873/aws4
-
-npm http 304
- http://192.168.1.100:4873/is-typedarray
-
-npm 
-http 304 http://192.168.1.100:4873/forever-agent
-
-npm 
-http fetch GET http://192.168.1.100:4873/forever-agent/-/forever-agent-0.6.1.tgz
-
-npm 
-http fetch 200 http://192.168.1.100:4873/forever-agent/-/forever-agent-0.6.1.tgz
-
-npm 
-http request GET http://192.168.1.100:4873/readable-stream
+ GET http://192.168.1.100:4873/readable-stream
 
 npm http 304 http://192.168.1.100:4873/readable-stream
 
-npm 
-http request GET http://192.168.1.100:4873/core-util-is
+npm http
+ request GET http://192.168.1.100:4873/core-util-is
 
-npm
- 
-http request
+npm http request
  GET http://192.168.1.100:4873/isarray
 
-npm 
-http request GET http://192.168.1.100:4873/process-nextick-args
+npm http request
+ GET http://192.168.1.100:4873/process-nextick-args
 
 npm
  http request GET http://192.168.1.100:4873/string_decoder
 
-npm http
- request GET http://192.168.1.100:4873/util-deprecate
+npm http 
+request GET http://192.168.1.100:4873/util-deprecate
 
 npm http 304 http://192.168.1.100:4873/core-util-is
 
-npm http
- 304 http://192.168.1.100:4873/isarray
+npm
+ http 
+304
+ http://192.168.1.100:4873/isarray
 
 npm http
  304 http://192.168.1.100:4873/process-nextick-args
 
-npm http 
-304 http://192.168.1.100:4873/util-deprecate
+npm 
+http 304 http://192.168.1.100:4873/string_decoder
 
 npm http
- 304 http://192.168.1.100:4873/string_decoder
+ 304 http://192.168.1.100:4873/util-deprecate
 
 npm http request GET http://192.168.1.100:4873/delayed-stream
 
-npm http
- 304 http://192.168.1.100:4873/delayed-stream
+npm
+ http 304 http://192.168.1.100:4873/delayed-stream
 
-npm http request GET http://192.168.1.100:4873/async
+npm http request
+ GET http://192.168.1.100:4873/async
 
-npm http 
-304 http://192.168.1.100:4873/async
+npm http 304 http://192.168.1.100:4873/async
 
 npm http request GET http://192.168.1.100:4873/lodash
 
 npm http 304 http://192.168.1.100:4873/lodash
 
-npm http request
- GET http://192.168.1.100:4873/mime-db
+npm http request GET http://192.168.1.100:4873/mime-db
 
-npm http
- 304 http://192.168.1.100:4873/mime-db
+npm http 
+304 http://192.168.1.100:4873/mime-db
 
 npm http request GET http://192.168.1.100:4873/chalk
 
-npm http request
- GET http://192.168.1.100:4873/commander
+npm http request GET http://192.168.1.100:4873/commander
 
 npm http
  request GET http://192.168.1.100:4873/is-my-json-valid
 
-npm 
-http request GET http://192.168.1.100:4873/pinkie-promise
+npm http request GET http://192.168.1.100:4873/pinkie-promise
 
-npm http 304 http://192.168.1.100:4873/chalk
+npm http 
+304 http://192.168.1.100:4873/chalk
 
-npm http 304 http://192.168.1.100:4873/pinkie-promise
+npm http 304 http://192.168.1.100:4873/commander
 
-npm http
- 304 http://192.168.1.100:4873/is-my-json-valid
+npm http 
+304 http://192.168.1.100:4873/is-my-json-valid
 
 npm http 304
- http://192.168.1.100:4873/commander
-
-npm http request GET http://192.168.1.100:4873/escape-string-regexp
+ http://192.168.1.100:4873/pinkie-promise
 
 npm http request GET http://192.168.1.100:4873/ansi-styles
 
-npm
- http request GET http://192.168.1.100:4873/has-ansi
+npm 
+http request GET http://192.168.1.100:4873/escape-string-regexp
+
+npm 
+http request GET http://192.168.1.100:4873/has-ansi
 
 npm http 
 request GET http://192.168.1.100:4873/strip-ansi
 
-npm
- http request GET http://192.168.1.100:4873/supports-color
-
-npm http 304 http://192.168.1.100:4873/escape-string-regexp
+npm http request GET http://192.168.1.100:4873/supports-color
 
 npm http
  304 http://192.168.1.100:4873/ansi-styles
 
 npm http 
-304 http://192.168.1.100:4873/has-ansi
+304 http://192.168.1.100:4873/escape-string-regexp
 
-npm http 304 http://192.168.1.100:4873/strip-ansi
+npm http 304
+ http://192.168.1.100:4873/has-ansi
 
 npm http 304 http://192.168.1.100:4873/supports-color
+
+npm http
+ 304 http://192.168.1.100:4873/strip-ansi
 
 npm http request GET http://192.168.1.100:4873/ansi-regex
 
 npm http 304 http://192.168.1.100:4873/ansi-regex
 
-npm http
- request GET http://192.168.1.100:4873/generate-function
+npm http request GET http://192.168.1.100:4873/generate-function
 
-npm 
-http request GET http://192.168.1.100:4873/generate-object-property
+npm http request
+ GET http://192.168.1.100:4873/generate-object-property
 
 npm http
  request GET http://192.168.1.100:4873/jsonpointer
 
-npm http 
-request GET http://192.168.1.100:4873/xtend
+npm http request GET http://192.168.1.100:4873/xtend
 
-npm
- http 304 http://192.168.1.100:4873/generate-object-property
+npm http 304 http://192.168.1.100:4873/generate-function
 
 npm http
- 304 http://192.168.1.100:4873/generate-function
-
-npm 
-http 304 http://192.168.1.100:4873/jsonpointer
+ 304 http://192.168.1.100:4873/generate-object-property
 
 npm http 304 http://192.168.1.100:4873/xtend
 
-npm http request GET http://192.168.1.100:4873/is-property
+npm http 304 http://192.168.1.100:4873/jsonpointer
 
 npm http
- 304 http://192.168.1.100:4873/is-property
+ request GET http://192.168.1.100:4873/is-property
+
+npm http 304 http://192.168.1.100:4873/is-property
 
 npm http request GET http://192.168.1.100:4873/pinkie
 
-npm http
- 304 http://192.168.1.100:4873/pinkie
-
-npm http request GET http://192.168.1.100:4873/boom
+npm http 304 http://192.168.1.100:4873/pinkie
 
 npm http request GET http://192.168.1.100:4873/hoek
 
-npm http request GET http://192.168.1.100:4873/cryptiles
+npm
+ http request GET http://192.168.1.100:4873/cryptiles
+
+npm http request GET http://192.168.1.100:4873/boom
+
+npm 
+http request GET http://192.168.1.100:4873/sntp
 
 npm http 
-request GET http://192.168.1.100:4873/sntp
+304 http://192.168.1.100:4873/hoek
+
+npm
+ 
+http 
+304 http://192.168.1.100:4873/cryptiles
+
+npm
+ 
+http
+ 
+304 http://192.168.1.100:4873/sntp
 
 npm
  http 304 http://192.168.1.100:4873/boom
 
-npm http
- 304 http://192.168.1.100:4873/cryptiles
-
-npm http
- 304 http://192.168.1.100:4873/sntp
-
-npm http 304 http://192.168.1.100:4873/hoek
-
-npm http request GET http://192.168.1.100:4873/assert-plus
-
-npm
- http request GET http://192.168.1.100:4873/jsprim
-
 npm http 
-request GET http://192.168.1.100:4873/sshpk
-
-npm http 
-304 http://192.168.1.100:4873/assert-plus
+request GET http://192.168.1.100:4873/assert-plus
 
 npm http
- 304 http://192.168.1.100:4873/jsprim
+ request GET http://192.168.1.100:4873/jsprim
 
-npm http 304 http://192.168.1.100:4873/sshpk
+npm http request GET http://192.168.1.100:4873/sshpk
 
-npm http request GET http://192.168.1.100:4873/verror
+npm http
+ 304 http://192.168.1.100:4873/assert-plus
 
-npm http request
- GET http://192.168.1.100:4873/json-schema
+npm http 304 http://192.168.1.100:4873/jsprim
+
+npm http
+ 304 http://192.168.1.100:4873/sshpk
 
 npm http
  request GET http://192.168.1.100:4873/extsprintf
 
-npm http 304
- http://192.168.1.100:4873/extsprintf
+npm http request
+ GET http://192.168.1.100:4873/json-schema
 
-npm http 304
- http://192.168.1.100:4873/json-schema
+npm http request GET http://192.168.1.100:4873/verror
+
+npm http 304 http://192.168.1.100:4873/extsprintf
+
+npm http
+ 304 http://192.168.1.100:4873/json-schema
+
+npm http
+ 304 http://192.168.1.100:4873/verror
+
+npm http request GET http://192.168.1.100:4873/asn1
+npm
+ http request
+ GET http://192.168.1.100:4873/dashdash
+
+npm http
+ request GET http://192.168.1.100:4873/getpass
 
 npm http 
-304 http://192.168.1.100:4873/verror
-
-npm http request
- GET http://192.168.1.100:4873/asn1
-
-npm http request GET http://192.168.1.100:4873/dashdash
-
-npm http request
- GET http://192.168.1.100:4873/getpass
+304 http://192.168.1.100:4873/dashdash
 
 npm http 304 http://192.168.1.100:4873/asn1
 
-npm http 304 http://192.168.1.100:4873/getpass
-
 npm http
- 304 http://192.168.1.100:4873/dashdash
+ 304 http://192.168.1.100:4873/getpass
 
-npm http request GET http://192.168.1.100:4873/punycode
+npm http request
+ GET http://192.168.1.100:4873/punycode
 
-npm http 
-304 http://192.168.1.100:4873/punycode
-
-npm http request GET http://192.168.1.100:4873/fstream
-
-npm
- http request GET http://192.168.1.100:4873/pullstream
-
-npm
- http request GET http://192.168.1.100:4873/binary
-
-npm 
-http request GET http://192.168.1.100:4873/setimmediate
+npm http 304
+ http://192.168.1.100:4873/punycode
 
 npm http 
-request GET http://192.168.1.100:4873/match-stream
+request GET http://192.168.1.100:4873/pullstream
 
-npm http 304 http://192.168.1.100:4873/fstream
+npm http request
+ GET http://192.168.1.100:4873/fstream
 
-npm http 304 http://192.168.1.100:4873/pullstream
+npm http request GET http://192.168.1.100:4873/binary
 
-npm http 304 http://192.168.1.100:4873/match-stream
+npm
+ http request GET http://192.168.1.100:4873/setimmediate
+
+npm http request
+ GET http://192.168.1.100:4873/match-stream
+
+npm http 
+304 http://192.168.1.100:4873/fstream
 
 npm http 304 http://192.168.1.100:4873/setimmediate
 
+npm http 
+304 http://192.168.1.100:4873/pullstream
+
+npm http 304 http://192.168.1.100:4873/match-stream
+
 npm http 304 http://192.168.1.100:4873/binary
 
-npm http request GET http://192.168.1.100:4873/chainsaw
+npm http
+ request GET http://192.168.1.100:4873/chainsaw
 
-npm 
-http request GET http://192.168.1.100:4873/buffers
+npm http request GET http://192.168.1.100:4873/buffers
 
 npm http 304
  http://192.168.1.100:4873/buffers
 
-npm http 304
- http://192.168.1.100:4873/chainsaw
+npm http 304 http://192.168.1.100:4873/chainsaw
 
-npm http 
-request GET http://192.168.1.100:4873/traverse
+npm http request GET http://192.168.1.100:4873/traverse
 
-npm http 304 http://192.168.1.100:4873/traverse
+npm http
+ 304 http://192.168.1.100:4873/traverse
 
 npm http request GET http://192.168.1.100:4873/mkdirp
 
-npm http 304
- http://192.168.1.100:4873/mkdirp
+npm http 
+304 http://192.168.1.100:4873/mkdirp
 
 npm http
  request GET http://192.168.1.100:4873/natives
 
-npm http
- 304 http://192.168.1.100:4873/natives
+npm http 304 http://192.168.1.100:4873/natives
 
-npm http request
- GET http://192.168.1.100:4873/minimist
+npm http request GET http://192.168.1.100:4873/minimist
 
 npm http 304 http://192.168.1.100:4873/minimist
 
 npm http request GET http://192.168.1.100:4873/over
 
-npm http 
-request GET http://192.168.1.100:4873/slice-stream
-
-npm http 
-304 http://192.168.1.100:4873/over
-
 npm 
-http 304 http://192.168.1.100:4873/slice-stream
+http request GET http://192.168.1.100:4873/slice-stream
 
-npm 
-http request GET http://192.168.1.100:4873/pegjs
+npm http 304 http://192.168.1.100:4873/over
+
+npm http 304 http://192.168.1.100:4873/slice-stream
+
+npm http request GET http://192.168.1.100:4873/pegjs
 
 npm http request GET http://192.168.1.100:4873/simple-plist
 
-npm
- http 304 http://192.168.1.100:4873/simple-plist
+npm http 
+304 http://192.168.1.100:4873/pegjs
 
-npm 
-http 304 http://192.168.1.100:4873/pegjs
+npm http
+ 304 http://192.168.1.100:4873/simple-plist
 
 npm http request GET http://192.168.1.100:4873/plist
 
 npm http 
 request GET http://192.168.1.100:4873/bplist-parser
 
-npm http request GET http://192.168.1.100:4873/bplist-creator
-
-npm http 304
- http://192.168.1.100:4873/bplist-parser
+npm http
+ request GET http://192.168.1.100:4873/bplist-creator
 
 npm 
 http 304 http://192.168.1.100:4873/plist
@@ -1591,28 +1577,27 @@ http 304 http://192.168.1.100:4873/plist
 npm 
 http 304 http://192.168.1.100:4873/bplist-creator
 
-npm http 
-request GET http://192.168.1.100:4873/stream-buffers
-
 npm 
-http 304 http://192.168.1.100:4873/stream-buffers
+http 304 http://192.168.1.100:4873/bplist-parser
 
-npm 
-http request GET http://192.168.1.100:4873/base64-js
+npm http request GET http://192.168.1.100:4873/stream-buffers
 
-npm 
-http request GET http://192.168.1.100:4873/xmlbuilder
+npm http
+ 304 http://192.168.1.100:4873/stream-buffers
 
-npm 
-http request GET http://192.168.1.100:4873/xmldom
+npm http request GET http://192.168.1.100:4873/base64-js
 
-npm 
-http 304 http://192.168.1.100:4873/xmldom
+npm http request
+ GET http://192.168.1.100:4873/xmldom
+
+npm http request GET http://192.168.1.100:4873/xmlbuilder
 
 npm http 304 http://192.168.1.100:4873/base64-js
 
-npm 
-http 304 http://192.168.1.100:4873/xmlbuilder
+npm http 
+304 http://192.168.1.100:4873/xmlbuilder
+
+npm http 304 http://192.168.1.100:4873/xmldom
 
 install@0.0.1
 │ /Users/thali/Github/ThaliTest/www/jxcore/node_modules/thali/install
@@ -1768,8 +1753,7 @@ install@0.0.1
 │ │   https://github.com/mhart/aws4#readme
 │ ├─┬ bl@1.1.2 
 │ │ │ Buffer List: collect buffers and access with a standard readable Buffer interface, 
-npm 
-WARN install@0.0.1 No repository field.
+npm WARN install@0.0.1 No repository field.
 
 streamable too!
 │ │ │ git+https://github.com/rvagg/bl.git
@@ -2351,6 +2335,7 @@ Build with tests: true
 Adding Build Properties
 
 Adding Embedded Build Phase
+
 Adding ThaliCore.framework
 
 Adding CocoaAsyncSocket.framework
@@ -2773,7 +2758,7 @@ Incremental java compilation is an incubating feature.
 
 BUILD SUCCESSFUL
 
-Total time: 1 mins 50.102 secs
+Total time: 1 mins 50.544 secs
 Built the following apk(s): 
 	/Users/thali/Github/ThaliTest/platforms/android/build/outputs/apk/android-release-unsigned.apk
 end building ThaliTest Android app
@@ -2810,8 +2795,18 @@ Not running swift-stdlib-tool: ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES is enabled,
 Write auxiliary files
 /bin/mkdir -p /Users/thali/Github/ThaliTest/platforms/ios/build/sharedpch/CordovaLib_Prefix-bihalulubxvnhkaavcnzjgmbsate
 write-file /Users/thali/Github/ThaliTest/platforms/ios/build/sharedpch/CordovaLib_Prefix-bihalulubxvnhkaavcnzjgmbsate/CordovaLib_Prefix.pch.pch.hash-criteria
+write-file /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-non-framework-target-headers.hmap
+write-file /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova.hmap
+write-file /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap
+write-file /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap
+write-file /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap
+/bin/mkdir -p /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7
+write-file /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/Cordova.LinkFileList
+write-file /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap
 /bin/mkdir -p /Users/thali/Github/ThaliTest/platforms/ios/build/sharedpch/CordovaLib_Prefix-elgbblozsfgsjfgpjvqawiqtmhyo
 write-file /Users/thali/Github/ThaliTest/platforms/ios/build/sharedpch/CordovaLib_Prefix-elgbblozsfgsjfgpjvqawiqtmhyo/CordovaLib_Prefix.pch.pch.hash-criteria
+/bin/mkdir -p /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/arm64
+write-file /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/arm64/Cordova.LinkFileList
 
 CpHeader Classes/Public/CDVScreenOrientationDelegate.h /Users/thali/Github/ThaliTest/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
     cd /Users/thali/Github/ThaliTest/platforms/ios/CordovaLib
@@ -2823,15 +2818,15 @@ CpHeader Classes/Public/CDVWebViewEngineProtocol.h /Users/thali/Github/ThaliTest
     export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/thali/Github/ThaliTest/platforms/ios/CordovaLib/Classes/Public/CDVWebViewEngineProtocol.h /Users/thali/Github/ThaliTest/platforms/ios/build/device/include/Cordova
 
-CpHeader Classes/Public/CDVCommandDelegateImpl.h /Users/thali/Github/ThaliTest/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
-    cd /Users/thali/Github/ThaliTest/platforms/ios/CordovaLib
-    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
-    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/thali/Github/ThaliTest/platforms/ios/CordovaLib/Classes/Public/CDVCommandDelegateImpl.h /Users/thali/Github/ThaliTest/platforms/ios/build/device/include/Cordova
-
 CpHeader Classes/Public/CDV.h /Users/thali/Github/ThaliTest/platforms/ios/build/device/include/Cordova/CDV.h
     cd /Users/thali/Github/ThaliTest/platforms/ios/CordovaLib
     export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/thali/Github/ThaliTest/platforms/ios/CordovaLib/Classes/Public/CDV.h /Users/thali/Github/ThaliTest/platforms/ios/build/device/include/Cordova
+
+CpHeader Classes/Public/CDVCommandDelegateImpl.h /Users/thali/Github/ThaliTest/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+    cd /Users/thali/Github/ThaliTest/platforms/ios/CordovaLib
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/thali/Github/ThaliTest/platforms/ios/CordovaLib/Classes/Public/CDVCommandDelegateImpl.h /Users/thali/Github/ThaliTest/platforms/ios/build/device/include/Cordova
 
 CpHeader Classes/Public/CDVCommandQueue.h /Users/thali/Github/ThaliTest/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
     cd /Users/thali/Github/ThaliTest/platforms/ios/CordovaLib
@@ -2883,15 +2878,15 @@ CpHeader Classes/Public/NSDictionary+CordovaPreferences.h /Users/thali/Github/Th
     export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/thali/Github/ThaliTest/platforms/ios/CordovaLib/Classes/Public/NSDictionary+CordovaPreferences.h /Users/thali/Github/ThaliTest/platforms/ios/build/device/include/Cordova
 
-CpHeader Classes/Public/CDVURLProtocol.h /Users/thali/Github/ThaliTest/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
-    cd /Users/thali/Github/ThaliTest/platforms/ios/CordovaLib
-    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
-    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/thali/Github/ThaliTest/platforms/ios/CordovaLib/Classes/Public/CDVURLProtocol.h /Users/thali/Github/ThaliTest/platforms/ios/build/device/include/Cordova
-
 CpHeader Classes/Public/CDVPlugin.h /Users/thali/Github/ThaliTest/platforms/ios/build/device/include/Cordova/CDVPlugin.h
     cd /Users/thali/Github/ThaliTest/platforms/ios/CordovaLib
     export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/thali/Github/ThaliTest/platforms/ios/CordovaLib/Classes/Public/CDVPlugin.h /Users/thali/Github/ThaliTest/platforms/ios/build/device/include/Cordova
+
+CpHeader Classes/Public/CDVURLProtocol.h /Users/thali/Github/ThaliTest/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+    cd /Users/thali/Github/ThaliTest/platforms/ios/CordovaLib
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/thali/Github/ThaliTest/platforms/ios/CordovaLib/Classes/Public/CDVURLProtocol.h /Users/thali/Github/ThaliTest/platforms/ios/build/device/include/Cordova
 
 CpHeader Classes/Public/CDVCommandDelegate.h /Users/thali/Github/ThaliTest/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
     cd /Users/thali/Github/ThaliTest/platforms/ios/CordovaLib
@@ -3445,17 +3440,17 @@ In module 'UIKit' imported from /Users/thali/Github/ThaliTest/platforms/ios/Cord
 ^
 1 warning generated.
 
-Libtool /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/libCordova.a normal armv7
-    cd /Users/thali/Github/ThaliTest/platforms/ios/CordovaLib
-    export IPHONEOS_DEPLOYMENT_TARGET=10.0
-    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk -L/Users/thali/Github/ThaliTest/platforms/ios/build/device -filelist /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/Cordova.LinkFileList -o /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/libCordova.a
-
 Libtool /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/arm64/libCordova.a normal arm64
     cd /Users/thali/Github/ThaliTest/platforms/ios/CordovaLib
     export IPHONEOS_DEPLOYMENT_TARGET=10.0
     export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk -L/Users/thali/Github/ThaliTest/platforms/ios/build/device -filelist /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/arm64/Cordova.LinkFileList -o /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/arm64/libCordova.a
+
+Libtool /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/libCordova.a normal armv7
+    cd /Users/thali/Github/ThaliTest/platforms/ios/CordovaLib
+    export IPHONEOS_DEPLOYMENT_TARGET=10.0
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk -L/Users/thali/Github/ThaliTest/platforms/ios/build/device -filelist /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/Cordova.LinkFileList -o /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/libCordova.a
 
 CreateUniversalBinary /Users/thali/Github/ThaliTest/platforms/ios/build/device/libCordova.a normal armv7\ arm64
     cd /Users/thali/Github/ThaliTest/platforms/ios/CordovaLib
@@ -3467,10 +3462,25 @@ CreateUniversalBinary /Users/thali/Github/ThaliTest/platforms/ios/build/device/l
 Check dependencies
 
 Write auxiliary files
+write-file /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/ThaliTest-project-headers.hmap
+/bin/mkdir -p /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7
+write-file /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest-OutputFileMap.json
 /bin/mkdir -p /Users/thali/Github/ThaliTest/platforms/ios/build/sharedpch/ThaliTest-Prefix-baeikvopveanizcarbhnaqzdxukb
 write-file /Users/thali/Github/ThaliTest/platforms/ios/build/sharedpch/ThaliTest-Prefix-baeikvopveanizcarbhnaqzdxukb/ThaliTest-Prefix.pch.pch.hash-criteria
+write-file /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/ThaliTest-all-target-headers.hmap
+write-file /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/ThaliTest-all-non-framework-target-headers.hmap
+write-file /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/ThaliTest-generated-files.hmap
+write-file /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/ThaliTest-own-target-headers.hmap
+/bin/mkdir -p /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64
+write-file /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/ThaliTest-OutputFileMap.json
+write-file /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest.LinkFileList
+write-file /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/ThaliTest.LinkFileList
+write-file /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/ThaliTest.hmap
 /bin/mkdir -p /Users/thali/Github/ThaliTest/platforms/ios/build/sharedpch/ThaliTest-Prefix-axgdzmrtwuaezjgblzallujdvohj
 write-file /Users/thali/Github/ThaliTest/platforms/ios/build/sharedpch/ThaliTest-Prefix-axgdzmrtwuaezjgblzallujdvohj/ThaliTest-Prefix.pch.pch.hash-criteria
+write-file /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Script-304B58A110DAC018002A0835.sh
+chmod 0755 /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Script-304B58A110DAC018002A0835.sh
+write-file /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/swift-overrides.hmap
 
 Create product structure
 /bin/mkdir -p /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app
@@ -3662,7 +3672,6 @@ CompileSwiftSources normal arm64 com.apple.xcode.tools.swift.compiler
     export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
     export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk
     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -incremental -module-name ThaliTest -O -whole-module-optimization -DTEST -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk -target arm64-apple-ios10.0 -g -module-cache-path /Users/thali/Library/Developer/Xcode/DerivedData/ModuleCache -Xfrontend -serialize-debugging-options -enable-testing -I /Users/thali/Github/ThaliTest/platforms/ios/build/device -F /Users/thali/Github/ThaliTest/platforms/ios/build/device -F /Users/thali/Github/ThaliTest/plugins/org.thaliproject.p2p/lib/ios -c -num-threads 2 /Users/thali/Github/ThaliTest/platforms/ios/ThaliTest/Plugins/org.thaliproject.p2p/AppContext.swift /Users/thali/Github/ThaliTest/plugins/org.thaliproject.p2p/src/ios/Testing/AppContext+TestRuner.swift /Users/thali/Github/ThaliTest/plugins/org.thaliproject.p2p/src/ios/Testing/AppContextTests.swift /Users/thali/Github/ThaliTest/plugins/org.thaliproject.p2p/src/ios/Testing/TestRunnerProtocol.swift -output-file-map /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/ThaliTest-OutputFileMap.json -parseable-output -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/ThaliTest.swiftmodule -Xcc -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/ThaliTest-generated-files.hmap -Xcc -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/ThaliTest-own-target-headers.hmap -Xcc -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/ThaliTest-all-target-headers.hmap -Xcc -iquote -Xcc /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/ThaliTest-project-headers.hmap -Xcc -I/Users/thali/Github/ThaliTest/platforms/ios/build/device/include -Xcc -I/Users/thali/Github/ThaliTest/platforms/ios/build/device/usr/local/lib/include -Xcc -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/UninstalledProducts/include -Xcc -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/UninstalledProducts/iphoneos/include -Xcc -I/Users/thali/Github/ThaliTest/platforms/ios/build/device -Xcc -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/DerivedSources/arm64 -Xcc -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/DerivedSources -Xcc -DDEBUG=1 -Xcc -DTEST=1 -Xcc -DDEBUG=1 -emit-objc-header -emit-objc-header-path /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/ThaliTest-Swift.h -import-objc-header /Users/thali/Github/ThaliTest/platforms/ios/ThaliTest/Bridging-Header.h -Xcc -working-directory/Users/thali/Github/ThaliTest/platforms/ios
-
 CompileSwift normal arm64
     cd /Users/thali/Github/ThaliTest/platforms/ios
     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift -frontend -c /Users/thali/Github/ThaliTest/platforms/ios/ThaliTest/Plugins/org.thaliproject.p2p/AppContext.swift /Users/thali/Github/ThaliTest/plugins/org.thaliproject.p2p/src/ios/Testing/AppContext+TestRuner.swift /Users/thali/Github/ThaliTest/plugins/org.thaliproject.p2p/src/ios/Testing/AppContextTests.swift /Users/thali/Github/ThaliTest/plugins/org.thaliproject.p2p/src/ios/Testing/TestRunnerProtocol.swift -target arm64-apple-ios10.0 -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk -I /Users/thali/Github/ThaliTest/platforms/ios/build/device -F /Users/thali/Github/ThaliTest/platforms/ios/build/device -F /Users/thali/Github/ThaliTest/plugins/org.thaliproject.p2p/lib/ios -enable-testing -g -module-cache-path /Users/thali/Library/Developer/Xcode/DerivedData/ModuleCache -D TEST -serialize-debugging-options -Xcc -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/ThaliTest-generated-files.hmap -Xcc -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/ThaliTest-own-target-headers.hmap -Xcc -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/ThaliTest-all-target-headers.hmap -Xcc -iquote -Xcc /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/ThaliTest-project-headers.hmap -Xcc -I/Users/thali/Github/ThaliTest/platforms/ios/build/device/include -Xcc -I/Users/thali/Github/ThaliTest/platforms/ios/build/device/usr/local/lib/include -Xcc -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/UninstalledProducts/include -Xcc -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/UninstalledProducts/iphoneos/include -Xcc -I/Users/thali/Github/ThaliTest/platforms/ios/build/device -Xcc -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/DerivedSources/arm64 -Xcc -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/DerivedSources -Xcc -DDEBUG=1 -Xcc -DTEST=1 -Xcc -DDEBUG=1 -Xcc -working-directory/Users/thali/Github/ThaliTest/platforms/ios -emit-module-doc-path /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/ThaliTest.swiftdoc -serialize-diagnostics-path /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/AppContext.dia -import-objc-header /Users/thali/Github/ThaliTest/platforms/ios/ThaliTest/Bridging-Header.h -O -module-name ThaliTest -emit-module-path /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/ThaliTest.swiftmodule -emit-objc-header-path /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/ThaliTest-Swift.h -emit-dependencies-path /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/AppContext.d -num-threads 2 -o /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/AppContext.o -o /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/AppContext+TestRuner.o -o /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/AppContextTests.o -o /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/TestRunnerProtocol.o
@@ -3747,15 +3756,15 @@ CompileSwift normal arm64
       queue: DispatchQueue.global(priority: DispatchQueue.GlobalQueuePriority.background),
                                                                               ^
 
-Ditto /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/DerivedSources/ThaliTest-Swift.h /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest-Swift.h
-    cd /Users/thali/Github/ThaliTest/platforms/ios
-    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
-    /usr/bin/ditto -rsrc /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest-Swift.h /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/DerivedSources/ThaliTest-Swift.h
-
 Ditto /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/DerivedSources/ThaliTest-Swift.h /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/ThaliTest-Swift.h
     cd /Users/thali/Github/ThaliTest/platforms/ios
     export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
     /usr/bin/ditto -rsrc /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/ThaliTest-Swift.h /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/DerivedSources/ThaliTest-Swift.h
+
+Ditto /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/DerivedSources/ThaliTest-Swift.h /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest-Swift.h
+    cd /Users/thali/Github/ThaliTest/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
+    /usr/bin/ditto -rsrc /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest-Swift.h /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/DerivedSources/ThaliTest-Swift.h
 
 ProcessPCH build/sharedpch/ThaliTest-Prefix-baeikvopveanizcarbhnaqzdxukb/ThaliTest-Prefix.pch.pch ThaliTest/ThaliTest-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
     cd /Users/thali/Github/ThaliTest/platforms/ios
@@ -3769,25 +3778,25 @@ ProcessPCH build/sharedpch/ThaliTest-Prefix-axgdzmrtwuaezjgblzallujdvohj/ThaliTe
     export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -fmodules -gmodules -fmodules-cache-path=/Users/thali/Library/Developer/Xcode/DerivedData/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/thali/Library/Developer/Xcode/DerivedData/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wno-trigraphs -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Wunreachable-code -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DTEST=1 -DDEBUG=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=10.0 -g -Wno-sign-conversion -Winfinite-recursion -iquote /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/ThaliTest-generated-files.hmap -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/ThaliTest-own-target-headers.hmap -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/ThaliTest-all-target-headers.hmap -iquote /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/ThaliTest-project-headers.hmap -I/Users/thali/Github/ThaliTest/platforms/ios/build/device/include -I/Users/thali/Github/ThaliTest/platforms/ios/build/device/usr/local/lib/include -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/UninstalledProducts/include -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/UninstalledProducts/iphoneos/include -I/Users/thali/Github/ThaliTest/platforms/ios/build/device -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/DerivedSources/arm64 -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/DerivedSources -F/Users/thali/Github/ThaliTest/platforms/ios/build/device -F/Users/thali/Github/ThaliTest/plugins/org.thaliproject.p2p/lib/ios -MD -MT dependencies -MF /Users/thali/Github/ThaliTest/platforms/ios/build/sharedpch/ThaliTest-Prefix-axgdzmrtwuaezjgblzallujdvohj/ThaliTest-Prefix.pch.d -c /Users/thali/Github/ThaliTest/platforms/ios/ThaliTest/ThaliTest-Prefix.pch -o /Users/thali/Github/ThaliTest/platforms/ios/build/sharedpch/ThaliTest-Prefix-axgdzmrtwuaezjgblzallujdvohj/ThaliTest-Prefix.pch.pch --serialize-diagnostics /Users/thali/Github/ThaliTest/platforms/ios/build/sharedpch/ThaliTest-Prefix-axgdzmrtwuaezjgblzallujdvohj/ThaliTest-Prefix.pch.dia
 
-Ditto build/device/ThaliTest.swiftmodule/arm.swiftmodule /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest.swiftmodule
-    cd /Users/thali/Github/ThaliTest/platforms/ios
-    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
-    /usr/bin/ditto -rsrc /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest.swiftmodule /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.swiftmodule/arm.swiftmodule
-
 Ditto build/device/ThaliTest.swiftmodule/arm.swiftdoc /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest.swiftdoc
     cd /Users/thali/Github/ThaliTest/platforms/ios
     export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
     /usr/bin/ditto -rsrc /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest.swiftdoc /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.swiftmodule/arm.swiftdoc
 
-Ditto build/device/ThaliTest.swiftmodule/arm64.swiftdoc /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/ThaliTest.swiftdoc
+Ditto build/device/ThaliTest.swiftmodule/arm.swiftmodule /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest.swiftmodule
     cd /Users/thali/Github/ThaliTest/platforms/ios
     export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
-    /usr/bin/ditto -rsrc /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/ThaliTest.swiftdoc /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.swiftmodule/arm64.swiftdoc
+    /usr/bin/ditto -rsrc /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest.swiftmodule /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.swiftmodule/arm.swiftmodule
 
 Ditto build/device/ThaliTest.swiftmodule/arm64.swiftmodule /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/ThaliTest.swiftmodule
     cd /Users/thali/Github/ThaliTest/platforms/ios
     export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
     /usr/bin/ditto -rsrc /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/ThaliTest.swiftmodule /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.swiftmodule/arm64.swiftmodule
+
+Ditto build/device/ThaliTest.swiftmodule/arm64.swiftdoc /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/ThaliTest.swiftdoc
+    cd /Users/thali/Github/ThaliTest/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
+    /usr/bin/ditto -rsrc /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/ThaliTest.swiftdoc /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.swiftmodule/arm64.swiftdoc
 
 CompileC /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/main.o ThaliTest/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
     cd /Users/thali/Github/ThaliTest/platforms/ios
@@ -3885,17 +3894,17 @@ CompileC /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicv
     export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -fmodules -gmodules -fmodules-cache-path=/Users/thali/Library/Developer/Xcode/DerivedData/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/thali/Library/Developer/Xcode/DerivedData/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wno-trigraphs -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Wunreachable-code -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DTEST=1 -DDEBUG=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=10.0 -g -Wno-sign-conversion -Winfinite-recursion -iquote /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/ThaliTest-generated-files.hmap -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/ThaliTest-own-target-headers.hmap -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/ThaliTest-all-target-headers.hmap -iquote /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/ThaliTest-project-headers.hmap -I/Users/thali/Github/ThaliTest/platforms/ios/build/device/include -I/Users/thali/Github/ThaliTest/platforms/ios/build/device/usr/local/lib/include -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/UninstalledProducts/include -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/UninstalledProducts/iphoneos/include -I/Users/thali/Github/ThaliTest/platforms/ios/build/device -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/DerivedSources/arm64 -I/Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/DerivedSources -F/Users/thali/Github/ThaliTest/platforms/ios/build/device -F/Users/thali/Github/ThaliTest/plugins/org.thaliproject.p2p/lib/ios -Werror -include /Users/thali/Github/ThaliTest/platforms/ios/build/sharedpch/ThaliTest-Prefix-axgdzmrtwuaezjgblzallujdvohj/ThaliTest-Prefix.pch -MMD -MT dependencies -MF /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/JXcoreExtension.d --serialize-diagnostics /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/JXcoreExtension.dia -c /Users/thali/Github/ThaliTest/platforms/ios/ThaliTest/Plugins/org.thaliproject.p2p/JXcoreExtension.m -o /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/JXcoreExtension.o
 
-Ld /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest normal armv7
-    cd /Users/thali/Github/ThaliTest/platforms/ios
-    export IPHONEOS_DEPLOYMENT_TARGET=10.0
-    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk -L/Users/thali/Github/ThaliTest/platforms/ios/build/device -L/Users/thali/Github/ThaliTest/platforms/ios/ThaliTest/Plugins/io.jxcore.node -F/Users/thali/Github/ThaliTest/platforms/ios/build/device -F/Users/thali/Github/ThaliTest/plugins/org.thaliproject.p2p/lib/ios -filelist /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -rpath -Xlinker @executable_path/Frameworks -miphoneos-version-min=10.0 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest_lto.o -Xlinker -export_dynamic -Xlinker -no_deduplicate -fobjc-arc -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos -Xlinker -add_ast_path -Xlinker /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest.swiftmodule -ObjC /Users/thali/Github/ThaliTest/platforms/ios/build/device/libCordova.a -lcares -lchrome_zlib -lhttp_parser -ljx -lmozjs -lopenssl -lsqlite3 -luv -lleveldb -lleveldown -lsnappy -framework SystemConfiguration -lstdc++.6.0.9 -framework CFNetwork -framework Foundation -framework Security -framework ThaliCore -framework CocoaAsyncSocket -framework SwiftXCTest -Xlinker -dependency_info -Xlinker /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest_dependency_info.dat -o /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest
-
 Ld /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/ThaliTest normal arm64
     cd /Users/thali/Github/ThaliTest/platforms/ios
     export IPHONEOS_DEPLOYMENT_TARGET=10.0
     export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk -L/Users/thali/Github/ThaliTest/platforms/ios/build/device -L/Users/thali/Github/ThaliTest/platforms/ios/ThaliTest/Plugins/io.jxcore.node -F/Users/thali/Github/ThaliTest/platforms/ios/build/device -F/Users/thali/Github/ThaliTest/plugins/org.thaliproject.p2p/lib/ios -filelist /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/ThaliTest.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -rpath -Xlinker @executable_path/Frameworks -miphoneos-version-min=10.0 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/ThaliTest_lto.o -Xlinker -export_dynamic -Xlinker -no_deduplicate -fobjc-arc -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos -Xlinker -add_ast_path -Xlinker /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/ThaliTest.swiftmodule -ObjC /Users/thali/Github/ThaliTest/platforms/ios/build/device/libCordova.a -lcares -lchrome_zlib -lhttp_parser -ljx -lmozjs -lopenssl -lsqlite3 -luv -lleveldb -lleveldown -lsnappy -framework SystemConfiguration -lstdc++.6.0.9 -framework CFNetwork -framework Foundation -framework Security -framework ThaliCore -framework CocoaAsyncSocket -framework SwiftXCTest -Xlinker -dependency_info -Xlinker /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/ThaliTest_dependency_info.dat -o /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/arm64/ThaliTest
+
+Ld /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest normal armv7
+    cd /Users/thali/Github/ThaliTest/platforms/ios
+    export IPHONEOS_DEPLOYMENT_TARGET=10.0
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/thali/.rvm/gems/ruby-2.4.1/bin:/Users/thali/.rvm/gems/ruby-2.4.1@global/bin:/Users/thali/.rvm/rubies/ruby-2.4.1/bin:/Users/thali/Library/Android/sdk/build-tools/25.0.0:/usr/local/bin:/Users/thali/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/thali/.rvm/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk -L/Users/thali/Github/ThaliTest/platforms/ios/build/device -L/Users/thali/Github/ThaliTest/platforms/ios/ThaliTest/Plugins/io.jxcore.node -F/Users/thali/Github/ThaliTest/platforms/ios/build/device -F/Users/thali/Github/ThaliTest/plugins/org.thaliproject.p2p/lib/ios -filelist /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -rpath -Xlinker @executable_path/Frameworks -miphoneos-version-min=10.0 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest_lto.o -Xlinker -export_dynamic -Xlinker -no_deduplicate -fobjc-arc -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos -Xlinker -add_ast_path -Xlinker /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest.swiftmodule -ObjC /Users/thali/Github/ThaliTest/platforms/ios/build/device/libCordova.a -lcares -lchrome_zlib -lhttp_parser -ljx -lmozjs -lopenssl -lsqlite3 -luv -lleveldb -lleveldown -lsnappy -framework SystemConfiguration -lstdc++.6.0.9 -framework CFNetwork -framework Foundation -framework Security -framework ThaliCore -framework CocoaAsyncSocket -framework SwiftXCTest -Xlinker -dependency_info -Xlinker /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest_dependency_info.dat -o /Users/thali/Library/Developer/Xcode/DerivedData/ThaliTest-azwxutkmiicvjcgtlbsxxcywrljp/Build/Intermediates/ThaliTest.build/Debug-iphoneos/ThaliTest.build/Objects-normal/armv7/ThaliTest
 
 CreateUniversalBinary build/device/ThaliTest.app/ThaliTest normal armv7\ arm64
     cd /Users/thali/Github/ThaliTest/platforms/ios
@@ -4044,26 +4053,21 @@ Probing signature of /Users/thali/Github/ThaliTest/platforms/ios/build/device/Th
 /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftCore.dylib: code object is not signed at all
 Codesigning /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftCore.dylib
   /usr/bin/codesign '--force' '--sign' 'DB9AAA292FA72A9ED0F7A05835EB93857A0BF718' '--verbose' '/Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftCore.dylib'
-Probing signature of /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftCoreImage.dylib
+Probing signature of /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftFoundation.dylib
 Probing signature of /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftDarwin.dylib
-  /usr/bin/codesign '-r-' '--display' '/Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftCoreImage.dylib'
+  /usr/bin/codesign '-r-' '--display' '/Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftFoundation.dylib'
   /usr/bin/codesign '-r-' '--display' '/Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftDarwin.dylib'
-/Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftCoreImage.dylib: code object is not signed at all
-Codesigning /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftCoreImage.dylib
-  /usr/bin/codesign '--force' '--sign' 'DB9AAA292FA72A9ED0F7A05835EB93857A0BF718' '--verbose' '/Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftCoreImage.dylib'
 /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftDarwin.dylib: code object is not signed at all
 Codesigning /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftDarwin.dylib
   /usr/bin/codesign '--force' '--sign' 'DB9AAA292FA72A9ED0F7A05835EB93857A0BF718' '--verbose' '/Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftDarwin.dylib'
-Probing signature of /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftDispatch.dylib
-  /usr/bin/codesign '-r-' '--display' '/Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftDispatch.dylib'
-Probing signature of /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftFoundation.dylib
-  /usr/bin/codesign '-r-' '--display' '/Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftFoundation.dylib'
-/Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftDispatch.dylib: code object is not signed at all
-Codesigning /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftDispatch.dylib
-  /usr/bin/codesign '--force' '--sign' 'DB9AAA292FA72A9ED0F7A05835EB93857A0BF718' '--verbose' '/Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftDispatch.dylib'
 /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftFoundation.dylib: code object is not signed at all
 Codesigning /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftFoundation.dylib
   /usr/bin/codesign '--force' '--sign' 'DB9AAA292FA72A9ED0F7A05835EB93857A0BF718' '--verbose' '/Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftFoundation.dylib'
+Probing signature of /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftDispatch.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftDispatch.dylib'
+/Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftDispatch.dylib: code object is not signed at all
+Codesigning /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftDispatch.dylib
+  /usr/bin/codesign '--force' '--sign' 'DB9AAA292FA72A9ED0F7A05835EB93857A0BF718' '--verbose' '/Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftDispatch.dylib'
 Probing signature of /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftObjectiveC.dylib
   /usr/bin/codesign '-r-' '--display' '/Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftObjectiveC.dylib'
 /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftObjectiveC.dylib: code object is not signed at all
@@ -4079,6 +4083,11 @@ Probing signature of /Users/thali/Github/ThaliTest/platforms/ios/build/device/Th
 /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftCoreGraphics.dylib: code object is not signed at all
 Codesigning /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftCoreGraphics.dylib
   /usr/bin/codesign '--force' '--sign' 'DB9AAA292FA72A9ED0F7A05835EB93857A0BF718' '--verbose' '/Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftCoreGraphics.dylib'
+Probing signature of /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftCoreImage.dylib
+  /usr/bin/codesign '-r-' '--display' '/Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftCoreImage.dylib'
+/Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftCoreImage.dylib: code object is not signed at all
+Codesigning /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftCoreImage.dylib
+  /usr/bin/codesign '--force' '--sign' 'DB9AAA292FA72A9ED0F7A05835EB93857A0BF718' '--verbose' '/Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftCoreImage.dylib'
 Probing signature of /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftQuartzCore.dylib
   /usr/bin/codesign '-r-' '--display' '/Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftQuartzCore.dylib'
 /Users/thali/Github/ThaliTest/platforms/ios/build/device/ThaliTest.app/Frameworks/libswiftQuartzCore.dylib: code object is not signed at all
@@ -4141,33 +4150,33 @@ end build.sh
 
 npm WARN thali-test-server@0.0.1 No repository field.
 npm WARN thali-test-server@0.0.1 No license field.
-npm http request GET http://192.168.1.100:4873/body-parser
-npm http request GET http://192.168.1.100:4873/bluebird
 npm http request GET http://192.168.1.100:4873/ip
-npm http request GET http://192.168.1.100:4873/express
+npm http request GET http://192.168.1.100:4873/body-parser
+npm http request GET http://192.168.1.100:4873/pouchdb-adapter-leveldb-core
+npm http request GET http://192.168.1.100:4873/bluebird
 npm http request GET http://192.168.1.100:4873/javascript-state-machine
-npm http request GET http://192.168.1.100:4873/long
 npm http request GET http://192.168.1.100:4873/lie
+npm http request GET http://192.168.1.100:4873/long
 npm http request GET http://192.168.1.100:4873/multiplex
 npm http request GET http://192.168.1.100:4873/object-assign
-npm http request GET http://192.168.1.100:4873/pouchdb-adapter-leveldb-core
+npm http request GET http://192.168.1.100:4873/express
 npm http request GET http://192.168.1.100:4873/urlsafe-base64
-npm http request GET http://192.168.1.100:4873/request
 npm http request GET http://192.168.1.100:4873/uuid
+npm http request GET http://192.168.1.100:4873/request
 npm http request GET http://192.168.1.100:4873/winston
 npm http 304 http://192.168.1.100:4873/ip
+npm http 304 http://192.168.1.100:4873/pouchdb-adapter-leveldb-core
 npm http 304 http://192.168.1.100:4873/javascript-state-machine
 npm http 200 http://192.168.1.100:4873/body-parser
-npm http 200 http://192.168.1.100:4873/bluebird
 npm http 304 http://192.168.1.100:4873/lie
+npm http 200 http://192.168.1.100:4873/bluebird
 npm http 304 http://192.168.1.100:4873/long
 npm http 304 http://192.168.1.100:4873/object-assign
 npm http 304 http://192.168.1.100:4873/multiplex
-npm http 200 http://192.168.1.100:4873/express
 npm http 200 http://192.168.1.100:4873/uuid
-npm http 200 http://192.168.1.100:4873/request
 npm http 200 http://192.168.1.100:4873/winston
-npm http 304 http://192.168.1.100:4873/pouchdb-adapter-leveldb-core
+npm http 200 http://192.168.1.100:4873/request
+npm http 200 http://192.168.1.100:4873/express
 npm http 304 http://192.168.1.100:4873/urlsafe-base64
 npm http request GET http://192.168.1.100:4873/bytes
 npm http request GET http://192.168.1.100:4873/content-type
@@ -4181,18 +4190,18 @@ npm http request GET http://192.168.1.100:4873/raw-body
 npm http request GET http://192.168.1.100:4873/type-is
 npm http 304 http://192.168.1.100:4873/bytes
 npm http 304 http://192.168.1.100:4873/content-type
+npm http 200 http://192.168.1.100:4873/debug
 npm http 200 http://192.168.1.100:4873/depd
 npm http 200 http://192.168.1.100:4873/http-errors
-npm http 200 http://192.168.1.100:4873/debug
 npm http 304 http://192.168.1.100:4873/iconv-lite
-npm http 304 http://192.168.1.100:4873/qs
 npm http 304 http://192.168.1.100:4873/on-finished
+npm http 304 http://192.168.1.100:4873/qs
 npm http 304 http://192.168.1.100:4873/raw-body
 npm http 304 http://192.168.1.100:4873/type-is
 npm http request GET http://192.168.1.100:4873/ms
 npm http 200 http://192.168.1.100:4873/ms
-npm http request GET http://192.168.1.100:4873/inherits
 npm http request GET http://192.168.1.100:4873/statuses
+npm http request GET http://192.168.1.100:4873/inherits
 npm http 304 http://192.168.1.100:4873/statuses
 npm http 304 http://192.168.1.100:4873/inherits
 npm http request GET http://192.168.1.100:4873/ee-first
@@ -4205,54 +4214,56 @@ npm http 304 http://192.168.1.100:4873/media-typer
 npm http 304 http://192.168.1.100:4873/mime-types
 npm http request GET http://192.168.1.100:4873/mime-db
 npm http 304 http://192.168.1.100:4873/mime-db
-npm http request GET http://192.168.1.100:4873/array-flatten
 npm http request GET http://192.168.1.100:4873/accepts
+npm http request GET http://192.168.1.100:4873/array-flatten
 npm http request GET http://192.168.1.100:4873/content-disposition
 npm http request GET http://192.168.1.100:4873/cookie
 npm http request GET http://192.168.1.100:4873/cookie-signature
 npm http request GET http://192.168.1.100:4873/escape-html
+npm http request GET http://192.168.1.100:4873/finalhandler
 npm http request GET http://192.168.1.100:4873/etag
 npm http request GET http://192.168.1.100:4873/fresh
-npm http request GET http://192.168.1.100:4873/finalhandler
 npm http request GET http://192.168.1.100:4873/merge-descriptors
+npm http request GET http://192.168.1.100:4873/path-to-regexp
 npm http request GET http://192.168.1.100:4873/methods
 npm http request GET http://192.168.1.100:4873/parseurl
-npm http request GET http://192.168.1.100:4873/range-parser
-npm http request GET http://192.168.1.100:4873/path-to-regexp
 npm http request GET http://192.168.1.100:4873/proxy-addr
-npm http request GET http://192.168.1.100:4873/vary
-npm http request GET http://192.168.1.100:4873/serve-static
+npm http request GET http://192.168.1.100:4873/range-parser
 npm http request GET http://192.168.1.100:4873/send
+npm http request GET http://192.168.1.100:4873/serve-static
 npm http request GET http://192.168.1.100:4873/utils-merge
-npm http 304 http://192.168.1.100:4873/array-flatten
+npm http request GET http://192.168.1.100:4873/vary
 npm http 304 http://192.168.1.100:4873/accepts
-npm http 304 http://192.168.1.100:4873/cookie
-npm http 304 http://192.168.1.100:4873/content-disposition
 npm http 304 http://192.168.1.100:4873/cookie-signature
+npm http 304 http://192.168.1.100:4873/array-flatten
+npm http 304 http://192.168.1.100:4873/content-disposition
+npm http 200 http://192.168.1.100:4873/cookie
 npm http 304 http://192.168.1.100:4873/escape-html
+npm http 304 http://192.168.1.100:4873/finalhandler
 npm http 304 http://192.168.1.100:4873/etag
 npm http 304 http://192.168.1.100:4873/fresh
-npm http 304 http://192.168.1.100:4873/finalhandler
 npm http 304 http://192.168.1.100:4873/merge-descriptors
-npm http 304 http://192.168.1.100:4873/methods
 npm http 304 http://192.168.1.100:4873/parseurl
+npm http 304 http://192.168.1.100:4873/methods
 npm http 304 http://192.168.1.100:4873/range-parser
-npm http 304 http://192.168.1.100:4873/vary
 npm http 304 http://192.168.1.100:4873/send
 npm http 304 http://192.168.1.100:4873/serve-static
 npm http 200 http://192.168.1.100:4873/proxy-addr
-npm http 200 http://192.168.1.100:4873/utils-merge
 npm http 200 http://192.168.1.100:4873/path-to-regexp
+npm http 304 http://192.168.1.100:4873/vary
+npm http 200 http://192.168.1.100:4873/utils-merge
 npm http request GET http://192.168.1.100:4873/negotiator
 npm http 304 http://192.168.1.100:4873/negotiator
 npm http request GET http://192.168.1.100:4873/forwarded
 npm http request GET http://192.168.1.100:4873/ipaddr.js
-npm http 304 http://192.168.1.100:4873/forwarded
 npm http 304 http://192.168.1.100:4873/ipaddr.js
+npm http 304 http://192.168.1.100:4873/forwarded
 npm http request GET http://192.168.1.100:4873/destroy
 npm http request GET http://192.168.1.100:4873/mime
 npm http 304 http://192.168.1.100:4873/destroy
 npm http 200 http://192.168.1.100:4873/mime
+npm http request GET http://192.168.1.100:4873/depd
+npm http 304 http://192.168.1.100:4873/depd
 npm http fetch GET http://192.168.1.100:4873/depd/-/depd-1.1.1.tgz
 npm http fetch 200 http://192.168.1.100:4873/depd/-/depd-1.1.1.tgz
 npm http request GET http://192.168.1.100:4873/immediate
@@ -4263,7 +4274,9 @@ npm http request GET http://192.168.1.100:4873/readable-stream
 npm http request GET http://192.168.1.100:4873/xtend
 npm http 304 http://192.168.1.100:4873/readable-stream
 npm http 304 http://192.168.1.100:4873/xtend
-npm http 304 http://192.168.1.100:4873/duplexify
+npm http 200 http://192.168.1.100:4873/duplexify
+npm http fetch GET http://192.168.1.100:4873/duplexify/-/duplexify-3.5.1.tgz
+npm http fetch 200 http://192.168.1.100:4873/duplexify/-/duplexify-3.5.1.tgz
 npm http 304 http://192.168.1.100:4873/varint
 npm http request GET http://192.168.1.100:4873/stream-shift
 npm http request GET http://192.168.1.100:4873/end-of-stream
@@ -4280,10 +4293,10 @@ npm http request GET http://192.168.1.100:4873/safe-buffer
 npm http request GET http://192.168.1.100:4873/string_decoder
 npm http request GET http://192.168.1.100:4873/util-deprecate
 npm http 304 http://192.168.1.100:4873/core-util-is
-npm http 304 http://192.168.1.100:4873/isarray
 npm http 304 http://192.168.1.100:4873/process-nextick-args
-npm http 304 http://192.168.1.100:4873/string_decoder
+npm http 304 http://192.168.1.100:4873/isarray
 npm http 304 http://192.168.1.100:4873/safe-buffer
+npm http 304 http://192.168.1.100:4873/string_decoder
 npm http 304 http://192.168.1.100:4873/util-deprecate
 npm http request GET http://192.168.1.100:4873/argsarray
 npm http request GET http://192.168.1.100:4873/buffer-from
@@ -4300,52 +4313,52 @@ npm http request GET http://192.168.1.100:4873/pouchdb-promise
 npm http request GET http://192.168.1.100:4873/pouchdb-utils
 npm http request GET http://192.168.1.100:4873/sublevel-pouchdb
 npm http request GET http://192.168.1.100:4873/through2
-npm http 304 http://192.168.1.100:4873/argsarray
 npm http 304 http://192.168.1.100:4873/buffer-from
+npm http 304 http://192.168.1.100:4873/argsarray
 npm http 304 http://192.168.1.100:4873/double-ended-queue
-npm http 304 http://192.168.1.100:4873/pouchdb-adapter-utils
 npm http 200 http://192.168.1.100:4873/levelup
-npm http 304 http://192.168.1.100:4873/pouchdb-binary-utils
-npm http 304 http://192.168.1.100:4873/pouchdb-collections
 npm http 304 http://192.168.1.100:4873/pouchdb-errors
+npm http 304 http://192.168.1.100:4873/pouchdb-binary-utils
 npm http 304 http://192.168.1.100:4873/pouchdb-json
+npm http 304 http://192.168.1.100:4873/pouchdb-collections
 npm http 304 http://192.168.1.100:4873/pouchdb-md5
 npm http 304 http://192.168.1.100:4873/pouchdb-merge
 npm http 304 http://192.168.1.100:4873/pouchdb-promise
 npm http 304 http://192.168.1.100:4873/pouchdb-utils
-npm http 304 http://192.168.1.100:4873/sublevel-pouchdb
 npm http 200 http://192.168.1.100:4873/through2
+npm http 304 http://192.168.1.100:4873/sublevel-pouchdb
+npm http 304 http://192.168.1.100:4873/pouchdb-adapter-utils
 npm http request GET http://192.168.1.100:4873/is-array-buffer-x
 npm http 304 http://192.168.1.100:4873/is-array-buffer-x
 npm http request GET http://192.168.1.100:4873/is-object-like-x
 npm http request GET http://192.168.1.100:4873/to-string-tag-x
 npm http request GET http://192.168.1.100:4873/has-to-string-tag-x
+npm http 304 http://192.168.1.100:4873/to-string-tag-x
 npm http 304 http://192.168.1.100:4873/is-object-like-x
 npm http 304 http://192.168.1.100:4873/has-to-string-tag-x
-npm http 304 http://192.168.1.100:4873/to-string-tag-x
 npm http request GET http://192.168.1.100:4873/has-symbol-support-x
 npm http 304 http://192.168.1.100:4873/has-symbol-support-x
-npm http request GET http://192.168.1.100:4873/is-primitive
 npm http request GET http://192.168.1.100:4873/is-function-x
+npm http request GET http://192.168.1.100:4873/is-primitive
 npm http 304 http://192.168.1.100:4873/is-primitive
 npm http 304 http://192.168.1.100:4873/is-function-x
 npm http request GET http://192.168.1.100:4873/lodash.isnull
 npm http request GET http://192.168.1.100:4873/validate.io-undefined
-npm http 304 http://192.168.1.100:4873/lodash.isnull
 npm http 304 http://192.168.1.100:4873/validate.io-undefined
+npm http 304 http://192.168.1.100:4873/lodash.isnull
 npm http request GET http://192.168.1.100:4873/deferred-leveldown
 npm http request GET http://192.168.1.100:4873/level-codec
 npm http request GET http://192.168.1.100:4873/level-errors
 npm http request GET http://192.168.1.100:4873/level-iterator-stream
 npm http request GET http://192.168.1.100:4873/prr
 npm http request GET http://192.168.1.100:4873/semver
-npm http 304 http://192.168.1.100:4873/level-errors
 npm http 304 http://192.168.1.100:4873/prr
-npm http 304 http://192.168.1.100:4873/level-codec
-npm http 200 http://192.168.1.100:4873/deferred-leveldown
-npm http 304 http://192.168.1.100:4873/level-iterator-stream
-npm http fetch GET http://192.168.1.100:4873/deferred-leveldown/-/deferred-leveldown-1.2.2.tgz
 npm http 304 http://192.168.1.100:4873/semver
+npm http 304 http://192.168.1.100:4873/level-codec
+npm http 304 http://192.168.1.100:4873/level-errors
+npm http 304 http://192.168.1.100:4873/level-iterator-stream
+npm http 200 http://192.168.1.100:4873/deferred-leveldown
+npm http fetch GET http://192.168.1.100:4873/deferred-leveldown/-/deferred-leveldown-1.2.2.tgz
 npm http fetch 200 http://192.168.1.100:4873/deferred-leveldown/-/deferred-leveldown-1.2.2.tgz
 npm http request GET http://192.168.1.100:4873/abstract-leveldown
 npm http 200 http://192.168.1.100:4873/abstract-leveldown
@@ -4353,6 +4366,8 @@ npm http fetch GET http://192.168.1.100:4873/abstract-leveldown/-/abstract-level
 npm http fetch 200 http://192.168.1.100:4873/abstract-leveldown/-/abstract-leveldown-2.6.2.tgz
 npm http request GET http://192.168.1.100:4873/errno
 npm http 304 http://192.168.1.100:4873/errno
+npm http request GET http://192.168.1.100:4873/readable-stream
+npm http 304 http://192.168.1.100:4873/readable-stream
 npm http request GET http://192.168.1.100:4873/spark-md5
 npm http 304 http://192.168.1.100:4873/spark-md5
 npm http request GET http://192.168.1.100:4873/debug
@@ -4365,6 +4380,10 @@ npm http request GET http://192.168.1.100:4873/vuvuzela
 npm http 304 http://192.168.1.100:4873/vuvuzela
 npm http request GET http://192.168.1.100:4873/ltgt
 npm http 304 http://192.168.1.100:4873/ltgt
+npm http request GET http://192.168.1.100:4873/isarray
+npm http request GET http://192.168.1.100:4873/string_decoder
+npm http 304 http://192.168.1.100:4873/string_decoder
+npm http 304 http://192.168.1.100:4873/isarray
 npm http request GET http://192.168.1.100:4873/bl
 npm http request GET http://192.168.1.100:4873/caseless
 npm http request GET http://192.168.1.100:4873/extend
@@ -4376,29 +4395,29 @@ npm http request GET http://192.168.1.100:4873/tough-cookie
 npm http request GET http://192.168.1.100:4873/http-signature
 npm http request GET http://192.168.1.100:4873/qs
 npm http request GET http://192.168.1.100:4873/oauth-sign
+npm http request GET http://192.168.1.100:4873/hawk
 npm http request GET http://192.168.1.100:4873/aws-sign2
 npm http request GET http://192.168.1.100:4873/stringstream
 npm http request GET http://192.168.1.100:4873/combined-stream
 npm http request GET http://192.168.1.100:4873/isstream
-npm http request GET http://192.168.1.100:4873/hawk
 npm http request GET http://192.168.1.100:4873/har-validator
-npm http 304 http://192.168.1.100:4873/bl
 npm http 304 http://192.168.1.100:4873/caseless
 npm http 304 http://192.168.1.100:4873/extend
 npm http 304 http://192.168.1.100:4873/json-stringify-safe
 npm http 304 http://192.168.1.100:4873/form-data
-npm http 304 http://192.168.1.100:4873/tunnel-agent
-npm http 304 http://192.168.1.100:4873/qs
 npm http 304 http://192.168.1.100:4873/http-signature
-npm http 304 http://192.168.1.100:4873/tough-cookie
 npm http 304 http://192.168.1.100:4873/node-uuid
+npm http 304 http://192.168.1.100:4873/tough-cookie
+npm http 304 http://192.168.1.100:4873/tunnel-agent
 npm WARN deprecated node-uuid@1.4.8: Use uuid module instead
-npm http 304 http://192.168.1.100:4873/combined-stream
-npm http 304 http://192.168.1.100:4873/aws-sign2
-npm http 304 http://192.168.1.100:4873/stringstream
-npm http 304 http://192.168.1.100:4873/isstream
+npm http 304 http://192.168.1.100:4873/bl
+npm http 304 http://192.168.1.100:4873/qs
 npm http 304 http://192.168.1.100:4873/oauth-sign
 npm http 304 http://192.168.1.100:4873/hawk
+npm http 304 http://192.168.1.100:4873/aws-sign2
+npm http 304 http://192.168.1.100:4873/stringstream
+npm http 304 http://192.168.1.100:4873/combined-stream
+npm http 304 http://192.168.1.100:4873/isstream
 npm http 304 http://192.168.1.100:4873/har-validator
 npm http request GET http://192.168.1.100:4873/delayed-stream
 npm http 304 http://192.168.1.100:4873/delayed-stream
@@ -4412,42 +4431,42 @@ npm http request GET http://192.168.1.100:4873/commander
 npm http request GET http://192.168.1.100:4873/is-my-json-valid
 npm http 304 http://192.168.1.100:4873/bluebird
 npm http 304 http://192.168.1.100:4873/is-my-json-valid
-npm http 200 http://192.168.1.100:4873/chalk
 npm http 200 http://192.168.1.100:4873/commander
-npm http request GET http://192.168.1.100:4873/ansi-styles
+npm http 200 http://192.168.1.100:4873/chalk
 npm http request GET http://192.168.1.100:4873/escape-string-regexp
+npm http request GET http://192.168.1.100:4873/ansi-styles
 npm http request GET http://192.168.1.100:4873/has-ansi
 npm http request GET http://192.168.1.100:4873/strip-ansi
 npm http request GET http://192.168.1.100:4873/supports-color
 npm http 304 http://192.168.1.100:4873/escape-string-regexp
 npm http 304 http://192.168.1.100:4873/ansi-styles
-npm http 304 http://192.168.1.100:4873/strip-ansi
-npm http 304 http://192.168.1.100:4873/supports-color
 npm http 304 http://192.168.1.100:4873/has-ansi
+npm http 304 http://192.168.1.100:4873/supports-color
+npm http 304 http://192.168.1.100:4873/strip-ansi
 npm http request GET http://192.168.1.100:4873/ansi-regex
 npm http 304 http://192.168.1.100:4873/ansi-regex
 npm http request GET http://192.168.1.100:4873/generate-function
 npm http request GET http://192.168.1.100:4873/generate-object-property
 npm http request GET http://192.168.1.100:4873/jsonpointer
-npm http 304 http://192.168.1.100:4873/jsonpointer
 npm http 304 http://192.168.1.100:4873/generate-object-property
 npm http 304 http://192.168.1.100:4873/generate-function
+npm http 304 http://192.168.1.100:4873/jsonpointer
 npm http request GET http://192.168.1.100:4873/is-property
 npm http 304 http://192.168.1.100:4873/is-property
-npm http request GET http://192.168.1.100:4873/cryptiles
 npm http request GET http://192.168.1.100:4873/hoek
-npm http request GET http://192.168.1.100:4873/sntp
+npm http request GET http://192.168.1.100:4873/cryptiles
 npm http request GET http://192.168.1.100:4873/boom
-npm http 304 http://192.168.1.100:4873/cryptiles
+npm http request GET http://192.168.1.100:4873/sntp
 npm http 304 http://192.168.1.100:4873/sntp
 npm http 304 http://192.168.1.100:4873/hoek
+npm http 304 http://192.168.1.100:4873/cryptiles
 npm http 200 http://192.168.1.100:4873/boom
 npm http request GET http://192.168.1.100:4873/assert-plus
 npm http request GET http://192.168.1.100:4873/asn1
 npm http request GET http://192.168.1.100:4873/ctype
-npm http 304 http://192.168.1.100:4873/ctype
 npm http 304 http://192.168.1.100:4873/assert-plus
 npm http 304 http://192.168.1.100:4873/asn1
+npm http 304 http://192.168.1.100:4873/ctype
 npm http request GET http://192.168.1.100:4873/punycode
 npm http 304 http://192.168.1.100:4873/punycode
 npm http request GET http://192.168.1.100:4873/jsonschema
@@ -4458,76 +4477,76 @@ npm http request GET http://192.168.1.100:4873/eyes
 npm http request GET http://192.168.1.100:4873/pkginfo
 npm http request GET http://192.168.1.100:4873/stack-trace
 npm http 304 http://192.168.1.100:4873/cycle
-npm http 304 http://192.168.1.100:4873/eyes
-npm http 200 http://192.168.1.100:4873/colors
 npm http 304 http://192.168.1.100:4873/pkginfo
 npm http 304 http://192.168.1.100:4873/stack-trace
+npm http 304 http://192.168.1.100:4873/eyes
+npm http 200 http://192.168.1.100:4873/colors
 npm http request GET http://192.168.1.100:4873/jsdoc
 npm http request GET http://192.168.1.100:4873/eslint
-npm http 200 http://192.168.1.100:4873/jsdoc
 npm http 200 http://192.168.1.100:4873/eslint
+npm http 200 http://192.168.1.100:4873/jsdoc
 npm http request GET http://192.168.1.100:4873/babel-code-frame
 npm http request GET http://192.168.1.100:4873/concat-stream
 npm http request GET http://192.168.1.100:4873/doctrine
-npm http request GET http://192.168.1.100:4873/espree
 npm http request GET http://192.168.1.100:4873/escope
-npm http request GET http://192.168.1.100:4873/estraverse
 npm http request GET http://192.168.1.100:4873/esutils
 npm http request GET http://192.168.1.100:4873/file-entry-cache
-npm http request GET http://192.168.1.100:4873/json-stable-stringify
-npm http request GET http://192.168.1.100:4873/globals
-npm http request GET http://192.168.1.100:4873/glob
+npm http request GET http://192.168.1.100:4873/espree
+npm http request GET http://192.168.1.100:4873/estraverse
 npm http request GET http://192.168.1.100:4873/inquirer
-npm http request GET http://192.168.1.100:4873/imurmurhash
-npm http request GET http://192.168.1.100:4873/is-resolvable
+npm http request GET http://192.168.1.100:4873/json-stable-stringify
 npm http request GET http://192.168.1.100:4873/ignore
-npm http request GET http://192.168.1.100:4873/js-yaml
+npm http request GET http://192.168.1.100:4873/globals
+npm http request GET http://192.168.1.100:4873/is-resolvable
+npm http request GET http://192.168.1.100:4873/glob
+npm http request GET http://192.168.1.100:4873/imurmurhash
 npm http request GET http://192.168.1.100:4873/levn
-npm http request GET http://192.168.1.100:4873/natural-compare
-npm http request GET http://192.168.1.100:4873/strip-bom
+npm http request GET http://192.168.1.100:4873/js-yaml
 npm http request GET http://192.168.1.100:4873/mkdirp
+npm http request GET http://192.168.1.100:4873/natural-compare
+npm http request GET http://192.168.1.100:4873/require-uncached
 npm http request GET http://192.168.1.100:4873/path-is-inside
+npm http request GET http://192.168.1.100:4873/strip-bom
 npm http request GET http://192.168.1.100:4873/optionator
 npm http request GET http://192.168.1.100:4873/pluralize
-npm http request GET http://192.168.1.100:4873/require-uncached
 npm http request GET http://192.168.1.100:4873/progress
 npm http request GET http://192.168.1.100:4873/shelljs
 npm http request GET http://192.168.1.100:4873/strip-json-comments
-npm http request GET http://192.168.1.100:4873/user-home
 npm http request GET http://192.168.1.100:4873/text-table
 npm http request GET http://192.168.1.100:4873/table
+npm http request GET http://192.168.1.100:4873/user-home
 npm http 304 http://192.168.1.100:4873/concat-stream
-npm http 304 http://192.168.1.100:4873/escope
 npm http 304 http://192.168.1.100:4873/doctrine
-npm http 304 http://192.168.1.100:4873/espree
-npm http 200 http://192.168.1.100:4873/babel-code-frame
-npm http 304 http://192.168.1.100:4873/estraverse
 npm http 304 http://192.168.1.100:4873/esutils
+npm http 304 http://192.168.1.100:4873/escope
+npm http 200 http://192.168.1.100:4873/babel-code-frame
 npm http 304 http://192.168.1.100:4873/file-entry-cache
+npm http 304 http://192.168.1.100:4873/espree
+npm http 304 http://192.168.1.100:4873/estraverse
 npm http 304 http://192.168.1.100:4873/json-stable-stringify
+npm http 200 http://192.168.1.100:4873/inquirer
+npm http 304 http://192.168.1.100:4873/ignore
 npm http 304 http://192.168.1.100:4873/globals
 npm http 304 http://192.168.1.100:4873/is-resolvable
 npm http 304 http://192.168.1.100:4873/imurmurhash
-npm http 304 http://192.168.1.100:4873/ignore
 npm http 200 http://192.168.1.100:4873/glob
-npm http 200 http://192.168.1.100:4873/inquirer
 npm http 304 http://192.168.1.100:4873/levn
-npm http 304 http://192.168.1.100:4873/natural-compare
 npm http 200 http://192.168.1.100:4873/js-yaml
 npm http fetch GET http://192.168.1.100:4873/js-yaml/-/js-yaml-3.9.1.tgz
 npm http 200 http://192.168.1.100:4873/mkdirp
-npm http 304 http://192.168.1.100:4873/strip-bom
+npm http 304 http://192.168.1.100:4873/natural-compare
+npm http 304 http://192.168.1.100:4873/require-uncached
 npm http 304 http://192.168.1.100:4873/path-is-inside
+npm http 304 http://192.168.1.100:4873/strip-bom
 npm http 304 http://192.168.1.100:4873/optionator
 npm http 304 http://192.168.1.100:4873/pluralize
-npm http 304 http://192.168.1.100:4873/require-uncached
 npm http 304 http://192.168.1.100:4873/progress
 npm http 304 http://192.168.1.100:4873/strip-json-comments
-npm http 304 http://192.168.1.100:4873/user-home
+npm http fetch 200 http://192.168.1.100:4873/js-yaml/-/js-yaml-3.9.1.tgz
 npm http 200 http://192.168.1.100:4873/shelljs
 npm http 304 http://192.168.1.100:4873/text-table
+npm http 304 http://192.168.1.100:4873/user-home
 npm http 200 http://192.168.1.100:4873/table
-npm http fetch 200 http://192.168.1.100:4873/js-yaml/-/js-yaml-3.9.1.tgz
 npm http request GET http://192.168.1.100:4873/js-tokens
 npm http 200 http://192.168.1.100:4873/js-tokens
 npm http request GET http://192.168.1.100:4873/typedarray
@@ -4536,45 +4555,47 @@ npm http request GET http://192.168.1.100:4873/es6-map
 npm http request GET http://192.168.1.100:4873/es6-weak-map
 npm http request GET http://192.168.1.100:4873/esrecurse
 npm http 304 http://192.168.1.100:4873/es6-map
-npm http 304 http://192.168.1.100:4873/es6-weak-map
 npm http 304 http://192.168.1.100:4873/esrecurse
+npm http 304 http://192.168.1.100:4873/es6-weak-map
 npm http request GET http://192.168.1.100:4873/d
-npm http request GET http://192.168.1.100:4873/es6-iterator
 npm http request GET http://192.168.1.100:4873/event-emitter
+npm http request GET http://192.168.1.100:4873/es5-ext
 npm http request GET http://192.168.1.100:4873/es6-set
 npm http request GET http://192.168.1.100:4873/es6-symbol
-npm http request GET http://192.168.1.100:4873/es5-ext
+npm http request GET http://192.168.1.100:4873/es6-iterator
 npm http 304 http://192.168.1.100:4873/d
 npm http 304 http://192.168.1.100:4873/event-emitter
 npm http 304 http://192.168.1.100:4873/es6-set
-npm http 304 http://192.168.1.100:4873/es6-iterator
 npm http 304 http://192.168.1.100:4873/es6-symbol
-npm http 304 http://192.168.1.100:4873/es5-ext
+npm http 200 http://192.168.1.100:4873/es5-ext
+npm http fetch GET http://192.168.1.100:4873/es5-ext/-/es5-ext-0.10.26.tgz
+npm http 304 http://192.168.1.100:4873/es6-iterator
+npm http fetch 200 http://192.168.1.100:4873/es5-ext/-/es5-ext-0.10.26.tgz
 npm http request GET http://192.168.1.100:4873/acorn-jsx
 npm http request GET http://192.168.1.100:4873/acorn
-npm http 304 http://192.168.1.100:4873/acorn
 npm http 304 http://192.168.1.100:4873/acorn-jsx
+npm http 304 http://192.168.1.100:4873/acorn
 npm http request GET http://192.168.1.100:4873/flat-cache
 npm http 304 http://192.168.1.100:4873/flat-cache
 npm http request GET http://192.168.1.100:4873/circular-json
 npm http request GET http://192.168.1.100:4873/del
 npm http request GET http://192.168.1.100:4873/write
 npm http request GET http://192.168.1.100:4873/graceful-fs
-npm http 304 http://192.168.1.100:4873/circular-json
-npm http 304 http://192.168.1.100:4873/write
 npm http 304 http://192.168.1.100:4873/graceful-fs
+npm http 304 http://192.168.1.100:4873/write
+npm http 304 http://192.168.1.100:4873/circular-json
 npm http 200 http://192.168.1.100:4873/del
-npm http request GET http://192.168.1.100:4873/globby
 npm http request GET http://192.168.1.100:4873/is-path-cwd
-npm http request GET http://192.168.1.100:4873/is-path-in-cwd
+npm http request GET http://192.168.1.100:4873/globby
 npm http request GET http://192.168.1.100:4873/pify
+npm http request GET http://192.168.1.100:4873/is-path-in-cwd
 npm http request GET http://192.168.1.100:4873/pinkie-promise
 npm http request GET http://192.168.1.100:4873/rimraf
-npm http 304 http://192.168.1.100:4873/is-path-cwd
+npm http 304 http://192.168.1.100:4873/pify
 npm http 304 http://192.168.1.100:4873/globby
 npm http 304 http://192.168.1.100:4873/is-path-in-cwd
+npm http 304 http://192.168.1.100:4873/is-path-cwd
 npm http 304 http://192.168.1.100:4873/pinkie-promise
-npm http 304 http://192.168.1.100:4873/pify
 npm http 200 http://192.168.1.100:4873/rimraf
 npm http request GET http://192.168.1.100:4873/arrify
 npm http request GET http://192.168.1.100:4873/array-union
@@ -4584,40 +4605,40 @@ npm http request GET http://192.168.1.100:4873/array-uniq
 npm http 304 http://192.168.1.100:4873/array-uniq
 npm http request GET http://192.168.1.100:4873/fs.realpath
 npm http request GET http://192.168.1.100:4873/inflight
-npm http request GET http://192.168.1.100:4873/minimatch
 npm http request GET http://192.168.1.100:4873/path-is-absolute
-npm http 304 http://192.168.1.100:4873/minimatch
-npm http 304 http://192.168.1.100:4873/path-is-absolute
+npm http request GET http://192.168.1.100:4873/minimatch
 npm http 304 http://192.168.1.100:4873/fs.realpath
 npm http 304 http://192.168.1.100:4873/inflight
+npm http 304 http://192.168.1.100:4873/path-is-absolute
+npm http 304 http://192.168.1.100:4873/minimatch
 npm http request GET http://192.168.1.100:4873/brace-expansion
 npm http 304 http://192.168.1.100:4873/brace-expansion
 npm http request GET http://192.168.1.100:4873/balanced-match
 npm http request GET http://192.168.1.100:4873/concat-map
-npm http 304 http://192.168.1.100:4873/balanced-match
 npm http 304 http://192.168.1.100:4873/concat-map
+npm http 304 http://192.168.1.100:4873/balanced-match
 npm http request GET http://192.168.1.100:4873/pinkie
 npm http 304 http://192.168.1.100:4873/pinkie
 npm http request GET http://192.168.1.100:4873/is-path-inside
 npm http 304 http://192.168.1.100:4873/is-path-inside
 npm http request GET http://192.168.1.100:4873/minimist
 npm http 200 http://192.168.1.100:4873/minimist
-npm http request GET http://192.168.1.100:4873/cli-width
 npm http request GET http://192.168.1.100:4873/ansi-escapes
+npm http request GET http://192.168.1.100:4873/cli-width
 npm http request GET http://192.168.1.100:4873/cli-cursor
-npm http request GET http://192.168.1.100:4873/string-width
-npm http request GET http://192.168.1.100:4873/figures
-npm http request GET http://192.168.1.100:4873/readline2
 npm http request GET http://192.168.1.100:4873/run-async
+npm http request GET http://192.168.1.100:4873/figures
+npm http request GET http://192.168.1.100:4873/string-width
 npm http request GET http://192.168.1.100:4873/rx-lite
+npm http request GET http://192.168.1.100:4873/readline2
 npm http request GET http://192.168.1.100:4873/through
-npm http 304 http://192.168.1.100:4873/cli-width
 npm http 304 http://192.168.1.100:4873/ansi-escapes
-npm http 304 http://192.168.1.100:4873/string-width
 npm http 304 http://192.168.1.100:4873/cli-cursor
+npm http 304 http://192.168.1.100:4873/cli-width
 npm http 304 http://192.168.1.100:4873/figures
-npm http 304 http://192.168.1.100:4873/rx-lite
 npm http 304 http://192.168.1.100:4873/run-async
+npm http 304 http://192.168.1.100:4873/string-width
+npm http 304 http://192.168.1.100:4873/rx-lite
 npm http 304 http://192.168.1.100:4873/through
 npm http 304 http://192.168.1.100:4873/readline2
 npm http request GET http://192.168.1.100:4873/restore-cursor
@@ -4626,12 +4647,12 @@ npm http request GET http://192.168.1.100:4873/onetime
 npm http request GET http://192.168.1.100:4873/exit-hook
 npm http 304 http://192.168.1.100:4873/onetime
 npm http 304 http://192.168.1.100:4873/exit-hook
-npm http request GET http://192.168.1.100:4873/code-point-at
 npm http request GET http://192.168.1.100:4873/is-fullwidth-code-point
+npm http request GET http://192.168.1.100:4873/code-point-at
 npm http request GET http://192.168.1.100:4873/mute-stream
 npm http 304 http://192.168.1.100:4873/is-fullwidth-code-point
-npm http 304 http://192.168.1.100:4873/mute-stream
 npm http 304 http://192.168.1.100:4873/code-point-at
+npm http 304 http://192.168.1.100:4873/mute-stream
 npm http request GET http://192.168.1.100:4873/number-is-nan
 npm http 304 http://192.168.1.100:4873/number-is-nan
 npm http request GET http://192.168.1.100:4873/tryit
@@ -4651,9 +4672,9 @@ npm http 304 http://192.168.1.100:4873/prelude-ls
 npm http request GET http://192.168.1.100:4873/wordwrap
 npm http request GET http://192.168.1.100:4873/deep-is
 npm http request GET http://192.168.1.100:4873/fast-levenshtein
-npm http 304 http://192.168.1.100:4873/fast-levenshtein
 npm http 304 http://192.168.1.100:4873/wordwrap
 npm http 304 http://192.168.1.100:4873/deep-is
+npm http 304 http://192.168.1.100:4873/fast-levenshtein
 npm http request GET http://192.168.1.100:4873/caller-path
 npm http request GET http://192.168.1.100:4873/resolve-from
 npm http 304 http://192.168.1.100:4873/resolve-from
@@ -4662,8 +4683,8 @@ npm http request GET http://192.168.1.100:4873/callsites
 npm http 304 http://192.168.1.100:4873/callsites
 npm http request GET http://192.168.1.100:4873/rechoir
 npm http request GET http://192.168.1.100:4873/interpret
-npm http 304 http://192.168.1.100:4873/interpret
 npm http 304 http://192.168.1.100:4873/rechoir
+npm http 304 http://192.168.1.100:4873/interpret
 npm http request GET http://192.168.1.100:4873/resolve
 npm http 200 http://192.168.1.100:4873/resolve
 npm http fetch GET http://192.168.1.100:4873/resolve/-/resolve-1.4.0.tgz
@@ -4673,8 +4694,8 @@ npm http 304 http://192.168.1.100:4873/path-parse
 npm http request GET http://192.168.1.100:4873/ajv-keywords
 npm http request GET http://192.168.1.100:4873/slice-ansi
 npm http request GET http://192.168.1.100:4873/ajv
-npm http 304 http://192.168.1.100:4873/ajv-keywords
 npm http 304 http://192.168.1.100:4873/slice-ansi
+npm http 304 http://192.168.1.100:4873/ajv-keywords
 npm http 304 http://192.168.1.100:4873/ajv
 npm http request GET http://192.168.1.100:4873/co
 npm http 200 http://192.168.1.100:4873/co
@@ -4685,19 +4706,19 @@ npm http 304 http://192.168.1.100:4873/ansi-regex
 npm http request GET http://192.168.1.100:4873/os-homedir
 npm http 304 http://192.168.1.100:4873/os-homedir
 npm http request GET http://192.168.1.100:4873/async
-npm http request GET http://192.168.1.100:4873/catharsis
 npm http request GET http://192.168.1.100:4873/js2xmlparser
-npm http request GET http://192.168.1.100:4873/marked
 npm http request GET http://192.168.1.100:4873/requizzle
+npm http request GET http://192.168.1.100:4873/marked
+npm http request GET http://192.168.1.100:4873/catharsis
 npm http request GET http://192.168.1.100:4873/underscore
 npm http request GET http://192.168.1.100:4873/wrench
 npm http fetch GET https://github.com/hegemonic/taffydb/tarball/7d100bcee0e997ee4977e273cdce60bd8933050e
 npm http 304 http://192.168.1.100:4873/async
-npm http 304 http://192.168.1.100:4873/catharsis
-npm http 304 http://192.168.1.100:4873/js2xmlparser
 npm http 304 http://192.168.1.100:4873/marked
-npm http 304 http://192.168.1.100:4873/requizzle
 npm http 200 http://192.168.1.100:4873/underscore
+npm http 304 http://192.168.1.100:4873/js2xmlparser
+npm http 304 http://192.168.1.100:4873/requizzle
+npm http 304 http://192.168.1.100:4873/catharsis
 npm http 304 http://192.168.1.100:4873/wrench
 npm WARN deprecated wrench@1.5.9: wrench.js is deprecated! You should check out fs-extra (https://github.com/jprichardson/node-fs-extra) for any operations you were using wrench for. Thanks for all the usage over the years.
 npm http fetch 200 https://github.com/hegemonic/taffydb/tarball/7d100bcee0e997ee4977e273cdce60bd8933050e
@@ -4710,15 +4731,15 @@ npm http request GET http://192.168.1.100:4873/bluebird
 npm http request GET http://192.168.1.100:4873/body-parser
 npm http request GET http://192.168.1.100:4873/child-process-promise
 npm http request GET http://192.168.1.100:4873/concat-map
-npm http request GET http://192.168.1.100:4873/express
 npm http request GET http://192.168.1.100:4873/inherits
+npm http request GET http://192.168.1.100:4873/express
 npm http request GET http://192.168.1.100:4873/is-property
 npm http request GET http://192.168.1.100:4873/long
-npm http request GET http://192.168.1.100:4873/minimist
 npm http request GET http://192.168.1.100:4873/multiplex
+npm http request GET http://192.168.1.100:4873/minimist
+npm http request GET http://192.168.1.100:4873/bn.js
 npm http request GET http://192.168.1.100:4873/node-uuid
 npm http request GET http://192.168.1.100:4873/object-assign
-npm http request GET http://192.168.1.100:4873/bn.js
 npm http request GET http://192.168.1.100:4873/randomstring
 npm http request GET http://192.168.1.100:4873/request
 npm http request GET http://192.168.1.100:4873/express-pouchdb
@@ -4736,49 +4757,49 @@ npm http request GET http://192.168.1.100:4873/sinon
 npm http request GET http://192.168.1.100:4873/stacky
 npm http request GET http://192.168.1.100:4873/supertest
 npm http request GET http://192.168.1.100:4873/supertest-as-promised
-npm http request GET http://192.168.1.100:4873/tape-catch
-npm http request GET http://192.168.1.100:4873/tape
 npm http request GET http://192.168.1.100:4873/tmp
+npm http request GET http://192.168.1.100:4873/tape
+npm http request GET http://192.168.1.100:4873/tape-catch
 npm http request GET http://192.168.1.100:4873/uuid-validate
-npm http 304 http://192.168.1.100:4873/child-process-promise
 npm http 304 http://192.168.1.100:4873/balanced-match
+npm http 304 http://192.168.1.100:4873/bluebird
+npm http 304 http://192.168.1.100:4873/child-process-promise
 npm http 304 http://192.168.1.100:4873/concat-map
 npm http 304 http://192.168.1.100:4873/body-parser
-npm http 304 http://192.168.1.100:4873/bluebird
 npm http 304 http://192.168.1.100:4873/inherits
 npm http 304 http://192.168.1.100:4873/is-property
-npm http 304 http://192.168.1.100:4873/long
 npm http 304 http://192.168.1.100:4873/express
-npm http 304 http://192.168.1.100:4873/minimist
+npm http 304 http://192.168.1.100:4873/long
 npm http 304 http://192.168.1.100:4873/multiplex
+npm http 304 http://192.168.1.100:4873/bn.js
+npm http 304 http://192.168.1.100:4873/minimist
 npm http 304 http://192.168.1.100:4873/node-uuid
 npm http 304 http://192.168.1.100:4873/object-assign
-npm http 304 http://192.168.1.100:4873/bn.js
 npm http 304 http://192.168.1.100:4873/randomstring
 npm http 304 http://192.168.1.100:4873/request
 npm http 304 http://192.168.1.100:4873/express-pouchdb
 npm http 304 http://192.168.1.100:4873/js-extend
 npm http 304 http://192.168.1.100:4873/leveldown-mobile
+npm http 304 http://192.168.1.100:4873/proxyquire
+npm http 200 http://192.168.1.100:4873/nock
+npm http 200 http://192.168.1.100:4873/request-promise
 npm http 304 http://192.168.1.100:4873/pouchdb
 npm http 304 http://192.168.1.100:4873/pouchdb-size
-npm http 304 http://192.168.1.100:4873/proxyquire
 npm http 304 http://192.168.1.100:4873/socket.io-client
 npm http 304 http://192.168.1.100:4873/urlsafe-base64
-npm http 200 http://192.168.1.100:4873/request-promise
 npm http 304 http://192.168.1.100:4873/uuid
-npm http 200 http://192.168.1.100:4873/nock
 npm http 304 http://192.168.1.100:4873/stacky
-npm http 304 http://192.168.1.100:4873/supertest-as-promised
 npm http 200 http://192.168.1.100:4873/supertest
-npm http 304 http://192.168.1.100:4873/tape-catch
-npm http 304 http://192.168.1.100:4873/tmp
+npm http 304 http://192.168.1.100:4873/supertest-as-promised
 npm http 200 http://192.168.1.100:4873/sinon
+npm http 200 http://192.168.1.100:4873/tmp
 npm http 304 http://192.168.1.100:4873/uuid-validate
 npm http 200 http://192.168.1.100:4873/tape
+npm http 304 http://192.168.1.100:4873/tape-catch
 npm http request GET http://192.168.1.100:4873/bytes
 npm http request GET http://192.168.1.100:4873/content-type
-npm http request GET http://192.168.1.100:4873/depd
 npm http request GET http://192.168.1.100:4873/debug
+npm http request GET http://192.168.1.100:4873/depd
 npm http request GET http://192.168.1.100:4873/http-errors
 npm http request GET http://192.168.1.100:4873/iconv-lite
 npm http request GET http://192.168.1.100:4873/on-finished
@@ -4786,15 +4807,15 @@ npm http request GET http://192.168.1.100:4873/qs
 npm http request GET http://192.168.1.100:4873/raw-body
 npm http request GET http://192.168.1.100:4873/type-is
 npm http 304 http://192.168.1.100:4873/bytes
-npm http 304 http://192.168.1.100:4873/content-type
-npm http 304 http://192.168.1.100:4873/depd
 npm http 304 http://192.168.1.100:4873/debug
 npm http 304 http://192.168.1.100:4873/http-errors
-npm http 304 http://192.168.1.100:4873/iconv-lite
+npm http 304 http://192.168.1.100:4873/content-type
+npm http 304 http://192.168.1.100:4873/depd
+npm http 304 http://192.168.1.100:4873/qs
 npm http 304 http://192.168.1.100:4873/on-finished
+npm http 304 http://192.168.1.100:4873/iconv-lite
 npm http 304 http://192.168.1.100:4873/raw-body
 npm http 304 http://192.168.1.100:4873/type-is
-npm http 304 http://192.168.1.100:4873/qs
 npm http request GET http://192.168.1.100:4873/ms
 npm http 304 http://192.168.1.100:4873/ms
 npm http request GET http://192.168.1.100:4873/statuses
@@ -4830,29 +4851,29 @@ npm http request GET http://192.168.1.100:4873/utils-merge
 npm http request GET http://192.168.1.100:4873/vary
 npm http 304 http://192.168.1.100:4873/accepts
 npm http 304 http://192.168.1.100:4873/array-flatten
-npm http 304 http://192.168.1.100:4873/content-disposition
 npm http 304 http://192.168.1.100:4873/cookie
 npm http 304 http://192.168.1.100:4873/cookie-signature
-npm http 304 http://192.168.1.100:4873/etag
+npm http 304 http://192.168.1.100:4873/content-disposition
 npm http 304 http://192.168.1.100:4873/escape-html
-npm http 304 http://192.168.1.100:4873/finalhandler
+npm http 304 http://192.168.1.100:4873/etag
 npm http 304 http://192.168.1.100:4873/fresh
+npm http 304 http://192.168.1.100:4873/finalhandler
 npm http 304 http://192.168.1.100:4873/merge-descriptors
 npm http 304 http://192.168.1.100:4873/methods
 npm http 304 http://192.168.1.100:4873/parseurl
-npm http 304 http://192.168.1.100:4873/path-to-regexp
 npm http 304 http://192.168.1.100:4873/proxy-addr
 npm http 304 http://192.168.1.100:4873/range-parser
 npm http 304 http://192.168.1.100:4873/send
-npm http 304 http://192.168.1.100:4873/vary
-npm http 304 http://192.168.1.100:4873/utils-merge
 npm http 304 http://192.168.1.100:4873/serve-static
+npm http 304 http://192.168.1.100:4873/utils-merge
+npm http 304 http://192.168.1.100:4873/vary
+npm http 304 http://192.168.1.100:4873/path-to-regexp
 npm http request GET http://192.168.1.100:4873/negotiator
 npm http 304 http://192.168.1.100:4873/negotiator
 npm http request GET http://192.168.1.100:4873/forwarded
 npm http request GET http://192.168.1.100:4873/ipaddr.js
-npm http 304 http://192.168.1.100:4873/ipaddr.js
 npm http 304 http://192.168.1.100:4873/forwarded
+npm http 304 http://192.168.1.100:4873/ipaddr.js
 npm http request GET http://192.168.1.100:4873/destroy
 npm http request GET http://192.168.1.100:4873/mime
 npm http 304 http://192.168.1.100:4873/mime
@@ -4876,31 +4897,31 @@ npm http request GET http://192.168.1.100:4873/pouchdb-validation
 npm http request GET http://192.168.1.100:4873/pouchdb-vhost
 npm http request GET http://192.168.1.100:4873/pouchdb-wrappers
 npm http 304 http://192.168.1.100:4873/extend
-npm http 200 http://192.168.1.100:4873/compression
 npm http 304 http://192.168.1.100:4873/basic-auth
-npm http 304 http://192.168.1.100:4873/header-case-normalizer
 npm http 200 http://192.168.1.100:4873/cookie-parser
+npm http 200 http://192.168.1.100:4873/compression
 npm http 304 http://192.168.1.100:4873/multiparty
+npm http 304 http://192.168.1.100:4873/pouchdb-auth
+npm http 304 http://192.168.1.100:4873/pouchdb-all-dbs
+npm http 304 http://192.168.1.100:4873/pouchdb-find
+npm http 200 http://192.168.1.100:4873/pouchdb-list
 npm http 304 http://192.168.1.100:4873/pouchdb-replicator
 npm http 304 http://192.168.1.100:4873/pouchdb-rewrite
 npm http 304 http://192.168.1.100:4873/pouchdb-security
 npm http 200 http://192.168.1.100:4873/pouchdb-show
 npm http 304 http://192.168.1.100:4873/pouchdb-update
-npm http 304 http://192.168.1.100:4873/pouchdb-all-dbs
-npm http 200 http://192.168.1.100:4873/pouchdb-list
-npm http 304 http://192.168.1.100:4873/pouchdb-vhost
-npm http 200 http://192.168.1.100:4873/pouchdb-wrappers
 npm http 304 http://192.168.1.100:4873/pouchdb-validation
-npm http 304 http://192.168.1.100:4873/pouchdb-auth
-npm http 304 http://192.168.1.100:4873/pouchdb-find
+npm http 304 http://192.168.1.100:4873/pouchdb-vhost
+npm http 304 http://192.168.1.100:4873/header-case-normalizer
+npm http 200 http://192.168.1.100:4873/pouchdb-wrappers
 npm http request GET http://192.168.1.100:4873/setprototypeof
 npm http 304 http://192.168.1.100:4873/setprototypeof
-npm http request GET http://192.168.1.100:4873/on-headers
 npm http request GET http://192.168.1.100:4873/compressible
-npm http 304 http://192.168.1.100:4873/on-headers
+npm http request GET http://192.168.1.100:4873/on-headers
 npm http 200 http://192.168.1.100:4873/compressible
 npm http fetch GET http://192.168.1.100:4873/compressible/-/compressible-2.0.11.tgz
 npm http fetch 200 http://192.168.1.100:4873/compressible/-/compressible-2.0.11.tgz
+npm http 304 http://192.168.1.100:4873/on-headers
 npm http request GET http://192.168.1.100:4873/readable-stream
 npm http request GET http://192.168.1.100:4873/stream-counter
 npm http 304 http://192.168.1.100:4873/readable-stream
@@ -4909,20 +4930,21 @@ npm http request GET http://192.168.1.100:4873/argsarray
 npm http request GET http://192.168.1.100:4873/es3ify
 npm http request GET http://192.168.1.100:4873/pouchdb-promise
 npm http request GET http://192.168.1.100:4873/tiny-queue
-npm http 304 http://192.168.1.100:4873/argsarray
 npm http 304 http://192.168.1.100:4873/es3ify
+npm http 304 http://192.168.1.100:4873/argsarray
 npm http 304 http://192.168.1.100:4873/pouchdb-promise
 npm http 304 http://192.168.1.100:4873/tiny-queue
 npm http request GET http://192.168.1.100:4873/esprima-fb
 npm http request GET http://192.168.1.100:4873/jstransform
-npm http 304 http://192.168.1.100:4873/jstransform
 npm http 304 http://192.168.1.100:4873/esprima-fb
+npm http 304 http://192.168.1.100:4873/jstransform
 npm http request GET http://192.168.1.100:4873/base62
 npm http request GET http://192.168.1.100:4873/source-map
 npm http 304 http://192.168.1.100:4873/base62
 npm http 304 http://192.168.1.100:4873/source-map
 npm http request GET http://192.168.1.100:4873/base64url
 npm http request GET http://192.168.1.100:4873/couchdb-calculate-session-id
+npm http request GET http://192.168.1.100:4873/pouchdb
 npm http request GET http://192.168.1.100:4873/crypto-lite
 npm http request GET http://192.168.1.100:4873/pouchdb-bulkdocs-wrapper
 npm http request GET http://192.168.1.100:4873/pouchdb-plugin-error
@@ -4930,15 +4952,16 @@ npm http request GET http://192.168.1.100:4873/pouchdb-req-http-query
 npm http request GET http://192.168.1.100:4873/pouchdb-system-db
 npm http request GET http://192.168.1.100:4873/promise-nodify
 npm http request GET http://192.168.1.100:4873/secure-random
+npm http 304 http://192.168.1.100:4873/pouchdb
 npm http 304 http://192.168.1.100:4873/base64url
+npm http 304 http://192.168.1.100:4873/couchdb-calculate-session-id
+npm http 304 http://192.168.1.100:4873/pouchdb-bulkdocs-wrapper
+npm http 304 http://192.168.1.100:4873/crypto-lite
 npm http 304 http://192.168.1.100:4873/pouchdb-plugin-error
+npm http 304 http://192.168.1.100:4873/pouchdb-req-http-query
 npm http 304 http://192.168.1.100:4873/pouchdb-system-db
 npm http 304 http://192.168.1.100:4873/promise-nodify
 npm http 304 http://192.168.1.100:4873/secure-random
-npm http 304 http://192.168.1.100:4873/pouchdb-req-http-query
-npm http 304 http://192.168.1.100:4873/couchdb-calculate-session-id
-npm http 304 http://192.168.1.100:4873/crypto-lite
-npm http 304 http://192.168.1.100:4873/pouchdb-bulkdocs-wrapper
 npm http request GET http://192.168.1.100:4873/concat-stream
 npm http request GET http://192.168.1.100:4873/meow
 npm http 304 http://192.168.1.100:4873/concat-stream
@@ -4953,8 +4976,8 @@ npm http 304 http://192.168.1.100:4873/camelcase-keys
 npm http 304 http://192.168.1.100:4873/indent-string
 npm http request GET http://192.168.1.100:4873/camelcase
 npm http request GET http://192.168.1.100:4873/map-obj
-npm http 304 http://192.168.1.100:4873/map-obj
 npm http 304 http://192.168.1.100:4873/camelcase
+npm http 304 http://192.168.1.100:4873/map-obj
 npm http request GET http://192.168.1.100:4873/get-stdin
 npm http request GET http://192.168.1.100:4873/repeating
 npm http 304 http://192.168.1.100:4873/get-stdin
@@ -4973,33 +4996,33 @@ npm http request GET http://192.168.1.100:4873/sublevel-pouchdb
 npm http request GET http://192.168.1.100:4873/through2
 npm http request GET http://192.168.1.100:4873/vuvuzela
 npm http request GET http://192.168.1.100:4873/js-extend
-npm http request GET http://192.168.1.100:4873/fruitdown
 npm http request GET http://192.168.1.100:4873/request
 npm http request GET http://192.168.1.100:4873/es6-promise-pool
+npm http request GET http://192.168.1.100:4873/fruitdown
 npm http request GET http://192.168.1.100:4873/level-write-stream
-npm http request GET http://192.168.1.100:4873/memdown
 npm http request GET http://192.168.1.100:4873/localstorage-down
+npm http request GET http://192.168.1.100:4873/memdown
 npm http request GET http://192.168.1.100:4873/pouchdb-collate
 npm http request GET http://192.168.1.100:4873/scope-eval
 npm http 304 http://192.168.1.100:4873/double-ended-queue
+npm http 304 http://192.168.1.100:4873/pouchdb-collections
 npm http 304 http://192.168.1.100:4873/levelup
 npm http 304 http://192.168.1.100:4873/spark-md5
-npm http 304 http://192.168.1.100:4873/pouchdb-collections
 npm http 304 http://192.168.1.100:4873/sublevel-pouchdb
 npm http 304 http://192.168.1.100:4873/through2
 npm http 304 http://192.168.1.100:4873/js-extend
 npm http 304 http://192.168.1.100:4873/vuvuzela
 npm http 304 http://192.168.1.100:4873/request
-npm http 304 http://192.168.1.100:4873/fruitdown
 npm http 304 http://192.168.1.100:4873/es6-promise-pool
-npm http 304 http://192.168.1.100:4873/memdown
-npm http 304 http://192.168.1.100:4873/localstorage-down
+npm http 304 http://192.168.1.100:4873/fruitdown
 npm http 304 http://192.168.1.100:4873/level-write-stream
+npm http 304 http://192.168.1.100:4873/localstorage-down
+npm http 304 http://192.168.1.100:4873/memdown
 npm http 304 http://192.168.1.100:4873/pouchdb-collate
 npm http 304 http://192.168.1.100:4873/scope-eval
 npm http request GET http://192.168.1.100:4873/abstract-leveldown
 npm http request GET http://192.168.1.100:4873/d64
-npm http 200 http://192.168.1.100:4873/abstract-leveldown
+npm http 304 http://192.168.1.100:4873/abstract-leveldown
 npm http 304 http://192.168.1.100:4873/d64
 npm http request GET http://192.168.1.100:4873/xtend
 npm http 304 http://192.168.1.100:4873/xtend
@@ -5007,25 +5030,21 @@ npm http request GET http://192.168.1.100:4873/end-stream
 npm http 304 http://192.168.1.100:4873/end-stream
 npm http request GET http://192.168.1.100:4873/write-stream
 npm http 304 http://192.168.1.100:4873/write-stream
-npm http request GET http://192.168.1.100:4873/readable-stream
-npm http 304 http://192.168.1.100:4873/readable-stream
 npm http request GET http://192.168.1.100:4873/deferred-leveldown
 npm http request GET http://192.168.1.100:4873/level-codec
 npm http request GET http://192.168.1.100:4873/level-errors
 npm http request GET http://192.168.1.100:4873/level-iterator-stream
 npm http request GET http://192.168.1.100:4873/prr
 npm http request GET http://192.168.1.100:4873/semver
-npm http 304 http://192.168.1.100:4873/level-errors
+npm http 304 http://192.168.1.100:4873/deferred-leveldown
 npm http 304 http://192.168.1.100:4873/level-codec
+npm http 304 http://192.168.1.100:4873/level-errors
 npm http 304 http://192.168.1.100:4873/level-iterator-stream
 npm http 304 http://192.168.1.100:4873/prr
-npm http 200 http://192.168.1.100:4873/deferred-leveldown
 npm http 304 http://192.168.1.100:4873/semver
 npm http request GET http://192.168.1.100:4873/errno
 npm http 304 http://192.168.1.100:4873/errno
-npm http request GET http://192.168.1.100:4873/tiny-queue
 npm http request GET http://192.168.1.100:4873/humble-localstorage
-npm http 304 http://192.168.1.100:4873/tiny-queue
 npm http 304 http://192.168.1.100:4873/humble-localstorage
 npm http request GET http://192.168.1.100:4873/localstorage-memory
 npm http request GET http://192.168.1.100:4873/has-localstorage
@@ -5049,35 +5068,35 @@ npm http request GET http://192.168.1.100:4873/isstream
 npm http request GET http://192.168.1.100:4873/json-stringify-safe
 npm http request GET http://192.168.1.100:4873/oauth-sign
 npm http request GET http://192.168.1.100:4873/stringstream
-npm http request GET http://192.168.1.100:4873/tunnel-agent
 npm http request GET http://192.168.1.100:4873/tough-cookie
+npm http request GET http://192.168.1.100:4873/tunnel-agent
 npm http request GET http://192.168.1.100:4873/extend
 npm http request GET http://192.168.1.100:4873/qs
-npm http 304 http://192.168.1.100:4873/aws-sign2
+npm http 304 http://192.168.1.100:4873/combined-stream
 npm http 304 http://192.168.1.100:4873/aws4
 npm http 304 http://192.168.1.100:4873/bl
-npm http 304 http://192.168.1.100:4873/combined-stream
 npm http 304 http://192.168.1.100:4873/caseless
+npm http 304 http://192.168.1.100:4873/aws-sign2
 npm http 304 http://192.168.1.100:4873/form-data
+npm http 304 http://192.168.1.100:4873/is-typedarray
+npm http 304 http://192.168.1.100:4873/har-validator
 npm http 304 http://192.168.1.100:4873/hawk
 npm http 304 http://192.168.1.100:4873/http-signature
-npm http 304 http://192.168.1.100:4873/har-validator
-npm http 304 http://192.168.1.100:4873/is-typedarray
 npm http 304 http://192.168.1.100:4873/isstream
 npm http 304 http://192.168.1.100:4873/json-stringify-safe
 npm http 304 http://192.168.1.100:4873/oauth-sign
 npm http 304 http://192.168.1.100:4873/stringstream
-npm http 304 http://192.168.1.100:4873/tunnel-agent
 npm http 304 http://192.168.1.100:4873/tough-cookie
 npm WARN deprecated tough-cookie@2.2.2: ReDoS vulnerability parsing Set-Cookie https://nodesecurity.io/advisories/130
+npm http 304 http://192.168.1.100:4873/tunnel-agent
 npm http 304 http://192.168.1.100:4873/extend
 npm http 304 http://192.168.1.100:4873/qs
 npm http request GET http://192.168.1.100:4873/isarray
 npm http request GET http://192.168.1.100:4873/process-nextick-args
 npm http request GET http://192.168.1.100:4873/util-deprecate
 npm http 304 http://192.168.1.100:4873/isarray
-npm http 304 http://192.168.1.100:4873/process-nextick-args
 npm http 304 http://192.168.1.100:4873/util-deprecate
+npm http 304 http://192.168.1.100:4873/process-nextick-args
 npm http request GET http://192.168.1.100:4873/delayed-stream
 npm http 304 http://192.168.1.100:4873/delayed-stream
 npm http request GET http://192.168.1.100:4873/async
@@ -5087,17 +5106,17 @@ npm http 304 http://192.168.1.100:4873/lodash
 npm http request GET http://192.168.1.100:4873/chalk
 npm http request GET http://192.168.1.100:4873/is-my-json-valid
 npm http request GET http://192.168.1.100:4873/pinkie-promise
-npm http 304 http://192.168.1.100:4873/pinkie-promise
 npm http 304 http://192.168.1.100:4873/is-my-json-valid
+npm http 304 http://192.168.1.100:4873/pinkie-promise
 npm http 304 http://192.168.1.100:4873/chalk
 npm http request GET http://192.168.1.100:4873/ansi-styles
 npm http request GET http://192.168.1.100:4873/escape-string-regexp
 npm http request GET http://192.168.1.100:4873/has-ansi
 npm http request GET http://192.168.1.100:4873/strip-ansi
 npm http request GET http://192.168.1.100:4873/supports-color
+npm http 304 http://192.168.1.100:4873/has-ansi
 npm http 304 http://192.168.1.100:4873/ansi-styles
 npm http 304 http://192.168.1.100:4873/escape-string-regexp
-npm http 304 http://192.168.1.100:4873/has-ansi
 npm http 304 http://192.168.1.100:4873/strip-ansi
 npm http 304 http://192.168.1.100:4873/supports-color
 npm http request GET http://192.168.1.100:4873/ansi-regex
@@ -5105,38 +5124,40 @@ npm http 304 http://192.168.1.100:4873/ansi-regex
 npm http request GET http://192.168.1.100:4873/generate-function
 npm http request GET http://192.168.1.100:4873/generate-object-property
 npm http request GET http://192.168.1.100:4873/jsonpointer
-npm http 304 http://192.168.1.100:4873/jsonpointer
 npm http 304 http://192.168.1.100:4873/generate-function
 npm http 304 http://192.168.1.100:4873/generate-object-property
+npm http 304 http://192.168.1.100:4873/jsonpointer
 npm http request GET http://192.168.1.100:4873/pinkie
 npm http 304 http://192.168.1.100:4873/pinkie
 npm http request GET http://192.168.1.100:4873/hoek
 npm http request GET http://192.168.1.100:4873/boom
 npm http request GET http://192.168.1.100:4873/cryptiles
 npm http request GET http://192.168.1.100:4873/sntp
+npm http 304 http://192.168.1.100:4873/cryptiles
 npm http 304 http://192.168.1.100:4873/hoek
 npm http 304 http://192.168.1.100:4873/boom
 npm http 304 http://192.168.1.100:4873/sntp
-npm http 304 http://192.168.1.100:4873/cryptiles
 npm http request GET http://192.168.1.100:4873/assert-plus
 npm http request GET http://192.168.1.100:4873/jsprim
 npm http request GET http://192.168.1.100:4873/sshpk
-npm http 304 http://192.168.1.100:4873/assert-plus
-npm http 304 http://192.168.1.100:4873/sshpk
 npm http 304 http://192.168.1.100:4873/jsprim
+npm http 304 http://192.168.1.100:4873/sshpk
+npm http 304 http://192.168.1.100:4873/assert-plus
 npm http request GET http://192.168.1.100:4873/extsprintf
 npm http request GET http://192.168.1.100:4873/json-schema
 npm http request GET http://192.168.1.100:4873/verror
-npm http 304 http://192.168.1.100:4873/extsprintf
 npm http 304 http://192.168.1.100:4873/verror
+npm http 304 http://192.168.1.100:4873/extsprintf
 npm http 304 http://192.168.1.100:4873/json-schema
 npm http request GET http://192.168.1.100:4873/asn1
 npm http request GET http://192.168.1.100:4873/dashdash
 npm http request GET http://192.168.1.100:4873/getpass
-npm http 304 http://192.168.1.100:4873/getpass
-npm http 304 http://192.168.1.100:4873/dashdash
 npm http 304 http://192.168.1.100:4873/asn1
+npm http 304 http://192.168.1.100:4873/dashdash
+npm http 304 http://192.168.1.100:4873/getpass
+npm http request GET http://192.168.1.100:4873/readable-stream
 npm http request GET http://192.168.1.100:4873/pull-stream
+npm http 304 http://192.168.1.100:4873/readable-stream
 npm http 304 http://192.168.1.100:4873/pull-stream
 npm http request GET http://192.168.1.100:4873/pull-core
 npm http 304 http://192.168.1.100:4873/pull-core
@@ -5144,30 +5165,30 @@ npm http request GET http://192.168.1.100:4873/pouchdb-promise
 npm http 304 http://192.168.1.100:4873/pouchdb-promise
 npm http request GET http://192.168.1.100:4873/lie
 npm http request GET http://192.168.1.100:4873/bluebird
-npm http 304 http://192.168.1.100:4873/lie
 npm http 304 http://192.168.1.100:4873/bluebird
+npm http 304 http://192.168.1.100:4873/lie
 npm http request GET http://192.168.1.100:4873/xmlhttprequest-cookie
 npm http 304 http://192.168.1.100:4873/xmlhttprequest-cookie
 npm http request GET http://192.168.1.100:4873/xmlhttprequest
 npm http 304 http://192.168.1.100:4873/xmlhttprequest
 npm http request GET http://192.168.1.100:4873/pouchdb-changeslike-wrapper
 npm http 304 http://192.168.1.100:4873/pouchdb-changeslike-wrapper
-npm http request GET http://192.168.1.100:4873/couchdb-objects
 npm http request GET http://192.168.1.100:4873/couchdb-eval
+npm http request GET http://192.168.1.100:4873/couchdb-objects
 npm http request GET http://192.168.1.100:4873/random-uuid-v4
 npm http 304 http://192.168.1.100:4873/random-uuid-v4
-npm http 304 http://192.168.1.100:4873/couchdb-eval
 npm http 304 http://192.168.1.100:4873/couchdb-objects
+npm http 304 http://192.168.1.100:4873/couchdb-eval
 npm http request GET http://192.168.1.100:4873/is-empty
 npm http 304 http://192.168.1.100:4873/is-empty
-npm http request GET http://192.168.1.100:4873/pouchdb-extend
-npm http request GET http://192.168.1.100:4873/is-array
 npm http request GET http://192.168.1.100:4873/spark-md5
+npm http request GET http://192.168.1.100:4873/is-array
+npm http request GET http://192.168.1.100:4873/pouchdb-extend
 npm http request GET http://192.168.1.100:4873/pouchdb-upsert
 npm http 304 http://192.168.1.100:4873/spark-md5
-npm http 304 http://192.168.1.100:4873/is-array
 npm http 304 http://192.168.1.100:4873/pouchdb-extend
 npm http 304 http://192.168.1.100:4873/pouchdb-upsert
+npm http 304 http://192.168.1.100:4873/is-array
 npm http request GET http://192.168.1.100:4873/unreachable-branch-transform
 npm http 304 http://192.168.1.100:4873/unreachable-branch-transform
 npm http request GET http://192.168.1.100:4873/recast
@@ -5175,13 +5196,21 @@ npm http 304 http://192.168.1.100:4873/recast
 npm http request GET http://192.168.1.100:4873/ast-types
 npm http request GET http://192.168.1.100:4873/esprima-fb
 npm http request GET http://192.168.1.100:4873/source-map
-npm http 304 http://192.168.1.100:4873/esprima-fb
 npm http 304 http://192.168.1.100:4873/source-map
+npm http 304 http://192.168.1.100:4873/esprima-fb
 npm http 304 http://192.168.1.100:4873/ast-types
+npm http request GET http://192.168.1.100:4873/lie
+npm http 304 http://192.168.1.100:4873/lie
+npm http request GET http://192.168.1.100:4873/pouchdb-promise
+npm http request GET http://192.168.1.100:4873/extend
 npm http request GET http://192.168.1.100:4873/couchdb-render
+npm http 304 http://192.168.1.100:4873/pouchdb-promise
+npm http 304 http://192.168.1.100:4873/extend
 npm http 304 http://192.168.1.100:4873/couchdb-render
 npm http request GET http://192.168.1.100:4873/couchdb-resp-completer
 npm http 304 http://192.168.1.100:4873/couchdb-resp-completer
+npm http request GET http://192.168.1.100:4873/bluebird
+npm http 304 http://192.168.1.100:4873/bluebird
 npm http request GET http://192.168.1.100:4873/equals
 npm http 304 http://192.168.1.100:4873/equals
 npm http request GET http://192.168.1.100:4873/jkroso-type
@@ -5192,49 +5221,47 @@ npm http request GET http://192.168.1.100:4873/get-folder-size
 npm http 304 http://192.168.1.100:4873/get-folder-size
 npm http request GET http://192.168.1.100:4873/async
 npm http request GET http://192.168.1.100:4873/minimist
-npm http 304 http://192.168.1.100:4873/async
 npm http 304 http://192.168.1.100:4873/minimist
+npm http 304 http://192.168.1.100:4873/async
 npm http request GET http://192.168.1.100:4873/abstract-leveldown
-npm http request GET http://192.168.1.100:4873/bindings
 npm http request GET http://192.168.1.100:4873/fast-future
-npm http 304 http://192.168.1.100:4873/abstract-leveldown
+npm http request GET http://192.168.1.100:4873/bindings
 npm http 304 http://192.168.1.100:4873/bindings
+npm http 304 http://192.168.1.100:4873/abstract-leveldown
 npm http 304 http://192.168.1.100:4873/fast-future
 npm http request GET http://192.168.1.100:4873/duplexify
 npm http request GET http://192.168.1.100:4873/varint
 npm http request GET http://192.168.1.100:4873/readable-stream
+npm http 200 http://192.168.1.100:4873/duplexify
 npm http 304 http://192.168.1.100:4873/varint
 npm http 304 http://192.168.1.100:4873/readable-stream
-npm http 304 http://192.168.1.100:4873/duplexify
 npm http request GET http://192.168.1.100:4873/end-of-stream
 npm http request GET http://192.168.1.100:4873/stream-shift
 npm http 304 http://192.168.1.100:4873/end-of-stream
 npm http 304 http://192.168.1.100:4873/stream-shift
-npm http request GET http://192.168.1.100:4873/once
-npm http 304 http://192.168.1.100:4873/once
 npm http request GET http://192.168.1.100:4873/safe-buffer
 npm http request GET http://192.168.1.100:4873/string_decoder
 npm http request GET http://192.168.1.100:4873/inherits
-npm http 304 http://192.168.1.100:4873/string_decoder
 npm http 304 http://192.168.1.100:4873/safe-buffer
 npm http 304 http://192.168.1.100:4873/inherits
+npm http 304 http://192.168.1.100:4873/string_decoder
 npm http request GET http://192.168.1.100:4873/debug
 npm http request GET http://192.168.1.100:4873/lodash
 npm http request GET http://192.168.1.100:4873/propagate
 npm http request GET http://192.168.1.100:4873/deep-equal
 npm http request GET http://192.168.1.100:4873/chai
-npm http 304 http://192.168.1.100:4873/debug
 npm http 304 http://192.168.1.100:4873/lodash
+npm WARN deprecated lodash@2.4.1: lodash@<3.0.0 is no longer maintained. Upgrade to lodash@^4.0.0.
 npm http 304 http://192.168.1.100:4873/chai
 npm http 304 http://192.168.1.100:4873/deep-equal
+npm http 304 http://192.168.1.100:4873/debug
 npm http 304 http://192.168.1.100:4873/propagate
-npm WARN deprecated lodash@2.4.1: lodash@<3.0.0 is no longer maintained. Upgrade to lodash@^4.0.0.
-npm http request GET http://192.168.1.100:4873/deep-eql
 npm http request GET http://192.168.1.100:4873/assertion-error
+npm http request GET http://192.168.1.100:4873/deep-eql
 npm http request GET http://192.168.1.100:4873/type-detect
-npm http 304 http://192.168.1.100:4873/type-detect
 npm http 304 http://192.168.1.100:4873/deep-eql
 npm http 304 http://192.168.1.100:4873/assertion-error
+npm http 304 http://192.168.1.100:4873/type-detect
 npm http request GET http://192.168.1.100:4873/ms
 npm http 304 http://192.168.1.100:4873/ms
 npm http request GET http://192.168.1.100:4873/ip
@@ -5247,11 +5274,11 @@ npm http request GET http://192.168.1.100:4873/levelup
 npm http request GET http://192.168.1.100:4873/ltgt
 npm http request GET http://192.168.1.100:4873/request
 npm http request GET http://192.168.1.100:4873/leveldown
-npm http 304 http://192.168.1.100:4873/buffer-from
-npm http 304 http://192.168.1.100:4873/clone-buffer
 npm http 304 http://192.168.1.100:4873/double-ended-queue
+npm http 304 http://192.168.1.100:4873/clone-buffer
 npm http 304 http://192.168.1.100:4873/level-codec
 npm http 304 http://192.168.1.100:4873/levelup
+npm http 304 http://192.168.1.100:4873/buffer-from
 npm http 304 http://192.168.1.100:4873/ltgt
 npm http 304 http://192.168.1.100:4873/request
 npm http 304 http://192.168.1.100:4873/leveldown
@@ -5261,8 +5288,8 @@ npm http request GET http://192.168.1.100:4873/is-object-like-x
 npm http request GET http://192.168.1.100:4873/to-string-tag-x
 npm http request GET http://192.168.1.100:4873/has-to-string-tag-x
 npm http 304 http://192.168.1.100:4873/has-to-string-tag-x
-npm http 304 http://192.168.1.100:4873/to-string-tag-x
 npm http 304 http://192.168.1.100:4873/is-object-like-x
+npm http 304 http://192.168.1.100:4873/to-string-tag-x
 npm http request GET http://192.168.1.100:4873/has-symbol-support-x
 npm http 304 http://192.168.1.100:4873/has-symbol-support-x
 npm http request GET http://192.168.1.100:4873/is-function-x
@@ -5293,11 +5320,11 @@ npm http request GET http://192.168.1.100:4873/tar-fs
 npm http request GET http://192.168.1.100:4873/tar-stream
 npm http 304 http://192.168.1.100:4873/os-homedir
 npm http 304 http://192.168.1.100:4873/execspawn
+npm http 304 http://192.168.1.100:4873/ghreleases
 npm http 304 http://192.168.1.100:4873/expand-template
 npm http 304 http://192.168.1.100:4873/github-from-package
-npm http 304 http://192.168.1.100:4873/ghreleases
-npm http 304 http://192.168.1.100:4873/node-gyp
 npm http 304 http://192.168.1.100:4873/npmlog
+npm http 200 http://192.168.1.100:4873/node-gyp
 npm http 304 http://192.168.1.100:4873/node-ninja
 npm http 304 http://192.168.1.100:4873/noop-logger
 npm http 200 http://192.168.1.100:4873/pump
@@ -5313,10 +5340,10 @@ npm http request GET http://192.168.1.100:4873/ghutils
 npm http request GET http://192.168.1.100:4873/simple-mime
 npm http request GET http://192.168.1.100:4873/url-template
 npm http 304 http://192.168.1.100:4873/after
-npm http 304 http://192.168.1.100:4873/ghrepos
-npm http 304 http://192.168.1.100:4873/ghutils
 npm http 304 http://192.168.1.100:4873/simple-mime
+npm http 304 http://192.168.1.100:4873/ghutils
 npm http 304 http://192.168.1.100:4873/url-template
+npm http 304 http://192.168.1.100:4873/ghrepos
 npm http request GET http://192.168.1.100:4873/jsonist
 npm http 304 http://192.168.1.100:4873/jsonist
 npm http request GET http://192.168.1.100:4873/bl
@@ -5329,24 +5356,24 @@ npm http request GET http://192.168.1.100:4873/fstream
 npm http request GET http://192.168.1.100:4873/semver
 npm http request GET http://192.168.1.100:4873/nopt
 npm http request GET http://192.168.1.100:4873/osenv
-npm http request GET http://192.168.1.100:4873/tar
 npm http request GET http://192.168.1.100:4873/which
+npm http request GET http://192.168.1.100:4873/tar
+npm http 304 http://192.168.1.100:4873/semver
 npm http 304 http://192.168.1.100:4873/fstream
-npm http 304 http://192.168.1.100:4873/osenv
-npm http 200 http://192.168.1.100:4873/tar
 npm http 304 http://192.168.1.100:4873/nopt
+npm http 304 http://192.168.1.100:4873/osenv
 npm http 200 http://192.168.1.100:4873/which
 npm http fetch GET http://192.168.1.100:4873/which/-/which-1.3.0.tgz
-npm http 304 http://192.168.1.100:4873/semver
 npm http fetch 200 http://192.168.1.100:4873/which/-/which-1.3.0.tgz
+npm http 200 http://192.168.1.100:4873/tar
 npm http request GET http://192.168.1.100:4873/abbrev
 npm http 200 http://192.168.1.100:4873/abbrev
-npm http request GET http://192.168.1.100:4873/ansi
 npm http request GET http://192.168.1.100:4873/are-we-there-yet
+npm http request GET http://192.168.1.100:4873/ansi
 npm http request GET http://192.168.1.100:4873/gauge
-npm http 304 http://192.168.1.100:4873/gauge
-npm http 304 http://192.168.1.100:4873/are-we-there-yet
 npm http 304 http://192.168.1.100:4873/ansi
+npm http 304 http://192.168.1.100:4873/are-we-there-yet
+npm http 304 http://192.168.1.100:4873/gauge
 npm http request GET http://192.168.1.100:4873/delegates
 npm http 304 http://192.168.1.100:4873/delegates
 npm http request GET http://192.168.1.100:4873/has-unicode
@@ -5354,9 +5381,9 @@ npm http request GET http://192.168.1.100:4873/lodash.pad
 npm http request GET http://192.168.1.100:4873/lodash.padend
 npm http request GET http://192.168.1.100:4873/lodash.padstart
 npm http 304 http://192.168.1.100:4873/has-unicode
-npm http 304 http://192.168.1.100:4873/lodash.padend
 npm http 304 http://192.168.1.100:4873/lodash.pad
 npm http 304 http://192.168.1.100:4873/lodash.padstart
+npm http 304 http://192.168.1.100:4873/lodash.padend
 npm http request GET http://192.168.1.100:4873/os-tmpdir
 npm http 304 http://192.168.1.100:4873/os-tmpdir
 npm http request GET http://192.168.1.100:4873/extend
@@ -5365,17 +5392,19 @@ npm http request GET http://192.168.1.100:4873/http-signature
 npm http request GET http://192.168.1.100:4873/aws-sign2
 npm http request GET http://192.168.1.100:4873/har-validator
 npm http 304 http://192.168.1.100:4873/extend
-npm http 304 http://192.168.1.100:4873/http-signature
 npm http 304 http://192.168.1.100:4873/qs
+npm http 304 http://192.168.1.100:4873/http-signature
 npm http 304 http://192.168.1.100:4873/aws-sign2
 npm http 304 http://192.168.1.100:4873/har-validator
+npm http request GET http://192.168.1.100:4873/readable-stream
+npm http 304 http://192.168.1.100:4873/readable-stream
 npm http request GET http://192.168.1.100:4873/bluebird
 npm http 304 http://192.168.1.100:4873/bluebird
 npm http request GET http://192.168.1.100:4873/ctype
 npm http request GET http://192.168.1.100:4873/assert-plus
 npm http request GET http://192.168.1.100:4873/asn1
-npm http 304 http://192.168.1.100:4873/asn1
 npm http 304 http://192.168.1.100:4873/assert-plus
+npm http 304 http://192.168.1.100:4873/asn1
 npm http 304 http://192.168.1.100:4873/ctype
 npm http request GET http://192.168.1.100:4873/block-stream
 npm http 304 http://192.168.1.100:4873/block-stream
@@ -5390,27 +5419,27 @@ npm http 304 http://192.168.1.100:4873/es6-symbol
 npm http request GET http://192.168.1.100:4873/d
 npm http request GET http://192.168.1.100:4873/es5-ext
 npm http 304 http://192.168.1.100:4873/d
-npm http 304 http://192.168.1.100:4873/es5-ext
+npm http 200 http://192.168.1.100:4873/es5-ext
 npm http request GET http://192.168.1.100:4873/es6-iterator
 npm http 304 http://192.168.1.100:4873/es6-iterator
 npm http request GET http://192.168.1.100:4873/strip-json-comments
 npm http request GET http://192.168.1.100:4873/deep-extend
 npm http request GET http://192.168.1.100:4873/ini
-npm http 304 http://192.168.1.100:4873/ini
 npm http 304 http://192.168.1.100:4873/strip-json-comments
 npm http 200 http://192.168.1.100:4873/deep-extend
+npm http 304 http://192.168.1.100:4873/ini
 npm http request GET http://192.168.1.100:4873/unzip-response
 npm http 304 http://192.168.1.100:4873/unzip-response
 npm http request GET http://192.168.1.100:4873/chownr
 npm http 304 http://192.168.1.100:4873/chownr
-npm http request GET http://192.168.1.100:4873/readable-stream
-npm http 304 http://192.168.1.100:4873/readable-stream
+npm http request GET http://192.168.1.100:4873/inherits
+npm http 304 http://192.168.1.100:4873/inherits
 npm http request GET http://192.168.1.100:4873/form-data
 npm http request GET http://192.168.1.100:4873/tough-cookie
 npm http request GET http://192.168.1.100:4873/uuid
-npm http 304 http://192.168.1.100:4873/uuid
 npm http 304 http://192.168.1.100:4873/form-data
 npm http 304 http://192.168.1.100:4873/tough-cookie
+npm http 304 http://192.168.1.100:4873/uuid
 npm http request GET http://192.168.1.100:4873/asynckit
 npm http 304 http://192.168.1.100:4873/asynckit
 npm http request GET http://192.168.1.100:4873/punycode
@@ -5431,94 +5460,104 @@ npm http request GET http://192.168.1.100:4873/util
 npm http request GET http://192.168.1.100:4873/formatio
 npm http request GET http://192.168.1.100:4873/lolex
 npm http request GET http://192.168.1.100:4873/samsam
-npm http 304 http://192.168.1.100:4873/util
-npm http 304 http://192.168.1.100:4873/formatio
 npm http 304 http://192.168.1.100:4873/samsam
+npm http 304 http://192.168.1.100:4873/formatio
+npm http 304 http://192.168.1.100:4873/util
 npm http 200 http://192.168.1.100:4873/lolex
 npm http request GET http://192.168.1.100:4873/component-bind
-npm http request GET http://192.168.1.100:4873/object-component
-npm http request GET http://192.168.1.100:4873/component-emitter
 npm http request GET http://192.168.1.100:4873/engine.io-client
+npm http request GET http://192.168.1.100:4873/component-emitter
+npm http request GET http://192.168.1.100:4873/object-component
 npm http request GET http://192.168.1.100:4873/socket.io-parser
+npm http request GET http://192.168.1.100:4873/has-binary
 npm http request GET http://192.168.1.100:4873/parseuri
 npm http request GET http://192.168.1.100:4873/indexof
-npm http request GET http://192.168.1.100:4873/has-binary
 npm http request GET http://192.168.1.100:4873/to-array
 npm http request GET http://192.168.1.100:4873/backo2
+npm http 304 http://192.168.1.100:4873/component-bind
+npm http 304 http://192.168.1.100:4873/engine.io-client
 npm http 304 http://192.168.1.100:4873/component-emitter
 npm http 304 http://192.168.1.100:4873/socket.io-parser
-npm http 304 http://192.168.1.100:4873/component-bind
 npm http 304 http://192.168.1.100:4873/object-component
-npm http 304 http://192.168.1.100:4873/engine.io-client
-npm http 304 http://192.168.1.100:4873/indexof
 npm http 304 http://192.168.1.100:4873/has-binary
 npm http 304 http://192.168.1.100:4873/parseuri
+npm http 304 http://192.168.1.100:4873/indexof
 npm http 304 http://192.168.1.100:4873/to-array
 npm http 304 http://192.168.1.100:4873/backo2
-npm http request GET http://192.168.1.100:4873/xmlhttprequest-ssl
 npm http request GET http://192.168.1.100:4873/has-cors
 npm http request GET http://192.168.1.100:4873/ws
-npm http request GET http://192.168.1.100:4873/engine.io-parser
+npm http request GET http://192.168.1.100:4873/xmlhttprequest-ssl
 npm http request GET http://192.168.1.100:4873/parsejson
+npm http request GET http://192.168.1.100:4873/engine.io-parser
 npm http request GET http://192.168.1.100:4873/parseqs
-npm http request GET http://192.168.1.100:4873/component-inherit
 npm http request GET http://192.168.1.100:4873/yeast
-npm http 304 http://192.168.1.100:4873/engine.io-parser
+npm http request GET http://192.168.1.100:4873/component-inherit
 npm http 304 http://192.168.1.100:4873/has-cors
-npm http 200 http://192.168.1.100:4873/ws
-npm http 304 http://192.168.1.100:4873/xmlhttprequest-ssl
 npm http 304 http://192.168.1.100:4873/parsejson
+npm http 304 http://192.168.1.100:4873/xmlhttprequest-ssl
+npm http 304 http://192.168.1.100:4873/engine.io-parser
+npm http 200 http://192.168.1.100:4873/ws
 npm http 304 http://192.168.1.100:4873/parseqs
 npm http 304 http://192.168.1.100:4873/component-inherit
 npm http 304 http://192.168.1.100:4873/yeast
+npm http request GET http://192.168.1.100:4873/after
 npm http request GET http://192.168.1.100:4873/arraybuffer.slice
 npm http request GET http://192.168.1.100:4873/base64-arraybuffer
 npm http request GET http://192.168.1.100:4873/blob
 npm http request GET http://192.168.1.100:4873/utf8
 npm http 304 http://192.168.1.100:4873/base64-arraybuffer
-npm http 304 http://192.168.1.100:4873/arraybuffer.slice
 npm http 304 http://192.168.1.100:4873/blob
+npm http 304 http://192.168.1.100:4873/after
+npm http 304 http://192.168.1.100:4873/arraybuffer.slice
 npm http 304 http://192.168.1.100:4873/utf8
 npm http request GET http://192.168.1.100:4873/better-assert
 npm http 304 http://192.168.1.100:4873/better-assert
 npm http request GET http://192.168.1.100:4873/callsite
 npm http 200 http://192.168.1.100:4873/callsite
-npm http request GET http://192.168.1.100:4873/options
 npm http request GET http://192.168.1.100:4873/ultron
+npm http request GET http://192.168.1.100:4873/options
 npm http 304 http://192.168.1.100:4873/ultron
 npm http 304 http://192.168.1.100:4873/options
 npm http request GET http://192.168.1.100:4873/json3
 npm http request GET http://192.168.1.100:4873/benchmark
 npm http 304 http://192.168.1.100:4873/json3
-npm http 304 http://192.168.1.100:4873/benchmark
+npm http 200 http://192.168.1.100:4873/benchmark
 npm http request GET http://192.168.1.100:4873/superagent
 npm http 200 http://192.168.1.100:4873/superagent
+npm http request GET http://192.168.1.100:4873/qs
 npm http request GET http://192.168.1.100:4873/methods
+npm http request GET http://192.168.1.100:4873/extend
+npm http request GET http://192.168.1.100:4873/readable-stream
 npm http request GET http://192.168.1.100:4873/formidable
 npm http request GET http://192.168.1.100:4873/cookiejar
 npm http request GET http://192.168.1.100:4873/reduce-component
+npm http 304 http://192.168.1.100:4873/qs
+npm http 304 http://192.168.1.100:4873/extend
+npm http 304 http://192.168.1.100:4873/readable-stream
 npm http 304 http://192.168.1.100:4873/methods
 npm http 200 http://192.168.1.100:4873/formidable
 npm http 304 http://192.168.1.100:4873/cookiejar
 npm http 304 http://192.168.1.100:4873/reduce-component
-npm http request GET http://192.168.1.100:4873/async
 npm http request GET http://192.168.1.100:4873/combined-stream
 npm http request GET http://192.168.1.100:4873/mime-types
+npm http request GET http://192.168.1.100:4873/async
 npm http 304 http://192.168.1.100:4873/combined-stream
-npm http 304 http://192.168.1.100:4873/mime-types
 npm http 304 http://192.168.1.100:4873/async
+npm http 304 http://192.168.1.100:4873/mime-types
 npm http request GET http://192.168.1.100:4873/delayed-stream
 npm http 304 http://192.168.1.100:4873/delayed-stream
 npm http request GET http://192.168.1.100:4873/mime-db
 npm http 304 http://192.168.1.100:4873/mime-db
+npm http request GET http://192.168.1.100:4873/bluebird
+npm http 304 http://192.168.1.100:4873/bluebird
 npm http request GET http://192.168.1.100:4873/defined
 npm http request GET http://192.168.1.100:4873/glob
 npm http request GET http://192.168.1.100:4873/object-inspect
 npm http request GET http://192.168.1.100:4873/resumer
 npm http 304 http://192.168.1.100:4873/defined
 npm http 304 http://192.168.1.100:4873/glob
-npm http 304 http://192.168.1.100:4873/resumer
 npm http 200 http://192.168.1.100:4873/object-inspect
+npm http 304 http://192.168.1.100:4873/resumer
 npm WARN prefer global node-ninja@1.0.2 should be installed with -g
 npm WARN prefer global node-gyp@3.6.2 should be installed with -g
 gyp JXcore NODE-GYP Using node-gyp bundled in npm coming from JXcore
@@ -6641,49 +6680,47 @@ npm http request GET http://192.168.1.100:4873/body-parser
 npm http request GET http://192.168.1.100:4873/ip
 npm http request GET http://192.168.1.100:4873/javascript-state-machine
 npm http request GET http://192.168.1.100:4873/lie
-npm http request GET http://192.168.1.100:4873/express
-npm http request GET http://192.168.1.100:4873/object-assign
 npm http request GET http://192.168.1.100:4873/long
 npm http request GET http://192.168.1.100:4873/multiplex
+npm http request GET http://192.168.1.100:4873/express
 npm http request GET http://192.168.1.100:4873/pouchdb-adapter-leveldb-core
+npm http request GET http://192.168.1.100:4873/request
 npm http request GET http://192.168.1.100:4873/urlsafe-base64
 npm http request GET http://192.168.1.100:4873/uuid
-npm http request GET http://192.168.1.100:4873/request
 npm http request GET http://192.168.1.100:4873/winston
 npm http 304 http://192.168.1.100:4873/bluebird
-npm http 304 http://192.168.1.100:4873/lie
-npm http 304 http://192.168.1.100:4873/javascript-state-machine
 npm http 304 http://192.168.1.100:4873/ip
+npm http 304 http://192.168.1.100:4873/lie
 npm http 304 http://192.168.1.100:4873/body-parser
-npm http 304 http://192.168.1.100:4873/express
-npm http 304 http://192.168.1.100:4873/object-assign
+npm http 304 http://192.168.1.100:4873/javascript-state-machine
 npm http 304 http://192.168.1.100:4873/long
+npm http 304 http://192.168.1.100:4873/request
 npm http 304 http://192.168.1.100:4873/multiplex
 npm http 304 http://192.168.1.100:4873/pouchdb-adapter-leveldb-core
-npm http 304 http://192.168.1.100:4873/uuid
-npm http 304 http://192.168.1.100:4873/request
+npm http 304 http://192.168.1.100:4873/express
 npm http 304 http://192.168.1.100:4873/urlsafe-base64
+npm http 304 http://192.168.1.100:4873/uuid
 npm http 304 http://192.168.1.100:4873/winston
 npm http request GET http://192.168.1.100:4873/bytes
 npm http request GET http://192.168.1.100:4873/content-type
 npm http request GET http://192.168.1.100:4873/debug
 npm http request GET http://192.168.1.100:4873/depd
 npm http request GET http://192.168.1.100:4873/http-errors
-npm http request GET http://192.168.1.100:4873/iconv-lite
 npm http request GET http://192.168.1.100:4873/on-finished
-npm http request GET http://192.168.1.100:4873/qs
+npm http request GET http://192.168.1.100:4873/iconv-lite
 npm http request GET http://192.168.1.100:4873/raw-body
+npm http request GET http://192.168.1.100:4873/qs
 npm http request GET http://192.168.1.100:4873/type-is
-npm http 304 http://192.168.1.100:4873/bytes
 npm http 304 http://192.168.1.100:4873/debug
-npm http 304 http://192.168.1.100:4873/depd
+npm http 304 http://192.168.1.100:4873/bytes
 npm http 304 http://192.168.1.100:4873/content-type
+npm http 304 http://192.168.1.100:4873/depd
 npm http 304 http://192.168.1.100:4873/http-errors
-npm http 304 http://192.168.1.100:4873/on-finished
 npm http 304 http://192.168.1.100:4873/iconv-lite
-npm http 304 http://192.168.1.100:4873/qs
 npm http 304 http://192.168.1.100:4873/raw-body
 npm http 304 http://192.168.1.100:4873/type-is
+npm http 304 http://192.168.1.100:4873/qs
+npm http 304 http://192.168.1.100:4873/on-finished
 npm http request GET http://192.168.1.100:4873/ms
 npm http 304 http://192.168.1.100:4873/ms
 npm http request GET http://192.168.1.100:4873/inherits
@@ -6719,47 +6756,45 @@ npm http request GET http://192.168.1.100:4873/send
 npm http request GET http://192.168.1.100:4873/serve-static
 npm http request GET http://192.168.1.100:4873/utils-merge
 npm http request GET http://192.168.1.100:4873/vary
-npm http 304 http://192.168.1.100:4873/accepts
-npm http 304 http://192.168.1.100:4873/array-flatten
-npm http 304 http://192.168.1.100:4873/content-disposition
-npm http 304 http://192.168.1.100:4873/cookie-signature
 npm http 304 http://192.168.1.100:4873/cookie
-npm http 304 http://192.168.1.100:4873/escape-html
-npm http 304 http://192.168.1.100:4873/fresh
+npm http 304 http://192.168.1.100:4873/content-disposition
+npm http 304 http://192.168.1.100:4873/array-flatten
+npm http 304 http://192.168.1.100:4873/cookie-signature
+npm http 304 http://192.168.1.100:4873/accepts
 npm http 304 http://192.168.1.100:4873/etag
+npm http 304 http://192.168.1.100:4873/fresh
 npm http 304 http://192.168.1.100:4873/merge-descriptors
+npm http 304 http://192.168.1.100:4873/escape-html
 npm http 304 http://192.168.1.100:4873/finalhandler
-npm http 304 http://192.168.1.100:4873/parseurl
 npm http 304 http://192.168.1.100:4873/methods
+npm http 304 http://192.168.1.100:4873/parseurl
 npm http 304 http://192.168.1.100:4873/path-to-regexp
-npm http 304 http://192.168.1.100:4873/range-parser
 npm http 304 http://192.168.1.100:4873/proxy-addr
+npm http 304 http://192.168.1.100:4873/range-parser
+npm http 304 http://192.168.1.100:4873/send
 npm http 304 http://192.168.1.100:4873/utils-merge
 npm http 304 http://192.168.1.100:4873/serve-static
-npm http 304 http://192.168.1.100:4873/send
 npm http 304 http://192.168.1.100:4873/vary
 npm http request GET http://192.168.1.100:4873/negotiator
 npm http 304 http://192.168.1.100:4873/negotiator
 npm http request GET http://192.168.1.100:4873/forwarded
 npm http request GET http://192.168.1.100:4873/ipaddr.js
-npm http 304 http://192.168.1.100:4873/ipaddr.js
 npm http 304 http://192.168.1.100:4873/forwarded
+npm http 304 http://192.168.1.100:4873/ipaddr.js
 npm http request GET http://192.168.1.100:4873/destroy
 npm http request GET http://192.168.1.100:4873/mime
-npm http 304 http://192.168.1.100:4873/destroy
 npm http 304 http://192.168.1.100:4873/mime
+npm http 304 http://192.168.1.100:4873/destroy
 npm http request GET http://192.168.1.100:4873/duplexify
 npm http request GET http://192.168.1.100:4873/readable-stream
 npm http request GET http://192.168.1.100:4873/varint
-npm http 304 http://192.168.1.100:4873/readable-stream
 npm http 304 http://192.168.1.100:4873/duplexify
+npm http 304 http://192.168.1.100:4873/readable-stream
 npm http 304 http://192.168.1.100:4873/varint
-npm http request GET http://192.168.1.100:4873/end-of-stream
 npm http request GET http://192.168.1.100:4873/stream-shift
-npm http 304 http://192.168.1.100:4873/end-of-stream
+npm http request GET http://192.168.1.100:4873/end-of-stream
 npm http 304 http://192.168.1.100:4873/stream-shift
-npm http request GET http://192.168.1.100:4873/once
-npm http 304 http://192.168.1.100:4873/once
+npm http 304 http://192.168.1.100:4873/end-of-stream
 npm http request GET http://192.168.1.100:4873/isarray
 npm http request GET http://192.168.1.100:4873/process-nextick-args
 npm http request GET http://192.168.1.100:4873/safe-buffer
@@ -6785,29 +6820,29 @@ npm http request GET http://192.168.1.100:4873/pouchdb-promise
 npm http request GET http://192.168.1.100:4873/pouchdb-utils
 npm http request GET http://192.168.1.100:4873/sublevel-pouchdb
 npm http request GET http://192.168.1.100:4873/through2
-npm http 304 http://192.168.1.100:4873/double-ended-queue
 npm http 304 http://192.168.1.100:4873/buffer-from
 npm http 304 http://192.168.1.100:4873/argsarray
+npm http 304 http://192.168.1.100:4873/double-ended-queue
 npm http 304 http://192.168.1.100:4873/pouchdb-adapter-utils
 npm http 304 http://192.168.1.100:4873/levelup
-npm http 304 http://192.168.1.100:4873/pouchdb-errors
-npm http 304 http://192.168.1.100:4873/pouchdb-collections
 npm http 304 http://192.168.1.100:4873/pouchdb-binary-utils
+npm http 304 http://192.168.1.100:4873/pouchdb-errors
 npm http 304 http://192.168.1.100:4873/pouchdb-json
 npm http 304 http://192.168.1.100:4873/pouchdb-md5
+npm http 304 http://192.168.1.100:4873/pouchdb-collections
+npm http 304 http://192.168.1.100:4873/through2
 npm http 304 http://192.168.1.100:4873/pouchdb-merge
 npm http 304 http://192.168.1.100:4873/pouchdb-promise
 npm http 304 http://192.168.1.100:4873/pouchdb-utils
 npm http 304 http://192.168.1.100:4873/sublevel-pouchdb
-npm http 304 http://192.168.1.100:4873/through2
 npm http request GET http://192.168.1.100:4873/is-array-buffer-x
 npm http 304 http://192.168.1.100:4873/is-array-buffer-x
-npm http request GET http://192.168.1.100:4873/to-string-tag-x
 npm http request GET http://192.168.1.100:4873/is-object-like-x
+npm http request GET http://192.168.1.100:4873/to-string-tag-x
 npm http request GET http://192.168.1.100:4873/has-to-string-tag-x
-npm http 304 http://192.168.1.100:4873/to-string-tag-x
-npm http 304 http://192.168.1.100:4873/has-to-string-tag-x
 npm http 304 http://192.168.1.100:4873/is-object-like-x
+npm http 304 http://192.168.1.100:4873/has-to-string-tag-x
+npm http 304 http://192.168.1.100:4873/to-string-tag-x
 npm http request GET http://192.168.1.100:4873/has-symbol-support-x
 npm http 304 http://192.168.1.100:4873/has-symbol-support-x
 npm http request GET http://192.168.1.100:4873/is-function-x
@@ -6816,8 +6851,8 @@ npm http 304 http://192.168.1.100:4873/is-primitive
 npm http 304 http://192.168.1.100:4873/is-function-x
 npm http request GET http://192.168.1.100:4873/lodash.isnull
 npm http request GET http://192.168.1.100:4873/validate.io-undefined
-npm http 304 http://192.168.1.100:4873/lodash.isnull
 npm http 304 http://192.168.1.100:4873/validate.io-undefined
+npm http 304 http://192.168.1.100:4873/lodash.isnull
 npm http request GET http://192.168.1.100:4873/deferred-leveldown
 npm http request GET http://192.168.1.100:4873/level-codec
 npm http request GET http://192.168.1.100:4873/level-errors
@@ -6825,10 +6860,10 @@ npm http request GET http://192.168.1.100:4873/level-iterator-stream
 npm http request GET http://192.168.1.100:4873/prr
 npm http request GET http://192.168.1.100:4873/semver
 npm http 304 http://192.168.1.100:4873/prr
-npm http 304 http://192.168.1.100:4873/level-errors
-npm http 304 http://192.168.1.100:4873/deferred-leveldown
 npm http 304 http://192.168.1.100:4873/level-codec
+npm http 304 http://192.168.1.100:4873/level-errors
 npm http 304 http://192.168.1.100:4873/level-iterator-stream
+npm http 304 http://192.168.1.100:4873/deferred-leveldown
 npm http 304 http://192.168.1.100:4873/semver
 npm http request GET http://192.168.1.100:4873/abstract-leveldown
 npm http 304 http://192.168.1.100:4873/abstract-leveldown
@@ -6849,32 +6884,34 @@ npm http request GET http://192.168.1.100:4873/form-data
 npm http request GET http://192.168.1.100:4873/json-stringify-safe
 npm http request GET http://192.168.1.100:4873/node-uuid
 npm http request GET http://192.168.1.100:4873/tunnel-agent
-npm http request GET http://192.168.1.100:4873/tough-cookie
 npm http request GET http://192.168.1.100:4873/http-signature
+npm http request GET http://192.168.1.100:4873/tough-cookie
 npm http request GET http://192.168.1.100:4873/oauth-sign
-npm http request GET http://192.168.1.100:4873/hawk
 npm http request GET http://192.168.1.100:4873/aws-sign2
 npm http request GET http://192.168.1.100:4873/stringstream
+npm http request GET http://192.168.1.100:4873/hawk
 npm http request GET http://192.168.1.100:4873/combined-stream
 npm http request GET http://192.168.1.100:4873/isstream
 npm http request GET http://192.168.1.100:4873/har-validator
+npm http request GET http://192.168.1.100:4873/qs
 npm http 304 http://192.168.1.100:4873/bl
-npm http 304 http://192.168.1.100:4873/form-data
-npm http 304 http://192.168.1.100:4873/json-stringify-safe
-npm http 304 http://192.168.1.100:4873/extend
 npm http 304 http://192.168.1.100:4873/caseless
-npm http 304 http://192.168.1.100:4873/tunnel-agent
+npm http 304 http://192.168.1.100:4873/extend
+npm http 304 http://192.168.1.100:4873/json-stringify-safe
+npm http 304 http://192.168.1.100:4873/form-data
 npm http 304 http://192.168.1.100:4873/node-uuid
+npm http 304 http://192.168.1.100:4873/tunnel-agent
+npm WARN deprecated node-uuid@1.4.8: Use uuid module instead
 npm http 304 http://192.168.1.100:4873/tough-cookie
 npm http 304 http://192.168.1.100:4873/http-signature
-npm WARN deprecated node-uuid@1.4.8: Use uuid module instead
 npm http 304 http://192.168.1.100:4873/oauth-sign
+npm http 304 http://192.168.1.100:4873/aws-sign2
+npm http 304 http://192.168.1.100:4873/stringstream
+npm http 304 http://192.168.1.100:4873/hawk
 npm http 304 http://192.168.1.100:4873/combined-stream
 npm http 304 http://192.168.1.100:4873/isstream
-npm http 304 http://192.168.1.100:4873/aws-sign2
-npm http 304 http://192.168.1.100:4873/hawk
-npm http 304 http://192.168.1.100:4873/stringstream
 npm http 304 http://192.168.1.100:4873/har-validator
+npm http 304 http://192.168.1.100:4873/qs
 npm http request GET http://192.168.1.100:4873/delayed-stream
 npm http 304 http://192.168.1.100:4873/delayed-stream
 npm http request GET http://192.168.1.100:4873/async
@@ -6883,16 +6920,18 @@ npm http request GET http://192.168.1.100:4873/lodash
 npm http 304 http://192.168.1.100:4873/lodash
 npm http request GET http://192.168.1.100:4873/chalk
 npm http request GET http://192.168.1.100:4873/is-my-json-valid
+npm http request GET http://192.168.1.100:4873/bluebird
 npm http 304 http://192.168.1.100:4873/chalk
 npm http 304 http://192.168.1.100:4873/is-my-json-valid
+npm http 304 http://192.168.1.100:4873/bluebird
 npm http request GET http://192.168.1.100:4873/ansi-styles
 npm http request GET http://192.168.1.100:4873/escape-string-regexp
 npm http request GET http://192.168.1.100:4873/has-ansi
 npm http request GET http://192.168.1.100:4873/strip-ansi
 npm http request GET http://192.168.1.100:4873/supports-color
 npm http 304 http://192.168.1.100:4873/ansi-styles
-npm http 304 http://192.168.1.100:4873/has-ansi
 npm http 304 http://192.168.1.100:4873/escape-string-regexp
+npm http 304 http://192.168.1.100:4873/has-ansi
 npm http 304 http://192.168.1.100:4873/supports-color
 npm http 304 http://192.168.1.100:4873/strip-ansi
 npm http request GET http://192.168.1.100:4873/ansi-regex
@@ -6906,19 +6945,19 @@ npm http 304 http://192.168.1.100:4873/jsonpointer
 npm http request GET http://192.168.1.100:4873/is-property
 npm http 304 http://192.168.1.100:4873/is-property
 npm http request GET http://192.168.1.100:4873/hoek
-npm http request GET http://192.168.1.100:4873/boom
 npm http request GET http://192.168.1.100:4873/cryptiles
+npm http request GET http://192.168.1.100:4873/boom
 npm http request GET http://192.168.1.100:4873/sntp
-npm http 304 http://192.168.1.100:4873/hoek
-npm http 304 http://192.168.1.100:4873/boom
-npm http 304 http://192.168.1.100:4873/sntp
 npm http 304 http://192.168.1.100:4873/cryptiles
-npm http request GET http://192.168.1.100:4873/asn1
+npm http 304 http://192.168.1.100:4873/hoek
+npm http 304 http://192.168.1.100:4873/sntp
+npm http 304 http://192.168.1.100:4873/boom
 npm http request GET http://192.168.1.100:4873/assert-plus
+npm http request GET http://192.168.1.100:4873/asn1
 npm http request GET http://192.168.1.100:4873/ctype
 npm http 304 http://192.168.1.100:4873/assert-plus
-npm http 304 http://192.168.1.100:4873/ctype
 npm http 304 http://192.168.1.100:4873/asn1
+npm http 304 http://192.168.1.100:4873/ctype
 npm http request GET http://192.168.1.100:4873/punycode
 npm http 304 http://192.168.1.100:4873/punycode
 npm http request GET http://192.168.1.100:4873/jsonschema
@@ -6928,11 +6967,11 @@ npm http request GET http://192.168.1.100:4873/cycle
 npm http request GET http://192.168.1.100:4873/eyes
 npm http request GET http://192.168.1.100:4873/pkginfo
 npm http request GET http://192.168.1.100:4873/stack-trace
+npm http 304 http://192.168.1.100:4873/cycle
 npm http 304 http://192.168.1.100:4873/colors
 npm http 304 http://192.168.1.100:4873/eyes
-npm http 304 http://192.168.1.100:4873/pkginfo
-npm http 304 http://192.168.1.100:4873/cycle
 npm http 304 http://192.168.1.100:4873/stack-trace
+npm http 304 http://192.168.1.100:4873/pkginfo
 npm WARN EPACKAGEJSON thali-cordova-plugin-jxcore@1.0.0 No repository field.
 npm http request GET http://192.168.1.100:4873/bluebird
 npm http request GET http://192.168.1.100:4873/balanced-match
@@ -6950,60 +6989,60 @@ npm http request GET http://192.168.1.100:4873/minimist
 npm http request GET http://192.168.1.100:4873/multiplex
 npm http request GET http://192.168.1.100:4873/node-uuid
 npm http request GET http://192.168.1.100:4873/object-assign
+npm http request GET http://192.168.1.100:4873/nock
 npm http request GET http://192.168.1.100:4873/pouchdb-size
 npm http request GET http://192.168.1.100:4873/proxyquire
-npm http request GET http://192.168.1.100:4873/nock
 npm http request GET http://192.168.1.100:4873/randomstring
-npm http request GET http://192.168.1.100:4873/request-promise
 npm http request GET http://192.168.1.100:4873/request
+npm http request GET http://192.168.1.100:4873/request-promise
 npm http request GET http://192.168.1.100:4873/socket.io-client
 npm http request GET http://192.168.1.100:4873/stacky
 npm http request GET http://192.168.1.100:4873/supertest
 npm http request GET http://192.168.1.100:4873/supertest-as-promised
 npm http request GET http://192.168.1.100:4873/sinon
-npm http request GET http://192.168.1.100:4873/tape
 npm http request GET http://192.168.1.100:4873/tape-catch
+npm http request GET http://192.168.1.100:4873/tmp
 npm http request GET http://192.168.1.100:4873/urlsafe-base64
 npm http request GET http://192.168.1.100:4873/uuid
-npm http request GET http://192.168.1.100:4873/tmp
+npm http request GET http://192.168.1.100:4873/tape
 npm http request GET http://192.168.1.100:4873/uuid-validate
 npm http request GET http://192.168.1.100:4873/js-extend
 npm http request GET http://192.168.1.100:4873/pouchdb
-npm http 304 http://192.168.1.100:4873/bn.js
 npm http 304 http://192.168.1.100:4873/balanced-match
 npm http 304 http://192.168.1.100:4873/body-parser
 npm http 304 http://192.168.1.100:4873/child-process-promise
 npm http 304 http://192.168.1.100:4873/bluebird
+npm http 304 http://192.168.1.100:4873/bn.js
 npm http 304 http://192.168.1.100:4873/concat-map
 npm http 304 http://192.168.1.100:4873/express
-npm http 304 http://192.168.1.100:4873/inherits
 npm http 304 http://192.168.1.100:4873/is-property
+npm http 304 http://192.168.1.100:4873/inherits
 npm http 304 http://192.168.1.100:4873/express-pouchdb
-npm http 304 http://192.168.1.100:4873/leveldown-mobile
-npm http 304 http://192.168.1.100:4873/multiplex
-npm http 304 http://192.168.1.100:4873/minimist
 npm http 304 http://192.168.1.100:4873/long
+npm http 304 http://192.168.1.100:4873/minimist
+npm http 304 http://192.168.1.100:4873/multiplex
 npm http 304 http://192.168.1.100:4873/node-uuid
+npm http 304 http://192.168.1.100:4873/leveldown-mobile
 npm http 304 http://192.168.1.100:4873/object-assign
+npm http 304 http://192.168.1.100:4873/randomstring
+npm http 304 http://192.168.1.100:4873/nock
 npm http 304 http://192.168.1.100:4873/proxyquire
 npm http 304 http://192.168.1.100:4873/pouchdb-size
-npm http 304 http://192.168.1.100:4873/randomstring
+npm http 304 http://192.168.1.100:4873/request
 npm http 304 http://192.168.1.100:4873/request-promise
-npm http 304 http://192.168.1.100:4873/nock
 npm http 304 http://192.168.1.100:4873/socket.io-client
-npm http 304 http://192.168.1.100:4873/sinon
-npm http 304 http://192.168.1.100:4873/tape
+npm http 304 http://192.168.1.100:4873/supertest
 npm http 304 http://192.168.1.100:4873/stacky
-npm http 304 http://192.168.1.100:4873/urlsafe-base64
 npm http 304 http://192.168.1.100:4873/supertest-as-promised
-npm http 304 http://192.168.1.100:4873/tape-catch
-npm http 304 http://192.168.1.100:4873/uuid
+npm http 304 http://192.168.1.100:4873/sinon
 npm http 304 http://192.168.1.100:4873/tmp
+npm http 304 http://192.168.1.100:4873/uuid
+npm http 304 http://192.168.1.100:4873/urlsafe-base64
+npm http 304 http://192.168.1.100:4873/tape-catch
+npm http 304 http://192.168.1.100:4873/tape
 npm http 304 http://192.168.1.100:4873/uuid-validate
 npm http 304 http://192.168.1.100:4873/js-extend
 npm http 304 http://192.168.1.100:4873/pouchdb
-npm http 304 http://192.168.1.100:4873/supertest
-npm http 304 http://192.168.1.100:4873/request
 npm http request GET http://192.168.1.100:4873/iconv-lite
 npm http 304 http://192.168.1.100:4873/iconv-lite
 npm http request GET http://192.168.1.100:4873/basic-auth
@@ -7024,10 +7063,8 @@ npm http request GET http://192.168.1.100:4873/pouchdb-update
 npm http request GET http://192.168.1.100:4873/pouchdb-validation
 npm http request GET http://192.168.1.100:4873/pouchdb-vhost
 npm http request GET http://192.168.1.100:4873/pouchdb-wrappers
-npm http 304 http://192.168.1.100:4873/compression
 npm http 304 http://192.168.1.100:4873/basic-auth
 npm http 304 http://192.168.1.100:4873/extend
-npm http 304 http://192.168.1.100:4873/header-case-normalizer
 npm http 304 http://192.168.1.100:4873/cookie-parser
 npm http 304 http://192.168.1.100:4873/multiparty
 npm http 304 http://192.168.1.100:4873/pouchdb-all-dbs
@@ -7035,31 +7072,33 @@ npm http 304 http://192.168.1.100:4873/pouchdb-auth
 npm http 304 http://192.168.1.100:4873/pouchdb-list
 npm http 304 http://192.168.1.100:4873/pouchdb-find
 npm http 304 http://192.168.1.100:4873/pouchdb-replicator
-npm http 304 http://192.168.1.100:4873/pouchdb-show
-npm http 304 http://192.168.1.100:4873/pouchdb-security
 npm http 304 http://192.168.1.100:4873/pouchdb-rewrite
-npm http 304 http://192.168.1.100:4873/pouchdb-update
+npm http 304 http://192.168.1.100:4873/pouchdb-security
+npm http 304 http://192.168.1.100:4873/pouchdb-show
 npm http 304 http://192.168.1.100:4873/pouchdb-validation
-npm http 304 http://192.168.1.100:4873/pouchdb-wrappers
 npm http 304 http://192.168.1.100:4873/pouchdb-vhost
+npm http 304 http://192.168.1.100:4873/compression
+npm http 304 http://192.168.1.100:4873/header-case-normalizer
+npm http 304 http://192.168.1.100:4873/pouchdb-wrappers
+npm http 304 http://192.168.1.100:4873/pouchdb-update
 npm http request GET http://192.168.1.100:4873/bytes
 npm http request GET http://192.168.1.100:4873/depd
 npm http request GET http://192.168.1.100:4873/http-errors
 npm http request GET http://192.168.1.100:4873/qs
-npm http 304 http://192.168.1.100:4873/bytes
-npm http 304 http://192.168.1.100:4873/http-errors
-npm http 304 http://192.168.1.100:4873/qs
 npm http 304 http://192.168.1.100:4873/depd
+npm http 304 http://192.168.1.100:4873/bytes
+npm http 304 http://192.168.1.100:4873/qs
+npm http 304 http://192.168.1.100:4873/http-errors
 npm http request GET http://192.168.1.100:4873/setprototypeof
 npm http 304 http://192.168.1.100:4873/setprototypeof
 npm http request GET http://192.168.1.100:4873/accepts
 npm http request GET http://192.168.1.100:4873/compressible
 npm http request GET http://192.168.1.100:4873/on-headers
 npm http request GET http://192.168.1.100:4873/vary
-npm http 304 http://192.168.1.100:4873/compressible
 npm http 304 http://192.168.1.100:4873/on-headers
-npm http 304 http://192.168.1.100:4873/accepts
 npm http 304 http://192.168.1.100:4873/vary
+npm http 304 http://192.168.1.100:4873/compressible
+npm http 304 http://192.168.1.100:4873/accepts
 npm http request GET http://192.168.1.100:4873/negotiator
 npm http 304 http://192.168.1.100:4873/negotiator
 npm http request GET http://192.168.1.100:4873/cookie
@@ -7071,8 +7110,8 @@ npm http 304 http://192.168.1.100:4873/stream-counter
 npm http request GET http://192.168.1.100:4873/es3ify
 npm http request GET http://192.168.1.100:4873/pouchdb-promise
 npm http request GET http://192.168.1.100:4873/tiny-queue
-npm http 304 http://192.168.1.100:4873/es3ify
 npm http 304 http://192.168.1.100:4873/pouchdb-promise
+npm http 304 http://192.168.1.100:4873/es3ify
 npm http 304 http://192.168.1.100:4873/tiny-queue
 npm http request GET http://192.168.1.100:4873/esprima-fb
 npm http request GET http://192.168.1.100:4873/jstransform
@@ -7080,8 +7119,8 @@ npm http 304 http://192.168.1.100:4873/esprima-fb
 npm http 304 http://192.168.1.100:4873/jstransform
 npm http request GET http://192.168.1.100:4873/base62
 npm http request GET http://192.168.1.100:4873/source-map
-npm http 304 http://192.168.1.100:4873/base62
 npm http 304 http://192.168.1.100:4873/source-map
+npm http 304 http://192.168.1.100:4873/base62
 npm http request GET http://192.168.1.100:4873/couchdb-calculate-session-id
 npm http request GET http://192.168.1.100:4873/pouchdb-bulkdocs-wrapper
 npm http request GET http://192.168.1.100:4873/pouchdb-plugin-error
@@ -7093,35 +7132,33 @@ npm http request GET http://192.168.1.100:4873/base64url
 npm http request GET http://192.168.1.100:4873/crypto-lite
 npm http fetch GET http://192.168.1.100:4873/pouchdb-promise/-/pouchdb-promise-5.4.5.tgz
 npm http 304 http://192.168.1.100:4873/couchdb-calculate-session-id
-npm http 304 http://192.168.1.100:4873/pouchdb-bulkdocs-wrapper
-npm http 304 http://192.168.1.100:4873/pouchdb-system-db
-npm http 304 http://192.168.1.100:4873/pouchdb-req-http-query
 npm http 304 http://192.168.1.100:4873/pouchdb-plugin-error
+npm http 304 http://192.168.1.100:4873/pouchdb-req-http-query
+npm http 304 http://192.168.1.100:4873/pouchdb-system-db
+npm http 304 http://192.168.1.100:4873/pouchdb-bulkdocs-wrapper
 npm http fetch 200 http://192.168.1.100:4873/pouchdb-promise/-/pouchdb-promise-5.4.5.tgz
 npm http 304 http://192.168.1.100:4873/promise-nodify
-npm http 304 http://192.168.1.100:4873/crypto-lite
 npm http 304 http://192.168.1.100:4873/base64url
 npm http 304 http://192.168.1.100:4873/secure-random
+npm http 304 http://192.168.1.100:4873/crypto-lite
 npm http request GET http://192.168.1.100:4873/concat-stream
 npm http request GET http://192.168.1.100:4873/meow
-npm http 304 http://192.168.1.100:4873/meow
 npm http 304 http://192.168.1.100:4873/concat-stream
+npm http 304 http://192.168.1.100:4873/meow
 npm http request GET http://192.168.1.100:4873/typedarray
 npm http 304 http://192.168.1.100:4873/typedarray
 npm http request GET http://192.168.1.100:4873/camelcase-keys
 npm http request GET http://192.168.1.100:4873/indent-string
-npm http request GET http://192.168.1.100:4873/object-assign
-npm http 304 http://192.168.1.100:4873/object-assign
 npm http 304 http://192.168.1.100:4873/indent-string
 npm http 304 http://192.168.1.100:4873/camelcase-keys
 npm http request GET http://192.168.1.100:4873/camelcase
 npm http request GET http://192.168.1.100:4873/map-obj
-npm http 304 http://192.168.1.100:4873/map-obj
 npm http 304 http://192.168.1.100:4873/camelcase
+npm http 304 http://192.168.1.100:4873/map-obj
 npm http request GET http://192.168.1.100:4873/get-stdin
 npm http request GET http://192.168.1.100:4873/repeating
-npm http 304 http://192.168.1.100:4873/repeating
 npm http 304 http://192.168.1.100:4873/get-stdin
+npm http 304 http://192.168.1.100:4873/repeating
 npm http request GET http://192.168.1.100:4873/is-finite
 npm http 304 http://192.168.1.100:4873/is-finite
 npm http request GET http://192.168.1.100:4873/number-is-nan
@@ -7134,30 +7171,28 @@ npm http request GET http://192.168.1.100:4873/fruitdown
 npm http request GET http://192.168.1.100:4873/level-write-stream
 npm http request GET http://192.168.1.100:4873/localstorage-down
 npm http request GET http://192.168.1.100:4873/levelup
-npm http request GET http://192.168.1.100:4873/memdown
 npm http request GET http://192.168.1.100:4873/pouchdb-collate
+npm http request GET http://192.168.1.100:4873/memdown
 npm http request GET http://192.168.1.100:4873/pouchdb-collections
 npm http request GET http://192.168.1.100:4873/scope-eval
 npm http request GET http://192.168.1.100:4873/spark-md5
 npm http request GET http://192.168.1.100:4873/sublevel-pouchdb
 npm http request GET http://192.168.1.100:4873/through2
-npm http request GET http://192.168.1.100:4873/js-extend
 npm http 304 http://192.168.1.100:4873/double-ended-queue
 npm http 304 http://192.168.1.100:4873/level-write-stream
-npm http 304 http://192.168.1.100:4873/es6-promise-pool
 npm http 304 http://192.168.1.100:4873/fruitdown
+npm http 304 http://192.168.1.100:4873/es6-promise-pool
 npm http 304 http://192.168.1.100:4873/localstorage-down
 npm http 304 http://192.168.1.100:4873/levelup
-npm http 304 http://192.168.1.100:4873/pouchdb-collections
 npm http 304 http://192.168.1.100:4873/pouchdb-collate
+npm http 304 http://192.168.1.100:4873/pouchdb-collections
 npm http 304 http://192.168.1.100:4873/memdown
 npm http 304 http://192.168.1.100:4873/scope-eval
 npm http 304 http://192.168.1.100:4873/spark-md5
 npm http 304 http://192.168.1.100:4873/sublevel-pouchdb
 npm http 304 http://192.168.1.100:4873/through2
-npm http 304 http://192.168.1.100:4873/js-extend
-npm http request GET http://192.168.1.100:4873/d64
 npm http request GET http://192.168.1.100:4873/abstract-leveldown
+npm http request GET http://192.168.1.100:4873/d64
 npm http 304 http://192.168.1.100:4873/abstract-leveldown
 npm http 304 http://192.168.1.100:4873/d64
 npm http request GET http://192.168.1.100:4873/xtend
@@ -7170,23 +7205,23 @@ npm http request GET http://192.168.1.100:4873/humble-localstorage
 npm http 304 http://192.168.1.100:4873/humble-localstorage
 npm http request GET http://192.168.1.100:4873/has-localstorage
 npm http request GET http://192.168.1.100:4873/localstorage-memory
-npm http 304 http://192.168.1.100:4873/has-localstorage
 npm http 304 http://192.168.1.100:4873/localstorage-memory
+npm http 304 http://192.168.1.100:4873/has-localstorage
 npm http request GET http://192.168.1.100:4873/ltgt
 npm http request GET http://192.168.1.100:4873/functional-red-black-tree
-npm http 304 http://192.168.1.100:4873/functional-red-black-tree
 npm http 304 http://192.168.1.100:4873/ltgt
+npm http 304 http://192.168.1.100:4873/functional-red-black-tree
 npm http request GET http://192.168.1.100:4873/aws-sign2
 npm http request GET http://192.168.1.100:4873/aws4
 npm http request GET http://192.168.1.100:4873/bl
-npm http request GET http://192.168.1.100:4873/har-validator
 npm http request GET http://192.168.1.100:4873/http-signature
+npm http request GET http://192.168.1.100:4873/har-validator
 npm http request GET http://192.168.1.100:4873/is-typedarray
 npm http request GET http://192.168.1.100:4873/tough-cookie
-npm http 304 http://192.168.1.100:4873/bl
-npm http 304 http://192.168.1.100:4873/aws4
-npm http 304 http://192.168.1.100:4873/http-signature
 npm http 304 http://192.168.1.100:4873/aws-sign2
+npm http 304 http://192.168.1.100:4873/http-signature
+npm http 304 http://192.168.1.100:4873/aws4
+npm http 304 http://192.168.1.100:4873/bl
 npm http 304 http://192.168.1.100:4873/har-validator
 npm http 304 http://192.168.1.100:4873/is-typedarray
 npm http 304 http://192.168.1.100:4873/tough-cookie
@@ -7197,33 +7232,35 @@ npm http request GET http://192.168.1.100:4873/pinkie-promise
 npm http 304 http://192.168.1.100:4873/pinkie-promise
 npm http request GET http://192.168.1.100:4873/pinkie
 npm http 304 http://192.168.1.100:4873/pinkie
-npm http request GET http://192.168.1.100:4873/assert-plus
 npm http request GET http://192.168.1.100:4873/jsprim
+npm http request GET http://192.168.1.100:4873/assert-plus
 npm http request GET http://192.168.1.100:4873/sshpk
-npm http 304 http://192.168.1.100:4873/assert-plus
 npm http 304 http://192.168.1.100:4873/jsprim
+npm http 304 http://192.168.1.100:4873/assert-plus
 npm http 304 http://192.168.1.100:4873/sshpk
 npm http request GET http://192.168.1.100:4873/extsprintf
 npm http request GET http://192.168.1.100:4873/json-schema
 npm http request GET http://192.168.1.100:4873/verror
-npm http 304 http://192.168.1.100:4873/extsprintf
 npm http 304 http://192.168.1.100:4873/json-schema
 npm http 304 http://192.168.1.100:4873/verror
+npm http 304 http://192.168.1.100:4873/extsprintf
 npm http request GET http://192.168.1.100:4873/asn1
 npm http request GET http://192.168.1.100:4873/dashdash
 npm http request GET http://192.168.1.100:4873/getpass
-npm http 304 http://192.168.1.100:4873/getpass
 npm http 304 http://192.168.1.100:4873/asn1
 npm http 304 http://192.168.1.100:4873/dashdash
+npm http 304 http://192.168.1.100:4873/getpass
 npm http request GET http://192.168.1.100:4873/pull-stream
 npm http 304 http://192.168.1.100:4873/pull-stream
 npm http request GET http://192.168.1.100:4873/pull-core
 npm http 304 http://192.168.1.100:4873/pull-core
 npm http request GET http://192.168.1.100:4873/lie
 npm http request GET http://192.168.1.100:4873/bluebird
-npm http 304 http://192.168.1.100:4873/lie
 npm http 304 http://192.168.1.100:4873/bluebird
+npm http 304 http://192.168.1.100:4873/lie
 npm http request GET http://192.168.1.100:4873/xmlhttprequest-cookie
+npm http request GET http://192.168.1.100:4873/pouchdb-promise
+npm http 304 http://192.168.1.100:4873/pouchdb-promise
 npm http 304 http://192.168.1.100:4873/xmlhttprequest-cookie
 npm http request GET http://192.168.1.100:4873/xmlhttprequest
 npm http 304 http://192.168.1.100:4873/xmlhttprequest
@@ -7240,19 +7277,19 @@ npm http 304 http://192.168.1.100:4873/is-empty
 npm http request GET http://192.168.1.100:4873/is-array
 npm http request GET http://192.168.1.100:4873/pouchdb-extend
 npm http request GET http://192.168.1.100:4873/pouchdb-upsert
-npm http request GET http://192.168.1.100:4873/pouchdb-promise
-npm http 304 http://192.168.1.100:4873/pouchdb-promise
-npm http 304 http://192.168.1.100:4873/pouchdb-extend
-npm http 304 http://192.168.1.100:4873/pouchdb-upsert
 npm http 304 http://192.168.1.100:4873/is-array
+npm http 304 http://192.168.1.100:4873/pouchdb-upsert
+npm http 304 http://192.168.1.100:4873/pouchdb-extend
 npm http request GET http://192.168.1.100:4873/unreachable-branch-transform
 npm http 304 http://192.168.1.100:4873/unreachable-branch-transform
 npm http request GET http://192.168.1.100:4873/recast
 npm http 304 http://192.168.1.100:4873/recast
 npm http request GET http://192.168.1.100:4873/esprima-fb
 npm http request GET http://192.168.1.100:4873/ast-types
-npm http 304 http://192.168.1.100:4873/esprima-fb
+npm http request GET http://192.168.1.100:4873/source-map
+npm http 304 http://192.168.1.100:4873/source-map
 npm http 304 http://192.168.1.100:4873/ast-types
+npm http 304 http://192.168.1.100:4873/esprima-fb
 npm http request GET http://192.168.1.100:4873/couchdb-render
 npm http 304 http://192.168.1.100:4873/couchdb-render
 npm http request GET http://192.168.1.100:4873/couchdb-resp-completer
@@ -7265,33 +7302,33 @@ npm http request GET http://192.168.1.100:4873/pouchdb-route
 npm http 304 http://192.168.1.100:4873/pouchdb-route
 npm http request GET http://192.168.1.100:4873/get-folder-size
 npm http 304 http://192.168.1.100:4873/get-folder-size
-npm http request GET http://192.168.1.100:4873/minimist
 npm http request GET http://192.168.1.100:4873/async
+npm http request GET http://192.168.1.100:4873/minimist
 npm http 304 http://192.168.1.100:4873/minimist
 npm http 304 http://192.168.1.100:4873/async
 npm http request GET http://192.168.1.100:4873/bindings
 npm http request GET http://192.168.1.100:4873/fast-future
 npm http request GET http://192.168.1.100:4873/abstract-leveldown
-npm http 304 http://192.168.1.100:4873/bindings
 npm http 304 http://192.168.1.100:4873/abstract-leveldown
 npm http 304 http://192.168.1.100:4873/fast-future
+npm http 304 http://192.168.1.100:4873/bindings
 npm http request GET http://192.168.1.100:4873/readable-stream
 npm http 304 http://192.168.1.100:4873/readable-stream
 npm http request GET http://192.168.1.100:4873/string_decoder
 npm http request GET http://192.168.1.100:4873/inherits
 npm http 304 http://192.168.1.100:4873/inherits
 npm http 304 http://192.168.1.100:4873/string_decoder
-npm http request GET http://192.168.1.100:4873/chai
 npm http request GET http://192.168.1.100:4873/propagate
+npm http request GET http://192.168.1.100:4873/chai
 npm http request GET http://192.168.1.100:4873/debug
 npm http request GET http://192.168.1.100:4873/deep-equal
 npm http request GET http://192.168.1.100:4873/lodash
-npm http 304 http://192.168.1.100:4873/chai
 npm http 304 http://192.168.1.100:4873/debug
-npm http 304 http://192.168.1.100:4873/lodash
+npm http 304 http://192.168.1.100:4873/chai
 npm http 304 http://192.168.1.100:4873/deep-equal
-npm WARN deprecated lodash@2.4.1: lodash@<3.0.0 is no longer maintained. Upgrade to lodash@^4.0.0.
 npm http 304 http://192.168.1.100:4873/propagate
+npm http 304 http://192.168.1.100:4873/lodash
+npm WARN deprecated lodash@2.4.1: lodash@<3.0.0 is no longer maintained. Upgrade to lodash@^4.0.0.
 npm http request GET http://192.168.1.100:4873/assertion-error
 npm http request GET http://192.168.1.100:4873/deep-eql
 npm http request GET http://192.168.1.100:4873/type-detect
@@ -7303,8 +7340,8 @@ npm http 304 http://192.168.1.100:4873/ms
 npm http request GET http://192.168.1.100:4873/level-codec
 npm http request GET http://192.168.1.100:4873/leveldown
 npm http request GET http://192.168.1.100:4873/request
-npm http 304 http://192.168.1.100:4873/level-codec
 npm http 304 http://192.168.1.100:4873/request
+npm http 304 http://192.168.1.100:4873/level-codec
 npm http 304 http://192.168.1.100:4873/leveldown
 npm http request GET http://192.168.1.100:4873/nan
 npm http request GET http://192.168.1.100:4873/prebuild
@@ -7314,42 +7351,42 @@ npm http request GET http://192.168.1.100:4873/execspawn
 npm http request GET http://192.168.1.100:4873/expand-template
 npm http request GET http://192.168.1.100:4873/ghreleases
 npm http request GET http://192.168.1.100:4873/github-from-package
-npm http request GET http://192.168.1.100:4873/node-gyp
 npm http request GET http://192.168.1.100:4873/node-ninja
+npm http request GET http://192.168.1.100:4873/node-gyp
 npm http request GET http://192.168.1.100:4873/noop-logger
 npm http request GET http://192.168.1.100:4873/npmlog
 npm http request GET http://192.168.1.100:4873/os-homedir
 npm http request GET http://192.168.1.100:4873/pump
 npm http request GET http://192.168.1.100:4873/rc
-npm http request GET http://192.168.1.100:4873/simple-get
 npm http request GET http://192.168.1.100:4873/tar-fs
+npm http request GET http://192.168.1.100:4873/simple-get
 npm http request GET http://192.168.1.100:4873/tar-stream
-npm http 304 http://192.168.1.100:4873/node-gyp
+npm http 304 http://192.168.1.100:4873/execspawn
 npm http 304 http://192.168.1.100:4873/expand-template
 npm http 304 http://192.168.1.100:4873/ghreleases
-npm http 304 http://192.168.1.100:4873/execspawn
 npm http 304 http://192.168.1.100:4873/github-from-package
-npm http 304 http://192.168.1.100:4873/npmlog
-npm http 304 http://192.168.1.100:4873/os-homedir
-npm http 304 http://192.168.1.100:4873/pump
 npm http 304 http://192.168.1.100:4873/node-ninja
+npm http 304 http://192.168.1.100:4873/node-gyp
+npm http 304 http://192.168.1.100:4873/os-homedir
+npm http 304 http://192.168.1.100:4873/npmlog
 npm http 304 http://192.168.1.100:4873/noop-logger
+npm http 304 http://192.168.1.100:4873/pump
 npm http 304 http://192.168.1.100:4873/rc
-npm http 304 http://192.168.1.100:4873/tar-stream
-npm http 304 http://192.168.1.100:4873/simple-get
 npm http 304 http://192.168.1.100:4873/tar-fs
+npm http 304 http://192.168.1.100:4873/simple-get
+npm http 304 http://192.168.1.100:4873/tar-stream
 npm http request GET http://192.168.1.100:4873/util-extend
 npm http 304 http://192.168.1.100:4873/util-extend
-npm http request GET http://192.168.1.100:4873/after
 npm http request GET http://192.168.1.100:4873/ghrepos
 npm http request GET http://192.168.1.100:4873/ghutils
 npm http request GET http://192.168.1.100:4873/simple-mime
 npm http request GET http://192.168.1.100:4873/url-template
+npm http request GET http://192.168.1.100:4873/after
 npm http 304 http://192.168.1.100:4873/after
 npm http 304 http://192.168.1.100:4873/ghrepos
+npm http 304 http://192.168.1.100:4873/url-template
 npm http 304 http://192.168.1.100:4873/ghutils
 npm http 304 http://192.168.1.100:4873/simple-mime
-npm http 304 http://192.168.1.100:4873/url-template
 npm http request GET http://192.168.1.100:4873/jsonist
 npm http 304 http://192.168.1.100:4873/jsonist
 npm http request GET http://192.168.1.100:4873/hyperquest
@@ -7365,9 +7402,9 @@ npm http request GET http://192.168.1.100:4873/which
 npm http 304 http://192.168.1.100:4873/nopt
 npm http 304 http://192.168.1.100:4873/fstream
 npm http 304 http://192.168.1.100:4873/osenv
-npm http 304 http://192.168.1.100:4873/tar
 npm http 304 http://192.168.1.100:4873/semver
-npm http 200 http://192.168.1.100:4873/which
+npm http 304 http://192.168.1.100:4873/tar
+npm http 304 http://192.168.1.100:4873/which
 npm http request GET http://192.168.1.100:4873/abbrev
 npm http 304 http://192.168.1.100:4873/abbrev
 npm http request GET http://192.168.1.100:4873/ansi
@@ -7383,9 +7420,9 @@ npm http request GET http://192.168.1.100:4873/lodash.pad
 npm http request GET http://192.168.1.100:4873/lodash.padend
 npm http request GET http://192.168.1.100:4873/lodash.padstart
 npm http 304 http://192.168.1.100:4873/has-unicode
+npm http 304 http://192.168.1.100:4873/lodash.pad
 npm http 304 http://192.168.1.100:4873/lodash.padstart
 npm http 304 http://192.168.1.100:4873/lodash.padend
-npm http 304 http://192.168.1.100:4873/lodash.pad
 npm http request GET http://192.168.1.100:4873/os-tmpdir
 npm http 304 http://192.168.1.100:4873/os-tmpdir
 npm http request GET http://192.168.1.100:4873/qs
@@ -7406,13 +7443,11 @@ npm http 304 http://192.168.1.100:4873/d
 npm http 304 http://192.168.1.100:4873/es5-ext
 npm http request GET http://192.168.1.100:4873/es6-iterator
 npm http 304 http://192.168.1.100:4873/es6-iterator
-npm http request GET http://192.168.1.100:4873/end-of-stream
-npm http 304 http://192.168.1.100:4873/end-of-stream
 npm http request GET http://192.168.1.100:4873/deep-extend
 npm http request GET http://192.168.1.100:4873/ini
 npm http request GET http://192.168.1.100:4873/strip-json-comments
-npm http 304 http://192.168.1.100:4873/deep-extend
 npm http 304 http://192.168.1.100:4873/strip-json-comments
+npm http 304 http://192.168.1.100:4873/deep-extend
 npm http 304 http://192.168.1.100:4873/ini
 npm http request GET http://192.168.1.100:4873/unzip-response
 npm http 304 http://192.168.1.100:4873/unzip-response
@@ -7442,30 +7477,30 @@ npm http request GET http://192.168.1.100:4873/formatio
 npm http request GET http://192.168.1.100:4873/util
 npm http request GET http://192.168.1.100:4873/lolex
 npm http request GET http://192.168.1.100:4873/samsam
-npm http 304 http://192.168.1.100:4873/formatio
 npm http 304 http://192.168.1.100:4873/util
-npm http 304 http://192.168.1.100:4873/lolex
+npm http 304 http://192.168.1.100:4873/formatio
 npm http 304 http://192.168.1.100:4873/samsam
-npm http request GET http://192.168.1.100:4873/component-bind
+npm http 304 http://192.168.1.100:4873/lolex
 npm http request GET http://192.168.1.100:4873/engine.io-client
+npm http request GET http://192.168.1.100:4873/component-bind
 npm http request GET http://192.168.1.100:4873/object-component
 npm http request GET http://192.168.1.100:4873/socket.io-parser
-npm http request GET http://192.168.1.100:4873/has-binary
 npm http request GET http://192.168.1.100:4873/indexof
 npm http request GET http://192.168.1.100:4873/parseuri
 npm http request GET http://192.168.1.100:4873/to-array
 npm http request GET http://192.168.1.100:4873/backo2
 npm http request GET http://192.168.1.100:4873/component-emitter
+npm http request GET http://192.168.1.100:4873/has-binary
 npm http 304 http://192.168.1.100:4873/component-bind
-npm http 304 http://192.168.1.100:4873/engine.io-client
-npm http 304 http://192.168.1.100:4873/object-component
-npm http 304 http://192.168.1.100:4873/has-binary
-npm http 304 http://192.168.1.100:4873/socket.io-parser
 npm http 304 http://192.168.1.100:4873/indexof
+npm http 304 http://192.168.1.100:4873/socket.io-parser
+npm http 304 http://192.168.1.100:4873/object-component
+npm http 304 http://192.168.1.100:4873/engine.io-client
 npm http 304 http://192.168.1.100:4873/to-array
-npm http 304 http://192.168.1.100:4873/backo2
 npm http 304 http://192.168.1.100:4873/parseuri
+npm http 304 http://192.168.1.100:4873/backo2
 npm http 304 http://192.168.1.100:4873/component-emitter
+npm http 304 http://192.168.1.100:4873/has-binary
 npm http request GET http://192.168.1.100:4873/has-cors
 npm http request GET http://192.168.1.100:4873/ws
 npm http request GET http://192.168.1.100:4873/xmlhttprequest-ssl
@@ -7474,30 +7509,32 @@ npm http request GET http://192.168.1.100:4873/parsejson
 npm http request GET http://192.168.1.100:4873/parseqs
 npm http request GET http://192.168.1.100:4873/component-inherit
 npm http request GET http://192.168.1.100:4873/yeast
-npm http 304 http://192.168.1.100:4873/xmlhttprequest-ssl
-npm http 304 http://192.168.1.100:4873/engine.io-parser
-npm http 304 http://192.168.1.100:4873/parsejson
 npm http 304 http://192.168.1.100:4873/has-cors
+npm http 304 http://192.168.1.100:4873/engine.io-parser
+npm http 304 http://192.168.1.100:4873/xmlhttprequest-ssl
+npm http 304 http://192.168.1.100:4873/parsejson
 npm http 304 http://192.168.1.100:4873/ws
 npm http 304 http://192.168.1.100:4873/component-inherit
-npm http 304 http://192.168.1.100:4873/parseqs
 npm http 304 http://192.168.1.100:4873/yeast
+npm http 304 http://192.168.1.100:4873/parseqs
 npm http request GET http://192.168.1.100:4873/arraybuffer.slice
 npm http request GET http://192.168.1.100:4873/base64-arraybuffer
 npm http request GET http://192.168.1.100:4873/blob
 npm http request GET http://192.168.1.100:4873/utf8
-npm http 304 http://192.168.1.100:4873/base64-arraybuffer
+npm http request GET http://192.168.1.100:4873/after
 npm http 304 http://192.168.1.100:4873/arraybuffer.slice
+npm http 304 http://192.168.1.100:4873/base64-arraybuffer
 npm http 304 http://192.168.1.100:4873/blob
 npm http 304 http://192.168.1.100:4873/utf8
+npm http 304 http://192.168.1.100:4873/after
 npm http request GET http://192.168.1.100:4873/better-assert
 npm http 304 http://192.168.1.100:4873/better-assert
 npm http request GET http://192.168.1.100:4873/callsite
 npm http 304 http://192.168.1.100:4873/callsite
 npm http request GET http://192.168.1.100:4873/options
 npm http request GET http://192.168.1.100:4873/ultron
-npm http 304 http://192.168.1.100:4873/ultron
 npm http 304 http://192.168.1.100:4873/options
+npm http 304 http://192.168.1.100:4873/ultron
 npm http request GET http://192.168.1.100:4873/json3
 npm http request GET http://192.168.1.100:4873/benchmark
 npm http 304 http://192.168.1.100:4873/benchmark
@@ -7509,11 +7546,11 @@ npm http request GET http://192.168.1.100:4873/methods
 npm http request GET http://192.168.1.100:4873/cookiejar
 npm http request GET http://192.168.1.100:4873/reduce-component
 npm http request GET http://192.168.1.100:4873/extend
-npm http 304 http://192.168.1.100:4873/cookiejar
 npm http 304 http://192.168.1.100:4873/formidable
-npm http 304 http://192.168.1.100:4873/extend
 npm http 304 http://192.168.1.100:4873/methods
+npm http 304 http://192.168.1.100:4873/extend
 npm http 304 http://192.168.1.100:4873/reduce-component
+npm http 304 http://192.168.1.100:4873/cookiejar
 npm http request GET http://192.168.1.100:4873/combined-stream
 npm http request GET http://192.168.1.100:4873/mime-types
 npm http 304 http://192.168.1.100:4873/combined-stream
@@ -7523,12 +7560,12 @@ npm http 304 http://192.168.1.100:4873/delayed-stream
 npm http request GET http://192.168.1.100:4873/mime-db
 npm http 304 http://192.168.1.100:4873/mime-db
 npm http request GET http://192.168.1.100:4873/defined
-npm http request GET http://192.168.1.100:4873/object-inspect
 npm http request GET http://192.168.1.100:4873/glob
+npm http request GET http://192.168.1.100:4873/object-inspect
 npm http request GET http://192.168.1.100:4873/resumer
-npm http 304 http://192.168.1.100:4873/object-inspect
 npm http 304 http://192.168.1.100:4873/defined
 npm http 304 http://192.168.1.100:4873/glob
+npm http 304 http://192.168.1.100:4873/object-inspect
 npm http 304 http://192.168.1.100:4873/resumer
 npm WARN prefer global node-ninja@1.0.2 should be installed with -g
 npm WARN prefer global node-gyp@3.6.2 should be installed with -g
@@ -15355,16 +15392,10 @@ a ThaliTest.app/www/jxcore/node_modules/punycode/punycode.js
 a ThaliTest.app/www/jxcore/node_modules/punycode/README.md
 a ThaliTest.app/www/jxcore/node_modules/pump/index.js
 a ThaliTest.app/www/jxcore/node_modules/pump/LICENSE
-a ThaliTest.app/www/jxcore/node_modules/pump/node_modules
 a ThaliTest.app/www/jxcore/node_modules/pump/package.json
 a ThaliTest.app/www/jxcore/node_modules/pump/README.md
 a ThaliTest.app/www/jxcore/node_modules/pump/test-browser.js
 a ThaliTest.app/www/jxcore/node_modules/pump/test.js
-a ThaliTest.app/www/jxcore/node_modules/pump/node_modules/end-of-stream
-a ThaliTest.app/www/jxcore/node_modules/pump/node_modules/end-of-stream/index.js
-a ThaliTest.app/www/jxcore/node_modules/pump/node_modules/end-of-stream/LICENSE
-a ThaliTest.app/www/jxcore/node_modules/pump/node_modules/end-of-stream/package.json
-a ThaliTest.app/www/jxcore/node_modules/pump/node_modules/end-of-stream/README.md
 a ThaliTest.app/www/jxcore/node_modules/pull-stream/docs
 a ThaliTest.app/www/jxcore/node_modules/pull-stream/index.js
 a ThaliTest.app/www/jxcore/node_modules/pull-stream/LICENSE
@@ -22217,10 +22248,12 @@ a ThaliTest.app/www/jxcore/node_modules/es6-iterator/test/string.js
 a ThaliTest.app/www/jxcore/node_modules/es6-iterator/test/valid-iterable.js
 a ThaliTest.app/www/jxcore/node_modules/es6-iterator/test/#/chain.js
 a ThaliTest.app/www/jxcore/node_modules/es6-iterator/#/chain.js
+a ThaliTest.app/www/jxcore/node_modules/es5-ext/appveyor.yml
 a ThaliTest.app/www/jxcore/node_modules/es5-ext/array
 a ThaliTest.app/www/jxcore/node_modules/es5-ext/boolean
 a ThaliTest.app/www/jxcore/node_modules/es5-ext/CHANGELOG.md
 a ThaliTest.app/www/jxcore/node_modules/es5-ext/CHANGES
+a ThaliTest.app/www/jxcore/node_modules/es5-ext/circle.yml
 a ThaliTest.app/www/jxcore/node_modules/es5-ext/date
 a ThaliTest.app/www/jxcore/node_modules/es5-ext/error
 a ThaliTest.app/www/jxcore/node_modules/es5-ext/function
@@ -22232,6 +22265,7 @@ a ThaliTest.app/www/jxcore/node_modules/es5-ext/LICENSE
 a ThaliTest.app/www/jxcore/node_modules/es5-ext/math
 a ThaliTest.app/www/jxcore/node_modules/es5-ext/number
 a ThaliTest.app/www/jxcore/node_modules/es5-ext/object
+a ThaliTest.app/www/jxcore/node_modules/es5-ext/optional-chaining.js
 a ThaliTest.app/www/jxcore/node_modules/es5-ext/package.json
 a ThaliTest.app/www/jxcore/node_modules/es5-ext/README.md
 a ThaliTest.app/www/jxcore/node_modules/es5-ext/reg-exp
@@ -22250,6 +22284,7 @@ a ThaliTest.app/www/jxcore/node_modules/es5-ext/test/json
 a ThaliTest.app/www/jxcore/node_modules/es5-ext/test/math
 a ThaliTest.app/www/jxcore/node_modules/es5-ext/test/number
 a ThaliTest.app/www/jxcore/node_modules/es5-ext/test/object
+a ThaliTest.app/www/jxcore/node_modules/es5-ext/test/optional-chaining.js
 a ThaliTest.app/www/jxcore/node_modules/es5-ext/test/reg-exp
 a ThaliTest.app/www/jxcore/node_modules/es5-ext/test/safe-to-string.js
 a ThaliTest.app/www/jxcore/node_modules/es5-ext/test/string
@@ -23218,15 +23253,9 @@ a ThaliTest.app/www/jxcore/node_modules/end-stream/LICENCE
 a ThaliTest.app/www/jxcore/node_modules/end-stream/package.json
 a ThaliTest.app/www/jxcore/node_modules/end-stream/README.md
 a ThaliTest.app/www/jxcore/node_modules/end-of-stream/index.js
-a ThaliTest.app/www/jxcore/node_modules/end-of-stream/node_modules
+a ThaliTest.app/www/jxcore/node_modules/end-of-stream/LICENSE
 a ThaliTest.app/www/jxcore/node_modules/end-of-stream/package.json
 a ThaliTest.app/www/jxcore/node_modules/end-of-stream/README.md
-a ThaliTest.app/www/jxcore/node_modules/end-of-stream/test.js
-a ThaliTest.app/www/jxcore/node_modules/end-of-stream/node_modules/once
-a ThaliTest.app/www/jxcore/node_modules/end-of-stream/node_modules/once/LICENSE
-a ThaliTest.app/www/jxcore/node_modules/end-of-stream/node_modules/once/once.js
-a ThaliTest.app/www/jxcore/node_modules/end-of-stream/node_modules/once/package.json
-a ThaliTest.app/www/jxcore/node_modules/end-of-stream/node_modules/once/README.md
 a ThaliTest.app/www/jxcore/node_modules/ee-first/index.js
 a ThaliTest.app/www/jxcore/node_modules/ee-first/LICENSE
 a ThaliTest.app/www/jxcore/node_modules/ee-first/package.json
@@ -31487,16 +31516,10 @@ x ThaliTest.app/www/jxcore/node_modules/punycode/punycode.js
 x ThaliTest.app/www/jxcore/node_modules/punycode/README.md
 x ThaliTest.app/www/jxcore/node_modules/pump/index.js
 x ThaliTest.app/www/jxcore/node_modules/pump/LICENSE
-x ThaliTest.app/www/jxcore/node_modules/pump/node_modules/
 x ThaliTest.app/www/jxcore/node_modules/pump/package.json
 x ThaliTest.app/www/jxcore/node_modules/pump/README.md
 x ThaliTest.app/www/jxcore/node_modules/pump/test-browser.js
 x ThaliTest.app/www/jxcore/node_modules/pump/test.js
-x ThaliTest.app/www/jxcore/node_modules/pump/node_modules/end-of-stream/
-x ThaliTest.app/www/jxcore/node_modules/pump/node_modules/end-of-stream/index.js
-x ThaliTest.app/www/jxcore/node_modules/pump/node_modules/end-of-stream/LICENSE
-x ThaliTest.app/www/jxcore/node_modules/pump/node_modules/end-of-stream/package.json
-x ThaliTest.app/www/jxcore/node_modules/pump/node_modules/end-of-stream/README.md
 x ThaliTest.app/www/jxcore/node_modules/pull-stream/docs/
 x ThaliTest.app/www/jxcore/node_modules/pull-stream/index.js
 x ThaliTest.app/www/jxcore/node_modules/pull-stream/LICENSE
@@ -38349,10 +38372,12 @@ x ThaliTest.app/www/jxcore/node_modules/es6-iterator/test/string.js
 x ThaliTest.app/www/jxcore/node_modules/es6-iterator/test/valid-iterable.js
 x ThaliTest.app/www/jxcore/node_modules/es6-iterator/test/#/chain.js
 x ThaliTest.app/www/jxcore/node_modules/es6-iterator/#/chain.js
+x ThaliTest.app/www/jxcore/node_modules/es5-ext/appveyor.yml
 x ThaliTest.app/www/jxcore/node_modules/es5-ext/array/
 x ThaliTest.app/www/jxcore/node_modules/es5-ext/boolean/
 x ThaliTest.app/www/jxcore/node_modules/es5-ext/CHANGELOG.md
 x ThaliTest.app/www/jxcore/node_modules/es5-ext/CHANGES
+x ThaliTest.app/www/jxcore/node_modules/es5-ext/circle.yml
 x ThaliTest.app/www/jxcore/node_modules/es5-ext/date/
 x ThaliTest.app/www/jxcore/node_modules/es5-ext/error/
 x ThaliTest.app/www/jxcore/node_modules/es5-ext/function/
@@ -38364,6 +38389,7 @@ x ThaliTest.app/www/jxcore/node_modules/es5-ext/LICENSE
 x ThaliTest.app/www/jxcore/node_modules/es5-ext/math/
 x ThaliTest.app/www/jxcore/node_modules/es5-ext/number/
 x ThaliTest.app/www/jxcore/node_modules/es5-ext/object/
+x ThaliTest.app/www/jxcore/node_modules/es5-ext/optional-chaining.js
 x ThaliTest.app/www/jxcore/node_modules/es5-ext/package.json
 x ThaliTest.app/www/jxcore/node_modules/es5-ext/README.md
 x ThaliTest.app/www/jxcore/node_modules/es5-ext/reg-exp/
@@ -38382,6 +38408,7 @@ x ThaliTest.app/www/jxcore/node_modules/es5-ext/test/json/
 x ThaliTest.app/www/jxcore/node_modules/es5-ext/test/math/
 x ThaliTest.app/www/jxcore/node_modules/es5-ext/test/number/
 x ThaliTest.app/www/jxcore/node_modules/es5-ext/test/object/
+x ThaliTest.app/www/jxcore/node_modules/es5-ext/test/optional-chaining.js
 x ThaliTest.app/www/jxcore/node_modules/es5-ext/test/reg-exp/
 x ThaliTest.app/www/jxcore/node_modules/es5-ext/test/safe-to-string.js
 x ThaliTest.app/www/jxcore/node_modules/es5-ext/test/string/
@@ -39350,15 +39377,9 @@ x ThaliTest.app/www/jxcore/node_modules/end-stream/LICENCE
 x ThaliTest.app/www/jxcore/node_modules/end-stream/package.json
 x ThaliTest.app/www/jxcore/node_modules/end-stream/README.md
 x ThaliTest.app/www/jxcore/node_modules/end-of-stream/index.js
-x ThaliTest.app/www/jxcore/node_modules/end-of-stream/node_modules/
+x ThaliTest.app/www/jxcore/node_modules/end-of-stream/LICENSE
 x ThaliTest.app/www/jxcore/node_modules/end-of-stream/package.json
 x ThaliTest.app/www/jxcore/node_modules/end-of-stream/README.md
-x ThaliTest.app/www/jxcore/node_modules/end-of-stream/test.js
-x ThaliTest.app/www/jxcore/node_modules/end-of-stream/node_modules/once/
-x ThaliTest.app/www/jxcore/node_modules/end-of-stream/node_modules/once/LICENSE
-x ThaliTest.app/www/jxcore/node_modules/end-of-stream/node_modules/once/once.js
-x ThaliTest.app/www/jxcore/node_modules/end-of-stream/node_modules/once/package.json
-x ThaliTest.app/www/jxcore/node_modules/end-of-stream/node_modules/once/README.md
 x ThaliTest.app/www/jxcore/node_modules/ee-first/index.js
 x ThaliTest.app/www/jxcore/node_modules/ee-first/LICENSE
 x ThaliTest.app/www/jxcore/node_modules/ee-first/package.json
