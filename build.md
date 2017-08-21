@@ -7,15 +7,8 @@
 ```
 
 ```
-Updating d9b975c..47cb443
-Fast-forward
- .../internal/bluetooth/BluetoothClientThread.java  |   35 ++++++++++----------
- BtConnectorLib/settings.gradle                     |    4 +--
- 2 files changed, 20 insertions(+), 19 deletions(-)
+Already up-to-date.
 
-From https://github.com/thaliproject/Thali_CordovaPlugin_BtLibrary
-   d9b975c..47cb443  master     -> origin/master
- * [new branch]      mlesnic_110 -> origin/mlesnic_110
 
 ```
 
@@ -147,7 +140,7 @@ Download https://jcenter.bintray.com/com/google/dexmaker/dexmaker-mockito/1.2/de
 
 BUILD SUCCESSFUL
 
-Total time: 53.918 secs
+Total time: 55.334 secs
 
 This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.14.1/userguide/gradle_daemon.html
 Incremental java compilation is an incubating feature.
@@ -222,7 +215,7 @@ Incremental java compilation is an incubating feature.
 
 BUILD SUCCESSFUL
 
-Total time: 37.688 secs
+Total time: 34.442 secs
 
 This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.14.1/userguide/gradle_daemon.html
 Incremental java compilation is an incubating feature.
@@ -259,7 +252,7 @@ Incremental java compilation is an incubating feature.
 
 BUILD SUCCESSFUL
 
-Total time: 31.959 secs
+Total time: 28.765 secs
 
 This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.14.1/userguide/gradle_daemon.html
 
